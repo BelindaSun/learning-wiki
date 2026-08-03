@@ -175,11 +175,13 @@ git push origin main
 **原因**：Markdown 的路径问题。
 
 **修正**：
-所有内部链接用**绝对路径**：
+所有内部链接用**相对路径**（相对于当前文件所在位置），不要加开头的 `/`：
 ```markdown
-✅ [正确](/docs/ai-core/agent-architecture.md)
-❌ 错误：(./agent-architecture.md)
+✅ [正确](docs/ai-core/agent-architecture.md)
+❌ 错误：(/docs/ai-core/agent-architecture.md)
 ```
+
+开头带 `/` 的路径会被当作站点根目录的绝对路径，在 GitHub 上直接浏览文件、或站点部署在子路径（比如 `/learning-wiki/`）时都会指向错误的地址。
 
 ---
 
@@ -217,7 +219,7 @@ git log --oneline                     # 看提交历史
 
 **需要帮助？**
 
-检查 [CONTRIBUTE.md](/CONTRIBUTE.md)
+检查 [CONTRIBUTE.md](CONTRIBUTE.md)
 
 ---
 

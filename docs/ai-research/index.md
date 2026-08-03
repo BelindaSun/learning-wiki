@@ -9,5 +9,5 @@ title: AI Research
 
 ## 页面列表
 
-- [Models 深挖]({{ site.baseurl }}/docs/ai-research/models-deep-dive.md) - MoE 架构、模型压缩技术
-- [Evaluation 系统]({{ site.baseurl }}/docs/ai-research/evaluation-system.md) - RLHF、Benchmark、评估指标
+- [Models 深挖](models-deep-dive.md) - MoE 架构、模型压缩技术
+- [Evaluation 系统](evaluation-system.md) - RLHF、Benchmark、评估指标

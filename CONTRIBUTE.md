@@ -105,8 +105,10 @@ Related: [相关已有概念]
 
 ### 页面间链接
 
+用**相对路径**（相对于当前文件），不要以 `/` 开头：
+
 ```markdown
-[显示文字](/docs/ai-core/agent-architecture.md)
+[显示文字](../ai-core/agent-architecture.md)
 ```
 
 ### 概念链接（自动转换）

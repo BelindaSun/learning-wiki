@@ -40,14 +40,11 @@
 
 ## 🚀 快速导航
 
-## 🚀 快速导航
-
-## 🚀 快速导航
-
-- **[AI Core]({{ site.baseurl }}/docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
-- **[AI 应用]({{ site.baseurl }}/docs/ai-application/index.md)** - 如何设计和实现 AI 系统
-- **[职业影响]({{ site.baseurl }}/docs/career-impact/index.md)** - AI 时代的机遇与挑战
-- **[全部概念索引]({{ site.baseurl }}/index-all-concepts.md)** - 按字母排序的所有主题
+- **[AI Core](docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
+- **[AI 研究](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
+- **[AI 应用](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
+- **[职业影响](docs/career-impact/index.md)** - AI 时代的机遇与挑战
+- **[全部概念索引](index-all-concepts.md)** - 按字母排序的所有主题
 
 ## 📝 如何阅读
 
@@ -59,9 +56,9 @@
 
 **建议阅读方式**：
 
-1. 如果你对 Agent 感兴趣，从 [Agent 架构](/docs/ai-core/agent-architecture.md) 开始
-2. 如果你想实战，从 [Skill 设计](/docs/ai-application/skill-design.md) 开始
-3. 如果你想了解影响，从 [职业冲击](/docs/career-impact/ai-impact-on-professions.md) 开始
+1. 如果你对 Agent 感兴趣，从 [Agent 架构](docs/ai-core/agent-architecture.md) 开始
+2. 如果你想实战，从 [Skill 设计](docs/ai-application/skills-business-landscape.md) 开始
+3. 如果你想了解影响，从 [职业冲击](docs/career-impact/model-to-system-war.md) 开始
 
 ## 🔄 更新频率
 
@@ -73,7 +70,7 @@
 
 这是我的个人学习记录，但如果你有建议或发现错误，欢迎反馈！
 
-看 [CONTRIBUTE.md](/CONTRIBUTE.md) 了解怎样建议改进。
+看 [CONTRIBUTE.md](CONTRIBUTE.md) 了解怎样建议改进。
 
 ## 📚 最新更新
 
@@ -81,7 +78,7 @@
 | ----------- | ------------------ | ------ |
 | Aug 4, 2026 | Agent 系统架构入门 | 8      |
 
-[查看完整更新日志](/CHANGELOG.md)
+[查看完整更新日志](CHANGELOG.md)
 
 ---
 
