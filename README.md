@@ -42,9 +42,11 @@
 
 ## 🚀 快速导航
 
-- **[AI Core]({{ site.baseurl }}/docs/ai-core)** - 深入理解 Agent、LLM、工作流
-- **[AI 应用]({{ site.baseurl }}/docs/ai-application)** - 如何设计和实现 AI 系统
-- **[职业影响]({{ site.baseurl }}/docs/career-impact)** - AI 时代的机遇与挑战
+## 🚀 快速导航
+
+- **[AI Core]({{ site.baseurl }}/docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
+- **[AI 应用]({{ site.baseurl }}/docs/ai-application/index.md)** - 如何设计和实现 AI 系统
+- **[职业影响]({{ site.baseurl }}/docs/career-impact/index.md)** - AI 时代的机遇与挑战
 - **[全部概念索引]({{ site.baseurl }}/index-all-concepts.md)** - 按字母排序的所有主题
 
 ## 📝 如何阅读
