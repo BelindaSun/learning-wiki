@@ -897,7 +897,7 @@ Inference 的局限：
 
 **最后更新**: August 4, 2026（基于 Aug 1-2 学习）  
 **相关**:
-- [[agent-architecture|Agent 架构]]
-- [[memory-system-guide|Memory 系统]]
-- [[context-window-guide|Context Window]]
-- [[mcp-protocol-guide|MCP 协议]]
+- [Agent 架构](agent-architecture.md)
+- [Memory 系统](memory-system-guide.md)
+- [Context Window](context-window-guide.md)
+- [MCP 协议](../ai-application/mcp-protocol-guide.md)

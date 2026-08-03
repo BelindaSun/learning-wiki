@@ -398,6 +398,6 @@ Skill 使用率                  26.6% 用过
 - 个人学习和观察
 
 **相关**:
-- [[agent-architecture|Agent 架构]]
-- [[workflow-design-guide|工作流设计]]
-- [[profession-impact-detail|职业影响]]
+- [Agent 架构](../ai-core/agent-architecture.md)
+- [工作流设计](../ai-application/workflow-design-guide.md)
+- 职业影响详细分析（待创建）

@@ -1,8 +1,3 @@
----
-layout: default
-title: 更新日志
----
-
 # 更新日志
 
 记录 Wiki 的所有更新。最新的在上面。

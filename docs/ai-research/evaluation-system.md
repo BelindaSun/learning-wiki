@@ -480,6 +480,6 @@ Mimo、AI2030 这样的中文 AI 产品
 
 **最后更新**: August 4, 2026（基于 Aug 3 学习）  
 **相关**:
-- [[inference-system-guide|Inference 推理系统]]
-- [[models-deep-dive|Models 深挖]]
-- [[skills-business-landscape|Skills 和商业格局]]
+- [Inference 推理系统](../ai-core/inference-system-guide.md)
+- [Models 深挖](models-deep-dive.md)
+- [Skills 和商业格局](../ai-application/skills-business-landscape.md)

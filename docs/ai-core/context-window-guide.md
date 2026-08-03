@@ -729,7 +729,7 @@ Context（单次对话）：
 
 **最后更新**: August 4, 2026（基于 July 31 学习）  
 **相关**:
-- [[memory-system-guide|Memory 系统]]
-- [[skill-design|Skill 设计]]
-- [[workflow-orchestration|Workflow 编排]]
-- [[mcp-protocol-guide|MCP 协议]]
+- [Memory 系统](memory-system-guide.md)
+- [Skill 设计](../ai-application/skills-business-landscape.md)
+- [Workflow 编排](workflow-orchestration.md)
+- [MCP 协议](../ai-application/mcp-protocol-guide.md)

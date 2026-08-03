@@ -496,6 +496,6 @@ MCP: 定义"去哪做"
 
 **最后更新**: August 4, 2026（首次创建基于 Aug 1 学习）  
 **相关**:
-- [[claude-code|Claude Code]]
-- [[workflow-design-guide|工作流设计]]
-- [[skill-design|Skill 设计]]
+- Claude Code（待创建）
+- [工作流设计](workflow-design-guide.md)
+- [Skill 设计](skills-business-landscape.md)

@@ -489,6 +489,6 @@ Step 4: 4-bit 量化（可选）
 
 **最后更新**: August 4, 2026（基于 Aug 2 学习）  
 **相关**:
-- [[inference-system-guide|Inference 推理系统]]
-- [[transformer-architecture|Transformer 架构]]
-- [[evaluation-system|Evaluation 评估系统]]
+- [Inference 推理系统](../ai-core/inference-system-guide.md)
+- [Transformer 架构](../ai-core/transformer-architecture.md)
+- [Evaluation 评估系统](evaluation-system.md)

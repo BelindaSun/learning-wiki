@@ -498,6 +498,6 @@ Orchestrator 的决策力 > Worker 的执行力
 
 **最后更新**: August 4, 2026（基于 Aug 1 学习）  
 **相关**:
-- [[agent-architecture|Agent 架构]]
-- [[harness-system|Harness 系统]]
-- [[workflow-design-guide|工作流设计（之前的版本）]]
+- [Agent 架构](agent-architecture.md)
+- [Harness 系统](../ai-application/harness-system.md)
+- [工作流设计（之前的版本）](../ai-application/workflow-design-guide.md)

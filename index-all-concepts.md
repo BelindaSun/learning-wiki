@@ -1,8 +1,3 @@
----
-layout: default
-title: 完整概念索引
----
-
 # 完整概念索引
 
 > 按字母顺序排列的所有 60+ 核心概念。快速导航用。
@@ -123,40 +118,40 @@ title: 完整概念索引
 ## 按主题快速查找
 
 ### 🧠 推理系统（Inference）
-- [[inference-system-guide|Inference 推理系统]]
-- [[transformer-architecture|Transformer 架构]]
-- [[weights|权重]]
-- [[attention-mechanism|Attention]]
-- [[temperature|Temperature 采样]]
-- [[emergence|涌现临界点]]
+- [Inference 推理系统](docs/ai-core/inference-system-guide.md)
+- [Transformer 架构](docs/ai-core/transformer-architecture.md)
+- [权重](docs/ai-core/inference-system-guide.md#权重是什么)
+- [Attention](docs/ai-core/inference-system-guide.md#attention-机制)
+- [Temperature 采样](docs/ai-core/inference-system-guide.md#采样参数)
+- [涌现临界点](docs/ai-core/inference-system-guide.md#涌现与临界点)
 
 ### 📚 记忆系统（Memory）
-- [[memory-system-guide|Memory 系统]]
-- [[episodic-memory|情节记忆]]
-- [[semantic-memory|语义记忆]]
+- [Memory 系统](docs/ai-core/memory-system-guide.md)
+- [情节记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
+- [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 
 ### 🪟 窗口管理（Context）
-- [[context-window-guide|Context Window]]
-- [[prompt-caching|Prompt Caching]]
-- [[project-knowledge|Project Knowledge]]
-- [[lost-in-the-middle|Lost in the Middle]]
+- [Context Window](docs/ai-core/context-window-guide.md)
+- [Prompt Caching](docs/ai-core/context-window-guide.md#prompt-caching-原理)
+- [Project Knowledge](docs/ai-core/context-window-guide.md#project-和持久记忆)
+- [Lost in the Middle](docs/ai-core/context-window-guide.md#lost-in-the-middle)
 
 ### 🔧 应用系统（Application）
-- [[skill|Skill 和商业格局]]
-- [[mcp-protocol-guide|MCP 协议]]
-- [[harness-system|Harness 系统]]
-- [[workflow-design-guide|Workflow 设计]]
+- [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
+- [MCP 协议](docs/ai-application/mcp-protocol-guide.md)
+- [Harness 系统](docs/ai-application/harness-system.md)
+- [Workflow 设计](docs/ai-application/workflow-design-guide.md)
 
 ### 🤝 Agent 系统（Agent）
-- [[agent-architecture|Agent 架构]]
-- [[workflow-orchestration|Workflow 编排]]
+- [Agent 架构](docs/ai-core/agent-architecture.md)
+- [Workflow 编排](docs/ai-core/workflow-orchestration.md)
 
 ### 🎓 模型研究（Models）
-- [[models-deep-dive|Models 深挖]]
-- [[evaluation-system|Evaluation 评估]]
+- [Models 深挖](docs/ai-research/models-deep-dive.md)
+- [Evaluation 评估](docs/ai-research/evaluation-system.md)
 
 ### 💼 职业发展（Career）
-- [[model-to-system-war|模型战争 vs 系统战争]]
+- [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)
 
 ---
 

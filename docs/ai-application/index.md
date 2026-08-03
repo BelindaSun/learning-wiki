@@ -1,8 +1,3 @@
----
-layout: default
-title: AI Application
----
-
 # AI Application - 实践 AI 系统
 
 - [Workflow 设计](workflow-design-guide.md)

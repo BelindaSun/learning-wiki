@@ -1,8 +1,3 @@
----
-layout: default
-title: AI Core
----
-
 # AI Core - 深入理解 Agent、LLM、工作流
 
 ## 核心页面

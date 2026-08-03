@@ -1,8 +1,3 @@
----
-layout: default
-title: 快速启动指南
----
-
 # 🚀 快速启动指南
 
 5 分钟把你的 Wiki 上线。
@@ -71,27 +66,17 @@ git push origin main
 
 ---
 
-## 第五步：启用 GitHub Pages（可选，让网站漂亮）
+## 第五步：直接在 GitHub 上浏览
 
-### 方式 A: 用 GitHub 自带的 Pages（推荐）
+不用 GitHub Pages / Jekyll 建站了——试过之后发现每天手动加内容时，Jekyll 的 front matter、插件白名单、主题布局这些规则太容易踩坑（改一个链接可能连带弄坏首页或别的页面）。
 
-1. 进入你的仓库
-2. 点 Settings → Pages
-3. 选择：
-   ```
-   Source: Deploy from a branch
-   Branch: main / (root)
-   ```
-4. 保存
+直接打开仓库地址就能看：
 
-**你的 Wiki 会在这里**：
 ```
-https://BelindaSun.github.io/learning-wiki/
+https://github.com/BelindaSun/learning-wiki
 ```
 
-### 方式 B: 静态网站生成器（可选，后续）
-
-可以用 Jekyll 或其他生成器让网站更漂亮。暂时不需要。
+GitHub 会自动把 README.md 渲染成仓库首页，所有 `.md` 文件之间的相对路径链接也能直接点击跳转，不需要构建、不会因为规则冲突出错。
 
 ---
 
@@ -146,9 +131,7 @@ git push origin main
 - [ ] GitHub 仓库创建了？
 - [ ] 文件都复制过去了？
 - [ ] `git push` 成功了？
-- [ ] 查看 GitHub 能看到文件？
-- [ ] Pages 启用了？（可选）
-- [ ] 访问 `BelindaSun.github.io/learning-wiki/` 能看到？
+- [ ] 访问 `github.com/BelindaSun/learning-wiki` 能看到 README 和文件？
 
 ---
 
@@ -165,17 +148,7 @@ git remote set-url origin https://github.com/BelindaSun/learning-wiki.git
 git push origin main
 ```
 
-### 问题 2: 看不到网站
-
-**原因**：
-- Pages 还没启用
-- 或者访问 URL 错了
-
-**检查**：
-- Settings → Pages 里确认启用了？
-- URL 是不是 `https://BelindaSun.github.io/learning-wiki/`（注意 `/learning-wiki/`）？
-
-### 问题 3: 链接坏了
+### 问题 2: 链接坏了
 
 **原因**：Markdown 的路径问题。
 
@@ -192,7 +165,7 @@ git push origin main
 
 ## 下一步
 
-✅ **现在**: 把 Wiki 推上去，能在线访问
+✅ **现在**: 把 Wiki 推上去，在 GitHub 仓库页面直接看
 
 ⏳ **明天开始**: 每天增量更新
 

@@ -570,6 +570,6 @@ type: human_approval  # ❌ 在每一步
 
 **最后更新**: August 4, 2026  
 **相关**:
-- [[agent-architecture|Agent 架构]]
-- [[skill-design|Skill 设计]]
-- [[error-handling|错误处理]]
+- [Agent 架构](../ai-core/agent-architecture.md)
+- [Skill 设计](skills-business-landscape.md)
+- 错误处理（待创建）

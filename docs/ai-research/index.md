@@ -1,8 +1,3 @@
----
-layout: default
-title: AI Research
----
-
 # AI Research - 模型和评估
 
 深入研究 AI 模型的优化和评估方法。

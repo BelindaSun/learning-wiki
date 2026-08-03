@@ -664,7 +664,7 @@ Mimo 生成回复：
 
 **最后更新**: August 4, 2026（基于 Aug 1 学习）  
 **相关**:
-- [[inference-system-guide|Inference 推理系统]]
-- [[context-window-guide|Context Window]]
-- [[memory-system-guide|Memory 系统]]
-- [[agent-architecture|Agent 架构]]
+- [Inference 推理系统](inference-system-guide.md)
+- [Context Window](context-window-guide.md)
+- [Memory 系统](memory-system-guide.md)
+- [Agent 架构](agent-architecture.md)

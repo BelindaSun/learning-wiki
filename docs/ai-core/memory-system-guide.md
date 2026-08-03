@@ -692,7 +692,7 @@ localStorage（浏览器）：
 
 **最后更新**: August 4, 2026（基于 July 30 学习）  
 **相关**:
-- [[agent-architecture|Agent 架构]]
-- [[skill-design|Skill 设计]]
-- [[mcp-protocol-guide|MCP 协议]]
-- [[workflow-orchestration|Workflow 编排]]
+- [Agent 架构](agent-architecture.md)
+- [Skill 设计](../ai-application/skills-business-landscape.md)
+- [MCP 协议](../ai-application/mcp-protocol-guide.md)
+- [Workflow 编排](workflow-orchestration.md)

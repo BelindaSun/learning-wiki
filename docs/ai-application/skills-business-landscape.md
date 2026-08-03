@@ -629,7 +629,6 @@ Mimo、AI2030 会活下来
 
 **最后更新**: August 4, 2026（基于 July 28 学习）  
 **相关**:
-- [[mcp-protocol-guide|MCP 协议]]
-- [[skill-design|Skill 设计]]
-- [[workflow-design-guide|Workflow 设计]]
-- [[model-to-system-war|模型战争 vs 系统战争]]
+- [MCP 协议](mcp-protocol-guide.md)
+- [Workflow 设计](workflow-design-guide.md)
+- [模型战争 vs 系统战争](../career-impact/model-to-system-war.md)

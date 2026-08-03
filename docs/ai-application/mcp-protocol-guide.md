@@ -512,7 +512,7 @@ MCP 降低了技术难度
 
 **最后更新**: August 4, 2026（基于 July 29 学习）  
 **相关**:
-- [[agent-architecture|Agent 架构]]
-- [[skill-design|Skill 设计]]
-- [[harness-system|Harness 系统]]
-- [[workflow-orchestration|Workflow 编排]]
+- [Agent 架构](../ai-core/agent-architecture.md)
+- [Skill 设计](skills-business-landscape.md)
+- [Harness 系统](harness-system.md)
+- [Workflow 编排](../ai-core/workflow-orchestration.md)
