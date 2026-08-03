@@ -1,4 +1,12 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
 title: Learning Wiki
 description: Personal AI System Learning (60+ concepts, 8 days)
 baseurl: /learning-wiki
+
+# 自动处理链接
+plugins:
+  - jekyll-relative-links
+
+relative_links:
+  enabled: true
+  collections: true
