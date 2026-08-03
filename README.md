@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Belinda's Learning Wiki
 
 > 一个持续增长的个人学习知识库。主要记录 AI 学习，兼收其他感兴趣的话题。

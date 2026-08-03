@@ -1,3 +1,8 @@
+---
+layout: default
+title: 快速启动指南
+---
+
 # 🚀 快速启动指南
 
 5 分钟把你的 Wiki 上线。

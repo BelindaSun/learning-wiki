@@ -1,3 +1,8 @@
+---
+layout: default
+title: 如何贡献
+---
+
 # 如何贡献
 
 感谢你有兴趣改进这个 Wiki！
