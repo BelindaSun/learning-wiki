@@ -5,6 +5,8 @@
 **学习来源**: Claude 直接对话 + Mimo 真实案例 + Jupiter Dreaming 调研  
 **最大收获**: 记忆的"三种温度"框架——Mimo 的五层设计完美对应，第 4 层"今日状态"让 AI 有自己的当下生活。
 
+📖 **完整学习对话记录**：[Memory](../conversations/memory.md)
+
 ---
 
 ## 目录

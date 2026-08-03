@@ -59,6 +59,7 @@
 - **MoE** - [稀疏模型（MoE）](docs/ai-research/models-deep-dive.md#稀疏模型moe)
 - **Multi-Agent** - [多 Agent 协调](docs/ai-core/agent-architecture.md#多-agent-协调)
 - **Multi-Head Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
+- **Multimodal** - [多模态（Multimodal）](docs/conversations/multimodal.md)
 
 ## O
 
@@ -152,6 +153,9 @@
 
 ### 💼 职业发展（Career）
 - [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)
+
+### 🖼️ 多模态（Multimodal）
+- [多模态（Multimodal）](docs/conversations/multimodal.md)
 
 ---
 

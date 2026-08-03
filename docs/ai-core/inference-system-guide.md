@@ -5,6 +5,8 @@
 **学习来源**: Claude 直接对话学习  
 **最大收获**: 深层网络把文字变成抽象概念再推理。涌现不是线性增长，是从"不会"到"突然会了"的跃变，触发器是训练损失值。
 
+📖 **完整学习对话记录**：[Inference](../conversations/inference.md)、[Attention（接 inference）](../conversations/attention.md)
+
 ---
 
 ## 目录

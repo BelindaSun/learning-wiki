@@ -4,6 +4,8 @@
 
 **学习来源**: 设计"Belinda 的学习 Wiki 增量系统"时的实战反思。
 
+📖 **完整学习对话记录**：[Workflow](../conversations/workflow.md)
+
 ---
 
 ## 目录

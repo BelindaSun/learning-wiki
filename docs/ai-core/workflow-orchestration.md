@@ -5,6 +5,8 @@
 **学习来源**: 亲眼观察 Claude Code 运行 16 个并行 Agent + Anthropic 官方 Agent View 文档  
 **最大收获**: 终于搞清楚了"好消息，文件找到啦"这条消息背后的架构——那是 Orchestrator 在主线程留下的实时通知。
 
+📖 **完整学习对话记录**：[Workflow](../conversations/workflow.md)
+
 ---
 
 ## 目录

@@ -5,6 +5,8 @@
 **学习来源**: 真实使用 Claude Code 的案例 + settings.local.json 历史记录  
 **最大收获**: 原来已经在用 Harness 了，只是不知道那叫 Harness。那个 settings.local.json 文件里的每一行 allow，都是一个故事。
 
+📖 **完整学习对话记录**：[Harness](../conversations/harness.md)、[Agent Harness 文章讨论](../conversations/harness-article-discussion.md)
+
 ---
 
 ## 目录

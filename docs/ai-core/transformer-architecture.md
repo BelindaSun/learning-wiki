@@ -5,6 +5,8 @@
 **学习来源**: Claude AI Apprenticeship 深度讲解 + Mimo 实例  
 **最大收获**: Transformer 不只是 Attention，而是四个环节的完整组合。Attention 看关系，FFN 做加工，残差连接稳定信息流，正则化保持数值稳定。
 
+📖 **完整学习对话记录**：[Transformer](../conversations/transformer.md)
+
 ---
 
 ## 目录

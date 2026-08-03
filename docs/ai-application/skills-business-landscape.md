@@ -5,6 +5,8 @@
 **学习来源**: @cellier_ 的帖子 + Claude 延伸讨论  
 **最大收获**: "透明"的新用法——中间层对用户透明，不是说它不存在，而是说你感知不到它、也不需要跟它打交道。
 
+📖 **完整学习对话记录**：[垂直 Agent vs 全能 Agent 文章讨论](../conversations/vertical-vs-general-agent.md)
+
 ---
 
 ## 目录

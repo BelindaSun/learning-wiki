@@ -5,6 +5,8 @@
 **学习来源**: Claude AI Apprenticeship + 网络搜索验证  
 **最大收获**: RLHF 有明确三阶段流程，但"作弊"是真实的工程难题。
 
+📖 **完整学习对话记录**：[Evaluation](../conversations/evaluation.md)
+
 ---
 
 ## 目录

@@ -5,6 +5,8 @@
 **学习来源**: Claude 直接对话学习  
 **最大收获**: 系统提示词、记忆文件、工具调用结果——这些看不见的东西也在悄悄占白板空间。
 
+📖 **完整学习对话记录**：[Context Window](../conversations/context-window.md)、[Project](../conversations/project.md)
+
 ---
 
 ## 目录

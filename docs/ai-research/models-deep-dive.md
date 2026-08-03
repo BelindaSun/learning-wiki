@@ -5,6 +5,8 @@
 **学习来源**: Claude AI Apprenticeship + 网络搜索验证  
 **最大收获**: MoE 的负载均衡不是天生的，需要特殊的损失函数来训练。
 
+📖 **完整学习对话记录**：[Models 深挖](../conversations/models-deep-dive.md)
+
 ---
 
 ## 目录

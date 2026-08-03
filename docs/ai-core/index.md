@@ -8,3 +8,9 @@
 - [Context Window](context-window-guide.md)
 - [Inference 推理](inference-system-guide.md)
 - [Transformer 架构](transformer-architecture.md)
+
+## 完整学习对话记录
+
+还没整理成独立指南，但完整对话很有参考价值：
+
+- [多模态（Multimodal）](../conversations/multimodal.md)
