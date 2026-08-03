@@ -40,19 +40,23 @@
 
 ## 🚀 快速导航
 
-- **[AI Core](/docs/ai-core/)** - 深入理解 Agent、LLM、工作流
-- **[AI 应用](/docs/ai-application/)** - 如何设计和实现 AI 系统
-- **[职业影响](/docs/career-impact/)** - AI 时代的机遇与挑战
-- **[全部概念索引](/index-all-concepts.md)** - 按字母排序的所有主题
+## 🚀 快速导航
+
+- **[AI Core]({{ site.baseurl }}/docs/ai-core)** - 深入理解 Agent、LLM、工作流
+- **[AI 应用]({{ site.baseurl }}/docs/ai-application)** - 如何设计和实现 AI 系统
+- **[职业影响]({{ site.baseurl }}/docs/career-impact)** - AI 时代的机遇与挑战
+- **[全部概念索引]({{ site.baseurl }}/index-all-concepts.md)** - 按字母排序的所有主题
 
 ## 📝 如何阅读
 
 这个 Wiki 的设计方式：
+
 - **每个页面都是独立的**，可以随意跳转
 - **页面之间有链接**，帮助你找到相关概念
 - **从简到繁**，基础概念在前，高级话题在后
 
 **建议阅读方式**：
+
 1. 如果你对 Agent 感兴趣，从 [Agent 架构](/docs/ai-core/agent-architecture.md) 开始
 2. 如果你想实战，从 [Skill 设计](/docs/ai-application/skill-design.md) 开始
 3. 如果你想了解影响，从 [职业冲击](/docs/career-impact/ai-impact-on-professions.md) 开始
@@ -71,9 +75,9 @@
 
 ## 📚 最新更新
 
-| 日期 | 主题 | 概念数 |
-|------|------|--------|
-| Aug 4, 2026 | Agent 系统架构入门 | 8 |
+| 日期        | 主题               | 概念数 |
+| ----------- | ------------------ | ------ |
+| Aug 4, 2026 | Agent 系统架构入门 | 8      |
 
 [查看完整更新日志](/CHANGELOG.md)
 
