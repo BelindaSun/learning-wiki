@@ -2,6 +2,21 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.1] - August 4, 2026
+
+### 📝 Daily Update - Agent 时代的系统架构转变
+
+**新增页面**:
+- `docs/ai-core/agent-era-work.md` - Agent 时代的系统架构转变（System of Record、Agent Legibility、Orchestrator 模式、工作层次三分法）
+
+**新增概念**:
+- System of Record、Agent Legibility、工作的最小单位、机械/专业/战略三层工作模型
+
+**来源**: OpenAI "How Agents Are Transforming Work" + "Harness Engineering" + 多 Agent 协作研究
+
+**结构调整**:
+- 也在 `docs/conversations/` 下新建了两批完整对话记录：14 篇早期学习对话（Harness、Memory、Context、MCP、Inference、Attention、Transformer、Models、Evaluation、多模态、垂直 vs 全能 Agent 等），以及这次的 Agent 时代对话，都从对应指南页面加了"📖 完整学习对话记录"反向链接
+
 ## [v2.0] - August 4, 2026 (Final Big Release)
 
 ### 🚀 大版本更新：完整 AI 系统知识库

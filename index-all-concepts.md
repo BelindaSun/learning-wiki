@@ -6,6 +6,7 @@
 
 - **Agent** - [Agent 系统架构](docs/ai-core/agent-architecture.md)
 - **Agent Lifecycle** - [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
+- **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
 - **Attention Mechanism** - [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
 
@@ -91,6 +92,7 @@
 - **Semantic Memory** - [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
+- **System of Record** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **System War** - [系统战争](docs/career-impact/model-to-system-war.md#为什么转向系统战争)
 
 ## T
@@ -146,6 +148,7 @@
 ### 🤝 Agent 系统（Agent）
 - [Agent 架构](docs/ai-core/agent-architecture.md)
 - [Workflow 编排](docs/ai-core/workflow-orchestration.md)
+- [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
 ### 🎓 模型研究（Models）
 - [Models 深挖](docs/ai-research/models-deep-dive.md)

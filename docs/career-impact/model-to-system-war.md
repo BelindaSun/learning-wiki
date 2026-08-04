@@ -401,3 +401,4 @@ Skill 使用率                  26.6% 用过
 - [Agent 架构](../ai-core/agent-architecture.md)
 - [工作流设计](../ai-application/workflow-design-guide.md)
 - 职业影响详细分析（待创建）
+- [Agent 时代的系统架构转变](../ai-core/agent-era-work.md)

@@ -8,6 +8,7 @@
 - [Context Window](context-window-guide.md)
 - [Inference 推理](inference-system-guide.md)
 - [Transformer 架构](transformer-architecture.md)
+- [Agent 时代的系统架构转变](agent-era-work.md)
 
 ## 完整学习对话记录
 
