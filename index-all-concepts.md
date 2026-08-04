@@ -61,6 +61,7 @@
 - **Multi-Agent** - [多 Agent 协调](docs/ai-core/agent-architecture.md#多-agent-协调)
 - **Multi-Head Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
 - **Multimodal** - [多模态（Multimodal）](docs/conversations/multimodal.md)
+- **Multiplication Effect（+ 变 ×）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-4从变成的乘法效应)
 
 ## O
 
@@ -70,6 +71,7 @@
 
 - **Parallel Node** - [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
+- **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
 - **Pruning** - [模型压缩技术](docs/ai-research/models-deep-dive.md#模型压缩技术)
@@ -156,6 +158,7 @@
 
 ### 💼 职业发展（Career）
 - [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)
+- [从工具到产业——AI 时代的竞争本质](docs/career-impact/industry-competition-shift.md)
 
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)

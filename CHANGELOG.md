@@ -2,6 +2,20 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.2] - August 5, 2026
+
+### 📝 Daily Update - 从工具到产业：AI 时代的竞争本质
+
+**新增页面**:
+- `docs/career-impact/industry-competition-shift.md` - 模型商品化、护城河从模型→系统→生态→垂直深度→个人数据的迁移路径、"+"变"×"的乘法效应
+
+**新增概念**:
+- Personal Data Moat（个人数据护城河）、Multiplication Effect（乘法效应）
+
+**来源**: Disney 多模型策略报道 + OpenAI Codex 报告 + 14 篇 AI Weekly Reads 汇总分析
+
+**相关**: 延伸自 [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md) 和 [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
+
 ## [v2.1] - August 4, 2026
 
 ### 📝 Daily Update - Agent 时代的系统架构转变

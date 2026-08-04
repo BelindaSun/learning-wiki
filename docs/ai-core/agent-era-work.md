@@ -205,3 +205,4 @@ Agent-First 设计思维：数据结构 → 系统清晰度 → UI
 - [Agent 架构](agent-architecture.md)
 - [Workflow 编排](workflow-orchestration.md)
 - [模型战争 vs 系统战争](../career-impact/model-to-system-war.md)
+- [从工具到产业——AI 时代的竞争本质](../career-impact/industry-competition-shift.md)
