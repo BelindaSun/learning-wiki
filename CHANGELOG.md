@@ -2,6 +2,20 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.3] - August 5, 2026
+
+### 📝 Daily Update - 从"最聪明"到"最可信"
+
+**新增页面**:
+- `docs/career-impact/capability-to-trust.md` - 可信度五维框架（可预测、可解释、可审计、可控制、可恢复）、权限从 ChatGPT 时代的"可选"变成 Agent 时代的"必须"、AI 安全框架的政治经济学、Evaluation vs Safety 的区别
+
+**新增概念**:
+- Trustworthiness（可信度五维框架）、Evaluation vs Safety
+
+**来源**: 与 Claude 关于 Trump AI 政策信号、企业采购标准、AI 安全框架权力分析的深度对话
+
+**相关**: 延伸自 [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)、[从工具到产业](docs/career-impact/industry-competition-shift.md)，权限设计部分交叉链接到 [Harness 系统](docs/ai-application/harness-system.md)
+
 ## [v2.2] - August 5, 2026
 
 ### 📝 Daily Update - 从工具到产业：AI 时代的竞争本质

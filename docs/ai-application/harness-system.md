@@ -501,3 +501,4 @@ MCP: 定义"去哪做"
 - Claude Code（待创建）
 - [工作流设计](workflow-design-guide.md)
 - [Skill 设计](skills-business-landscape.md)
+- [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md)

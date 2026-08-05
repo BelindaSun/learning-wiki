@@ -403,3 +403,4 @@ Skill 使用率                  26.6% 用过
 - 职业影响详细分析（待创建）
 - [Agent 时代的系统架构转变](../ai-core/agent-era-work.md)
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)
+- [从"最聪明"到"最可信"](capability-to-trust.md)

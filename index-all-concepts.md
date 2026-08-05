@@ -29,6 +29,7 @@
 - **Episodic Memory** - [情节记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Error Handler** - [错误处理节点](docs/ai-application/workflow-design-guide.md#6-error-handler-node错误处理)
 - **Evaluation** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
+- **Evaluation vs Safety** - [Evaluation vs Safety 的区别](docs/career-impact/capability-to-trust.md#evaluation评测vs-safety安全的区别)
 
 ## F
 
@@ -106,6 +107,7 @@
 - **Top-k Sampling** - [采样参数](docs/ai-core/inference-system-guide.md#参数-3top-k)
 - **Top-p Sampling** - [采样参数](docs/ai-core/inference-system-guide.md#参数-2top-p核心sampling)
 - **Transformer** - [Transformer 架构](docs/ai-core/transformer-architecture.md)
+- **Trustworthiness（可信度五维框架）** - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 
 ## V
 
@@ -159,6 +161,7 @@
 ### 💼 职业发展（Career）
 - [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)
 - [从工具到产业——AI 时代的竞争本质](docs/career-impact/industry-competition-shift.md)
+- [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)
