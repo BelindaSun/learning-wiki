@@ -33,6 +33,9 @@
 🎨 其他兴趣
   └─ [各种感兴趣的话题]
 
+🧠 心智模型
+  └─ 看世界方式的变迁轨迹
+
 📖 Meta
   ├─ Wiki 更新日志
   └─ 概念关系图
@@ -44,6 +47,7 @@
 - **[AI 研究](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
 - **[AI 应用](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
 - **[职业影响](docs/career-impact/index.md)** - AI 时代的机遇与挑战
+- **[心智模型变迁史](mental-models.md)** - 看世界方式的变迁轨迹
 - **[全部概念索引](index-all-concepts.md)** - 按字母排序的所有主题
 
 ## 📝 如何阅读

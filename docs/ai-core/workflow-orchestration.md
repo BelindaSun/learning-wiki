@@ -504,3 +504,4 @@ Orchestrator 的决策力 > Worker 的执行力
 - [Harness 系统](../ai-application/harness-system.md)
 - [工作流设计（之前的版本）](../ai-application/workflow-design-guide.md)
 - [Agent 时代的系统架构转变](agent-era-work.md)
+- [心智模型变迁史：Prompt → Workflow](../../mental-models.md)

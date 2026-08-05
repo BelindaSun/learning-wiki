@@ -575,3 +575,4 @@ type: human_approval  # ❌ 在每一步
 - [Agent 架构](../ai-core/agent-architecture.md)
 - [Skill 设计](skills-business-landscape.md)
 - 错误处理（待创建）
+- [心智模型变迁史：Prompt → Workflow](../../mental-models.md)

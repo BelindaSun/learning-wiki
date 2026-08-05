@@ -2,6 +2,15 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.4] - August 5, 2026
+
+### 🧠 结构调整：新增 mental-models.md
+
+**新增**:
+- 根目录 `mental-models.md` —— 跨分类的"心智模型变迁"时间线索引（不是新的内容分类，只是把已有文章里"原来 vs 现在"这层单独提炼出来做导航）
+- 首批 5 条：Prompt → Workflow、Tool → Worker、Model → System、"+" → "×"、Capability → Trust，均链接回各自的完整文章
+- README.md 结构图和快速导航加了入口，6 篇相关文章的"相关"里也都加了反向链接
+
 ## [v2.3] - August 5, 2026
 
 ### 📝 Daily Update - 从"最聪明"到"最可信"

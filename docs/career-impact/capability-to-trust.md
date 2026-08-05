@@ -210,3 +210,4 @@ Agent 时代（2024-2026）:
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)
 - [Harness 系统](../ai-application/harness-system.md)
 - [Agent 时代的系统架构转变](../ai-core/agent-era-work.md)
+- [心智模型变迁史：Capability → Trust](../../mental-models.md)
