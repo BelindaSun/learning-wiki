@@ -422,3 +422,4 @@ Stage 3: 生成最终答案
 - 状态管理（待创建）
 - 工作流模式（待创建）
 - [Agent 时代的系统架构转变](agent-era-work.md)
+- [Domain Expertise 与组织变革](../career-impact/domain-expertise-and-org-design.md)

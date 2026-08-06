@@ -208,3 +208,4 @@ Agent-First 设计思维：数据结构 → 系统清晰度 → UI
 - [从工具到产业——AI 时代的竞争本质](../career-impact/industry-competition-shift.md)
 - [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md)
 - [心智模型变迁史：Tool → Worker](../../mental-models.md)
+- [Domain Expertise 与组织变革](../career-impact/domain-expertise-and-org-design.md)

@@ -2,6 +2,22 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.5] - August 6, 2026
+
+### 📝 Daily Update - Domain Expertise 重估与组织变革
+
+**新增页面**:
+- `docs/career-impact/domain-expertise-and-org-design.md` - know-what/how/why 贬值、七层新增值框架（know-what-matters 等）、人 70% planning / Agent 80% execution 分工、个人生产力 ≠ 组织生产力的四个原因、管理 Agent 的四层能力、10 个 Agent 会怎样重塑组织结构
+
+**新增概念**:
+- Domain Expertise（七层重排框架）、Managing Agents（管理 Agent 的四层能力）
+
+**来源**: OpenAI "How agents are transforming work" + Anthropic "Agentic coding and persistent returns to expertise"
+
+**心智模型**: 新增 [Execution → Judgment](mental-models.md)（Aug 6）
+
+**相关**: 延伸自 [Agent 系统架构](docs/ai-core/agent-architecture.md)、[Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)、[从工具到产业](docs/career-impact/industry-competition-shift.md)
+
 ## [v2.4] - August 5, 2026
 
 ### 🧠 结构调整：新增 mental-models.md

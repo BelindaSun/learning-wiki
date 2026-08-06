@@ -23,6 +23,10 @@
 - **Context Management** - [Context 的实战管理](docs/ai-core/context-window-guide.md#实战管理)
 - **Conditional Node** - [条件节点](docs/ai-application/workflow-design-guide.md#3-conditional-node条件节点)
 
+## D
+
+- **Domain Expertise** - [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
+
 ## E
 
 - **Emergence** - [涌现与临界点](docs/ai-core/inference-system-guide.md#涌现与临界点)
@@ -54,6 +58,7 @@
 
 ## M
 
+- **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
 - **Model War** - [模型战争时代](docs/career-impact/model-to-system-war.md#模型战争时代)
 - **MCP** - [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
@@ -162,6 +167,7 @@
 - [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)
 - [从工具到产业——AI 时代的竞争本质](docs/career-impact/industry-competition-shift.md)
 - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
+- [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
 
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)

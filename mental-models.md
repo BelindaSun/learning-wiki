@@ -24,6 +24,10 @@ AI 公司之间比的不再是谁的模型更聪明，而是谁的系统架构�
 能力已经商品化，所有模型都"足够聪明"了；真正的护城河变成了"谁最值得把真正的工作交给它"。
 → 详见 [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 
+**Execution → Judgment**（Aug 6）
+"会执行"正在变成商品（Agent 拿走了 80% 的 execution 决策），"懂判断"才是稀缺资源——know-what-matters、质量判断力、风险直觉这些无法言语化的能力，才是 AI 时代真正增值的 domain expertise。
+→ 详见 [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
+
 ---
 
-**最后更新**: August 5, 2026
+**最后更新**: August 6, 2026
