@@ -9,7 +9,7 @@
 → 详见 [Workflow 工作流完全指南](docs/ai-application/workflow-design-guide.md)、[Workflow 编排](docs/ai-core/workflow-orchestration.md)
 
 **Tool → Worker**（Aug 4）
-Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数字员工——这不是能力升级，是主体性的转移。
+Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数字员工——变化不只是 AI 更聪明了，而是"下一步做什么"的决定权开始部分交给 AI。
 → 详见 [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
 **Model → System**（Aug 4）

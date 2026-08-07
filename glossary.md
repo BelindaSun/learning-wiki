@@ -69,7 +69,7 @@ Agent 不是所有事都自己"想"出来，而是可以调用外部工具（读
 一个让 AI 模型和外部工具/数据"对话"的统一标准接口，类似 USB 统一了各种设备的接口。Skill 是"大脑"（怎么想），MCP 是"手和眼睛"（怎么连接外部世界）。 → [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
 
 **Harness**
-给 AI Agent 定的"入职规则"——规定它能用什么工具、能碰什么文件、能花多少钱、什么情况必须停下来问人，本质是给 Agent 的行为设边界。 → [Harness 系统完全指南](docs/ai-application/harness-system.md)
+围绕模型搭起来的整套工作环境和运行脚手架——决定它能看见什么（context）、能用什么（tools、权限）、怎么获得反馈（execution loop），以及哪些地方绝对不能越界。"给 Agent 定边界"只是它做的事情之一，不是全部。 → [Harness 系统完全指南](docs/ai-application/harness-system.md)
 
 **API（Application Programming Interface）**
 一套让不同软件系统互相通信的标准接口。调用 AI 模型的 API，就是用代码的方式向模型发请求、拿回答，而不是在聊天窗口里手动打字。
