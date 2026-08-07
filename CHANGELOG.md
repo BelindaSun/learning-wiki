@@ -2,6 +2,22 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.6] - August 7, 2026
+
+### 📝 Daily Update - Coding Agent 与 Agent 基础设施的操作系统化
+
+**新增页面**:
+- `docs/career-impact/agent-infrastructure-os.md` - Agent 可行性六条标准、可形式化光谱（Agent 向其他行业扩散的路径）、竞争四阶段演进（模型→工具生态→工作流→执行环境）、Agent 基础设施与传统操作系统的功能等价表、五大巨头差异化赌注、企业 Trust 鸿沟与消费者产品哲学鸿沟、Meta Muse Code 架构案例分析
+
+**新增概念**:
+- Agent Feasibility Criteria（Agent 可行性六条标准）、Formalizability Spectrum（可形式化光谱）、Agent OS 等价定理
+
+**来源**: Meta Muse Code 发布报道、OpenAI "ChatGPT Work"、OpenAI "Scientific Computing in the Age of Agentic AI"、arXiv 2606.26959、OpenAI "How Agents Are Transforming Work"
+
+**心智模型**: 新增 [Model → Infrastructure](mental-models.md)（Aug 7，含"可形式化光谱"与"Agent OS 等价定理"两个子框架）
+
+**相关**: 延伸自 [从工具到产业](docs/career-impact/industry-competition-shift.md)、[从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)、[Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md)，并深化了 [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md) 里 MCP 作为"Agent 操作系统设备驱动层"的定位
+
 ## [v2.5] - August 6, 2026
 
 ### 📝 Daily Update - Domain Expertise 重估与组织变革

@@ -4,3 +4,4 @@
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)
 - [从"最聪明"到"最可信"](capability-to-trust.md)
 - [AI Agent 时代的 Domain Expertise 重估与组织变革](domain-expertise-and-org-design.md)
+- [Coding Agent 与 Agent 基础设施的操作系统化](agent-infrastructure-os.md)

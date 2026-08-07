@@ -7,6 +7,8 @@
 - **Agent** - [Agent 系统架构](docs/ai-core/agent-architecture.md)
 - **Agent Lifecycle** - [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
 - **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
+- **Agent Feasibility Criteria（Agent 可行性六条标准）** - [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
+- **Agent OS 等价定理** - [Agent 基础设施 = 新操作系统](docs/career-impact/agent-infrastructure-os.md#agent-基础设施--新操作系统)
 - **Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
 - **Attention Mechanism** - [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
 
@@ -38,6 +40,7 @@
 ## F
 
 - **Feed Forward Network** - [前馈网络](docs/ai-core/transformer-architecture.md#前馈网络feed-forward-network)
+- **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
 
 ## H
 
@@ -168,6 +171,7 @@
 - [从工具到产业——AI 时代的竞争本质](docs/career-impact/industry-competition-shift.md)
 - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 - [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
+- [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
 
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)

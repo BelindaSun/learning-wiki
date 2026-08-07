@@ -423,3 +423,4 @@ Stage 3: 生成最终答案
 - 工作流模式（待创建）
 - [Agent 时代的系统架构转变](agent-era-work.md)
 - [Domain Expertise 与组织变革](../career-impact/domain-expertise-and-org-design.md)
+- [Coding Agent 与 Agent 基础设施](../career-impact/agent-infrastructure-os.md)

@@ -28,6 +28,10 @@ AI 公司之间比的不再是谁的模型更聪明，而是谁的系统架构�
 "会执行"正在变成商品（Agent 拿走了 80% 的 execution 决策），"懂判断"才是稀缺资源——know-what-matters、质量判断力、风险直觉这些无法言语化的能力，才是 AI 时代真正增值的 domain expertise。
 → 详见 [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
 
+**Model → Infrastructure（可形式化光谱 + Agent OS 等价定理）**（Aug 7）
+模型下沉为基础设施层（像 CPU），竞争上移到工具生态、工作流、执行环境。Agent 不是"进入"新行业，而是把任务翻译成类代码任务，翻译难度取决于任务的"可形式化程度"；而每次计算范式跃迁都会产生新的操作系统级玩家，赢家不是技术最好的，是定义了标准和接口、让最多开发者在上面构建的那个。
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
+
 ---
 
-**最后更新**: August 6, 2026
+**最后更新**: August 7, 2026

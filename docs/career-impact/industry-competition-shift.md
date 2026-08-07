@@ -308,3 +308,4 @@ A: 三者都重要，但优先级是：工作流 > 个人数据 > 知识。因�
 - [从"最聪明"到"最可信"](capability-to-trust.md)
 - [心智模型变迁史："+" → "×"](../../mental-models.md)
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
+- [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)

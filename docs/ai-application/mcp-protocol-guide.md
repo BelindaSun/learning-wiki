@@ -518,3 +518,4 @@ MCP 降低了技术难度
 - [Skill 设计](skills-business-landscape.md)
 - [Harness 系统](harness-system.md)
 - [Workflow 编排](../ai-core/workflow-orchestration.md)
+- [Coding Agent 与 Agent 基础设施](../career-impact/agent-infrastructure-os.md)

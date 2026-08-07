@@ -212,3 +212,4 @@ Agent 时代（2024-2026）:
 - [Agent 时代的系统架构转变](../ai-core/agent-era-work.md)
 - [心智模型变迁史：Capability → Trust](../../mental-models.md)
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
+- [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
