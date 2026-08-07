@@ -2,6 +2,15 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.8] - August 7, 2026
+
+### 🌐 上线展示网站
+
+Wiki 现在除了 GitHub 仓库本身，也有一个独立的展示网站：[learning-wiki-site.vercel.app](https://learning-wiki-site.vercel.app)。
+
+- 网站是完全独立的项目（`BelindaSun/learning-wiki-site`），构建时读取这个仓库的 Markdown 内容渲染成页面——本仓库不需要 front matter，也不需要为了网站改任何写作习惯
+- 每次 push 到这个仓库的 `main` 分支，`.github/workflows/notify-site.yml` 会自动通知 Vercel 重新构建，网站几分钟内自动同步最新内容，不需要手动部署
+
 ## [v2.7] - August 7, 2026
 
 ### 📝 Daily Update - Google AI 领导层重组
