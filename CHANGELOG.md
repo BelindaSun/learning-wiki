@@ -2,6 +2,24 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v2.7] - August 7, 2026
+
+### 📝 Daily Update - Google AI 领导层重组
+
+**新增页面**:
+- `docs/career-impact/google-agi-org-restructuring.md` - Google 的"时间尺度分离"组织设计（Demis 管长期科学，Koray 管中短期执行）、Research→Product execution gap、"天花板 × 到达能力"心智模型
+
+**新增概念**:
+- Time-Scale Separation（时间尺度分离）、Ceiling × Reach（天花板 × 到达能力）
+
+**来源**: Google 官方公告 + 24 小时内相关报道
+
+**心智模型**: 新增 [天花板 × 到达能力](mental-models.md)（Aug 7）
+
+**相关**: 延伸自 [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)、[从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)、[Coding Agent 与 Agent 基础设施](docs/career-impact/agent-infrastructure-os.md)
+
+**备注**: 这篇只有总结文件，没有配套的完整对话记录，因此没有 `docs/conversations/` 条目。
+
 ## [v2.6] - August 7, 2026
 
 ### 📝 Daily Update - Coding Agent 与 Agent 基础设施的操作系统化

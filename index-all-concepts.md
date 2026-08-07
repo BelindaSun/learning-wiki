@@ -24,6 +24,7 @@
 - **Context Window** - [Context Window 完全指南](docs/ai-core/context-window-guide.md)
 - **Context Management** - [Context 的实战管理](docs/ai-core/context-window-guide.md#实战管理)
 - **Conditional Node** - [条件节点](docs/ai-application/workflow-design-guide.md#3-conditional-node条件节点)
+- **Ceiling × Reach（天花板 × 到达能力）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#心智模型天花板--到达能力)
 
 ## D
 
@@ -116,6 +117,7 @@
 - **Top-p Sampling** - [采样参数](docs/ai-core/inference-system-guide.md#参数-2top-p核心sampling)
 - **Transformer** - [Transformer 架构](docs/ai-core/transformer-architecture.md)
 - **Trustworthiness（可信度五维框架）** - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
+- **Time-Scale Separation（时间尺度分离）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#1-google-在做时间尺度分离)
 
 ## V
 
@@ -172,6 +174,7 @@
 - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 - [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
+- [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
 
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)

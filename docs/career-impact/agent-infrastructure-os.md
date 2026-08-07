@@ -163,3 +163,4 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - [Agent 架构](../ai-core/agent-architecture.md)
 - [MCP 统一协议指南](../ai-application/mcp-protocol-guide.md)
 - [心智模型变迁史：Model → Infrastructure](../../mental-models.md)
+- [Google AI 领导层重组](google-agi-org-restructuring.md)

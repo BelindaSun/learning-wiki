@@ -213,3 +213,4 @@ Agent 时代（2024-2026）:
 - [心智模型变迁史：Capability → Trust](../../mental-models.md)
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
+- [Google AI 领导层重组](google-agi-org-restructuring.md)
