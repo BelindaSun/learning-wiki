@@ -10,9 +10,18 @@
 
 > "The best way to learn is to teach. The best way to remember is to write."
 
+## 🗺️ 第一次来？
+
+👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花 60-90 分钟看完这 7 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
+
+已经懂基础、想直接探索的话，往下看"结构"就行。
+
 ## 🗂️ 结构
 
 ```
+🗺️ Start Here
+  └─ 给新手的最小地图（7 站）
+
 📚 AI Core
   ├─ Agent 系统架构
   ├─ 大语言模型基础
@@ -44,7 +53,8 @@
 
 ## 🚀 快速导航
 
-- **[术语表](glossary.md)** - 第一次来？先看这个，把基础名词过一遍
+- **[Start Here](start-here.md)** - 第一次来？从这开始，60-90 分钟建立最小地图
+- **[术语表](glossary.md)** - 忘了某个词是什么意思？一句话查一下
 - **[AI Core](docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
 - **[AI 研究](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
 - **[AI 应用](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
@@ -62,10 +72,11 @@
 
 **建议阅读方式**：
 
-1. 如果你是第一次接触这些 AI 术语，先看 [术语表](glossary.md) 打个底
-2. 如果你对 Agent 感兴趣，从 [Agent 架构](docs/ai-core/agent-architecture.md) 开始
-3. 如果你想实战，从 [Skill 设计](docs/ai-application/skills-business-landscape.md) 开始
-4. 如果你想了解影响，从 [职业冲击](docs/career-impact/model-to-system-war.md) 开始
+1. 完全没背景？先走一遍 [Start Here](start-here.md)
+2. 忘了某个词是什么意思，随时查 [术语表](glossary.md)
+3. 如果你对 Agent 感兴趣，从 [Agent 架构](docs/ai-core/agent-architecture.md) 开始
+4. 如果你想实战，从 [Skill 设计](docs/ai-application/skills-business-landscape.md) 开始
+5. 如果你想了解影响，从 [职业冲击](docs/career-impact/model-to-system-war.md) 开始
 
 ## 🔄 更新频率
 

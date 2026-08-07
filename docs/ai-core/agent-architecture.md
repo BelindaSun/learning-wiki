@@ -157,7 +157,7 @@ Claude 看到用户的反馈，重新理解任务，可能：
 
 ### 什么是 Agent 的"记忆"？
 
-**答案**: `conversation_history` 就是 Agent 的整个状态。
+**在最简单的情况下**：像 Claude Code 这样的对话式 Agent，`conversation_history` 可以承担大部分 working state——这是最容易理解、也是下面示例展示的实现方式。更复杂的 Agent 系统通常还会维护额外的 task state、tool state、environment state，甚至用外部数据库、文件系统或 checkpoint 来存长期记忆，不是所有 Agent 都只靠一条 conversation_history 撑起全部状态。
 
 ```python
 # 这是系统在维持的数据结构
@@ -199,7 +199,7 @@ conversation_history = [
 3. Claude 生成下一步
 4. 新的交互被追加到历史
 
-**没有数据库，没有显式的"记忆存储"。历史本身就是状态。**
+**在这种最简单的实现里，没有额外的数据库或显式"记忆存储"——历史本身就是状态。** 但这是一种常见的简单实现，不是 Agent 架构的普遍定义；参考 [Agent 记忆系统完全指南](memory-system-guide.md) 了解更复杂的记忆架构长什么样。
 
 ### 上下文窗口的限制
 

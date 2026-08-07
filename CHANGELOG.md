@@ -2,6 +2,20 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v3.0] - August 7, 2026
+
+### 🗺️ 新增 Start Here：给新读者的最小地图
+
+**背景**：请 CTO 朋友看了网站雏形，第一条建议是"陌生人第一次进来找不到路"——术语表存在但没有清晰入口，深度文章之间也没有给新手的过渡。
+
+**新增**:
+- `start-here.md`（根目录）——7 站最小地图：AI 是什么 → LLM 怎么工作 → Chatbot 到 Agent → Workflow/Skill/MCP 关系 → Context/State/Memory → 为什么 Coding Agent 先爆发 → AI 真正改变了什么。每站控制在"5-10 分钟导览页"的量级，不重写深度内容，全部链接回现有文章
+- README.md 把 Start Here 放到最显眼的位置（结构图顶部、快速导航第一条、建议阅读第一步）
+
+**修正**: `docs/ai-core/agent-architecture.md` 里"conversation_history 就是 Agent 的整个状态"这句话过度绝对化了（只在最简单的实现里成立），改成区分"最简单情况"和"更复杂系统"
+
+**约定**: `CLAUDE.md` 记录了 Start Here 的写作原则（不做课程感、不重写深度内容）和"避免过度绝对化表述"的写作规则
+
 ## [v2.9] - August 7, 2026
 
 ### 📖 新增术语表，修补 Skills 文章的基础概念缺口
