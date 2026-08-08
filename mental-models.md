@@ -36,6 +36,10 @@ AI 公司之间比的不再是谁的模型更聪明，而是谁的系统架构�
 评价一家前沿 AI 公司不能只问"技术天花板有多高"，还要问"有没有能力真正到达那个天花板"——研究、人才、科学品味决定天花板，工程、组织、产品和执行决定到达能力，真正强大的公司两者都要有。
 → 详见 [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
 
+**Capability → Capability × Calibration**（Aug 8）
+AI 能力提升不是纯粹的正向变量——人机系统的表现是"AI 能力 × 人类感知准确度"的乘积。而且"纠正感知偏差"本身也不是无脑的善事：偏差有时候恰好在弥补企业和员工之间一个看不见的结构性错位，纠正过头反而会伤利润。
+→ 详见 [Scaling Paradox](docs/career-impact/scaling-paradox.md)
+
 ---
 
-**最后更新**: August 7, 2026
+**最后更新**: August 8, 2026

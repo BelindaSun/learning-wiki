@@ -18,6 +18,8 @@
 
 ## C
 
+- **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust)
+
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Causal Mask** - [生成过程详解](docs/ai-core/transformer-architecture.md#causal-mask因果掩码)
 - **Conversation History** - [状态机与上下文窗口](docs/ai-core/agent-architecture.md#状态机与上下文窗口)
@@ -104,6 +106,7 @@
 - **Semantic Memory** - [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
+- **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **System of Record** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **System War** - [系统战争](docs/career-impact/model-to-system-war.md#为什么转向系统战争)
 
@@ -175,6 +178,7 @@
 - [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
 - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
+- [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)

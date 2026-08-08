@@ -2,6 +2,22 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v3.2] - August 8, 2026
+
+### 📝 Daily Update - Scaling Paradox in Human-AI Collaboration
+
+**新增页面**:
+- `docs/career-impact/scaling-paradox.md` - AI scaling law 为什么在人机协作系统里不自动成立、90%→95% 反而更危险的四层机制、可信度框架升级成 Trustworthiness + Calibrated Trust 两层模型、感知偏差纠正为什么不是普遍善（firm-worker 结构性错位）、Junior/Senior 断层与 succession planning、对抗 automation complacency 的五个产品设计机制
+
+**新增概念**:
+- Calibrated Trust（校准信任）、Scaling Paradox、Appropriate Reliance Rate（合理依赖率）
+
+**来源**: Qi & Wang (2026), "The Scaling Paradox in Human-AI Collaboration", arXiv:2608.00818
+
+**心智模型**: 新增 [Capability → Capability × Calibration](mental-models.md)（Aug 8）
+
+**相关**: 直接延伸自 [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md) 的五维可信度框架，与 [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md) 的 Junior/Senior 讨论连成一条线
+
 ## [v3.1] - August 7, 2026
 
 ### ✏️ Start Here 内容修正（根据二次 CTO 审阅）
