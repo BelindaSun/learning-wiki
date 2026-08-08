@@ -412,9 +412,9 @@ Stage 3: 生成最终答案
 
 ## 下一步
 
-- 📖 理解了架构后，看 [工具调用深度解析](tool-selection-mechanism.md)
+- 📖 理解了架构后，看 工具调用深度解析（待创建）
 - 🛠️ 想实现 Agent，看 [Skill 设计](../ai-application/skills-business-landscape.md)
-- 🔄 想设计复杂流程，看 [工作流模式](../ai-application/workflow-patterns.md)
+- 🔄 想设计复杂流程，看 工作流模式（待创建）
 
 ---
 

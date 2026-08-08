@@ -506,9 +506,9 @@ MCP 降低了技术难度
 
 ## 下一步
 
-- 📖 [MCP Server 开发指南](mcp-server-development.md)（待创建）
-- 🔧 [MCP 配置实战](mcp-configuration-guide.md)（待创建）
-- 💰 [MCP 商业模式分析](mcp-business-model.md)（待创建）
+- 📖 MCP Server 开发指南（待创建）
+- 🔧 MCP 配置实战（待创建）
+- 💰 MCP 商业模式分析（待创建）
 
 ---
 

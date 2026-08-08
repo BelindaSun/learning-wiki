@@ -891,9 +891,9 @@ Inference 的局限：
 
 ## 下一步学习
 
-- 🧠 [Attention 机制深度指南](attention-deep-dive.md)（待创建）
-- 🔍 [涌现临界点研究](emergence-thresholds.md)（待创建）
-- 🎯 [Embedding 和语义空间](embedding-semantic-space.md)（待创建）
+- 🧠 Attention 机制深度指南（待创建）
+- 🔍 涌现临界点研究（待创建）
+- 🎯 Embedding 和语义空间（待创建）
 
 ---
 

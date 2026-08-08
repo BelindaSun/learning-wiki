@@ -657,10 +657,10 @@ Mimo 生成回复：
 
 ## 下一步学习方向
 
-- 🔍 [Attention 数学详解](attention-mathematics.md)（待创建）
-- 🎯 [涌现临界点：为什么 7B vs 70B](emergence-critical-points.md)（待创建）
-- 📊 [模型评估标准](model-evaluation.md)（待创建）
-- 🔐 [Safety 和价值对齐](safety-alignment.md)（待创建）
+- 🔍 Attention 数学详解（待创建）
+- 🎯 涌现临界点：为什么 7B vs 70B（待创建）
+- 📊 [模型评估标准](../ai-research/evaluation-system.md)
+- 🔐 Safety 和价值对齐（待创建）
 
 ---
 

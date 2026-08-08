@@ -386,9 +386,9 @@ Skill 使用率                  26.6% 用过
 
 ## 下一步阅读
 
-- 📊 [职业影响详细分析](profession-impact-detail.md)
-- 🛠️ [个人能力建设路线图](personal-capability-roadmap.md)
-- 🚀 [未来 5 年的职业前景](future-prospects.md)
+- 📊 职业影响详细分析（待创建）
+- 🛠️ 个人能力建设路线图（待创建）
+- 🚀 未来 5 年的职业前景（待创建）
 
 ---
 

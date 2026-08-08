@@ -474,9 +474,9 @@ Mimo、AI2030 这样的中文 AI 产品
 
 ## 下一步学习
 
-- 🎯 [Constitutional AI：Claude 的价值观训练](constitutional-ai.md)（待创建）
-- 📊 [设计一套中文 AI 评价体系](chinese-evaluation-framework.md)（待创建）
-- 🔍 [Benchmark 的数学原理](benchmark-mathematics.md)（待创建）
+- 🎯 Constitutional AI：Claude 的价值观训练（待创建）
+- 📊 设计一套中文 AI 评价体系（待创建）
+- 🔍 Benchmark 的数学原理（待创建）
 
 ---
 

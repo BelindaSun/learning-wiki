@@ -642,9 +642,9 @@ Mimo、AI2030 会活下来
 
 ## 下一步学习
 
-- 🏗️ [设计有护城河的 AI 产品](designing-moat.md)（待创建）
-- 💰 [AI 创业的商业模式](ai-business-models.md)（待创建）
-- 🎯 [怎样设计自己的 Skills 体系](skills-system-design.md)（待创建）
+- 🏗️ 设计有护城河的 AI 产品（待创建）
+- 💰 AI 创业的商业模式（待创建）
+- 🎯 怎样设计自己的 Skills 体系（待创建）
 
 ---
 

@@ -564,9 +564,9 @@ type: human_approval  # ❌ 在每一步
 
 ## 下一步
 
-- 🎯 想看实战配置，查看 [Daily Wiki 工作流完整配置](daily-wiki-workflow.yaml)
-- 🔧 想调试工作流，看 [工作流调试指南](workflow-debugging.md)
-- 📊 想监控工作流，看 [监控和日志](monitoring.md)
+- 🎯 想看实战配置，查看 Daily Wiki 工作流完整配置（待创建）
+- 🔧 想调试工作流，看 工作流调试指南（待创建）
+- 📊 想监控工作流，看 监控和日志（待创建）
 
 ---
 

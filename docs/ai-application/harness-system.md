@@ -492,9 +492,9 @@ MCP: 定义"去哪做"
 
 ## 下一步
 
-- 🔧 [优化你的全局 settings.json](harness-optimization.md)（待创建）
-- 📋 [编写高效的 CLAUDE.md](claude-md-template.md)（待创建）
-- 🛡️ [安全最佳实践](harness-security.md)（待创建）
+- 🔧 优化你的全局 settings.json（待创建）
+- 📋 编写高效的 CLAUDE.md（待创建）
+- 🛡️ 安全最佳实践（待创建）
 
 ---
 

@@ -483,9 +483,9 @@ Step 4: 4-bit 量化（可选）
 
 ## 下一步学习
 
-- 🔧 [MoE 高级话题：Expert Choice vs Token Choice](moe-advanced.md)（待创建）
-- 📊 [量化的数学原理](quantization-mathematics.md)（待创建）
-- 🎯 [怎样设计一个可压缩的模型](designing-compressible-models.md)（待创建）
+- 🔧 MoE 高级话题：Expert Choice vs Token Choice（待创建）
+- 📊 量化的数学原理（待创建）
+- 🎯 怎样设计一个可压缩的模型（待创建）
 
 ---
 

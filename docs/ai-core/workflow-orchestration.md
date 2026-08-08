@@ -491,10 +491,9 @@ Orchestrator 的决策力 > Worker 的执行力
 
 ## 下一步学习
 
-- 🔧 [Workflow 高级模式](workflow-advanced-patterns.md)（条件分支、循环、嵌套）
-- 📊 [Agent View 完全指南](agent-view-guide.md)
-- 💰 [成本优化策略](cost-optimization.md)
-- 🛡️ [错误处理和恢复](error-handling.md)
+- 🔧 [Workflow 高级模式](../ai-application/workflow-design-guide.md)（条件分支、循环、嵌套）
+- 💰 成本优化策略（待创建）
+- 🛡️ 错误处理和恢复（待创建）
 
 ---
 

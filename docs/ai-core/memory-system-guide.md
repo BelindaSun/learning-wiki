@@ -688,9 +688,9 @@ localStorage（浏览器）：
 
 ## 下一步学习
 
-- 🔍 [向量数据库深度指南](vector-database-guide.md)（待创建）
-- 🧠 [Context Window 管理](context-window-management.md)（待创建）
-- 🤝 [多 Agent 记忆共享](multi-agent-memory.md)（待创建）
+- 🔍 向量数据库深度指南（待创建）
+- 🧠 [Context Window 管理](context-window-guide.md)
+- 🤝 多 Agent 记忆共享（待创建）
 
 ---
 
