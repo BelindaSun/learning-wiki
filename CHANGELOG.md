@@ -2,6 +2,26 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v3.3] - August 8, 2026
+
+### 📖 术语表 V2 试点：结构化 Glossary（Phase 2，第一批 15 词）
+
+**背景**：Phase 1 一致性审计做完后，CTO 给了 Structured Glossary V2 的详细规格——每个词条不只给一句话，还要有"怎么想象它"的心智画面、3-5 个相关概念、1-2 个深入链接，部分词条配简单关系图（一图一个意思，ASCII 文本图，不用 Mermaid/HTML，跟现有 Wiki 风格保持一致）。
+
+**试点范围**（15 个核心词，其余词条格式不变，等确认风格后再扩展全站）：
+AI、LLM、Model、Token、Inference、Agent、Tool、Workflow、Context、State、Memory、MCP、Harness、RAG、Coding Agent
+
+**新增**:
+- `glossary.md` 里新增 AI、Model、State、RAG、Coding Agent 5 个此前没有的词条
+- 原有的 Context Window → 重构为 Context（挪到 Agent 相关分类，跟 State、Memory 并列，三者共享一张对比图）；Memory System → Memory；Tool Use / Tool Calling → Tool
+- 配了 8 张 ASCII 关系图：AI/LLM/Model/Product 包含关系、Token 处理流程、Training vs Inference、Agent 决策循环、Chatbot vs Agent 对比、Context/State/Memory 三者对比、RAG 流程、Coding Agent Loop
+
+**修正**:
+- `index-all-concepts.md` 开头引导语里还有一处遗漏的 "60+" 没改成准确数字（Phase 1 审计漏改的一处），这次一并修成 76
+- `start-here.md` 里几处 Related concepts 的词条名和锚点同步更新，匹配术语表里的新名字和新分类位置
+
+**没做的**：RAG 词条的"想深入"暂时写了"待创建"，Wiki 里还没有独立的 RAG 深入文章。
+
 ## [v3.2] - August 8, 2026
 
 ### 📝 Daily Update - Scaling Paradox in Human-AI Collaboration

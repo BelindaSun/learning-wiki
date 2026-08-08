@@ -67,7 +67,7 @@ Transformer（模型的核心结构）
 
 **常见误解**：「AI 记得我们所有的聊天记录」——不完全对。默认情况下，AI 只能看到当前对话放进 Context 里的内容，不是无限记忆，这个话题第 5 站会展开。
 
-**Related concepts**：[Token](glossary.md#ai-基础) · [Context Window](glossary.md#ai-基础) · [Transformer](glossary.md#ai-基础) · [Inference](glossary.md#ai-基础)
+**Related concepts**：[Token](glossary.md#ai-基础) · [Context](glossary.md#agent-相关) · [Transformer](glossary.md#ai-基础) · [Inference](glossary.md#ai-基础)
 
 **Go Deeper**：[Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md) · [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md)
 
@@ -107,7 +107,7 @@ Chatbot 是"问了才答"的工具；Agent 是"给了目标就自己想办法干
 
 **常见误解**：「Agent 就是更聪明的 Chatbot」——不对，这不是聪明程度的差异，是工作模式的根本不同：一个只能"说"，一个能"做"。
 
-**Related concepts**：[Agent](glossary.md#agent-相关) · [Tool Use](glossary.md#agent-相关)
+**Related concepts**：[Agent](glossary.md#agent-相关) · [Tool](glossary.md#agent-相关)
 
 **Go Deeper**：[Agent 系统架构](docs/ai-core/agent-architecture.md) · [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
@@ -191,7 +191,7 @@ Memory（记忆）
 
 **常见误解**：「Context Window 越大，AI 就等于有了无限记忆」——不对，大 Context Window 只是让"这一次"能看到的信息变多，跟"AI 会不会在下次对话里记得你"是两件事，后者要靠 Memory 机制。
 
-**Related concepts**：[Context Window](glossary.md#ai-基础) · [Memory System](glossary.md#agent-相关)
+**Related concepts**：[Context](glossary.md#agent-相关) · [State](glossary.md#agent-相关) · [Memory](glossary.md#agent-相关)
 
 **Go Deeper**：[Context Window 完全指南](docs/ai-core/context-window-guide.md) · [Agent 记忆系统完全指南](docs/ai-core/memory-system-guide.md)
 
