@@ -2,6 +2,39 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v3.9] - August 8, 2026
+
+### 🔗 Phase 3 全站推广 Batch A：7 篇高密度技术/应用文章
+
+**范围**：CTO 批准 Phase 3.1 死链清理后，按"两批走"的节奏，先做 6-8 篇 ai-core/ai-application 里概念密度最高的文章，做完停下来等 review，Batch B（其余文章）等这批过审后再继续。
+
+**7 篇**（全部复用试点定下的规则，凭判断决定链接数量，不是硬性配额）：
+- [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md) — 正文 0 链接（MCP/Skill 是这篇自己要讲的主题，正文又几乎全是代码框），Before Reading: Agent · Tool
+- [Skills 和商业格局](docs/ai-application/skills-business-landscape.md) — 正文 2 链接（Workflow、Tool），**跳过 Before Reading**——这篇自己已经有"如果你不知道 Skill 是什么"的内嵌背景说明，再加一个会重复
+- [工作流设计完全指南](docs/ai-application/workflow-design-guide.md) — 正文 1 链接（Agent，在 Workflow vs Agent 对比表里），Before Reading: Agent · Tool
+- [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md) — 正文 3 链接（Memory、Context、State），Before Reading: Agent · Workflow
+- [Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md) — 正文 0 链接（Inference 是主题，Token 全在代码框里没有安全插入点），Before Reading: LLM · Token
+- [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md) — 正文 0 链接（同上，正文几乎全是代码框），Before Reading: Token · Inference
+- [Workflow 工作流完全指南](docs/ai-core/workflow-orchestration.md) — 正文 3 链接（Agent、State、Context），Before Reading: Agent · Tool
+
+**没做**：没有为了凑数在代码框里插链接、没有改动任何标题或 TOC 锚点、没有碰高亮框那两行（网站的高亮框用单独的渲染器，不会重写相对链接，链接放进去会失效）。全仓库链接检查 0 死链。
+
+**状态**：Batch A 完成，等 CTO/Belinda review，通过后做 Batch B（剩下的 ai-research + career-impact 文章）。
+
+## [v3.8] - August 8, 2026
+
+### 🧹 Phase 3.1：清理 ~45 处历史遗留死链
+
+**背景**：Phase 3 试点验收时顺手做的全仓库链接检查，发现 13 篇文章的"下一步"/"相关"部分累积了大概 45 处指向从未创建过的占位文件的死链——不是 Phase 3 引入的问题，是更早期写文章时留下的。CTO 给了五分类处理框架，没有用"全部改成待创建"这种一刀切。
+
+**处理结果**（13 篇文章，40 处链接）：
+- 有几处是"其实别的文章已经讲过这个内容"，改成指向真实存在的文章（比如 `transformer-architecture.md` 的"模型评估标准"指向了 [Evaluation 评估系统](docs/ai-research/evaluation-system.md)）
+- 有一处判断为过时，整条移除（`workflow-orchestration.md` 的"Agent View 完全指南"）
+- 剩下大多数确认是"确实还没写"，改成纯文字 +"（待创建）"，跟仓库已有的正确写法保持一致
+- 没有新建任何空白页面去凑链接
+
+**状态**：CTO 已批准并关闭这一项。
+
 ## [v3.7] - August 8, 2026
 
 ### 🔗 Phase 3 试点：Navigation Layer（稳定锚点 + 正文首次出现链接 + Before Reading）
