@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Workflow](../conversations/workflow.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Tool](../../glossary.md#tool)
+
 ---
 
 ## 目录
@@ -24,7 +26,7 @@
 
 ### 定义
 
-Workflow 不是新概念，而是把**复杂任务分解成步骤**，然后让**多个 Agent 自动执行**的系统。
+Workflow 不是新概念，而是把**复杂任务分解成步骤**，然后让**多个 [Agent](../../glossary.md#agent) 自动执行**的系统。
 
 **对比**：
 
@@ -162,7 +164,7 @@ Orchestrator: "都完成了吗？"
   - 理解任务（用户要什么？）
   - 分解任务（拆成哪些子任务？）
   - 分配工作（哪个 Worker 做什么？）
-  - 实时追踪状态（谁完成了？谁失败了？）
+  - 实时追踪[状态](../../glossary.md#state)（谁完成了？谁失败了？）
   - 收集结果（所有结果都到了吗？）
   - 判断下一步（继续还是汇总？）
 
@@ -238,7 +240,7 @@ Orchestrator：分成 10 组，每组 100 个用户
 
 ### Session 线程的隔离性
 
-**关键原理**：每个 Agent 都有自己独立的**后台线程**和**Context Window**。
+**关键原理**：每个 Agent 都有自己独立的**后台线程**和**[Context](../../glossary.md#context) Window**。
 
 ```
 主线程（用户看得到）:

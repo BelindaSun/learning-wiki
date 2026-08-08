@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Inference](../conversations/inference.md)、[Attention（接 inference）](../conversations/attention.md)
 
+**第一次接触这个主题？** 建议先了解：[LLM](../../glossary.md#llm) · [Token](../../glossary.md#token)
+
 ---
 
 ## 目录

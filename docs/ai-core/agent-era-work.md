@@ -9,6 +9,8 @@
 
 📖 **完整学习对话记录**：[Agent 时代的系统架构转变](../conversations/agent-era-work.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Workflow](../../glossary.md#workflow)
+
 ---
 
 ## 今天最大的收获：三个心理转变
@@ -20,7 +22,7 @@
 **2. 从"聊天工具"到"数字员工"的进化**
 - Chatbot（被动回应）≠ Agent（主动执行）
 - 聊天工具的真正价值在于成为"数字家庭成员"
-- 这需要：持久身份 + 系统记忆 + 角色定义 + 持续学习
+- 这需要：持久身份 + 系统[记忆](../../glossary.md#memory) + 角色定义 + 持续学习
 
 **3. 软件设计的根本转向**
 - 从"写给人看"→ 变成"写给 AI 和人看"
@@ -73,10 +75,10 @@ Worker Worker Worker Worker
 ```
 
 **关键特点**
-- 单个 Orchestrator 拥有完整上下文
+- 单个 Orchestrator 拥有完整[上下文](../../glossary.md#context)
 - 每个 Worker 在隔离上下文运行（节省 tokens）
 - 没有点对点通道（避免通信爆炸）
-- 没有共享可变状态（避免竞态条件）
+- 没有共享可变[状态](../../glossary.md#state)（避免竞态条件）
 
 **为什么赢了：** 成本低（隔离上下文）、容易理解（中央控制）、容错性强（可重试）
 

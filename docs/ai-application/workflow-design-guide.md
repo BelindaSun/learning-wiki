@@ -6,6 +6,8 @@
 
 📖 **完整学习对话记录**：[Workflow](../conversations/workflow.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Tool](../../glossary.md#tool)
+
 ---
 
 ## 目录
@@ -53,7 +55,7 @@
 
 ### 工作流 vs Agent
 
-| 特性 | Agent | 工作流 |
+| 特性 | [Agent](../../glossary.md#agent) | 工作流 |
 |------|-------|--------|
 | 适用场景 | 单个复杂任务 | 多个任务的组合 |
 | 谁决策 | Agent 自己 | 工作流预定义 |

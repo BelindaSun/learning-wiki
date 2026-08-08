@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Transformer](../conversations/transformer.md)
 
+**第一次接触这个主题？** 建议先了解：[Token](../../glossary.md#token) · [Inference](../../glossary.md#inference)
+
 ---
 
 ## 目录

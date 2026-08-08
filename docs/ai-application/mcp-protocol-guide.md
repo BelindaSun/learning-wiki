@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[MCP](../conversations/mcp.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Tool](../../glossary.md#tool)
+
 ---
 
 ## 目录
