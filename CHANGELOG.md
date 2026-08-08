@@ -2,6 +2,30 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.0] - August 8, 2026
+
+### 🔗 Phase 3 全站推广 Batch B（收尾）+ 两处顺手修正
+
+**范围**：Batch A 过审后，把剩下的 8 篇文章（ai-research 2 篇 + career-impact 6 篇）走完，Phase 3 到此覆盖全部 21 篇正式指南文章。
+
+**8 篇**：
+- [Evaluation 评估系统](docs/ai-research/evaluation-system.md) — 正文 0 链接，Before Reading: Model · Inference
+- [Models 深挖](docs/ai-research/models-deep-dive.md) — 正文 0 链接，Before Reading: Model · Token
+- [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md) — 正文 0 链接（Agent 反复出现但只是对比对象，按规则不因为"出现了"就链接），Before Reading: Agent · Harness
+- [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md) — 正文 2 链接（Workflow、Tool），Before Reading: Agent · Harness
+- [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md) — 正文 3 链接（Tool、Context、Workflow，同一句话里），**跳过 Before Reading**——文章是组织战略分析，不需要先懂 Agent 机制才能跟上论证
+- [从工具到产业](docs/career-impact/industry-competition-shift.md) — 正文 2 链接（Harness、MCP），Before Reading: Agent · Harness · MCP
+- [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md) — 正文 4 链接（LLM、Workflow、Tool、MCP），**跳过 Before Reading**——正文本身就在按顺序带读者认识这几个词，重复一次没必要
+- [Scaling Paradox](docs/career-impact/scaling-paradox.md) — **正文 0 链接，跳过 Before Reading**——自成体系的分析型文章，唯一一处"模型"是统计/分析模型的意思（三层模型框架），不是 AI Model，链接了就是范畴错误
+
+**顺手修的两处小问题**（Belinda 指出）：
+- `glossary.md` 开头引导语"正文里第一次出现这些词时可以直接点链接跳过来"，容易让人以为是"往前跳"，改成"在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看"，更准确地描述这是"回来查"不是"跳过去"
+- "Skills 是大脑，MCP 是手和眼睛"这个类比在 Phase 2 时已经从 `glossary.md` 里软化过，但同样的断言式写法还留在另外两处：`mcp-protocol-guide.md` 自己的核心概念高亮行（直接改写，去掉这个类比）、`memory-system-guide.md` 里"Skills/MCP/Memory"三件套比喻（保留比喻但加了"打个比方，不是技术上的严格对应"的限定语，改成"像"大脑/像"手和眼睛"而不是断言"是"）
+
+**验证**：全仓库链接扫描 0 死链；本地跑 Astro dev server 抽查了 `model-to-system-war` 和 `glossary` 两个页面，锚点全部正确解析到 `/glossary#slug`。
+
+**状态**：Phase 3（Navigation Layer）全部完成——15 个稳定 Glossary 锚点、21 篇文章的首次出现链接与 Before Reading 判断、全仓库 0 死链。
+
 ## [v3.9] - August 8, 2026
 
 ### 🔗 Phase 3 全站推广 Batch A：7 篇高密度技术/应用文章
