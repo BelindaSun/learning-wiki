@@ -1,6 +1,6 @@
 # 术语表
 
-> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中 15 个最核心的词（AI、LLM、Model、Token、Inference、Agent、Tool、Workflow、Context、State、Memory、MCP、Harness、RAG、Coding Agent）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——正文里第一次出现这些词时可以直接点链接跳过来。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
+> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中 15 个最核心的词（AI、LLM、Model、Token、Inference、Agent、Tool、Workflow、Context、State、Memory、MCP、Harness、RAG、Coding Agent）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
 
 ---
 

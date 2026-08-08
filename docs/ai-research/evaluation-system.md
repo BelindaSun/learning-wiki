@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Evaluation](../conversations/evaluation.md)
 
+**第一次接触这个主题？** 建议先了解：[Model](../../glossary.md#model) · [Inference](../../glossary.md#inference)
+
 ---
 
 ## 目录

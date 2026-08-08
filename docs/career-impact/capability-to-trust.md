@@ -6,6 +6,8 @@
 
 📖 **完整学习对话记录**：[从最聪明到最可信](../conversations/capability-to-trust.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Harness](../../glossary.md#harness)
+
 ---
 
 ## 今天最大的收获

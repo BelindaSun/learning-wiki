@@ -58,7 +58,7 @@ Jeff Dean、Sanjay Ghemawat、Oriol Vinyals、Quoc Le 等人的变化不能只�
 
 ## 和以前哪些知识连接起来了？
 
-**①"模型战争 → 系统战争"**：之前学习 Coding Agent 时已经意识到，一个 AI 产品最终表现如何并不完全由基础模型决定，还取决于工具、context、workflow、evaluation、infra 等整个系统。Google 这次变化把这个逻辑放大到了公司级别——AI 公司本身也是一个系统，真正的竞争不是谁拥有最强的某一个组件，而是谁能让所有组件协同进化（参考 [模型战争 vs 系统战争](model-to-system-war.md)、[Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)）。
+**①"模型战争 → 系统战争"**：之前学习 Coding Agent 时已经意识到，一个 AI 产品最终表现如何并不完全由基础模型决定，还取决于[工具](../../glossary.md#tool)、[context](../../glossary.md#context)、[workflow](../../glossary.md#workflow)、evaluation、infra 等整个系统。Google 这次变化把这个逻辑放大到了公司级别——AI 公司本身也是一个系统，真正的竞争不是谁拥有最强的某一个组件，而是谁能让所有组件协同进化（参考 [模型战争 vs 系统战争](model-to-system-war.md)、[Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)）。
 
 **②"能力战争 → 可信度战争"**：之前的判断是当模型能力越来越商品化后，竞争会从"谁最聪明"转向"谁最值得托付真正的工作"。Google 的 full-stack 优势可能最终体现在这里——不仅拥有模型，还拥有 Cloud、Workspace、Search、Android 等真实工作环境。未来的可信度可能不只是模型 safety 或 hallucination rate，而是**整个系统能否可靠地完成工作**（参考 [从"最聪明"到"最可信"](capability-to-trust.md)）。
 

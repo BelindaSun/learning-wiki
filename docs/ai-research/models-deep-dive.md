@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Models 深挖](../conversations/models-deep-dive.md)
 
+**第一次接触这个主题？** 建议先了解：[Model](../../glossary.md#model) · [Token](../../glossary.md#token)
+
 ---
 
 ## 目录

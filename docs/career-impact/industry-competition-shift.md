@@ -6,11 +6,13 @@
 
 📖 **完整学习对话记录**：[从工具到产业](../conversations/industry-competition-shift.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Harness](../../glossary.md#harness) · [MCP](../../glossary.md#mcp)
+
 ---
 
 ## 一句话总结
 
-从学习具体工具（Agent、Harness、MCP）升级到理解产业竞争的本质：**未来 AI 竞争不在模型本身，而在人的能力与 AI 执行的乘法效应**。
+从学习具体工具（Agent、[Harness](../../glossary.md#harness)、[MCP](../../glossary.md#mcp)）升级到理解产业竞争的本质：**未来 AI 竞争不在模型本身，而在人的能力与 AI 执行的乘法效应**。
 
 ---
 
