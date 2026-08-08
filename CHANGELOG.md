@@ -2,6 +2,35 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v3.7] - August 8, 2026
+
+### 🔗 Phase 3 试点：Navigation Layer（稳定锚点 + 正文首次出现链接 + Before Reading）
+
+**范围**：只做 CTO 定义的三件事，只在 5 篇代表性文章试点，不推广全站，等 CTO review。
+
+**1. Stable Glossary Slugs**：`glossary.md` 里 15 个试点词条从 `**Term（中文）**` 加粗段落改成 `#### Term` 英文 ATX 标题（比如 `#### Agent`、`#### Coding Agent`），生成稳定、可预测的锚点（`#agent`、`#coding-agent`……），不依赖中文标题自动生成。
+
+**验证结果**（真实跑了 Astro dev server + 打开 github.com 现场测）：
+- ✅ 展示网站（Vercel/Astro，用的是 `rehype-slug` + `github-slugger`，跟 GitHub 同一个库）：新导航、跨文章点击、浏览器 back 全部正常，back 后精确恢复原滚动位置
+- ⚠️ **GitHub 网页有个真实限制**：GitHub 把标题锚点渲染成 `id="user-content-agent"` 而不是 `id="agent"`，靠 GitHub 自己的前端 JS 做 `#agent → user-content-agent` 的映射。这个映射只在用户在 GitHub 页面内真实点击链接时触发，**直接用带 `#agent` 的 URL 打开页面（比如跨文件链接、书签）不会自动滚动到目标位置**——链接本身没坏，就是不会自动跳过去，读者需要自己往下翻或用 Ctrl+F。这是 GitHub 渲染器的固有行为，不是这次改动引入的问题。按 CTO 的预案（"如果 renderer 对 explicit anchor 支持不稳定，不要强行 hack，可以先只在网站层实现"），这个不对称先如实记录，不做任何 hack
+
+**2. First-occurrence Glossary Links**（5 篇试点文章，每篇 ≤5 个，同一词只链接首次出现，不碰任何标题/TOC 锚点）：
+- [Agent 系统架构](docs/ai-core/agent-architecture.md)：Context、Tool、State、Memory（4 个）
+- [Context Window 完全指南](docs/ai-core/context-window-guide.md)：**0 个**——正文几乎全是代码框里的示意图，找不到安全的、不用改动原文的插入点，Context/Token 本身又是这篇文章自己在讲的主题，所以刻意不链接
+- [Agent 记忆系统完全指南](docs/ai-core/memory-system-guide.md)：Context、State（2 个）
+- [Harness 系统](docs/ai-application/harness-system.md)：Tool、Workflow（2 个）
+- [Coding Agent 与 Agent 基础设施](docs/career-impact/agent-infrastructure-os.md)：Workflow、Tool、MCP（3 个）
+
+**3. Before Reading**（4/5 篇文章加了，Context Window 那篇跳过——它已经从零开始定义了自己的核心概念，不需要）：
+- Agent 系统架构 → LLM · Token · Inference
+- Agent 记忆系统完全指南 → Agent · Context
+- Harness 系统 → Agent · Tool · Context
+- Coding Agent 与 Agent 基础设施 → Agent · Tool · MCP
+
+**没做**（按 CTO 的 Do Not Do）：没有自动把全文术语都链接化、没有引入 tooltip/hover card/知识图谱、没有改动任何作者原文表达或标题结构、没有推广到试点 5 篇以外。
+
+**状态**：试点完成，等 CTO/Belinda 人工检查（页面是否变太"蓝"、链接是否真的有用、mobile 是否清晰、点进 Glossary 后好不好返回）通过后再决定是否扩展全站。
+
 ## [v3.6] - August 8, 2026
 
 ### ✅ 术语表 V2 定版：15 个试点词条冻结为参考样本
