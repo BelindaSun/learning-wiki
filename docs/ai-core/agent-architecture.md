@@ -4,6 +4,8 @@
 
 **关键洞察**: Agent 不是"更聪明的 ChatGPT"，而是**一个完整的系统架构**——包括感知、决策、行动和反馈循环。
 
+**第一次接触这个主题？** 建议先了解：[LLM](../../glossary.md#llm) · [Token](../../glossary.md#token) · [Inference](../../glossary.md#inference)
+
 ---
 
 ## 目录
@@ -38,13 +40,13 @@ Stage 5: 调整与继续
 
 ### Stage 0: 消息到达
 
-**输入**: 用户的请求（可能包含文件、上下文、指令）
+**输入**: 用户的请求（可能包含文件、[上下文](../../glossary.md#context)、指令）
 
 **系统做的事**:
 - 解析用户消息
 - 检索文件（如果有）
 - 加载当前的 `conversation_history`
-- 准备工具列表
+- 准备[工具](../../glossary.md#tool)列表
 
 **示例**:
 ```
@@ -157,7 +159,7 @@ Claude 看到用户的反馈，重新理解任务，可能：
 
 ### 什么是 Agent 的"记忆"？
 
-**在最简单的情况下**：像 Claude Code 这样的对话式 Agent，`conversation_history` 可以承担大部分 working state——这是最容易理解、也是下面示例展示的实现方式。更复杂的 Agent 系统通常还会维护额外的 task state、tool state、environment state，甚至用外部数据库、文件系统或 checkpoint 来存长期记忆，不是所有 Agent 都只靠一条 conversation_history 撑起全部状态。
+**在最简单的情况下**：像 Claude Code 这样的对话式 Agent，`conversation_history` 可以承担大部分 [working state](../../glossary.md#state)——这是最容易理解、也是下面示例展示的实现方式。更复杂的 Agent 系统通常还会维护额外的 task state、tool state、environment state，甚至用外部数据库、文件系统或 checkpoint 来存长期[记忆](../../glossary.md#memory)，不是所有 Agent 都只靠一条 conversation_history 撑起全部状态。
 
 ```python
 # 这是系统在维持的数据结构

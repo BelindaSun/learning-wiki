@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Harness](../conversations/harness.md)、[Agent Harness 文章讨论](../conversations/harness-article-discussion.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Tool](../../glossary.md#tool) · [Context](../../glossary.md#context)
+
 ---
 
 ## 目录
@@ -24,7 +26,7 @@ Harness 用四个维度来完整定义 Claude Code 的操作范围。
 
 ### 维度 1: 工具权限 (Tool Permissions)
 
-**定义**: Claude Code 能使用哪些工具。
+**定义**: Claude Code 能使用哪些[工具](../../glossary.md#tool)。
 
 **例子**:
 ```yaml
@@ -440,7 +442,7 @@ CLAUDE.md
 而读文件、执行已验证的代码 → 可以直接做
 ```
 
-这就是工作流里的"人工介入点"的真实形式。
+这就是[工作流](../../glossary.md#workflow)里的"人工介入点"的真实形式。
 
 ---
 

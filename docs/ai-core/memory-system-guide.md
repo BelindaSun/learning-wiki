@@ -7,6 +7,8 @@
 
 📖 **完整学习对话记录**：[Memory](../conversations/memory.md)
 
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [Context](../../glossary.md#context)
+
 ---
 
 ## 目录
@@ -90,7 +92,7 @@ Session 2:
 
 | 类型 | 原因 | 何时发生 | 解法 |
 |------|------|--------|------|
-| **对话中途** | Context Window 爆满 | 同一 session 中，对话太多 | 压缩历史、归档、摘要 |
+| **对话中途** | [Context](../../glossary.md#context) Window 爆满 | 同一 session 中，对话太多 | 压缩历史、归档、摘要 |
 | **跨对话** | 没有持久化记忆 | 不同 session，没有保存 | 建立长期记忆系统 |
 
 **关键**：两个问题原因不同，解法也不同，不能混为一谈。
@@ -386,7 +388,7 @@ family_facts = {
 }
 ```
 
-**第 4 层：今日状态**（Mimo 独创！）
+**第 4 层：今日[状态](../../glossary.md#state)**（Mimo 独创！）
 ```python
 # 伪代码
 today_state = {
