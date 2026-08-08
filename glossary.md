@@ -44,7 +44,7 @@ Model（能力核心） → 包装、加上界面和产品设计 → Product（�
 *想深入*：[Start Here 第 1 站：AI 到底是什么？](start-here.md)
 
 **LLM（大语言模型）**
-被海量文字训练过的 AI 模型，本质是"输入一段文字，预测接下来最可能是什么"。Claude、GPT、Gemini 都是 LLM。
+被大量文本和其他数据训练过的 AI 模型，本质是"输入一段文字，预测接下来最可能是什么"。Claude、GPT、Gemini 都是 LLM。
 
 *怎么想象*：AI 这个大类里，目前最重要的一种 Model（关系图见上面 AI 词条）。
 
@@ -53,7 +53,7 @@ Model（能力核心） → 包装、加上界面和产品设计 → Product（�
 *想深入*：[Start Here 第 2 站：LLM 为什么会说话？](start-here.md) · [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md)
 
 **Model**
-AI 产品背后的核心组件——一堆通过训练调出来的参数，很大程度上影响它能做到什么、做不到什么。你平时用的产品（ChatGPT、Claude.ai）是包在 Model 外面的那层壳。
+AI 产品背后的核心组件——一堆通过训练调出来的参数，很大程度上影响它能做到什么、做不到什么。你平时用的产品（ChatGPT、Claude.ai）是建立在 Model 之上的完整产品层，通常还包含工具调用、检索、记忆、安全机制、界面、编排等很多 Model 本身不提供的能力。
 
 *怎么想象*：像发动机——Product 是整辆车，Model 是藏在车里的发动机，你看不见它，但它是车能跑多快的重要因素之一（车好不好开，还要看变速箱、底盘这些其他部分）。
 
@@ -134,7 +134,7 @@ Agent 不是所有事都自己"想"出来，而是可以调用外部工具（读
 *想深入*：[Agent 系统架构完全指南：工具调用机制](docs/ai-core/agent-architecture.md)
 
 **Orchestrator（编排者）**
-在多个 Agent 协作的系统里，负责拆解任务、分配给不同 Agent、汇总结果的"总指挥"角色。 → [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
+负责拆解任务、协调资源、汇总结果的"总指挥"角色——协调的对象不一定是多个 Agent，也可以是模型调用、工具调用、工作流步骤之间的协调。多 Agent 协作是 Orchestrator 常见的一种场景，不是唯一场景。 → [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
 **Workflow（工作流）**
 把一个复杂任务拆成一系列步骤（可以并行、有条件分支、能循环），路径大部分是预先定义好的。执行者可以是一个 Agent，也可以是多个 Agent 协作——不是必须要多个。
@@ -182,7 +182,7 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 ## AI 应用与工具生态
 
 **Skill**
-给 Claude 打包的一套"怎么做某件事"的说明书——把具体任务需要的步骤、规则、格式要求写清楚存起来，以后调用它就不用重新解释一遍。 → [Skills 和商业格局](docs/ai-application/skills-business-landscape.md)
+这里特指 Claude / Claude Code 语境下的 Skill——给 Claude 打包的一套"怎么做某件事"的说明书，把具体任务需要的步骤、规则、格式要求写清楚存起来，以后调用它就不用重新解释一遍。不是业界统一标准术语，不同 AI 产品可能用别的名字指类似的东西。 → [Skills 和商业格局](docs/ai-application/skills-business-landscape.md)
 
 **MCP（Model Context Protocol，模型上下文协议）**
 一个让 AI 系统以统一方式连接外部工具和数据源的协议。
