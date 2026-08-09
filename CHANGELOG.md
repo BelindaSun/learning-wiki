@@ -2,6 +2,20 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.5] - August 10, 2026
+
+### 📝 Daily Update - Scale Spine 第一块内容：从 1 卡到千卡
+
+**新增页面**：`docs/computing-foundations/scaling-and-communication.md` —— 回答规模脊骨架页承诺的"为什么从 1 卡扩到千卡很难"。从"一个人干活 → 一群人协作"的直觉出发，接上 Hardware Map 已经建立的 Interconnect 概念（在每个尺度重复出现），讲清楚通信开销从哪来，再引出阿姆达尔定律（加人手收益递减的正式说法）。跟内存墙是同一个逻辑的放大版——内存墙讲芯片内部"喂不饱"，这篇讲机器之间"喂不饱"。
+
+**新增概念**：Amdahl's Law（阿姆达尔定律）
+
+**顺手补的遗漏**：`index.md` 的 Go Deeper 列表之前漏了把内存墙嵌到内存脊下面（只嵌了 CPU vs GPU），这次一起补上，FLOPS 与精度、内存墙、从 1 卡到千卡都正确嵌到各自主脊下；`glossary.md` 的 Memory Hierarchy 词条也还留着"HBM 是独立一层"的旧说法，同步修正。
+
+**索引更新**: `index-all-concepts.md` 新增 1 个概念条目（103 → 104）。
+
+至此，算力脊、内存脊、规模脊三条主脊都已经有内容，软硬桥脊、半导体脊仍是骨架页。
+
 ## [v4.4] - August 9, 2026
 
 ### 📝 Daily Update - Memory Spine 第一块内容：内存墙

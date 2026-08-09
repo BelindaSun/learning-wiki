@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 103 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 104 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -9,6 +9,7 @@
 - **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **Agent Feasibility Criteria（Agent 可行性六条标准）** - [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
 - **Agent OS 等价定理** - [Agent 基础设施 = 新操作系统](docs/career-impact/agent-infrastructure-os.md#agent-基础设施--新操作系统)
+- **Amdahl's Law（阿姆达尔定律）** - [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)
 - **Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
 - **Attention Mechanism** - [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Accelerator（加速器）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
@@ -221,7 +222,7 @@
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
 - **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
 - **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
-- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md) · [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
+- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md)（含 [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)）· [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
 
 ---
 

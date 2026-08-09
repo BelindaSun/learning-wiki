@@ -59,7 +59,7 @@
 
 - ← [Hardware Map](hardware-map.md) —— 缓存/RAM/HBM 最早在这里被认识
 - → [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— compute-bound/memory-bound 在真实 LLM 推理里的完整案例
-- 好奇"内存怎么跨机器共享" → 规模脊 Scale Spine（Later，Phase 1+）
+- 好奇"内存怎么跨机器共享" → [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md)
 
 ---
 
@@ -71,3 +71,4 @@
 - [Hardware Map](hardware-map.md) —— 缓存/RAM/HBM 最早在这里被认识
 - [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md) —— compute-bound 那一侧的故事
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— compute-bound/memory-bound 的真实案例
+- [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) —— 同一个"喂不饱"的逻辑，放大到机器之间

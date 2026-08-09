@@ -32,7 +32,7 @@ Runtime 再往下，是已经在 [Foundation Zero](foundation-zero.md) 认识过
 
 - → [Hardware Map](hardware-map.md) —— Runtime 最终要在什么物理的东西上执行
 - → [Software × Hardware Map](software-hardware-map.md) —— Runtime 具体怎么把工作交给硬件
-- 好奇"为什么一个产品通常不止一台服务器" → 规模脊 Scale Spine（Later，Phase 1+）
+- 好奇"为什么一个产品通常不止一台服务器" → [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md)
 
 ---
 
@@ -43,3 +43,4 @@ Runtime 再往下，是已经在 [Foundation Zero](foundation-zero.md) 认识过
 - [Foundation Zero · 地基第 0 层](foundation-zero.md) —— Code/Program/Process/OS、Client/Server/Network/API 在这里第一次被认识
 - [Hardware Map](hardware-map.md) —— 软件世界的邻居
 - [Software × Hardware Map](software-hardware-map.md) —— Runtime 在这里被继续展开
+- [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) —— "不止一台服务器"这个问题的完整答案
