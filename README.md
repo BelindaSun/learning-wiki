@@ -12,57 +12,59 @@
 
 ## 🗺️ 第一次来？
 
-👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花 60-90 分钟看完这 7 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
+👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花 60-90 分钟看完这 8 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、它跑在什么计算地基上、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
 
 已经懂基础、想直接探索的话，往下看"结构"就行。
 
-## 🗂️ 结构
+## 🚪 三扇门（怎么进来）
+
+- 🗺️ **Learn** —— 我要系统学 → [Start Here](start-here.md)（60-90 分钟最小地图）
+- 🔤 **Look Up** —— 我卡在一个词上 → [术语表](glossary.md) + [全部概念索引](index-all-concepts.md)
+- 🧠 **Explore** —— 我想看想法怎么连起来 → [Mental Models](mental-models.md)
+
+## 🗂️ 结构（五块知识领土，按依赖从地基到前沿排列）
 
 ```
-🗺️ Start Here
-  └─ 给新手的最小地图（7 站）
+🖥️ Computing Foundations 计算基础   ← 地基，导航排第一
+  └─ Foundation Zero → From Silicon to AI → 五主脊
 
-📚 AI Core
+📚 AI Core 核心
   ├─ Agent 系统架构
   ├─ 大语言模型基础
   ├─ Prompt 工程
   └─ 系统设计
 
-🛠️ AI 应用
+🛠️ AI in Practice 应用
   ├─ Skill 设计与实现
   ├─ 工作流设计模式
   ├─ MCP 与集成
   └─ 真实案例
 
-💼 职业与影响
+🔬 AI Research 研究
+  └─ 模型评估与优化方法
+
+🌍 Industry & Impact 产业与影响（AI 遇上世界）
   ├─ AI 对职业的冲击
   ├─ 个人能力建设
   └─ 未来趋势
 
 🎨 其他兴趣
   └─ [各种感兴趣的话题]
-
-🖥️ Computing Foundations
-  └─ 计算机基础地图（坐在 AI Core 之下）：Foundation Zero → From Silicon to AI → 五主脊
-
-🧠 心智模型
-  └─ 看世界方式的变迁轨迹
-
-📖 Meta
-  ├─ Wiki 更新日志
-  ├─ 术语表（新手友好）
-  └─ 概念关系图
 ```
+
+> 依赖关系上，Computing Foundations 是最底层的地基（AI Core 依赖它），但导航里列在第一项——用**排序**表达依赖，而不是把它嵌套进 AI Core 里。详见 [CLAUDE.md](CLAUDE.md) 的 Growth Rules。
+
+**Mental Models（心智模型）** 和 **Glossary + 全部概念索引** 不是领土，是横切所有领土的入口——见上面"三扇门"。
 
 ## 🚀 快速导航
 
 - **[Start Here](start-here.md)** - 第一次来？从这开始，60-90 分钟建立最小地图
 - **[术语表](glossary.md)** - 忘了某个词是什么意思？一句话查一下
+- **[Computing Foundations](docs/computing-foundations/index.md)** - 计算机基础地图，知识图谱里的地基层
 - **[AI Core](docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
-- **[AI 研究](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
-- **[AI 应用](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
-- **[Computing Foundations](docs/computing-foundations/index.md)** - 计算机基础地图，AI Core 之下的地基层
-- **[职业影响](docs/career-impact/index.md)** - AI 时代的机遇与挑战
+- **[AI in Practice](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
+- **[AI Research](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
+- **[Industry & Impact](docs/career-impact/index.md)** - AI 时代的机遇与挑战
 - **[心智模型变迁史](mental-models.md)** - 看世界方式的变迁轨迹
 - **[全部概念索引](index-all-concepts.md)** - 按字母排序的所有主题
 
@@ -79,8 +81,9 @@
 1. 完全没背景？先走一遍 [Start Here](start-here.md)
 2. 忘了某个词是什么意思，随时查 [术语表](glossary.md)
 3. 如果你对 Agent 感兴趣，从 [Agent 架构](docs/ai-core/agent-architecture.md) 开始
-4. 如果你想实战，从 [Skill 设计](docs/ai-application/skills-business-landscape.md) 开始
-5. 如果你想了解影响，从 [职业冲击](docs/career-impact/model-to-system-war.md) 开始
+4. 如果你好奇它跑在什么上面，从 [Computing Foundations](docs/computing-foundations/index.md) 开始
+5. 如果你想实战，从 [Skill 设计](docs/ai-application/skills-business-landscape.md) 开始
+6. 如果你想了解影响，从 [职业冲击](docs/career-impact/model-to-system-war.md) 开始
 
 ## 🔄 更新频率
 

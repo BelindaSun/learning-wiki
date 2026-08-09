@@ -87,6 +87,33 @@ Belinda 的个人 AI 学习笔记，每天手动加新内容。**不用 GitHub P
 
 这些都是已有约定，正常按 `CONTRIBUTE.md` 的页面结构模板写文章、不故意打破格式，网站那边就不会出错。每次往这个仓库 push，网站会通过 GitHub Action（`.github/workflows/notify-site.yml`）自动触发 Vercel 重新构建，几分钟内网站自动同步，不需要额外操作。
 
+## 知识架构 V2（五块领土 + 三扇门 + Growth Rules）
+
+2026-08 做过一次结构迁移（V1 → V2），把之前压在一层的"领土 / 横切透镜 / 进入方式"三件事分开了。以后加内容、想文章该放哪，按这套结构判断：
+
+**五块知识领土**（导航顺序 = 依赖顺序，地基排第一）：
+1. `docs/computing-foundations/` Computing Foundations 计算基础 —— 地基，读懂 AI 所需的最小计算基础
+2. `docs/ai-core/` AI Core 核心 —— LLM、Agent、Prompt、系统设计
+3. `docs/ai-application/` AI in Practice 应用 —— Skill、工作流、MCP、案例
+4. `docs/ai-research/` AI Research 研究 —— 训练、评估、优化
+5. `docs/career-impact/` Industry & Impact 产业与影响 —— AI 遇上世界：经济、职业、社会
+
+注意：**知识图谱（概念依赖）≠ 网站导航层级**。Computing Foundations 在依赖关系上是最底层的地基（AI Core 依赖它），但在导航/文件夹层级上是**顶层领土**，不嵌套在 AI Core 下面——用"排序"表达依赖，不用"嵌套"表达依赖。
+
+**三扇门**（横切所有领土，不是领土本身）：
+- 🗺️ Learn = `start-here.md`
+- 🔤 Look Up = `glossary.md` + `index-all-concepts.md`（合并成一个入口）
+- 🧠 Explore = `mental-models.md`
+
+`mental-models.md` 不再和五块领土并列，它是一条贯穿所有领土的横切透镜，记录"理解怎么变化"，不是"内容住在哪"。
+
+**Growth Rules（新概念该放哪）**：
+1. 一个概念只住**一块家领土**——按它主要依赖/属于哪一层归属，不要同一概念在多块领土各写一份。
+2. 一个家，多条链接：可以加 ↓ 向下链接（到它踩的地基）、→ 横向链接（到相关概念），但**不复制内容**。这类 down/across 链接目前**没有全站铺开**，只在个别真正需要的地方加，Computing Foundations 内容更充实之后再逐步补。
+3. `glossary.md` 只是**指针**，每个词条一句话解释 + 链接到概念的家页，不放真正内容。
+4. **新开顶层领土的门槛很高**：只有当一块知识（a）概念很多、（b）被多块现有领土依赖或依赖多块、（c）塞不进任何现有领土的子节，三者同时成立，才新开顶层领土（这正是 Computing Foundations 当初够格的原因）。默认新东西是某个现有领土的**子节**（子页面），不是新领土。
+5. `mental-models.md` 只记**理解的变化**（原来以为 X，后来发现 Y），不记事实本身；事实住在它所属的领土页面里。
+
 ## 提交
 
 ```bash

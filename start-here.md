@@ -1,6 +1,6 @@
 # Start Here
 
-> 完全没有 AI 技术背景？从这里开始。这不是课程，是一张**最小地图**——用 60-90 分钟看完这 7 站，你不会成为专家，但会知道这个 Wiki 里其他文章在讨论什么、彼此怎么连接。看完之后，去 [AI Core](docs/ai-core/index.md)、[心智模型](mental-models.md) 或任何你好奇的地方自由探索就行。
+> 完全没有 AI 技术背景？从这里开始。这不是课程，是一张**最小地图**——用 60-90 分钟看完这 8 站，你不会成为专家，但会知道这个 Wiki 里其他文章在讨论什么、彼此怎么连接。看完之后，去 [AI Core](docs/ai-core/index.md)、[心智模型](mental-models.md) 或任何你好奇的地方自由探索就行。
 >
 > 正文里的深度文章不会因为这张地图而变浅——它们本来就是写给已经理解基础的人看的。这张地图的作用，是帮你先跨过那道门槛。
 
@@ -113,7 +113,21 @@ Chatbot 是"问了才答"的工具；Agent 是"给了目标就自己想办法干
 
 ---
 
-## 04 · Workflow、Agent、Skill、Tool、MCP 到底什么关系？
+## 04 · 好奇它到底跑在什么上面？
+
+**问题**：好奇它到底跑在什么上面？
+
+**一句话答案**：想往下看的话——AI 的一切都踩在计算地基上：芯片、算力、内存、互连。
+
+**去哪**：
+
+- → [Foundation Zero](docs/computing-foundations/foundation-zero.md)（认识最基本的"原子"）
+- → [From Silicon to AI](docs/computing-foundations/index.md)（一张图看懂硅怎么叠成 AI）
+- 想更深 → [Computing Foundations 领土](docs/computing-foundations/index.md)
+
+---
+
+## 05 · Workflow、Agent、Skill、Tool、MCP 到底什么关系？
 
 **问题**：这几个词天天一起出现，到底谁是谁？
 
@@ -164,7 +178,7 @@ Harness 也不只是"划边界"这么简单——它更像是**围绕模型搭�
 
 ---
 
-## 05 · AI 为什么需要 Context、State 和 Memory？
+## 06 · AI 为什么需要 Context、State 和 Memory？
 
 **问题**：为什么 AI 会"忘事"？Context、State、Memory 是不是一回事？
 
@@ -197,7 +211,7 @@ Memory（记忆）
 
 ---
 
-## 06 · 为什么 Coding Agent 最先爆发？
+## 07 · 为什么 Coding Agent 最先爆发？
 
 **问题**：这么多领域，为什么"写代码"是 Agent 第一个真正做起来的场景？
 
@@ -224,7 +238,7 @@ Memory（记忆）
 
 ---
 
-## 07 · AI 真正改变的是什么？
+## 08 · AI 真正改变的是什么？
 
 到这里，技术层面的地图已经搭完了。最后一站不讲技术，讲这个 Wiki 里最重要的一件事：**学 AI，最有价值的不是记住越来越多术语，而是不断升级自己理解这个世界的方式。**
 
@@ -239,12 +253,15 @@ Memory（记忆）
 
 **你现在有了这张地图。接下来，自由探索就好。**
 
-推荐去处：
-- 想系统学技术基础 → [AI Core](docs/ai-core/index.md)
-- 想看行业里发生了什么、怎么应用 → [AI 应用](docs/ai-application/index.md)
-- 想看这对职业和个人意味着什么 → [职业与影响](docs/career-impact/index.md)
+推荐去处（三扇门）：
+- 🗺️ 想系统学技术基础 → [AI Core](docs/ai-core/index.md)、[Computing Foundations](docs/computing-foundations/index.md)
+- 🔤 忘了某个词是什么意思 → [Look Up：术语表](glossary.md) + [全部概念索引](index-all-concepts.md)
+- 🧠 想看想法怎么连起来的 → [Mental Models](mental-models.md)
+
+其他去处：
+- 想看行业里发生了什么、怎么应用 → [AI in Practice](docs/ai-application/index.md)
+- 想看这对职业和个人意味着什么 → [Industry & Impact](docs/career-impact/index.md)
 - 想看作者最近又学了什么 → [查看完整更新日志](CHANGELOG.md)
-- 忘了某个词是什么意思 → [术语表](glossary.md)
 
 ---
 
