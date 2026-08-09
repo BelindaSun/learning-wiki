@@ -1,6 +1,6 @@
 # Software Map · 软件世界地图
 
-**核心概念**: 用 ChatGPT / Claude / Coding Agent 时，看到的东西底下有哪些软件层？这张地图只回答"是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"——想知道为什么，去 [Computing Foundations 的 Go Deeper 层，五主脊](index.md)。
+**核心概念**: 用 ChatGPT / Claude / Coding Agent 时，看到的东西底下有哪些软件层？这张地图只回答"是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"——想知道为什么，去 Computing Foundations 的 Go Deeper 层，五主脊（见文末"下一步"）。
 
 ---
 
