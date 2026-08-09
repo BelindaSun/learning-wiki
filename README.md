@@ -52,7 +52,7 @@
   └─ [各种感兴趣的话题]
 ```
 
-> 依赖关系上，Computing Foundations 是最底层的地基（AI Core 依赖它），但导航里列在第一项——用**排序**表达依赖，而不是把它嵌套进 AI Core 里。详见 [CLAUDE.md](CLAUDE.md) 的 Growth Rules。
+> 依赖关系上，Computing Foundations 是最底层的地基（AI Core 依赖它），但导航里列在第一项——用**排序**表达依赖，而不是把它嵌套进 AI Core 里。详见仓库根目录的 `CLAUDE.md`（Growth Rules 章节，维护笔记文件，不在网站上单独渲染）。
 
 **Mental Models（心智模型）** 和 **Glossary + 全部概念索引** 不是领土，是横切所有领土的入口——见上面"三扇门"。
 
