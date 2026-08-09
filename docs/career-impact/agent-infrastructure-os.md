@@ -154,6 +154,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - 💼 想看护城河迁移的完整脉络，看 [从工具到产业](industry-competition-shift.md)
 - 🛠️ 想深入 MCP 协议，看 [MCP 统一协议指南](../ai-application/mcp-protocol-guide.md)
 - 🤝 想看可信度框架，看 [从"最聪明"到"最可信"](capability-to-trust.md)
+- 🧱 想看"模型下沉为 CPU"这个类比背后，CPU/GPU 本身是怎么从晶体管一路叠起来的，看 [算力脊](../computing-foundations/compute-spine.md)
 
 ---
 
@@ -169,3 +170,4 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - [Google AI 领导层重组](google-agi-org-restructuring.md)
 - [Scaling Paradox](scaling-paradox.md)
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md)
+- [算力脊 · Computing Foundations](../computing-foundations/compute-spine.md)

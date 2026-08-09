@@ -2,6 +2,28 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.2] - August 9, 2026
+
+### 🖥️ 新增第 6 个顶层分支：Computing Foundations（Phase 0）
+
+**范围**：Computing Foundations 坐在 AI Core 之下，是"读懂 AI 时代所需的最小计算基础"这一层地基。Phase 0 只交付结构和骨架，不写任何概念详情页——那是 Phase 1+ 的事。
+
+**新增页面**：
+- `docs/computing-foundations/index.md` - 分支首页，嵌入 "From Silicon to AI" 主定向图（硅/晶体管 → 芯片 → 处理器/计算系统 → 服务器 → 集群 → 数据中心 → 训练/推理 → AI 产品，左轨半导体供应链、右轨软件栈）
+- `docs/computing-foundations/foundation-zero.md` - 地基第 0 层：5 组最基本的"原子"（硬件/软件、CPU/内存/存储、代码/程序/进程/OS、客户端/服务器/网络/API、核/并行/GPU），每组一句话 + 一个心智图像
+- `docs/computing-foundations/compute-spine.md`、`memory-spine.md`、`scale-spine.md`、`bridge-spine.md`、`semiconductor-spine.md` - 5 主脊骨架页，各自只放脊图（概念链）+ 一句要回答的问题
+- `docs/computing-foundations/assets/from-silicon-to-ai.svg`、`foundation-zero.svg` - 两张视觉资源
+
+**新增概念**：Computing Foundations、Foundation Zero、Compute Spine（算力脊）、Memory Spine（内存脊）、Scale Spine（规模脊）、Bridge Spine（软硬桥脊）、Semiconductor Spine（半导体脊）
+
+**交叉链接示范**（Phase 0 只接骨架级，其余留 Phase 1+）：
+- [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)（解构式推理）↔ [内存脊](docs/computing-foundations/memory-spine.md)，双向
+- [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)（模型下沉为 CPU 的类比）↔ [算力脊](docs/computing-foundations/compute-spine.md)，双向
+
+**设计要点**：Foundation Zero 第 5 组卡片（核/并行/GPU）不高亮——五组是同级原子；主图黄色框把"处理器 + 内存 + 互连"包在一起表示一个计算系统（算力 = 处理器的能力，不是另生成的一层）。Phase 1 写 CPU vs GPU 详情页时，必须主动纠正这里"中央厨房"比喻的近似（GPU 不只是核更多，而是整体架构偏高吞吐、大规模并行）。
+
+**索引更新**: `index-all-concepts.md` 新增 7 个概念条目（81 → 88），新增"计算基础"主题分类；README.md 结构树、快速导航、"最新更新"表同步更新。
+
 ## [v4.1] - August 9, 2026
 
 ### 📝 Daily Update - 推理基础设施与 Agent 延迟

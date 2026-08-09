@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 81 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 88 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -15,10 +15,13 @@
 ## B
 
 - **Benchmark** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
+- **Bridge Spine（软硬桥脊）** - [软硬桥脊](docs/computing-foundations/bridge-spine.md)
 
 ## C
 
 - **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust)
+- **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
+- **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Causal Mask** - [生成过程详解](docs/ai-core/transformer-architecture.md#causal-mask因果掩码)
@@ -47,6 +50,7 @@
 
 - **Feed Forward Network** - [前馈网络](docs/ai-core/transformer-architecture.md#前馈网络feed-forward-network)
 - **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
+- **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
 ## H
 
@@ -69,6 +73,7 @@
 
 - **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
+- **Memory Spine（内存脊）** - [内存脊](docs/computing-foundations/memory-spine.md)
 - **Model War** - [模型战争时代](docs/career-impact/model-to-system-war.md#模型战争时代)
 - **MCP** - [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
 - **MCP Protocol** - [MCP 的核心价值](docs/ai-application/mcp-protocol-guide.md#mcp-的核心价值)
@@ -111,6 +116,8 @@
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
 - **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
+- **Scale Spine（规模脊）** - [规模脊](docs/computing-foundations/scale-spine.md)
+- **Semiconductor Spine（半导体脊）** - [半导体脊](docs/computing-foundations/semiconductor-spine.md)
 - **System of Record** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **System War** - [系统战争](docs/career-impact/model-to-system-war.md#为什么转向系统战争)
 
@@ -191,11 +198,20 @@
 ### 🖼️ 多模态（Multimodal）
 - [多模态（Multimodal）](docs/conversations/multimodal.md)
 
+### 🖥️ 计算基础（Computing Foundations）
+- [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
+- [Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
+- [算力脊](docs/computing-foundations/compute-spine.md)
+- [内存脊](docs/computing-foundations/memory-spine.md)
+- [规模脊](docs/computing-foundations/scale-spine.md)
+- [软硬桥脊](docs/computing-foundations/bridge-spine.md)
+- [半导体脊](docs/computing-foundations/semiconductor-spine.md)
+
 ---
 
-**最后更新**: August 8, 2026  
-**概念总数**: 81 个核心概念  
-**覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局
+**最后更新**: August 9, 2026  
+**概念总数**: 88 个核心概念  
+**覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---
 

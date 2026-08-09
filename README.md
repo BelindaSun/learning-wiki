@@ -42,6 +42,9 @@
 🎨 其他兴趣
   └─ [各种感兴趣的话题]
 
+🖥️ Computing Foundations
+  └─ 计算机基础地图（坐在 AI Core 之下）：Foundation Zero → From Silicon to AI → 五主脊
+
 🧠 心智模型
   └─ 看世界方式的变迁轨迹
 
@@ -58,6 +61,7 @@
 - **[AI Core](docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
 - **[AI 研究](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
 - **[AI 应用](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
+- **[Computing Foundations](docs/computing-foundations/index.md)** - 计算机基础地图，AI Core 之下的地基层
 - **[职业影响](docs/career-impact/index.md)** - AI 时代的机遇与挑战
 - **[心智模型变迁史](mental-models.md)** - 看世界方式的变迁轨迹
 - **[全部概念索引](index-all-concepts.md)** - 按字母排序的所有主题
@@ -94,6 +98,7 @@
 
 | 日期        | 主题                                     | 概念数 |
 | ----------- | ---------------------------------------- | ------ |
+| Aug 9, 2026 | Computing Foundations Phase 0：计算机基础地图 | 7      |
 | Aug 9, 2026 | 推理基础设施与 Agent 延迟                | 5      |
 | Aug 8, 2026 | Scaling Paradox：AI 越强系统为什么可能更差 | 3      |
 | Aug 7, 2026 | Google AI 领导层重组                     | 2      |

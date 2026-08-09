@@ -1,0 +1,110 @@
+<svg viewBox="0 0 960 1025" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94A3B8"/>
+    </marker>
+    <marker id="arrowR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#86C69E"/>
+    </marker>
+    <marker id="arrowB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9DB8F0"/>
+    </marker>
+  </defs>
+
+  <text x="480" y="42" text-anchor="middle" font-size="21" font-weight="700" fill="#0F172A">从硅到 AI · From Silicon to AI</text>
+  <text x="480" y="64" text-anchor="middle" font-size="12" fill="#64748B">从下往上读：硅一路叠成 AI。两条侧轨是连接软硬件的两座桥（只求方向感，不求完整）</text>
+
+  <!-- central upward arrows -->
+  <g stroke="#94A3B8" stroke-width="2">
+    <line x1="480" y1="942" x2="480" y2="916" marker-end="url(#arrow)"/>
+    <line x1="480" y1="852" x2="480" y2="806" marker-end="url(#arrow)"/>
+    <line x1="480" y1="548" x2="480" y2="512" marker-end="url(#arrow)"/>
+    <line x1="480" y1="448" x2="480" y2="422" marker-end="url(#arrow)"/>
+    <line x1="480" y1="358" x2="480" y2="332" marker-end="url(#arrow)"/>
+    <line x1="480" y1="268" x2="480" y2="242" marker-end="url(#arrow)"/>
+    <line x1="480" y1="178" x2="480" y2="152" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- Row 9: AI products (endpoint) -->
+  <rect x="350" y="88" width="260" height="62" rx="10" fill="#E8EEFC" stroke="#9DB8F0"/>
+  <text x="480" y="116" text-anchor="middle" font-size="18" font-weight="600" fill="#1E3A8A">AI 产品</text>
+  <text x="480" y="136" text-anchor="middle" font-size="11" fill="#475569">ChatGPT · Coding Agents · AI Assistants</text>
+
+  <!-- Row 8 -->
+  <rect x="350" y="178" width="260" height="62" rx="10" fill="#EEF2F7" stroke="#CBD5E1"/>
+  <text x="480" y="206" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">训练 / 推理</text>
+  <text x="480" y="226" text-anchor="middle" font-size="11" fill="#64748B">Training / Inference</text>
+
+  <!-- Row 7 -->
+  <rect x="350" y="268" width="260" height="62" rx="10" fill="#EEF2F7" stroke="#CBD5E1"/>
+  <text x="480" y="296" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">数据中心</text>
+  <text x="480" y="316" text-anchor="middle" font-size="11" fill="#64748B">Datacenter（+ 供电 / 散热）</text>
+
+  <!-- Row 6 -->
+  <rect x="350" y="358" width="260" height="62" rx="10" fill="#EEF2F7" stroke="#CBD5E1"/>
+  <text x="480" y="386" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">集群</text>
+  <text x="480" y="406" text-anchor="middle" font-size="11" fill="#64748B">Cluster</text>
+
+  <!-- Row 5 -->
+  <rect x="350" y="448" width="260" height="62" rx="10" fill="#EEF2F7" stroke="#CBD5E1"/>
+  <text x="480" y="476" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">服务器</text>
+  <text x="480" y="496" text-anchor="middle" font-size="11" fill="#64748B">Server</text>
+
+  <!-- Computing-system group: wraps the processor + its three key capabilities -->
+  <rect x="306" y="548" width="348" height="272" rx="14" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="480" y="574" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">计算系统 · 三项关键能力</text>
+  <text x="480" y="594" text-anchor="middle" font-size="10.5" fill="#B45309">处理器提供算力；配上内存、互连，才成为一个计算系统</text>
+  <!-- three capability chips -->
+  <rect x="318" y="612" width="96" height="56" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+  <text x="366" y="637" text-anchor="middle" font-size="14" font-weight="600" fill="#92400E">内存</text>
+  <text x="366" y="654" text-anchor="middle" font-size="9.5" fill="#B45309">Memory</text>
+  <rect x="432" y="612" width="96" height="56" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+  <text x="480" y="637" text-anchor="middle" font-size="14" font-weight="600" fill="#92400E">算力</text>
+  <text x="480" y="654" text-anchor="middle" font-size="9.5" fill="#B45309">Compute</text>
+  <rect x="546" y="612" width="96" height="56" rx="8" fill="#FEF3C7" stroke="#F59E0B"/>
+  <text x="594" y="637" text-anchor="middle" font-size="14" font-weight="600" fill="#92400E">互连</text>
+  <text x="594" y="654" text-anchor="middle" font-size="9.5" fill="#B45309">Interconnect</text>
+  <!-- connector: compute is the processor's capability -->
+  <line x1="480" y1="668" x2="480" y2="740" stroke="#B45309" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="500" y="710" font-size="9.5" fill="#B45309">算力＝处理器的能力</text>
+  <!-- processor box inside the group -->
+  <rect x="400" y="742" width="160" height="62" rx="10" fill="#FDE9B8" stroke="#F59E0B"/>
+  <text x="480" y="770" text-anchor="middle" font-size="17" font-weight="600" fill="#7C2D12">处理器</text>
+  <text x="480" y="790" text-anchor="middle" font-size="10.5" fill="#92400E">CPU / GPU / 加速器</text>
+
+  <!-- Row 2 -->
+  <rect x="350" y="852" width="260" height="62" rx="10" fill="#EEF2F7" stroke="#CBD5E1"/>
+  <text x="480" y="880" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">芯片</text>
+  <text x="480" y="900" text-anchor="middle" font-size="11" fill="#64748B">Chip</text>
+
+  <!-- Row 1 -->
+  <rect x="350" y="942" width="260" height="62" rx="10" fill="#E2E8F0" stroke="#94A3B8"/>
+  <text x="480" y="970" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">硅 / 晶体管</text>
+  <text x="480" y="990" text-anchor="middle" font-size="11" fill="#64748B">Silicon / Transistor</text>
+
+  <!-- LEFT rail: semiconductor supply -->
+  <rect x="40" y="828" width="212" height="180" rx="12" fill="#E7F5EC" stroke="#86C69E"/>
+  <text x="146" y="852" text-anchor="middle" font-size="12.5" font-weight="700" fill="#166534">半导体供应链</text>
+  <text x="146" y="868" text-anchor="middle" font-size="9.5" fill="#3F8F5C">Semiconductor supply</text>
+  <text x="146" y="898" text-anchor="middle" font-size="11.5" fill="#14532D">晶圆 → 裸片 → 良率</text>
+  <text x="146" y="924" text-anchor="middle" font-size="11.5" fill="#14532D">→ 制程 → 先进封装</text>
+  <text x="146" y="958" text-anchor="middle" font-size="10" fill="#3F8F5C">造出底层的硅与芯片</text>
+  <line x1="252" y1="883" x2="348" y2="883" stroke="#86C69E" stroke-width="2" marker-end="url(#arrowR)"/>
+
+  <!-- RIGHT rail: software stack — bridges workload (top) to hardware (bottom) -->
+  <rect x="708" y="178" width="212" height="560" rx="12" fill="#E8EEFC" stroke="#9DB8F0"/>
+  <text x="814" y="204" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1E3A8A">软件栈 Software stack</text>
+  <text x="814" y="222" text-anchor="middle" font-size="9.5" fill="#4B6BC4">把训练 / 推理任务</text>
+  <text x="814" y="236" text-anchor="middle" font-size="9.5" fill="#4B6BC4">翻译、调度到底层硬件</text>
+  <text x="814" y="300" text-anchor="middle" font-size="12" fill="#1E3A8A">编译器 Compiler</text>
+  <text x="814" y="380" text-anchor="middle" font-size="12" fill="#1E3A8A">CUDA / Kernel</text>
+  <text x="814" y="460" text-anchor="middle" font-size="12" fill="#1E3A8A">ML 编译器</text>
+  <text x="814" y="540" text-anchor="middle" font-size="12" fill="#1E3A8A">推理引擎 Engine</text>
+  <!-- top connector: to training/inference -->
+  <line x1="708" y1="255" x2="612" y2="255" stroke="#9DB8F0" stroke-width="2" marker-end="url(#arrowB)"/>
+  <!-- bottom connector: down to the computing-system (processor + memory + interconnect) -->
+  <line x1="708" y1="690" x2="656" y2="690" stroke="#9DB8F0" stroke-width="2" marker-end="url(#arrowB)"/>
+
+  <!-- footer -->
+  <text x="480" y="1018" text-anchor="middle" font-size="12" fill="#475569">④ 计算系统 = 处理器（算力）+ 内存 + 互连；三者协同，AI 不只靠算力</text>
+</svg>
