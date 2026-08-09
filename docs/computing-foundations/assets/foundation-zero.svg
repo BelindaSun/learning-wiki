@@ -1,45 +1,31 @@
-<svg viewBox="0 0 960 780" xmlns="http://www.w3.org/2000/svg" font-family="'Noto Sans SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif">
-  <text x="480" y="40" text-anchor="middle" font-size="21" font-weight="700" fill="#0F172A">Foundation Zero · 地基第 0 层</text>
-  <text x="480" y="62" text-anchor="middle" font-size="12" fill="#64748B">进五主脊之前，先认识 5 组最基本的"原子"（一句话 + 一个心智图像）</text>
+<svg viewBox="0 0 1200 860" xmlns="http://www.w3.org/2000/svg" font-family="&#39;Source Serif 4&#39;,&#39;Songti SC&#39;,&#39;Noto Serif SC&#39;,Georgia,serif">
+  <rect x="0" y="0" width="1200" height="860" fill="#f7f3ea"></rect>
+  <text x="600" y="50" text-anchor="middle" font-weight="600" font-size="26" fill="#2b2724">Foundation Zero · 地基第 0 层</text>
+  <text x="600" y="76" text-anchor="middle" font-size="13" fill="rgba(43,39,36,0.68)">五个最基本的心智模型，不是五张规格卡</text>
 
-  <text x="62" y="94" font-size="10" fill="#94A3B8">概念组</text>
-  <text x="332" y="94" font-size="10" fill="#94A3B8">一句话区分</text>
-  <text x="662" y="94" font-size="10" fill="#94A3B8">心智图像</text>
+  <text x="60" y="142" font-weight="700" font-size="13" fill="#b5541c">01</text>
+  <text x="100" y="142" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">硬件 / 软件 · Hardware / Software</text>
+  <text x="100" y="184" font-size="22" font-style="italic" fill="#2b2724">硬件是乐器，软件是乐谱</text>
+  <text x="100" y="222" font-size="14.5" fill="rgba(43,39,36,0.68)">硬件 = 摸得到的机器；软件 = 让它做事的指令</text>
 
-  <!-- Card 1 -->
-  <rect x="40" y="104" width="880" height="104" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
-  <text x="62" y="150" font-size="17" font-weight="700" fill="#0F172A">硬件 / 软件</text>
-  <text x="62" y="172" font-size="11" fill="#64748B">Hardware / Software</text>
-  <text x="332" y="162" font-size="14" fill="#334155">硬件 = 摸得到的机器；软件 = 让它做事的指令</text>
-  <text x="662" y="162" font-size="13" font-style="italic" fill="#475569">硬件是乐器，软件是乐谱</text>
+  <text x="60" y="282" font-weight="700" font-size="13" fill="#b5541c">02</text>
+  <text x="100" y="282" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">CPU / 内存 / 存储 · CPU / Memory / Storage</text>
+  <text x="100" y="324" font-size="22" font-style="italic" fill="#2b2724">工人 / 书桌 / 书架</text>
+  <text x="100" y="362" font-size="14.5" fill="rgba(43,39,36,0.68)">CPU 干活；内存 手边正在用；存储 收着的</text>
 
-  <!-- Card 2 -->
-  <rect x="40" y="222" width="880" height="104" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
-  <text x="62" y="268" font-size="17" font-weight="700" fill="#0F172A">CPU / 内存 / 存储</text>
-  <text x="62" y="290" font-size="11" fill="#64748B">CPU / Memory / Storage</text>
-  <text x="332" y="280" font-size="14" fill="#334155">CPU 干活；内存 手边正在用；存储 收着的</text>
-  <text x="662" y="280" font-size="13" font-style="italic" fill="#475569">工人 / 书桌 / 书架</text>
+  <text x="60" y="422" font-weight="700" font-size="13" fill="#b5541c">03</text>
+  <text x="100" y="422" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">代码 / 程序 / 进程 / OS · Code / Program / Process / OS</text>
+  <text x="100" y="464" font-size="22" font-style="italic" fill="#2b2724">菜谱 / 菜谱本 / 正做的菜 / 厨房主管</text>
+  <text x="100" y="502" font-size="14.5" fill="rgba(43,39,36,0.68)">指令 → 打包成一套 → 正在跑的那份 → 总管</text>
 
-  <!-- Card 3 -->
-  <rect x="40" y="340" width="880" height="104" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
-  <text x="62" y="386" font-size="17" font-weight="700" fill="#0F172A">代码 / 程序 / 进程 / OS</text>
-  <text x="62" y="408" font-size="11" fill="#64748B">Code / Program / Process / OS</text>
-  <text x="332" y="398" font-size="14" fill="#334155">指令 → 打包成一套 → 正在跑的那份 → 总管</text>
-  <text x="662" y="398" font-size="13" font-style="italic" fill="#475569">菜谱 / 菜谱本 / 正做的菜 / 厨房主管</text>
+  <text x="60" y="562" font-weight="700" font-size="13" fill="#b5541c">04</text>
+  <text x="100" y="562" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">客户端 / 服务器 / 网络 / API · Client / Server / Network / API</text>
+  <text x="100" y="604" font-size="22" font-style="italic" fill="#2b2724">按菜单点单，餐厅做、服务员送</text>
+  <text x="100" y="642" font-size="14.5" fill="rgba(43,39,36,0.68)">提出请求 / 处理并响应 / 负责传递 / 规定怎么请求</text>
 
-  <!-- Card 4 (client/server order fixed) -->
-  <rect x="40" y="458" width="880" height="104" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
-  <text x="62" y="504" font-size="17" font-weight="700" fill="#0F172A">客户端 / 服务器 / 网络 / API</text>
-  <text x="62" y="526" font-size="11" fill="#64748B">Client / Server / Network / API</text>
-  <text x="332" y="516" font-size="14" fill="#334155">提出请求 / 处理并响应 / 负责传递 / 规定怎么请求</text>
-  <text x="662" y="516" font-size="13" font-style="italic" fill="#475569">按菜单点单，餐厅做、服务员送</text>
-
-  <!-- Card 5 (no highlight; small forward-flag only) -->
-  <rect x="40" y="576" width="880" height="104" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
-  <text x="62" y="622" font-size="17" font-weight="700" fill="#0F172A">核 / 并行 / GPU</text>
-  <text x="62" y="644" font-size="11" fill="#64748B">Core / Parallelism / GPU</text>
-  <text x="332" y="634" font-size="14" fill="#334155">一个干活单元 → 很多核同时干 → 做到极致</text>
-  <text x="662" y="634" font-size="13" font-style="italic" fill="#475569">一个厨师 → 一排同时炒 → 中央厨房 *</text>
-
-  <text x="40" y="712" font-size="11" fill="#94A3B8">* 入门近似；后面讲 CPU vs GPU 时会升级（GPU 不只是"核更多"）。</text>
+  <text x="60" y="702" font-weight="700" font-size="13" fill="#b5541c">05</text>
+  <text x="100" y="702" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">核 / 并行 / GPU · Core / Parallelism / GPU</text>
+  <text x="100" y="744" font-size="22" font-style="italic" fill="#2b2724">一个厨师 → 一排同时炒 → 中央厨房</text>
+  <text x="100" y="782" font-size="14.5" fill="rgba(43,39,36,0.68)">一个干活单元 → 很多核同时干 → 做到极致</text>
+  <text x="100" y="812" font-size="13" font-style="italic" fill="#8a3f14">入门近似；后面讲 CPU vs GPU 时会升级（GPU 不只是&#34;核更多&#34;）</text>
 </svg>
