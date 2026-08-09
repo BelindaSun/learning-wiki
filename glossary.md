@@ -177,6 +177,8 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 
 *想深入*：[Start Here 第 5 站](start-here.md) · [Agent 记忆系统完全指南](docs/ai-core/memory-system-guide.md)
 
+> ⚠️ 这里的 Memory 是 Agent 软件层面的"记忆"。如果你要找的是硬件内存（RAM/缓存/HBM，数据物理上放在哪、搬得多快），看下面"计算基础"分类里的 Memory Wall。
+
 ---
 
 ## AI 应用与工具生态
@@ -277,6 +279,18 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **FLOPS（Floating-point Operations Per Second，每秒浮点运算次数）**
 衡量硬件一秒钟能做多少次数学运算的单位——不是"这块芯片有多聪明"，是"手有多快"。数字精度越低，同样宽的硬件一次能塞下的数字越多，FLOPS 就越高。 → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 
+**Memory Wall（内存墙）**
+算力这些年涨得比数据搬运速度快得多，这道越拉越大的差距——计算单元经常不是不够快，是数据没送到。**注意**：这里的 Memory 指硬件内存（RAM/缓存/HBM），不是 Agent 那个"记忆"的 Memory，两者是完全不同的概念，只是中英文都撞了同一个词。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
+**Memory Hierarchy（内存层级）**
+离计算单元越近的存储越快越小越贵，越远的越慢越大越便宜——寄存器/缓存 → RAM → HBM → 硬盘，一层套一层，不是哪层"更好"，是每层都在"快"和"大"之间做了不同取舍。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
+**Bandwidth vs Capacity（带宽 vs 容量）**
+容量是"能装多少"，带宽是"单位时间能搬多少"——两个独立的维度，容易被当成一件事。HBM 被 AI 硬件看重，主要是因为带宽高，不是因为装得多。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
+**Arithmetic Intensity（算术强度）**
+每从内存搬一份数据，能换来多少次运算——比例高，瓶颈在算力（compute-bound）；比例低，瓶颈在搬运（memory-bound）。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
 **Batching（批处理）**
 把多个请求凑在一起、一次性交给硬件处理，比一个一个处理更划算——你的请求有时候"等一下"，可能就是在等凑一批。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 
@@ -290,7 +304,7 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 99 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 103 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

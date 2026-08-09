@@ -1,18 +1,16 @@
 # 内存脊 · Memory Spine
 
-**核心概念**: 从内存 vs 存储到 compute/memory-bound，这条脊回答"为什么更快的算术 ≠ 更快推理"——本页是骨架页，详情待 Phase 1+ 逐条展开。
+**核心概念**: 从"内存 vs 存储"这组已经认识的原子，到内存墙、compute-bound vs memory-bound——这条脊回答"为什么更快的算术 ≠ 更快推理"，已经写好。
 
 ---
 
 ```
-内存 vs 存储 → 内存层级 → 内存带宽 → 高带宽内存(HBM) → 算术强度 → compute-bound / memory-bound
+（内存 vs 存储 —— 已在 Foundation Zero 认识）→ 内存层级 → 容量 vs 带宽 → compute-bound / memory-bound
 ```
 
 ## 这条脊要回答的问题
 
-- 为什么更快的算术 ≠ 更快推理？
-
-详情待 Phase 1+。
+- **为什么更快的算术 ≠ 更快推理？** → [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md)
 
 ---
 

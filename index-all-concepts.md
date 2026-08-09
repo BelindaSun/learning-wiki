@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 99 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 103 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -12,9 +12,11 @@
 - **Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
 - **Attention Mechanism** - [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Accelerator（加速器）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
+- **Arithmetic Intensity（算术强度）** - [内存墙](docs/computing-foundations/memory-wall.md)
 
 ## B
 
+- **Bandwidth vs Capacity（带宽 vs 容量）** - [内存墙](docs/computing-foundations/memory-wall.md)
 - **Batching（批处理）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Benchmark** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
 - **Bridge Spine（软硬桥脊）** - [软硬桥脊](docs/computing-foundations/bridge-spine.md)
@@ -85,6 +87,8 @@
 - **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
 - **Memory Spine（内存脊）** - [内存脊](docs/computing-foundations/memory-spine.md)
+- **Memory Wall（内存墙，硬件内存，非 Agent 记忆）** - [内存墙](docs/computing-foundations/memory-wall.md)
+- **Memory Hierarchy（内存层级）** - [内存墙](docs/computing-foundations/memory-wall.md)
 - **Model War** - [模型战争时代](docs/career-impact/model-to-system-war.md#模型战争时代)
 - **MCP** - [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
 - **MCP Protocol** - [MCP 的核心价值](docs/ai-application/mcp-protocol-guide.md#mcp-的核心价值)
@@ -217,7 +221,7 @@
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
 - **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
 - **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
-- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md) · [规模脊](docs/computing-foundations/scale-spine.md) · [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
+- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md) · [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
 
 ---
 

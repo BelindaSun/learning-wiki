@@ -2,6 +2,18 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.4] - August 9, 2026
+
+### 📝 Daily Update - Memory Spine 第一块内容：内存墙
+
+**新增页面**：`docs/computing-foundations/memory-wall.md` —— 回答内存脊骨架页承诺的"为什么更快的算术 ≠ 更快推理"。从 Foundation Zero 已认识的"内存 vs 存储"原子出发，走到内存层级（越近越快越小越贵）→ 容量 vs 带宽（两个独立维度）→ 算术强度 / compute-bound vs memory-bound，跟已经写好的 [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)（Prefill/Decode、GEMM/GEMV）双向链接，作为这套硬件逻辑的真实案例。
+
+**新增概念**：Memory Wall（内存墙）、Memory Hierarchy（内存层级）、Bandwidth vs Capacity（带宽 vs 容量）、Arithmetic Intensity（算术强度）
+
+**术语消歧**：`glossary.md` 里 Agent 的 Memory（记忆）词条和硬件的 Memory Wall 词条互相加了消歧提示——中英文撞了同一个词，但指的是完全不同的东西。
+
+**索引更新**: `index-all-concepts.md` 新增 4 个概念条目（99 → 103）。
+
 ## [v4.3] - August 9, 2026
 
 ### 📝 Daily Update - Wiki V2 架构迁移 + Computing Foundations Three Maps + Compute Spine 第二块内容

@@ -145,7 +145,7 @@ arXiv:2604.10852《The xPU-athalon》实测对比了 Cerebras CS-3、SambaNova S
 - 🛠️ vLLM / SGLang / Dynamo 解构式部署实战对比（待创建）
 - 📖 想先补 Inference 内部机制，看 [Inference 推理系统完全指南](inference-system-guide.md)
 - 💼 想看这条逻辑在产业格局层面的延伸，看 [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md)
-- 🧱 想看 compute-bound / memory-bandwidth-bound 这组概念在更基础的硬件层怎么定义，看 [内存脊](../computing-foundations/memory-spine.md)
+- 🧱 想看 compute-bound / memory-bandwidth-bound 这组概念在更基础的硬件层怎么定义，看 [内存墙：为什么很多时候不是算不动，而是数据送不到](../computing-foundations/memory-wall.md)
 
 ---
 
@@ -157,4 +157,4 @@ arXiv:2604.10852《The xPU-athalon》实测对比了 Cerebras CS-3、SambaNova S
 - [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md)
 - [Agent 系统架构完全指南](agent-architecture.md)
 - [心智模型变迁史：万能芯片 → Workload 匹配](../../mental-models.md)
-- [内存脊 · Computing Foundations](../computing-foundations/memory-spine.md)
+- [内存墙：为什么很多时候不是算不动，而是数据送不到](../computing-foundations/memory-wall.md) —— compute-bound/memory-bound 这组概念的硬件层定义
