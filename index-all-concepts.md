@@ -22,6 +22,7 @@
 - **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
+- **CPU vs GPU** - [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Causal Mask** - [生成过程详解](docs/ai-core/transformer-architecture.md#causal-mask因果掩码)
@@ -210,7 +211,7 @@
 ---
 
 **最后更新**: August 9, 2026  
-**概念总数**: 88 个核心概念  
+**概念总数**: 89 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---
