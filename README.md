@@ -12,13 +12,13 @@
 
 ## 🗺️ 第一次来？
 
-👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花 60-90 分钟看完这 8 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、它跑在什么计算地基上、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
+👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花 30 分钟看完这 8 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、它跑在什么计算地基上、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
 
 已经懂基础、想直接探索的话，往下看"结构"就行。
 
 ## 🚪 三扇门（怎么进来）
 
-- 🗺️ **Learn** —— 我要系统学 → [Start Here](start-here.md)（60-90 分钟最小地图）
+- 🗺️ **Learn** —— 我要系统学 → [Start Here](start-here.md)（30 分钟最小地图）
 - 🔤 **Look Up** —— 我卡在一个词上 → [术语表](glossary.md) + [全部概念索引](index-all-concepts.md)
 - 🧠 **Explore** —— 我想看想法怎么连起来 → [Mental Models](mental-models.md)
 
@@ -58,7 +58,7 @@
 
 ## 🚀 快速导航
 
-- **[Start Here](start-here.md)** - 第一次来？从这开始，60-90 分钟建立最小地图
+- **[Start Here](start-here.md)** - 第一次来？从这开始，30 分钟建立最小地图
 - **[术语表](glossary.md)** - 忘了某个词是什么意思？一句话查一下
 - **[Computing Foundations](docs/computing-foundations/index.md)** - 计算机基础地图，知识图谱里的地基层
 - **[AI Core](docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
