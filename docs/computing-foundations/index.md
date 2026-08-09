@@ -1,12 +1,17 @@
 # Computing Foundations · 计算机基础地图
 
-**核心概念**: 这一层是整个 Wiki 的地基——读懂 AI 时代所需的最小计算基础，不是 CS 学位。从硅一路叠到 AI 产品，中间每一层怎么连起来，就是这张地图要讲的事。
-
-**阅读顺序**：**[Foundation Zero](foundation-zero.md)（认识"原子"）→ From Silicon to AI（下面这张图，看原子如何叠成整体）→ 五主脊（逐条深入，[算力](compute-spine.md) / [内存](memory-spine.md) / [规模](scale-spine.md) / [软硬桥](bridge-spine.md) / [半导体](semiconductor-spine.md)）**。
+**核心概念**: 这一层是整个 Wiki 的地基——读懂 AI 时代所需的最小计算基础，不是 CS 学位。三步走：先建立方向感（Start），再知道每样东西大概长在哪（Orient），最后想深挖哪条就点进去搞懂为什么（Go Deeper）。
 
 ---
 
-## From Silicon to AI · 主定向图
+## 🚀 Start · 先建立最基本的方向感
+
+刚进来，从这两步开始，按顺序走完：
+
+1. **[Foundation Zero · 地基第 0 层](foundation-zero.md)** —— 认识 5 组最基本的"原子"（硬件/软件、CPU/内存/存储、代码/程序/进程/OS、客户端/服务器/网络/API、核/并行/GPU）
+2. **From Silicon to AI**（下面这张图）—— 看这 5 组原子怎么一路叠成整个 AI 世界
+
+### From Silicon to AI · 主定向图
 
 ![从硅到 AI：从下往上，硅/晶体管 → 芯片 → 处理器（配内存、互连组成计算系统）→ 服务器 → 集群 → 数据中心 → 训练/推理 → AI 产品，左轨半导体供应链、右轨软件栈](assets/from-silicon-to-ai.svg)
 
@@ -18,16 +23,24 @@
 
 ---
 
-## 核心页面
+## 🧭 Orient · 知道每样东西大概长在哪
 
-- [Foundation Zero · 地基第 0 层](foundation-zero.md) —— 进五主脊之前，先认识 5 组最基本的"原子"
-- [算力脊](compute-spine.md) —— 晶体管 → ... → 训练/推理，回答"为什么 GPU 赢了深度学习"
-- [内存脊](memory-spine.md) —— 内存 vs 存储 → ... → compute/memory-bound，回答"为什么更快的算术 ≠ 更快推理"
-- [规模脊](scale-spine.md) —— 程序 → ... → 数据中心，回答"为什么从 1 卡扩到千卡很难"
-- [软硬桥脊](bridge-spine.md) —— 编程语言 → ... → 映射到硅片，回答"CUDA 为什么是护城河"
-- [半导体脊](semiconductor-spine.md) —— 硅/晶圆 → ... → 高带宽内存堆叠，回答"为什么芯片产能约束 AI"
+三张地图，分别定位软件世界、硬件世界、以及两者之间的桥——只回答"这东西是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"（"为什么"是下面 Go Deeper 的事）。**设计已完成，页面待创建**：
 
-五主脊目前都是骨架页（只放脊图 + 一句导航），详情在 Phase 1+ 逐条展开。
+- **Software Map**（待创建）—— 用 ChatGPT / Claude / Coding Agent 时，看到的东西底下有哪些软件层
+- **Hardware Map**（待创建）—— 算力 / 内存 / 互连这三个维度，在芯片、服务器、集群每个尺度上怎么重复出现
+- **Software × Hardware Map**（待创建）—— "模型"这个软件，怎么变成 GPU 上的物理计算
+
+## 🔬 Go Deeper · 五条主脊，搞懂为什么
+
+五主脊目前都是骨架页（只放脊图 + 一句要回答的问题），详情在 Phase 1+ 逐条展开：
+
+- **[算力脊 · Compute Spine](compute-spine.md)** —— 为什么 GPU 赢了深度学习、为什么降精度能提速
+  - [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md) ← 已经写了
+- **[内存脊 · Memory Spine](memory-spine.md)** —— 为什么更快的算术 ≠ 更快推理
+- **[规模脊 · Scale Spine](scale-spine.md)** —— 为什么从 1 卡扩到千卡很难
+- **[软硬桥脊 · Bridge Spine](bridge-spine.md)** —— CUDA 为什么是护城河
+- **[半导体脊 · Semiconductor Spine](semiconductor-spine.md)** —— 为什么芯片产能约束 AI
 
 ---
 
