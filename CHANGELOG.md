@@ -2,6 +2,27 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.1] - August 9, 2026
+
+### 📝 Daily Update - 推理基础设施与 Agent 延迟
+
+**新增页面**:
+- `docs/ai-core/inference-infrastructure-and-agent-latency.md` - Prefill（compute-bound）与 Decode（memory-bandwidth-bound）为什么是两种数学结构完全不同的运算、为什么训练时代的 GPU 优势不能平移到推理、Agent 多步任务里 latency/tokens-$/吞吐量/tokens-watt 四个指标的优先级排序、Workload 形状（输入输出比例 × SLA 容忍度 × 请求到达模式）如何决定"最优硬件"没有单一答案、AI 基础设施从同构走向异构的产业格局判断（含"为时过早"的限定）
+- `docs/conversations/inference-infrastructure-and-agent-latency.md` - 完整学习对话记录
+
+**新增概念**:
+- Disaggregated Inference（解构式推理）、Prefill、Decode、Compute-bound vs Memory-bandwidth-bound、Workload（Workload 形状）
+
+**来源**: Cerebras Blog "The GPU Is Being Split in Half"、AMD × Cerebras 合作新闻稿（2026年7月）、arXiv:2604.10852 "The xPU-athalon"（Golden, Wu, Wei, Brooks，Harvard/Meta FAIR，ISPASS 2026）
+
+**心智模型**: 新增 [万能芯片 → Workload 匹配](mental-models.md)（Aug 9）
+
+**相关**: 延伸自 [Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md)（单次推理内部机制 → 服务大量请求时的硬件拆分），与 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md) 相连（Agent OS 的软件层逻辑之下，补上了硬件物理约束这一层），双向链接已建立
+
+**编辑处理**: 原始对话里提到的 Mimo/Mivo 具体产品案例，在正式指南页面里泛化成"Agent 系统/Agent 开发者"，保留在 `docs/conversations/` 的完整记录里——延续既有的个人产品信息处理约定。厂商自己给出的性能倍数声称（AMD/Cerebras 的"5 倍能效提升"）在正文里明确标注为"厂商自己给出的数字，还没有独立第三方验证"，不作为既定事实呈现。
+
+**索引更新**: `index-all-concepts.md` 新增 5 个概念条目（76 → 81），`docs/ai-core/index.md`、README.md"最新更新"表同步更新。
+
 ## [v4.0] - August 8, 2026
 
 ### 🔗 Phase 3 全站推广 Batch B（收尾）+ 两处顺手修正

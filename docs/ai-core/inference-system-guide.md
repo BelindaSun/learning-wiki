@@ -905,3 +905,4 @@ Inference 的局限：
 - [Memory 系统](memory-system-guide.md)
 - [Context Window](context-window-guide.md)
 - [MCP 协议](../ai-application/mcp-protocol-guide.md)
+- [推理基础设施与 Agent 延迟](inference-infrastructure-and-agent-latency.md)——单次 Inference 内部怎么运作讲完了，这篇接着讲服务大量请求时，Inference 这个过程在硬件上怎么被拆开跑

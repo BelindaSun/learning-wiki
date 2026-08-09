@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 76 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 81 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -27,9 +27,12 @@
 - **Context Management** - [Context 的实战管理](docs/ai-core/context-window-guide.md#实战管理)
 - **Conditional Node** - [条件节点](docs/ai-application/workflow-design-guide.md#3-conditional-node条件节点)
 - **Ceiling × Reach（天花板 × 到达能力）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#心智模型天花板--到达能力)
+- **Compute-bound vs Memory-bandwidth-bound** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 
 ## D
 
+- **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- **Disaggregated Inference（解构式推理）** - [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Domain Expertise** - [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
 
 ## E
@@ -83,6 +86,7 @@
 
 - **Parallel Node** - [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
+- **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
@@ -132,6 +136,7 @@
 - **Worker** - [Worker 执行者角色](docs/ai-core/workflow-orchestration.md#orchestrator--worker-分工)
 - **Workflow** - [Workflow 工作流完全指南](docs/ai-core/workflow-orchestration.md)
 - **Workflow Design** - [工作流设计完全指南](docs/ai-application/workflow-design-guide.md)
+- **Workload（Workload 形状）** - [Workload 形状：没有全能冠军，只有场景冠军](docs/ai-core/inference-infrastructure-and-agent-latency.md#workload-形状没有全能冠军只有场景冠军)
 
 ---
 
@@ -144,6 +149,9 @@
 - [Attention](docs/ai-core/inference-system-guide.md#attention-机制)
 - [Temperature 采样](docs/ai-core/inference-system-guide.md#采样参数)
 - [涌现临界点](docs/ai-core/inference-system-guide.md#涌现与临界点)
+- [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
+- [Prefill vs Decode](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- [Workload 形状](docs/ai-core/inference-infrastructure-and-agent-latency.md#workload-形状没有全能冠军只有场景冠军)
 
 ### 📚 记忆系统（Memory）
 - [Memory 系统](docs/ai-core/memory-system-guide.md)
@@ -186,7 +194,7 @@
 ---
 
 **最后更新**: August 8, 2026  
-**概念总数**: 76 个核心概念  
+**概念总数**: 81 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局
 
 ---

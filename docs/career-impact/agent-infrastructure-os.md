@@ -136,6 +136,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - 与 [Domain Expertise 与组织变革](domain-expertise-and-org-design.md) 相连——OpenAI 数据里非技术部门 137/189 倍的 Codex 增长，就是"Agent 把非代码任务翻译成代码任务"的直接证据
 - 与 [Agent 系统架构](../ai-core/agent-architecture.md) 相连——tool selection、决策机制，在 Muse Code 的多层嵌套子 Agent 实际运行中看到了具体样子
 - 与 [MCP 统一协议指南](../ai-application/mcp-protocol-guide.md) 相连——MCP 在这里被重新定位为"Agent 操作系统的设备驱动层"，意义可能远大于目前的关注度
+- 与 [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) 相连——这里讲的是"Agent 操作系统"这一层的软件逻辑，那篇补上了操作系统之下的硬件物理约束：Agent 能不能"感觉起来像实时"，同样取决于 Prefill/Decode 这类基础设施层的解构化进展
 
 ---
 
@@ -167,3 +168,4 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - [心智模型变迁史：Model → Infrastructure](../../mental-models.md)
 - [Google AI 领导层重组](google-agi-org-restructuring.md)
 - [Scaling Paradox](scaling-paradox.md)
+- [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md)
