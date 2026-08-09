@@ -99,7 +99,7 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 一种让模型变得很大、但每次只激活一部分参数的架构设计，用来在"知识容量"和"计算成本"之间找平衡。 → [Models 深挖](docs/ai-research/models-deep-dive.md)
 
 **Quantization（量化）**
-把模型参数从高精度数字压缩成低精度数字，牺牲一点点准确率换取更小的体积和更快的速度。 → [Models 深挖](docs/ai-research/models-deep-dive.md)
+把模型参数从高精度数字压缩成低精度数字，牺牲一点点准确率换取更小的体积和更快的速度。 → [Models 深挖](docs/ai-research/models-deep-dive.md)（准确率角度）· [FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)（为什么能提速）
 
 **RLHF（Reinforcement Learning from Human Feedback，基于人类反馈的强化学习）**
 让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)
@@ -272,7 +272,10 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 针对某一种硬件、某一种具体运算，写到极致快的小程序——比如专门做矩阵乘法。CUDA 是这类生态里最有名的例子，但"kernel"是概念，CUDA 只是其中一个实现。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 
 **Precision（精度）**
-数字用多"精确"的方式表示——精度越高越准，但也越慢越占内存；精度越低换来更快更省，代价是可能损失一点准确率（对应 AI 基础里的 [Quantization](#quantization) 就是"降精度"的一种做法）。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+数字用多"精确"的方式表示——精度越高越准，但也越慢越占内存；精度越低换来更快更省，代价是可能损失一点准确率（对应 AI 基础里的 `Quantization` 就是"降精度"的一种做法）。 → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
+
+**FLOPS（Floating-point Operations Per Second，每秒浮点运算次数）**
+衡量硬件一秒钟能做多少次数学运算的单位——不是"这块芯片有多聪明"，是"手有多快"。数字精度越低，同样宽的硬件一次能塞下的数字越多，FLOPS 就越高。 → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 
 **Batching（批处理）**
 把多个请求凑在一起、一次性交给硬件处理，比一个一个处理更划算——你的请求有时候"等一下"，可能就是在等凑一批。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
@@ -287,7 +290,7 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 98 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 99 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

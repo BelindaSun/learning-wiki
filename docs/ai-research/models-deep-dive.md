@@ -337,6 +337,8 @@ FFN = 分工处理任务
 
 #### 技术 3：量化（Quantization）
 
+> 这里讲的是量化对**准确率**的影响；量化为什么能直接**提速**（同样宽的硬件通道能塞下更多数字），见 [FLOPS 与精度：为什么降精度能提速](../computing-foundations/flops-and-precision.md)。
+
 **概念**：
 ```
 降低数字精度来减小体积
@@ -496,3 +498,4 @@ Step 4: 4-bit 量化（可选）
 - [Inference 推理系统](../ai-core/inference-system-guide.md)
 - [Transformer 架构](../ai-core/transformer-architecture.md)
 - [Evaluation 评估系统](evaluation-system.md)
+- [FLOPS 与精度：为什么降精度能提速](../computing-foundations/flops-and-precision.md) —— 量化为什么能提速（硬件角度），跟这篇的准确率角度互补

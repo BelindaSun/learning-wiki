@@ -1,19 +1,19 @@
 # 算力脊 · Compute Spine
 
-**核心概念**: 从晶体管到训练/推理，这条脊回答"为什么 GPU 赢了深度学习""为什么降精度能提速"——本页是骨架页，详情待 Phase 1+ 逐条展开。
+**核心概念**: 从"核 / 并行"这组已经认识的原子，到 GPU 为什么赢、精度为什么能换速度——这条脊回答"为什么 GPU 赢了深度学习""为什么降精度能提速"两个问题，两篇都已经写好。
 
 ---
 
 ```
-晶体管 → 逻辑门 → 芯片 → 核/ALU → CPU vs GPU → 并行 → 矩阵乘法 → AI 加速器 → FLOPS+精度 → 训练/推理
+（核 / 并行 —— 已在 Foundation Zero 认识）→ CPU vs GPU → FLOPS × 精度
 ```
+
+这条脊比骨架阶段列出的候选链条短——"处理器 / 核 / 并行 / 矩阵乘法"已经在 [Foundation Zero](foundation-zero.md) 和 [CPU vs GPU](cpu-vs-gpu.md) 里讲过，不用再单独开页重复；"加速器种类"在 [Hardware Map](hardware-map.md) 已经是认识级别，深挖 TPU 等具体加速器不属于"理解现代 AI 算力所需的最小知识集"，暂不展开。
 
 ## 这条脊要回答的问题
 
-- 为什么 GPU 赢了深度学习？ → 已经写了：[CPU vs GPU](cpu-vs-gpu.md)
-- 为什么降精度能提速？ → 详情待 Phase 1+
-
-其余节点（晶体管 → 逻辑门 → 芯片 → 核/ALU → 并行 → 矩阵乘法 → AI 加速器 → FLOPS+精度 → 训练/推理）详情待 Phase 1+ 逐条展开。
+- **为什么 GPU 赢了深度学习？** → [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md)
+- **为什么降精度能提速？** → [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md)
 
 ---
 

@@ -114,6 +114,15 @@ Belinda 的个人 AI 学习笔记，每天手动加新内容。**不用 GitHub P
 4. **新开顶层领土的门槛很高**：只有当一块知识（a）概念很多、（b）被多块现有领土依赖或依赖多块、（c）塞不进任何现有领土的子节，三者同时成立，才新开顶层领土（这正是 Computing Foundations 当初够格的原因）。默认新东西是某个现有领土的**子节**（子页面），不是新领土。
 5. `mental-models.md` 只记**理解的变化**（原来以为 X，后来发现 Y），不记事实本身；事实住在它所属的领土页面里。
 
+## Computing Foundations · Future Notes（已知的入门近似，先记下，不用现在改）
+
+Three Maps（2026-08-09 上线）里有两处是刻意的"先给一个够用的近似，以后再升级"，不是错误，但值得记下来，等对应内容真正写到那一层时再处理：
+
+1. **Software Map 待升级**：现在"模型权重由 Runtime 执行"是入门近似。以后应该拆分成 model representation / framework / execution runtime 三个不同的角色，而不是笼统地都叫"Runtime"。触发时机：写到能撑起这个区分的深度内容时。
+2. **Software × Hardware Map 待升级**：现在 Compiler → Kernel/Library → Runtime → Hardware 是一条 orientation 用的简化直线。Bridge Spine 展开时要说清楚：真实的 stack 并不是严格线性的，scheduling/batching/precision/memory 这些决策分散在不同层，不是 Runtime 一个点说了算。触发时机：写 Bridge Spine 正文时。
+
+这两条不需要现在改网页——只是提前记下"这里以后要回来修"，避免忘记这是简化过的版本。
+
 ## 提交
 
 ```bash

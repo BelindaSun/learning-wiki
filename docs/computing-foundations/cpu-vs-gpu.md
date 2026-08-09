@@ -32,7 +32,7 @@ GPU 有成千上万个核，但每个核都很"轻"：几乎没有分支预测�
 
 - ← 回 [算力脊](compute-spine.md) 看整条脊
 - ← 回 [Foundation Zero](foundation-zero.md) 看这个比喻最初的入门版本
-- 📖 下一站是"并行"，详情待 Phase 1+ 继续写
+- → [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md) —— 同一块 GPU，精度调低为什么还能更快
 
 ---
 
@@ -42,4 +42,5 @@ GPU 有成千上万个核，但每个核都很"轻"：几乎没有分支预测�
 - [算力脊 · Computing Foundations](compute-spine.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
 - [Hardware Map](hardware-map.md) —— 这篇是 Hardware Map 里"处理器不止一种"的具体展开
+- [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md) —— 这篇的下一站
 - [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md) —— "模型正在下沉为 CPU"这个类比里的 CPU/GPU，就是这篇讲的硬件层

@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 98 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 99 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -53,6 +53,7 @@
 ## F
 
 - **Feed Forward Network** - [前馈网络](docs/ai-core/transformer-architecture.md#前馈网络feed-forward-network)
+- **FLOPS** - [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 - **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
 - **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
@@ -216,7 +217,7 @@
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
 - **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
 - **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
-- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)）· [内存脊](docs/computing-foundations/memory-spine.md) · [规模脊](docs/computing-foundations/scale-spine.md) · [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
+- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md) · [规模脊](docs/computing-foundations/scale-spine.md) · [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
 
 ---
 

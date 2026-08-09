@@ -2,6 +2,26 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.3] - August 9, 2026
+
+### 📝 Daily Update - Wiki V2 架构迁移 + Computing Foundations Three Maps + Compute Spine 第二块内容
+
+**V2 架构迁移**：Computing Foundations 从"嵌在 AI Core 下"提升为顶层领土、导航排第一；AI 应用 → AI in Practice、职业与影响 → Industry & Impact 改名；Mental Models 从领土重新归类为 Explore 门（横切透镜）；Glossary + 全部概念索引合并进 Look Up 门；首页改为三扇门（Learn/Look Up/Explore）+ 依赖排序的领土堆叠（倒三角，地基最宽）；Start Here 按动机顺序重排为 8 站，插入"好奇它到底跑在什么上面"一站，链接下钻 Computing Foundations。Growth Rules 写入 `CLAUDE.md`。
+
+**Computing Foundations 内部层级**：landing page 重构为 **Start**（Foundation Zero → From Silicon to AI）→ **Orient**（Three Maps）→ **Go Deeper**（五主脊），CPU vs GPU 从与五主脊平级的文章，改为嵌在算力脊之下的子页面。
+
+**新增 Three Maps**（Orient 层，只回答"是什么、大概长在哪"，不讲"为什么"）：
+- `docs/computing-foundations/software-map.md` —— 应用代码 + 模型（权重，不是代码）汇入 Runtime
+- `docs/computing-foundations/hardware-map.md` —— 算力/内存/互连三个维度，在芯片/服务器/集群三个尺度重复出现的网格
+- `docs/computing-foundations/software-hardware-map.md` —— Compiler → Kernel/Library → Runtime →｛Scheduling/Batching/Precision/Memory management｝的桥
+
+**新增概念**：Runtime、Compiler、Kernel、Precision、Batching、Interconnect、Accelerator、FLOPS
+
+**Compute Spine 第二块内容**：
+- `docs/computing-foundations/flops-and-precision.md` —— 回答"为什么降精度能提速"（算力脊骨架页承诺的第二个问题），与 [Models 深挖](docs/ai-research/models-deep-dive.md) 的量化准确率角度互补、双向链接
+
+**索引更新**: `index-all-concepts.md` 新增 11 个概念条目（88 → 99），"计算基础"主题分类改按 Start/Orient/Go Deeper 分组；`glossary.md` 新增"计算基础"分类。
+
 ## [v4.2] - August 9, 2026
 
 ### 🖥️ 新增第 6 个顶层分支：Computing Foundations（Phase 0）

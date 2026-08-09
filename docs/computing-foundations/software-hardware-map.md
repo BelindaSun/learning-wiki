@@ -32,7 +32,8 @@ Runtime 同时要拿主意的，不是一件事，是四件并行的事：**Sche
 ## 下一步
 
 - 好奇"CUDA 为什么是一条真正的护城河、编译器具体怎么优化" → 软硬桥脊 Bridge Spine（Later，Phase 1+）
-- 好奇"精度怎么具体换速度、内存怎么分层管理" → 算力脊 / 内存脊（Later，Phase 1+）
+- 好奇"精度怎么具体换速度" → [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md)
+- 好奇"内存怎么分层管理" → 内存脊 Memory Spine（Later，Phase 1+）
 
 ---
 
@@ -42,3 +43,4 @@ Runtime 同时要拿主意的，不是一件事，是四件并行的事：**Sche
 - [Computing Foundations · 计算机基础地图](index.md) —— 这张图属于 Orient 层，是三张地图里的"桥"
 - [Software Map](software-map.md) —— Runtime 这个词最早在这里出现
 - [Hardware Map](hardware-map.md) —— 算力/内存/互连这三个词最早在这里出现
+- [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md) —— Precision 这个词在这里被展开
