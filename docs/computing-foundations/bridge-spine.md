@@ -21,3 +21,4 @@
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
+- [Software × Hardware Map](software-hardware-map.md) —— Compiler/Kernel/CUDA 在这里第一次被认识，这条脊是它们的深挖

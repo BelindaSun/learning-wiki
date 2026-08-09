@@ -30,3 +30,4 @@
 
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md)
+- [Software Map](software-map.md) · [Hardware Map](hardware-map.md) —— 这 5 组原子在 Orient 层被重新摆放、加上新邻居

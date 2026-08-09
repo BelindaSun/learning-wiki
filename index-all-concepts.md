@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 88 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 98 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -11,15 +11,18 @@
 - **Agent OS 等价定理** - [Agent 基础设施 = 新操作系统](docs/career-impact/agent-infrastructure-os.md#agent-基础设施--新操作系统)
 - **Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
 - **Attention Mechanism** - [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
+- **Accelerator（加速器）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
 
 ## B
 
+- **Batching（批处理）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Benchmark** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
 - **Bridge Spine（软硬桥脊）** - [软硬桥脊](docs/computing-foundations/bridge-spine.md)
 
 ## C
 
 - **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust)
+- **Compiler（编译器）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
 - **CPU vs GPU** - [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
@@ -55,6 +58,7 @@
 
 ## H
 
+- **Hardware Map（硬件世界地图）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Harness** - [Harness 系统](docs/ai-application/harness-system.md)
 - **Harness Dimensions** - [Harness 的四个维度](docs/ai-application/harness-system.md#harness-的四个维度)
 - **Human Approval** - [人工审核节点](docs/ai-application/workflow-design-guide.md#4-human-approval-node人工审核节点)
@@ -62,6 +66,11 @@
 ## I
 
 - **Inference** - [Inference 推理系统](docs/ai-core/inference-system-guide.md)
+- **Interconnect（互连）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
+
+## K
+
+- **Kernel（内核）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 
 ## L
 
@@ -94,6 +103,7 @@
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
+- **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
 - **Pruning** - [模型压缩技术](docs/ai-research/models-deep-dive.md#模型压缩技术)
@@ -108,6 +118,7 @@
 - **Read-only Operations** - [只读 vs 读写](docs/ai-application/mcp-protocol-guide.md#只读-vs-读写)
 - **RLHF** - [RLHF 训练](docs/ai-research/evaluation-system.md#rlhf-强化学习)
 - **RoPE** - [RoPE（旋转位置编码）](docs/ai-core/transformer-architecture.md#rope旋转位置编码)
+- **Runtime（运行时）** - [Software Map](docs/computing-foundations/software-map.md)
 
 ## S
 
@@ -115,6 +126,8 @@
 - **Session Thread** - [Session 线程隔离](docs/ai-core/workflow-orchestration.md#session-线程的隔离性)
 - **Semantic Memory** - [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
+- **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
+- **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
 - **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Scale Spine（规模脊）** - [规模脊](docs/computing-foundations/scale-spine.md)
@@ -201,12 +214,9 @@
 
 ### 🖥️ 计算基础（Computing Foundations）
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
-- [Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
-- [算力脊](docs/computing-foundations/compute-spine.md)
-- [内存脊](docs/computing-foundations/memory-spine.md)
-- [规模脊](docs/computing-foundations/scale-spine.md)
-- [软硬桥脊](docs/computing-foundations/bridge-spine.md)
-- [半导体脊](docs/computing-foundations/semiconductor-spine.md)
+- **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
+- **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)）· [内存脊](docs/computing-foundations/memory-spine.md) · [规模脊](docs/computing-foundations/scale-spine.md) · [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
 
 ---
 

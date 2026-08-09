@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1100 700" xmlns="http://www.w3.org/2000/svg" font-family="'Source Serif 4','Songti SC','Noto Serif SC',Georgia,serif">
+  <rect x="0" y="0" width="1100" height="700" fill="#f7f3ea"></rect>
+
+  <text x="550" y="42" text-anchor="middle" font-weight="600" font-size="26" fill="#2b2724">Software Map · 软件世界地图</text>
+  <text x="550" y="66" text-anchor="middle" font-size="13" fill="rgba(43,39,36,0.68)">定位：我用的 AI 产品，底下有哪些软件层</text>
+
+  <!-- Two inputs: application code vs the model itself -->
+  <rect x="130" y="102" width="300" height="86" rx="10" fill="none" stroke="rgba(43,39,36,0.35)" stroke-width="1.2"></rect>
+  <text x="280" y="136" text-anchor="middle" font-weight="600" font-size="19" fill="#2b2724">应用代码</text>
+  <text x="280" y="156" text-anchor="middle" font-size="12" fill="rgba(43,39,36,0.68)">Application code</text>
+  <text x="280" y="177" text-anchor="middle" font-size="11.5" font-style="italic" fill="rgba(43,39,36,0.5)">产品自己的逻辑——是什么让 ChatGPT 是 ChatGPT</text>
+
+  <rect x="670" y="102" width="300" height="86" rx="10" fill="rgba(181,84,28,0.045)" stroke="rgba(181,84,28,0.35)" stroke-width="1.2"></rect>
+  <text x="820" y="136" text-anchor="middle" font-weight="600" font-size="19" fill="#2b2724">模型（权重）</text>
+  <text x="820" y="156" text-anchor="middle" font-size="12" fill="rgba(43,39,36,0.68)">Model — 一堆参数</text>
+  <text x="820" y="177" text-anchor="middle" font-size="11.5" font-style="italic" fill="#8a3f14">是数据，不是代码——像乐谱，不是演奏者</text>
+
+  <!-- Converge into Runtime -->
+  <path d="M280,188 C280,225 480,232 545,248" fill="none" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></path>
+  <path d="M820,188 C820,225 620,232 555,248" fill="none" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></path>
+
+  <rect x="380" y="250" width="340" height="94" rx="12" fill="rgba(181,84,28,0.08)" stroke="#b5541c" stroke-width="1.4"></rect>
+  <text x="550" y="288" text-anchor="middle" font-weight="700" font-size="24" fill="#8a3f14">Runtime · 运行时</text>
+  <text x="550" y="312" text-anchor="middle" font-size="12.5" fill="rgba(43,39,36,0.68)">真正执行的东西——不管执行的是代码还是模型权重</text>
+  <text x="550" y="331" text-anchor="middle" font-size="11.5" font-style="italic" fill="rgba(43,39,36,0.5)">Map 3 会从这里继续往下走到硬件</text>
+
+  <line x1="550" y1="344" x2="550" y2="378" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></line>
+  <text x="550" y="398" text-anchor="middle" font-size="13.5" fill="rgba(43,39,36,0.55)">Process（进程）→ OS　　·　已经认识，见 Foundation Zero</text>
+
+  <line x1="550" y1="406" x2="550" y2="430" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></line>
+
+  <!-- Recap box: already-known client/server/api atoms -->
+  <rect x="200" y="432" width="700" height="96" rx="10" fill="rgba(43,39,36,0.025)" stroke="rgba(43,39,36,0.18)" stroke-width="1"></rect>
+  <text x="222" y="454" font-size="11" letter-spacing="1" fill="rgba(43,39,36,0.42)">已经认识 · FOUNDATION ZERO</text>
+  <text x="550" y="494" text-anchor="middle" font-size="20" fill="rgba(43,39,36,0.62)">Client  ⇄  Network / API  ⇄  Server</text>
+  <text x="550" y="516" text-anchor="middle" font-size="11.5" font-style="italic" fill="rgba(43,39,36,0.42)">这整张图，都发生在这个 Server 里面</text>
+
+  <!-- Satellites: recognition-level only -->
+  <text x="550" y="558" text-anchor="middle" font-size="11" letter-spacing="1" fill="rgba(43,39,36,0.42)">认识就好，不必展开</text>
+
+  <g font-size="12">
+    <rect x="35" y="572" width="195" height="58" rx="10" fill="rgba(43,39,36,0.03)" stroke="rgba(43,39,36,0.18)"></rect>
+    <text x="132" y="594" text-anchor="middle" font-weight="600" fill="#2b2724">Framework</text>
+    <text x="132" y="613" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">现成的开发工具箱</text>
+
+    <rect x="245" y="572" width="195" height="58" rx="10" fill="rgba(43,39,36,0.03)" stroke="rgba(43,39,36,0.18)"></rect>
+    <text x="342" y="594" text-anchor="middle" font-weight="600" fill="#2b2724">Database</text>
+    <text x="342" y="613" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">存下来，下次还记得</text>
+
+    <rect x="455" y="572" width="190" height="58" rx="10" fill="rgba(43,39,36,0.03)" stroke="rgba(43,39,36,0.18)"></rect>
+    <text x="550" y="594" text-anchor="middle" font-weight="600" fill="#2b2724">Cache</text>
+    <text x="550" y="613" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">常用的放手边，别重算</text>
+
+    <rect x="660" y="572" width="190" height="58" rx="10" fill="rgba(43,39,36,0.03)" stroke="rgba(43,39,36,0.18)"></rect>
+    <text x="755" y="594" text-anchor="middle" font-weight="600" fill="#2b2724">Queue</text>
+    <text x="755" y="613" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">排队等着被处理</text>
+
+    <rect x="865" y="572" width="200" height="58" rx="10" fill="rgba(43,39,36,0.03)" stroke="rgba(43,39,36,0.18)"></rect>
+    <text x="965" y="594" text-anchor="middle" font-weight="600" fill="#2b2724">Container</text>
+    <text x="965" y="613" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">打包好，到哪都能跑</text>
+  </g>
+
+  <!-- Pointer down to Scale Spine -->
+  <path d="M900,528 C960,548 980,620 940,652" fill="none" stroke="rgba(181,84,28,0.55)" stroke-width="1.2" stroke-dasharray="4,4"></path>
+  <text x="1065" y="662" text-anchor="end" font-size="12.5" font-style="italic" fill="#8a3f14">通常不止一台服务器一起扛</text>
+  <text x="1065" y="680" text-anchor="end" font-size="12.5" font-style="italic" fill="#8a3f14">→ 规模脊 Scale Spine（Later）</text>
+</svg>

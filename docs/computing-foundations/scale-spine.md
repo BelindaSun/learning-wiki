@@ -21,3 +21,5 @@
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
+- [Software Map](software-map.md) —— "通常不止一台服务器"是 Software Map 指向这条脊的问题
+- [Hardware Map](hardware-map.md) —— 集群这一层的算力/内存/互连，具体怎么难扩展，是这条脊要回答的

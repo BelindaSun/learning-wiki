@@ -21,3 +21,4 @@
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
+- [Hardware Map](hardware-map.md) —— "芯片从哪来"是 Hardware Map 指向这条脊的问题

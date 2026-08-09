@@ -27,7 +27,7 @@
 ```
 🖥️ Computing Foundations 计算基础   ← 地基，导航排第一
   ├─ 🚀 Start（Foundation Zero → From Silicon to AI）
-  ├─ 🧭 Orient（Three Maps：Software / Hardware / Software×Hardware，设计中）
+  ├─ 🧭 Orient（Three Maps：Software / Hardware / Software×Hardware）
   └─ 🔬 Go Deeper（五主脊，CPU vs GPU 等详情页嵌在各自脊下）
 
 📚 AI Core 核心

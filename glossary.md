@@ -254,10 +254,41 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 
 ---
 
-## 还看不懂某个词？
+## 计算基础
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 76 个更细的概念，每个都直接链接到讨论它的具体文章。
+#### Runtime
+**运行时** — 真正"执行"东西的那个角色，不管要执行的是一段代码还是一个模型的权重。模型本身是数据，不是代码——得靠 Runtime 才能真正跑起来。
+
+*怎么想象*：模型像一份乐谱，Runtime 是照着乐谱演奏的人——乐谱自己不会响。
+
+*相关*：`Compiler`、`Kernel`
+
+*想深入*：[Software Map](docs/computing-foundations/software-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+
+**Compiler（编译器）**
+把用编程语言表达出来的工作，翻译成硬件能直接执行的指令。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+
+**Kernel（内核）**
+针对某一种硬件、某一种具体运算，写到极致快的小程序——比如专门做矩阵乘法。CUDA 是这类生态里最有名的例子，但"kernel"是概念，CUDA 只是其中一个实现。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+
+**Precision（精度）**
+数字用多"精确"的方式表示——精度越高越准，但也越慢越占内存；精度越低换来更快更省，代价是可能损失一点准确率（对应 AI 基础里的 [Quantization](#quantization) 就是"降精度"的一种做法）。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+
+**Batching（批处理）**
+把多个请求凑在一起、一次性交给硬件处理，比一个一个处理更划算——你的请求有时候"等一下"，可能就是在等凑一批。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+
+**Interconnect（互连）**
+东西之间怎么互相"说话"的统称——芯片内部有片内总线，服务器内有 NVLink/PCIe，服务器之间有网络/InfiniBand。同一个概念，在不同尺度上换了不同的名字。 → [Hardware Map](docs/computing-foundations/hardware-map.md)
+
+**Accelerator（加速器）**
+专门为某一类计算而设计的处理器，GPU 是最常见的一种，TPU 是另一种——都是"给算力设计"这个问题的不同答案，不是互相升级的关系。 → [Hardware Map](docs/computing-foundations/hardware-map.md)
 
 ---
 
-**最后更新**: August 8, 2026
+## 还看不懂某个词？
+
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 98 个更细的概念，每个都直接链接到讨论它的具体文章。
+
+---
+
+**最后更新**: August 9, 2026

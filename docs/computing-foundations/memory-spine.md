@@ -21,4 +21,6 @@
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
+- [Hardware Map](hardware-map.md) —— "为什么带宽比算力更常是瓶颈"是 Hardware Map 指向这条脊的问题
+- [Software × Hardware Map](software-hardware-map.md) —— Runtime 的 Memory management 决策，是这条脊在软硬边界上的体现
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— "解构式推理"（Prefill 的 compute-bound vs Decode 的 memory-bandwidth-bound），是这条脊在真实推理系统里的一个具体案例

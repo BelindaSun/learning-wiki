@@ -41,4 +41,5 @@ GPU 有成千上万个核，但每个核都很"轻"：几乎没有分支预测�
 **相关**:
 - [算力脊 · Computing Foundations](compute-spine.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
+- [Hardware Map](hardware-map.md) —— 这篇是 Hardware Map 里"处理器不止一种"的具体展开
 - [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md) —— "模型正在下沉为 CPU"这个类比里的 CPU/GPU，就是这篇讲的硬件层

@@ -22,4 +22,6 @@
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md)
 - [Foundation Zero · 地基第 0 层](foundation-zero.md)
+- [Hardware Map](hardware-map.md) —— "为什么 GPU 赢了深度学习"是 Hardware Map 指向这条脊的问题
+- [Software × Hardware Map](software-hardware-map.md) —— "精度怎么换速度"（FLOPS+精度节点）也在这条脊里
 - [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md) —— "模型正在下沉为这一轮的 CPU"，是这条脊在产业格局层面的一个具体案例

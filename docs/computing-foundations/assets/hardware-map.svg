@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" font-family="'Source Serif 4','Songti SC','Noto Serif SC',Georgia,serif">
+  <rect x="0" y="0" width="1200" height="780" fill="#f7f3ea"></rect>
+
+  <text x="600" y="42" text-anchor="middle" font-weight="600" font-size="26" fill="#2b2724">Hardware Map · 硬件世界地图</text>
+  <text x="600" y="66" text-anchor="middle" font-size="13" fill="rgba(43,39,36,0.68)">定位：物理上到底有什么，怎么拼成更大的系统</text>
+
+  <rect x="90" y="90" width="1020" height="46" rx="10" fill="rgba(181,84,28,0.08)" stroke="rgba(181,84,28,0.35)"></rect>
+  <text x="600" y="119" text-anchor="middle" font-size="15" font-weight="600" fill="#8a3f14">算力 · 内存 · 互连——同一个模式，在每个尺度上重复出现</text>
+
+  <!-- Column headers -->
+  <text x="470" y="172" text-anchor="middle" font-size="17" font-weight="600" fill="#2b2724">算力</text>
+  <text x="470" y="190" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">Compute</text>
+  <text x="750" y="172" text-anchor="middle" font-size="17" font-weight="600" fill="#2b2724">内存</text>
+  <text x="750" y="190" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">Memory</text>
+  <text x="1030" y="172" text-anchor="middle" font-size="17" font-weight="600" fill="#2b2724">互连</text>
+  <text x="1030" y="190" text-anchor="middle" font-size="11" fill="rgba(43,39,36,0.6)">Interconnect</text>
+
+  <!-- Grid -->
+  <rect x="330" y="206" width="840" height="384" fill="none" stroke="rgba(43,39,36,0.22)" stroke-width="1.2"></rect>
+  <line x1="610" y1="206" x2="610" y2="590" stroke="rgba(43,39,36,0.15)"></line>
+  <line x1="890" y1="206" x2="890" y2="590" stroke="rgba(43,39,36,0.15)"></line>
+  <line x1="330" y1="334" x2="1170" y2="334" stroke="rgba(43,39,36,0.15)"></line>
+  <line x1="330" y1="462" x2="1170" y2="462" stroke="rgba(43,39,36,0.15)"></line>
+
+  <!-- Row labels -->
+  <text x="90" y="264" font-size="16" font-weight="600" fill="#2b2724">芯片 / 处理器</text>
+  <text x="90" y="284" font-size="11" fill="rgba(43,39,36,0.55)">Chip / Processor</text>
+
+  <text x="90" y="392" font-size="16" font-weight="600" fill="#2b2724">服务器</text>
+  <text x="90" y="412" font-size="11" fill="rgba(43,39,36,0.55)">Server</text>
+
+  <text x="90" y="520" font-size="16" font-weight="600" fill="#2b2724">集群</text>
+  <text x="90" y="540" font-size="11" fill="rgba(43,39,36,0.55)">Cluster</text>
+
+  <!-- Row 1: chip -->
+  <text x="470" y="256" text-anchor="middle" font-size="15" fill="#2b2724">核心 · Core(s)</text>
+  <text x="470" y="278" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">一个干活单元</text>
+  <text x="750" y="256" text-anchor="middle" font-size="15" fill="#2b2724">缓存 / 寄存器</text>
+  <text x="750" y="278" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">Cache / Registers</text>
+  <text x="1030" y="256" text-anchor="middle" font-size="15" fill="#2b2724">片内总线</text>
+  <text x="1030" y="278" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">On-die bus</text>
+
+  <!-- Row 2: server -->
+  <text x="470" y="384" text-anchor="middle" font-size="15" fill="#2b2724">CPU / GPU / 加速器</text>
+  <text x="470" y="406" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">不同设计取舍，↓ 见下方</text>
+  <text x="750" y="384" text-anchor="middle" font-size="15" fill="#2b2724">RAM / 高带宽内存</text>
+  <text x="750" y="406" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">HBM</text>
+  <text x="1030" y="384" text-anchor="middle" font-size="15" fill="#2b2724">NVLink / PCIe</text>
+  <text x="1030" y="406" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">板卡间怎么互相说话</text>
+
+  <!-- Row 3: cluster -->
+  <text x="470" y="512" text-anchor="middle" font-size="15" fill="#2b2724">多台服务器一起算</text>
+  <text x="470" y="534" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">Many servers, together</text>
+  <text x="750" y="512" text-anchor="middle" font-size="15" fill="#2b2724">数据分布在多台机器</text>
+  <text x="750" y="534" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">Distributed</text>
+  <text x="1030" y="512" text-anchor="middle" font-size="15" fill="#2b2724">网络 / InfiniBand</text>
+  <text x="1030" y="534" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.55)">机器间怎么互相说话</text>
+
+  <text x="750" y="618" text-anchor="middle" font-size="12" font-style="italic" fill="rgba(43,39,36,0.42)">Server → Cluster → Datacenter 这条路径，已经在 From Silicon to AI 见过</text>
+
+  <!-- Processor variety branch, pointing down to cpu-vs-gpu -->
+  <path d="M470,608 C470,650 470,668 470,684" fill="none" stroke="rgba(181,84,28,0.55)" stroke-width="1.2" stroke-dasharray="4,4"></path>
+  <text x="470" y="706" text-anchor="middle" font-size="13" font-style="italic" fill="#8a3f14">为什么 GPU 赢了深度学习？→ Compute Spine（Later）</text>
+
+  <!-- Semiconductor pointer -->
+  <path d="M180,608 C180,650 180,668 180,684" fill="none" stroke="rgba(181,84,28,0.55)" stroke-width="1.2" stroke-dasharray="4,4"></path>
+  <text x="180" y="706" text-anchor="middle" font-size="13" font-style="italic" fill="#8a3f14">芯片从哪来？</text>
+  <text x="180" y="724" text-anchor="middle" font-size="13" font-style="italic" fill="#8a3f14">→ 半导体脊（Later）</text>
+
+  <!-- Memory bandwidth pointer -->
+  <path d="M1030,608 C1030,650 1030,668 1030,684" fill="none" stroke="rgba(181,84,28,0.55)" stroke-width="1.2" stroke-dasharray="4,4"></path>
+  <text x="1030" y="706" text-anchor="middle" font-size="13" font-style="italic" fill="#8a3f14">为什么带宽比算力更常是瓶颈？</text>
+  <text x="1030" y="724" text-anchor="middle" font-size="13" font-style="italic" fill="#8a3f14">→ 内存脊（Later）</text>
+</svg>

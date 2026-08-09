@@ -25,11 +25,11 @@
 
 ## 🧭 Orient · 知道每样东西大概长在哪
 
-三张地图，分别定位软件世界、硬件世界、以及两者之间的桥——只回答"这东西是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"（"为什么"是下面 Go Deeper 的事）。**设计已完成，页面待创建**：
+三张地图，分别定位软件世界、硬件世界、以及两者之间的桥——只回答"这东西是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"（"为什么"是下面 Go Deeper 的事）：
 
-- **Software Map**（待创建）—— 用 ChatGPT / Claude / Coding Agent 时，看到的东西底下有哪些软件层
-- **Hardware Map**（待创建）—— 算力 / 内存 / 互连这三个维度，在芯片、服务器、集群每个尺度上怎么重复出现
-- **Software × Hardware Map**（待创建）—— "模型"这个软件，怎么变成 GPU 上的物理计算
+- **[Software Map](software-map.md)** —— 用 ChatGPT / Claude / Coding Agent 时，看到的东西底下有哪些软件层
+- **[Hardware Map](hardware-map.md)** —— 算力 / 内存 / 互连这三个维度，在芯片、服务器、集群每个尺度上怎么重复出现
+- **[Software × Hardware Map](software-hardware-map.md)** —— "模型"这个软件，怎么变成 GPU 上的物理计算
 
 ## 🔬 Go Deeper · 五条主脊，搞懂为什么
 
