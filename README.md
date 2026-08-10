@@ -103,6 +103,7 @@
 
 | 日期        | 主题                                     | 概念数 |
 | ----------- | ---------------------------------------- | ------ |
+| Aug 10, 2026 | AI Core 新增：Multimodal 完全指南       | 6      |
 | Aug 10, 2026 | Prompt 工程 + Embeddings + RAG 三篇补齐 | 7      |
 | Aug 10, 2026 | AI Core 新增：Training 训练系统完全指南 | 5      |
 | Aug 10, 2026 | Bridge + Semiconductor Spine：五条主脊全部完成 | 3      |
@@ -120,6 +121,6 @@
 
 ---
 
-**最后更新**: August 4, 2026  
+**最后更新**: August 10, 2026  
 **维护者**: Belinda Sun  
 **License**: CC BY-SA 4.0

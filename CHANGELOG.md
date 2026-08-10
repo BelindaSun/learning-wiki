@@ -2,6 +2,20 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.9] - August 10, 2026
+
+### 📝 Daily Update - AI Core 新增：Multimodal 完全指南
+
+**背景**：早前的 gap-analysis 确认 Multimodal 只有一篇原始对话记录（`docs/conversations/multimodal.md`），没有正式指南。这次 Belinda 带回一份自己整理的深度学习笔记（Flamingo 架构、Native Multimodal 谱系、Perception→Understand→Predict→Act 循环等），给出明确的 cross-check + 压缩 + 融入 Wiki 的任务。技术校对后确认：不能把 Native Multimodal 写成有严格统一定义的架构标签，也不能暗示所有多模态模型都把各模态映射到同一个统一 embedding space——这两点在正式指南里都做了谱系化/去绝对化处理。
+
+**新增页面**：`docs/ai-core/multimodal-guide.md` —— 以 Flamingo（DeepMind, 2022）作为历史/架构跳板讲清 Vision Encoder → Perceiver Resampler → Gated Cross-Attention 这条具体路线，同时明确标注这只是众多路线之一；核心不是"都变成文字"，跨模态关系本身就是信息，不只是信息量堆加；Native Multimodal 定义为连续谱（输入/训练/表示/输出四个维度）而非二元标签；Video 比 Image 多出的维度是时间；Multimodal → Agent → Robotics → World Model 的连接点，直接呼应 `agent-architecture.md` 的 Perceive/Decide/Act 定义；机制层/功能层/哲学层三层区分，避免"它只是统计所以什么都没理解"这类混淆说法。World Model、Robotics 技术栈、CV/语音工程细节、frontier 模型横向对比均不展开，只标连接点。
+
+**内容处理**：原始对话记录 `docs/conversations/multimodal.md` 保留不删，开头加一行指向正式指南；`docs/ai-core/index.md` 里 Multimodal 从"完整学习对话记录"列表移到"核心页面"列表。
+
+**新增概念**：Multimodal（升级为独立词条）、Cross-Attention、Flamingo、Gated Cross-Attention、Native Multimodal、Multimodal Fusion、Perceiver Resampler
+
+**索引更新**: `index-all-concepts.md` 新增 6 个概念条目（128 → 134），"🖼️ 多模态"主题分类改名"🎨 多模态"并指向正式指南。
+
 ## [v4.8] - August 10, 2026
 
 ### 📝 Daily Update - Prompt 工程 + Embeddings + RAG：补齐三个非专业人士必须知道的基础
