@@ -50,7 +50,7 @@
 
 ## 这篇不讲什么
 
-- 不讲 HBM 具体怎么制造、良率怎么算——那是半导体脊 Semiconductor Spine 的事
+- 不讲 HBM 具体怎么制造、良率怎么算——见 [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md)
 - 不讲多台机器之间怎么共享/搬运内存（分布式内存、跨设备 KV cache 传输）——那是规模脊 Scale Spine 的事
 - 不讲软件层面具体怎么调度"哪份数据放哪层内存"——[Software × Hardware Map](software-hardware-map.md) 已经在认识级别提过 Memory management，具体机制留给软硬桥脊 Bridge Spine
 - 不重讲 Prefill/Decode/KV cache/GEMM/GEMV 的推理系统细节——[推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) 已经写得很细，直接去看那篇
@@ -60,6 +60,7 @@
 - ← [Hardware Map](hardware-map.md) —— 缓存/RAM/HBM 最早在这里被认识
 - → [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— compute-bound/memory-bound 在真实 LLM 推理里的完整案例
 - 好奇"内存怎么跨机器共享" → [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md)
+- 好奇"HBM 具体怎么制造" → [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md)
 
 ---
 
@@ -72,3 +73,4 @@
 - [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md) —— compute-bound 那一侧的故事
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— compute-bound/memory-bound 的真实案例
 - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) —— 同一个"喂不饱"的逻辑，放大到机器之间
+- [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) —— HBM 堆叠的制造瓶颈

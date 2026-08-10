@@ -28,7 +28,7 @@ CPU、GPU、其他加速器（比如 TPU），是**同一个问题（怎么提�
 
 - → [Software × Hardware Map](software-hardware-map.md) —— 软件怎么把工作实际交给这些硬件
 - → [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md) —— 处理器变体的第一个案例，已经写好
-- 好奇"芯片从哪来" → 半导体脊 Semiconductor Spine（Later，Phase 1+）
+- 好奇"芯片从哪来" → [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md)
 - 好奇"为什么内存带宽经常是瓶颈" → [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md)
 - 好奇"为什么扩展到千卡集群很难" → [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md)
 
@@ -43,3 +43,4 @@ CPU、GPU、其他加速器（比如 TPU），是**同一个问题（怎么提�
 - [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md) —— "处理器不止一种"的具体展开
 - [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md) —— 缓存/RAM/HBM 的具体展开
 - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) —— Interconnect 概念在集群尺度的具体展开
+- [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) —— "芯片从哪来"的具体展开

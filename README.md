@@ -103,6 +103,7 @@
 
 | 日期        | 主题                                     | 概念数 |
 | ----------- | ---------------------------------------- | ------ |
+| Aug 10, 2026 | Bridge + Semiconductor Spine：五条主脊全部完成 | 3      |
 | Aug 10, 2026 | Scale Spine 第一块内容：从 1 卡到千卡   | 1      |
 | Aug 9, 2026 | Memory Spine 第一块内容：内存墙          | 4      |
 | Aug 9, 2026 | Wiki V2 架构 + Three Maps + Compute Spine 第二块内容 | 11     |

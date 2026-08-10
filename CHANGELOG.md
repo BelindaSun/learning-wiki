@@ -2,6 +2,20 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.6] - August 10, 2026
+
+### 📝 Daily Update - Bridge Spine + Semiconductor Spine 第一块内容：五条主脊全部完成
+
+**新增页面**：
+- `docs/computing-foundations/cuda-moat.md` —— 回答软硬桥脊骨架页承诺的"CUDA 为什么是护城河"。核心论点：护城河不在硬件里，在软件栈里（十几年积累的编译器、kernel 库、框架适配），而这份积累难替代的根本原因，是软硬件之间的决策从来不集中在一个点（编译期/kernel/运行时都各自做一部分决定）——顺手兑现了 `CLAUDE.md` 里记的 Future Note：Software × Hardware Map 的 Compiler→Kernel→Runtime 直线是简化过的，真实的决策是分散的。跟 [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)（软件成熟度是被低估的成本）、[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)（CUDA 生态类比）双向链接。
+- `docs/computing-foundations/yield-and-foundry.md` —— 回答半导体脊骨架页承诺的"为什么芯片产能约束 AI"。裸片/良率 → 代工集中（设计和制造是两家公司）→ EUV（全球只有 ASML 一家能造设备）→ 先进封装/HBM 堆叠，兑现了 [内存墙](docs/computing-foundations/memory-wall.md) 留下的"HBM 具体怎么制造"的问题。
+
+**新增概念**：Yield（良率）、Foundry（代工）、EUV（极紫外光刻）
+
+**至此，五条主脊（算力、内存、规模、软硬桥、半导体）全部有内容**，Computing Foundations 的 Start → Orient → Go Deeper 三层结构完整落地。
+
+**索引更新**: `index-all-concepts.md` 新增 3 个概念条目（104 → 107）。
+
 ## [v4.5] - August 10, 2026
 
 ### 📝 Daily Update - Scale Spine 第一块内容：从 1 卡到千卡

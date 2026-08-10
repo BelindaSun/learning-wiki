@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 104 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 107 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -52,6 +52,7 @@
 - **Error Handler** - [错误处理节点](docs/ai-application/workflow-design-guide.md#6-error-handler-node错误处理)
 - **Evaluation** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
 - **Evaluation vs Safety** - [Evaluation vs Safety 的区别](docs/career-impact/capability-to-trust.md#evaluation评测vs-safety安全的区别)
+- **EUV（极紫外光刻）** - [良率与代工](docs/computing-foundations/yield-and-foundry.md)
 
 ## F
 
@@ -59,6 +60,7 @@
 - **FLOPS** - [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 - **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
 - **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
+- **Foundry（代工）** - [良率与代工](docs/computing-foundations/yield-and-foundry.md)
 
 ## H
 
@@ -165,6 +167,10 @@
 - **Workflow Design** - [工作流设计完全指南](docs/ai-application/workflow-design-guide.md)
 - **Workload（Workload 形状）** - [Workload 形状：没有全能冠军，只有场景冠军](docs/ai-core/inference-infrastructure-and-agent-latency.md#workload-形状没有全能冠军只有场景冠军)
 
+## Y
+
+- **Yield（良率）** - [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
+
 ---
 
 ## 按主题快速查找
@@ -222,7 +228,7 @@
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
 - **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
 - **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
-- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md)（含 [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)）· [软硬桥脊](docs/computing-foundations/bridge-spine.md) · [半导体脊](docs/computing-foundations/semiconductor-spine.md)
+- **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md)（含 [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)）· [软硬桥脊](docs/computing-foundations/bridge-spine.md)（含 [CUDA 护城河](docs/computing-foundations/cuda-moat.md)）· [半导体脊](docs/computing-foundations/semiconductor-spine.md)（含 [良率与代工](docs/computing-foundations/yield-and-foundry.md)）
 
 ---
 

@@ -33,7 +33,7 @@
 
 ## 🔬 Go Deeper · 五条主脊，搞懂为什么
 
-五主脊里，算力脊、内存脊、规模脊已经有内容；软硬桥脊、半导体脊还是骨架页（只放脊图 + 一句要回答的问题），详情在 Phase 1+ 逐条展开：
+五主脊现在都已经有内容：
 
 - **[算力脊 · Compute Spine](compute-spine.md)** —— 为什么 GPU 赢了深度学习、为什么降精度能提速
   - [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md) ← 已经写了
@@ -43,7 +43,9 @@
 - **[规模脊 · Scale Spine](scale-spine.md)** —— 为什么从 1 卡扩到千卡很难
   - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) ← 已经写了
 - **[软硬桥脊 · Bridge Spine](bridge-spine.md)** —— CUDA 为什么是护城河
+  - [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md) ← 已经写了
 - **[半导体脊 · Semiconductor Spine](semiconductor-spine.md)** —— 为什么芯片产能约束 AI
+  - [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) ← 已经写了
 
 ---
 

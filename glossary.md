@@ -268,10 +268,10 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 *想深入*：[Software Map](docs/computing-foundations/software-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 
 **Compiler（编译器）**
-把用编程语言表达出来的工作，翻译成硬件能直接执行的指令。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+把用编程语言表达出来的工作，翻译成硬件能直接执行的指令。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md) · [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
 
 **Kernel（内核）**
-针对某一种硬件、某一种具体运算，写到极致快的小程序——比如专门做矩阵乘法。CUDA 是这类生态里最有名的例子，但"kernel"是概念，CUDA 只是其中一个实现。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+针对某一种硬件、某一种具体运算，写到极致快的小程序——比如专门做矩阵乘法。CUDA 是这类生态里最有名的例子，但"kernel"是概念，CUDA 只是其中一个实现。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md) · [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
 
 **Precision（精度）**
 数字用多"精确"的方式表示——精度越高越准，但也越慢越占内存；精度越低换来更快更省，代价是可能损失一点准确率（对应 AI 基础里的 `Quantization` 就是"降精度"的一种做法）。 → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
@@ -303,11 +303,20 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **Amdahl's Law（阿姆达尔定律）**
 一件工作里，总有一部分没法拆开来分给多人同时做（必须按顺序完成，或者是协调/通信开销）——这部分"没法并行"的比例，决定了不管加多少人手/多少台机器，能拿到的加速倍数都有一个上限。 → [从 1 卡到千卡：为什么算力扩展这么难](docs/computing-foundations/scaling-and-communication.md)
 
+**Yield（良率）**
+一片晶圆切出来的裸片里，能正常工作的比例——制程越先进，出瑕疵的概率往往越高，良率越低，同样一片晶圆能卖出去的合格芯片就越少。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
+
+**Foundry（代工）**
+设计芯片和制造芯片，通常是两家不同的公司——像 NVIDIA 这样的公司设计芯片，把制造交给专门的代工厂（比如台积电 TSMC）。全世界能造最先进芯片的代工厂只有极少数几家，是产能受限的直接原因。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
+
+**EUV（极紫外光刻）**
+制造最先进芯片所需的光刻设备——全世界只有荷兰的 ASML 一家能生产。不需要懂它的物理原理，只需要知道：芯片产能的上游，卡在一家公司手上。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
+
 ---
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 104 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 107 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 
