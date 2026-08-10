@@ -145,6 +145,8 @@ Token 1024 → [0.23, -0.91, 0.15, ..., 0.78]
   "巴黎"的向量靠近"首都"也靠近"法国"
 ```
 
+这里的"向量"只是一次推理内部的中间步骤；把这个想法单独拿出来、用来比较整段文字的语义相似度，见 [Embeddings 完全指南](embeddings-guide.md)。
+
 ### 第 3 步：正向传播（Forward Pass）
 
 ```
@@ -765,6 +767,8 @@ Step 3：基于推理，输出最终答案
   需要几倍的推理时间
 ```
 
+不开启专门的 Thinking 模式，也能借用同一个原理——直接在 Prompt 里要求"先一步步分析，再给结论"，见 [Prompt 工程完全指南](prompt-engineering-guide.md#2-让它先想再答chain-of-thought)。
+
 ### Claude 的"幻觉"为什么发生
 
 ```
@@ -897,7 +901,8 @@ Inference 的局限：
 
 - 🧠 Attention 机制深度指南（待创建）
 - 🔍 涌现临界点研究（待创建）
-- 🎯 Embedding 和语义空间（待创建）
+- 🎯 Embedding 和语义空间 → [Embeddings 完全指南](embeddings-guide.md)
+- ✍️ 怎么把 Prompt 写好 → [Prompt 工程完全指南](prompt-engineering-guide.md)
 
 ---
 
@@ -909,3 +914,5 @@ Inference 的局限：
 - [MCP 协议](../ai-application/mcp-protocol-guide.md)
 - [推理基础设施与 Agent 延迟](inference-infrastructure-and-agent-latency.md)——单次 Inference 内部怎么运作讲完了，这篇接着讲服务大量请求时，Inference 这个过程在硬件上怎么被拆开跑
 - [Training 训练系统完全指南](training-system-guide.md)——"权重怎么来的：训练"这一节的完整展开
+- [Embeddings 完全指南](embeddings-guide.md)——"Embedding（变成向量）"这一步的完整展开
+- [Prompt 工程完全指南](prompt-engineering-guide.md)——Thinking 模式背后的原理，怎么在日常 Prompt 里借用

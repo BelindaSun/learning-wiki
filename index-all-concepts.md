@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 114 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 121 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -33,10 +33,12 @@
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Causal Mask** - [生成过程详解](docs/ai-core/transformer-architecture.md#causal-mask因果掩码)
+- **Chain-of-thought（思维链）** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#2-让它先想再答chain-of-thought)
 - **Conversation History** - [状态机与上下文窗口](docs/ai-core/agent-architecture.md#状态机与上下文窗口)
 - **Context Window** - [Context Window 完全指南](docs/ai-core/context-window-guide.md)
 - **Context Management** - [Context 的实战管理](docs/ai-core/context-window-guide.md#实战管理)
 - **Conditional Node** - [条件节点](docs/ai-application/workflow-design-guide.md#3-conditional-node条件节点)
+- **Cosine Similarity（余弦相似度）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#怎么比较两个向量像不像)
 - **Ceiling × Reach（天花板 × 到达能力）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#心智模型天花板--到达能力)
 - **Compute-bound vs Memory-bandwidth-bound** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 
@@ -48,6 +50,7 @@
 
 ## E
 
+- **Embedding（嵌入 / 向量表示）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
 - **Emergence** - [涌现与临界点](docs/ai-core/inference-system-guide.md#涌现与临界点)
 - **Episodic Memory** - [情节记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Error Handler** - [错误处理节点](docs/ai-application/workflow-design-guide.md#6-error-handler-node错误处理)
@@ -58,6 +61,7 @@
 ## F
 
 - **Feed Forward Network** - [前馈网络](docs/ai-core/transformer-architecture.md#前馈网络feed-forward-network)
+- **Few-shot（少样本示例）** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#1-给例子few-shot)
 - **FLOPS** - [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 - **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
 - **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
@@ -116,6 +120,7 @@
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
 - **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Pretraining（预训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
+- **Prompt** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
 - **Pruning** - [模型压缩技术](docs/ai-research/models-deep-dive.md#模型压缩技术)
@@ -127,6 +132,7 @@
 ## R
 
 - **Residual Connection** - [残差连接](docs/ai-core/transformer-architecture.md#残差连接和正则化)
+- **RAG** - [RAG 完全指南](docs/ai-application/rag-guide.md)
 - **Read-only Operations** - [只读 vs 读写](docs/ai-application/mcp-protocol-guide.md#只读-vs-读写)
 - **RLHF** - [RLHF 训练](docs/ai-research/evaluation-system.md#rlhf-强化学习)
 - **RoPE** - [RoPE（旋转位置编码）](docs/ai-core/transformer-architecture.md#rope旋转位置编码)
@@ -138,6 +144,7 @@
 - **Session Thread** - [Session 线程隔离](docs/ai-core/workflow-orchestration.md#session-线程的隔离性)
 - **Semantic Memory** - [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Self-supervised Learning（自监督学习）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+- **Semantic Search（语义搜索）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
 - **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
 - **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
@@ -200,6 +207,23 @@
 - [为什么训练这么贵](docs/ai-core/training-system-guide.md#为什么训练这么贵)
 - [知识截止日期](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 - [RLHF 三步流程](docs/ai-research/evaluation-system.md#rlhf-三步流程)
+
+### ✍️ Prompt 工程（Prompt Engineering）
+- [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
+- [为什么"说清楚"有效](docs/ai-core/prompt-engineering-guide.md#为什么说清楚有效)
+- [Few-shot](docs/ai-core/prompt-engineering-guide.md#1-给例子few-shot)
+- [Chain-of-thought](docs/ai-core/prompt-engineering-guide.md#2-让它先想再答chain-of-thought)
+- [System 和 User](docs/ai-core/prompt-engineering-guide.md#system-和-user两种不同的说话身份)
+
+### 🔎 Embeddings 与语义搜索
+- [Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
+- [语义搜索 vs 关键词搜索](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
+- [怎么比较两个向量像不像](docs/ai-core/embeddings-guide.md#怎么比较两个向量像不像)
+
+### 📖 RAG（检索增强生成）
+- [RAG 完全指南](docs/ai-application/rag-guide.md)
+- [为什么需要 RAG](docs/ai-application/rag-guide.md#为什么需要-rag)
+- [检索这一步具体怎么做](docs/ai-application/rag-guide.md#检索这一步具体怎么做)
 
 ### 📚 记忆系统（Memory）
 - [Memory 系统](docs/ai-core/memory-system-guide.md)

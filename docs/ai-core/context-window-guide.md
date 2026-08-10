@@ -112,6 +112,8 @@ Claude 系列衰减最慢
 用户没发 Token，但被占用了
 ```
 
+系统提示词和你自己写的 Prompt，是两种不同的"说话身份"——为什么要分开、怎么分工，见 [Prompt 工程完全指南](prompt-engineering-guide.md#system-和-user两种不同的说话身份)。
+
 ### 第 2 层：记忆文件（半可见）
 
 ```
@@ -735,3 +737,5 @@ Context（单次对话）：
 - [Skill 设计](../ai-application/skills-business-landscape.md)
 - [Workflow 编排](workflow-orchestration.md)
 - [MCP 协议](../ai-application/mcp-protocol-guide.md)
+- [Prompt 工程完全指南](prompt-engineering-guide.md) —— 系统提示词在 Prompt 工程里扮演的角色
+- [RAG 完全指南](../ai-application/rag-guide.md) —— Context 容量有限，是 RAG 存在的原因之一

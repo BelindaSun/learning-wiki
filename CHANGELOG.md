@@ -2,6 +2,21 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.8] - August 10, 2026
+
+### 📝 Daily Update - Prompt 工程 + Embeddings + RAG：补齐三个非专业人士必须知道的基础
+
+**背景**：Training 指南上线后继续通盘审视 Wiki，确认还欠三块基础——Prompt 工程（CLAUDE.md 早就列了这一项，但从没写过）、Embeddings（inference-system-guide.md 自己承认"待创建"）、RAG（glossary.md 自己承认"待创建"）。三篇一次性补上，彼此之间也接成一条线：Prompt 工程教怎么跟模型对话，Embeddings 教怎么让模型理解"语义相近"，RAG 把 Embeddings 用起来解决 Training 讲过的知识截止日期问题。
+
+**新增页面**：
+- `docs/ai-core/prompt-engineering-guide.md` —— 机制先行：为什么"说清楚"有效（收窄模型的预测候选池），三个真正有杠杆的技巧（给例子/先想再答/说清楚格式），System vs User 两种说话身份。Chain-of-thought 直接链接 Inference 指南已经写过的 Thinking 模式原理，不重讲。
+- `docs/ai-core/embeddings-guide.md` —— 把 Inference 指南里"Token 变成向量"这个推理内部步骤，延伸成一个独立工具：整段文字变成一个向量、怎么比较向量像不像、语义搜索 vs 关键词搜索。
+- `docs/ai-application/rag-guide.md` —— 检索这一步具体怎么做（用 Embeddings 做语义搜索），直接呼应 Training 指南的知识截止日期和 Context Window 指南的容量限制——RAG 是这两个限制共同的答案。
+
+**新增概念**：Prompt（升级为独立词条）、Few-shot、Chain-of-thought、Embedding、Cosine Similarity、Semantic Search、RAG（词条更新，兑现"待创建"承诺）
+
+**索引更新**: `index-all-concepts.md` 新增 7 个概念条目（114 → 121），新增"Prompt 工程""Embeddings 与语义搜索""RAG"三个主题分类。
+
 ## [v4.7] - August 10, 2026
 
 ### 📝 Daily Update - AI Core 新增：Training 训练系统完全指南

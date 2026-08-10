@@ -73,6 +73,18 @@ LLM 处理文字时切出来的最小单位——一段文字会被切成一个�
 
 *想深入*：[Context Window 完全指南](docs/ai-core/context-window-guide.md)
 
+#### Embedding
+**嵌入 / 向量表示** — 把一个词、一句话或一整段文字，变成一串数字（向量），代表它的"语义位置"。意思相近的文字，向量也挨得近；意思不相关的，向量离得远。
+
+*怎么想象*：像给每段文字在一张巨大的"意思地图"上标一个点——"减肥"和"瘦身"标的点挨在一起，"减肥"和"天气"标的点离得很远。
+
+*相关*：[Token](#token)、`Semantic Search`
+
+*想深入*：[Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
+
+**Semantic Search（语义搜索）**
+不比对字面有没有重复，比对的是 Embedding 之后向量的距离——"怎么减肥"能搜到"如何瘦身"，哪怕两句话没有一个字重叠。 → [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
+
 #### Inference
 **推理** — AI 生成回答的过程——不是"查找答案"，是把输入变成数字、一层层计算，一个 Token 一个 Token 预测出来。
 
@@ -107,8 +119,20 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 **Knowledge Cutoff（知识截止日期）**
 模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 
-**Prompt**
-你给 AI 的输入指令/问题。写得越清楚具体，AI 的回答质量通常越高。
+#### Prompt
+你给 AI 的输入指令/问题——本质上就是 [Context](#context) 里由你写的那部分。写得越清楚具体，AI 能"猜"的候选范围就越窄，回答质量通常越高。
+
+*怎么想象*：AI 是在你给的文字基础上，预测接下来最可能出现什么。Prompt 写得越模糊，合理的"接下来"就越多；写得越具体，AI 越容易命中你真正想要的那个。
+
+*相关*：[Context](#context)、[Inference](#inference)
+
+*想深入*：[Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
+
+**Few-shot（少样本示例）**
+不描述你想要什么风格，直接给一两个例子，让模型照着"续写"这个模式——模型不是记住了新知识，是从例子里读出"接下来该是这种格式"。 → [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#1-给例子few-shot)
+
+**Chain-of-thought（思维链）**
+在 Prompt 里要求"先一步步分析，再给结论"，引导模型把中间推理过程写出来，而不是一步跳到答案——复杂问题上通常更准。 → [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#2-让它先想再答chain-of-thought)
 
 **Transformer**
 现在主流 LLM 都在用的一种模型架构，核心是 Attention 机制（让模型判断一句话里哪些词之间有关系）。 → [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md)
@@ -233,9 +257,9 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 问题 → 检索相关资料 → 把资料放进 Context → 模型基于资料回答
 ```
 
-*相关*：[Context](#context)、[Model](#model)
+*相关*：[Context](#context)、[Model](#model)、`Embedding`
 
-*想深入*：这个 Wiki 目前还没有 RAG 的独立深入文章（待创建）——想先了解 Context 怎么被"填进去"的，可以看 [Context Window 完全指南](docs/ai-core/context-window-guide.md)。
+*想深入*：[RAG 完全指南](docs/ai-application/rag-guide.md) —— "检索"这一步具体怎么做
 
 #### Coding Agent
 专门用来读代码、改代码、跑测试的 Agent——目前是 Agent 落地最快、最成熟的场景之一。
@@ -340,7 +364,7 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 114 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 121 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

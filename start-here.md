@@ -69,7 +69,7 @@ Transformer（模型的核心结构）
 
 **Related concepts**：[Token](glossary.md#ai-基础) · [Context](glossary.md#agent-相关) · [Transformer](glossary.md#ai-基础) · [Inference](glossary.md#ai-基础)
 
-**Go Deeper**：[Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md) · [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md) · [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+**Go Deeper**：[Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md) · [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md) · [Training 训练系统完全指南](docs/ai-core/training-system-guide.md) · [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)（最实用的一站，怎么把 AI 用好）
 
 ---
 

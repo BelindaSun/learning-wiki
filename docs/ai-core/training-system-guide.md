@@ -54,7 +54,7 @@
 
 ## 训练完之后：权重冻结与知识截止日期
 
-[Inference 完全指南](inference-system-guide.md#推理-vs-训练中的权重) 已经提过：训练时权重是可变的，训练一结束，权重就完全固定下来，推理时只做正向传播，不再调整。这带来一个直接后果——**知识截止日期（Knowledge Cutoff）**：模型知道的世界，停在了训练数据收集的那个时间点，之后发生的事，它不会自己知道，除非你在对话里告诉它，或者靠 Tool/RAG 这类机制去外部查（[术语表 RAG](../../glossary.md#rag)）。
+[Inference 完全指南](inference-system-guide.md#推理-vs-训练中的权重) 已经提过：训练时权重是可变的，训练一结束，权重就完全固定下来，推理时只做正向传播，不再调整。这带来一个直接后果——**知识截止日期（Knowledge Cutoff）**：模型知道的世界，停在了训练数据收集的那个时间点，之后发生的事，它不会自己知道，除非你在对话里告诉它，或者靠 Tool/RAG 这类机制去外部查——具体怎么查，见 [RAG 完全指南](../ai-application/rag-guide.md)。
 
 想让模型"学会"新东西，唯一的办法是重新走一遍训练循环——不是改一个配置文件就行，这也是为什么"更新模型"是一件成本很高的事，直接呼应上一节"为什么训练这么贵"。
 
@@ -85,3 +85,4 @@
 - [Models 深挖](../ai-research/models-deep-dive.md) —— 训练后的模型压缩技术
 - [Computing Foundations · 计算机基础地图](../computing-foundations/index.md) —— "为什么训练这么贵"背后的硬件原因
 - [FLOPS 与精度](../computing-foundations/flops-and-precision.md) · [从 1 卡到千卡](../computing-foundations/scaling-and-communication.md) · [内存墙](../computing-foundations/memory-wall.md) —— 训练成本的三个具体来源
+- [RAG 完全指南](../ai-application/rag-guide.md) —— 知识截止日期这个限制，RAG 是不用重新训练的解法
