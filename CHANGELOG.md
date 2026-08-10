@@ -2,6 +2,18 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.0] - August 10, 2026
+
+### 📝 Daily Update - AI Core 新增：AI Safety / Alignment 完全指南
+
+**背景**：早前 gap-analysis 里最后一块空缺——Belinda 说她对 Safety/Alignment 已经了解得不少，不需要再走一轮学习对话，直接让 Claude 生成正式指南。写之前先检查了现有内容：`evaluation-system.md` 已经把 RLHF 三步流程和"安全性是硬门槛"讲得很细，`training-system-guide.md` 已经把 RLHF 放进训练三阶段的位置，`capability-to-trust.md` 已经从产品/信任视角区分过 Evaluation vs Safety——这篇要补的缺口是：Safety 和 Alignment 本身是两个不同层次的问题（不只是"评测 vs 安全"这一层业务区分），以及为什么"多训练几轮/多加规则"解决不了对齐问题的技术根源。
+
+**新增页面**：`docs/ai-core/safety-alignment-guide.md` —— Safety（当下、具体、可测）vs Alignment（模型目标在没见过的新场景里是否依然符合人类意图，更深、更难验证）；Specification Gaming 作为核心机制解释（代理指标和真实目标之间的缝隙，用"客服满意度评分"类比降低理解门槛，明确这不是 AI 独有问题）；RLHF 定位为"对齐技术之一，不是解决方案"，列出打分本身是代理指标、Sycophancy、不保证泛化三个已知局限；Red Teaming / Constitutional AI / Interpretability 三条互补思路点到为止；专门写了一节区分"已经反复观察到的对齐问题"和"更具猜测性的长期担忧"，避免夸大或简单否定任一边。Interpretability 技术细节、AI 政策监管、长期 AI 风险辩论、各家模型横向对比均不展开，只标连接点。
+
+**新增概念**：Alignment（升级为独立词条）、Specification Gaming、Sycophancy、Constitutional AI、Interpretability、Red Teaming
+
+**索引更新**: `index-all-concepts.md` 新增 6 个概念条目（134 → 140），新增"🛡️ Safety / Alignment"主题分类；`evaluation-system.md` 里"Constitutional AI（待创建）"这条改为指向新指南的简要提及。
+
 ## [v4.9] - August 10, 2026
 
 ### 📝 Daily Update - AI Core 新增：Multimodal 完全指南

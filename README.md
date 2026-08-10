@@ -103,6 +103,7 @@
 
 | 日期        | 主题                                     | 概念数 |
 | ----------- | ---------------------------------------- | ------ |
+| Aug 10, 2026 | AI Core 新增：AI Safety / Alignment 完全指南 | 6 |
 | Aug 10, 2026 | AI Core 新增：Multimodal 完全指南       | 6      |
 | Aug 10, 2026 | Prompt 工程 + Embeddings + RAG 三篇补齐 | 7      |
 | Aug 10, 2026 | AI Core 新增：Training 训练系统完全指南 | 5      |
