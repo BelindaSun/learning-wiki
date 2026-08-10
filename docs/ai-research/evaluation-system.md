@@ -478,7 +478,7 @@ Mimo、AI2030 这样的中文 AI 产品
 
 ## 下一步学习
 
-- 🎯 Constitutional AI：Claude 的价值观训练（待创建）
+- 🎯 Constitutional AI：Claude 的价值观训练——简要提及见 [AI Safety / Alignment 完全指南](../ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)，具体工程实现仍待独立页面（待创建）
 - 📊 设计一套中文 AI 评价体系（待创建）
 - 🔍 Benchmark 的数学原理（待创建）
 
@@ -490,3 +490,4 @@ Mimo、AI2030 这样的中文 AI 产品
 - [Models 深挖](models-deep-dive.md)
 - [Skills 和商业格局](../ai-application/skills-business-landscape.md)
 - [Training 训练系统完全指南](../ai-core/training-system-guide.md)——SFT/RLHF 在整条训练线上扮演什么角色，这篇讲的三步流程是其中两站的完整展开
+- [AI Safety / Alignment 完全指南](../ai-core/safety-alignment-guide.md)——"安全性是硬门槛"讲的是 Safety，这篇讲 Safety 和更深的 Alignment 问题的区别

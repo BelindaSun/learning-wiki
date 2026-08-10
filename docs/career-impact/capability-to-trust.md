@@ -198,6 +198,7 @@ Agent 时代（2024-2026）:
 - 📖 完整对话记录：[从最聪明到最可信](../conversations/capability-to-trust.md)
 - 💼 想看护城河迁移的完整路径，看 [从工具到产业](industry-competition-shift.md) 和 [模型战争 vs 系统战争](model-to-system-war.md)
 - 🛠️ 想看权限/约束系统的具体落地，看 [Harness 系统完全指南](../ai-application/harness-system.md)
+- 🔬 想看 Safety vs Alignment 更技术的一层，看 [AI Safety / Alignment 完全指南](../ai-core/safety-alignment-guide.md)
 
 ---
 
@@ -208,6 +209,7 @@ Agent 时代（2024-2026）:
 - EU AI Act 和 Trump 政策信号的对比（规制的不同思路）
 
 **相关**:
+- [AI Safety / Alignment 完全指南](../ai-core/safety-alignment-guide.md) —— Safety vs Alignment 更技术的一层区分
 - [模型战争 vs 系统战争](model-to-system-war.md)
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)
 - [Harness 系统](../ai-application/harness-system.md)

@@ -11,6 +11,7 @@
 - [Prompt 工程](prompt-engineering-guide.md)
 - [Embeddings](embeddings-guide.md)
 - [Multimodal 多模态](multimodal-guide.md)
+- [AI Safety / Alignment](safety-alignment-guide.md)
 - [Transformer 架构](transformer-architecture.md)
 - [Agent 时代的系统架构转变](agent-era-work.md)
 - [推理基础设施与 Agent 延迟](inference-infrastructure-and-agent-latency.md)

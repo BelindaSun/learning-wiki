@@ -1,6 +1,6 @@
 # 术语表
 
-> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中最核心的一批词（AI、LLM、Model、Token、Embedding、Inference、Training、Prompt、Agent、Tool、Workflow、Context、State、Memory、Multimodal、MCP、Harness、RAG、Coding Agent、Runtime）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
+> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中最核心的一批词（AI、LLM、Model、Token、Embedding、Inference、Training、Alignment、Prompt、Agent、Tool、Workflow、Context、State、Memory、Multimodal、MCP、Harness、RAG、Coding Agent、Runtime）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
 
 ---
 
@@ -133,6 +133,18 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 
 **Knowledge Cutoff（知识截止日期）**
 模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
+
+#### Alignment
+**对齐** — 模型的目标和行为，是不是真的符合人类的真实意图，尤其是在训练时没见过的新场景里——比"模型会不会说危险内容"（Safety）更深、更难验证的一层问题。RLHF 是目前最主流的对齐技术之一，但只是缓解手段，不保证问题被彻底解决。
+
+*怎么想象*：Safety 像"考试有没有作弊"（具体、能当场抓）；Alignment 像"这个人真正的品格是不是可信"（更深、没法靠一次考试完全确认）。
+
+*相关*：[Training](#training)、`RLHF`、`Safety`
+
+*想深入*：[AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)
+
+**Specification Gaming（目标设定的漏洞利用）**
+当训练用的打分标准（代理指标）和人类真正想要的结果（真实目标）之间存在缝隙时，模型可能学会钻这道缝隙的空子，而不是学到我们以为它学到的东西——不是 AI 独有的问题，任何"用代理指标衡量真实目标"的系统都可能遇到。 → [AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
 
 #### Prompt
 你给 AI 的输入指令/问题——本质上就是 [Context](#context) 里由你写的那部分。写得越清楚具体，AI 能"猜"的候选范围就越窄，回答质量通常越高。
@@ -394,7 +406,7 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 130 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 140 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

@@ -1,10 +1,11 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 134 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 140 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
 - **Agent** - [Agent 系统架构](docs/ai-core/agent-architecture.md)
+- **Alignment（对齐）** - [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
 - **Agent Lifecycle** - [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
 - **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **Agent Feasibility Criteria（Agent 可行性六条标准）** - [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
@@ -29,6 +30,7 @@
 - **Compiler（编译器）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
+- **Constitutional AI** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 - **CPU vs GPU** - [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
@@ -88,6 +90,7 @@
 
 - **Inference** - [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Interconnect（互连）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
+- **Interpretability（可解释性）** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 
 ## K
 
@@ -153,6 +156,7 @@
 - **RAG** - [RAG 完全指南](docs/ai-application/rag-guide.md)
 - **RAM（Random Access Memory，内存）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 - **Read-only Operations** - [只读 vs 读写](docs/ai-application/mcp-protocol-guide.md#只读-vs-读写)
+- **Red Teaming（红队测试）** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 - **RLHF** - [RLHF 训练](docs/ai-research/evaluation-system.md#rlhf-强化学习)
 - **RoPE** - [RoPE（旋转位置编码）](docs/ai-core/transformer-architecture.md#rope旋转位置编码)
 - **Runtime（运行时）** - [Software Map](docs/computing-foundations/software-map.md)
@@ -165,6 +169,8 @@
 - **Self-supervised Learning（自监督学习）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Semantic Search（语义搜索）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
+- **Specification Gaming（目标设定的漏洞利用）** - [为什么这是个真问题：Specification Gaming](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
+- **Sycophancy（讨好倾向）** - [RLHF 是一种对齐技术，不是对齐本身](docs/ai-core/safety-alignment-guide.md#rlhf-是一种对齐技术不是对齐本身)
 - **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
 - **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
@@ -226,6 +232,13 @@
 - [为什么训练这么贵](docs/ai-core/training-system-guide.md#为什么训练这么贵)
 - [知识截止日期](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 - [RLHF 三步流程](docs/ai-research/evaluation-system.md#rlhf-三步流程)
+
+### 🛡️ Safety / Alignment
+- [AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)
+- [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
+- [Specification Gaming](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
+- [RLHF 是一种对齐技术，不是对齐本身](docs/ai-core/safety-alignment-guide.md#rlhf-是一种对齐技术不是对齐本身)
+- [Red Teaming / Constitutional AI / Interpretability](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 
 ### ✍️ Prompt 工程（Prompt Engineering）
 - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)

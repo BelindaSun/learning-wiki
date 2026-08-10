@@ -72,6 +72,7 @@
 
 - ← [Inference 完全指南](inference-system-guide.md) —— 训练循环最初在这里讲过
 - → [Evaluation 系统](../ai-research/evaluation-system.md) —— 监督微调与 RLHF 的完整三步流程
+- → [AI Safety / Alignment 完全指南](safety-alignment-guide.md) —— RLHF 教会模型"人类偏好"，但这不等于"对齐"，这篇讲两者的区别
 - → [Models 深挖](../ai-research/models-deep-dive.md) —— 训练完之后，模型怎么被压缩变小变快
 - 好奇"为什么训练需要这么多硬件" → [Computing Foundations](../computing-foundations/index.md)
 
@@ -82,6 +83,7 @@
 **相关**:
 - [Inference 推理系统完全指南](inference-system-guide.md) —— 训练/推理共用的核心循环
 - [Evaluation 评估系统](../ai-research/evaluation-system.md) —— SFT/RLHF 的完整三步流程
+- [AI Safety / Alignment 完全指南](safety-alignment-guide.md) —— RLHF 作为对齐技术的局限
 - [Models 深挖](../ai-research/models-deep-dive.md) —— 训练后的模型压缩技术
 - [Computing Foundations · 计算机基础地图](../computing-foundations/index.md) —— "为什么训练这么贵"背后的硬件原因
 - [FLOPS 与精度](../computing-foundations/flops-and-precision.md) · [从 1 卡到千卡](../computing-foundations/scaling-and-communication.md) · [内存墙](../computing-foundations/memory-wall.md) —— 训练成本的三个具体来源
