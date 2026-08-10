@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 109 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 114 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -18,6 +18,7 @@
 ## B
 
 - **Bandwidth vs Capacity（带宽 vs 容量）** - [内存墙](docs/computing-foundations/memory-wall.md)
+- **Base Model（基础模型）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Batching（批处理）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Benchmark** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
 - **Bridge Spine（软硬桥脊）** - [软硬桥脊](docs/computing-foundations/bridge-spine.md)
@@ -78,6 +79,7 @@
 ## K
 
 - **Kernel（内核）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+- **Knowledge Cutoff（知识截止日期）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 
 ## L
 
@@ -113,6 +115,7 @@
 - **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
 - **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+- **Pretraining（预训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
 - **Pruning** - [模型压缩技术](docs/ai-research/models-deep-dive.md#模型压缩技术)
@@ -134,6 +137,7 @@
 - **Sequential Node** - [顺序节点](docs/ai-application/workflow-design-guide.md#1-sequential-node顺序型-workflow)
 - **Session Thread** - [Session 线程隔离](docs/ai-core/workflow-orchestration.md#session-线程的隔离性)
 - **Semantic Memory** - [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
+- **Self-supervised Learning（自监督学习）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
 - **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
 - **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
@@ -152,6 +156,7 @@
 - **Token** - [Context Window 和 Token](docs/ai-core/context-window-guide.md#context-window-和-token)
 - **Top-k Sampling** - [采样参数](docs/ai-core/inference-system-guide.md#参数-3top-k)
 - **Top-p Sampling** - [采样参数](docs/ai-core/inference-system-guide.md#参数-2top-p核心sampling)
+- **Training（训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Transformer** - [Transformer 架构](docs/ai-core/transformer-architecture.md)
 - **Trustworthiness（可信度五维框架）** - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 - **Time-Scale Separation（时间尺度分离）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#1-google-在做时间尺度分离)
@@ -187,6 +192,14 @@
 - [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - [Prefill vs Decode](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - [Workload 形状](docs/ai-core/inference-infrastructure-and-agent-latency.md#workload-形状没有全能冠军只有场景冠军)
+
+### 🎓 训练系统（Training）
+- [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+- [预训练](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
+- [监督微调与 RLHF](docs/ai-core/training-system-guide.md#监督微调与-rlhf从会说话到说人话)
+- [为什么训练这么贵](docs/ai-core/training-system-guide.md#为什么训练这么贵)
+- [知识截止日期](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
+- [RLHF 三步流程](docs/ai-research/evaluation-system.md#rlhf-三步流程)
 
 ### 📚 记忆系统（Memory）
 - [Memory 系统](docs/ai-core/memory-system-guide.md)

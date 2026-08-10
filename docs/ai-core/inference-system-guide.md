@@ -95,6 +95,8 @@ Claude Opus 4.8：
 - 训练完后权重完全固定
 ```
 
+这里只是训练的核心循环——预训练怎么用这个循环、监督微调和 RLHF 又是怎么回事、训练为什么这么贵，见 [Training 训练系统完全指南](training-system-guide.md)。
+
 ### 推理 vs 训练中的权重
 
 ```
@@ -906,3 +908,4 @@ Inference 的局限：
 - [Context Window](context-window-guide.md)
 - [MCP 协议](../ai-application/mcp-protocol-guide.md)
 - [推理基础设施与 Agent 延迟](inference-infrastructure-and-agent-latency.md)——单次 Inference 内部怎么运作讲完了，这篇接着讲服务大量请求时，Inference 这个过程在硬件上怎么被拆开跑
+- [Training 训练系统完全指南](training-system-guide.md)——"权重怎么来的：训练"这一节的完整展开

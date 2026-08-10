@@ -499,3 +499,4 @@ Step 4: 4-bit 量化（可选）
 - [Transformer 架构](../ai-core/transformer-architecture.md)
 - [Evaluation 评估系统](evaluation-system.md)
 - [FLOPS 与精度：为什么降精度能提速](../computing-foundations/flops-and-precision.md) —— 量化为什么能提速（硬件角度），跟这篇的准确率角度互补
+- [Training 训练系统完全指南](../ai-core/training-system-guide.md) —— 这篇讲的压缩技术，用在训练完之后的模型上；训练本身怎么运作看这篇

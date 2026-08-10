@@ -82,9 +82,30 @@ Training（训练）：海量数据 → 调整参数 → 模型学会规律     
 Inference（推理）：你的输入 → 模型 → 输出                 [每次对话都发生、相对快]
 ```
 
-*相关*：[Token](#token)、[LLM](#llm)、[Model](#model)
+*相关*：[Token](#token)、[LLM](#llm)、[Model](#model)、[Training](#training)
 
 *想深入*：[Start Here 第 2 站](start-here.md) · [Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md)
+
+#### Training
+**训练** — 模型从一堆随机数变成"会说话"的过程，分三个阶段：预训练（在海量文本上自监督学习，不需要人工标注）、监督微调（用人工样本教它像助手一样说话）、RLHF（用人类反馈打磨成"讨人喜欢"）。训练完权重就固定了，之后的一切对话都是 [Inference](#inference)，不会让模型"变聪明"。
+
+*怎么想象*：预训练是"读遍图书馆自学成才"，监督微调是"上岗培训"，RLHF 是"根据顾客反馈调整服务方式"——三步一步比一步更依赖人的参与。
+
+*相关*：[Inference](#inference)、`Fine-tuning`、`RLHF`
+
+*想深入*：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+
+**Pretraining（预训练）**
+训练的第一阶段，也是最贵的一步——在海量互联网文字上自监督学习，不需要人工标注答案（答案就是原文本身）。训练完得到一个"很会接话但不一定听指挥"的[基础模型](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+
+**Self-supervised Learning（自监督学习）**
+不需要人工标注答案的训练方式——把一段真实文本的一部分盖住，让模型猜，答案就是原文本身。预训练能用到万亿级数据量，靠的就是这一点。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+
+**Base Model（基础模型）**
+只经过预训练、还没做监督微调和 RLHF 的模型——读过海量文字、很会"接话"，但不一定知道怎么像助手一样规规矩矩回答问题。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+
+**Knowledge Cutoff（知识截止日期）**
+模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 
 **Prompt**
 你给 AI 的输入指令/问题。写得越清楚具体，AI 的回答质量通常越高。
@@ -93,7 +114,7 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 现在主流 LLM 都在用的一种模型架构，核心是 Attention 机制（让模型判断一句话里哪些词之间有关系）。 → [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md)
 
 **Fine-tuning（微调）**
-在一个已经训练好的通用模型基础上，用更少量、更专门的数据继续训练，让它更擅长某个特定任务或领域。
+在一个已经训练好的通用模型基础上，用更少量、更专门的数据继续训练，让它更擅长某个特定任务或领域——[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)里说的"监督微调"就是这个阶段最常见的一种。
 
 **MoE（Mixture of Experts，混合专家模型）**
 一种让模型变得很大、但每次只激活一部分参数的架构设计，用来在"知识容量"和"计算成本"之间找平衡。 → [Models 深挖](docs/ai-research/models-deep-dive.md)
@@ -102,7 +123,7 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 把模型参数从高精度数字压缩成低精度数字，牺牲一点点准确率换取更小的体积和更快的速度。 → [Models 深挖](docs/ai-research/models-deep-dive.md)（准确率角度）· [FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)（为什么能提速）
 
 **RLHF（Reinforcement Learning from Human Feedback，基于人类反馈的强化学习）**
-让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)
+让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)（完整三步流程）· [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)（这一步在整条训练线上的位置）
 
 **Benchmark（评测基准）**
 用来给 AI 模型打分、互相比较能力的标准化测试集。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)
@@ -319,7 +340,7 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 109 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 114 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

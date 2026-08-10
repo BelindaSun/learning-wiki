@@ -23,6 +23,8 @@
 
 ## RLHF 三步流程
 
+> 这三步接在预训练之后——预训练本身怎么运作、这三步在整条训练线上处于什么位置，见 [Training 训练系统完全指南](../ai-core/training-system-guide.md)。
+
 ### Step 1：监督微调（SFT）
 
 **目标**：
@@ -487,3 +489,4 @@ Mimo、AI2030 这样的中文 AI 产品
 - [Inference 推理系统](../ai-core/inference-system-guide.md)
 - [Models 深挖](models-deep-dive.md)
 - [Skills 和商业格局](../ai-application/skills-business-landscape.md)
+- [Training 训练系统完全指南](../ai-core/training-system-guide.md)——SFT/RLHF 在整条训练线上扮演什么角色，这篇讲的三步流程是其中两站的完整展开

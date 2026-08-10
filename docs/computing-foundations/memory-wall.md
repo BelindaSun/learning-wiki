@@ -74,3 +74,4 @@
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— compute-bound/memory-bound 的真实案例
 - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) —— 同一个"喂不饱"的逻辑，放大到机器之间
 - [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) —— HBM 堆叠的制造瓶颈
+- [Training 训练系统完全指南](../ai-core/training-system-guide.md) —— "为什么训练这么贵"，这篇讲的内存墙是三个原因之一

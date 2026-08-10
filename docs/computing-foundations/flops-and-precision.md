@@ -65,3 +65,4 @@ FP32、FP16、BF16、INT8、INT4 是"精度"这个概念在实际硬件/框架�
 - [Software × Hardware Map](software-hardware-map.md) —— Precision 这个词最早在这里被认识
 - [Models 深挖](../ai-research/models-deep-dive.md#技术-3量化quantization) —— 精度换速度的代价（准确率）那一半
 - [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md) —— "搬得更快"这一半的完整展开
+- [Training 训练系统完全指南](../ai-core/training-system-guide.md) —— "为什么训练这么贵"，这篇讲的 FLOPS 是三个原因之一

@@ -2,6 +2,18 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v4.7] - August 10, 2026
+
+### 📝 Daily Update - AI Core 新增：Training 训练系统完全指南
+
+**背景**：Computing Foundations v1.0 冻结之后，回头审视整个 Wiki，发现"AI 怎么推理"讲得很扎实（`inference-system-guide.md`），但"AI 怎么学会的"是散落的——训练循环的基础机制藏在 Inference 指南的一个小节里，SFT/RLHF 三步流程在 `evaluation-system.md` 里讲得很细，但没有一篇把"预训练"本身讲清楚，也没有一条线把三个阶段串起来，更没有人回答过"为什么训练这么贵"。
+
+**新增页面**：`docs/ai-core/training-system-guide.md` —— 预训练（自监督学习，不需要人工标注）→ 监督微调 → RLHF 三阶段串成一条线；"为什么训练这么贵"直接呼应 Computing Foundations 三条主脊（FLOPS 与精度、从 1 卡到千卡、内存墙），是这几条脊今天派上用场的地方；训练循环细节和 SFT/RLHF 具体机制不重讲，链接回 `inference-system-guide.md` 和 `evaluation-system.md`。
+
+**新增概念**：Training（训练，升级为独立词条）、Pretraining（预训练）、Self-supervised Learning（自监督学习）、Base Model（基础模型）、Knowledge Cutoff（知识截止日期）
+
+**索引更新**: `index-all-concepts.md` 新增 5 个概念条目（109 → 114），新增"🎓 训练系统"主题分类。
+
 ## [v4.6] - August 10, 2026
 
 ### 📝 Daily Update - Bridge Spine + Semiconductor Spine 第一块内容：五条主脊全部完成
