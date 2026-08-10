@@ -257,7 +257,7 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 问题 → 检索相关资料 → 把资料放进 Context → 模型基于资料回答
 ```
 
-*相关*：[Context](#context)、[Model](#model)、`Embedding`
+*相关*：[Context](#context)、[Model](#model)、[Embedding](#embedding)
 
 *想深入*：[RAG 完全指南](docs/ai-application/rag-guide.md) —— "检索"这一步具体怎么做
 

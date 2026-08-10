@@ -460,6 +460,8 @@ def buildPrompt(user_message):
 
 ## 向量数据库和语义检索
 
+> "把文字变成向量、比较向量像不像"这个想法本身，不是记忆系统专属的——它是一个更通用的工具，RAG、搜索、推荐系统都在用同一套逻辑，见 [Embeddings 完全指南](embeddings-guide.md)。这里讲的是这个想法用在 Agent 记忆检索上的具体样子。
+
 ### 原理（直觉级理解）
 
 **传统数据库的问题**：
@@ -690,7 +692,7 @@ localStorage（浏览器）：
 
 ## 下一步学习
 
-- 🔍 向量数据库深度指南（待创建）
+- 🔍 向量数据库具体怎么搭建/调优（待创建，通用的"为什么向量能捕捉语义"见 [Embeddings 完全指南](embeddings-guide.md)）
 - 🧠 [Context Window 管理](context-window-guide.md)
 - 🤝 多 Agent 记忆共享（待创建）
 
