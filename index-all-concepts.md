@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 107 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 109 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -65,6 +65,7 @@
 ## H
 
 - **Hardware Map（硬件世界地图）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
+- **Hardware/Software Co-design（软硬件协同设计）** - [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
 - **Harness** - [Harness 系统](docs/ai-application/harness-system.md)
 - **Harness Dimensions** - [Harness 的四个维度](docs/ai-application/harness-system.md#harness-的四个维度)
 - **Human Approval** - [人工审核节点](docs/ai-application/workflow-design-guide.md#4-human-approval-node人工审核节点)
@@ -170,6 +171,7 @@
 ## Y
 
 - **Yield（良率）** - [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
+- **Yield Ramp（良率爬坡）** - [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
 
 ---
 
