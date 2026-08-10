@@ -126,7 +126,7 @@
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
-- **PPO（Proximal Policy Optimization）** - [RLHF 三步流程](docs/ai-research/evaluation-system.md#step-3强化学习ppoproximal-policy-optimization)
+- **PPO（Proximal Policy Optimization）** - [RLHF 三步流程](docs/ai-research/evaluation-system.md#step-3强化学习ppo)
 - **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Pretraining（预训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
 - **Prompt** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
