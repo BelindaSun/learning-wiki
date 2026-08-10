@@ -739,3 +739,4 @@ Context（单次对话）：
 - [MCP 协议](../ai-application/mcp-protocol-guide.md)
 - [Prompt 工程完全指南](prompt-engineering-guide.md) —— 系统提示词在 Prompt 工程里扮演的角色
 - [RAG 完全指南](../ai-application/rag-guide.md) —— Context 容量有限，是 RAG 存在的原因之一
+- [Multimodal 完全指南](multimodal-guide.md) —— Context 里放的不再只有文字

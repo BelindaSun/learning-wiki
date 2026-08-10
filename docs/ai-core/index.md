@@ -10,12 +10,13 @@
 - [Training 训练](training-system-guide.md)
 - [Prompt 工程](prompt-engineering-guide.md)
 - [Embeddings](embeddings-guide.md)
+- [Multimodal 多模态](multimodal-guide.md)
 - [Transformer 架构](transformer-architecture.md)
 - [Agent 时代的系统架构转变](agent-era-work.md)
 - [推理基础设施与 Agent 延迟](inference-infrastructure-and-agent-latency.md)
 
 ## 完整学习对话记录
 
-还没整理成独立指南，但完整对话很有参考价值：
+原始对话记录，正式指南已经整理了核心内容，这里保留作为学习过程的原始留档：
 
-- [多模态（Multimodal）](../conversations/multimodal.md)
+- [多模态（Multimodal）](../conversations/multimodal.md) —— 正式版见 [Multimodal 完全指南](multimodal-guide.md)

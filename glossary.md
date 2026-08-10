@@ -1,6 +1,6 @@
 # 术语表
 
-> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中 15 个最核心的词（AI、LLM、Model、Token、Inference、Agent、Tool、Workflow、Context、State、Memory、MCP、Harness、RAG、Coding Agent）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
+> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中最核心的一批词（AI、LLM、Model、Token、Embedding、Inference、Training、Prompt、Agent、Tool、Workflow、Context、State、Memory、Multimodal、MCP、Harness、RAG、Coding Agent、Runtime）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
 
 ---
 
@@ -87,6 +87,18 @@ LLM 处理文字时切出来的最小单位——一段文字会被切成一个�
 
 **KV Cache（Key-Value Cache，键值缓存）**
 生成每个新 Token 时，都要参考前面所有 Token 的 Attention 计算结果——KV Cache 就是把这些结果缓存下来，不用每步都重新算一遍。对话越长，这份缓存越大，也是 Decode 阶段内存带宽吃紧的直接原因。 → [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md) · [内存墙](docs/computing-foundations/memory-wall.md)
+
+#### Multimodal
+**多模态** — 让文字、图像、音频、视频这些不同形式的信息，共同参与模型的表示、关联与推理，不是先把一切翻译成文字再处理。补上的是智能系统的 Perception（感知）能力。
+
+*怎么想象*：Text-only AI 靠人类把世界翻译成文字再喂给它；Multimodal AI 让视觉、声音、视频这些信号直接进来，人类不再是唯一的"传感器"。
+
+*相关*：[Embedding](#embedding)、[Agent](#agent)、`Cross-Attention`
+
+*想深入*：[Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
+
+**Cross-Attention（交叉注意力）**
+让一个序列（比如语言模型正在生成的文字）去"回头看"另一个序列（比如图像的视觉特征），并决定该重点关注哪部分——是多模态系统里连接不同模态信息的常见机制之一，Flamingo 是一个具体案例。 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 
 #### Inference
 **推理** — AI 生成回答的过程——不是"查找答案"，是把输入变成数字、一层层计算，一个 Token 一个 Token 预测出来。
@@ -382,7 +394,7 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 128 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 130 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

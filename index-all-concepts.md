@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 128 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 134 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -33,6 +33,7 @@
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Causal Mask** - [生成过程详解](docs/ai-core/transformer-architecture.md#causal-mask因果掩码)
+- **Cross-Attention（交叉注意力）** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **Chain-of-thought（思维链）** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#2-让它先想再答chain-of-thought)
 - **Conversation History** - [状态机与上下文窗口](docs/ai-core/agent-architecture.md#状态机与上下文窗口)
 - **Context Window** - [Context Window 完全指南](docs/ai-core/context-window-guide.md)
@@ -63,6 +64,7 @@
 
 - **Feed Forward Network** - [前馈网络](docs/ai-core/transformer-architecture.md#前馈网络feed-forward-network)
 - **Few-shot（少样本示例）** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#1-给例子few-shot)
+- **Flamingo** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **FLOPS** - [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 - **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
 - **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
@@ -70,6 +72,7 @@
 
 ## G
 
+- **Gated Cross-Attention** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **GPU（Graphics Processing Unit，图形处理器）** - [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
 
 ## H
@@ -112,8 +115,13 @@
 - **MoE** - [稀疏模型（MoE）](docs/ai-research/models-deep-dive.md#稀疏模型moe)
 - **Multi-Agent** - [多 Agent 协调](docs/ai-core/agent-architecture.md#多-agent-协调)
 - **Multi-Head Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
-- **Multimodal** - [多模态（Multimodal）](docs/conversations/multimodal.md)
+- **Multimodal（多模态）** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
+- **Multimodal Fusion（多模态融合）** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#核心不是都变成文字)
 - **Multiplication Effect（+ 变 ×）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-4从变成的乘法效应)
+
+## N
+
+- **Native Multimodal** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#native-multimodal一个连续谱不是标签)
 
 ## O
 
@@ -123,6 +131,7 @@
 ## P
 
 - **Parallel Node** - [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
+- **Perceiver Resampler** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
@@ -270,8 +279,11 @@
 - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
 - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 
-### 🖼️ 多模态（Multimodal）
-- [多模态（Multimodal）](docs/conversations/multimodal.md)
+### 🎨 多模态（Multimodal）
+- [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
+- [Flamingo：给语言模型接上一双眼睛](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
+- [Native Multimodal：一个连续谱不是标签](docs/ai-core/multimodal-guide.md#native-multimodal一个连续谱不是标签)
+- [Multimodal → Agent → Robotics → World Model](docs/ai-core/multimodal-guide.md#multimodal--agent--robotics--world-model)
 
 ### 🖥️ 计算基础（Computing Foundations）
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)

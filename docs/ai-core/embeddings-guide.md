@@ -65,6 +65,7 @@ Inference 里讲的是"每个 Token 变成一个向量"，是模型内部一次�
 
 - **RAG（检索增强生成）**：先用语义搜索找到相关资料，再交给模型基于这些资料回答——具体怎么串起来，见 [RAG 完全指南](../ai-application/rag-guide.md)
 - **Agent 记忆检索**：[Agent 记忆系统完全指南](memory-system-guide.md#向量数据库和语义检索) 已经讲过，同一个"比较向量"的想法，用在从记忆库里找"跟这次提问语义相关的旧记忆"上
+- **跨模态表示**：[Multimodal 完全指南](multimodal-guide.md) 讲过，文字、图像、音频、视频各自变成 Representation，也是同一个想法的扩展
 - **推荐系统**：找"跟你之前喜欢的内容语义相近"的其他内容
 - **聚类/去重**：把语义相近的一堆文本自动分组，或者找出说的是同一件事的重复内容
 
@@ -92,3 +93,4 @@ Inference 里讲的是"每个 Token 变成一个向量"，是模型内部一次�
 - [Training 训练系统完全指南](training-system-guide.md) —— Embedding 模型也是训练出来的
 - [RAG 完全指南](../ai-application/rag-guide.md) —— Embedding 最直接的应用场景
 - [Agent 记忆系统完全指南](memory-system-guide.md#向量数据库和语义检索) —— 同一个想法用在记忆检索上的具体样子
+- [Multimodal 完全指南](multimodal-guide.md) —— 同一个想法用在跨模态表示上的具体样子
