@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 121 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 128 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -41,6 +41,7 @@
 - **Cosine Similarity（余弦相似度）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#怎么比较两个向量像不像)
 - **Ceiling × Reach（天花板 × 到达能力）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#心智模型天花板--到达能力)
 - **Compute-bound vs Memory-bandwidth-bound** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- **CPU（Central Processing Unit，中央处理器）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
 ## D
 
@@ -67,10 +68,15 @@
 - **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 - **Foundry（代工）** - [良率与代工](docs/computing-foundations/yield-and-foundry.md)
 
+## G
+
+- **GPU（Graphics Processing Unit，图形处理器）** - [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
+
 ## H
 
 - **Hardware Map（硬件世界地图）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Hardware/Software Co-design（软硬件协同设计）** - [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
+- **HBM（High Bandwidth Memory，高带宽内存）** - [内存墙](docs/computing-foundations/memory-wall.md)
 - **Harness** - [Harness 系统](docs/ai-application/harness-system.md)
 - **Harness Dimensions** - [Harness 的四个维度](docs/ai-application/harness-system.md#harness-的四个维度)
 - **Human Approval** - [人工审核节点](docs/ai-application/workflow-design-guide.md#4-human-approval-node人工审核节点)
@@ -84,6 +90,7 @@
 
 - **Kernel（内核）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Knowledge Cutoff（知识截止日期）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
+- **KV Cache（Key-Value Cache，键值缓存）** - [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 
 ## L
 
@@ -111,6 +118,7 @@
 ## O
 
 - **Orchestrator** - [Orchestrator 与 Worker 分工](docs/ai-core/workflow-orchestration.md#orchestrator--worker-分工)
+- **OS（Operating System，操作系统）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
 ## P
 
@@ -118,6 +126,7 @@
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** - [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)
+- **PPO（Proximal Policy Optimization）** - [RLHF 三步流程](docs/ai-research/evaluation-system.md#step-3强化学习ppoproximal-policy-optimization)
 - **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Pretraining（预训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
 - **Prompt** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
@@ -133,6 +142,7 @@
 
 - **Residual Connection** - [残差连接](docs/ai-core/transformer-architecture.md#残差连接和正则化)
 - **RAG** - [RAG 完全指南](docs/ai-application/rag-guide.md)
+- **RAM（Random Access Memory，内存）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 - **Read-only Operations** - [只读 vs 读写](docs/ai-application/mcp-protocol-guide.md#只读-vs-读写)
 - **RLHF** - [RLHF 训练](docs/ai-research/evaluation-system.md#rlhf-强化学习)
 - **RoPE** - [RoPE（旋转位置编码）](docs/ai-core/transformer-architecture.md#rope旋转位置编码)

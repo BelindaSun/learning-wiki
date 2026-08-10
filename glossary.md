@@ -27,7 +27,7 @@ AI → LLM → Model → Token → Inference
 ## AI 基础
 
 #### AI
-**人工智能** — 让机器表现出"智能行为"的技术大类——识别图像、理解语言、下棋、做决策都算。LLM 只是这个大类里，目前最受关注的一种。
+**Artificial Intelligence，人工智能** — 让机器表现出"智能行为"的技术大类——识别图像、理解语言、下棋、做决策都算。LLM 只是这个大类里，目前最受关注的一种。
 
 *怎么想象*：两层不同的关系，别混在一起。第一层是"属于哪一类"：
 ```
@@ -44,7 +44,7 @@ Model（能力核心） → 包装、加上界面和产品设计 → Product（�
 *想深入*：[Start Here 第 1 站：AI 到底是什么？](start-here.md)
 
 #### LLM
-**大语言模型** — 被大量文本和其他数据训练过的 AI 模型，本质是"输入一段文字，预测接下来最可能是什么"。Claude、GPT、Gemini 都是 LLM。
+**Large Language Model，大语言模型** — 被大量文本和其他数据训练过的 AI 模型，本质是"输入一段文字，预测接下来最可能是什么"。Claude、GPT、Gemini 都是 LLM。
 
 *怎么想象*：AI 这个大类里，目前最重要的一种 Model（关系图见上面 AI 词条）。
 
@@ -84,6 +84,9 @@ LLM 处理文字时切出来的最小单位——一段文字会被切成一个�
 
 **Semantic Search（语义搜索）**
 不比对字面有没有重复，比对的是 Embedding 之后向量的距离——"怎么减肥"能搜到"如何瘦身"，哪怕两句话没有一个字重叠。 → [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
+
+**KV Cache（Key-Value Cache，键值缓存）**
+生成每个新 Token 时，都要参考前面所有 Token 的 Attention 计算结果——KV Cache 就是把这些结果缓存下来，不用每步都重新算一遍。对话越长，这份缓存越大，也是 Decode 阶段内存带宽吃紧的直接原因。 → [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md) · [内存墙](docs/computing-foundations/memory-wall.md)
 
 #### Inference
 **推理** — AI 生成回答的过程——不是"查找答案"，是把输入变成数字、一层层计算，一个 Token 一个 Token 预测出来。
@@ -303,6 +306,21 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 
 ## 计算基础
 
+**CPU（Central Processing Unit，中央处理器）**
+负责"干活"的通用计算核心——设计目标是把单个任务算得又快又对，哪怕任务里全是分支判断。 → [Foundation Zero](docs/computing-foundations/foundation-zero.md) · [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
+
+**GPU（Graphics Processing Unit，图形处理器）**
+用海量相对精简的核心并行工作的处理器——原本为图形渲染设计，恰好也是深度学习最需要的那种"重复做同一种简单运算"的活。 → [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
+
+**RAM（Random Access Memory，内存）**
+CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但断电就没了，容量也小得多。 → [Foundation Zero](docs/computing-foundations/foundation-zero.md) · [内存墙](docs/computing-foundations/memory-wall.md)
+
+**OS（Operating System，操作系统）**
+管理硬件资源、调度所有程序的"总管"——你打开的每个程序，都是 OS 分配资源、安排运行的。 → [Foundation Zero](docs/computing-foundations/foundation-zero.md)
+
+**HBM（High Bandwidth Memory，高带宽内存）**
+为高带宽设计的一种主存，好几片内存裸片堆叠在一起、紧挨着计算芯片摆放，AI 硬件常用它来缓解内存墙。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
 #### Runtime
 **运行时** — 真正"执行"东西的那个角色，不管要执行的是一段代码还是一个模型的权重。模型本身是数据，不是代码——得靠 Runtime 才能真正跑起来。
 
@@ -357,14 +375,14 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **Foundry（代工）**
 设计芯片和制造芯片，通常是两家不同的公司——像 NVIDIA 这样的公司设计芯片，把制造交给专门的代工厂（比如台积电 TSMC）。全世界能造最先进芯片的代工厂只有极少数几家，是产能受限的直接原因。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
 
-**EUV（极紫外光刻）**
+**EUV（Extreme Ultraviolet Lithography，极紫外光刻）**
 制造最先进芯片所需的光刻设备——全世界只有荷兰的 ASML 一家能生产。不需要懂它的物理原理，只需要知道：芯片产能的上游，卡在一家公司手上。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
 
 ---
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 121 个更细的概念，每个都直接链接到讨论它的具体文章。
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 128 个更细的概念，每个都直接链接到讨论它的具体文章。
 
 ---
 

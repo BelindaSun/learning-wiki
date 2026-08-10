@@ -84,7 +84,7 @@
 但分数可能有问题（待 Step 3 改进）
 ```
 
-### Step 3：强化学习（PPO）
+### Step 3：强化学习（PPO，Proximal Policy Optimization）
 
 **目标**：
 ```
