@@ -4,28 +4,31 @@
 
 ---
 
-## 🚀 Start · 先建立最基本的方向感
+## 🚀 Start · 两门必修课，按顺序走完
 
-刚进来，从这两步开始，按顺序走完：
+### 01 — Foundation Zero
 
-1. **[Foundation Zero · 地基第 0 层](foundation-zero.md)** —— 认识 5 组最基本的"原子"（硬件/软件、CPU/内存/存储、代码/程序/进程/OS、客户端/服务器/网络/API、核/并行/GPU）
-2. **From Silicon to AI**（下面这张图）—— 看这 5 组原子怎么一路叠成整个 AI 世界
+**Know the Pieces · 先认识零件**
 
-### From Silicon to AI · 主定向图
+CPU、Memory、Process、API、GPU……先知道最基本的东西分别是什么。
 
-![从硅到 AI：从下往上，硅/晶体管 → 芯片 → 处理器（配内存、互连组成计算系统）→ 服务器 → 集群 → 数据中心 → 训练/推理 → AI 产品，左轨半导体供应链、右轨软件栈](assets/from-silicon-to-ai.svg)
+→ [Foundation Zero · 地基第 0 层](foundation-zero.md)
 
-从下往上读：硅/晶体管 → 芯片 → **处理器**（黄色框里：处理器提供算力，配上内存、互连，才组成一个**计算系统**）→ 服务器 → 集群 → 数据中心 → 训练/推理 → AI 产品。
+### 02 — From Silicon to AI
 
-左轨 = 半导体供应链，造出底层的硅与芯片；右轨 = 软件栈，把训练/推理任务翻译、调度到底层硬件——两条轨就是连接软硬件的"两座桥"。
+**See the System · 看见整个系统**
 
-**"算力"不是处理器之上另生成的一层，而是处理器的能力**：黄色框把处理器 + 内存 + 互连包在一起，表示"一个计算系统"，这个整体再往上叠成服务器。
+从 Silicon 一路走到 AI Product，看这些零件怎样叠成今天的 AI 世界。
+
+![从硅到 AI：从下往上，硅/晶体管 → 芯片 → 处理器（配内存、互连组成计算系统）→ 服务器 → 集群 → 数据中心 → 训练/推理 → AI 产品，左下角半导体供应链、顶部弧线软件栈](assets/from-silicon-to-ai.svg)
+
+→ [From Silicon to AI · 从硅到 AI](from-silicon-to-ai.md)
 
 ---
 
 ## 🧭 Orient · 知道每样东西大概长在哪
 
-三张地图，分别定位软件世界、硬件世界、以及两者之间的桥——只回答"这东西是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"（"为什么"是下面 Go Deeper 的事）：
+Foundation Zero 让你认识零件，From Silicon to AI 让你看到全景。现在再分别进入软件、硬件和两者之间的桥——三张地图只回答"这东西是什么、大概长在哪、跟邻居什么关系"，不讲"为什么"（"为什么"是下面 Go Deeper 的事）：
 
 - **[Software Map](software-map.md)** —— 用 ChatGPT / Claude / Coding Agent 时，看到的东西底下有哪些软件层
 - **[Hardware Map](hardware-map.md)** —— 算力 / 内存 / 互连这三个维度，在芯片、服务器、集群每个尺度上怎么重复出现
@@ -49,9 +52,10 @@
 
 ---
 
-**最后更新**: August 9, 2026
+**最后更新**: August 14, 2026
 
 **相关**:
+- [From Silicon to AI](from-silicon-to-ai.md) —— Start 必修 02，本页 SVG 缩略图点进去的完整正文
 - [AI Core](../ai-core/index.md) —— Computing Foundations 坐在 AI Core 之下，是它的地基层
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— Prefill/Decode 的硬件约束，是内存脊的一个具体案例
 - [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md) —— "模型正在下沉为 CPU"这个类比，是算力脊的一个具体案例

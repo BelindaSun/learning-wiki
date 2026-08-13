@@ -308,7 +308,7 @@ API 就放在 Request / Response 这一层旁边：它规定双方如何提出�
 
 ## 下一步
 
-→ [From Silicon to AI：看这 5 组原子如何叠成整体](index.md#from-silicon-to-ai--主定向图)
+→ [From Silicon to AI：看这 5 组原子如何叠成整体](from-silicon-to-ai.md)
 
 ---
 

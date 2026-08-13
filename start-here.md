@@ -122,7 +122,7 @@ Chatbot 是"问了才答"的工具；Agent 是"给了目标就自己想办法干
 **去哪**：
 
 - → [Foundation Zero](docs/computing-foundations/foundation-zero.md)（认识最基本的"原子"）
-- → [From Silicon to AI](docs/computing-foundations/index.md)（一张图看懂硅怎么叠成 AI）
+- → [From Silicon to AI](docs/computing-foundations/from-silicon-to-ai.md)（一张图看懂硅怎么叠成 AI）
 - 想更深 → [Computing Foundations 领土](docs/computing-foundations/index.md)
 
 ---

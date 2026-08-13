@@ -71,6 +71,7 @@
 - **Formalizability Spectrum（可形式化光谱）** - [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)
 - **Foundation Zero（地基第 0 层）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 - **Foundry（代工）** - [良率与代工](docs/computing-foundations/yield-and-foundry.md)
+- **From Silicon to AI（从硅到 AI）** - [From Silicon to AI](docs/computing-foundations/from-silicon-to-ai.md)
 
 ## G
 
@@ -300,7 +301,7 @@
 
 ### 🖥️ 计算基础（Computing Foundations）
 - [Computing Foundations · 计算机基础地图](docs/computing-foundations/index.md)
-- **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md)
+- **Start**：[Foundation Zero · 地基第 0 层](docs/computing-foundations/foundation-zero.md) · [From Silicon to AI](docs/computing-foundations/from-silicon-to-ai.md)
 - **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md)（含 [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)）· [软硬桥脊](docs/computing-foundations/bridge-spine.md)（含 [CUDA 护城河](docs/computing-foundations/cuda-moat.md)）· [半导体脊](docs/computing-foundations/semiconductor-spine.md)（含 [良率与代工](docs/computing-foundations/yield-and-foundry.md)）
 
