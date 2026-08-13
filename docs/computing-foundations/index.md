@@ -20,8 +20,6 @@ CPU、Memory、Process、API、GPU……先知道最基本的东西分别是什�
 
 从 Silicon 一路走到 AI Product，看这些零件怎样叠成今天的 AI 世界。
 
-![从硅到 AI：从下往上，硅/晶体管 → 芯片 → 处理器（配内存、互连组成计算系统）→ 服务器 → 集群 → 数据中心 → 训练/推理 → AI 产品，左下角半导体供应链、顶部弧线软件栈](assets/from-silicon-to-ai.svg)
-
 → [From Silicon to AI · 从硅到 AI](from-silicon-to-ai.md)
 
 ---
@@ -55,7 +53,7 @@ Foundation Zero 让你认识零件，From Silicon to AI 让你看到全景。现
 **最后更新**: August 14, 2026
 
 **相关**:
-- [From Silicon to AI](from-silicon-to-ai.md) —— Start 必修 02，本页 SVG 缩略图点进去的完整正文
+- [From Silicon to AI](from-silicon-to-ai.md) —— Start 必修 02，完整总地图 SVG 第一次出现在这篇正文里
 - [AI Core](../ai-core/index.md) —— Computing Foundations 坐在 AI Core 之下，是它的地基层
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md) —— Prefill/Decode 的硬件约束，是内存脊的一个具体案例
 - [Coding Agent 与 Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md) —— "模型正在下沉为 CPU"这个类比，是算力脊的一个具体案例

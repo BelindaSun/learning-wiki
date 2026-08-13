@@ -25,9 +25,13 @@
 | **01 · 物理基础**<br>Physical Foundation | Silicon、Transistor、半导体制造、Chip | 计算机最底层的物理东西从哪里来？ |
 | **02 · 计算系统**<br>Computing System | Processor、Memory、Interconnect、Compute System、Server | 芯片怎样真正变成能够工作的计算机器？ |
 | **03 · 基础设施**<br>Infrastructure | Server、Cluster、Data Center、供电、散热、networking | 一台机器不够以后，怎样把大量计算资源组织起来？ |
-| **04 · AI 计算与产品**<br>AI Workloads & Products | Training、Model、Inference、AI Product | 底下所有计算能力最后怎样变成我们真正使用的 AI？ |
+| **04 · 智能**<br>Intelligence | Model、Training、Inference、AI Product | 底下所有物质、计算和基础设施，最终怎样支撑起 AI 的智能能力并到达用户？ |
 
-（第四层不叫"智能"——Training、Model、Inference、Product 是具体的技术对象、workload、软件系统，直接统称为"智能"容易制造不必要的概念混淆。）
+**Intelligence（智能）是这张地图的概念终点。** 底层的物质、计算与基础设施，最终支撑起 AI 所表现出来的智能能力。在这张地图里，"智能"不是一个单独的技术组件，而是最上层能力的统称——本层具体涵盖 AI 模型、训练与推理，以及最终面向用户的 AI 产品，例如 ChatGPT、AI 编程助手等。
+
+> **Intelligence 是能力，AI Product 是这种能力最终到达用户的载体。**
+
+这句话很快会在 Step 10 再次用到——先记住这个区分：这里不是在说 Training = Intelligence，而是说 Model、Training、Inference、AI Product 这些技术对象和过程，共同构成了地图最上层的这一整层。
 
 下面沿着主干，从 Silicon 一路走到 AI。
 
@@ -132,7 +136,7 @@ Interconnect
 Compute System
 ```
 
-**Processor ≠ Computer。** 处理器只是计算系统的一部分。一个真正可以工作的计算系统，还需要 memory、interconnect，以及 storage、供电等其他支持组件——但这一页的核心只抓住 Processor + Memory + Interconnect 这三者，不展开完整组件清单。
+**Processor ≠ Computer。** 处理器只是计算系统的一部分。一个真正可以工作的计算系统，还需要 memory、interconnect，以及 storage、供电等其他支持组件——**Processor + Memory + Interconnect 是理解 AI 计算系统时最重要的三个核心维度，而不是对完整计算机组成的穷尽定义**，这一页不展开完整组件清单。
 
 ## Step 5 · Compute System → Server
 
@@ -186,19 +190,13 @@ Data Center    容纳、供电、冷却、联网、管理大量服务器和集�
 
 图中左下角这一支回答：**这些底层硬件到底怎么被造出来？**
 
-按 SVG 标注的顺序：
+图中把 Wafer、Die、Yield、Process Node、Advanced Packaging 串在一起，是为了标出理解先进芯片制造时最重要的几个概念，**不是一条严格按先后发生的制造工序**（这里的箭头表示概念之间的阅读关系，不等于严格的制造时间顺序——这也是整张 SVG 的阅读原则：它是一张 conceptual map，不是 literal process flowchart）：
 
-```
-晶圆（Wafer）
-    ↓
-裸片（Die）
-    ↓
-良率（Yield）
-    ↓
-制程（Process Node）
-    ↓
-先进封装（Advanced Packaging）
-```
+- **Wafer（晶圆）**：制造芯片的硅片基础。
+- **Die（裸片）**：晶圆加工后切分出的单颗芯片主体。
+- **Yield（良率）**：制造出来的 die 中，有多少最终达到可用标准。
+- **Process Node（制程节点）**：描述一代半导体制造技术的重要标签，不是某一道制造工序。
+- **Advanced Packaging（先进封装）**：把一个或多个 die 与其他组件以高性能方式组合、连接起来的一系列先进封装技术。
 
 这里的目的不是教半导体制造，而是让读者知道：**GPU 背后还有一整套工业供应链**，不是设计图一画完芯片就自动出现了。
 
@@ -303,7 +301,7 @@ AI System
 AI Product
 ```
 
-核心心智模型：**我们日常接触到的 AI 产品，是整个技术栈最上面、最接近用户的一层。**
+核心心智模型：**我们日常接触到的 AI 产品，是整个技术栈最上面、最接近用户的一层。** 呼应前面第四层的区分：**Intelligence 是能力，AI Product 是这种能力最终到达用户的载体。**
 
 ---
 
