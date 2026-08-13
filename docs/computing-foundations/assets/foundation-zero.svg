@@ -4,27 +4,27 @@
   <text x="600" y="76" text-anchor="middle" font-size="13" fill="rgba(43,39,36,0.68)">五个最基本的心智模型，不是五张规格卡</text>
 
   <text x="60" y="142" font-weight="700" font-size="13" fill="#b5541c">01</text>
-  <text x="100" y="142" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">硬件 / 软件 · Hardware / Software</text>
+  <text x="100" y="142" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">硬件 / 软件（Hardware / Software）</text>
   <text x="100" y="184" font-size="22" font-style="italic" fill="#2b2724">硬件是乐器，软件是乐谱</text>
   <text x="100" y="222" font-size="14.5" fill="rgba(43,39,36,0.68)">硬件 = 摸得到的机器；软件 = 让它做事的指令</text>
 
   <text x="60" y="282" font-weight="700" font-size="13" fill="#b5541c">02</text>
-  <text x="100" y="282" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">CPU / 内存 / 存储 · CPU / Memory / Storage</text>
+  <text x="100" y="282" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">CPU / 内存 / 存储（Memory / Storage）</text>
   <text x="100" y="324" font-size="22" font-style="italic" fill="#2b2724">工人 / 书桌 / 书架</text>
   <text x="100" y="362" font-size="14.5" fill="rgba(43,39,36,0.68)">CPU 干活；内存 手边正在用；存储 收着的</text>
 
   <text x="60" y="422" font-weight="700" font-size="13" fill="#b5541c">03</text>
-  <text x="100" y="422" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">代码 / 程序 / 进程 / OS · Code / Program / Process / OS</text>
+  <text x="100" y="422" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">代码 / 程序 / 进程 / OS（Code / Program / Process）</text>
   <text x="100" y="464" font-size="22" font-style="italic" fill="#2b2724">菜谱 / 菜谱本 / 正做的菜 / 厨房主管</text>
   <text x="100" y="502" font-size="14.5" fill="rgba(43,39,36,0.68)">指令 → 打包成一套 → 正在跑的那份 → 总管</text>
 
   <text x="60" y="562" font-weight="700" font-size="13" fill="#b5541c">04</text>
-  <text x="100" y="562" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">客户端 / 服务器 / 网络 / API · Client / Server / Network / API</text>
+  <text x="100" y="562" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">客户端 / 服务器 / 网络 / API（Client / Server / Network）</text>
   <text x="100" y="604" font-size="22" font-style="italic" fill="#2b2724">按菜单点单，餐厅做、服务员送</text>
   <text x="100" y="642" font-size="14.5" fill="rgba(43,39,36,0.68)">提出请求 / 处理并响应 / 负责传递 / 规定怎么请求</text>
 
   <text x="60" y="702" font-weight="700" font-size="13" fill="#b5541c">05</text>
-  <text x="100" y="702" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">核 / 并行 / GPU · Core / Parallelism / GPU</text>
+  <text x="100" y="702" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">核 / 并行 / GPU（Core / Parallelism）</text>
   <text x="100" y="744" font-size="22" font-style="italic" fill="#2b2724">一个厨师 → 一排同时炒 → 中央厨房</text>
   <text x="100" y="782" font-size="14.5" fill="rgba(43,39,36,0.68)">一个干活单元 → 很多核同时干 → 做到极致</text>
   <text x="100" y="812" font-size="13" font-style="italic" fill="#8a3f14">入门近似；后面讲 CPU vs GPU 时会升级（GPU 不只是&#34;核更多&#34;）</text>
