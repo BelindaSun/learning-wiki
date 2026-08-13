@@ -1,6 +1,6 @@
 # From Silicon to AI · 从硅到 AI
 
-**核心概念**: AI 不是凭空出现的。你看到的一次模型回答，站在一整条从半导体材料、芯片、计算系统、基础设施、软件栈，到模型与产品的技术栈之上。这篇不重新解释 [Foundation Zero](foundation-zero.md) 已经讲过的原子，只回答一个问题：这些原子怎样一层层连接起来，最后变成今天的 AI？
+**核心概念**: AI 不是凭空出现的。你看到的一次模型回答，站在一整条从半导体材料、芯片、计算系统、基础设施、软件栈，到模型与产品的技术栈之上。这篇回答一个问题：[Foundation Zero](foundation-zero.md) 里认识的那些原子，怎样一层层连接起来，最后变成今天的 AI？
 
 ---
 
@@ -27,11 +27,9 @@
 | **03 · 基础设施**<br>Infrastructure | Server、Cluster、Data Center、供电、散热、networking | 一台机器不够以后，怎样把大量计算资源组织起来？ |
 | **04 · 智能**<br>Intelligence | Model、Training、Inference、AI Product | 底下所有物质、计算和基础设施，最终怎样支撑起 AI 的智能能力并到达用户？ |
 
-**Intelligence（智能）是这张地图的概念终点。** 底层的物质、计算与基础设施，最终支撑起 AI 所表现出来的智能能力。在这张地图里，"智能"不是一个单独的技术组件，而是最上层能力的统称——本层具体涵盖 AI 模型、训练与推理，以及最终面向用户的 AI 产品，例如 ChatGPT、AI 编程助手等。
+**Intelligence（智能）是这张地图的概念终点**——底层的物质、计算与基础设施，最终支撑起 AI 所表现出来的智能能力。这一层具体涵盖 AI 模型、训练与推理，以及最终面向用户的 AI 产品，例如 ChatGPT、AI 编程助手等。
 
 > **Intelligence 是能力，AI Product 是这种能力最终到达用户的载体。**
-
-这句话很快会在 Step 10 再次用到——先记住这个区分：这里不是在说 Training = Intelligence，而是说 Model、Training、Inference、AI Product 这些技术对象和过程，共同构成了地图最上层的这一整层。
 
 下面沿着主干，从 Silicon 一路走到 AI。
 
@@ -49,7 +47,7 @@ Silicon（硅）是现代半导体工业最重要的基础材料之一。通过�
 
 > **Transistor（晶体管）≈ 一个极其微小、极其快速、可以控制电流的电子开关。**
 
-这是入门心智模型，不是完整的物理定义——doping、PN 结、MOSFET 这些真实的物理机制，不属于这一页。
+这是入门心智模型，不是完整的物理定义。
 
 ## Step 2 · Transistor → Chip
 
@@ -92,7 +90,7 @@ Chip
 
 ## 第一个 Aha Moment：算 / 放 / 搬
 
-到这里为止，很容易形成一个误区：**GPU 越快 = AI 系统越快。** 这一节要拆掉它。
+到这里为止，很容易形成一个误区：**GPU 越快 = AI 系统越快。**
 
 一个真正在工作的计算系统，除了 Processor，还需要两个同样关键的角色：
 
@@ -122,7 +120,7 @@ Processor    Memory    Interconnect
 
 > **一个 AI 计算系统真正有多强，不只取决于算得多快，还取决于装得下多少，以及数据搬得多快。**
 
-再进一步：**AI 硬件不是单项冠军比赛，而是一个系统工程问题**（这里不用"木桶效应"这个类比来下结论，因为算 / 放 / 搬三者的关系比"最短的那块板"更复杂，具体权衡见 [算力脊](compute-spine.md)、[内存脊](memory-spine.md)）。
+再进一步：**AI 硬件不是单项冠军比赛，而是一个系统工程问题**——具体权衡见 [算力脊](compute-spine.md)、[内存脊](memory-spine.md)。
 
 ## Step 4 · Processor + Memory + Interconnect → Compute System
 
@@ -136,7 +134,7 @@ Interconnect
 Compute System
 ```
 
-**Processor ≠ Computer。** 处理器只是计算系统的一部分。一个真正可以工作的计算系统，还需要 memory、interconnect，以及 storage、供电等其他支持组件——**Processor + Memory + Interconnect 是理解 AI 计算系统时最重要的三个核心维度，而不是对完整计算机组成的穷尽定义**，这一页不展开完整组件清单。
+**Processor ≠ Computer。** 处理器只是计算系统的一部分——一个真正可以工作的计算系统，还需要 memory、interconnect，以及 storage、供电等其他支持组件。
 
 ## Step 5 · Compute System → Server
 
@@ -174,7 +172,7 @@ Cluster        协同工作的多台服务器
 Data Center    容纳、供电、冷却、联网、管理大量服务器和集群的物理基础设施
 ```
 
-到这里，第一次能看到：**AI 不只是 GPU。** 还需要电力、冷却、网络、机架、物理空间、运维——这里不展开数据中心工程本身。
+到这里，第一次能看到：**AI 不只是 GPU。** 还需要电力、冷却、网络、机架、物理空间、运维。
 
 **为什么 Data Center 也属于 AI 地图？** 因为模型再聪明，也需要芯片、电、冷却、网络、空间、制造能力才能真正运转起来。
 
@@ -190,7 +188,7 @@ Data Center    容纳、供电、冷却、联网、管理大量服务器和集�
 
 图中左下角这一支回答：**这些底层硬件到底怎么被造出来？**
 
-图中把 Wafer、Die、Yield、Process Node、Advanced Packaging 串在一起，是为了标出理解先进芯片制造时最重要的几个概念，**不是一条严格按先后发生的制造工序**（这里的箭头表示概念之间的阅读关系，不等于严格的制造时间顺序——这也是整张 SVG 的阅读原则：它是一张 conceptual map，不是 literal process flowchart）：
+图中把 Wafer、Die、Yield、Process Node、Advanced Packaging 串在一起，是为了标出理解先进芯片制造时最重要的几个概念——箭头表示阅读顺序，**不是一条严格按先后发生的制造工序**：
 
 - **Wafer（晶圆）**：制造芯片的硅片基础。
 - **Die（裸片）**：晶圆加工后切分出的单颗芯片主体。
@@ -220,7 +218,7 @@ Runtime
 GPU / Accelerator
 ```
 
-（这条链路和 [Software × Hardware Map](software-hardware-map.md) 用的是同一套站点，这里不重新发明一套新说法。）
+（这条链路的说法和 [Software × Hardware Map](software-hardware-map.md) 一致。）
 
 心智模型：
 
@@ -254,7 +252,7 @@ Hardware 执行计算
 
 > **AI 模型最终必须变成真实硬件上的真实计算。**
 
-这正是 [Software × Hardware Map](software-hardware-map.md) 想让你带走的东西——这里不重复展开 compiler / kernel 的机制。
+这正是 [Software × Hardware Map](software-hardware-map.md) 想让你带走的东西。
 
 ## Step 9 · Training vs Inference
 
@@ -291,7 +289,7 @@ Answer / Image / Code / Action
 
 > **Model ≠ Product。**
 
-一个模型要成为 ChatGPT / Claude / Coding Agent 这样的产品，还需要大量其他系统：UI、inference infrastructure（推理基础设施）、orchestration（编排）、tools、memory、safety systems（安全系统）、产品逻辑——这里不展开。
+一个模型要成为 ChatGPT / Claude / Coding Agent 这样的产品，还需要大量其他系统：UI、inference infrastructure（推理基础设施）、orchestration（编排）、tools、memory、safety systems（安全系统）、产品逻辑。
 
 ```
 Model
@@ -301,7 +299,7 @@ AI System
 AI Product
 ```
 
-核心心智模型：**我们日常接触到的 AI 产品，是整个技术栈最上面、最接近用户的一层。** 呼应前面第四层的区分：**Intelligence 是能力，AI Product 是这种能力最终到达用户的载体。**
+核心心智模型：**我们日常接触到的 AI 产品，是整个技术栈最上面、最接近用户的一层。**
 
 ---
 
@@ -339,7 +337,7 @@ Chips
 Silicon
 ```
 
-**注意**：这不是一次请求实际执行时严格按顺序发生的 runtime 过程（真实的执行路径要复杂得多，也不会真的"经过硅"这一步）。这是一张 **dependency stack（依赖关系图）**——上面每一层，都依赖下面一层的存在，仅此而已。
+**注意**：这不是一次请求实际执行时严格按顺序发生的 runtime 过程，也不会真的"经过硅"这一步。这是一张 **dependency stack（依赖关系图）**——上面每一层，都依赖下面一层的存在，仅此而已。
 
 ---
 
