@@ -39,9 +39,7 @@
 
 **为什么一张 AI 地图会从 Silicon 开始？**
 
-Silicon（硅）是现代半导体工业最重要的基础材料之一。通过复杂的制造工艺，可以在高纯度的硅晶圆（wafer）上制造大量晶体管。
-
-**不要**把这个过程想成"沙子直接变成芯片"——从自然界中的含硅材料，到芯片级高纯度硅，中间经过复杂的提纯和制造过程，不是一步到位的。
+Silicon（硅）是现代半导体工业最重要的基础材料之一。自然界中的含硅材料，先经过复杂的提纯工艺，被加工成芯片级的高纯度硅晶圆（wafer）；再在晶圆上，通过精密的制造工艺，制造出大量晶体管。
 
 最重要的心智模型：
 
@@ -69,7 +67,7 @@ Chip
 ├── GPU
 ├── Memory Chip
 ├── Networking Chip
-└── 其他 Accelerator
+└── Other Accelerators（狭义指 TPU、NPU 等专用加速器，不含 GPU）
 ```
 
 不需要深入分类，先建立"芯片是个大家族，CPU/GPU 只是其中两种"这件事就够了。
@@ -114,7 +112,7 @@ Processor    Memory    Interconnect
 
 **Interconnect — 搬**
 
-负责不同计算和存储部件之间的数据移动。它不只存在于"GPU 之间"或"服务器之间"，而是在多个尺度上都存在：chip / device 内部、GPU-to-GPU、server-to-server、cluster 之间。这里只需要知道：**计算系统不只是"算"，还必须不停地移动数据。**
+负责不同计算和存储部件之间的数据移动。它不只存在于"GPU 之间"或"服务器之间"，而是在多个尺度上都存在：芯片内部、GPU 之间、服务器/计算节点之间。这里只需要知道：**计算系统不只是"算"，还必须不停地移动数据。**
 
 核心句：
 
@@ -180,11 +178,11 @@ Data Center    容纳、供电、冷却、联网、管理大量服务器和集�
 
 ---
 
-## 两侧支柱
+## 两条侧线
 
-沿着 Silicon → AI Product 这条主干往上走的同时，地图上还有两条一直伴随的支柱——它们不是主干上的某一层，而是让主干真正能运转起来的两套系统。
+沿着 Silicon → AI Product 这条主干往上走的同时，地图上还有两条一直伴随的侧线（辅助线）——它们不是主干上的某一层，而是让主干真正能运转起来的两套系统。
 
-### 支柱一：半导体供应链（Semiconductor Supply Chain）
+### 侧线一：半导体供应链（Semiconductor Supply Chain）
 
 图中左下角这一支回答：**这些底层硬件到底怎么被造出来？**
 
@@ -200,7 +198,7 @@ Data Center    容纳、供电、冷却、联网、管理大量服务器和集�
 
 现实里可以用几家公司当锚点（注意每家角色不同，不是一家公司覆盖全部环节）：NVIDIA / AMD 负责芯片设计，TSMC（台积电）是代工厂（Foundry），ASML 生产光刻设备，Synopsys / Cadence 提供 EDA（芯片设计软件）。完整版见 [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md)。
 
-### 支柱二：软件栈（Software Stack）
+### 侧线二：软件栈（Software Stack）
 
 图中顶部这道弧线，从计算系统一路架到训练/推理（Intelligence），回答：**硬件造出来以后，软件怎么让它真正干活？**
 
@@ -218,15 +216,13 @@ Runtime
 GPU / Accelerator
 ```
 
-（这条链路的说法和 [Software × Hardware Map](software-hardware-map.md) 一致。）
-
 心智模型：
 
 > **硬件提供可能性，软件把这种可能性变成实际工作。**
 
 一边负责把机器造出来，另一边负责让机器真正干起来。
 
-这里要拆掉一个误区：**CUDA ≠ driver。** CUDA 是一个更大的软件平台 / 生态，不是某一层的具体机制。完整版见 [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md)。
+CUDA 是这条软件栈里的一个更大的软件平台 / 生态，覆盖编译、kernel 库等好几层，而不是某一层的具体机制。完整版见 [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md)。
 
 ---
 
@@ -382,5 +378,5 @@ Silicon
 - [Software Map](software-map.md) · [Hardware Map](hardware-map.md) · [Software × Hardware Map](software-hardware-map.md) —— Orient 层的三张地图
 - [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md) —— "算 / 放 / 搬"里"放"这一侧的完整展开
 - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) —— Cluster 这一步的完整展开
-- [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) —— 半导体供应链支柱的完整展开
-- [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md) —— 软件栈支柱的完整展开
+- [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) —— 半导体供应链侧线的完整展开
+- [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md) —— 软件栈侧线的完整展开
