@@ -3,6 +3,7 @@
 ## 核心页面
 
 - [Agent 系统架构](agent-architecture.md)
+- [Agent 的"单轴刻度"问题](agent-single-axis-problem.md)
 - [Workflow 编排](workflow-orchestration.md)
 - [Memory 系统](memory-system-guide.md)
 - [Context Window](context-window-guide.md)

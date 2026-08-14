@@ -505,4 +505,5 @@ Orchestrator 的决策力 > Worker 的执行力
 - [Harness 系统](../ai-application/harness-system.md)
 - [工作流设计（之前的版本）](../ai-application/workflow-design-guide.md)
 - [Agent 时代的系统架构转变](agent-era-work.md)
+- [Agent 的"单轴刻度"问题](agent-single-axis-problem.md) —— "多 Agent 编排更强/更省"不能无条件套用：前瞻记忆任务里简单心跳反而更优
 - [心智模型变迁史：Prompt → Workflow](../../mental-models.md)

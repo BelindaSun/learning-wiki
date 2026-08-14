@@ -15,6 +15,8 @@
 - **Attention Mechanism** - [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Accelerator（加速器）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Arithmetic Intensity（算术强度）** - [内存墙](docs/computing-foundations/memory-wall.md)
+- **Autonomy Profile（Agent 四维刻画：Autonomy/Efficacy/Goal Complexity/Generality）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md#场景一autonomy-不是一根刻度是四维)
+- **Accumulative vs Decisive Risk（累积型 vs 决定型风险）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md#关键推论decisive-risk-vs-accumulative-risk)
 
 ## B
 
@@ -56,6 +58,7 @@
 
 - **Embedding（嵌入 / 向量表示）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
 - **Emergence** - [涌现与临界点](docs/ai-core/inference-system-guide.md#涌现与临界点)
+- **Epistemic Curiosity（认知好奇心 / 探索终止条件）** - [开放性 ≠ 会探索](docs/ai-core/agent-single-axis-problem.md#场景四开放性--会探索)
 - **Episodic Memory** - [情节记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Error Handler** - [错误处理节点](docs/ai-application/workflow-design-guide.md#6-error-handler-node错误处理)
 - **Evaluation** - [Evaluation：评估系统](docs/ai-research/evaluation-system.md)
@@ -143,6 +146,7 @@
 - **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Pretraining（预训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
 - **Prompt** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
+- **Prospective Memory（前瞻记忆）** - [Memory 的关键轴是"时间朝向"](docs/ai-core/agent-single-axis-problem.md#场景三memory-的关键轴是时间朝向不是持久度)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
 - **Pruning** - [模型压缩技术](docs/ai-research/models-deep-dive.md#模型压缩技术)
@@ -175,6 +179,7 @@
 - **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
 - **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
+- **Single-Axis Problem（单轴刻度问题）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
 - **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Scale Spine（规模脊）** - [规模脊](docs/computing-foundations/scale-spine.md)
 - **Semiconductor Spine（半导体脊）** - [半导体脊](docs/computing-foundations/semiconductor-spine.md)
@@ -277,6 +282,7 @@
 
 ### 🤝 Agent 系统（Agent）
 - [Agent 架构](docs/ai-core/agent-architecture.md)
+- [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
 - [Workflow 编排](docs/ai-core/workflow-orchestration.md)
 - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
@@ -307,7 +313,7 @@
 
 ---
 
-**最后更新**: August 9, 2026  
+**最后更新**: August 14, 2026  
 **概念总数**: 89 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 

@@ -157,3 +157,4 @@ know-what-matters > know-what-good-looks-like > know-what-can-go-wrong
 - [心智模型变迁史：Execution → Judgment](../../mental-models.md)
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
 - [Scaling Paradox](scaling-paradox.md)
+- [Agent 的"单轴刻度"问题](../ai-core/agent-single-axis-problem.md) —— 给 Agent 授权的"量级"三层之外，还要加"类型"轴（累积型 vs 决定型），变成二维矩阵

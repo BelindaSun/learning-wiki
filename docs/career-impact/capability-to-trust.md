@@ -216,6 +216,7 @@ Agent 时代（2024-2026）:
 - [Agent 时代的系统架构转变](../ai-core/agent-era-work.md)
 - [心智模型变迁史：Capability → Trust](../../mental-models.md)
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
+- [Agent 的"单轴刻度"问题](../ai-core/agent-single-axis-problem.md) —— 五维可信度精确对应两类风险：可预测+可审计管累积型，可控制+可恢复管决定型
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
 - [Google AI 领导层重组](google-agi-org-restructuring.md)
 - [Scaling Paradox](scaling-paradox.md)
