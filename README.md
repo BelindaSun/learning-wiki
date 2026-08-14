@@ -2,6 +2,8 @@
 
 > 一个持续增长的个人学习知识库。主要记录 AI 学习，兼收其他感兴趣的话题。
 
+🏠 **[← 回到我的主页 belindasun.github.io](https://belindasun.github.io/)**
+
 ## 📖 关于这个 Wiki
 
 这不是一个一次性的知识库，而是一个**日积月累的学习记录**。
@@ -123,5 +125,5 @@
 ---
 
 **最后更新**: August 10, 2026  
-**维护者**: Belinda Sun  
+**维护者**: [Belinda Sun](https://belindasun.github.io/) 🏠  
 **License**: CC BY-SA 4.0
