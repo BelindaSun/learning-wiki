@@ -14,7 +14,7 @@
 
 ## 🗺️ 第一次来？
 
-👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花 30 分钟看完这 8 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、它跑在什么计算地基上、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
+👉 **[Start Here](start-here.md)** —— 完全没有 AI 背景？花约 30–45 分钟看完这 8 站，你会得到一张最小地图：AI/LLM/Model/Product 是什么关系、LLM 怎么工作、Chatbot 怎么变成 Agent、它跑在什么计算地基上、Workflow/Skill/MCP 这些词到底什么关系……看完之后，就能看懂这个 Wiki 里其他文章在聊什么了。
 
 已经懂基础、想直接探索的话，往下看"结构"就行。
 
