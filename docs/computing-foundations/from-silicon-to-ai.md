@@ -22,10 +22,10 @@
 
 | 层 | 包括 | 核心问题 |
 |---|---|---|
-| **01 · 物理基础**<br>Physical Foundation | Silicon、Transistor、半导体制造、Chip | 计算机最底层的物理东西从哪里来？ |
-| **02 · 计算系统**<br>Computing System | Processor、Memory、Interconnect、Compute System、Server | 芯片怎样真正变成能够工作的计算机器？ |
-| **03 · 基础设施**<br>Infrastructure | Server、Cluster、Data Center、供电、散热、networking | 一台机器不够以后，怎样把大量计算资源组织起来？ |
-| **04 · 智能**<br>Intelligence | Model、Training、Inference、AI Product | 底下所有物质、计算和基础设施，最终怎样支撑起 AI 的智能能力并到达用户？ |
+| **01 · 物理基础（Matter）**<br>Physical Foundation | Silicon、Transistor、半导体制造、Chip | 计算机最底层的物理东西从哪里来？ |
+| **02 · 计算系统（Computation）**<br>Computing System | Processor、Memory、Interconnect、Compute System、Server | 芯片怎样真正变成能够工作的计算机器？ |
+| **03 · 基础设施（Infrastructure）**<br>Infrastructure | Server、Cluster、Data Center、供电、散热、networking | 一台机器不够以后，怎样把大量计算资源组织起来？ |
+| **04 · 智能（Intelligence）**<br>Intelligence | Model、Training、Inference、AI Product | 底下所有物质、计算和基础设施，最终怎样支撑起 AI 的智能能力并到达用户？ |
 
 **Intelligence（智能）是这张地图的概念终点**——底层的物质、计算与基础设施，最终支撑起 AI 所表现出来的智能能力。这一层具体涵盖 AI 模型、训练与推理，以及最终面向用户的 AI 产品，例如 ChatGPT、AI 编程助手等。
 
@@ -200,7 +200,7 @@ Data Center    容纳、供电、冷却、联网、管理大量服务器和集�
 
 ### 侧线二：软件栈（Software Stack）
 
-图中顶部这道弧线，从计算系统一路架到训练/推理（Intelligence），回答：**硬件造出来以后，软件怎么让它真正干活？**
+正如地图顶部那道从 `02 COMPUTATION` 跨越到 `04 INTELLIGENCE` 的橙色弧线所示，软件栈是架在底层硬件与高层智能之间的桥梁——从计算系统一路架到训练/推理（Intelligence），回答：**硬件造出来以后，软件怎么让它真正干活？**
 
 ```
 AI Application
@@ -226,7 +226,7 @@ CUDA 是这条软件栈里的一个更大的软件平台 / 生态，覆盖编译
 
 ---
 
-## Step 8 · Hardware → Training / Inference
+## Step 8 · Hardware → AI Computation（从物理机器到 AI 计算）
 
 这是整张地图最重要的一次跨越：从"机器世界"进入"AI 世界"。
 
@@ -370,7 +370,7 @@ Silicon
 
 ---
 
-**最后更新**: August 14, 2026
+**最后更新**: August 15, 2026
 
 **相关**:
 - [Computing Foundations · 计算机基础地图](index.md) —— 这篇是 Start 的必修 02
