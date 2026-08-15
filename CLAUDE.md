@@ -119,7 +119,7 @@ Belinda 的个人 AI 学习笔记，每天手动加新内容。**不用 GitHub P
 Three Maps（2026-08-09 上线）里有两处是刻意的"先给一个够用的近似，以后再升级"，不是错误，但值得记下来，等对应内容真正写到那一层时再处理：
 
 1. **Software Map 待升级**：现在"模型权重由 Runtime 执行"是入门近似。以后应该拆分成 model representation / framework / execution runtime 三个不同的角色，而不是笼统地都叫"Runtime"。触发时机：写到能撑起这个区分的深度内容时。
-2. **Software × Hardware Map 待升级**：现在 Compiler → Kernel/Library → Runtime → Hardware 是一条 orientation 用的简化直线。Bridge Spine 展开时要说清楚：真实的 stack 并不是严格线性的，scheduling/batching/precision/memory 这些决策分散在不同层，不是 Runtime 一个点说了算。触发时机：写 Bridge Spine 正文时。
+2. **Software × Hardware Map 待升级**：现在 Compiler → Kernel/Library → Runtime → Hardware 是一条 orientation 用的简化直线。Bridge Spine 展开时要说清楚：真实的 stack 并不是严格线性的，scheduling/batching/precision/memory 这些决策分散在不同层，不是 Runtime 一个点说了算。触发时机：写 Bridge Spine 正文时。（2026-08-15 更新：已在 `software-hardware-map.md` 的"四件事"表下加了一句诚实简化脚注——明说这四件事其实分散在多层、暂挂 Runtime 名下方便理解，完整拆分仍留给 Bridge Spine 正文。所以这条只算"打了预防针"，没兑现。）
 
 这两条不需要现在改网页——只是提前记下"这里以后要回来修"，避免忘记这是简化过的版本。
 
