@@ -25,7 +25,7 @@
 
   <text x="60" y="702" font-weight="700" font-size="13" fill="#b5541c">05</text>
   <text x="100" y="702" font-size="18" letter-spacing="0.3" fill="rgba(43,39,36,0.68)">核 / 并行 / GPU（Core / Parallelism / GPU）</text>
-  <text x="100" y="744" font-size="22" font-style="italic" fill="#2b2724">一个厨师 → 一排同时炒 → 中央厨房</text>
+  <text x="100" y="744" font-size="22" font-style="italic" fill="#2b2724">一个厨师 → 一排同时炒 → 上千人的配菜流水线</text>
   <text x="100" y="782" font-size="14.5" fill="rgba(43,39,36,0.68)">一个干活单元 → 很多核同时干 → 做到极致</text>
   <text x="100" y="812" font-size="13" font-style="italic" fill="#8a3f14">入门近似；后面讲 CPU vs GPU 时会升级（GPU 不只是&#34;核更多&#34;）</text>
 </svg>
