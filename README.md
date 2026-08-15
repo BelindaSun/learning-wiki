@@ -64,11 +64,11 @@
 
 - **[Start Here](start-here.md)** - 第一次来？从这开始，30 分钟建立最小地图
 - **[术语表](glossary.md)** - 忘了某个词是什么意思？一句话查一下
-- **[Computing Foundations](docs/computing-foundations/index.md)** - 计算机基础地图，知识图谱里的地基层
-- **[AI Core](docs/ai-core/index.md)** - 深入理解 Agent、LLM、工作流
-- **[AI in Practice](docs/ai-application/index.md)** - 如何设计和实现 AI 系统
-- **[AI Research](docs/ai-research/index.md)** - 深入研究 AI 模型的优化和评估方法
-- **[Industry & Impact](docs/career-impact/index.md)** - AI 时代的机遇与挑战
+- **[Computing Foundations](docs/computing-foundations/index.md)** - AI 的物理世界：算力、内存带宽瓶颈、芯片怎么把大模型真正跑起来
+- **[AI Core](docs/ai-core/index.md)** - 模型和智能体本身是怎么回事：LLM 怎么工作、Agent 怎么思考、Prompt / Transformer / 训练 / 对齐
+- **[AI in Practice](docs/ai-application/index.md)** - 把模型用起来：Skill、MCP（给 AI 插上"USB 接口"调用外部工具）、真实案例
+- **[AI Research](docs/ai-research/index.md)** - 怎么判断一个模型好不好：评估、Benchmark、MoE 与模型压缩等优化方法
+- **[Industry & Impact](docs/career-impact/index.md)** - AI 撞上真实世界：职业冲击、能力建设、未来趋势
 - **[心智模型变迁史](mental-models.md)** - 看世界方式的变迁轨迹
 - **[全部概念索引](index-all-concepts.md)** - 按字母排序的所有主题
 
@@ -124,6 +124,6 @@
 
 ---
 
-**最后更新**: August 10, 2026  
+**最后更新**: August 15, 2026  
 **维护者**: [Belinda Sun](https://belindasun.github.io/) 🏠  
 **License**: CC BY-SA 4.0
