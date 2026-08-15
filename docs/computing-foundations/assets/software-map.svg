@@ -22,7 +22,7 @@
   <rect x="380" y="250" width="340" height="94" rx="12" fill="rgba(181,84,28,0.08)" stroke="#b5541c" stroke-width="1.4"></rect>
   <text x="550" y="288" text-anchor="middle" font-weight="700" font-size="24" fill="#8a3f14">Runtime · 运行时</text>
   <text x="550" y="312" text-anchor="middle" font-size="12.5" fill="rgba(43,39,36,0.68)">真正执行的东西——不管执行的是代码还是模型权重</text>
-  <text x="550" y="331" text-anchor="middle" font-size="11.5" font-style="italic" fill="rgba(43,39,36,0.5)">Map 3 会从这里继续往下走到硬件</text>
+  <text x="550" y="331" text-anchor="middle" font-size="11.5" font-style="italic" fill="rgba(43,39,36,0.5)">Software × Hardware Map 会从这里继续往下走到硬件</text>
 
   <line x1="550" y1="344" x2="550" y2="378" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></line>
   <text x="550" y="398" text-anchor="middle" font-size="13.5" fill="rgba(43,39,36,0.55)">Process（进程）→ OS　　·　已经认识，见 Foundation Zero</text>
