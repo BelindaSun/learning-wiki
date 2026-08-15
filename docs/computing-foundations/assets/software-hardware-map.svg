@@ -27,7 +27,7 @@
   <rect x="300" y="346" width="400" height="64" rx="10" fill="rgba(181,84,28,0.06)" stroke="#b5541c" stroke-width="1.2"></rect>
   <text x="500" y="372" text-anchor="middle" font-size="17" font-weight="700" fill="#8a3f14">Kernel / Library · 内核 / 库</text>
   <text x="500" y="392" text-anchor="middle" font-size="11.5" fill="rgba(43,39,36,0.62)">为某个硬件、某个操作，写到极致快的小程序</text>
-  <text x="500" y="404" text-anchor="middle" font-size="10.5" font-style="italic" fill="rgba(43,39,36,0.42)">CUDA 是这个生态里最有名的例子——概念先于品牌</text>
+  <text x="500" y="404" text-anchor="middle" font-size="10.5" font-style="italic" fill="rgba(43,39,36,0.42)">cuBLAS / cuDNN 住在这一层；CUDA 是更大的平台生态</text>
 
   <line x1="500" y1="410" x2="500" y2="430" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></line>
 

@@ -34,23 +34,17 @@ Foundation Zero 让你认识零件，From Silicon to AI 让你看到全景。现
 
 ## 🔬 Go Deeper · 五条主脊，搞懂为什么
 
-五主脊现在都已经有内容：
+想深挖哪条，点进去就是完整的"为什么"：
 
 - **[算力脊 · Compute Spine](compute-spine.md)** —— 为什么 GPU 赢了深度学习、为什么降精度能提速
-  - [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md) ← 已经写了
-  - [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md) ← 已经写了
-- **[内存脊 · Memory Spine](memory-spine.md)** —— 为什么更快的算术 ≠ 更快推理
-  - [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md) ← 已经写了
-- **[规模脊 · Scale Spine](scale-spine.md)** —— 为什么从 1 卡扩到千卡很难
-  - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md) ← 已经写了
-- **[软硬桥脊 · Bridge Spine](bridge-spine.md)** —— CUDA 为什么是护城河
-  - [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md) ← 已经写了
-- **[半导体脊 · Semiconductor Spine](semiconductor-spine.md)** —— 为什么芯片产能约束 AI
-  - [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md) ← 已经写了
-
+  - [CPU vs GPU：为什么 GPU 赢了深度学习](cpu-vs-gpu.md)  - [FLOPS 与精度：为什么降精度能提速](flops-and-precision.md)- **[内存脊 · Memory Spine](memory-spine.md)** —— 为什么更快的算术 ≠ 更快推理
+  - [内存墙：为什么很多时候不是算不动，而是数据送不到](memory-wall.md)- **[规模脊 · Scale Spine](scale-spine.md)** —— 为什么从 1 卡扩到千卡很难
+  - [从 1 卡到千卡：为什么算力扩展这么难](scaling-and-communication.md)- **[软硬桥脊 · Bridge Spine](bridge-spine.md)** —— CUDA 为什么是护城河
+  - [CUDA 护城河：为什么软硬之间的决策分散在每一层](cuda-moat.md)- **[半导体脊 · Semiconductor Spine](semiconductor-spine.md)** —— 为什么芯片产能约束 AI
+  - [良率与代工：为什么芯片产能约束 AI](yield-and-foundry.md)
 ---
 
-**最后更新**: August 14, 2026
+**最后更新**: August 15, 2026
 
 **相关**:
 - [From Silicon to AI](from-silicon-to-ai.md) —— Start 必修 02，完整总地图 SVG 第一次出现在这篇正文里

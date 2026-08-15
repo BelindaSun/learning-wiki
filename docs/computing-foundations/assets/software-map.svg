@@ -13,7 +13,7 @@
   <rect x="670" y="102" width="300" height="86" rx="10" fill="rgba(181,84,28,0.045)" stroke="rgba(181,84,28,0.35)" stroke-width="1.2"></rect>
   <text x="820" y="136" text-anchor="middle" font-weight="600" font-size="19" fill="#2b2724">模型（权重）</text>
   <text x="820" y="156" text-anchor="middle" font-size="12" fill="rgba(43,39,36,0.68)">Model — 一堆参数</text>
-  <text x="820" y="177" text-anchor="middle" font-size="11.5" font-style="italic" fill="#8a3f14">是数据，不是代码——像乐谱，不是演奏者</text>
+  <text x="820" y="177" text-anchor="middle" font-size="11.5" font-style="italic" fill="#8a3f14">权重是学到的数据，不是指令——像乐谱，等演奏</text>
 
   <!-- Converge into Runtime -->
   <path d="M280,188 C280,225 480,232 545,248" fill="none" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></path>
@@ -21,7 +21,7 @@
 
   <rect x="380" y="250" width="340" height="94" rx="12" fill="rgba(181,84,28,0.08)" stroke="#b5541c" stroke-width="1.4"></rect>
   <text x="550" y="288" text-anchor="middle" font-weight="700" font-size="24" fill="#8a3f14">Runtime · 运行时</text>
-  <text x="550" y="312" text-anchor="middle" font-size="12.5" fill="rgba(43,39,36,0.68)">真正执行的东西——不管执行的是代码还是模型权重</text>
+  <text x="550" y="312" text-anchor="middle" font-size="12.5" fill="rgba(43,39,36,0.68)">把代码和模型计算真正调动起来、让它跑起来的那层</text>
   <text x="550" y="331" text-anchor="middle" font-size="11.5" font-style="italic" fill="rgba(43,39,36,0.5)">Software × Hardware Map 会从这里继续往下走到硬件</text>
 
   <line x1="550" y1="344" x2="550" y2="378" stroke="rgba(43,39,36,0.42)" stroke-width="1.2"></line>
