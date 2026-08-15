@@ -2,6 +2,27 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.1] - August 15, 2026
+
+### ✏️ Computing Foundations Orient 层 + Start Here 双层化改造
+
+**背景**：Belinda 带回一批外部 AI（Gemini / ChatGPT）对入门层页面的审读意见，核心诉求是——纯比喻虽好懂，但对非 CS 读者缺了"硬核本质"这一层；理想是"严谨本质（1 句）+ 形象比喻（1 句）"的双层表达，兼顾严谨与直觉。这一轮把这套双层框架统一铺到 Computing Foundations 的三张 Orient 地图和 Start Here，配图（SVG）同步微调。逐条建议都做了技术校对，采纳、软化或否决都留了理由，不照单全收。
+
+**改动页面**：
+- `start-here.md` —— Step 05 六词（Tool/Skill/Workflow/Agent/MCP/Harness）加"本质 + 直觉"速查表（Harness 比喻按本页既有纠正写成"整套环境、划边界只是其一"，并加一行防"越往下越高级"的线性误读）；Step 04 从纯跳转站补上物理直觉（每次回答本质是电流在晶体管里流动）；Step 02 加"备考 vs 开卷"比喻讲清 Training 贵而 Inference 实时。
+- `docs/computing-foundations/software-map.md` —— 模型结构 vs 权重展开（保留本页乐谱/演奏者比喻，不引入会跨页打架的"钢琴"）；五个卫星词升级成"本质 + 直觉"双层表（Belinda 亲自改了一版更少绝对化的：Queue 不再把 FIFO 当唯一定义、Container 去掉"一定能跑"）；新增"发一句话串起 5 个词"场景；补应用代码↔模型的调用关系。SVG 里 "Map 3" 改写全名 Software × Hardware Map。
+- `docs/computing-foundations/hardware-map.md` —— 三要素（算力/内存/互连）锚点，接回 From Silicon to AI 的"算/放/搬"；新增硬词对照表（Cache/HBM/PCIe/NVLink/InfiniBand，本质 + 比喻）；新增"集群 → 服务器 → 芯片"降维穿线场景。跳过与 SVG 重复的 3×3 markdown 矩阵。
+- `docs/computing-foundations/software-hardware-map.md` —— 桥上三角色 + Runtime 四决策都加"本质 + 直觉"表；新增"100 人同时发消息"穿线场景；补 vLLM/TensorRT 锚点。给"四件事都归 Runtime"加了一句诚实简化脚注，呼应 CLAUDE.md 里 Bridge Spine 的 Future Note。
+- `docs/computing-foundations/from-silicon-to-ai.md` —— 四层表补配图英文锚点词、Step 8 改名、软件栈段加橙色弧线视觉指引；SVG 裁掉底部约 300px 留白（viewBox 800→512）并整体放大文字。
+- `docs/computing-foundations/foundation-zero.md` —— GPU 比喻"中央厨房"（易与数据中心混淆）改成"上千人的配菜流水线"（表格 + SVG 同步）；乐器/乐谱比喻补 GPU/NPU/ASIC；天气 API 例子补一句 JSON 说明；Bit/Byte 加指针化解与结尾自测的不对称。
+- `README.md` —— 五块领土各加一句"直觉锚点"。
+
+**把关记录（没有照单全收）**：Precision 比喻"几乎看不出区别"软化为"多数情况下几乎看不出"；NVLink"速度翻倍"软化为"快得多"；SVG 建议里"把 Runtime 拆成应用运行时 vs 推理引擎(vLLM/TensorRT)"暂不做——正好命中 CLAUDE.md「Software Map 待升级」那条刻意的入门近似，留给深度篇；Gemini 建议的整站结构大改组（Agent/Workflow 从 AI Core 搬去 Practice、AI Research 改名）按 Growth Rules 否决，保持现状。
+
+**维护笔记**：`CLAUDE.md` 的「Software × Hardware Map 待升级」Future Note 补记——已加诚实简化脚注（打了预防针），完整分层拆分仍待 Bridge Spine 正文。
+
+**协作**：这一轮改进建议来自 Belinda 带回的 Gemini / ChatGPT 审读，技术校对、跨页一致性、去绝对化与最终落地由 Claude 完成。
+
 ## [v5.0] - August 10, 2026
 
 ### 📝 Daily Update - AI Core 新增：AI Safety / Alignment 完全指南
