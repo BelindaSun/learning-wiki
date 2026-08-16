@@ -48,6 +48,10 @@ AI 能力提升不是纯粹的正向变量——人机系统的表现是"AI 能�
 以为 Agent 的自主性、该给多少权力、记忆、探索能力这些属性，各用一根"低/中/高"的刻度描述就够了；现在明白凡是习惯用一根轴描述的属性，拆开看往往是至少两个独立维度被压扁了——量级 vs 类型、时间朝向 vs 持久度、知识 vs 纪律。粗糙的单轴分类不只是不精确，它会系统性地让人误判风险和瓶颈在哪。
 → 详见 [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
 
+**Tool/Orchestration → 委托轴**（Aug 16）
+以为"要不要调用工具"和"要不要拆给子 agent"是并列的两类能力；现在明白它们底层是同一个决策原语——"这件事我自己想，还是委托出去、拿结果回来用"，只是委托对象的性质和粒度不同。往上收，Agent 的智能能归成三层：Model（不可委托的判断核心）、Memory（管时间轴）、Delegation（管空间轴），而后两者归根结底都是 Model Intelligence 在不同任务上的应用。
+→ 详见 [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md)
+
 ---
 
-**最后更新**: August 14, 2026
+**最后更新**: August 16, 2026

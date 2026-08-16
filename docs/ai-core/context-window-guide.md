@@ -740,3 +740,4 @@ Context（单次对话）：
 - [Prompt 工程完全指南](prompt-engineering-guide.md) —— 系统提示词在 Prompt 工程里扮演的角色
 - [RAG 完全指南](../ai-application/rag-guide.md) —— Context 容量有限，是 RAG 存在的原因之一
 - [Multimodal 完全指南](multimodal-guide.md) —— Context 里放的不再只有文字
+- [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— compaction、context rot、prompt caching：Agent 多轮场景下 context 的资源管理

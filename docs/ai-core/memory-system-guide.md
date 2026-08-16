@@ -705,3 +705,4 @@ localStorage（浏览器）：
 - [MCP 协议](../ai-application/mcp-protocol-guide.md)
 - [Workflow 编排](workflow-orchestration.md)
 - [Agent 的"单轴刻度"问题](agent-single-axis-problem.md) —— 除了"存多久"，记忆还有"时间朝向"这根轴（Prospective Memory / 前瞻记忆）
+- [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— retained reasoning（不丢草稿纸）和外部 memory（主动记笔记）是两套不同机制，别混为一谈

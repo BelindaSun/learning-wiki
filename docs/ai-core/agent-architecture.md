@@ -429,3 +429,4 @@ Stage 3: 生成最终答案
 - [Prompt 工程完全指南](prompt-engineering-guide.md) —— System Prompt、工具调用背后怎么把话说清楚，这篇讲
 - [Multimodal 完全指南](multimodal-guide.md) —— "感知环境"这一半，Multimodal 补的是这个
 - [Agent 的"单轴刻度"问题](agent-single-axis-problem.md) —— 就算工具选对、知识也对，Agent 仍会在探索广度上"偷懒"，这是 tool selection 没覆盖的盲区
+- [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— tool selection 的延伸：Programmatic Tool Calling 把确定性工作移出 context，Tool/Orchestration 统一成"委托"决策

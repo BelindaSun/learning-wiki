@@ -186,4 +186,5 @@ Agent 有知识，但**严重缺乏探索纪律**。
 - [Workflow 编排](workflow-orchestration.md) —— Orchestration 成本逻辑，本篇给它加了一个反例
 - [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md) —— 五维可信度框架，本篇把它对应到两类风险
 - [Domain Expertise 与组织变革](../career-impact/domain-expertise-and-org-design.md) —— Delegation Framework 三层分类的原始出处
+- [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— Tool vs Orchestration 是"委托轴"上的两个刻度，同一个"单轴 → 多维"母题
 - [心智模型变迁史：单轴 → 多维](../../mental-models.md)

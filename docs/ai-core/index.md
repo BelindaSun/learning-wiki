@@ -4,6 +4,7 @@
 
 - [Agent 系统架构](agent-architecture.md)
 - [Agent 的"单轴刻度"问题](agent-single-axis-problem.md)
+- [Agent Intelligence 三层框架](agent-intelligence-layers.md)
 - [Workflow 编排](workflow-orchestration.md)
 - [Memory 系统](memory-system-guide.md)
 - [Context Window](context-window-guide.md)
@@ -22,3 +23,4 @@
 原始对话记录，正式指南已经整理了核心内容，这里保留作为学习过程的原始留档：
 
 - [多模态（Multimodal）](../conversations/multimodal.md) —— 正式版见 [Multimodal 完全指南](multimodal-guide.md)
+- [Agent Intelligence](../conversations/agent-intelligence.md) —— 正式版见 [Agent Intelligence 三层框架](agent-intelligence-layers.md)

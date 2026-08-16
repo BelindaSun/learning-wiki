@@ -5,6 +5,7 @@
 ## A
 
 - **Agent** - [Agent 系统架构](docs/ai-core/agent-architecture.md)
+- **Agent Intelligence（三层框架：Model/Memory/Delegation）** - [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Alignment（对齐）** - [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
 - **Agent Lifecycle** - [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
 - **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
@@ -33,6 +34,8 @@
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
 - **Constitutional AI** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
+- **Compaction（上下文压缩）** - [retained reasoning 不是 memory](docs/ai-core/agent-intelligence-layers.md#retained-reasoning-不是-memory)
+- **Cascading / Routing（模型级联路由）** - [cascading/routing 与一个 Agent 跑五六个模型](docs/ai-core/agent-intelligence-layers.md#落地cascadingrouting-与一个-agent-跑五六个模型)
 - **CPU vs GPU** - [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
@@ -51,6 +54,7 @@
 ## D
 
 - **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- **Delegation Intelligence（委托智能）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Disaggregated Inference（解构式推理）** - [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Domain Expertise** - [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
 
@@ -113,6 +117,8 @@
 
 - **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
+- **Memory Intelligence（记忆智能，管时间轴）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
+- **Model Intelligence（不可委托的判断核心）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Memory Spine（内存脊）** - [内存脊](docs/computing-foundations/memory-spine.md)
 - **Memory Wall（内存墙，硬件内存，非 Agent 记忆）** - [内存墙](docs/computing-foundations/memory-wall.md)
 - **Memory Hierarchy（内存层级）** - [内存墙](docs/computing-foundations/memory-wall.md)
@@ -146,6 +152,8 @@
 - **Precision（精度）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Pretraining（预训练）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
 - **Prompt** - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
+- **Programmatic Tool Calling（PTC，把确定性工作移出 context）** - [Programmatic Tool Calling](docs/ai-core/agent-intelligence-layers.md#programmatic-tool-calling把确定性工作移出-context)
+- **Price-Performance Frontier（性价比前沿曲线）** - [性价比前沿正在取代单点分数](docs/ai-core/agent-intelligence-layers.md#行业趋势性价比前沿正在取代单点分数)
 - **Prospective Memory（前瞻记忆）** - [Memory 的关键轴是"时间朝向"](docs/ai-core/agent-single-axis-problem.md#场景三memory-的关键轴是时间朝向不是持久度)
 - **Prompt Caching** - [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
 - **Project Knowledge** - [Project 和持久记忆](docs/ai-core/context-window-guide.md#project-和持久记忆)
@@ -157,6 +165,8 @@
 
 ## R
 
+- **Reconstruction Tax（重建税）** - [重建税：为什么模型不变，分数能差 3 倍](docs/ai-core/agent-intelligence-layers.md#重建税为什么模型不变分数能差-3-倍)
+- **Retained Reasoning（推理持久化）** - [retained reasoning 不是 memory](docs/ai-core/agent-intelligence-layers.md#retained-reasoning-不是-memory)
 - **Residual Connection** - [残差连接](docs/ai-core/transformer-architecture.md#残差连接和正则化)
 - **RAG** - [RAG 完全指南](docs/ai-application/rag-guide.md)
 - **RAM（Random Access Memory，内存）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
@@ -283,6 +293,7 @@
 ### 🤝 Agent 系统（Agent）
 - [Agent 架构](docs/ai-core/agent-architecture.md)
 - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
+- [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md)
 - [Workflow 编排](docs/ai-core/workflow-orchestration.md)
 - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
@@ -313,7 +324,7 @@
 
 ---
 
-**最后更新**: August 14, 2026  
+**最后更新**: August 16, 2026  
 **概念总数**: 89 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
