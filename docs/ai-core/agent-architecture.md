@@ -430,3 +430,5 @@ Stage 3: 生成最终答案
 - [Multimodal 完全指南](multimodal-guide.md) —— "感知环境"这一半，Multimodal 补的是这个
 - [Agent 的"单轴刻度"问题](agent-single-axis-problem.md) —— 就算工具选对、知识也对，Agent 仍会在探索广度上"偷懒"，这是 tool selection 没覆盖的盲区
 - [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— tool selection 的延伸：Programmatic Tool Calling 把确定性工作移出 context，Tool/Orchestration 统一成"委托"决策
+- [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md) —— Model Capability ≠ Agent Capability：为什么聪明不等于能干
+- [Computer Use](computer-use.md) —— Agent 通过 GUI 操作软件，从"会说"走向"会做"

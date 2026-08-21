@@ -521,3 +521,5 @@ MCP 降低了技术难度
 - [Harness 系统](harness-system.md)
 - [Workflow 编排](../ai-core/workflow-orchestration.md)
 - [Coding Agent 与 Agent 基础设施](../career-impact/agent-infrastructure-os.md)
+- [Model 能力 ≠ Agent 能力](../ai-core/model-vs-agent-capability.md) —— MCP 怎样让 Agent 获得新的"手"
+- [Computer Use](../ai-core/computer-use.md) —— Computer Use MCP 是 MCP 连接物理世界的一个典型案例

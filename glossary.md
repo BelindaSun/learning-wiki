@@ -288,6 +288,9 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 
 *想深入*：[RAG 完全指南](docs/ai-application/rag-guide.md) —— "检索"这一步具体怎么做
 
+**Computer Use（AI 操作 GUI）**
+让 AI 通过观察屏幕、操作鼠标和键盘来使用软件——不需要目标软件提供 API，只需要有 GUI。传统 AI 连接软件靠 API（Software → API → Software），Computer Use 增加了一条路径（AI → GUI → Software），让 Agent 理论上可以操作任何人类日常使用的软件。 → [Computer Use](docs/ai-core/computer-use.md) · [Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md)
+
 #### Coding Agent
 专门用来读代码、改代码、跑测试的 Agent——目前是 Agent 落地最快、最成熟的场景之一。
 
@@ -410,4 +413,4 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 
 ---
 
-**最后更新**: August 9, 2026
+**最后更新**: August 20, 2026

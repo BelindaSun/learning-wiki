@@ -36,6 +36,7 @@
 - **Constitutional AI** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 - **Compaction（上下文压缩）** - [retained reasoning 不是 memory](docs/ai-core/agent-intelligence-layers.md#retained-reasoning-不是-memory)
 - **Cascading / Routing（模型级联路由）** - [cascading/routing 与一个 Agent 跑五六个模型](docs/ai-core/agent-intelligence-layers.md#落地cascadingrouting-与一个-agent-跑五六个模型)
+- **Computer Use（AI 操作 GUI）** - [Computer Use](docs/ai-core/computer-use.md)
 - **CPU vs GPU** - [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
 
 - **Causal Attention** - [Causal Attention](docs/ai-core/inference-system-guide.md#attention-机制)
@@ -122,6 +123,7 @@
 - **Memory Spine（内存脊）** - [内存脊](docs/computing-foundations/memory-spine.md)
 - **Memory Wall（内存墙，硬件内存，非 Agent 记忆）** - [内存墙](docs/computing-foundations/memory-wall.md)
 - **Memory Hierarchy（内存层级）** - [内存墙](docs/computing-foundations/memory-wall.md)
+- **Model Capability ≠ Agent Capability** - [Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md)
 - **Model War** - [模型战争时代](docs/career-impact/model-to-system-war.md#模型战争时代)
 - **MCP** - [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
 - **MCP Protocol** - [MCP 的核心价值](docs/ai-application/mcp-protocol-guide.md#mcp-的核心价值)
@@ -296,6 +298,8 @@
 - [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md)
 - [Workflow 编排](docs/ai-core/workflow-orchestration.md)
 - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
+- [Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md)
+- [Computer Use](docs/ai-core/computer-use.md)
 
 ### 🎓 模型研究（Models）
 - [Models 深挖](docs/ai-research/models-deep-dive.md)
@@ -324,8 +328,8 @@
 
 ---
 
-**最后更新**: August 16, 2026  
-**概念总数**: 89 个核心概念  
+**最后更新**: August 20, 2026  
+**概念总数**: 91 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---

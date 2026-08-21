@@ -52,6 +52,10 @@ AI 能力提升不是纯粹的正向变量——人机系统的表现是"AI 能�
 以为"要不要调用工具"和"要不要拆给子 agent"是并列的两类能力；现在明白它们底层是同一个决策原语——"这件事我自己想，还是委托出去、拿结果回来用"，只是委托对象的性质和粒度不同。往上收，Agent 的智能能归成三层：Model（不可委托的判断核心）、Memory（管时间轴）、Delegation（管空间轴），而后两者归根结底都是 Model Intelligence 在不同任务上的应用。
 → 详见 [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md)
 
+**Intelligence → Agency**（Aug 20）
+以为 Model 越聪明 Agent 就越强——"最强的模型 = 最好用的 Agent"；现在明白 Intelligence is not Agency——同一个模型放进不同的 Runtime、给不同的 Tools 和 Permissions，实际行动能力可能天差地别。失败经常发生在 Agent Stack，而不是发生在 Model。
+→ 详见 [Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md)
+
 ---
 
-**最后更新**: August 16, 2026
+**最后更新**: August 20, 2026

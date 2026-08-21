@@ -173,3 +173,5 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - [CUDA 护城河：为什么软硬之间的决策分散在每一层](../computing-foundations/cuda-moat.md) —— "生态让开发者不想离开"这个类比的硬件层原始版本
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md)
 - [算力脊 · Computing Foundations](../computing-foundations/compute-spine.md)
+- [Model 能力 ≠ Agent 能力](../ai-core/model-vs-agent-capability.md) —— 模型下沉为 CPU 这个类比的另一面：Model ≠ Agent
+- [Computer Use](../ai-core/computer-use.md) —— Agent 从 Coding 场景向外扩散的一条路径

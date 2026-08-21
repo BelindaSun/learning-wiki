@@ -82,3 +82,4 @@ RLHF 的思路是：与其手写规则告诉模型"该做什么、不该做什�
 - [Training 训练系统完全指南](training-system-guide.md) —— RLHF 在整条训练线上的位置
 - [Evaluation 系统](../ai-research/evaluation-system.md) —— RLHF 三步流程的完整展开、安全性作为"硬门槛"的具体机制
 - [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md) —— Evaluation vs Safety 的产品/信任视角
+- [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md) —— Safety 在 Agent 层面的具体展开：行动权限怎么管
