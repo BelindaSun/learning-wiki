@@ -134,6 +134,18 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 **Knowledge Cutoff（知识截止日期）**
 模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 
+**Containment（安全遏制）**
+假设 Alignment 已经失败，用工程手段限制模型能触及的边界——沙箱隔离、网络隔离、最小权限、激活监控，层层假设上一层已失败。不依赖模型的"善意"，像银行金库不依赖员工的诚实。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
+
+**Monitoring（AI 监控）**
+检测模型运行时的异常行为——不只看输出，还看内部激活状态。OpenAI 的实现是在每个 token 处运行激活分类器，发现异常后 30 分钟内人工介入，监控开销约占推理算力的 20%。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#monitoring检测异常行为)
+
+**Defense in Depth（纵深防御）**
+不依赖单一防线，每一层假设上一层已经失败：Alignment → 进程隔离 → 网络隔离 → 权限控制 → 监控 → 人工介入。是 Containment 的核心工程思想。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
+
+**Scalable Oversight（可扩展监督）**
+当模型能力超过人类时，人类怎么判断它的输出是否正确？两条路径：Debate（让两个 AI 互辩，人类判断谁更可信）和 Recursive Reward Modeling（把复杂任务拆成人类能判断的小块）。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
+
 #### Alignment
 **对齐** — 模型的目标和行为，是不是真的符合人类的真实意图，尤其是在训练时没见过的新场景里——比"怎么防止 AI 系统造成不可接受的伤害"（Safety）更深、更难验证的一层问题。RLHF 是目前最主流的对齐技术之一，但只是缓解手段，不保证问题被彻底解决。
 
@@ -413,4 +425,4 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 
 ---
 
-**最后更新**: August 20, 2026
+**最后更新**: August 22, 2026

@@ -2,6 +2,22 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.3] - August 22, 2026
+
+### 📝 新增：AI Safety 三层防护框架（Monitoring / Alignment / Containment）
+
+**学习来源**：OpenAI《Pacing model development in an era of cyber-critical capabilities》（2026.08.18）
+
+**新增页面**：
+- `docs/ai-core/safety-three-layer-framework.md` — 三层防护各司其职；Alignment 技术演进（RLHF → Constitutional AI → Scalable Oversight → Interpretability）；Containment 纵深防御工程架构（沙箱/网络隔离/最小权限/激活监控）；Delegation Framework 可逆性缺口（风险×可逆性矩阵）
+- `docs/conversations/safety-three-layer-framework.md` — 完整学习对话记录
+
+**新增概念**：Containment、Monitoring、Defense in Depth、Scalable Oversight、Debate、Delegation Framework 可逆性缺口（91→98）
+
+**心智模型**：新增 [Alignment → Defense in Depth](mental-models.md)（Aug 22）
+
+**交叉链接**：Safety/Alignment 指南、Model ≠ Agent、Harness 共 3 篇文章加了双向链接；`glossary.md` 新增 4 个词条；Safety 主题区新增 5 条索引
+
 ## [v5.2] - August 20, 2026
 
 ### 📝 新增：Model 能力 ≠ Agent 能力 + Computer Use 词条
@@ -126,4 +142,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: August 20, 2026
+**最后更新**: August 22, 2026

@@ -506,3 +506,4 @@ MCP: 定义"去哪做"
 - [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md)
 - [Model 能力 ≠ Agent 能力](../ai-core/model-vs-agent-capability.md) —— Harness/Runtime 如何决定 Agent 实际能力
 - [Computer Use](../ai-core/computer-use.md) —— Computer Use 的权限管理是 Harness 关切的一个具体展开
+- [AI Safety 的三层防护框架](../ai-core/safety-three-layer-framework.md) —— Containment 纵深防御是 Harness 在更大尺度上的同一套思路

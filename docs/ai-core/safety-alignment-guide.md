@@ -68,18 +68,19 @@ RLHF 的思路是：与其手写规则告诉模型"该做什么、不该做什�
 
 ## 这篇不讲什么
 
-- 不展开 Interpretability 的具体技术（比如 activation patching、sparse autoencoder 这类机制可解释性方法）——Wiki 目前还没有独立页面（待创建），这篇只标出这个方向存在
+- 不展开 Interpretability 的具体技术（比如 activation patching、sparse autoencoder 这类机制可解释性方法）——Wiki 目前还没有独立页面（待创建），这篇只标出这个方向存在。Alignment 技术路径的演进（RLHF → Constitutional AI → Scalable Oversight → Interpretability）和 Containment 纵深防御工程架构已在 [AI Safety 的三层防护框架](safety-three-layer-framework.md) 展开
 - 不做 AI 政策 / 监管的深度讨论（各国监管框架、企业自律标准）
 - 不展开长期 AI 风险 / AGI 领域的哲学与政策辩论——这是一个仍在发展、观点分歧很大的领域，这篇不做立场判断
 - 不做各家模型（Claude、GPT、Gemini 等）对齐方法的横向对比
-- 不讲 Red Teaming / Constitutional AI 的具体工程实现细节
+- 不讲 Red Teaming 的具体工程实现细节（Constitutional AI 的两阶段机制已在 [三层防护框架](safety-three-layer-framework.md#2-constitutional-ai--让模型用原则自我批判) 展开）
 
 ---
 
-**最后更新**: August 10, 2026
+**最后更新**: August 22, 2026
 
 **相关**:
 - [Training 训练系统完全指南](training-system-guide.md) —— RLHF 在整条训练线上的位置
 - [Evaluation 系统](../ai-research/evaluation-system.md) —— RLHF 三步流程的完整展开、安全性作为"硬门槛"的具体机制
 - [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md) —— Evaluation vs Safety 的产品/信任视角
 - [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md) —— Safety 在 Agent 层面的具体展开：行动权限怎么管
+- [AI Safety 的三层防护框架](safety-three-layer-framework.md) —— Monitoring / Alignment / Containment 三层各司其职，Alignment 技术演进（RLHF → Constitutional AI → Scalable Oversight → Interpretability），Containment 纵深防御工程架构

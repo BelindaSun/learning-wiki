@@ -19,6 +19,7 @@
 - [推理基础设施与 Agent 延迟](inference-infrastructure-and-agent-latency.md)
 - [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md)
 - [Computer Use](computer-use.md)
+- [AI Safety 的三层防护框架](safety-three-layer-framework.md)
 
 ## 完整学习对话记录
 
@@ -26,3 +27,4 @@
 
 - [多模态（Multimodal）](../conversations/multimodal.md) —— 正式版见 [Multimodal 完全指南](multimodal-guide.md)
 - [Agent Intelligence](../conversations/agent-intelligence.md) —— 正式版见 [Agent Intelligence 三层框架](agent-intelligence-layers.md)
+- [Safety 三层防护](../conversations/safety-three-layer-framework.md) —— 正式版见 [AI Safety 的三层防护框架](safety-three-layer-framework.md)

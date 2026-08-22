@@ -33,7 +33,8 @@
 - **Compiler（编译器）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
-- **Constitutional AI** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
+- **Containment（安全遏制）** - [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
+- **Constitutional AI** - [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [两阶段机制详解](docs/ai-core/safety-three-layer-framework.md#2-constitutional-ai--让模型用原则自我批判)
 - **Compaction（上下文压缩）** - [retained reasoning 不是 memory](docs/ai-core/agent-intelligence-layers.md#retained-reasoning-不是-memory)
 - **Cascading / Routing（模型级联路由）** - [cascading/routing 与一个 Agent 跑五六个模型](docs/ai-core/agent-intelligence-layers.md#落地cascadingrouting-与一个-agent-跑五六个模型)
 - **Computer Use（AI 操作 GUI）** - [Computer Use](docs/ai-core/computer-use.md)
@@ -52,9 +53,14 @@
 - **Compute-bound vs Memory-bandwidth-bound** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **CPU（Central Processing Unit，中央处理器）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
+- **CUDA Moat（CUDA 护城河）** - [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
+
 ## D
 
+- **Debate（AI 辩论式监督）** - [Scalable Oversight](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- **Defense in Depth（纵深防御）** - [Containment 工程架构](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
+- **Delegation Framework 可逆性缺口** - [Delegation Framework 的真正缺口：可逆性](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
 - **Delegation Intelligence（委托智能）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Disaggregated Inference（解构式推理）** - [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Domain Expertise** - [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
@@ -99,7 +105,7 @@
 
 - **Inference** - [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Interconnect（互连）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
-- **Interpretability（可解释性）** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
+- **Interpretability（可解释性）** - [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [直接看模型在"想什么"](docs/ai-core/safety-three-layer-framework.md#4-interpretability--直接看模型在想什么)
 
 ## K
 
@@ -118,6 +124,7 @@
 
 - **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
+- **Monitoring（AI 监控）** - [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#monitoring检测异常行为)
 - **Memory Intelligence（记忆智能，管时间轴）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Model Intelligence（不可委托的判断核心）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Memory Spine（内存脊）** - [内存脊](docs/computing-foundations/memory-spine.md)
@@ -192,6 +199,7 @@
 - **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
 - **Single-Axis Problem（单轴刻度问题）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
+- **Scalable Oversight（可扩展监督）** - [当模型比人聪明时怎么监督](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Scale Spine（规模脊）** - [规模脊](docs/computing-foundations/scale-spine.md)
 - **Semiconductor Spine（半导体脊）** - [半导体脊](docs/computing-foundations/semiconductor-spine.md)
@@ -257,6 +265,11 @@
 - [Specification Gaming](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
 - [RLHF 是一种对齐技术，不是对齐本身](docs/ai-core/safety-alignment-guide.md#rlhf-是一种对齐技术不是对齐本身)
 - [Red Teaming / Constitutional AI / Interpretability](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
+- [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)
+- [Monitoring / Alignment / Containment](docs/ai-core/safety-three-layer-framework.md#三层防护框架)
+- [Alignment 技术演进：RLHF → Constitutional AI → Scalable Oversight → Interpretability](docs/ai-core/safety-three-layer-framework.md#alignment-技术路径的演进)
+- [Containment 纵深防御（Defense in Depth）](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
+- [Delegation Framework 可逆性缺口](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
 
 ### ✍️ Prompt 工程（Prompt Engineering）
 - [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
@@ -328,8 +341,8 @@
 
 ---
 
-**最后更新**: August 20, 2026  
-**概念总数**: 91 个核心概念  
+**最后更新**: August 22, 2026  
+**概念总数**: 98 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---

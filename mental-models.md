@@ -56,6 +56,10 @@ AI 能力提升不是纯粹的正向变量——人机系统的表现是"AI 能�
 以为 Model 越聪明 Agent 就越强——"最强的模型 = 最好用的 Agent"；现在明白 Intelligence is not Agency——同一个模型放进不同的 Runtime、给不同的 Tools 和 Permissions，实际行动能力可能天差地别。失败经常发生在 Agent Stack，而不是发生在 Model。
 → 详见 [Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md)
 
+**Alignment → Defense in Depth**（Aug 22）
+以为安全 = 把模型训练得足够听话，Alignment 做好了就够了；现在明白三层必须同时在线——Monitoring 看行为、Alignment 塑造动机、Containment 限制边界，层层假设上一层已失败。而且即使一个好模型 Trustworthiness 很高，在权限无限大的环境里仍然不安全：好人也会判断失误、善意可能被利用（Prompt Injection）、错误在没有约束时同样不可逆。
+→ 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)
+
 ---
 
-**最后更新**: August 20, 2026
+**最后更新**: August 22, 2026
