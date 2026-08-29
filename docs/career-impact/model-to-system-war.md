@@ -407,3 +407,4 @@ Skill 使用率                  26.6% 用过
 - [心智模型变迁史：Model → System](../../mental-models.md)
 - [Google AI 领导层重组](google-agi-org-restructuring.md)
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— "模型层商品化、编排层才是护城河"的最硬定量证据
+- [OpenAI Intelligence Platform](openai-intelligence-platform.md) —— 从"系统战争"再进一步到 Platform Company：模型领先是状态，不是护城河

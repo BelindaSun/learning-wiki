@@ -12,11 +12,15 @@
 - `docs/ai-application/harness-architecture-patterns.md` — MEA 循环（Manager-Execute-Audit）、Claimed vs Verified State、Harness 两条腿（执行架构 + 知识架构）、Skill as Governed Artifact、Skill 选择三层递进、Multi-Agent Memory Provenance、四柱模型
 - `docs/conversations/harness-gt-model.md` — 完整学习对话记录
 
-**新增概念**：MEA Loop、Claimed vs Verified State、Context Rot、Self-evaluation Bias、Skill Governance、Skill Runtime、Skill Routing Precision、Multi-Agent Memory Provenance（98→106）
+**新增页面 2**：
+- `docs/career-impact/openai-intelligence-platform.md` — Intelligence Platform 定位、Compute 作为 Intelligence Factory、Distribution（Owned vs Third-party）、模型领先是状态不是护城河、Ultra-fast AI 改变交互模型、RSI 产业级反馈循环、Platform vs Product 内在张力
+- `docs/conversations/openai-intelligence-platform.md` — 完整学习对话记录（Sam Altman × David Senra + Tibo × Matthew Berman）
 
-**心智模型**：新增 [Harness = 包装纸 → Harness = 操作系统层](mental-models.md)（Aug 29）
+**新增概念**：MEA Loop、Claimed vs Verified State、Context Rot、Self-evaluation Bias、Skill Governance、Skill Runtime、Skill Routing Precision、Multi-Agent Memory Provenance、Intelligence Platform、Distribution、Platform vs Product Tension、RSI（98→110）
 
-**交叉链接**：Harness 系统、Model ≠ Agent、Skills 商业格局、模型战争 vs 系统战争、Scaling Paradox、Agent 架构 共 6 篇文章加了双向链接；`glossary.md` 新增 3 个词条；`index-all-concepts.md` 新增 8 个概念
+**心智模型**：新增 [Harness = 包装纸 → Harness = 操作系统层](mental-models.md)（Aug 29）+ [Product Company → Platform Company](mental-models.md)（Aug 29）
+
+**交叉链接**：Harness 系统、Model ≠ Agent、Skills 商业格局、模型战争 vs 系统战争、Scaling Paradox、Agent 架构、从工具到产业 共 8 篇文章加了双向链接；`glossary.md` 新增 5 个词条；`index-all-concepts.md` 新增 12 个概念
 
 ## [v5.3] - August 22, 2026
 

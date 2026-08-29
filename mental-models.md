@@ -64,6 +64,10 @@ AI 能力提升不是纯粹的正向变量——人机系统的表现是"AI 能�
 以为 Harness 是模型外面的"包装纸"——有用但次要，模型能力才是决定性的；现在明白 Harness 是 agent 系统的操作系统层，决定了模型能力能否可靠地转化为任务完成。弱模型 + 强 harness 可以超越强模型 + 弱 harness（Qwen 0.733 > Opus 0.680）。Agent 可靠性的核心问题不是"够不够聪明"，而是谁有权定义"现实现在是什么"——做事的权力、定义现实的权力、决定下一步的权力必须分离。
 → 详见 [Harness > Model — Agent 可靠性的真正杠杆](docs/ai-application/harness-architecture-patterns.md)
 
+**Product Company → Platform Company**（Aug 29）
+以为 OpenAI 的竞争主要是 GPT vs Claude vs Gemini，谁的模型能力最强谁就更有竞争优势；现在明白模型领先是状态（state），不是护城河（moat）。真正决定一家 AI 公司长期竞争力的是 Model × Product × Distribution × Ecosystem × Compute × Context 这个完整系统。OpenAI 的终局不是做越来越多 AI 产品，而是成为 Intelligence Platform——底层生产 intelligence，上层通过 One Adaptive Interface + One API 分发。
+→ 详见 [OpenAI 的未来：从 Intelligence Platform 到 Adaptive Interface](docs/career-impact/openai-intelligence-platform.md)
+
 ---
 
 **最后更新**: August 29, 2026

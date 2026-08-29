@@ -61,6 +61,7 @@
 
 - **Debate（AI 辩论式监督）** - [Scalable Oversight](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- **Distribution（Owned vs Third-party）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#distribution被低估的竞争维度)
 - **Defense in Depth（纵深防御）** - [Containment 工程架构](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
 - **Delegation Framework 可逆性缺口** - [Delegation Framework 的真正缺口：可逆性](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
 - **Delegation Intelligence（委托智能）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
@@ -106,6 +107,7 @@
 
 ## I
 
+- **Intelligence Platform（智能平台）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Inference** - [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Interconnect（互连）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Interpretability（可解释性）** - [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [直接看模型在"想什么"](docs/ai-core/safety-three-layer-framework.md#4-interpretability--直接看模型在想什么)
@@ -158,6 +160,7 @@
 ## P
 
 - **Parallel Node** - [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
+- **Platform vs Product Tension（平台与产品的内在张力）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#platform-与-product-的内在张力)
 - **Perceiver Resampler** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **Position Encoding** - [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
@@ -209,6 +212,7 @@
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
 - **Single-Axis Problem（单轴刻度问题）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
 - **Scalable Oversight（可扩展监督）** - [当模型比人聪明时怎么监督](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
+- **RSI（Recursive Self-Improvement，产业级反馈循环）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#rsi-的产业级反馈循环)
 - **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Scale Spine（规模脊）** - [规模脊](docs/computing-foundations/scale-spine.md)
 - **Semiconductor Spine（半导体脊）** - [半导体脊](docs/computing-foundations/semiconductor-spine.md)
@@ -336,6 +340,7 @@
 - [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
 - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
 - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
+- [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 
 ### 🎨 多模态（Multimodal）
 - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
@@ -352,7 +357,7 @@
 ---
 
 **最后更新**: August 29, 2026  
-**概念总数**: 106 个核心概念  
+**概念总数**: 110 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---

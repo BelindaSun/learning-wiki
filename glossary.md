@@ -344,6 +344,12 @@ Anthropic 出的一个命令行 AI 编程助手/Agent 工具，能直接读写�
 **Trustworthiness（可信度）**
 AI 系统是否值得把真正的工作交给它，拆成五个维度：可预测、可解释、可审计、可控制、可恢复。 → [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 
+**Intelligence Platform（智能平台）**
+不是做越来越多 AI 产品，而是底层用 Models + Compute 工业化生产 intelligence，上层通过一个面向个人的自适应 Interface 和一个面向开发者的 API 把 intelligence 分发出去——Sam Altman 对 OpenAI 终局的定义。 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
+
+**Distribution（分发渠道）**
+产品/能力触达并被用户使用的渠道与入口。Owned Distribution（ChatGPT、Codex）自己控制入口和用户关系；Third-party Distribution（VS Code、Cursor）借别人的入口触达用户。模型领先是状态，Distribution 才可能是护城河。 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#distribution被低估的竞争维度)
+
 **Domain Expertise（领域专长）**
 在 AI 能自己"执行"之后，人还剩下什么价值——知道什么值得做、什么算做好了、什么时候会出问题，这些无法言语化、很难被 AI 学走的判断力。 → [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
 

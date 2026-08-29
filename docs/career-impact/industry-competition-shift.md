@@ -311,3 +311,4 @@ A: 三者都重要，但优先级是：工作流 > 个人数据 > 知识。因�
 - [心智模型变迁史："+" → "×"](../../mental-models.md)
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
+- [OpenAI Intelligence Platform](openai-intelligence-platform.md) —— Distribution 维度和 Platform vs Product 张力
