@@ -653,3 +653,4 @@ Mimo、AI2030 会活下来
 - [MCP 协议](mcp-protocol-guide.md)
 - [Workflow 设计](workflow-design-guide.md)
 - [模型战争 vs 系统战争](../career-impact/model-to-system-war.md)
+- [Harness > Model](harness-architecture-patterns.md) —— Skill 治理（Provenance/版本/适用范围/回归测试）和 Skill 路由精度

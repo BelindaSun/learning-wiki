@@ -161,3 +161,4 @@ Layer 3 — Autonomy Granted(task)（自主权分配）
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
 - [心智模型变迁史：Capability → Capability × Calibration](../../mental-models.md)
+- [Harness > Model](../ai-application/harness-architecture-patterns.md) —— over-perception 本质就是把 claimed state 当 verified state，MEA 是架构级解法

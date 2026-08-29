@@ -60,6 +60,10 @@ AI 能力提升不是纯粹的正向变量——人机系统的表现是"AI 能�
 以为安全 = 把模型训练得足够听话，Alignment 做好了就够了；现在明白三层必须同时在线——Monitoring 看行为、Alignment 塑造动机、Containment 限制边界，层层假设上一层已失败。而且即使一个好模型 Trustworthiness 很高，在权限无限大的环境里仍然不安全：好人也会判断失误、善意可能被利用（Prompt Injection）、错误在没有约束时同样不可逆。
 → 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)
 
+**Harness = 包装纸 → Harness = 操作系统层**（Aug 29）
+以为 Harness 是模型外面的"包装纸"——有用但次要，模型能力才是决定性的；现在明白 Harness 是 agent 系统的操作系统层，决定了模型能力能否可靠地转化为任务完成。弱模型 + 强 harness 可以超越强模型 + 弱 harness（Qwen 0.733 > Opus 0.680）。Agent 可靠性的核心问题不是"够不够聪明"，而是谁有权定义"现实现在是什么"——做事的权力、定义现实的权力、决定下一步的权力必须分离。
+→ 详见 [Harness > Model — Agent 可靠性的真正杠杆](docs/ai-application/harness-architecture-patterns.md)
+
 ---
 
-**最后更新**: August 22, 2026
+**最后更新**: August 29, 2026

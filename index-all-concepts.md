@@ -33,6 +33,8 @@
 - **Compiler（编译器）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
+- **Claimed vs Verified State（声明状态 vs 验证状态）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#claimed-state-vs-verified-state)
+- **Context Rot（上下文腐烂）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
 - **Containment（安全遏制）** - [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
 - **Constitutional AI** - [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [两阶段机制详解](docs/ai-core/safety-three-layer-framework.md#2-constitutional-ai--让模型用原则自我批判)
 - **Compaction（上下文压缩）** - [retained reasoning 不是 memory](docs/ai-core/agent-intelligence-layers.md#retained-reasoning-不是-memory)
@@ -98,6 +100,7 @@
 - **Hardware/Software Co-design（软硬件协同设计）** - [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
 - **HBM（High Bandwidth Memory，高带宽内存）** - [内存墙](docs/computing-foundations/memory-wall.md)
 - **Harness** - [Harness 系统](docs/ai-application/harness-system.md)
+- **Harness > Model（Harness 杠杆率 > 模型本身）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md)
 - **Harness Dimensions** - [Harness 的四个维度](docs/ai-application/harness-system.md#harness-的四个维度)
 - **Human Approval** - [人工审核节点](docs/ai-application/workflow-design-guide.md#4-human-approval-node人工审核节点)
 
@@ -123,8 +126,10 @@
 ## M
 
 - **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
+- **MEA Loop（Manager-Execute-Audit）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
 - **Monitoring（AI 监控）** - [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#monitoring检测异常行为)
+- **Multi-Agent Memory Provenance（多 Agent 记忆来源追溯）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#multi-agent-memory-的-provenance-问题)
 - **Memory Intelligence（记忆智能，管时间轴）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Model Intelligence（不可委托的判断核心）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Memory Spine（内存脊）** - [内存脊](docs/computing-foundations/memory-spine.md)
@@ -192,7 +197,11 @@
 - **Semantic Memory** - [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
 - **Self-supervised Learning（自监督学习）** - [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Semantic Search（语义搜索）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
+- **Self-evaluation Bias（自我评估偏差）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#为什么-executor-不能自我判断)
 - **Skill** - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
+- **Skill as Governed Artifact（Skill 作为受治理的工程制品）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#skill-as-governed-artifact)
+- **Skill Routing Precision（Skill 路由精度）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#skill-选择能力越多选择越难)
+- **Skill Runtime（Skill 运行时管线）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#skill-as-governed-artifact)
 - **Specification Gaming（目标设定的漏洞利用）** - [为什么这是个真问题：Specification Gaming](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
 - **Sycophancy（讨好倾向）** - [RLHF 是一种对齐技术，不是对齐本身](docs/ai-core/safety-alignment-guide.md#rlhf-是一种对齐技术不是对齐本身)
 - **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
@@ -303,6 +312,7 @@
 - [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)
 - [MCP 协议](docs/ai-application/mcp-protocol-guide.md)
 - [Harness 系统](docs/ai-application/harness-system.md)
+- [Harness > Model — Agent 可靠性的真正杠杆](docs/ai-application/harness-architecture-patterns.md)
 - [Workflow 设计](docs/ai-application/workflow-design-guide.md)
 
 ### 🤝 Agent 系统（Agent）
@@ -341,8 +351,8 @@
 
 ---
 
-**最后更新**: August 22, 2026  
-**概念总数**: 98 个核心概念  
+**最后更新**: August 29, 2026  
+**概念总数**: 106 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---

@@ -432,3 +432,4 @@ Stage 3: 生成最终答案
 - [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— tool selection 的延伸：Programmatic Tool Calling 把确定性工作移出 context，Tool/Orchestration 统一成"委托"决策
 - [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md) —— Model Capability ≠ Agent Capability：为什么聪明不等于能干
 - [Computer Use](computer-use.md) —— Agent 通过 GUI 操作软件，从"会说"走向"会做"
+- [Harness > Model](../ai-application/harness-architecture-patterns.md) —— MEA 循环是 Agent Loop 在长步骤执行场景的进化：加了独立审计层

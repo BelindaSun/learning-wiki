@@ -340,3 +340,4 @@ A capable agent can actually do it.
 - [Memory 系统](memory-system-guide.md)
 - [AI Safety 的三层防护框架](safety-three-layer-framework.md) —— 即使 Agent Trustworthiness 很高，无限权限仍然不安全：Delegation Framework 的可逆性缺口
 - [心智模型变迁史：Intelligence → Agency](../../mental-models.md)
+- [Harness > Model](../ai-application/harness-architecture-patterns.md) —— 定量证据：弱模型 + 强 Harness 超越强模型 + 弱 Harness（Qwen 0.733 > Opus 0.680）

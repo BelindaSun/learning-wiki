@@ -2,6 +2,22 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.4] - August 29, 2026
+
+### 📝 新增：Harness > Model — Agent 可靠性的真正杠杆在哪里
+
+**学习来源**：arXiv:2608.01964 LongHorizon-Harness · TechCrunch Nvidia AVO + ARC-AGI-3 · NVIDIA SkillEvaluator · arXiv:2608.19701 Multi-Agent Memory Arbitration · DeepMind "From Atari to EVE Online"
+
+**新增页面**：
+- `docs/ai-application/harness-architecture-patterns.md` — MEA 循环（Manager-Execute-Audit）、Claimed vs Verified State、Harness 两条腿（执行架构 + 知识架构）、Skill as Governed Artifact、Skill 选择三层递进、Multi-Agent Memory Provenance、四柱模型
+- `docs/conversations/harness-gt-model.md` — 完整学习对话记录
+
+**新增概念**：MEA Loop、Claimed vs Verified State、Context Rot、Self-evaluation Bias、Skill Governance、Skill Runtime、Skill Routing Precision、Multi-Agent Memory Provenance（98→106）
+
+**心智模型**：新增 [Harness = 包装纸 → Harness = 操作系统层](mental-models.md)（Aug 29）
+
+**交叉链接**：Harness 系统、Model ≠ Agent、Skills 商业格局、模型战争 vs 系统战争、Scaling Paradox、Agent 架构 共 6 篇文章加了双向链接；`glossary.md` 新增 3 个词条；`index-all-concepts.md` 新增 8 个概念
+
 ## [v5.3] - August 22, 2026
 
 ### 📝 新增：AI Safety 三层防护框架（Monitoring / Alignment / Containment）
@@ -142,4 +158,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: August 22, 2026
+**最后更新**: August 29, 2026

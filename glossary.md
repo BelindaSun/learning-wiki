@@ -134,6 +134,15 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 **Knowledge Cutoff（知识截止日期）**
 模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 
+**MEA Loop（Manager-Execute-Audit 循环）**
+长步骤 Agent 执行架构：Manager 维护任务状态、决定下一步但不亲自操作；Executor 在全新 context 中执行单个子任务，完成后交互历史丢弃；Auditor 以只读权限独立验证 Executor 的声明——只有审计通过的事实才能写回任务状态。核心是把"做事的权力"和"定义现实的权力"分开。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
+
+**Claimed vs Verified State（声明状态 vs 验证状态）**
+Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"，Verified 是"环境独立确认了"，Untrusted 是"审计发现不符"。没有这个区分，错误会从 action error 变成 false state，再变成 future reasoning contamination。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#claimed-state-vs-verified-state)
+
+**Context Rot（上下文腐烂）**
+任务执行和任务状态共享同一个不断膨胀的 context，导致早期错误被后续推理隐式信任并放大。MEA Loop 用 fresh context execution 对抗——每轮执行完丢掉交互历史，只保留审计过的事实。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
+
 **Containment（安全遏制）**
 假设 Alignment 已经失败，用工程手段限制模型能触及的边界——沙箱隔离、网络隔离、最小权限、激活监控，层层假设上一层已失败。不依赖模型的"善意"，像银行金库不依赖员工的诚实。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
 
@@ -425,4 +434,4 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 
 ---
 
-**最后更新**: August 22, 2026
+**最后更新**: August 29, 2026
