@@ -2,6 +2,22 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.5] - August 30, 2026
+
+### 🗺️ 五块领土教学地图统一 + 全站入口升级
+
+Computing Foundations、AI Core、AI in Practice、AI Research、Industry & Impact 的入口页统一升级为 **Start → Orient → Go Deeper** 三层学习地图。每块领土不再是文章清单，而是从一个自然问题链出发：先抓最高杠杆的支点，再建立全局方向感，最后按真实困惑进入深度文章。
+
+**结构更新**：
+- AI Core — Model → Agent → Memory / Workflow / Safety
+- AI in Practice — Harness → Workflow → Knowledge / Connection / Skill / Verification
+- AI Research — Define → Intervene → Measure → Audit 研究闭环
+- Industry & Impact — Model → System → Trust → Human Judgment
+- Mental Models — 时间线改为最新在上
+- README — 补齐 Aug 15–30 最新更新
+
+**展示站更新**：所有分类可直接渲染手工学习地图，不再退回字母排序的文章列表。
+
 ## [v5.4] - August 29, 2026
 
 ### 📝 新增：Harness > Model — Agent 可靠性的真正杠杆在哪里
