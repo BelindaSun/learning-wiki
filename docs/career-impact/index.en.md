@@ -57,7 +57,7 @@ Scaling capability can also scale coordination failures, weak incentives, mispla
 
 ## 📖 Original learning conversations
 
-The exploratory conversations remain in Chinese; polished English guides will be added progressively.
+The exploratory conversations remain in Chinese; every formal guide in this territory is now available in English.
 
 ---
 

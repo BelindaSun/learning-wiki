@@ -36,7 +36,7 @@ This is a useful first approximation, not a set of sealed boxes. Real performanc
 
 Use the map to ask better questions: Where does computation happen? Where is data waiting? Who schedules the work? What must cross a network? Which physical constraint becomes the bottleneck?
 
-The detailed guides are being translated. Each English route clearly links to the complete Chinese original while its translation is in progress.
+Every formal guide in this territory is now available in English. The original learning conversations remain in Chinese.
 
 ---
 
