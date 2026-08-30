@@ -105,6 +105,12 @@
 
 | 日期        | 主题                                     | 概念数 |
 | ----------- | ---------------------------------------- | ------ |
+| Aug 30, 2026 | 四块领土入口升级为 Start → Orient → Go Deeper 学习地图 | — |
+| Aug 29, 2026 | OpenAI：从 Intelligence Platform 到 Adaptive Interface | 6 |
+| Aug 29, 2026 | Harness > Model：Agent 可靠性的真正杠杆 | 6 |
+| Aug 22, 2026 | AI Safety 三层防护：Monitoring / Alignment / Containment | 6 |
+| Aug 20, 2026 | Model 能力 ≠ Agent 能力 + Computer Use | 2 |
+| Aug 15, 2026 | Computing Foundations Orient 层 + Start Here 双层化改造 | — |
 | Aug 10, 2026 | AI Core 新增：AI Safety / Alignment 完全指南 | 6 |
 | Aug 10, 2026 | AI Core 新增：Multimodal 完全指南       | 6      |
 | Aug 10, 2026 | Prompt 工程 + Embeddings + RAG 三篇补齐 | 7      |
@@ -124,6 +130,6 @@
 
 ---
 
-**最后更新**: August 15, 2026  
+**最后更新**: August 30, 2026
 **维护者**: [Belinda Sun](https://belindasun.github.io/) 🏠  
 **License**: CC BY-SA 4.0
