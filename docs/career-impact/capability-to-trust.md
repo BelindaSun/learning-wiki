@@ -220,3 +220,4 @@ Agent 时代（2024-2026）:
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
 - [Google AI 领导层重组](google-agi-org-restructuring.md)
 - [Scaling Paradox](scaling-paradox.md)
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— Capability ≠ Permission 在企业里的完整展开：身份、权限、治理

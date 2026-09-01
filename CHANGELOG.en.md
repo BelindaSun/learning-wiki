@@ -1,5 +1,11 @@
 # Changelog
 
+## [v5.6] - September 1, 2026
+
+### Added: AI Agents Enter the Enterprise
+
+How agents evolve from chatbots to digital employees inside organizations. Covers Uber (70 % of PRs attributed to agents, 3 600+ skills) and BNY (140 digital employees in production), the nine-layer Agent Enterprise Stack, a five-level maturity framework (L1 Copilot → L5 Agentic Organization), and the shift in human roles from operator to goal-and-policy setter.
+
 ## [v5.5] - August 30, 2026
 
 ### Five teaching maps unified and the site entry experience upgraded

@@ -356,6 +356,15 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **Personal Data Moat（个人数据护城河）**
 你自己的决策历史、工作模式、成功失败案例——别人用同样的 AI 也无法在短时间内复制，是 AI 时代少数几个真正难被替代的东西。 → [从工具到产业](docs/career-impact/industry-competition-shift.md)
 
+**Digital Employee（数字员工）**
+不只是一个会聊天的 AI——可以拥有身份、登录凭证、权限、工作流、上级主管，并在企业流程中持续执行任务的 Agent 系统。BNY 在 2026 年一季度已有约 140 个 Digital Employees 在生产环境运行。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
+
+**Agent Enterprise Stack（企业 Agent 基础设施栈）**
+企业要让 Agent 真正投入生产环境，需要的九层基础设施：Model、Context、Tools、Identity、Permissions、Workflow、Evaluation、Governance、Observability——缺任何一层都很难真正落地。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-enterprise-stack真正需要的基础设施)
+
+**Managed Agent（托管 Agent）**
+不再需要人手动发起的 Agent——由系统事件自动触发，只在遇到例外时升级给人。Uber 的自动 code review、CI self-healing、alert triage 都属于这类。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#阶段四managed-agent--系统触发人处理例外)
+
 ---
 
 ## 计算基础

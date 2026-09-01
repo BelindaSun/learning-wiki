@@ -4,6 +4,10 @@
 
 ---
 
+**Tool → Workforce**（Sep 1）
+以为 Agent 进入企业 = 员工开始使用 AI；现在明白真正的变化是 AI 从回答问题走向自主执行，最终需要身份、权限、工具、工作流、评估、治理、可观测一整套组织基础设施——AI 不是变成更聪明的工具，而是开始获得越来越完整的组织能力，从 Intelligence → Action → Identity + Responsibility + Governance。
+→ 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
+
 **Product Company → Platform Company**（Aug 29）
 以为 OpenAI 的竞争主要是 GPT vs Claude vs Gemini，谁的模型能力最强谁就更有竞争优势；现在明白模型领先是状态（state），不是护城河（moat）。真正决定一家 AI 公司长期竞争力的是 Model × Product × Distribution × Ecosystem × Compute × Context 这个完整系统。OpenAI 的终局不是做越来越多 AI 产品，而是成为 Intelligence Platform——底层生产 intelligence，上层通过 One Adaptive Interface + One API 分发。
 → 详见 [OpenAI 的未来：从 Intelligence Platform 到 Adaptive Interface](docs/career-impact/openai-intelligence-platform.md)
@@ -70,4 +74,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: August 30, 2026
+**最后更新**: September 1, 2026

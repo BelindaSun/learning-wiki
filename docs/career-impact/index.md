@@ -40,13 +40,19 @@ Agent 基础设施正在争夺类似操作系统的位置；前沿公司则试�
 
 → [Agent 基础设施的操作系统化](agent-infrastructure-os.md) · [OpenAI：从 Intelligence Platform 到 Adaptive Interface](openai-intelligence-platform.md)
 
-### 3. 人的价值与组织结构怎样重排？
+### 3. Agent 真正进入企业，需要什么？
 
-Agent 让执行更便宜，却让“定义什么值得做、什么算做好、什么时候会出问题”的判断更稀缺。组织也必须同时管理长期探索与短期交付两种时间尺度。
+Agent 进入企业不是”员工用上了 AI”，而是 AI 从回答问题走向自主执行，最终需要身份、权限、工具、工作流、评估、治理、可观测一整套组织基础设施。Uber 和 BNY 已经在局部场景进入 Managed Agent 阶段。
+
+→ [AI Agents Enter the Enterprise](agents-enter-enterprise.md)
+
+### 4. 人的价值与组织结构怎样重排？
+
+Agent 让执行更便宜，却让”定义什么值得做、什么算做好、什么时候会出问题”的判断更稀缺。组织也必须同时管理长期探索与短期交付两种时间尺度。
 
 → [Domain Expertise 重估与组织变革](domain-expertise-and-org-design.md) · [Google AI 的双时间尺度组织](google-agi-org-restructuring.md)
 
-### 4. AI 更强，为什么结果可能没有更好？
+### 5. AI 更强，为什么结果可能没有更好？
 
 真实结果来自人机系统，而不是模型单体。人的信任是否校准、责任怎样分配、流程有没有反馈，都可能让更强的 AI 产生更差的组织结果。
 
@@ -65,11 +71,13 @@ Agent 让执行更便宜，却让“定义什么值得做、什么算做好、�
 ### 想判断 Agent 基础设施会长成什么
 
 - [Agent 基础设施的操作系统化](agent-infrastructure-os.md) —— 为什么 Coding Agent 是行动型 AI 的首发场景
-- [从“最聪明”到“最可信”](capability-to-trust.md) —— 为什么执行环境最终必须解决权限、审计和恢复
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— Agent 进入企业需要的完整基础设施栈（Identity → Governance → Observability）
+- [从”最聪明”到”最可信”](capability-to-trust.md) —— 为什么执行环境最终必须解决权限、审计和恢复
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— 可信度怎样落回具体系统架构
 
 ### 想判断个人能力与组织设计怎样变化
 
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— 人的角色从 Operator 到 Goal & Policy Setter 的完整变迁路径
 - [Domain Expertise 重估与组织变革](domain-expertise-and-org-design.md) —— 当执行商品化，什么判断力会升值
 - [Google AI 的双时间尺度组织](google-agi-org-restructuring.md) —— 怎样拆开科学探索与产品执行
 - [Scaling Paradox](scaling-paradox.md) —— 为什么个人提效、组织利润和长期人才培养并不自动同向
@@ -94,7 +102,7 @@ Agent 让执行更便宜，却让“定义什么值得做、什么算做好、�
 
 ---
 
-**最后更新**: August 30, 2026
+**最后更新**: September 1, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来

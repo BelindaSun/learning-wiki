@@ -10,6 +10,9 @@
 - **Agent Lifecycle** - [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
 - **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **Agent Feasibility Criteria（Agent 可行性六条标准）** - [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
+- **Agent Enterprise Stack（企业 Agent 九层基础设施）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-enterprise-stack真正需要的基础设施)
+- **Agent Identity（Agent 身份治理）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-需要-identity从-software-object-到-organizational-actor)
+- **Agent Maturity Levels（企业 Agent 成熟度 L1-L5）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#企业-agent-成熟度五级框架)
 - **Agent OS 等价定理** - [Agent 基础设施 = 新操作系统](docs/career-impact/agent-infrastructure-os.md#agent-基础设施--新操作系统)
 - **Amdahl's Law（阿姆达尔定律）** - [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)
 - **Attention** - [Multi-Head Attention](docs/ai-core/transformer-architecture.md#multi-head-attention)
@@ -61,6 +64,7 @@
 
 - **Debate（AI 辩论式监督）** - [Scalable Oversight](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
+- **Digital Employee（数字员工）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#bny-案例digital-employee)
 - **Distribution（Owned vs Third-party）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#distribution被低估的竞争维度)
 - **Defense in Depth（纵深防御）** - [Containment 工程架构](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
 - **Delegation Framework 可逆性缺口** - [Delegation Framework 的真正缺口：可逆性](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
@@ -127,6 +131,7 @@
 
 ## M
 
+- **Managed Agent（系统触发的自主 Agent）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#阶段四managed-agent--系统触发人处理例外)
 - **Managing Agents（管理 Agent 的四层能力）** - [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md#3-管理-agent正在分化为四层能力)
 - **MEA Loop（Manager-Execute-Audit）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
@@ -338,6 +343,7 @@
 - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 - [AI Agent 时代的 Domain Expertise 重估与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
+- [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
 - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
 - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
@@ -356,8 +362,8 @@
 
 ---
 
-**最后更新**: August 29, 2026  
-**概念总数**: 110 个核心概念  
+**最后更新**: September 1, 2026  
+**概念总数**: 115 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---

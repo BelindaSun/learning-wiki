@@ -2,6 +2,21 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.6] - September 1, 2026
+
+### 📝 新增：AI Agents Enter the Enterprise — 当 Agent 真正进入企业
+
+**学习来源**：Uber Engineering — Running a Software Factory Efficiently at Uber Scale · McKinsey — The State of AI in 2026 · Deloitte — The Path to Agentic Transformation
+
+**新增页面**：
+- `docs/career-impact/agents-enter-enterprise.md` — 从 Chatbot 到 Digital Employee 的六步进化、Uber 案例（70% PR 归因于 Agent、3600+ Skills、30000+ daily executions）、BNY Digital Employee 案例、Agent Enterprise Stack 九层基础设施、企业 Agent 成熟度五级框架（L1-L5）、人的角色从 Operator 到 Goal & Policy Setter 的变迁、Capability ≠ Permission 治理原则
+
+**新增概念**：Agent Enterprise Stack、Agent Identity、Agent Maturity Levels、Digital Employee、Managed Agent（110→115）
+
+**心智模型**：新增 [Tool → Workforce](mental-models.md)（Sep 1）
+
+**交叉链接**：capability-to-trust、agent-infrastructure-os、domain-expertise-and-org-design 共 3 篇文章加了双向链接；`glossary.md` 新增 3 个词条（Digital Employee、Agent Enterprise Stack、Managed Agent）；`index-all-concepts.md` 新增 5 个概念 + 职业发展主题区新增 1 条
+
 ## [v5.5] - August 30, 2026
 
 ### 🗺️ 五块领土教学地图统一 + 全站入口升级

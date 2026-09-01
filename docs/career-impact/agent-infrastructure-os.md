@@ -175,3 +175,4 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - [算力脊 · Computing Foundations](../computing-foundations/compute-spine.md)
 - [Model 能力 ≠ Agent 能力](../ai-core/model-vs-agent-capability.md) —— 模型下沉为 CPU 这个类比的另一面：Model ≠ Agent
 - [Computer Use](../ai-core/computer-use.md) —— Agent 从 Coding 场景向外扩散的一条路径
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— Agent 基础设施在企业端的完整落地：从 Copilot 到 Managed Agent 到 Digital Employee

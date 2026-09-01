@@ -159,3 +159,4 @@ know-what-matters > know-what-good-looks-like > know-what-can-go-wrong
 - [Scaling Paradox](scaling-paradox.md)
 - [Agent 的"单轴刻度"问题](../ai-core/agent-single-axis-problem.md) —— 给 Agent 授权的"量级"三层之外，还要加"类型"轴（累积型 vs 决定型），变成二维矩阵
 - [Agent Intelligence 三层框架](../ai-core/agent-intelligence-layers.md) —— "善用 AI = Delegation Intelligence"，Agent 系统就像一家用人、分工、委托的小公司
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— 人从 Operator → Exception Handler → Goal Setter 的完整变迁路径
