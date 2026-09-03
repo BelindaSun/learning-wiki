@@ -1,5 +1,11 @@
 # Changelog
 
+## [v5.7] - September 3, 2026
+
+### Added: Automated Alignment Research
+
+Anthropic's AAR (Automated Alignment Researcher) runs a full research loop — literature survey, method design, model training, multi-benchmark evaluation, iteration — and fixes 10 alignment failure types. A weaker model (Sonnet 5) can align a stronger one (Opus 4.8 checkpoint) with ~2,400 training samples, two to three orders of magnitude more efficient than public post-training pipelines.
+
 ## [v5.6] - September 1, 2026
 
 ### Added: AI Agents Enter the Enterprise

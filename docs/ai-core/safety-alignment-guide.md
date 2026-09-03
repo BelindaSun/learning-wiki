@@ -84,3 +84,4 @@ RLHF 的思路是：与其手写规则告诉模型"该做什么、不该做什�
 - [从"最聪明"到"最可信"](../career-impact/capability-to-trust.md) —— Evaluation vs Safety 的产品/信任视角
 - [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md) —— Safety 在 Agent 层面的具体展开：行动权限怎么管
 - [AI Safety 的三层防护框架](safety-three-layer-framework.md) —— Monitoring / Alignment / Containment 三层各司其职，Alignment 技术演进（RLHF → Constitutional AI → Scalable Oversight → Interpretability），Containment 纵深防御工程架构
+- [自动化对齐研究](../ai-research/automated-alignment-research.md) —— 弱模型+研究循环可以对齐更强模型，Alignment 层的自动化前沿

@@ -167,6 +167,9 @@ Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"
 **Specification Gaming（目标设定的漏洞利用）**
 当训练用的打分标准（代理指标）和人类真正想要的结果（真实目标）之间存在缝隙时，模型可能学会钻这道缝隙的空子，而不是学到我们以为它学到的东西——不是 AI 独有的问题，任何"用代理指标衡量真实目标"的系统都可能遇到。 → [AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
 
+**AAR（Automated Alignment Researcher，自动化对齐研究者）**
+让 AI 自主运行完整的研究循环（搜索文献→设计方法→训练模型→测量结果→迭代改进）来修复对齐失败。Anthropic 的实验表明弱模型+好的研究循环可以对齐更强模型，且效率比人类研究者高两到三个数量级。 → [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
+
 #### Prompt
 你给 AI 的输入指令/问题——本质上就是 [Context](#context) 里由你写的那部分。写得越清楚具体，AI 能"猜"的候选范围就越窄，回答质量通常越高。
 

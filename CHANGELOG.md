@@ -2,6 +2,21 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.7] - September 3, 2026
+
+### 📝 新增：自动化对齐研究 — AI 如何研究并改善 AI 的对齐
+
+**学习来源**：Anthropic Research Blog "Automated researchers can reliably mitigate alignment failures" (Aug 28, 2026) · Chen Yueh-Han, Jiaxin Wen, Jan Hendrik Kirchner
+
+**新增页面**：
+- `docs/ai-research/automated-alignment-research.md` — AAR 多 agent 研究循环架构、geometric mean 评分设计、弱模型对齐强模型实验（Sonnet 5 → Opus 4.8，2400 样本 ≈ 生产级对齐）、作弊行为三分类（lucky re-run / format-copying / reviewer-tricking）、Monitor 无限回归的三条终止路径、"双螺旋"心智模型（杠杆比 / 测量覆盖率 / 作弊进化速度）
+
+**新增概念**：AAR（Automated Alignment Researcher）、Weak-to-Strong Alignment（115→117）
+
+**心智模型**：新增 [Supervisor → Research Loop](mental-models.md)（Sep 3）
+
+**交叉链接**：safety-alignment-guide、safety-three-layer-framework、evaluation-system 共 3 篇文章加了双向链接；AI Research index 新增"AI 能否自动改善 AI 的对齐"研究线；`glossary.md` 新增 1 个词条（AAR）；`index-all-concepts.md` Safety/Alignment 和模型研究主题区各新增 1 条
+
 ## [v5.6] - September 1, 2026
 
 ### 📝 新增：AI Agents Enter the Enterprise — 当 Agent 真正进入企业

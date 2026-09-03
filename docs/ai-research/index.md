@@ -52,19 +52,25 @@ MoE 用路由把知识容量与每次计算成本部分解耦，量化和蒸馏�
 
 > 一个有用但不完整的近似：先把研究想成“改一个变量，看一个指标”。它适合建立实验意识，但真实模型训练里变量会相互作用，指标也常常互相冲突。随着这块领土增长，需要逐步补上数据、训练动力学、可解释性和更严格的因果判断。
 
-## 🔬 Go Deeper · 两条现有研究线
+## 🔬 Go Deeper · 三条现有研究线
 
-### 想搞懂“怎样判断模型是否真的进步”
+### 想搞懂”怎样判断模型是否真的进步”
 
 - [Evaluation 评估系统](evaluation-system.md) —— RLHF、Reward Hacking、Benchmark 与多指标冲突
-- [AI Safety / Alignment](../ai-core/safety-alignment-guide.md) —— 为什么“通过测试”仍不等于目标真正对齐
+- [AI Safety / Alignment](../ai-core/safety-alignment-guide.md) —— 为什么”通过测试”仍不等于目标真正对齐
 - [Scaling Paradox](../career-impact/scaling-paradox.md) —— 为什么模型能力提升不保证人机系统结果同步提升
 
-### 想搞懂“怎样在能力、速度和成本之间取舍”
+### 想搞懂”怎样在能力、速度和成本之间取舍”
 
 - [Models 深挖](models-deep-dive.md) —— MoE、负载均衡、量化、蒸馏与剪枝
 - [Inference 推理系统](../ai-core/inference-system-guide.md) —— 先理解这些改造最终影响的生成过程
 - [Computing Foundations](../computing-foundations/index.md) —— 当瓶颈落到算力、内存和互连，继续向下追物理原因
+
+### 想搞懂”AI 能否自动改善 AI 的对齐”
+
+- [自动化对齐研究](automated-alignment-research.md) —— 弱模型+研究循环对齐更强模型、AAR 架构、作弊分类与监控
+- [AI Safety 的三层防护框架](../ai-core/safety-three-layer-framework.md) —— AAR 属于 Alignment 层的自动化尝试
+- [Harness > Model](../ai-application/harness-architecture-patterns.md) —— AAR 的 research harness 与 MEA Loop 的结构同源
 
 ### 这张地图还缺什么？
 
@@ -79,7 +85,7 @@ MoE 用路由把知识容量与每次计算成本部分解耦，量化和蒸馏�
 
 ---
 
-**最后更新**: August 30, 2026
+**最后更新**: September 3, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— Training、Inference 与模型机制的概念地基

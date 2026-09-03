@@ -231,3 +231,4 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 - [Training 训练系统完全指南](training-system-guide.md) —— RLHF 在整条训练线上的位置
 - [Evaluation 系统](../ai-research/evaluation-system.md) —— RLHF 三步流程的完整展开
 - [心智模型变迁史：Alignment → Defense in Depth](../../mental-models.md)
+- [自动化对齐研究](../ai-research/automated-alignment-research.md) —— Alignment 层的自动化：AAR 如何用研究循环修复对齐失败

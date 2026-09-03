@@ -491,3 +491,4 @@ Mimo、AI2030 这样的中文 AI 产品
 - [Skills 和商业格局](../ai-application/skills-business-landscape.md)
 - [Training 训练系统完全指南](../ai-core/training-system-guide.md)——SFT/RLHF 在整条训练线上扮演什么角色，这篇讲的三步流程是其中两站的完整展开
 - [AI Safety / Alignment 完全指南](../ai-core/safety-alignment-guide.md)——"安全性是硬门槛"讲的是 Safety，这篇讲 Safety 和更深的 Alignment 问题的区别
+- [自动化对齐研究](automated-alignment-research.md) —— geometric mean 评分设计、Reward Hacking 在自动化对齐中的 meta-level 表现

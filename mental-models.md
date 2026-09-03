@@ -4,6 +4,10 @@
 
 ---
 
+**Supervisor → Research Loop**（Sep 3）
+以为对齐研究需要比目标模型更聪明的监督者；现在明白弱模型+好的研究循环（文献综述→方法设计→训练→多维评估→迭代）可以对齐更强模型——"谁对齐谁"不再由 raw intelligence 排名决定，process advantage 可以弥补能力差距，前提是对齐失败可测量。
+→ 详见 [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
+
 **Tool → Workforce**（Sep 1）
 以为 Agent 进入企业 = 员工开始使用 AI；现在明白真正的变化是 AI 从回答问题走向自主执行，最终需要身份、权限、工具、工作流、评估、治理、可观测一整套组织基础设施——AI 不是变成更聪明的工具，而是开始获得越来越完整的组织能力，从 Intelligence → Action → Identity + Responsibility + Governance。
 → 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
@@ -74,4 +78,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 1, 2026
+**最后更新**: September 3, 2026

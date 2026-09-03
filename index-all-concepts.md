@@ -6,6 +6,7 @@
 
 - **Agent** - [Agent 系统架构](docs/ai-core/agent-architecture.md)
 - **Agent Intelligence（三层框架：Model/Memory/Delegation）** - [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
+- **AAR（Automated Alignment Researcher）** - [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
 - **Alignment（对齐）** - [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
 - **Agent Lifecycle** - [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
 - **Agent Legibility** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
@@ -243,6 +244,7 @@
 
 ## W
 
+- **Weak-to-Strong Alignment（弱模型对齐强模型）** - [自动化对齐研究](docs/ai-research/automated-alignment-research.md#弱模型对齐强模型)
 - **Weights** - [权重是什么](docs/ai-core/inference-system-guide.md#权重是什么)
 - **Worker** - [Worker 执行者角色](docs/ai-core/workflow-orchestration.md#orchestrator--worker-分工)
 - **Workflow** - [Workflow 工作流完全指南](docs/ai-core/workflow-orchestration.md)
@@ -278,6 +280,7 @@
 - [RLHF 三步流程](docs/ai-research/evaluation-system.md#rlhf-三步流程)
 
 ### 🛡️ Safety / Alignment
+- [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
 - [AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)
 - [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
 - [Specification Gaming](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
@@ -336,6 +339,7 @@
 ### 🎓 模型研究（Models）
 - [Models 深挖](docs/ai-research/models-deep-dive.md)
 - [Evaluation 评估](docs/ai-research/evaluation-system.md)
+- [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
 
 ### 💼 职业发展（Career）
 - [模型战争 vs 系统战争](docs/career-impact/model-to-system-war.md)
@@ -362,8 +366,8 @@
 
 ---
 
-**最后更新**: September 1, 2026  
-**概念总数**: 115 个核心概念  
+**最后更新**: September 3, 2026  
+**概念总数**: 117 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---
