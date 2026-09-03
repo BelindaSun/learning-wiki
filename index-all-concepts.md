@@ -354,6 +354,7 @@
 - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md)
 - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
+- [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
 
 ### 🎨 多模态（Multimodal）
 - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)

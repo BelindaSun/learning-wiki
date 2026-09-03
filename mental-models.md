@@ -4,6 +4,10 @@
 
 ---
 
+**Benchmark → Behavioral Test**（Sep 3）
+以为测试一个 AI 产品就是看它聪不聪明、回答得好不好；现在明白测试一个 Agent 更重要的是观察它在真实任务中的行为——怎么理解目标、怎么处理权限、怎么留下证据、什么时候停手，以及犯错以后怎么回来。Auditability ≠ Controllability ≠ Recoverability，这些能力不能合并成一个笼统的"可靠性"指标。
+→ 详见 [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
+
 **Supervisor → Research Loop**（Sep 3）
 以为对齐研究需要比目标模型更聪明的监督者；现在明白弱模型+好的研究循环（文献综述→方法设计→训练→多维评估→迭代）可以对齐更强模型——"谁对齐谁"不再由 raw intelligence 排名决定，process advantage 可以弥补能力差距，前提是对齐失败可测量。
 → 详见 [自动化对齐研究](docs/ai-research/automated-alignment-research.md)

@@ -1,5 +1,11 @@
 # Changelog
 
+## [v5.8] - September 3, 2026
+
+### Added: First AI product test — Muse Spark 1.3
+
+Five real-world tests on the learning-wiki repo validate the Trust Framework's five dimensions. Key finding: Auditability, Controllability, and Recoverability are independent — a model can audit state correctly yet still make the wrong decision, then recover excellently after failure. Also a live demonstration of Trust Gap (Perceived > Actual Trustworthiness).
+
 ## [v5.7] - September 3, 2026
 
 ### Added: Automated Alignment Research

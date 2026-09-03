@@ -2,6 +2,17 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.8] - September 3, 2026
+
+### 📝 新增：第一次测试一个 AI 产品 — Muse Spark 1.3 与 Trust Framework 的真实验证
+
+**新增页面**：
+- `docs/career-impact/first-agent-test-muse-spark.md` — 五个测试（Capability + Explainability、Controllability、出题人掉坑、Recoverability 上/下）真实验证可信度五维框架；发现 Auditability ≠ Controllability ≠ Recoverability 不能合并为单一指标；Trust Gap（Perceived > Actual）的现场演示；Agent reliability = "fail visibly, contain damage, recover reliably"
+
+**心智模型**：新增 [Benchmark → Behavioral Test](mental-models.md)（Sep 3）
+
+**交叉链接**：capability-to-trust、scaling-paradox 共 2 篇文章加了双向链接
+
 ## [v5.7] - September 3, 2026
 
 ### 📝 新增：自动化对齐研究 — AI 如何研究并改善 AI 的对齐

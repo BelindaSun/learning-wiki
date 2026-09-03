@@ -82,9 +82,10 @@ Agent 让执行更便宜，却让”定义什么值得做、什么算做好、�
 - [Google AI 的双时间尺度组织](google-agi-org-restructuring.md) —— 怎样拆开科学探索与产品执行
 - [Scaling Paradox](scaling-paradox.md) —— 为什么个人提效、组织利润和长期人才培养并不自动同向
 
-### 想判断“AI 越强越好”在哪里失效
+### 想判断”AI 越强越好”在哪里失效
 
 - [Scaling Paradox](scaling-paradox.md) —— 能力、感知、信任和激励怎样互相抵消
+- [第一次测试一个 AI 产品](first-agent-test-muse-spark.md) —— 可信度五维框架在真实 Agent 测试中的验证：Auditability ≠ Controllability ≠ Recoverability
 - [从“最聪明”到“最可信”](capability-to-trust.md) —— Trustworthiness 与盲目信任为什么完全不同
 - [AI Safety / Alignment](../ai-core/safety-alignment-guide.md) —— 当问题从产品信任继续向下追，技术上的 Safety 与 Alignment 在解决什么
 
@@ -102,7 +103,7 @@ Agent 让执行更便宜，却让”定义什么值得做、什么算做好、�
 
 ---
 
-**最后更新**: September 1, 2026
+**最后更新**: September 3, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来
