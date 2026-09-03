@@ -4,6 +4,18 @@
 
 ---
 
+**Benchmark → Behavioral Test** (Sep 3)
+I used to think testing an AI product meant checking whether it was smart and gave good answers. I now think the more important test for an Agent is observing its behavior in a real task: how it interprets goals, how it handles permissions, how it leaves evidence, when it stops, and how it recovers after an error. Auditability ≠ Controllability ≠ Recoverability—these cannot be collapsed into a single "reliability" score.
+→ Read [First AI Product Test: Muse Spark 1.3](docs/career-impact/first-agent-test-muse-spark.md)
+
+**Supervisor → Research Loop** (Sep 3)
+I used to think alignment research required a supervisor smarter than the target model. I now understand that a weaker model with a well-designed research loop (literature survey → method design → training → multi-dimensional evaluation → iteration) can align a stronger model, as long as alignment failures are measurable. "Who aligns whom" is no longer determined by raw intelligence ranking—process advantage can close the capability gap.
+→ Read [Automated Alignment Research](docs/ai-research/automated-alignment-research.md)
+
+**Tool → Workforce** (Sep 1)
+I used to think "agents entering the enterprise" meant employees started using AI. I now understand the real change is AI moving from answering questions to autonomous execution, ultimately requiring a full organizational infrastructure—identity, permissions, tools, workflows, evaluation, governance, observability. AI is not becoming a smarter tool; it is acquiring increasingly complete organizational capabilities, progressing from Intelligence → Action → Identity + Responsibility + Governance.
+→ Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
+
 **Product Company → Platform Company** (Aug 29)
 I used to think OpenAI's competition was mainly GPT versus Claude versus Gemini: whoever had the most capable model held the advantage. I now understand that model leadership is a state, not a moat. An AI company's durable advantage comes from the whole system—Model × Product × Distribution × Ecosystem × Compute × Context. OpenAI's endgame is not to make an ever-growing collection of AI products, but to become an Intelligence Platform: producing intelligence underneath and distributing it through one adaptive interface and one API above.
 → Read [OpenAI's Future: From Intelligence Platform to Adaptive Interface](docs/career-impact/openai-intelligence-platform.md)
@@ -70,4 +82,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: August 30, 2026
+**Last updated**: September 3, 2026
