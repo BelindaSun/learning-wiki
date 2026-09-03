@@ -64,6 +64,7 @@
 
 - **[Start Here](start-here.md)** - 第一次来？从这开始，30 分钟建立最小地图
 - **[术语表](glossary.md)** - 忘了某个词是什么意思？一句话查一下
+- **[学习疑问](docs/LEARNING_QUESTIONS.md)** - 还没弄懂的问题和后续学习计划
 - **[Computing Foundations](docs/computing-foundations/index.md)** - AI 的物理世界：算力、内存带宽瓶颈、芯片怎么把大模型真正跑起来
 - **[AI Core](docs/ai-core/index.md)** - 模型和智能体本身是怎么回事：LLM 怎么工作、Agent 怎么思考、Prompt / Transformer / 训练 / 对齐
 - **[AI in Practice](docs/ai-application/index.md)** - 把模型用起来：Skill、MCP（给 AI 插上"USB 接口"调用外部工具）、真实案例

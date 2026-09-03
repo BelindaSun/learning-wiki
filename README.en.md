@@ -13,7 +13,7 @@ Begin with [Start Here](start-here.md). It builds the minimum map before sending
 ## Three Ways In
 
 - **Learn:** follow [Start Here](start-here.md) for a guided path.
-- **Look Up:** use the [Glossary](glossary.md) or [Concept Index](index-all-concepts.md) when one term blocks you.
+- **Look Up:** use the [Glossary](glossary.md) or [Concept Index](index-all-concepts.md) when one term blocks you; see [Learning Questions](docs/LEARNING_QUESTIONS.en.md) for open questions and what's next.
 - **Explore:** read [Mental Models](mental-models.md) to see how the ideas changed over time.
 
 ## Five Knowledge Territories
