@@ -15,6 +15,8 @@
 
 **第一次接触这个主题？** 建议先了解：[Harness 系统](harness-system.md) · [Agent](../../glossary.md#agent) · [Model 能力 ≠ Agent 能力](../ai-core/model-vs-agent-capability.md)
 
+> 🔭 什么时候看这篇：看可靠性的真正杠杆（MEA 循环、状态验证、Skill 治理）；看执行流程去 [Agent 系统架构](../ai-core/agent-architecture.md)，看智能分层去 [Agent Intelligence 三层框架](../ai-core/agent-intelligence-layers.md)。
+
 ---
 
 ## 目录

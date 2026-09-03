@@ -6,6 +6,8 @@
 
 **第一次接触这个主题？** 建议先了解：[LLM](../../glossary.md#llm) · [Token](../../glossary.md#token) · [Inference](../../glossary.md#inference)
 
+> 🔭 什么时候看这篇：看单次任务的执行流程（生命周期 → 状态机 → 工具调用 → 多 Agent）；谈智能分层去 [Agent Intelligence 三层框架](agent-intelligence-layers.md)，谈可靠性杠杆去 [Harness > Model](../ai-application/harness-architecture-patterns.md)。
+
 ---
 
 ## 目录

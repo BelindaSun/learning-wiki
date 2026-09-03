@@ -12,6 +12,8 @@
 
 > ⚠️ 关于 retained reasoning 在 API 层面的具体实现，本文是根据两篇公开博客的**架构描述重建（Reconstructed Trace）**，不是 OpenAI 后台的实测日志。刻意标注出来，避免把"合理推断"当成"确证事实"。
 
+> 🔭 什么时候看这篇：看智能由哪三层构成（Model / Memory / Delegation）；看执行流程去 [Agent 系统架构](agent-architecture.md)，看可靠性杠杆去 [Harness > Model](../ai-application/harness-architecture-patterns.md)。
+
 ---
 
 ## 目录
