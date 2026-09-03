@@ -134,6 +134,15 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 **Knowledge Cutoff（知识截止日期）**
 模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
 
+**Model Weights（模型权重）**
+模型训练完成后学到的所有参数数值——它们决定了模型"会什么、不会什么"。训练是调参数的过程，[Inference](#inference) 是用这些参数做预测的过程。可以这样理解整条链：Training（训练）→ 产生 Weights（权重）→ 用 Weights 做 Inference（推理）。 → [Inference 推理系统](docs/ai-core/inference-system-guide.md#权重是什么)
+
+**Open Weights（开放权重）**
+公开训练后的模型权重，让其他人可以下载并自行运行模型（比如 Meta 的 Llama 系列）。但"开放权重"不等于"开源"——通常只公开了训练好的参数文件，训练代码、训练数据和完整训练过程不一定公开。拿到 Open Weights 你能用模型做推理和微调，但不一定能完整复现它是怎么被训练出来的。
+
+**Open Source（开源）**
+比"开放权重"更严格的概念——除了权重，还可能包括训练代码、数据集、训练配置等。具体开放到什么程度取决于许可证和各方对"开源"的定义（业界对 AI 领域的"开源"标准仍有争议）。一般来说：Open Weights ⊂ Open Source，公开权重是开源的必要条件但非充分条件。
+
 **MEA Loop（Manager-Execute-Audit 循环）**
 长步骤 Agent 执行架构：Manager 维护任务状态、决定下一步但不亲自操作；Executor 在全新 context 中执行单个子任务，完成后交互历史丢弃；Auditor 以只读权限独立验证 Executor 的声明——只有审计通过的事实才能写回任务状态。核心是把"做事的权力"和"定义现实的权力"分开。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
 

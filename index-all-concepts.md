@@ -137,6 +137,7 @@
 - **MEA Loop（Manager-Execute-Audit）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
 - **Memory System** - [Agent 记忆系统](docs/ai-core/memory-system-guide.md)
 - **Monitoring（AI 监控）** - [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#monitoring检测异常行为)
+- **Model Weights（模型权重）** - [权重是什么](docs/ai-core/inference-system-guide.md#权重是什么)
 - **Multi-Agent Memory Provenance（多 Agent 记忆来源追溯）** - [Harness > Model](docs/ai-application/harness-architecture-patterns.md#multi-agent-memory-的-provenance-问题)
 - **Memory Intelligence（记忆智能，管时间轴）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Model Intelligence（不可委托的判断核心）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
@@ -160,6 +161,8 @@
 
 ## O
 
+- **Open Weights（开放权重）** - [术语表](glossary.md#training)
+- **Open Source（开源）** - [术语表](glossary.md#training)
 - **Orchestrator** - [Orchestrator 与 Worker 分工](docs/ai-core/workflow-orchestration.md#orchestrator--worker-分工)
 - **OS（Operating System，操作系统）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
@@ -367,7 +370,7 @@
 ---
 
 **最后更新**: September 3, 2026  
-**概念总数**: 117 个核心概念  
+**概念总数**: 120 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
 
 ---
