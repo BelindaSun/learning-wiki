@@ -4,6 +4,10 @@
 
 ---
 
+**"好看" → "知道为什么好看"**（Sep 4）
+以前觉得审美是天生的直觉——"我觉得这个好看"就结束了；现在开始理解设计是关于关系（relationships）的学科，好看的背后有可拆解的链条：Feeling → Principle → Structure → Attention → Expression → Judgment。从看东西，变成看关系。
+→ 详见 [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md)
+
 **Benchmark → Behavioral Test**（Sep 3）
 以为测试一个 AI 产品就是看它聪不聪明、回答得好不好；现在明白测试一个 Agent 更重要的是观察它在真实任务中的行为——怎么理解目标、怎么处理权限、怎么留下证据、什么时候停手，以及犯错以后怎么回来。Auditability ≠ Controllability ≠ Recoverability，这些能力不能合并成一个笼统的"可靠性"指标。
 → 详见 [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
@@ -82,4 +86,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 3, 2026
+**最后更新**: September 4, 2026

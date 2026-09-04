@@ -1,5 +1,11 @@
 # Changelog
 
+## [v5.9] - September 4, 2026
+
+### Added: Beyond territory — Discount Rate & Valuation + Design & Visual Aesthetics 101
+
+New territory `docs/beyond/` for the "Beyond" half of "AI & Beyond" — non-AI topics worth studying systematically. Two inaugural articles: how discount rates drive stock valuation (DCF formula, duration sensitivity, Fed expectations transmission chain), and a seven-lesson design aesthetics summary (Visual Language, Feeling → Principle → Rule, Gestalt, Hierarchy/Contrast/Rhythm, Typography/Space, Color/Image/Texture, Order ↔ Surprise tension). New mental model: "Looks good" → "I know why it looks good."
+
 ## [v5.8] - September 3, 2026
 
 ### Added: First AI product test — Muse Spark 1.3

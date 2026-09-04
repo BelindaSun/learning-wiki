@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 140 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 142 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -368,11 +368,16 @@
 - **Orient**：[Software Map](docs/computing-foundations/software-map.md) · [Hardware Map](docs/computing-foundations/hardware-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Go Deeper**：[算力脊](docs/computing-foundations/compute-spine.md)（含 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)、[FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)）· [内存脊](docs/computing-foundations/memory-spine.md)（含 [内存墙](docs/computing-foundations/memory-wall.md)）· [规模脊](docs/computing-foundations/scale-spine.md)（含 [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)）· [软硬桥脊](docs/computing-foundations/bridge-spine.md)（含 [CUDA 护城河](docs/computing-foundations/cuda-moat.md)）· [半导体脊](docs/computing-foundations/semiconductor-spine.md)（含 [良率与代工](docs/computing-foundations/yield-and-foundry.md)）
 
+### 🎨 Beyond（AI 之外）
+- [Beyond 学习地图](docs/beyond/index.md)
+- [贴现率与股票估值](docs/beyond/discount-rate-and-valuation.md) —— 利率 → 估值的传导链
+- [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md) —— 从"好看"到"知道为什么好看"
+
 ---
 
-**最后更新**: September 3, 2026  
-**概念总数**: 120 个核心概念  
-**覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础
+**最后更新**: September 4, 2026  
+**概念总数**: 122 个核心概念  
+**覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---
 

@@ -4,6 +4,10 @@
 
 ---
 
+**"Looks good" → "I know why it looks good"** (Sep 4)
+I used to think aesthetics was innate intuition — "I think this looks good" and that was that. I now understand that design is a discipline about relationships, and beauty has a decomposable chain behind it: Feeling → Principle → Structure → Attention → Expression → Judgment. From seeing things to seeing relationships.
+→ Read [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md)
+
 **Benchmark → Behavioral Test** (Sep 3)
 I used to think testing an AI product meant checking whether it was smart and gave good answers. I now think the more important test for an Agent is observing its behavior in a real task: how it interprets goals, how it handles permissions, how it leaves evidence, when it stops, and how it recovers after an error. Auditability ≠ Controllability ≠ Recoverability—these cannot be collapsed into a single "reliability" score.
 → Read [First AI Product Test: Muse Spark 1.3](docs/career-impact/first-agent-test-muse-spark.md)
@@ -82,4 +86,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 3, 2026
+**Last updated**: September 4, 2026

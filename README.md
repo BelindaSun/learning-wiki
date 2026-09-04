@@ -52,8 +52,9 @@
   ├─ 个人能力建设
   └─ 未来趋势
 
-🎨 其他兴趣
-  └─ [各种感兴趣的话题]
+🎨 Beyond · AI 之外
+  ├─ 金融与投资
+  └─ 设计与视觉审美
 ```
 
 > 依赖关系上，Computing Foundations 是最底层的地基（AI Core 依赖它），但导航里列在第一项——用**排序**表达依赖，而不是把它嵌套进 AI Core 里。详见仓库根目录的 `CLAUDE.md`（Growth Rules 章节，维护笔记文件，不在网站上单独渲染）。
@@ -70,6 +71,7 @@
 - **[AI in Practice](docs/ai-application/index.md)** - 把模型用起来：Skill、MCP（给 AI 插上"USB 接口"调用外部工具）、真实案例
 - **[AI Research](docs/ai-research/index.md)** - 怎么判断一个模型好不好：评估、Benchmark、MoE 与模型压缩等优化方法
 - **[Industry & Impact](docs/career-impact/index.md)** - AI 撞上真实世界：职业冲击、能力建设、未来趋势
+- **[Beyond · AI 之外](docs/beyond/index.md)** - 金融、设计……AI 之外同样值得系统学习的话题
 - **[心智模型变迁史](mental-models.md)** - 看世界方式的变迁轨迹
 - **[全部概念索引](index-all-concepts.md)** - 按字母排序的所有主题
 

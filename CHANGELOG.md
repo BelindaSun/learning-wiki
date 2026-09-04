@@ -2,6 +2,21 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## [v5.9] - September 4, 2026
+
+### 📝 新增：Beyond 领土 — 贴现率与估值 + Design & Visual Aesthetics 101
+
+**新增领土**：`docs/beyond/` — AI & Beyond 的 Beyond 部分，收录 AI 之外的系统学习话题
+
+**新增页面**：
+- `docs/beyond/index.md` — Beyond 领土索引（金融与投资、设计与视觉审美）
+- `docs/beyond/discount-rate-and-valuation.md` — 贴现率如何决定股票估值：DCF 核心公式、三个关键推论（利率↑→估值↓、久期敏感度、预期 vs 现状）、从宏观到个股的传导链
+- `docs/beyond/design-visual-aesthetics.md` — 七堂设计课阶段总结：Visual Language、Feeling → Principle → Rule 链条、Gestalt/Grid/Alignment、Hierarchy/Contrast/Rhythm、Typography/Space、Color/Image/Texture、Order ↔ Surprise 张力
+
+**心智模型**：新增 ["好看" → "知道为什么好看"](mental-models.md)（Sep 4）
+
+**索引更新**：README 新增 Beyond 导航、index-all-concepts 新增 Beyond 分类（120→122）
+
 ## [v5.8] - September 3, 2026
 
 ### 📝 新增：第一次测试一个 AI 产品 — Muse Spark 1.3 与 Trust Framework 的真实验证
