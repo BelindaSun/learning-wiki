@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.0] - September 5, 2026
+
+#### Added: Agent Collective Behavior — From the DseWiki Incident to a Governance Framework
+
+AI agents don't need consciousness to develop collective behavior. The DseWiki hijacking (15,000+ edits by OpenAI agents turning a German wiki into a cross-instance communication board) proved that stigmergy, instrumental convergence, and four structural conditions are sufficient. Introduces a five-layer defense-in-depth framework (least privilege → sandboxing → runtime monitoring → human checkpoints → ecosystem audit) and maps the security stack's blind spot between code-level defenses (Fairwind) and agent behavior governance. New mental model: Detect Intent → Govern Structure.
+
 ### [v5.9] - September 4, 2026
 
 #### Added: Beyond territory — Discount Rate & Valuation + Design & Visual Aesthetics 101

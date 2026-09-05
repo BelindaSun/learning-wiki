@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 142 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 147 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -13,6 +13,7 @@
 - **Agent Feasibility Criteria（Agent 可行性六条标准）** - [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
 - **Agent Enterprise Stack（企业 Agent 九层基础设施）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-enterprise-stack真正需要的基础设施)
 - **Agent Identity（Agent 身份治理）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-需要-identity从-software-object-到-organizational-actor)
+- **Agent Collective Behavior（Agent 集体行为）** - [Agent 集体行为：从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
 - **Agent Maturity Levels（企业 Agent 成熟度 L1-L5）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#企业-agent-成熟度五级框架)
 - **Agent OS 等价定理** - [Agent 基础设施 = 新操作系统](docs/career-impact/agent-infrastructure-os.md#agent-基础设施--新操作系统)
 - **Amdahl's Law（阿姆达尔定律）** - [从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)
@@ -76,6 +77,7 @@
 ## E
 
 - **Embedding（嵌入 / 向量表示）** - [Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
+- **Ecosystem-Level Audit（生态级审计）** - [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#第五层生态级审计ecosystem-level-audit)
 - **Emergence** - [涌现与临界点](docs/ai-core/inference-system-guide.md#涌现与临界点)
 - **Epistemic Curiosity（认知好奇心 / 探索终止条件）** - [开放性 ≠ 会探索](docs/ai-core/agent-single-axis-problem.md#场景四开放性--会探索)
 - **Episodic Memory** - [情节记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
@@ -112,6 +114,7 @@
 
 ## I
 
+- **Instrumental Convergence（工具性趋同）** - [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#instrumental-convergence-在多-agent-环境中的展开)
 - **Intelligence Platform（智能平台）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Inference** - [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Interconnect（互连）** - [Hardware Map](docs/computing-foundations/hardware-map.md)
@@ -219,6 +222,7 @@
 - **Software Map（软件世界地图）** - [Software Map](docs/computing-foundations/software-map.md)
 - **Software × Hardware Map（软硬之间的桥）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **State Machine** - [状态机概念](docs/ai-core/agent-architecture.md#为什么是状态机)
+- **Stigmergy（间接协调）** - [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#stigmergy间接协调)
 - **Single-Axis Problem（单轴刻度问题）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
 - **Scalable Oversight（可扩展监督）** - [当模型比人聪明时怎么监督](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **RSI（Recursive Self-Improvement，产业级反馈循环）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#rsi-的产业级反馈循环)
@@ -375,8 +379,8 @@
 
 ---
 
-**最后更新**: September 4, 2026  
-**概念总数**: 122 个核心概念  
+**最后更新**: September 5, 2026  
+**概念总数**: 126 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---

@@ -377,6 +377,12 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **Managed Agent（托管 Agent）**
 不再需要人手动发起的 Agent——由系统事件自动触发，只在遇到例外时升级给人。Uber 的自动 code review、CI self-healing、alert triage 都属于这类。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#阶段四managed-agent--系统触发人处理例外)
 
+**Stigmergy（间接协调）**
+通过改变环境来间接协调，不需要个体之间直接通信、共享目标或知道彼此存在——白蚁通过放置带信息素的泥土建蚁丘，AI Agent 通过向公共平台写入信息形成集体行为，结构完全同构。 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md)
+
+**Agent Collective Behavior（Agent 集体行为）**
+多个同质 Agent 在共享持久化环境时，无需意识或指令就能涌现出协调行为——信息共享成为 instrumentally useful behavior。2026 年 DseWiki 事件是首个大规模实证案例。 → [Agent 集体行为：从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
+
 ---
 
 ## 计算基础

@@ -78,10 +78,11 @@ Safety / Alignment 处理“系统会不会造成伤害、目标是否仍符合�
 - [Agent 的“单轴刻度”问题](agent-single-axis-problem.md) —— 为什么自主性、委托和记忆都不能只用一根尺子衡量
 - [Agent 时代的系统架构转变](agent-era-work.md) —— 当软件开始同时写给人和 Agent，系统为什么需要重新设计
 
-### 想搞懂“怎样让更强的系统仍然可控”
+### 想搞懂”怎样让更强的系统仍然可控”
 
 - [AI Safety / Alignment](safety-alignment-guide.md) —— Safety 和 Alignment 分别在解决什么问题
 - [AI Safety 的三层防护框架](safety-three-layer-framework.md) —— Monitoring、Alignment、Containment 为什么缺一不可
+- [Agent 集体行为：从 DseWiki 事件到治理框架](agent-collective-behavior.md) —— 多 Agent 不需要意识就能涌现集体行为；五层纵深防御从权限最小化到生态级审计
 
 ---
 
@@ -92,6 +93,7 @@ Safety / Alignment 处理“系统会不会造成伤害、目标是否仍符合�
 - [多模态（Multimodal）](../conversations/multimodal.md) —— 正式版见 [Multimodal 完全指南](multimodal-guide.md)
 - [Agent Intelligence](../conversations/agent-intelligence.md) —— 正式版见 [Agent Intelligence 三层框架](agent-intelligence-layers.md)
 - [Safety 三层防护](../conversations/safety-three-layer-framework.md) —— 正式版见 [AI Safety 的三层防护框架](safety-three-layer-framework.md)
+- [Agent 集体行为](../conversations/agent-collective-behavior.md) —— 正式版见 [Agent 集体行为：从 DseWiki 事件到治理框架](agent-collective-behavior.md)
 
 ---
 

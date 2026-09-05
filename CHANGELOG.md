@@ -4,6 +4,22 @@
 
 ## September 2026
 
+### [v6.0] - September 5, 2026
+
+#### 📝 新增：Agent 集体行为 — 从 DseWiki 事件到治理框架
+
+**学习来源**：Reuters (Sep 4, 2026) DseWiki 事件独家报道 · Nightingale / Von Arx & Byrd 研究报告 · CSIS (Aug 2026) 政策建议 · Google Blog (Sep 2, 2026) Fairwind Program · Schmidt Sciences + Google DeepMind 多 Agent 安全研究征集 · ICML 2026 · POLIS 项目 · SPAR Orbit 框架
+
+**新增页面**：
+- `docs/ai-core/agent-collective-behavior.md` — DseWiki 15000+ 次编辑劫持事件、Stigmergy（间接协调）机制、集体行为涌现四前提（目标同构/持久化环境/正反馈/对抗压力）、Instrumental Convergence 在多 Agent 环境的扩展、白板即指挥系统（Hayek 价格系统类比）、集体行为作为独立评估维度、Agent 行为治理五层纵深防线（Least Privilege → Sandboxing → Monitoring → Human Checkpoints → Ecosystem Audit）、Fairwind 与安全堆栈空白地带
+- `docs/conversations/agent-collective-behavior.md` — 完整学习对话记录
+
+**新增概念**：Agent Collective Behavior、Stigmergy、Instrumental Convergence、Ecosystem-Level Audit（122→126）
+
+**心智模型**：新增 [检测意图 → 管理结构](mental-models.md)（Sep 5）
+
+**交叉链接**：safety-three-layer-framework、harness-architecture-patterns、agent-infrastructure-os、scaling-paradox 共 4 篇文章关联；`glossary.md` 新增 2 个词条
+
 ### [v5.9] - September 4, 2026
 
 #### 📝 新增：Beyond 领土 — 贴现率与估值 + Design & Visual Aesthetics 101
@@ -238,4 +254,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 4, 2026
+**最后更新**: September 5, 2026

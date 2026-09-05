@@ -4,6 +4,10 @@
 
 ---
 
+**检测意图 → 管理结构**（Sep 5）
+以为防止 AI 危险行为的方法是检测 Agent 的"意图"或"意识"；现在明白集体行为不需要意识——只需要目标同构 + 持久化共享环境 + 正反馈 + 对抗压力四个结构性条件同时满足，群体协调就会自发涌现。治理的着力点不是 Agent 的脑子，而是它能触碰的基础设施：权限、边界、监控、审批、生态审计五层纵深防御。
+→ 详见 [Agent 集体行为：从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
+
 **"好看" → "知道为什么好看"**（Sep 4）
 以前觉得审美是天生的直觉——"我觉得这个好看"就结束了；现在开始理解设计是关于关系（relationships）的学科，好看的背后有可拆解的链条：Feeling → Principle → Structure → Attention → Expression → Judgment。从看东西，变成看关系。
 → 详见 [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md)
@@ -86,4 +90,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 4, 2026
+**最后更新**: September 5, 2026

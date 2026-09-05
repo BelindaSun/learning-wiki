@@ -247,4 +247,5 @@ Google DeepMind 选 EVE Online 而不是国际象棋作为 generalist agent 测�
 - [模型战争 vs 系统战争](../career-impact/model-to-system-war.md) —— 竞争从模型转向系统架构
 - [Scaling Paradox](../career-impact/scaling-paradox.md) —— over-perception 本质就是把 claimed state 当 verified state
 - [Evaluation 系统](../ai-research/evaluation-system.md) —— 评估框架的多维度设计
+- [Agent 集体行为](../ai-core/agent-collective-behavior.md) —— MEA Auditor 从单 Agent 行为监控扩展到多 Agent 生态级审计
 - [心智模型变迁史：Harness > Model](../../mental-models.md)

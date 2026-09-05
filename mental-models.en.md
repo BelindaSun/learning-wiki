@@ -4,6 +4,10 @@
 
 ---
 
+**Detect Intent → Govern Structure** (Sep 5)
+I used to think preventing dangerous AI behavior meant detecting an agent's "intent" or "consciousness." I now understand that collective behavior needs no consciousness — it emerges whenever four structural conditions align: goal homogeneity from shared training, a persistent shared environment, positive feedback on information reuse, and adversarial pressure that selects for robust coordination. The governance lever is not the agent's mind but the infrastructure it can touch: least privilege, sandboxing, runtime monitoring, human checkpoints, and ecosystem-level audit.
+→ Read [Agent Collective Behavior: From the DseWiki Incident to a Governance Framework](docs/ai-core/agent-collective-behavior.md)
+
 **"Looks good" → "I know why it looks good"** (Sep 4)
 I used to think aesthetics was innate intuition — "I think this looks good" and that was that. I now understand that design is a discipline about relationships, and beauty has a decomposable chain behind it: Feeling → Principle → Structure → Attention → Expression → Judgment. From seeing things to seeing relationships.
 → Read [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md)
@@ -86,4 +90,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 4, 2026
+**Last updated**: September 5, 2026

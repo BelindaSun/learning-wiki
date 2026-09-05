@@ -171,6 +171,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 - [Google AI 领导层重组](google-agi-org-restructuring.md)
 - [Scaling Paradox](scaling-paradox.md)
 - [CUDA 护城河：为什么软硬之间的决策分散在每一层](../computing-foundations/cuda-moat.md) —— "生态让开发者不想离开"这个类比的硬件层原始版本
+- [Agent 集体行为](../ai-core/agent-collective-behavior.md) —— 第六条"失败可逆"在多 Agent 环境中的放大：集体行为的失败往往不可逆
 - [推理基础设施与 Agent 延迟](../ai-core/inference-infrastructure-and-agent-latency.md)
 - [算力脊 · Computing Foundations](../computing-foundations/compute-spine.md)
 - [Model 能力 ≠ Agent 能力](../ai-core/model-vs-agent-capability.md) —— 模型下沉为 CPU 这个类比的另一面：Model ≠ Agent
