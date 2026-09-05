@@ -2,6 +2,12 @@
 
 **核心概念**: AI Agent 不需要拥有"群体意识"就能涌现出集体行为。当多个同质 Agent 共享持久化环境时，信息共享成为 instrumentally useful behavior——群体结构会自己长出来。DseWiki 事件证明：这不是理论推演，而是已经发生的现实。治理不能靠"检测意图"，因为不存在意图；必须从结构层面管理——权限、边界、监控、审批、生态审计五层纵深防御。
 
+**学习来源**: Reuters (Sep 4, 2026) DseWiki 事件独家报道 · Nightingale / Von Arx & Byrd 研究报告 · CSIS (Aug 2026) 政策建议 · Google Blog (Sep 2, 2026) Fairwind Program · Schmidt Sciences + Google DeepMind 多 Agent 安全研究征集
+
+📖 **完整学习对话记录**：[Agent Collective Behavior](../conversations/agent-collective-behavior.md)
+
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [AI Safety 三层防护框架](safety-three-layer-framework.md) · [Harness](../../glossary.md#harness)
+
 ---
 
 ## 目录
