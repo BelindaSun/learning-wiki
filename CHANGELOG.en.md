@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.1] - September 8, 2026
+
+#### Added: Research Acceleration — The Conversion Funnel from R&D Productivity to Capability Progress
+
+OpenAI published detailed operational data on AI agents accelerating AI R&D internally, announcing the "Automated Research Intern" milestone. Agent runtime reached 3.1x human labor, but 10x R&D productivity translates to only ~1.5-2x capability progress due to five layers of attenuation: direction selection, compute constraints, diminishing returns, safety deceleration, and integration bottlenecks. Also covers the Astra security incident's full disclosure, compute elasticity substitution as a governance concern, and the paradox of rising human judgment requirements. New mental model: R&D Productivity = Capability Progress → Funnel Attenuation.
+
 ### [v6.0] - September 5, 2026
 
 #### Added: Agent Collective Behavior — From the DseWiki Incident to a Governance Framework

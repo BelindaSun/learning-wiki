@@ -66,6 +66,10 @@ MoE 用路由把知识容量与每次计算成本部分解耦，量化和蒸馏�
 - [Inference 推理系统](../ai-core/inference-system-guide.md) —— 先理解这些改造最终影响的生成过程
 - [Computing Foundations](../computing-foundations/index.md) —— 当瓶颈落到算力、内存和互连，继续向下追物理原因
 
+### 想搞懂”AI 怎样加速 AI 研发、以及加速的真实上限”
+
+- [Research Acceleration](research-acceleration.md) —— OpenAI RSI 进度报告：R&D 生产力到能力进步的五层衰减漏斗、Astra 安全事件、判断力悖论
+
 ### 想搞懂”AI 能否自动改善 AI 的对齐”
 
 - [自动化对齐研究](automated-alignment-research.md) —— 弱模型+研究循环对齐更强模型、AAR 架构、作弊分类与监控
@@ -82,10 +86,11 @@ MoE 用路由把知识容量与每次计算成本部分解耦，量化和蒸馏�
 
 - [Evaluation](../conversations/evaluation.md) —— 正式版见 [Evaluation 评估系统](evaluation-system.md)
 - [Models 深挖](../conversations/models-deep-dive.md) —— 正式版见 [Models 深挖](models-deep-dive.md)
+- [Research Acceleration](../conversations/research-acceleration.md) —— 正式版见 [Research Acceleration](research-acceleration.md)
 
 ---
 
-**最后更新**: September 3, 2026
+**最后更新**: September 8, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— Training、Inference 与模型机制的概念地基

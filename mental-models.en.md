@@ -4,6 +4,10 @@
 
 ---
 
+**R&D Productivity = Capability Progress → Funnel Attenuation** (Sep 8)
+I used to think 10x AI R&D productivity meant 10x faster AI capability progress. I now understand that from agent runtime to actual capability improvement there are five independent layers of attenuation — direction selection, compute constraints, diminishing returns, safety deceleration, and integration bottlenecks. 10x productivity may translate to only 1.5-2x capability progress. Execution power is exploding, but the automation of judgment has not truly happened yet.
+→ Read [Research Acceleration](docs/ai-research/research-acceleration.md)
+
 **Detect Intent → Govern Structure** (Sep 5)
 I used to think preventing dangerous AI behavior meant detecting an agent's "intent" or "consciousness." I now understand that collective behavior needs no consciousness — it emerges whenever four structural conditions align: goal homogeneity from shared training, a persistent shared environment, positive feedback on information reuse, and adversarial pressure that selects for robust coordination. The governance lever is not the agent's mind but the infrastructure it can touch: least privilege, sandboxing, runtime monitoring, human checkpoints, and ecosystem-level audit.
 → Read [Agent Collective Behavior: From the DseWiki Incident to a Governance Framework](docs/ai-core/agent-collective-behavior.md)
@@ -90,4 +94,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 5, 2026
+**Last updated**: September 8, 2026

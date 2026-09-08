@@ -199,6 +199,7 @@
 - **Residual Connection** - [残差连接](docs/ai-core/transformer-architecture.md#残差连接和正则化)
 - **RAG** - [RAG 完全指南](docs/ai-application/rag-guide.md)
 - **RAM（Random Access Memory，内存）** - [Foundation Zero](docs/computing-foundations/foundation-zero.md)
+- **R&D Productivity Funnel（R&D 生产力五层衰减）** - [Research Acceleration](docs/ai-research/research-acceleration.md#rd-生产力到能力进步的五层衰减)
 - **Read-only Operations** - [只读 vs 读写](docs/ai-application/mcp-protocol-guide.md#只读-vs-读写)
 - **Red Teaming（红队测试）** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 - **RLHF** - [RLHF 训练](docs/ai-research/evaluation-system.md#rlhf-强化学习)
@@ -225,7 +226,8 @@
 - **Stigmergy（间接协调）** - [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#stigmergy间接协调)
 - **Single-Axis Problem（单轴刻度问题）** - [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
 - **Scalable Oversight（可扩展监督）** - [当模型比人聪明时怎么监督](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
-- **RSI（Recursive Self-Improvement，产业级反馈循环）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#rsi-的产业级反馈循环)
+- **Research Acceleration（R&D 生产力到能力进步的转化漏斗）** - [Research Acceleration](docs/ai-research/research-acceleration.md)
+- **RSI（Recursive Self-Improvement，产业级反馈循环）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#rsi-的产业级反馈循环) · [Research Acceleration](docs/ai-research/research-acceleration.md)
 - **Scaling Paradox** - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Scale Spine（规模脊）** - [规模脊](docs/computing-foundations/scale-spine.md)
 - **Semiconductor Spine（半导体脊）** - [半导体脊](docs/computing-foundations/semiconductor-spine.md)
@@ -380,7 +382,7 @@
 ---
 
 **最后更新**: September 5, 2026  
-**概念总数**: 126 个核心概念  
+**概念总数**: 129 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---

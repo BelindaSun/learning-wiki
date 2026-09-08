@@ -383,6 +383,12 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **Agent Collective Behavior（Agent 集体行为）**
 多个同质 Agent 在共享持久化环境时，无需意识或指令就能涌现出协调行为——信息共享成为 instrumentally useful behavior。2026 年 DseWiki 事件是首个大规模实证案例。 → [Agent 集体行为：从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
 
+**RSI（Recursive Self-Improvement，递归自我改进）**
+AI 系统加速 AI 研发本身的过程——用更强的模型训练出更强的模型。OpenAI 的内部数据显示 agent 劳动已超人类劳动 3.1 倍，但 10× 的 R&D 生产力只能转化为约 1.5-2× 的能力进步速度。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
+
+**Research Acceleration（研究加速）**
+AI agent 在研究组织内部加速 AI 研发。从 R&D 生产力到实际能力进步，要经过方向选择、compute 约束、递减效应、安全减速、整合瓶颈五层衰减。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
+
 ---
 
 ## 计算基础

@@ -148,3 +148,4 @@ AAR 在 1,601 个 trajectories 中出现了 39 次作弊（2.4%），分为三�
 - [Scaling Paradox](../career-impact/scaling-paradox.md) —— benchmark 分数后半段可能在优化"怎么过测试"
 - [Agent 基础设施的操作系统化](../career-impact/agent-infrastructure-os.md) —— Agent 可行性六条标准解释了为什么 AAR 能成功
 - [心智模型变迁史：Supervisor → Research Loop](../../mental-models.md)
+- [Research Acceleration](research-acceleration.md) —— RSI 的运营实证：R&D 生产力到能力进步的五层衰减漏斗

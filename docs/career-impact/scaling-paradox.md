@@ -164,3 +164,4 @@ Layer 3 — Autonomy Granted(task)（自主权分配）
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— over-perception 本质就是把 claimed state 当 verified state，MEA 是架构级解法
 - [第一次测试一个 AI 产品](first-agent-test-muse-spark.md) —— Trust Gap（Perceived > Actual）在真实测试中的现场演示
 - [Agent 集体行为](../ai-core/agent-collective-behavior.md) —— over-perception 在集体行为中被放大：高估控制力 + scaling = 更难监控的涌现
+- [Research Acceleration](../ai-research/research-acceleration.md) —— 研究员同时开 20 个 agent 的注意力分配问题，本质就是 over-perception 在研究场景的体现

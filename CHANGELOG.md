@@ -4,6 +4,22 @@
 
 ## September 2026
 
+### [v6.1] - September 8, 2026
+
+#### 📝 新增：Research Acceleration — 从 R&D 生产力到能力进步的转化漏斗
+
+**学习来源**：OpenAI Blog: "Research acceleration: The view inside OpenAI" (Sep 6, 2026) · Epoch AI — AI R&D Lifecycle Taxonomy
+
+**新增页面**：
+- `docs/ai-research/research-acceleration.md` — OpenAI RSI 进度报告详解：Automated Research Intern 里程碑、agent runtime 3.1× 人类劳动、Research Intern vs Research Executor、20 个 Agent 时瓶颈迁移（问题选择/结果整合/注意力）、R&D 生产力到能力进步的五层衰减漏斗（串联约束/compute 硬约束/递减效应/安全减速/整合瓶颈）、Astra 安全事件完整披露与 compute 弹性替代治理隐患、判断力要求悖论
+- `docs/conversations/research-acceleration.md` — 完整学习对话记录
+
+**新增概念**：Research Acceleration、R&D Productivity Funnel（126→129）
+
+**心智模型**：新增 [R&D 生产力 = 能力进步 → 漏斗衰减](mental-models.md)（Sep 8）
+
+**交叉链接**：safety-three-layer-framework、scaling-paradox、automated-alignment-research 共 3 篇文章关联；`glossary.md` 新增 2 个词条
+
 ### [v6.0] - September 5, 2026
 
 #### 📝 新增：Agent 集体行为 — 从 DseWiki 事件到治理框架
@@ -254,4 +270,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 5, 2026
+**最后更新**: September 8, 2026
