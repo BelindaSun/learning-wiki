@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.2] - September 10, 2026
+
+#### Added: AI and the Distribution of Economic Abundance — From Skill Mismatch to Property-Rights Mismatch
+
+Anthropic's economic team modeled three scenarios for AI's impact on the US economy by 2030 using a task-based (not job-based) framework. Capital's share of income rises in all three scenarios (from 40.6% to as high as 54.8%); knowledge workers are the only group under pressure across every scenario while blue-collar wages actually rise through a complementarity effect. The policy framework proposes three tiers: pre-distributive capital accounts seeded with AI company equity (Tier 1), expanded safety nets (Tier 2), and redesigned distribution systems including UBI and sovereign wealth funds (Tier 3). Core insight: the diagnosis shifts from "skill mismatch" to "property-rights mismatch" — the solution is not just retraining but making ordinary people owners of AI capital. Personal response framework: become an AI system architect, build capital exposure early, or move to temporarily safe roles. New mental model: Skill Mismatch → Property-Rights Mismatch.
+
 ### [v6.1] - September 8, 2026
 
 #### Added: Research Acceleration — The Conversion Funnel from R&D Productivity to Capability Progress

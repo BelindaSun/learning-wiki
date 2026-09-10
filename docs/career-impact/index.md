@@ -58,6 +58,12 @@ Agent 让执行更便宜，却让”定义什么值得做、什么算做好、�
 
 → [Scaling Paradox](scaling-paradox.md)
 
+### 6. AI 让蛋糕变大了，但谁来切蛋糕？
+
+经济增长和增长归谁所有是两件解耦的事。资本份额在所有情景里都在上升，知识工作者是唯一持续承压的群体。核心矛盾不是技能错配，是产权结构错配——必须让普通人也成为 AI 资本的所有者。
+
+→ [AI 与经济丰饶的分配问题：谁拥有 AI 资本？](ai-economic-distribution.md)
+
 > 一个有用但不完整的近似：可以先用 **Model × System × Trust × Human Judgment** 理解 AI 的现实影响。乘号不是可计算公式，而是在提醒我们：任何一层接近零，技术能力都可能无法转化为结果。真实世界还受资本、监管、文化和时间影响，这张地图会随着证据继续升级。
 
 ## 🔬 Go Deeper · 你在判断哪一种变化？
@@ -100,10 +106,11 @@ Agent 让执行更便宜，却让”定义什么值得做、什么算做好、�
 - [Domain Expertise 与组织变革](../conversations/domain-expertise-and-org-design.md)
 - [OpenAI Intelligence Platform](../conversations/openai-intelligence-platform.md)
 - [Scaling Paradox](../conversations/scaling-paradox.md)
+- [AI 与经济丰饶的分配问题](../conversations/ai-economic-distribution.md)
 
 ---
 
-**最后更新**: September 3, 2026
+**最后更新**: September 10, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来

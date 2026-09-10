@@ -473,4 +473,12 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 
 ---
 
-**最后更新**: August 29, 2026
+**Pre-distribution（预分配）**
+在冲击发生前就把普通人嵌入资本形成阶段（比如从出生起建立资本账户、注入 AI 公司股权），而不是等财富已经集中后再靠税收去"再分配"。预分配更难被政治周期推翻，但需要在冲击可见之前就开始建仓。 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
+
+**Property-Rights Mismatch（产权结构错配）**
+AI 时代核心矛盾的重新诊断——传统劳动政策假设问题是技能错配（人的技能跟不上），但如果收入系统性地从劳动转向资本，真正的问题是普通人不拥有 AI 资本。解决办法不是"帮人找下一份工作"，是让人成为 AI 资本的所有者。 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
+
+---
+
+**最后更新**: September 10, 2026

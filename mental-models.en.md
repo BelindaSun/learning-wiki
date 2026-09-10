@@ -4,6 +4,10 @@
 
 ---
 
+**Skill Mismatch → Property-Rights Mismatch** (Sep 10)
+I used to think the right response to AI disruption was "fix skills" — retrain, reskill, find the next job. I now understand that if capital's share of income is rising structurally while labor's share is falling, simply helping people find new jobs does not address the root problem. The core mismatch is not skill but ownership: ordinary people must become owners of AI capital, not merely consumers of its output or casualties of its displacement. "Pre-distribution" (building ownership stakes before the shock) is more durable than "redistribution" (chasing wealth after it has already concentrated), but the personal window for pre-distribution is narrowing.
+→ Read [AI and the Distribution of Economic Abundance](docs/career-impact/ai-economic-distribution.md)
+
 **R&D Productivity = Capability Progress → Funnel Attenuation** (Sep 8)
 I used to think 10x AI R&D productivity meant 10x faster AI capability progress. I now understand that from agent runtime to actual capability improvement there are five independent layers of attenuation — direction selection, compute constraints, diminishing returns, safety deceleration, and integration bottlenecks. 10x productivity may translate to only 1.5-2x capability progress. Execution power is exploding, but the automation of judgment has not truly happened yet.
 → Read [Research Acceleration](docs/ai-research/research-acceleration.md)
@@ -94,4 +98,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 8, 2026
+**Last updated**: September 10, 2026

@@ -312,3 +312,4 @@ A: 三者都重要，但优先级是：工作流 > 个人数据 > 知识。因�
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md)
 - [Coding Agent 与 Agent 基础设施](agent-infrastructure-os.md)
 - [OpenAI Intelligence Platform](openai-intelligence-platform.md) —— Distribution 维度和 Platform vs Product 张力
+- [AI 与经济丰饶的分配问题](ai-economic-distribution.md) —— 乘法效应的宏观后果：资本份额上升、劳动份额下降

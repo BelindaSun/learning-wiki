@@ -4,6 +4,22 @@
 
 ## September 2026
 
+### [v6.2] - September 10, 2026
+
+#### 📝 新增：AI 与经济丰饶的分配问题 — 从技能错配到产权结构错配
+
+**学习来源**：Anthropic "Scenarios for our Economic Future" (Korinek et al. 2026) · Anthropic "Economic Policy Framework" (June 2026)
+
+**新增页面**：
+- `docs/career-impact/ai-economic-distribution.md` — Anthropic 经济情景模型详解：三条分岔曲线（温和/显著/极端）、资本份额在所有情景中系统性上升、知识工作者唯一持续承压、蓝领工资反升的互补效应、体力劳动"安全窗口"的脆弱性；三级触发政策框架（预分配资本账户 → 扩大安全网 → 重新设计分配制度）、"预分配 vs 再分配"核心区别、个人三层应对框架（AI 系统架构者/资本敞口/暂时安全岗位）
+- `docs/conversations/ai-economic-distribution.md` — 完整学习对话记录
+
+**新增概念**：Pre-distribution（预分配）、Property-Rights Mismatch（产权结构错配）（129→131）
+
+**心智模型**：新增 [技能错配 → 产权结构错配](mental-models.md)（Sep 10）
+
+**交叉链接**：scaling-paradox、industry-competition-shift、research-acceleration、openai-intelligence-platform 共 4 篇文章关联；`glossary.md` 新增 2 个词条
+
 ### [v6.1] - September 8, 2026
 
 #### 📝 新增：Research Acceleration — 从 R&D 生产力到能力进步的转化漏斗

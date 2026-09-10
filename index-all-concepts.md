@@ -171,6 +171,8 @@
 
 ## P
 
+- **Pre-distribution（预分配）** - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md#二政策框架三级触发机制)
+- **Property-Rights Mismatch（产权结构错配）** - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md#三核心洞察从技能错配到产权结构错配)
 - **Parallel Node** - [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
 - **Platform vs Product Tension（平台与产品的内在张力）** - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#platform-与-product-的内在张力)
 - **Perceiver Resampler** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
@@ -361,6 +363,7 @@
 - [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
+- [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
 
 ### 🎨 多模态（Multimodal）
 - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
@@ -381,8 +384,8 @@
 
 ---
 
-**最后更新**: September 5, 2026  
-**概念总数**: 129 个核心概念  
+**最后更新**: September 10, 2026  
+**概念总数**: 131 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---
