@@ -4,6 +4,21 @@
 
 ## September 2026
 
+### [v6.3] - September 12, 2026
+
+#### 📝 新增：Personal Agents — From Chatbots to an Agent Economy
+
+**学习来源**：Meta Muse Personal Agent (Sep 2026) · Zuckerberg × Alex Heath 访谈 (Sep 2026) · 亲自测试 Muse
+
+**新增页面**：
+- `docs/career-impact/personal-agents-agent-economy.md` — 从 Muse Personal Agent 与 Zuckerberg 的 AI 战略看 AI 的下一层：Chatbot → Personal Agent（从 prompt 到 goal）、Social Presence、Contextual Personalization（Preference + Context + Constraints + Why）、Decision Rights、Calibrated Autonomy（不是 Maximum Autonomy）、Decision Cost（选择成本）、Attention Economy → Intent Economy → Agent Economy、Capability ↑ → Required Trustworthiness ↑、Calibrated Trust、AI Glasses + Physical Context、Personal Intelligence Layer
+
+**新增概念**：Personal Agent、Calibrated Autonomy、Agent Economy、Contextual Personalization、Decision Cost（131→136）；Muse 仅入 glossary
+
+**心智模型**：新增 [Answer → Action](mental-models.md)（Sep 12）
+
+**交叉链接**：capability-to-trust、scaling-paradox、openai-intelligence-platform、ai-economic-distribution、agent-infrastructure-os 共 5 篇文章关联；`glossary.md` 新增 6 个词条
+
 ### [v6.2] - September 10, 2026
 
 #### 📝 新增：AI 与经济丰饶的分配问题 — 从技能错配到产权结构错配

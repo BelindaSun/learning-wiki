@@ -4,6 +4,10 @@
 
 ---
 
+**Answer → Action** (Sep 12)
+I used to think AI's interaction unit was prompt → answer (ask, receive). I now understand that a Personal Agent's unit is goal → persistent action — it knows my context, remembers my background, uses tools, and keeps pushing things forward on my behalf. The hard problem is not maximum autonomy but Calibrated Autonomy: knowing when to act for me and when to stop and ask. When agents begin participating in real economic activity (shopping, travel, transactions), the Attention Economy may evolve into an Agent Economy.
+→ Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+
 **Skill Mismatch → Property-Rights Mismatch** (Sep 10)
 I used to think the right response to AI disruption was "fix skills" — retrain, reskill, find the next job. I now understand that if capital's share of income is rising structurally while labor's share is falling, simply helping people find new jobs does not address the root problem. The core mismatch is not skill but ownership: ordinary people must become owners of AI capital, not merely consumers of its output or casualties of its displacement. "Pre-distribution" (building ownership stakes before the shock) is more durable than "redistribution" (chasing wealth after it has already concentrated), but the personal window for pre-distribution is narrowing.
 → Read [AI and the Distribution of Economic Abundance](docs/career-impact/ai-economic-distribution.md)
@@ -98,4 +102,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 10, 2026
+**Last updated**: September 12, 2026

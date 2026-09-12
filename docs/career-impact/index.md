@@ -64,6 +64,12 @@ Agent 让执行更便宜，却让”定义什么值得做、什么算做好、�
 
 → [AI 与经济丰饶的分配问题：谁拥有 AI 资本？](ai-economic-distribution.md)
 
+### 7. Personal Agent 来了，谁来做决定？
+
+AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——真正困难的是 Calibrated Autonomy：知道什么时候自己做，什么时候停下来问我。当 Agent 开始参与真实经济活动，Attention Economy 可能演化为 Agent Economy。
+
+→ [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md)
+
 > 一个有用但不完整的近似：可以先用 **Model × System × Trust × Human Judgment** 理解 AI 的现实影响。乘号不是可计算公式，而是在提醒我们：任何一层接近零，技术能力都可能无法转化为结果。真实世界还受资本、监管、文化和时间影响，这张地图会随着证据继续升级。
 
 ## 🔬 Go Deeper · 你在判断哪一种变化？
@@ -110,7 +116,7 @@ Agent 让执行更便宜，却让”定义什么值得做、什么算做好、�
 
 ---
 
-**最后更新**: September 10, 2026
+**最后更新**: September 12, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来

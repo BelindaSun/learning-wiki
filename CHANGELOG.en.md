@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.3] - September 12, 2026
+
+#### Added: Personal Agents — From Chatbots to an Agent Economy
+
+Hands-on testing of Meta's Muse Personal Agent combined with analysis of the Zuckerberg × Alex Heath interview. AI is moving from the Conversation Layer to the Action Layer — from prompt→answer to goal→persistent action. Key concepts: Contextual Personalization (saving Preference + Context + Constraints + Why, not just preferences), Decision Rights (which decisions should the agent make vs. surface to the user), Calibrated Autonomy (not maximum autonomy — eliminate decisions not worth the user's attention), Decision Cost (choice itself as burden), and the evolution from Attention Economy → Intent Economy → Agent Economy. Trust framework applies directly: Capability ↑ → Required Trustworthiness ↑. Muse + AI Glasses could create a Personal Intelligence Layer spanning digital and physical context. New mental model: Answer → Action.
+
 ### [v6.2] - September 10, 2026
 
 #### Added: AI and the Distribution of Economic Abundance — From Skill Mismatch to Property-Rights Mismatch

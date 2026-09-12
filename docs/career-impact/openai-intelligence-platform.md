@@ -256,3 +256,4 @@ OpenAI 一方面希望 Developers → API → Build on OpenAI，另一方面又�
 - [Scaling Paradox](scaling-paradox.md) —— AI 能力提升后的人机协作复杂性
 - [心智模型变迁史：Product Company → Platform Company](../../mental-models.md)
 - [AI 与经济丰饶的分配问题](ai-economic-distribution.md) —— 平台级 AI 公司的资本回报与分配问题
+- [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Zuckerberg 的 Personal Intelligence Layer 与 Sam 的 Adaptive Interface 是同一场竞赛的两种路径

@@ -164,3 +164,4 @@ Muse 在出错前已经准确 audit 了 Git 状态，但仍然做出了错误决
 - [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— Agent 需要身份、权限、评估、治理
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— Claimed vs Verified State 在 Test 4 中被真实暴露
 - [心智模型变迁史：Benchmark → Behavioral Test](../../mental-models.md)
+- [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Muse Spark → Muse Personal Agent：同一产品从 Coding Agent 进化到全场景 Personal Agent

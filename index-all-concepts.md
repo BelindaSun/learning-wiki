@@ -4,6 +4,7 @@
 
 ## A
 
+- **Agent Economy（Agent 经济）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
 - **Agent** - [Agent 系统架构](docs/ai-core/agent-architecture.md)
 - **Agent Intelligence（三层框架：Model/Memory/Delegation）** - [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **AAR（Automated Alignment Researcher）** - [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
@@ -34,7 +35,9 @@
 
 ## C
 
-- **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust)
+- **Calibrated Autonomy（校准自主权）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
+- **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust) · [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十二calibrated-trust)
+- **Contextual Personalization（上下文个性化）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#三personalization-不是记住我喜欢什么)
 - **Compiler（编译器）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
 - **Compute Spine（算力脊）** - [算力脊](docs/computing-foundations/compute-spine.md)
@@ -64,6 +67,7 @@
 
 ## D
 
+- **Decision Cost（选择成本）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#八personal-agent-真正改变的是选择成本)
 - **Debate（AI 辩论式监督）** - [Scalable Oversight](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Digital Employee（数字员工）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#bny-案例digital-employee)
@@ -171,6 +175,7 @@
 
 ## P
 
+- **Personal Agent（个人智能体）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 - **Pre-distribution（预分配）** - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md#二政策框架三级触发机制)
 - **Property-Rights Mismatch（产权结构错配）** - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md#三核心洞察从技能错配到产权结构错配)
 - **Parallel Node** - [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
@@ -364,6 +369,7 @@
 - [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
 - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
+- [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 
 ### 🎨 多模态（Multimodal）
 - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
@@ -384,8 +390,8 @@
 
 ---
 
-**最后更新**: September 10, 2026  
-**概念总数**: 131 个核心概念  
+**最后更新**: September 12, 2026  
+**概念总数**: 136 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---

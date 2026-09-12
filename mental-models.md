@@ -4,6 +4,10 @@
 
 ---
 
+**Answer → Action**（Sep 12）
+以为 AI 的交互单位是 prompt → answer（一问一答）；现在明白 Personal Agent 的交互单位是 goal → persistent action——理解我的 context、记住我的背景、使用工具、持续替我把事情往前推。真正困难的不是让 Agent 更自主，而是 Calibrated Autonomy：知道什么时候替我做，什么时候停下来问我。当 Agent 开始参与真实经济活动（购物、旅行、交易），Attention Economy 可能演化为 Agent Economy。
+→ 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+
 **技能错配 → 产权结构错配**（Sep 10）
 以为 AI 时代的应对策略是"修复技能"（培训、转岗、学新东西）；现在明白如果资本份额系统性上升、劳动份额系统性下降，单纯"帮人找下一份工作"解决不了根本问题——核心矛盾是产权结构错配，必须让普通人也成为 AI 资本的所有者，而不只是 AI 产出的消费者或被替代者。"预分配"（在冲击前建仓）比"再分配"（事后靠税收追赶）更有效，但个人版预分配的窗口正在收窄。
 → 详见 [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
@@ -98,4 +102,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 10, 2026
+**最后更新**: September 12, 2026

@@ -166,3 +166,4 @@ Layer 3 — Autonomy Granted(task)（自主权分配）
 - [Agent 集体行为](../ai-core/agent-collective-behavior.md) —— over-perception 在集体行为中被放大：高估控制力 + scaling = 更难监控的涌现
 - [Research Acceleration](../ai-research/research-acceleration.md) —— 研究员同时开 20 个 agent 的注意力分配问题，本质就是 over-perception 在研究场景的体现
 - [AI 与经济丰饶的分配问题](ai-economic-distribution.md) —— 能力提升不自动转化为分配改善：资本份额上升 + 知识工作者承压
+- [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Calibrated Autonomy 本质是 Calibration 从感知问题扩展到决策权分配

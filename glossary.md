@@ -465,20 +465,46 @@ CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但
 **EUV（Extreme Ultraviolet Lithography，极紫外光刻）**
 制造最先进芯片所需的光刻设备——全世界只有荷兰的 ASML 一家能生产。不需要懂它的物理原理，只需要知道：芯片产能的上游，卡在一家公司手上。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
 
----
-
-## 还看不懂某个词？
-
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了 140 个更细的概念，每个都直接链接到讨论它的具体文章。
-
----
-
 **Pre-distribution（预分配）**
 在冲击发生前就把普通人嵌入资本形成阶段（比如从出生起建立资本账户、注入 AI 公司股权），而不是等财富已经集中后再靠税收去"再分配"。预分配更难被政治周期推翻，但需要在冲击可见之前就开始建仓。 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
 
 **Property-Rights Mismatch（产权结构错配）**
 AI 时代核心矛盾的重新诊断——传统劳动政策假设问题是技能错配（人的技能跟不上），但如果收入系统性地从劳动转向资本，真正的问题是普通人不拥有 AI 资本。解决办法不是"帮人找下一份工作"，是让人成为 AI 资本的所有者。 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
 
+#### Personal Agent
+不只是回答问题的 chatbot，而是理解用户目标、记住背景、使用工具、并持续替用户把事情往前推进的 AI 系统。交互的基本单位从 prompt 变成 goal，用户关闭 App 后它仍然可以继续工作。Meta 的 Muse 是 2026 年首个大规模消费级 Personal Agent。
+
+*怎么想象*：
+```
+Chatbot：用户提问 → AI 回答 → 结束
+Personal Agent：给定目标 → 理解 context → 计划 → 行动 → 监控 → 更新 → 必要时请求授权
+```
+
+*相关*：[Agent](#agent)、[Calibrated Autonomy](#calibrated-autonomy)、[Trustworthiness](#ai-时代的竞争与信任)
+
+*想深入*：[Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+
+**Calibrated Autonomy（校准自主权）**
+Personal Agent 的目标不是 Maximum Autonomy（什么都自己做）也不是 Minimum Autonomy（什么都问用户），而是根据决定的影响程度和偏好相关性来校准自主程度——低影响、容易恢复的事 Agent 自己做；高影响、不可逆的事交还用户。好的 Agent 替用户消灭不值得花注意力的决定，而非替用户做所有决定。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
+
+**Agent Economy（Agent 经济）**
+当 AI 从理解 Attention 走向掌握 Intent 并能采取 Action，它可能从信息工具进入真实经济活动——购物、旅行、交易等。Personal Agent 的商业模式因此未必只是订阅费，还可能从它参与的经济活动中获得价值。Attention Economy → Intent Economy → Agent Economy 是三步演化。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
+
+**Contextual Personalization（上下文个性化）**
+不是记住用户过去选择了什么（"Belinda 喜欢 MacBook Air"），而是理解为什么那个选择在当时成立（"在已有 Mac mini、笔记本主要解决移动需求的条件下，Air 比 Pro 更适合"）。值得保存的不是 Preference，而是 Preference + Context + Constraints + Why。条件改变，推荐也应该改变。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#三personalization-不是记住我喜欢什么)
+
+**Decision Cost（选择成本）**
+现代互联网给了用户几乎无限的选择，但选择本身越来越成为负担。Personal Agent 最重要的价值之一不是"做我不会做的事"，而是"接管我不想花注意力的选择"——比较几十个航班、酒店、价格、政策这些决定，对用户来说是成本而非价值。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#八personal-agent-真正改变的是选择成本)
+
+**Muse（Meta Personal Agent）**
+Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Muse Secure VM 中，可使用浏览器和连接的服务完成多步骤任务，用户关闭 App 后仍继续工作。Muse Spark 是其底层 agentic intelligence / model layer，已进入部分 Meta AI glasses。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+
 ---
 
-**最后更新**: September 10, 2026
+## 还看不懂某个词？
+
+如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了更细的概念，每个都直接链接到讨论它的具体文章。
+
+---
+
+**最后更新**: September 12, 2026
