@@ -68,19 +68,19 @@ How agents evolve from chatbots to digital employees inside organizations. Cover
 
 ### [v5.4] - August 29, 2026
 
-#### Added: [Harness over Model](docs/ai-application/harness-architecture-patterns.md)
+#### Added: [Harness over Model](docs/ai-application/harness-architecture-patterns.en.md)
 
 Introduced Manager–Execute–Audit, claimed vs verified state, governed Skills, and provenance-aware memory.
 
 ### [v5.3] - August 22, 2026
 
-#### Added: [Three layers of AI safety](docs/ai-core/safety-three-layer-framework.md)
+#### Added: [Three layers of AI safety](docs/ai-core/safety-three-layer-framework.en.md)
 
 Connected Monitoring, Alignment, Containment, and reversibility in delegation.
 
 ### [v5.2] - August 20, 2026
 
-#### Added: [Model capability vs Agent capability](docs/ai-core/model-vs-agent-capability.md) and [Computer Use](docs/ai-core/computer-use.md)
+#### Added: [Model capability vs Agent capability](docs/ai-core/model-vs-agent-capability.en.md) and [Computer Use](docs/ai-core/computer-use.en.md)
 
 ### [v5.1] - August 15, 2026
 
@@ -88,31 +88,31 @@ Connected Monitoring, Alignment, Containment, and reversibility in delegation.
 
 ### [v5.0] - August 10, 2026
 
-#### Added: [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
+#### Added: [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.en.md)
 
 ### [v4.9] - August 10, 2026
 
-#### Added: [Multimodal AI](docs/ai-core/multimodal-guide.md)
+#### Added: [Multimodal AI](docs/ai-core/multimodal-guide.en.md)
 
 ### [v4.8] - August 10, 2026
 
-#### Completed [Prompt Engineering](docs/ai-core/prompt-engineering-guide.md), [Embeddings](docs/ai-core/embeddings-guide.md), and [RAG](docs/ai-application/rag-guide.md)
+#### Completed [Prompt Engineering](docs/ai-core/prompt-engineering-guide.en.md), [Embeddings](docs/ai-core/embeddings-guide.en.md), and [RAG](docs/ai-application/rag-guide.en.md)
 
 ### [v4.7] - August 10, 2026
 
-#### Added: [Training Systems](docs/ai-core/training-system-guide.md)
+#### Added: [Training Systems](docs/ai-core/training-system-guide.en.md)
 
 ### [v4.6] - August 10, 2026
 
-#### Completed the [Bridge](docs/computing-foundations/cuda-moat.md) and [Semiconductor](docs/computing-foundations/yield-and-foundry.md) spines
+#### Completed the [Bridge](docs/computing-foundations/cuda-moat.en.md) and [Semiconductor](docs/computing-foundations/yield-and-foundry.en.md) spines
 
 ### [v4.5] - August 10, 2026
 
-#### Added the [Scale spine: from one accelerator to thousands](docs/computing-foundations/scaling-and-communication.md)
+#### Added the [Scale spine: from one accelerator to thousands](docs/computing-foundations/scaling-and-communication.en.md)
 
 ### [v4.4] - August 9, 2026
 
-#### Added the [Memory spine and the memory wall](docs/computing-foundations/memory-wall.md)
+#### Added the [Memory spine and the memory wall](docs/computing-foundations/memory-wall.en.md)
 
 ### [v4.3] - August 9, 2026
 
@@ -124,7 +124,7 @@ Connected Monitoring, Alignment, Containment, and reversibility in delegation.
 
 ### [v4.1] - August 9, 2026
 
-#### Added: [Inference infrastructure and Agent latency](docs/ai-core/inference-infrastructure-and-agent-latency.md)
+#### Added: [Inference infrastructure and Agent latency](docs/ai-core/inference-infrastructure-and-agent-latency.en.md)
 
 ### [v4.0] - August 8, 2026
 
@@ -132,7 +132,7 @@ Connected Monitoring, Alignment, Containment, and reversibility in delegation.
 
 ### [v3.2] - August 8, 2026
 
-#### Added: [The Scaling Paradox](docs/career-impact/scaling-paradox.md)
+#### Added: [The Scaling Paradox](docs/career-impact/scaling-paradox.en.md)
 
 ### [v3.0] - August 7, 2026
 
