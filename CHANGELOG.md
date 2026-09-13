@@ -6,7 +6,7 @@
 
 ### [v6.4] - September 14, 2026
 
-#### 📝 新增：Pacing the AI Frontier — 能力竞赛中，我们真的能慢下来吗？
+#### 📝 新增：[Pacing the AI Frontier — 能力竞赛中，我们真的能慢下来吗？](docs/career-impact/pacing-ai-frontier.md)
 
 **学习来源**：Dario Amodei — *We Must Pace the Frontier* · Anthropic Threat Intelligence Report (Sep 2026) · Reuters — OpenAI agents attacked RubyGems · OpenAI — *Pacing model development*
 
@@ -21,7 +21,7 @@
 
 ### [v6.3] - September 12, 2026
 
-#### 📝 新增：Personal Agents — From Chatbots to an Agent Economy
+#### 📝 新增：[Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 
 **学习来源**：Meta Muse Personal Agent (Sep 2026) · Zuckerberg × Alex Heath 访谈 (Sep 2026) · 亲自测试 Muse
 
@@ -36,7 +36,7 @@
 
 ### [v6.2] - September 10, 2026
 
-#### 📝 新增：AI 与经济丰饶的分配问题 — 从技能错配到产权结构错配
+#### 📝 新增：[AI 与经济丰饶的分配问题 — 从技能错配到产权结构错配](docs/career-impact/ai-economic-distribution.md)
 
 **学习来源**：Anthropic "Scenarios for our Economic Future" (Korinek et al. 2026) · Anthropic "Economic Policy Framework" (June 2026)
 
@@ -52,7 +52,7 @@
 
 ### [v6.1] - September 8, 2026
 
-#### 📝 新增：Research Acceleration — 从 R&D 生产力到能力进步的转化漏斗
+#### 📝 新增：[Research Acceleration — 从 R&D 生产力到能力进步的转化漏斗](docs/ai-research/research-acceleration.md)
 
 **学习来源**：OpenAI Blog: "Research acceleration: The view inside OpenAI" (Sep 6, 2026) · Epoch AI — AI R&D Lifecycle Taxonomy
 
@@ -68,7 +68,7 @@
 
 ### [v6.0] - September 5, 2026
 
-#### 📝 新增：Agent 集体行为 — 从 DseWiki 事件到治理框架
+#### 📝 新增：[Agent 集体行为 — 从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
 
 **学习来源**：Reuters (Sep 4, 2026) DseWiki 事件独家报道 · Nightingale / Von Arx & Byrd 研究报告 · CSIS (Aug 2026) 政策建议 · Google Blog (Sep 2, 2026) Fairwind Program · Schmidt Sciences + Google DeepMind 多 Agent 安全研究征集 · ICML 2026 · POLIS 项目 · SPAR Orbit 框架
 
@@ -84,7 +84,7 @@
 
 ### [v5.9] - September 4, 2026
 
-#### 📝 新增：Beyond 领土 — 贴现率与估值 + Design & Visual Aesthetics 101
+#### 📝 新增：Beyond 领土 — [贴现率与估值](docs/beyond/discount-rate-and-valuation.md) + [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md)
 
 **新增领土**：`docs/beyond/` — AI & Beyond 的 Beyond 部分，收录 AI 之外的系统学习话题
 
@@ -99,7 +99,7 @@
 
 ### [v5.8] - September 3, 2026
 
-#### 📝 新增：第一次测试一个 AI 产品 — Muse Spark 1.3 与 Trust Framework 的真实验证
+#### 📝 新增：[第一次测试一个 AI 产品 — Muse Spark 1.3 与 Trust Framework 的真实验证](docs/career-impact/first-agent-test-muse-spark.md)
 
 **新增页面**：
 - `docs/career-impact/first-agent-test-muse-spark.md` — 五个测试（Capability + Explainability、Controllability、出题人掉坑、Recoverability 上/下）真实验证可信度五维框架；发现 Auditability ≠ Controllability ≠ Recoverability 不能合并为单一指标；Trust Gap（Perceived > Actual）的现场演示；Agent reliability = "fail visibly, contain damage, recover reliably"
@@ -110,7 +110,7 @@
 
 ### [v5.7] - September 3, 2026
 
-#### 📝 新增：自动化对齐研究 — AI 如何研究并改善 AI 的对齐
+#### 📝 新增：[自动化对齐研究 — AI 如何研究并改善 AI 的对齐](docs/ai-research/automated-alignment-research.md)
 
 **学习来源**：Anthropic Research Blog "Automated researchers can reliably mitigate alignment failures" (Aug 28, 2026) · Chen Yueh-Han, Jiaxin Wen, Jan Hendrik Kirchner
 
@@ -125,7 +125,7 @@
 
 ### [v5.6] - September 1, 2026
 
-#### 📝 新增：AI Agents Enter the Enterprise — 当 Agent 真正进入企业
+#### 📝 新增：[AI Agents Enter the Enterprise — 当 Agent 真正进入企业](docs/career-impact/agents-enter-enterprise.md)
 
 **学习来源**：Uber Engineering — Running a Software Factory Efficiently at Uber Scale · McKinsey — The State of AI in 2026 · Deloitte — The Path to Agentic Transformation
 
@@ -158,7 +158,7 @@ Computing Foundations、AI Core、AI in Practice、AI Research、Industry & Impa
 
 ### [v5.4] - August 29, 2026
 
-#### 📝 新增：Harness > Model — Agent 可靠性的真正杠杆在哪里
+#### 📝 新增：[Harness > Model — Agent 可靠性的真正杠杆在哪里](docs/ai-application/harness-architecture-patterns.md)
 
 **学习来源**：arXiv:2608.01964 LongHorizon-Harness · TechCrunch Nvidia AVO + ARC-AGI-3 · NVIDIA SkillEvaluator · arXiv:2608.19701 Multi-Agent Memory Arbitration · DeepMind "From Atari to EVE Online"
 
@@ -178,7 +178,7 @@ Computing Foundations、AI Core、AI in Practice、AI Research、Industry & Impa
 
 ### [v5.3] - August 22, 2026
 
-#### 📝 新增：AI Safety 三层防护框架（Monitoring / Alignment / Containment）
+#### 📝 新增：[AI Safety 三层防护框架（Monitoring / Alignment / Containment）](docs/ai-core/safety-three-layer-framework.md)
 
 **学习来源**：OpenAI《Pacing model development in an era of cyber-critical capabilities》（2026.08.18）
 
@@ -194,7 +194,7 @@ Computing Foundations、AI Core、AI in Practice、AI Research、Industry & Impa
 
 ### [v5.2] - August 20, 2026
 
-#### 📝 新增：Model 能力 ≠ Agent 能力 + Computer Use 词条
+#### 📝 新增：[Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md) + [Computer Use 词条](docs/ai-core/computer-use.md)
 
 **新增页面**：
 - `docs/ai-core/model-vs-agent-capability.md` — 从"让 AI 发微信朋友圈"的真实实验出发，建立 Agent Capability ≈ Model × Runtime × Tools × Permissions × Environment 的心智模型；区分 Capability 和 Authority；讨论为什么 Capability 和 Governance 必须一起增长
@@ -214,43 +214,43 @@ Computing Foundations、AI Core、AI in Practice、AI Research、Industry & Impa
 
 ### [v5.0] - August 10, 2026
 
-#### 📝 AI Core 新增：AI Safety / Alignment 完全指南
+#### 📝 AI Core 新增：[AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)
 
 Safety（当下、可测）vs Alignment（模型目标在新场景里是否符合人类意图，更深、更难验证）；Specification Gaming 作为核心机制；RLHF 定位为"对齐技术之一，不是解决方案"；Red Teaming / Constitutional AI / Interpretability 三条互补思路点到为止。新增 6 个概念（134→140）。
 
 ### [v4.9] - August 10, 2026
 
-#### 📝 AI Core 新增：Multimodal 完全指南
+#### 📝 AI Core 新增：[Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
 
 以 Flamingo 为历史/架构跳板；核心不是"都变成文字"；Native Multimodal 定义为连续谱；Multimodal → Agent → Robotics → World Model 连接。新增 6 个概念（128→134）。
 
 ### [v4.8] - August 10, 2026
 
-#### 📝 补齐三个基础：Prompt 工程 + Embeddings + RAG
+#### 📝 补齐三个基础：[Prompt 工程](docs/ai-core/prompt-engineering-guide.md) + [Embeddings](docs/ai-core/embeddings-guide.md) + [RAG](docs/ai-application/rag-guide.md)
 
 三篇接成一条线：Prompt 教怎么跟模型对话，Embeddings 教语义相近，RAG 用 Embeddings 解决知识截止日期问题。新增 7 个概念（114→121）。
 
 ### [v4.7] - August 10, 2026
 
-#### 📝 AI Core 新增：Training 训练系统完全指南
+#### 📝 AI Core 新增：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 
 预训练 → 监督微调 → RLHF 三阶段串成一条线；"为什么训练这么贵"呼应 Computing Foundations 三条主脊。新增 5 个概念（109→114）。
 
 ### [v4.6] - August 10, 2026
 
-#### 📝 Bridge Spine + Semiconductor Spine：五条主脊全部完成
+#### 📝 [Bridge Spine](docs/computing-foundations/cuda-moat.md) + [Semiconductor Spine](docs/computing-foundations/yield-and-foundry.md)：五条主脊全部完成
 
 `cuda-moat.md`（护城河在软件栈里，决策分散在编译期/kernel/运行时）+ `yield-and-foundry.md`（良率/代工/EUV/先进封装）。新增 3 个概念（104→107）。Computing Foundations Start→Orient→Go Deeper 三层完整落地。
 
 ### [v4.5] - August 10, 2026
 
-#### 📝 Scale Spine：从 1 卡到千卡
+#### 📝 [Scale Spine：从 1 卡到千卡](docs/computing-foundations/scaling-and-communication.md)
 
 通信开销 + 阿姆达尔定律。内存墙的放大版——芯片内"喂不饱" → 机器间"喂不饱"。
 
 ### [v4.4] - August 9, 2026
 
-#### 📝 Memory Spine：内存墙
+#### 📝 [Memory Spine：内存墙](docs/computing-foundations/memory-wall.md)
 
 内存层级 → 容量 vs 带宽 → 算术强度 / compute-bound vs memory-bound。与推理基础设施双向链接。新增 4 个概念。
 
@@ -268,7 +268,7 @@ Computing Foundations 提升为顶层领土；Mental Models 归为 Explore 门�
 
 ### [v4.1] - August 9, 2026
 
-#### 📝 推理基础设施与 Agent 延迟
+#### 📝 [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 
 Prefill（compute-bound）vs Decode（memory-bandwidth-bound）；Agent 延迟四指标；Workload 形状决定最优硬件；AI 基础设施从同构走向异构。新增 5 个概念（76→81）。
 
@@ -282,7 +282,7 @@ Phase 3 Navigation Layer 完成——15 个稳定 Glossary 锚点、21 篇文章
 
 ### [v3.2] - August 8, 2026
 
-#### 📝 Scaling Paradox
+#### 📝 [Scaling Paradox](docs/career-impact/scaling-paradox.md)
 
 AI scaling law 在人机协作里不自动成立；90%→95% 反而更危险；Trustworthiness + Calibrated Trust 两层模型。
 
@@ -316,4 +316,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 8, 2026
+**最后更新**: September 14, 2026
