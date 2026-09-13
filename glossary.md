@@ -496,6 +496,15 @@ Personal Agent 的目标不是 Maximum Autonomy（什么都自己做）也不是
 **Decision Cost（选择成本）**
 现代互联网给了用户几乎无限的选择，但选择本身越来越成为负担。Personal Agent 最重要的价值之一不是"做我不会做的事"，而是"接管我不想花注意力的选择"——比较几十个航班、酒店、价格、政策这些决定，对用户来说是成本而非价值。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#八personal-agent-真正改变的是选择成本)
 
+**Pacing the Frontier（前沿节奏控制）**
+不是停止 AI 进步，而是让 AI 能力增长的速度不要长期超过人类理解、评估和控制它的速度——给安全、治理和社会买时间。真正的瓶颈不是 pacing 本身，而是 Coordination（怎么让所有参与者同步减速）和 Verification（怎么验证别人确实减速了）。 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
+
+**Capability Thresholds（能力阈值）**
+不是限制 AI 公司一年能训练多少模型，而是定义一组危险能力边界（autonomous cyber operations、biological assistance、autonomous replication、AI R&D automation 等），模型跨过阈值时自动触发更严格的安全评估和限制。类似"车越快，刹车标准越高"。 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md#capability-thresholds)
+
+**Embedded Evaluators（嵌入式评估者）**
+让独立安全评估机构进入 frontier AI labs，获得接近内部员工级别的信息和系统访问权限进行审计——不是公司自己发布 Safety Report，而是第三方独立验证。Dario Amodei 在 *We Must Pace the Frontier* 中提出的核心机制。 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md#embedded-evaluators)
+
 **Muse（Meta Personal Agent）**
 Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Muse Secure VM 中，可使用浏览器和连接的服务完成多步骤任务，用户关闭 App 后仍继续工作。Muse Spark 是其底层 agentic intelligence / model layer，已进入部分 Meta AI glasses。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 
@@ -507,4 +516,4 @@ Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Mu
 
 ---
 
-**最后更新**: September 12, 2026
+**最后更新**: September 14, 2026

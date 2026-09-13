@@ -234,3 +234,4 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 - [自动化对齐研究](../ai-research/automated-alignment-research.md) —— Alignment 层的自动化：AAR 如何用研究循环修复对齐失败
 - [Agent 集体行为](agent-collective-behavior.md) —— 三层防护从单 Agent 扩展到多 Agent 生态的五层纵深防御
 - [Research Acceleration](../ai-research/research-acceleration.md) —— Astra 安全事件的后续完整披露：compute 弹性替代与安全减速器的运营现实
+- [Pacing the AI Frontier](../career-impact/pacing-ai-frontier.md) —— Defense in Depth 从单个系统的安全设计延伸到整个行业的治理结构

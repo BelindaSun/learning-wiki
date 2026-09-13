@@ -70,6 +70,12 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 → [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md)
 
+### 8. AI 越来越强，我们真的能慢下来吗？
+
+真正的问题不是 Pacing（要不要放慢），而是 Coordination + Verification——没有协调，负责任的人先输；没有验证，没有人敢真正协调。这是一个经典的 Prisoner's Dilemma，需要 Capability Thresholds、Safety Gates 和 Embedded Evaluators 来打破。
+
+→ [Pacing the AI Frontier](pacing-ai-frontier.md)
+
 > 一个有用但不完整的近似：可以先用 **Model × System × Trust × Human Judgment** 理解 AI 的现实影响。乘号不是可计算公式，而是在提醒我们：任何一层接近零，技术能力都可能无法转化为结果。真实世界还受资本、监管、文化和时间影响，这张地图会随着证据继续升级。
 
 ## 🔬 Go Deeper · 你在判断哪一种变化？
@@ -116,7 +122,7 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 ---
 
-**最后更新**: September 12, 2026
+**最后更新**: September 14, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来

@@ -4,6 +4,10 @@
 
 ---
 
+**Pacing → Coordination → Verification** (Sep 14)
+I used to think AI safety was mainly each company's own responsibility — good companies do safety, bad ones don't, and the market sorts it out. I now understand that even when every player genuinely wants to slow down, the system may not slow down — individual intent and game-theoretic structure are different things (Prisoner's Dilemma). The real question is not "should we slow down?" but "how do we make it safe for everyone to slow down?" The answer is building Coordination (so responsible actors aren't punished) + Verification (so no one can secretly defect) — a regime where being responsible doesn't mean losing the race.
+→ Read [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
+
 **Answer → Action** (Sep 12)
 I used to think AI's interaction unit was prompt → answer (ask, receive). I now understand that a Personal Agent's unit is goal → persistent action — it knows my context, remembers my background, uses tools, and keeps pushing things forward on my behalf. The hard problem is not maximum autonomy but Calibrated Autonomy: knowing when to act for me and when to stop and ask. When agents begin participating in real economic activity (shopping, travel, transactions), the Attention Economy may evolve into an Agent Economy.
 → Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)

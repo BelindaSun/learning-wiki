@@ -223,3 +223,4 @@ Agent 时代（2024-2026）:
 - [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— Capability ≠ Permission 在企业里的完整展开：身份、权限、治理
 - [第一次测试一个 AI 产品](first-agent-test-muse-spark.md) —— 五维可信度框架在真实 Agent 测试中的第一次验证
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Capability ↑ → Required Trustworthiness ↑：Personal Agent 的信任框架直接延伸
+- [Pacing the AI Frontier](pacing-ai-frontier.md) —— Auditability 从产品特征上升到国际治理层面的合作基础设施

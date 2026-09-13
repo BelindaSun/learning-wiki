@@ -147,3 +147,4 @@ Anthropic 经济团队用"任务"而非"岗位"建模——每个任务可能被
 - [OpenAI Intelligence Platform](openai-intelligence-platform.md) —— 平台级 AI 公司的资本与分发逻辑
 - [Mental Models](../../mental-models.md) —— 按时间回看这些判断怎样发生变化
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Agent Economy 是 AI 资本化的下一层：Agent 参与真实经济活动
+- [Pacing the AI Frontier](pacing-ai-frontier.md) —— 国际 pacing 协调和经济政策协调面临同样的 Prisoner's Dilemma 博弈结构

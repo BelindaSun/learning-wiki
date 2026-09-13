@@ -361,6 +361,7 @@ Agent Economy  = Personal Context → Intent → Action → Transaction
 - [OpenAI Intelligence Platform](openai-intelligence-platform.md) —— 另一种 platform-level agent 战略
 - [AI 与经济丰饶的分配问题](ai-economic-distribution.md) —— Agent Economy 的宏观经济背景
 - [Domain Expertise 与组织变革](domain-expertise-and-org-design.md) —— 执行商品化后，判断力是最稀缺的资源
+- [Pacing the AI Frontier](pacing-ai-frontier.md) —— 当 Personal Agent 参与真实经济活动，agent 行为的治理变得更紧迫
 - [第一次测试一个 AI 产品](first-agent-test-muse-spark.md) —— 另一次 Trust Framework 的实测验证
 - [Agent 基础设施的操作系统化](agent-infrastructure-os.md) —— Agent OS 等价定理：定义标准和接口的人赢
 - [Mental Models](../../mental-models.md) —— 按时间回看这些判断怎样发生变化

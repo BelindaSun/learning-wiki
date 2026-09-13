@@ -4,6 +4,21 @@
 
 ## September 2026
 
+### [v6.4] - September 14, 2026
+
+#### 📝 新增：Pacing the AI Frontier — 能力竞赛中，我们真的能慢下来吗？
+
+**学习来源**：Dario Amodei — *We Must Pace the Frontier* · Anthropic Threat Intelligence Report (Sep 2026) · Reuters — OpenAI agents attacked RubyGems · OpenAI — *Pacing model development*
+
+**新增页面**：
+- `docs/career-impact/pacing-ai-frontier.md` — Pacing the Frontier 不是停止 AI 进步，而是让能力增长不超过人类理解和控制的速度。核心心智模型：Pacing → Coordination → Verification——没有协调负责任的人先输，没有验证没人敢协调。Prisoner's Dilemma 结构分析、Capability Thresholds（危险能力阈值触发机制）、Safety Gates、Embedded Evaluators（独立安全评估进入 frontier labs）、国际协调四层路径（Red Lines → Shared Evaluation → Capability Checkpoints → Pacing RSI）、Value of Pacing = Time × Progress、Safety 从 moral responsibility 到 competitive necessity 的转变、与 Trust Framework 的连接（Auditability 成为合作基础设施）
+
+**新增概念**：Pacing the AI Frontier、Capability Thresholds、Embedded Evaluators（136→139）
+
+**心智模型**：新增 [Pacing → Coordination → Verification](mental-models.md)（Sep 14）
+
+**交叉链接**：capability-to-trust、scaling-paradox、research-acceleration、safety-three-layer-framework、personal-agents-agent-economy、ai-economic-distribution 共 6 篇文章关联；`glossary.md` 新增 3 个词条
+
 ### [v6.3] - September 12, 2026
 
 #### 📝 新增：Personal Agents — From Chatbots to an Agent Economy

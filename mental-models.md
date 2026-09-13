@@ -4,6 +4,10 @@
 
 ---
 
+**Pacing → Coordination → Verification**（Sep 14）
+以为 AI 安全主要靠每家公司自己的负责任态度解决；现在明白即使所有参与者都真心希望减速，系统也不一定会减速——个人意愿和博弈结构是两回事（Prisoner's Dilemma）。真正需要解决的不是"要不要慢下来"，而是"怎么让所有人都敢慢下来"——答案是建立 Coordination（协调机制）+ Verification（验证能力），让负责任的人不会因为负责任而输掉竞争。
+→ 详见 [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
+
 **Answer → Action**（Sep 12）
 以为 AI 的交互单位是 prompt → answer（一问一答）；现在明白 Personal Agent 的交互单位是 goal → persistent action——理解我的 context、记住我的背景、使用工具、持续替我把事情往前推。真正困难的不是让 Agent 更自主，而是 Calibrated Autonomy：知道什么时候替我做，什么时候停下来问我。当 Agent 开始参与真实经济活动（购物、旅行、交易），Attention Economy 可能演化为 Agent Economy。
 → 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
@@ -102,4 +106,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 12, 2026
+**最后更新**: September 14, 2026

@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.4] - September 14, 2026
+
+#### Added: Pacing the AI Frontier — Can We Really Slow Down?
+
+The hardest part of AI pacing is not getting one lab to slow down — it's convincing every key player that slowing down won't be punished. Core mental model: Pacing → Coordination → Verification. Without coordination, responsible actors lose first; without verification, no one dares coordinate (a classic Prisoner's Dilemma). Covers Capability Thresholds (dangerous capability benchmarks that auto-trigger stricter safety requirements), Safety Gates (evaluation checkpoints before advancing), Embedded Evaluators (independent auditors inside frontier labs, per Dario Amodei), a four-level international coordination pathway (Red Lines → Shared Evaluation → Capability Checkpoints → Pacing RSI), Value of Pacing = Time Gained × Progress Made, safety evolving from moral responsibility to competitive necessity, and how Auditability from the Trust Framework becomes cooperation infrastructure at the governance level. New mental model: Pacing → Coordination → Verification.
+
 ### [v6.3] - September 12, 2026
 
 #### Added: Personal Agents — From Chatbots to an Agent Economy

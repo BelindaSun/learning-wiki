@@ -370,6 +370,9 @@
 - [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
 - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
 - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+- [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
+- [Capability Thresholds](docs/career-impact/pacing-ai-frontier.md#capability-thresholds) —— 危险能力阈值触发更严格安全要求
+- [Embedded Evaluators](docs/career-impact/pacing-ai-frontier.md#embedded-evaluators) —— 独立安全评估机构进入 frontier labs
 
 ### 🎨 多模态（Multimodal）
 - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
@@ -390,8 +393,8 @@
 
 ---
 
-**最后更新**: September 12, 2026  
-**概念总数**: 136 个核心概念  
+**最后更新**: September 14, 2026  
+**概念总数**: 139 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---

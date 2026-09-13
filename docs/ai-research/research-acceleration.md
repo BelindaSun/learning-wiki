@@ -168,4 +168,5 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 - [Agent 集体行为](../ai-core/agent-collective-behavior.md) —— 多 Agent 环境的治理框架
 - [Coding Agent 与 Agent 基础设施](../career-impact/agent-infrastructure-os.md) —— Agent 权限和自主性的底层逻辑
 - [心智模型变迁史：R&D 生产力 = 能力进步 → 漏斗衰减](../../mental-models.md)
+- [Pacing the AI Frontier](../career-impact/pacing-ai-frontier.md) —— RSI 是 pacing 最需要关注的对象：控制增长速度本身的增长速度
 - [AI 与经济丰饶的分配问题](../career-impact/ai-economic-distribution.md) —— R&D 加速的经济后果：资本份额上升与分配挑战
