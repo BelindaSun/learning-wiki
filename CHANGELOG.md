@@ -4,6 +4,21 @@
 
 ## September 2026
 
+### [v6.5] - September 16, 2026
+
+#### 📝 新增：[美国10年期国债收益率突破5%：全面解读与资产重定价](docs/career-impact/10y-treasury-yield-5-percent.md)
+
+**学习来源**：2026年9月14日 10Y 国债收益率盘中触及 5.014%（2007年以来首次突破5%）；与 Claude 的学习讨论
+
+**新增页面**：
+- `docs/career-impact/10y-treasury-yield-5-percent.md` — 10Y 收益率拆成三组件（短期利率预期、长期通胀预期、期限溢价），三者全部承压且互相强化；Fed 降息降的是隔夜利率，10Y 是市场定价——"格林斯潘之谜"的反向版本，长短端可能各走各的；5% 新常态下七类资产（股票、债券、房地产、现金、美元、大宗商品、AI CapEx）的全面影响；三句话投资逻辑（现金流为王、久期是敌人、确定性溢价上升）；范式判断：2010–2021 才是特例，5% 是回归正常
+
+**新增概念**：期限溢价 Term Premium、久期 Duration、5% 新常态 New Normal of 5%、10Y 三组件 Three Components of 10Y Yield（139→143）
+
+**心智模型**：新增 [Fed 降息 → 短端长端各走各的](mental-models.md)（Sep 16）、[低利率是常态 → 低利率是特例](mental-models.md)（Sep 16）
+
+**交叉链接**：discount-rate-and-valuation、ai-economic-distribution 共 2 篇文章关联；`glossary.md` 新增 2 个词条
+
 ### [v6.4] - September 14, 2026
 
 #### 📝 新增：[Pacing the AI Frontier — 能力竞赛中，我们真的能慢下来吗？](docs/career-impact/pacing-ai-frontier.md)

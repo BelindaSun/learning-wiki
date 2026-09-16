@@ -62,7 +62,7 @@
 
 ## 关联概念（待创建）
 
-- 久期（duration）与利率敏感度
+- [久期（Duration）与利率敏感度](../career-impact/10y-treasury-yield-5-percent.md#久期是敌人) —— 已覆盖："久期是敌人"
 - 风险溢价 / 股权风险溢价（ERP）
 - Fed 预期管理 / 点阵图（dot plot）
 - DCF 估值法

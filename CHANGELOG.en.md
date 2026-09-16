@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.5] - September 16, 2026
+
+#### Added: [US 10Y Treasury Yield Breaks 5%: A Full Breakdown and Asset Repricing](docs/career-impact/10y-treasury-yield-5-percent.en.md)
+
+On September 14, 2026, the 10Y Treasury yield touched 5.014% intraday — the first break above 5% since 2007. Decomposes the 10Y into three components (expected short rates, long-term inflation expectations, term premium), all under pressure and reinforcing each other. Fed cuts lower the overnight rate, but the 10Y is market-priced — the "Greenspan conundrum" in reverse, with short and long ends potentially going their own ways. Covers the impact on seven asset classes (equities, bonds, real estate, cash, the dollar, commodities, AI CapEx) under a 5% new normal, three investment rules for the new world (cash flow is king, duration is the enemy, the certainty premium rises), and the paradigm judgment: 2010–2021 was the exception, 5% is the return to normal. New concepts: Term Premium, Duration, New Normal of 5%, Three Components of 10Y Yield. New mental models: Fed Cuts → Short and Long Go Their Own Ways; Low Rates Are Normal → Low Rates Were the Exception.
+
 ### [v6.4] - September 14, 2026
 
 #### Added: [Pacing the AI Frontier — Can We Really Slow Down?](docs/career-impact/pacing-ai-frontier.en.md)

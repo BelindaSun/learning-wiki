@@ -4,6 +4,14 @@
 
 ---
 
+**Fed Cuts → All Rates Fall → Short and Long Go Their Own Ways** (Sep 16)
+I used to think Fed rate cuts would bring down mortgage rates and corporate funding costs across the board. I now understand the 10Y is market-priced while the Fed only directly controls the overnight rate — cuts may lower just the short end while the long end stands still or even rises, sharply degrading monetary policy transmission to the real economy.
+→ Read [US 10Y Treasury Yield Breaks 5%](docs/career-impact/10y-treasury-yield-5-percent.en.md)
+
+**Low Rates Are Normal → Low Rates Were the Exception** (Sep 16)
+I used to treat the zero-rate era of 2010–2021 as modern economies' default state. I now see it as a historical anomaly — "money cost almost nothing" — with QE artificially compressing term premium below zero. 5% is not an abnormal spike but a return to normal; 2010–2021 was the exception.
+→ Read [US 10Y Treasury Yield Breaks 5%](docs/career-impact/10y-treasury-yield-5-percent.en.md)
+
 **Pacing → Coordination → Verification** (Sep 14)
 I used to think AI safety was mainly each company's own responsibility — good companies do safety, bad ones don't, and the market sorts it out. I now understand that even when every player genuinely wants to slow down, the system may not slow down — individual intent and game-theoretic structure are different things (Prisoner's Dilemma). The real question is not "should we slow down?" but "how do we make it safe for everyone to slow down?" The answer is building Coordination (so responsible actors aren't punished) + Verification (so no one can secretly defect) — a regime where being responsible doesn't mean losing the race.
 → Read [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
@@ -106,4 +114,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 12, 2026
+**Last updated**: September 16, 2026

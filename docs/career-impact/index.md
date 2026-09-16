@@ -76,6 +76,12 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 → [Pacing the AI Frontier](pacing-ai-frontier.md)
 
+### 9. 钱有了真实价格，资产怎样重新定价？
+
+2026 年 9 月，10Y 国债收益率突破 5%——短期利率预期、长期通胀预期、期限溢价三个组件全部承压且互相强化。Fed 降息也未必能压下长端：短端和长端开始各走各的，货币政策的传导效率大幅下降。新世界的三句话：现金流为王，久期是敌人，确定性溢价上升。
+
+→ [美国10年期国债收益率突破5%：全面解读与资产重定价](10y-treasury-yield-5-percent.md)
+
 > 一个有用但不完整的近似：可以先用 **Model × System × Trust × Human Judgment** 理解 AI 的现实影响。乘号不是可计算公式，而是在提醒我们：任何一层接近零，技术能力都可能无法转化为结果。真实世界还受资本、监管、文化和时间影响，这张地图会随着证据继续升级。
 
 ## 🔬 Go Deeper · 你在判断哪一种变化？
@@ -107,6 +113,10 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 - [从“最聪明”到“最可信”](capability-to-trust.md) —— Trustworthiness 与盲目信任为什么完全不同
 - [AI Safety / Alignment](../ai-core/safety-alignment-guide.md) —— 当问题从产品信任继续向下追，技术上的 Safety 与 Alignment 在解决什么
 
+### 想判断利率与资本成本怎样重塑资产与 AI 投资
+
+- [美国10年期国债收益率突破5%](10y-treasury-yield-5-percent.md) —— 10Y 三组件分析、Fed 降息为什么未必压得下长端、5% 新常态下七类资产的影响、AI CapEx 融资逻辑重写
+
 ---
 
 ## 📖 完整学习对话记录
@@ -119,10 +129,11 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 - [OpenAI Intelligence Platform](../conversations/openai-intelligence-platform.md)
 - [Scaling Paradox](../conversations/scaling-paradox.md)
 - [AI 与经济丰饶的分配问题](../conversations/ai-economic-distribution.md)
+- [美国10年期国债收益率突破5%](../conversations/10y-treasury-yield-5-percent.md)
 
 ---
 
-**最后更新**: September 14, 2026
+**最后更新**: September 16, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来

@@ -148,3 +148,4 @@ The practice of building the MASS project series (Mimo, Mivo, Miva, Mira, etc.) 
 - [Mental Models](../../mental-models.md) — trace how these judgments have shifted over time
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) — the Agent Economy is the next layer of AI capitalization: agents participating in real economic activity
 - [Pacing the AI Frontier](pacing-ai-frontier.md) — international pacing coordination and economic policy coordination face the same Prisoner's Dilemma game structure
+- [US 10Y Treasury Yield Breaks 5%](10y-treasury-yield-5-percent.en.md) — how a higher rate regime reprices capital and assets

@@ -508,6 +508,12 @@ Personal Agent 的目标不是 Maximum Autonomy（什么都自己做）也不是
 **Muse（Meta Personal Agent）**
 Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Muse Secure VM 中，可使用浏览器和连接的服务完成多步骤任务，用户关闭 App 后仍继续工作。Muse Spark 是其底层 agentic intelligence / model layer，已进入部分 Meta AI glasses。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 
+**期限溢价（Term Premium）**
+投资者持有长债而非滚动买短债所要求的额外补偿。QE 时代各国央行把自己变成长债的价格不敏感买家，人为把它压到零甚至负值；现在财政赤字、政策不确定性、通胀波动性、海外需求下降四股力量同向施压，100–150bp 才是历史常态。 → [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
+
+**久期（Duration）**
+你要等多久才能拿回钱。等的时间越长，利率变动对资产价格的杀伤力越大——高利率环境里，市场对等待时间的容忍度大幅下降，所以"久期是敌人"。 → [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
+
 ---
 
 ## 还看不懂某个词？
@@ -516,4 +522,4 @@ Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Mu
 
 ---
 
-**最后更新**: September 14, 2026
+**最后更新**: September 16, 2026

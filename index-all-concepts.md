@@ -77,6 +77,7 @@
 - **Delegation Intelligence（委托智能）** - [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Disaggregated Inference（解构式推理）** - [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Domain Expertise** - [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
+- **Duration（久期）** - [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md#久期是敌人)
 
 ## E
 
@@ -165,6 +166,7 @@
 ## N
 
 - **Native Multimodal** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#native-multimodal一个连续谱不是标签)
+- **New Normal of 5%（5% 新常态）** - [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
 
 ## O
 
@@ -253,6 +255,8 @@
 - **Transformer** - [Transformer 架构](docs/ai-core/transformer-architecture.md)
 - **Trustworthiness（可信度五维框架）** - [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
 - **Time-Scale Separation（时间尺度分离）** - [Google AI 领导层重组](docs/career-impact/google-agi-org-restructuring.md#1-google-在做时间尺度分离)
+- **Term Premium（期限溢价）** - [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md#23-期限溢价从负转正且在扩大)
+- **Three Components of 10Y Yield（10Y 三组件）** - [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md#二10y-收益率的三组件分析)
 
 ## V
 
@@ -373,6 +377,9 @@
 - [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
 - [Capability Thresholds](docs/career-impact/pacing-ai-frontier.md#capability-thresholds) —— 危险能力阈值触发更严格安全要求
 - [Embedded Evaluators](docs/career-impact/pacing-ai-frontier.md#embedded-evaluators) —— 独立安全评估机构进入 frontier labs
+- [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
+- [期限溢价 Term Premium](docs/career-impact/10y-treasury-yield-5-percent.md#23-期限溢价从负转正且在扩大) —— 持有长债要求的额外补偿，从 QE 时代负值回归历史常态
+- [久期 Duration](docs/career-impact/10y-treasury-yield-5-percent.md#久期是敌人) —— 等待时间越长，利率变动的杀伤力越大
 
 ### 🎨 多模态（Multimodal）
 - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
@@ -393,8 +400,8 @@
 
 ---
 
-**最后更新**: September 14, 2026  
-**概念总数**: 139 个核心概念  
+**最后更新**: September 16, 2026  
+**概念总数**: 143 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---
