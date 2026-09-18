@@ -1,6 +1,6 @@
 # Decision Models — Not Every Decision Needs an LLM
 
-**Core insight**: Not all inference inside an AI system has to go through the same kind of model: Generative Inference (generating text token by token) handles language interaction, while Decision Inference (structured input, typed decision output, calibrated confidence) handles judgment. Jev (TypeSafe AI, 2026) is the first example of a "System One Model" — its training objective shifts from "being liked" (RLHF) to "calibrated confidence" (RLCD), closing the loop on Calibrated Trust from the model's side.
+**Core insight**: Not all inference inside an AI system has to go through the same kind of model: Generative Inference (generating text token by token) handles language interaction, while Decision Inference (judgment within a predefined decision space, typed decision output, calibrated confidence) handles judgment. Jev (TypeSafe AI, 2026) is the first example of a "System One Model" — its training objective shifts from "being liked" (RLHF) to "calibrated confidence" (RLCD), closing the loop on Calibrated Trust from the model's side.
 
 **Sources**: TypeSafe AI's launch of Jev on September 15, 2026 (Diogo Almeida's public letter + press coverage); discussion with Lao Jia (ChatGPT): Model → Inference → Generative Inference → Decision Inference → Agent Architecture
 
@@ -14,7 +14,9 @@
 
 The [Inference System Guide](inference-system-guide.en.md) answers "how does inference work inside one model": input flows through a network of weights, one token predicted at a time, looping until the answer emerges.
 
-But it carries a hidden assumption: **all inference in the system goes through the same large model.** One chatty model handles conversation, judgment, and decisions alike.
+But that guide is mostly about the kind of inference we know best: **how a generative model produces output token by token.**
+When the view widens from "inside one model" to "a complete AI system," the question changes: does every intelligent judgment in the system need this generative kind of inference?
+**Not necessarily.**
 
 Lao Jia suggested this article connect into the knowledge tree as:
 
@@ -30,15 +32,15 @@ One clarification up front: these are **working names** for a useful distinction
 
 **Generative Inference**: natural-language input → natural-language output, generated token by token. This is what ChatGPT and Claude do most of the time. Its strength is language interaction: explaining, writing, conversing, turning vagueness into clarity.
 
-**Decision Inference**: structured state in → typed decision out, with a calibrated confidence attached. No natural language generated.
+**Decision Inference**: judgment within a predefined decision space — typed decisions out (choice / score / probability), with a calibrated confidence attached. No natural language generated.
 
-|  | Generative Inference | Decision Inference |
+|  | Generative Inference | Decision Inference (working name used in this article) |
 |---|---|---|
-| Input | Natural language | Structured state |
-| Output | Token-by-token text | Typed decision + confidence |
-| Typical training objective | Being liked, sounding good (RLHF) | Confidence calibration (RLCD) |
-| Latency / cost | Seconds, billed per token | Hundreds of ms, output free |
-| Typical use | Talking to people | Judgment inside software |
+| Core task | Generating open-ended content | Judging within a predefined decision space |
+| Typical output | Token sequences | Typed values like choice / score / probability |
+| Compute profile | Autoregressive generation, usually serial token-by-token | The Jev approach emphasizes producing multiple structured judgments in parallel |
+| Good for | Conversation, writing, open-ended reasoning, code | classify, route, score, verify, branch |
+| Examples | GPT, Claude, etc. | Jev (the new case study for now) |
 
 "LLM" in the title means the left column — generative chat models. The point is not that decisions don't need intelligence; it's that **not every decision needs "write a paragraph first, then extract the decision from the paragraph."**
 
@@ -50,7 +52,8 @@ His question:
 
 > After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI?
 
-His answer: **chat is solved; automation is not.** RLHF trained models into "delightful conversationalists," but baked in three flaws along the way: verbosity, overconfidence, and unreliability. Those flaws keep a human pinned in the loop — the more human the output sounds, the less willing anyone is to let it act on its own.
+**Almeida's judgment is: chat models are already remarkably strong, but true large-scale automation has not followed.**
+He argues that optimizing around human preference brings mode dropping, overconfidence, and reliability problems — models trained into "delightful conversationalists" at the cost of verbosity, overconfidence, and unreliability. Those flaws keep a human pinned in the loop — the more human the output sounds, the less willing anyone is to let it act on its own.
 
 Software doesn't want paragraphs; it wants decisions: which tool to invoke, what to do next, whether to approve a request, whether to hand a task to another model. Doing that with LLMs forces software to read prose and then extract the decision from the prose: expensive (tokens burned on filler), slow (seconds of sequential generation), unreliable (one answer today, a different framing tomorrow).
 
@@ -66,7 +69,7 @@ Jev is the first example of "System One Models" (named after Kahneman's System 1
 - **Training method RLCD**: Reinforcement Learning for Calibrated Decisions — new architecture + new sampler + new training method, the whole stack rewritten from scratch
 - **The name**: a nod to the Jevons Paradox — the cheaper intelligence gets, the more of it gets used
 
-On "can't hallucinate," honesty first: Jev's output *shape* is guaranteed by construction — it cannot emit a malformed answer. **But a schema-valid answer can still be factually wrong.** Almeida admitted as much in the launch discussion. This is a structural guarantee, not a training breakthrough.
+On "can't hallucinate," honesty first: **what Jev eliminates is a class of output-space problems, not errors themselves.** Its output shape is guaranteed by construction — it will not freely generate a plausible-sounding fiction; but it can still produce a decision that is perfectly well-formed, highly confident, and wrong. Almeida admitted as much in the launch discussion. This is a structural guarantee, not a training breakthrough.
 
 Also note: so far only a high-level description exists — no public weights, no reproducible paper. It's early access; treat conclusions as provisional.
 
@@ -80,12 +83,32 @@ This is what Lao Jia meant by "the connection matters more than Jev."
 
 **The decision points inside the agent loop are exactly where Decision Inference belongs.** The [Agent Architecture](agent-architecture.en.md) loop — perceive → decide → act → feedback — hides a chain of small decisions: which tool to pick, whether this step went right, whether to escalate to a human. Today all of that runs through generative LLMs; tomorrow it can be divided up: language interaction to chat models, structured judgment to decision models. The cascading / routing pattern in the [Agent Intelligence three-layer framework](agent-intelligence-layers.en.md) — one agent running five or six models — is already an early form of this division of labor.
 
+Today's agent workflow:
+
+```text
+LLM → Tool → LLM → Tool → LLM → Answer
+```
+
+One possible future:
+
+```text
+LLM → Decision Model → Tool → Decision Model → Tool → LLM
+```
+
+> **Jev doesn't make the LLM inference in the middle faster; it tries to make some of that LLM inference never happen at all.**
+
 TypeSafe calls this "composable intelligence": intelligence as composable, testable, layerable building blocks inside software — not one black-box brain that does everything.
 
 ## 6. Next steps
 
 - How Decision Inference gets evaluated (how calibration is actually measured, how gaming is prevented) has no good public treatment yet → see [Evaluation](../ai-research/evaluation-system.en.md) (to be expanded)
 - Whether "System One Models" becomes a real model category or stays a one-company story — check back in six months
+- One higher-level open question remains: calibrated confidence ≠ trustworthy system. Even if 0.9 really means ~90% right in the long run — which tasks tolerate a 10% error rate? Who sets the threshold? What do errors cost? When must a human take over? Model calibration is only one component of actual trustworthiness; above it sits system governance, and only above that Calibrated Trust / Autonomy.
+
+What this article should leave you with is not Jev, or even RLCD, but two sentences:
+
+> **Inference ≠ Generating tokens.**
+> **Intelligence ≠ One giant model doing everything.**
 
 ---
 
