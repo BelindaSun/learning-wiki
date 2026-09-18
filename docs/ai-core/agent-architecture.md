@@ -435,3 +435,4 @@ Stage 3: 生成最终答案
 - [Model 能力 ≠ Agent 能力](model-vs-agent-capability.md) —— Model Capability ≠ Agent Capability：为什么聪明不等于能干
 - [Computer Use](computer-use.md) —— Agent 通过 GUI 操作软件，从"会说"走向"会做"
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— MEA 循环是 Agent Loop 在长步骤执行场景的进化：加了独立审计层
+- [Decision Models — 不是每个决策都需要大语言模型](decision-models.md) —— Agent loop 里的决策点（选工具、批不批准、要不要升级给人）可以交给 Decision Inference 模型，而不必一律走生成式 LLM

@@ -810,3 +810,4 @@ Inference 的局限：
 - [Training 训练系统完全指南](training-system-guide.md)——"权重怎么来的：训练"这一节的完整展开
 - [Embeddings 完全指南](embeddings-guide.md)——"Embedding（变成向量）"这一步的完整展开
 - [Prompt 工程完全指南](prompt-engineering-guide.md)——Thinking 模式背后的原理，怎么在日常 Prompt 里借用
+- [Decision Models — 不是每个决策都需要大语言模型](decision-models.md) —— 这篇讲"一个模型内部"怎么做 inference；那篇把问题推向系统层面：不同环节的 inference 为什么不必交给同一种模型

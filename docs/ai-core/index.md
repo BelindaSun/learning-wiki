@@ -63,6 +63,7 @@ Safety / Alignment 处理“系统会不会造成伤害、目标是否仍符合�
 - [Prompt 工程](prompt-engineering-guide.md) —— 为什么说清背景、约束和格式真的有效
 - [Embeddings](embeddings-guide.md) —— 怎样把“意思相近”变成可以计算的距离
 - [Multimodal 多模态](multimodal-guide.md) —— 当输入不只有文字，感知发生了什么变化
+- [Decision Models — 不是每个决策都需要大语言模型](decision-models.md) —— Generative Inference vs Decision Inference：一个 AI 系统为什么不必把所有 inference 都交给同一种模型（Jev，2026，作为 case study）
 
 ### 想搞懂“Agent 为什么有时聪明，却做不成事”
 
@@ -97,7 +98,7 @@ Safety / Alignment 处理“系统会不会造成伤害、目标是否仍符合�
 
 ---
 
-**最后更新**: August 30, 2026
+**最后更新**: September 18, 2026
 
 **相关**:
 - [Computing Foundations · 计算机基础地图](../computing-foundations/index.md) —— AI Core 踩着的物理与计算地基

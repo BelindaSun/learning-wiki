@@ -212,3 +212,4 @@ Delegation Intelligence 里最容易被忽略的能力，是**知道什么时候
 - [Domain Expertise 与组织变革](../career-impact/domain-expertise-and-org-design.md) —— "善用 AI"与公司管理类比
 - [心智模型变迁史：Tool/Orchestration → 委托轴](../../mental-models.md)
 - 📖 [完整对话记录：Agent Intelligence](../conversations/agent-intelligence.md)
+- [Decision Models — 不是每个决策都需要大语言模型](decision-models.md) —— cascading / routing 的下一步：语言交互归聊天模型，结构化判断归决策模型

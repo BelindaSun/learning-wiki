@@ -88,3 +88,4 @@
 - [Computing Foundations · 计算机基础地图](../computing-foundations/index.md) —— "为什么训练这么贵"背后的硬件原因
 - [FLOPS 与精度](../computing-foundations/flops-and-precision.md) · [从 1 卡到千卡](../computing-foundations/scaling-and-communication.md) · [内存墙](../computing-foundations/memory-wall.md) —— 训练成本的三个具体来源
 - [RAG 完全指南](../ai-application/rag-guide.md) —— 知识截止日期这个限制，RAG 是不用重新训练的解法
+- [Decision Models — 不是每个决策都需要大语言模型](decision-models.md) —— RLHF 训出"讨人喜欢的聊天者"，RLCD 训出"置信度校准的决策者"：训练目标决定模型性格

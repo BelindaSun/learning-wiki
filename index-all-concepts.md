@@ -1,6 +1,6 @@
 # 完整概念索引
 
-> 按字母顺序排列的所有 143 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
+> 按字母顺序排列的所有 148 个核心概念。快速导航用——每条都直接链接到讨论它的具体文章/章节。如果你是新手、连基础名词都不熟，建议先看 [术语表](glossary.md)，这里的条目大多假设你已经知道背景。
 
 ## A
 
@@ -37,6 +37,7 @@
 
 - **Calibrated Autonomy（校准自主权）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
 - **Calibrated Trust（校准信任）** - [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust) · [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十二calibrated-trust)
+- **Calibrated Confidence（校准置信度）** - [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 - **Contextual Personalization（上下文个性化）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#三personalization-不是记住我喜欢什么)
 - **Compiler（编译器）** - [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Computing Foundations（计算机基础地图）** - [Computing Foundations](docs/computing-foundations/index.md)
@@ -68,6 +69,7 @@
 ## D
 
 - **Decision Cost（选择成本）** - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#八personal-agent-真正改变的是选择成本)
+- **Decision Inference（决策推理）** - [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 - **Debate（AI 辩论式监督）** - [Scalable Oversight](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Decode** - [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Digital Employee（数字员工）** - [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#bny-案例digital-employee)
@@ -106,6 +108,7 @@
 
 - **Gated Cross-Attention** - [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **GPU（Graphics Processing Unit，图形处理器）** - [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
+- **Generative Inference（生成式推理）** - [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 
 ## H
 
@@ -212,6 +215,7 @@
 - **Read-only Operations** - [只读 vs 读写](docs/ai-application/mcp-protocol-guide.md#只读-vs-读写)
 - **Red Teaming（红队测试）** - [互补的几条思路：不是只有 RLHF 一条路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路)
 - **RLHF** - [RLHF 训练](docs/ai-research/evaluation-system.md#rlhf-强化学习)
+- **RLCD（为校准决策的强化学习）** - [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 - **RoPE** - [RoPE（旋转位置编码）](docs/ai-core/transformer-architecture.md#rope旋转位置编码)
 - **Runtime（运行时）** - [Software Map](docs/computing-foundations/software-map.md)
 
@@ -242,6 +246,7 @@
 - **Semiconductor Spine（半导体脊）** - [半导体脊](docs/computing-foundations/semiconductor-spine.md)
 - **System of Record** - [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 - **System War** - [系统战争](docs/career-impact/model-to-system-war.md#为什么转向系统战争)
+- **System One Models（系统一模型）** - [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 
 ## T
 
@@ -401,7 +406,7 @@
 ---
 
 **最后更新**: September 16, 2026  
-**概念总数**: 143 个核心概念  
+**概念总数**: 148 个核心概念  
 **覆盖范围**: Agent 架构 → 推理系统 → 模型优化 → 评估标准 → 商业格局 → 计算机基础 → Beyond
 
 ---

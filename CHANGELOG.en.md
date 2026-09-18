@@ -2,6 +2,12 @@
 
 ## September 2026
 
+### [v6.6] - September 18, 2026
+
+#### Added: [Decision Models — Not Every Decision Needs an LLM](docs/ai-core/decision-models.en.md)
+
+Fills the middle two links of the knowledge-tree chain Model → Inference → Generative Inference → Decision Inference → Agent Architecture: splitting Inference into "generative" and "decision" kinds. Covers Almeida's question (chat has been superhuman for years — where is the automation?) and the three flaws RLHF baked in (verbosity, overconfidence, unreliability); Jev as a 2026 case study (System One Models, RLCD, 70–500ms latency, free output, an honest reading of "can't hallucinate"); and the RLHF→RLCD shift — the training objective decides the model's character, turning calibration from a human-side problem into a model-side training objective, the missing closed loop for Calibrated Trust. New concepts: Calibrated Confidence, Decision Inference, Generative Inference, RLCD, System One Models. New mental model: One big model does all inference → different inference goes to different models.
+
 ### [v6.5] - September 16, 2026
 
 #### Added: [US 10Y Treasury Yield Breaks 5%: A Full Breakdown and Asset Repricing](docs/career-impact/10y-treasury-yield-5-percent.en.md)

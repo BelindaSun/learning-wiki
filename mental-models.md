@@ -4,6 +4,10 @@
 
 ---
 
+**一个大模型包办一切 inference → 不同 inference 分工给不同模型**（Sep 18）
+以为一个 AI 系统里所有 inference 都由同一个大语言模型完成（又会说话、又会判断）；现在明白可以分开：Generative Inference（逐 token 生成文本）管语言交互，Decision Inference（结构化输入、类型化决策输出、校准置信度）管判断。Jev（TypeSafe AI，2026）是"系统一模型"的第一个例子——训练目标从"讨人喜欢"（RLHF）转向"置信度校准"（RLCD），正是 Calibrated Trust 在模型侧的闭环。
+→ 详见 [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
 **Fed 降息 → 所有利率都下来 → 短端长端各走各的**（Sep 16）
 以为 Fed 降息，房贷利率、企业融资成本都会跟着下来；现在明白 10Y 是市场定价、Fed 只直接控制隔夜利率——降息可能只压下短端，长端纹丝不动甚至上行，货币政策对实体经济的传导效率大幅下降。
 → 详见 [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
@@ -114,4 +118,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 16, 2026
+**最后更新**: September 18, 2026

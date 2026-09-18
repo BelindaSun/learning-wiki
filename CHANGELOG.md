@@ -4,6 +4,21 @@
 
 ## September 2026
 
+### [v6.6] - September 18, 2026
+
+#### 📝 新增：[Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
+**学习来源**：2026年9月15日 TypeSafe AI 发布 Jev（Diogo Almeida 公开信 + 媒体报道）；与老贾（ChatGPT）的讨论
+
+**新增页面**：
+- `docs/ai-core/decision-models.md` — 知识树链条 Model → Inference → Generative Inference → Decision Inference → Agent Architecture 的中间两节：把 Inference 拆成"生成式"和"决策式"两种；Almeida 之问（chat 超人多年，自动化去哪了）与 RLHF 训出的三个毛病（啰嗦、过度自信、不可靠）；Jev 作为 2026 case study（System One Models、RLCD、70–500ms、输出免费、"不会幻觉"的诚实版本）；RLHF→RLCD：训练目标决定模型性格，calibration 从"人这边"的问题变成"模型这边"的训练目标——Calibrated Trust 在模型侧的闭环
+
+**新增概念**：Calibrated Confidence（校准置信度）、Decision Inference（决策推理）、Generative Inference（生成式推理）、RLCD、System One Models（系统一模型）（143→148）
+
+**心智模型**：新增 [一个大模型包办一切 inference → 不同 inference 分工给不同模型](mental-models.md)（Sep 18）
+
+**交叉链接**：inference-system-guide、training-system-guide、agent-architecture、agent-intelligence-layers、scaling-paradox、personal-agents-agent-economy 共 6 篇文章关联；`glossary.md` 新增 5 个词条
+
 ### [v6.5] - September 16, 2026
 
 #### 📝 新增：[美国10年期国债收益率突破5%：全面解读与资产重定价](docs/career-impact/10y-treasury-yield-5-percent.md)
@@ -331,4 +346,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 14, 2026
+**最后更新**: September 18, 2026

@@ -168,3 +168,4 @@ Layer 3 — Autonomy Granted(task)（自主权分配）
 - [AI 与经济丰饶的分配问题](ai-economic-distribution.md) —— 能力提升不自动转化为分配改善：资本份额上升 + 知识工作者承压
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Calibrated Autonomy 本质是 Calibration 从感知问题扩展到决策权分配
 - [Pacing the AI Frontier](pacing-ai-frontier.md) —— Capability ↑↑ vs Governance ↑ 是两条曲线差距扩大的宏观版
+- [Decision Models — 不是每个决策都需要大语言模型](../ai-core/decision-models.md) —— RLCD 把 calibration 变成模型的训练目标：Calibrated Trust 第一次有了模型侧的闭环

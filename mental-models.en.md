@@ -4,6 +4,10 @@
 
 ---
 
+**One big model does all inference → different inference goes to different models** (Sep 18)
+I used to assume every inference inside an AI system ran through the same large language model — one model that both talks and judges. I now see it can be split: Generative Inference (token-by-token text generation) for language interaction, Decision Inference (structured input, typed decision output, calibrated confidence) for judgment. Jev (TypeSafe AI, 2026) is the first "System One Model" — its training objective shifts from "being liked" (RLHF) to "calibrated confidence" (RLCD), closing the loop on Calibrated Trust from the model's side.
+→ Read [Decision Models — Not Every Decision Needs an LLM](docs/ai-core/decision-models.en.md)
+
 **Fed Cuts → All Rates Fall → Short and Long Go Their Own Ways** (Sep 16)
 I used to think Fed rate cuts would bring down mortgage rates and corporate funding costs across the board. I now understand the 10Y is market-priced while the Fed only directly controls the overnight rate — cuts may lower just the short end while the long end stands still or even rises, sharply degrading monetary policy transmission to the real economy.
 → Read [US 10Y Treasury Yield Breaks 5%](docs/career-impact/10y-treasury-yield-5-percent.en.md)
@@ -114,4 +118,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 16, 2026
+**Last updated**: September 18, 2026

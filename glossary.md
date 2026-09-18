@@ -209,6 +209,21 @@ Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"
 **RLHF（Reinforcement Learning from Human Feedback，基于人类反馈的强化学习）**
 让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)（完整三步流程）· [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)（这一步在整条训练线上的位置）
 
+**RLCD（Reinforcement Learning for Calibrated Decisions，为校准决策的强化学习）**
+TypeSafe AI 为训练决策模型发明的训练方法：优化目标不是"让人喜欢"，而是"报出的置信度要准"——说 0.9，就得十次对九次。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
+**Decision Inference（决策推理）**
+不生成文本、只输出结构化决策的推理方式：给它结构化状态，它返回"选哪个 / 打几分 / 是否概率"，并附带一个校准过的置信度。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
+**Generative Inference（生成式推理）**
+输入自然语言、逐 Token 生成自然语言的推理方式——ChatGPT、Claude 平时做的就是这个。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
+**Calibrated Confidence（校准置信度）**
+模型报出的概率数字，和它实际正确的频率对得上：说 0.9，就得十次对九次。软件敢拿它做"自己干还是交出去"的决定，全靠这个数是准的。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
+**System One Models（系统一模型）**
+TypeSafe AI 对"快、直觉式决策模型"的命名，借自 Kahneman 的 System 1（快思考）；第一个例子是 2026 年发布的 Jev。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+
 **Benchmark（评测基准）**
 用来给 AI 模型打分、互相比较能力的标准化测试集。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)
 
@@ -522,4 +537,4 @@ Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Mu
 
 ---
 
-**最后更新**: September 16, 2026
+**最后更新**: September 18, 2026
