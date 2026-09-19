@@ -4,7 +4,7 @@
 
 **学习来源**: Anthropic "Scenarios for our Economic Future" (Korinek et al. 2026) · Anthropic "Economic Policy Framework" (June 2026)
 📖 **完整学习对话记录**：[AI 与经济丰饶的分配问题](../conversations/ai-economic-distribution.md)
-**第一次接触这个主题？** 建议先了解：[Scaling Paradox](scaling-paradox.md) · [Domain Expertise 与组织变革](domain-expertise-and-org-design.md) · [RSI](../../glossary.md#ai-时代的竞争与信任)
+**第一次接触这个主题？** 建议先了解：[Scaling Paradox](scaling-paradox.md) · [Domain Expertise 与组织变革](domain-expertise-and-org-design.md) · [RSI](../../glossary.md#rsi)
 
 ---
 

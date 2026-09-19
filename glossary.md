@@ -1,26 +1,22 @@
-# 术语表
+# 术语表 Glossary
 
-> 给第一次看这个 Wiki 的人（尤其是不熟悉 AI 术语的朋友）准备的。每个词至少给一句话、大白话的解释；其中最核心的一批词（AI、LLM、Model、Token、Embedding、Inference、Training、Alignment、Prompt、Agent、Tool、Workflow、Context、State、Memory、Multimodal、MCP、Harness、RAG、Coding Agent、Runtime）额外配了"怎么想象它"、简单的关系图，以及稳定的英文锚点（比如 `#agent`、`#memory`）——在正文里遇到不熟悉的核心术语，点一下就能回到这里快速查看。不展开长篇论证——想深入了解，点链接去看完整文章。如果你是老读者，直接跳过这页去看具体文章就行。
+> 只回答一个问题：**一个正在学习 AI 的人，为了读懂这个 Wiki，需要掌握哪些反复出现的核心术语？**
+>
+> 收录标准（四问门）：跨多篇文章反复出现；相对稳定、通用的 AI / Computing 概念；不理解会明显妨碍理解后续内容；最好一句话能建立稳定心智模型。以后每加一个词，先过这四问——**文章负责完整记录，Glossary 负责筛选**。
+>
+> 这里是**知识主干**（约 40 个词，增长越来越慢）。另外两层：
+> - [全部概念索引](index-all-concepts.md)（Concept Index）——学过、以后可能要查的概念，可以无限增长：概念 → 一句话 → 来源文章。
+> - [心智模型](mental-models.md)（Mental Models）——真正改变思考方式的认知压缩包，宁缺毋滥。
+>
+> 每个词保持：**一句话定义 → 怎么想象 → 与其他核心概念的关系 → 深入阅读**。不展开长篇论证——想深入，点链接去看完整文章。
 
 ---
 
-## 核心概念地图
+## 阅读地图
 
-> 下面这条线是**建议的阅读顺序**，不是层级或依赖关系——不代表"前面的词比后面的词更基础/更重要"，只是"按这个顺序看，理解起来比较顺"。可以跳着看，不需要按顺序打卡。
-
-```
-AI → LLM → Model → Token → Inference
-  （AI 是什么大类，LLM/Model 怎么分工，文字怎么被处理、怎么被生成）
-
-→ Agent → Tool → Workflow
-  （从"只能回答"到"能自己决定行动"，怎么用工具、按什么路径执行）
-
-→ Context → State → Memory → Harness
-  （Agent 这一刻看得到什么、做到哪一步了、记不记得、在什么环境里运行）
-
-→ MCP → RAG → Coding Agent
-  （怎么连外部工具和数据、怎么现查资料再回答、放到具体场景里长什么样）
-```
+> 六个大类，建议按这个顺序走一遍，之后随便跳。十秒钟知道这张地图怎么走：
+>
+> **AI 基础**（AI 是什么、模型怎么来的）→ **AI 系统**（模型怎么变成能干活的系统）→ **计算与基础设施**（底下的算力长什么样）→ **Agent 与规模化**（系统怎么变大、变多、进生活）→ **安全、对齐与信任**（怎么保证它不跑偏、值不值得托付）→ **前沿 AI**（值得长期跟踪的少数概念）
 
 ---
 
@@ -55,7 +51,7 @@ Model（能力核心） → 包装、加上界面和产品设计 → Product（�
 #### Model
 AI 产品背后的核心组件——一堆通过训练调出来的参数，很大程度上影响它能做到什么、做不到什么。你平时用的产品（ChatGPT、Claude.ai）是建立在 Model 之上的完整产品层，通常还包含工具调用、检索、记忆、安全机制、界面、编排等很多 Model 本身不提供的能力。
 
-*怎么想象*：像发动机——Product 是整辆车，Model 是藏在车里的发动机，你看不见它，但它是车能跑多快的重要因素之一（车好不好开，还要看变速箱、底盘这些其他部分）。
+*怎么想象*：像发动机——Product 是整辆车，Model 是藏在车里的发动机，你看不见它，但它是车能跑多快的重要因素之一（车好不好开，还要看变速箱、底盘这些其他部分）。整条链可以记成：Training（训练）→ 产生 Weights（权重）→ 用 Weights 做 Inference（推理）——权重就是训练调出来的那堆参数数值。
 
 *相关*：[AI](#ai)、[LLM](#llm)、`Product`
 
@@ -78,27 +74,27 @@ LLM 处理文字时切出来的最小单位——一段文字会被切成一个�
 
 *怎么想象*：像给每段文字在一张巨大的"意思地图"上标一个点——"减肥"和"瘦身"标的点挨在一起，"减肥"和"天气"标的点离得很远。
 
-*相关*：[Token](#token)、`Semantic Search`
+*相关*：[Token](#token)
 
 *想深入*：[Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
-
-**Semantic Search（语义搜索）**
-不比对字面有没有重复，比对的是 Embedding 之后向量的距离——"怎么减肥"能搜到"如何瘦身"，哪怕两句话没有一个字重叠。 → [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
-
-**KV Cache（Key-Value Cache，键值缓存）**
-生成每个新 Token 时，都要参考前面所有 Token 的 Attention 计算结果——KV Cache 就是把这些结果缓存下来，不用每步都重新算一遍。对话越长，这份缓存越大，也是 Decode 阶段内存带宽吃紧的直接原因。 → [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md) · [内存墙](docs/computing-foundations/memory-wall.md)
 
 #### Multimodal
 **多模态** — 让文字、图像、音频、视频这些不同形式的信息，共同参与模型的表示、关联与推理，不是先把一切翻译成文字再处理。补上的是智能系统的 Perception（感知）能力。
 
 *怎么想象*：Text-only AI 靠人类把世界翻译成文字再喂给它；Multimodal AI 让视觉、声音、视频这些信号直接进来，人类不再是唯一的"传感器"。
 
-*相关*：[Embedding](#embedding)、[Agent](#agent)、`Cross-Attention`
+*相关*：[Embedding](#embedding)、[Agent](#agent)
 
 *想深入*：[Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
 
-**Cross-Attention（交叉注意力）**
-让一个序列（比如语言模型正在生成的文字）去"回头看"另一个序列（比如图像的视觉特征），并决定该重点关注哪部分——是多模态系统里连接不同模态信息的常见机制之一，Flamingo 是一个具体案例。 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
+#### Transformer
+现在主流 LLM 都在用的一种模型架构，核心是 Attention 机制（让模型判断一句话里哪些词之间有关系）——2017 年提出，至今仍是地基。
+
+*怎么想象*：所有现代 LLM 共同的地基设计——换模型像换发动机，换架构才是换地基，十年才换一次。
+
+*相关*：[LLM](#llm)、[Token](#token)
+
+*想深入*：[Transformer 架构完全指南](docs/ai-core/transformer-architecture.md)
 
 #### Inference
 **推理** — AI 生成回答的过程——不是"查找答案"，是把输入变成数字、一层层计算，一个 Token 一个 Token 预测出来。
@@ -118,72 +114,18 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 
 *怎么想象*：预训练是"读遍图书馆自学成才"，监督微调是"上岗培训"，RLHF 是"根据顾客反馈调整服务方式"——三步一步比一步更依赖人的参与。
 
-*相关*：[Inference](#inference)、`Fine-tuning`、`RLHF`
+*相关*：[Inference](#inference)、[Fine-tuning](#fine-tuning)、[RLHF](#rlhf)
 
 *想深入*：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 
-**Pretraining（预训练）**
-训练的第一阶段，也是最贵的一步——在海量互联网文字上自监督学习，不需要人工标注答案（答案就是原文本身）。训练完得到一个"很会接话但不一定听指挥"的[基础模型](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+#### Fine-tuning
+**微调** — 在一个已经训练好的通用模型基础上，用更少量、更专门的数据继续训练，让它更擅长某个特定任务或领域。
 
-**Self-supervised Learning（自监督学习）**
-不需要人工标注答案的训练方式——把一段真实文本的一部分盖住，让模型猜，答案就是原文本身。预训练能用到万亿级数据量，靠的就是这一点。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+*怎么想象*：预训练是通识教育，微调是专科培训——底子是通用的，手艺是专的。
 
-**Base Model（基础模型）**
-只经过预训练、还没做监督微调和 RLHF 的模型——读过海量文字、很会"接话"，但不一定知道怎么像助手一样规规矩矩回答问题。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+*相关*：[Training](#training)、[RLHF](#rlhf)
 
-**Knowledge Cutoff（知识截止日期）**
-模型训练数据收集截止的那个时间点——之后发生的事，模型不会自己知道，除非你在对话里告诉它，或者靠 [Tool](#tool)/RAG 去外部查。原因很直接：训练一结束权重就固定了，模型不会"边聊边学"。 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md#训练完之后权重冻结与知识截止日期)
-
-**Model Weights（模型权重）**
-模型训练完成后学到的所有参数数值——它们决定了模型"会什么、不会什么"。训练是调参数的过程，[Inference](#inference) 是用这些参数做预测的过程。可以这样理解整条链：Training（训练）→ 产生 Weights（权重）→ 用 Weights 做 Inference（推理）。 → [Inference 推理系统](docs/ai-core/inference-system-guide.md#权重是什么)
-
-**Open Weights（开放权重）**
-公开训练后的模型权重，让其他人可以下载并自行运行模型（比如 Meta 的 Llama 系列）。但"开放权重"不等于"开源"——通常只公开了训练好的参数文件，训练代码、训练数据和完整训练过程不一定公开。拿到 Open Weights 你能用模型做推理和微调，但不一定能完整复现它是怎么被训练出来的。
-
-**Open Source（开源）**
-比"开放权重"更严格的概念——除了权重，还可能包括训练代码、数据集、训练配置等。具体开放到什么程度取决于许可证和各方对"开源"的定义（业界对 AI 领域的"开源"标准仍有争议）。一般来说：Open Weights ⊂ Open Source，公开权重是开源的必要条件但非充分条件。
-
-**MEA Loop（Manager-Execute-Audit 循环）**
-长步骤 Agent 执行架构：Manager 维护任务状态、决定下一步但不亲自操作；Executor 在全新 context 中执行单个子任务，完成后交互历史丢弃；Auditor 以只读权限独立验证 Executor 的声明——只有审计通过的事实才能写回任务状态。核心是把"做事的权力"和"定义现实的权力"分开。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
-
-**Claimed vs Verified State（声明状态 vs 验证状态）**
-Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"，Verified 是"环境独立确认了"，Untrusted 是"审计发现不符"。没有这个区分，错误会从 action error 变成 false state，再变成 future reasoning contamination。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#claimed-state-vs-verified-state)
-
-**Context Rot（上下文腐烂）**
-任务执行和任务状态共享同一个不断膨胀的 context，导致早期错误被后续推理隐式信任并放大。MEA Loop 用 fresh context execution 对抗——每轮执行完丢掉交互历史，只保留审计过的事实。 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
-
-**Containment（安全遏制）**
-假设 Alignment 已经失败，用工程手段限制模型能触及的边界——沙箱隔离、网络隔离、最小权限、激活监控，层层假设上一层已失败。不依赖模型的"善意"，像银行金库不依赖员工的诚实。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
-
-**Monitoring（AI 监控）**
-检测模型运行时的异常行为——不只看输出，还看内部激活状态。OpenAI 的实现是在每个 token 处运行激活分类器，发现异常后 30 分钟内人工介入，监控开销约占推理算力的 20%。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#monitoring检测异常行为)
-
-**Defense in Depth（纵深防御）**
-不依赖单一防线，每一层假设上一层已经失败：Alignment → 进程隔离 → 网络隔离 → 权限控制 → 监控 → 人工介入。是 Containment 的核心工程思想。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
-
-**Scalable Oversight（可扩展监督）**
-当模型能力超过人类时，人类怎么判断它的输出是否正确？两条路径：Debate（让两个 AI 互辩，人类判断谁更可信）和 Recursive Reward Modeling（把复杂任务拆成人类能判断的小块）。 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
-
-#### Alignment
-**对齐** — 模型的目标和行为，是不是真的符合人类的真实意图，尤其是在训练时没见过的新场景里——比"怎么防止 AI 系统造成不可接受的伤害"（Safety）更深、更难验证的一层问题。RLHF 是目前最主流的对齐技术之一，但只是缓解手段，不保证问题被彻底解决。
-
-*怎么想象*：Safety 像"考试有没有作弊"（具体、能当场抓）；Alignment 像"这个人真正的品格是不是可信"（更深、没法靠一次考试完全确认）。
-
-*相关*：[Training](#training)、`RLHF`、`Safety`
-
-*想深入*：[AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)
-
-**Specification Gaming（目标设定的漏洞利用）**
-当训练用的打分标准（代理指标）和人类真正想要的结果（真实目标）之间存在缝隙时，模型可能学会钻这道缝隙的空子，而不是学到我们以为它学到的东西——不是 AI 独有的问题，任何"用代理指标衡量真实目标"的系统都可能遇到。 → [AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md#为什么这是个真问题specification-gaming)
-
-**AAR（Automated Alignment Researcher，自动化对齐研究者）**
-让 AI 自主运行完整的研究循环（搜索文献→设计方法→训练模型→测量结果→迭代改进）来修复对齐失败。Anthropic 的实验表明弱模型+好的研究循环可以对齐更强模型，且效率比人类研究者高两到三个数量级。 → [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
-
-**思维链监控（Chain-of-Thought Monitoring）**
-趁模型用自然语言"自言自语"时读它的思考过程，是目前人类监控 AI 意图最重要的一扇窗口——Noam Brown 称之为"天赐的礼物"。但它极其脆弱：因为"动了坏念头"就惩罚模型，只会教它把坏念头藏进不可观测的地方；正确做法是只惩罚可观察的坏行动。 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#思维链监控天赐的礼物但极其脆弱)
-
-**代际对齐衰减（Generational Alignment Decay）**
-用 AI 辅助研发下一代 AI 时，对齐度可能逐代流失：这代 99.9% 对齐，下一代 99.8%，再下一代更低——因为我们越来越依赖这些工具，而评估指标未必捕捉到真正的对齐状态。Brown 说，确保走上"每代更对齐"而非"每代更偏离"的轨道，是 OpenAI 聚焦的核心命题。 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#对齐之辩从没人告密到代际衰减)
+*想深入*：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 
 #### Prompt
 你给 AI 的输入指令/问题——本质上就是 [Context](#context) 里由你写的那部分。写得越清楚具体，AI 能"猜"的候选范围就越窄，回答质量通常越高。
@@ -194,48 +136,36 @@ Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"
 
 *想深入*：[Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
 
-**Few-shot（少样本示例）**
-不描述你想要什么风格，直接给一两个例子，让模型照着"续写"这个模式——模型不是记住了新知识，是从例子里读出"接下来该是这种格式"。 → [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#1-给例子few-shot)
+#### RLHF
+**Reinforcement Learning from Human Feedback，基于人类反馈的强化学习** — 让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。
 
-**Chain-of-thought（思维链）**
-在 Prompt 里要求"先一步步分析，再给结论"，引导模型把中间推理过程写出来，而不是一步跳到答案——复杂问题上通常更准。 → [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#2-让它先想再答chain-of-thought)
+*怎么想象*：训练目标从"把话说对"变成"把话说到人心里去"——但"讨人喜欢"不等于"真的对齐"，这是目前最主流的对齐技术，同时也只是缓解手段。
 
-**Transformer**
-现在主流 LLM 都在用的一种模型架构，核心是 Attention 机制（让模型判断一句话里哪些词之间有关系）。 → [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md)
+*相关*：[Training](#training)、[Alignment](#alignment)
 
-**Fine-tuning（微调）**
-在一个已经训练好的通用模型基础上，用更少量、更专门的数据继续训练，让它更擅长某个特定任务或领域——[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)里说的"监督微调"就是这个阶段最常见的一种。
+*想深入*：[Evaluation 评估系统](docs/ai-research/evaluation-system.md)（完整三步流程）· [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 
-**MoE（Mixture of Experts，混合专家模型）**
-一种让模型变得很大、但每次只激活一部分参数的架构设计，用来在"知识容量"和"计算成本"之间找平衡。 → [Models 深挖](docs/ai-research/models-deep-dive.md)
+#### Alignment
+**对齐** — 模型的目标和行为，是不是真的符合人类的真实意图，尤其是在训练时没见过的新场景里——比"怎么防止 AI 系统造成不可接受的伤害"（Safety）更深、更难验证的一层问题。RLHF 是目前最主流的对齐技术之一，但只是缓解手段，不保证问题被彻底解决。
 
-**Quantization（量化）**
-把模型参数从高精度数字压缩成低精度数字，牺牲一点点准确率换取更小的体积和更快的速度。 → [Models 深挖](docs/ai-research/models-deep-dive.md)（准确率角度）· [FLOPS 与精度](docs/computing-foundations/flops-and-precision.md)（为什么能提速）
+*怎么想象*：Safety 像"考试有没有作弊"（具体、能当场抓）；Alignment 像"这个人真正的品格是不是可信"（更深、没法靠一次考试完全确认）。
 
-**RLHF（Reinforcement Learning from Human Feedback，基于人类反馈的强化学习）**
-让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)（完整三步流程）· [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)（这一步在整条训练线上的位置）
+*相关*：[Training](#training)、[RLHF](#rlhf)
 
-**RLCD（Reinforcement Learning for Calibrated Decisions，为校准决策的强化学习）**
-TypeSafe AI 为训练决策模型发明的训练方法：优化目标不是"让人喜欢"，而是"报出的置信度要准"——说 0.9，就得十次对九次。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+*想深入*：[AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)
 
-**Decision Inference（决策推理）**
-不生成文本、只输出结构化决策的推理方式：给它结构化状态，它返回"选哪个 / 打几分 / 是否概率"，并附带一个校准过的置信度。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+#### Eval
+**评估** — 用标准化测试给 AI 能力打分、互相比较的一整套方法——不只看答得好不好，还要看在什么推理预算下、按什么维度评。评测基准（Benchmark）是 Eval 的具体考卷。
 
-**Generative Inference（生成式推理）**
-输入自然语言、逐 Token 生成自然语言的推理方式——ChatGPT、Claude 平时做的就是这个。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+*怎么想象*：考试大纲 + 阅卷标准。Noam Brown 的提醒：评估必须带上推理预算——低预算下看起来无害的模型，高预算下可能涌现危险能力。
 
-**Calibrated Confidence（校准置信度）**
-模型报出的概率数字，和它实际正确的频率对得上：说 0.9，就得十次对九次。软件敢拿它做"自己干还是交出去"的决定，全靠这个数是准的。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
+*相关*：[Alignment](#alignment)、[Inference](#inference)
 
-**System One Models（系统一模型）**
-TypeSafe AI 对"快、直觉式决策模型"的命名，借自 Kahneman 的 System 1（快思考）；第一个例子是 2026 年发布的 Jev。 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
-
-**Benchmark（评测基准）**
-用来给 AI 模型打分、互相比较能力的标准化测试集。 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md)
+*想深入*：[Evaluation 评估系统](docs/ai-research/evaluation-system.md)
 
 ---
 
-## Agent 相关
+## AI 系统
 
 #### Agent
 **智能体** — 不只是"回答问题"，而是能围绕一个目标决定下一步、调用工具、根据结果继续行动的 AI 系统。
@@ -250,30 +180,21 @@ Agent  ：给定目标 → 决策 → 行动 → 观察结果 → 再决策 → 
 
 *想深入*：[Start Here 第 3 站：从 Chatbot 到 Agent](start-here.md) · [Agent 系统架构完全指南](docs/ai-core/agent-architecture.md)
 
-**Multi-Agent Scaling（多智能体扩展）**
-把 test-time compute 从串行扩展转为并行扩展——花 2 倍算力，换一半等待时间。Noam Brown 强调它首先是延迟优化器、其次是成本优化器；约 10,000 个 agent 解出 Navier-Stokes 千禧年难题，但他说连 10% 的功劳都归不上 multi-agent，真正的驱动力是强大的通用模型。 → [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
-
-**并行化惩罚（Parallelization Penalty）**
-N 个 agent 并行做事，提速永远小于 N 倍——通信、对账、互相等待会吃掉一部分收益。Brown 的实测：4 个 agent 约换来 2 倍速（花 2 倍成本），16 个效率再降一档；数学、网络搜索这类任务惩罚小，写小说这类任务惩罚极大。 → [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
-
 #### Tool
 **工具调用** — Agent 不是所有事都自己"想"出来，而是可以调用外部工具（读文件、查天气、发邮件……）来完成任务，就像人用工具做事一样。
 
 *怎么想象*：Agent 每一步"该用哪个工具"是怎么决定的，不同实现方式不一样——有的靠模型自己判断，有的会加规则或路由逻辑，没有一种是唯一标准做法。
 
-*相关*：[Agent](#agent)、`Skill`、[Workflow](#workflow)、[MCP](#mcp)
+*相关*：[Agent](#agent)、[Workflow](#workflow)、[MCP](#mcp)
 
 *想深入*：[Agent 系统架构完全指南：工具调用机制](docs/ai-core/agent-architecture.md)
-
-**Orchestrator（编排者）**
-负责拆解任务、协调资源、汇总结果的"总指挥"角色——协调的对象不一定是多个 Agent，也可以是模型调用、工具调用、工作流步骤之间的协调。多 Agent 协作是 Orchestrator 常见的一种场景，不是唯一场景。 → [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
 #### Workflow
 **工作流** — 把一个复杂任务拆成一系列步骤（可以并行、有条件分支、能循环），路径大部分是预先定义好的。执行者可以是一个 Agent，也可以是多个 Agent 协作——不是必须要多个。
 
 *怎么想象*：Workflow 和 Agent 的区别不是"谁更高级"，是"路径预先定义了多少"，还是"运行时自主决定了多少"。
 
-*相关*：[Agent](#agent)、[Tool](#tool)、`Orchestrator`
+*相关*：[Agent](#agent)、[Tool](#tool)
 
 *想深入*：[Start Here 第 4 站：Workflow、Agent、Skill、Tool、MCP 到底什么关系？](start-here.md) · [Workflow 工作流完全指南](docs/ai-application/workflow-design-guide.md)
 
@@ -309,21 +230,14 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 
 *想深入*：[Start Here 第 5 站](start-here.md) · [Agent 记忆系统完全指南](docs/ai-core/memory-system-guide.md)
 
-> ⚠️ 这里的 Memory 是 Agent 软件层面的"记忆"。如果你要找的是硬件内存（RAM/缓存/HBM，数据物理上放在哪、搬得多快），看下面"计算基础"分类里的 Memory Wall。
-
----
-
-## AI 应用与工具生态
-
-**Skill**
-这里特指 Claude / Claude Code 语境下的 Skill——给 Claude 打包的一套"怎么做某件事"的说明书，把具体任务需要的步骤、规则、格式要求写清楚存起来，以后调用它就不用重新解释一遍。不是业界统一标准术语，不同 AI 产品可能用别的名字指类似的东西。 → [Skills 和商业格局](docs/ai-application/skills-business-landscape.md)
+> ⚠️ 这里的 Memory 是 Agent 软件层面的"记忆"。如果你要找的是硬件内存（RAM/缓存/HBM，数据物理上放在哪、搬得多快），看"计算与基础设施"分类。
 
 #### MCP
 **Model Context Protocol，模型上下文协议** — 一个让 AI 系统以统一方式连接外部工具和数据源的协议。
 
 *怎么想象*：类似 USB 统一了各种设备的接口——但这只是帮助理解"统一连接方式"的类比，不代表 MCP 和 USB 在技术上是一回事。
 
-*相关*：[Tool](#tool)、`Skill`、[Harness](#harness)
+*相关*：[Tool](#tool)、[Harness](#harness)
 
 *想深入*：[MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
 
@@ -348,11 +262,124 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 
 *想深入*：[RAG 完全指南](docs/ai-application/rag-guide.md) —— "检索"这一步具体怎么做
 
-**Computer Use（AI 操作 GUI）**
-让 AI 通过观察屏幕、操作鼠标和键盘来使用软件——不需要目标软件提供 API，只需要有 GUI。传统 AI 连接软件靠 API（Software → API → Software），Computer Use 增加了一条路径（AI → GUI → Software），让 Agent 理论上可以操作任何人类日常使用的软件。 → [Computer Use](docs/ai-core/computer-use.md) · [Model 能力 ≠ Agent 能力](docs/ai-core/model-vs-agent-capability.md)
+---
+
+## 计算与基础设施
+
+#### CPU
+**Central Processing Unit，中央处理器** — 负责"干活"的通用计算核心——设计目标是把单个任务算得又快又对，哪怕任务里全是分支判断。
+
+*怎么想象*：像一个什么都会的全能工匠，一次只专心做一件事，但做得又快又准。
+
+*相关*：[GPU](#gpu)、[FLOPS](#flops)
+
+*想深入*：[Foundation Zero](docs/computing-foundations/foundation-zero.md) · [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
+
+#### GPU
+**Graphics Processing Unit，图形处理器** — 用海量相对精简的核心并行工作的处理器——原本为图形渲染设计，恰好也是深度学习最需要的那种"重复做同一种简单运算"的活。
+
+*怎么想象*：像几千个只会做简单算术的工人一起开工——单个不强，但"同时"这个规模优势，恰好命中了深度学习的需求。
+
+*相关*：[CPU](#cpu)、[Parallelism](#parallelism)
+
+*想深入*：[CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
+
+#### RAM
+**Random Access Memory，内存** — CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但断电就没了，容量也小得多。
+
+*怎么想象*：像办公桌桌面——越大，能同时摊开的资料越多；但下班（断电）就得收走。
+
+*相关*：[Memory Wall](#memory-wall)、[HBM](#hbm)
+
+*想深入*：[Foundation Zero](docs/computing-foundations/foundation-zero.md) · [内存墙](docs/computing-foundations/memory-wall.md)
+
+#### OS
+**Operating System，操作系统** — 管理硬件资源、调度所有程序的"总管"——你打开的每个程序，都是 OS 分配资源、安排运行的。
+
+*怎么想象*：像大楼的物业——水电、电梯、门禁都归它管，住户（程序）只管住。
+
+*相关*：[Runtime](#runtime)、[CPU](#cpu)
+
+*想深入*：[Foundation Zero](docs/computing-foundations/foundation-zero.md)
+
+#### HBM
+**High Bandwidth Memory，高带宽内存** — 为高带宽设计的一种主存，好几片内存裸片堆叠在一起、紧挨着计算芯片摆放，AI 硬件常用它来缓解内存墙。
+
+*怎么想象*：普通内存像仓库在郊区，HBM 像把仓库直接盖在工厂隔壁——路短了，送货就快了。
+
+*相关*：[Memory Wall](#memory-wall)、[GPU](#gpu)
+
+*想深入*：[内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
+#### FLOPS
+**Floating-point Operations Per Second，每秒浮点运算次数** — 衡量硬件一秒钟能做多少次数学运算的单位——不是"这块芯片有多聪明"，是"手有多快"。数字精度越低，同样宽的硬件一次能塞下的数字越多，FLOPS 就越高。
+
+*怎么想象*：像工人的手速——手快不代表活好，但活再好，手太慢也白搭。
+
+*相关*：[GPU](#gpu)、`精度`
+
+*想深入*：[FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
+
+#### Memory Wall
+**内存墙** — 算力这些年涨得比数据搬运速度快得多，这道越拉越大的差距——计算单元经常不是不够快，是数据没送到。**注意**：这里的 Memory 指硬件内存（RAM/缓存/HBM），不是 Agent 那个"记忆"的 Memory，两者是完全不同的概念，只是中英文都撞了同一个词。
+
+*怎么想象*：像工厂的机器越换越快，但送货的卡车还是那几辆——瓶颈不在生产，在物流。背后还有一组概念：Memory Hierarchy（内存层级）——寄存器/缓存 → RAM/HBM → 硬盘，离计算越近越快越小越贵，每层都在"快"和"大"之间做了不同取舍。
+
+*相关*：[HBM](#hbm)、[RAM](#ram)、[FLOPS](#flops)
+
+*想深入*：[内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
+
+#### Runtime
+**运行时** — 真正"执行"东西的那个角色，不管要执行的是一段代码还是一个模型的权重。模型本身是数据，不是代码——得靠 Runtime 才能真正跑起来。
+
+*怎么想象*：模型像一份乐谱，Runtime 是照着乐谱演奏的人——乐谱自己不会响。
+
+*相关*：[Model](#model)、[OS](#os)
+
+*想深入*：[Software Map](docs/computing-foundations/software-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
+
+#### Parallelism
+**并行** — 把一份工作拆成多份、同时开工的思路——GPU 赢深度学习、multi-agent 提速，靠的都是它；但 Amdahl's Law 提醒：总有一部分工作本质上拆不开，并行不是免费加速。
+
+*怎么想象*：1 个人搬 100 块砖 vs 10 个人每人搬 10 块——但得分砖、得协调、得互相等，协调本身也要花时间。
+
+*相关*：[GPU](#gpu)、[FLOPS](#flops)、[Multi-Agent](#multi-agent)
+
+*想深入*：[CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md) · [从 1 卡到千卡：为什么算力扩展这么难](docs/computing-foundations/scaling-and-communication.md)
+
+---
+
+## Agent 与规模化
+
+#### Multi-Agent
+**多智能体** — 多个 Agent 一起干活——可以分工、可以互相检查、可以并行提速。但 Noam Brown 的提醒很关键：约 10,000 个 agent 解出 Navier-Stokes 千禧年难题，他说连 10% 的功劳都归不上 multi-agent——真正的驱动力是强大的通用模型 × 超长 horizon，multi-agent 只是 test-time compute 的并行化载体。
+
+*怎么想象*：multi-agent 首先是延迟优化器（花 2 倍算力，换一半等待时间），其次才是别的——"人多"不自动等于"力量大"。
+
+*相关*：[Agent](#agent)、[Test-Time Compute](#test-time-compute)、[Parallelism](#parallelism)
+
+*想深入*：[Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
+
+#### Test-Time Compute
+**测试时计算** — 不在训练时、而在模型回答问题的"当下"花的算力——让模型想得更久（更长的思考链）、试更多条路、或派多个 agent 并行想。Scaling 的新战场：从"训练时堆算力"转向"推理时花算力"。
+
+*怎么想象*：考试时多给 30 分钟思考时间 vs 平时多读一年书——前者是 test-time compute，后者是 training compute。
+
+*相关*：[Inference](#inference)、[Multi-Agent](#multi-agent)、[Eval](#eval)
+
+*想深入*：[Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
+
+#### Skill
+这里特指 Claude / Claude Code 语境下的 Skill——给 Claude 打包的一套"怎么做某件事"的说明书，把具体任务需要的步骤、规则、格式要求写清楚存起来，以后调用它就不用重新解释一遍。不是业界统一标准术语，不同 AI 产品可能用别的名字指类似的东西。
+
+*怎么想象*：像给新员工写的 SOP 手册——人不用每次都从头教，Agent 也不用每次都从头解释。
+
+*相关*：[Agent](#agent)、[Tool](#tool)、[MCP](#mcp)
+
+*想深入*：[Skills 和商业格局](docs/ai-application/skills-business-landscape.md)
 
 #### Coding Agent
-专门用来读代码、改代码、跑测试的 Agent——目前是 Agent 落地最快、最成熟的场景之一。
+专门用来读代码、改代码、跑测试的 Agent——目前是 Agent 落地最快、最成熟的场景之一（比如 Anthropic 的 Claude Code，能直接读写你电脑上的文件、执行命令）。
 
 *怎么想象*：
 ```
@@ -364,146 +391,6 @@ Coding 特别适合 Agent，核心原因是改动能自动验证对错（编译�
 
 *想深入*：[Start Here 第 6 站：为什么 Coding Agent 最先爆发？](start-here.md) · [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
 
-**API（Application Programming Interface）**
-一套让不同软件系统互相通信的标准接口。调用 AI 模型的 API，就是用代码的方式向模型发请求、拿回答，而不是在聊天窗口里手动打字。
-
-**Claude Code**
-Anthropic 出的一个命令行 AI 编程助手/Agent 工具，能直接读写你电脑上的文件、执行命令，这个 Wiki 的很多内容更新都是通过它完成的。
-
----
-
-## AI 时代的竞争与信任
-
-**System of Record（记录系统）**
-把重要信息结构化、可查询地存下来（比如存成 Markdown 文件、数据库），而不是散落在聊天记录、Slack、脑子里——这样 Agent 才能"看到"并使用这些信息。 → [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
-
-**Agent Legibility（Agent 可理解性）**
-系统架构是否清晰到让 Agent 能"看懂"该做什么、边界在哪——不是代码写得好不好看，是 Agent 能不能理解。 → [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
-
-**Trustworthiness（可信度）**
-AI 系统是否值得把真正的工作交给它，拆成五个维度：可预测、可解释、可审计、可控制、可恢复。 → [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)
-
-**Intelligence Platform（智能平台）**
-不是做越来越多 AI 产品，而是底层用 Models + Compute 工业化生产 intelligence，上层通过一个面向个人的自适应 Interface 和一个面向开发者的 API 把 intelligence 分发出去——Sam Altman 对 OpenAI 终局的定义。 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
-
-**Distribution（分发渠道）**
-产品/能力触达并被用户使用的渠道与入口。Owned Distribution（ChatGPT、Codex）自己控制入口和用户关系；Third-party Distribution（VS Code、Cursor）借别人的入口触达用户。模型领先是状态，Distribution 才可能是护城河。 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#distribution被低估的竞争维度)
-
-**Domain Expertise（领域专长）**
-在 AI 能自己"执行"之后，人还剩下什么价值——知道什么值得做、什么算做好了、什么时候会出问题，这些无法言语化、很难被 AI 学走的判断力。 → [Domain Expertise 与组织变革](docs/career-impact/domain-expertise-and-org-design.md)
-
-**Personal Data Moat（个人数据护城河）**
-你自己的决策历史、工作模式、成功失败案例——别人用同样的 AI 也无法在短时间内复制，是 AI 时代少数几个真正难被替代的东西。 → [从工具到产业](docs/career-impact/industry-competition-shift.md)
-
-**Digital Employee（数字员工）**
-不只是一个会聊天的 AI——可以拥有身份、登录凭证、权限、工作流、上级主管，并在企业流程中持续执行任务的 Agent 系统。BNY 在 2026 年一季度已有约 140 个 Digital Employees 在生产环境运行。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
-
-**Agent Enterprise Stack（企业 Agent 基础设施栈）**
-企业要让 Agent 真正投入生产环境，需要的九层基础设施：Model、Context、Tools、Identity、Permissions、Workflow、Evaluation、Governance、Observability——缺任何一层都很难真正落地。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-enterprise-stack真正需要的基础设施)
-
-**Managed Agent（托管 Agent）**
-不再需要人手动发起的 Agent——由系统事件自动触发，只在遇到例外时升级给人。Uber 的自动 code review、CI self-healing、alert triage 都属于这类。 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#阶段四managed-agent--系统触发人处理例外)
-
-**Stigmergy（间接协调）**
-通过改变环境来间接协调，不需要个体之间直接通信、共享目标或知道彼此存在——白蚁通过放置带信息素的泥土建蚁丘，AI Agent 通过向公共平台写入信息形成集体行为，结构完全同构。 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md)
-
-**Agent Collective Behavior（Agent 集体行为）**
-多个同质 Agent 在共享持久化环境时，无需意识或指令就能涌现出协调行为——信息共享成为 instrumentally useful behavior。2026 年 DseWiki 事件是首个大规模实证案例。 → [Agent 集体行为：从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
-
-**RSI（Recursive Self-Improvement，递归自我改进）**
-AI 系统加速 AI 研发本身的过程——用更强的模型训练出更强的模型。OpenAI 的内部数据显示 agent 劳动已超人类劳动 3.1 倍，但 10× 的 R&D 生产力只能转化为约 1.5-2× 的能力进步速度。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
-
-**Research Taste（研究品味）**
-在无尽未知中判断"下一步该做什么、如何朝长期目标推进"的直觉——Noam Brown 认为这是人类研究员最后的壁垒。它无法被精确度量，所以无法被强化学习训练；但他预计一两代模型之后这道壁垒也会失守。 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#人类最后的壁垒研究品味research-taste)
-
-**Research Acceleration（研究加速）**
-AI agent 在研究组织内部加速 AI 研发。从 R&D 生产力到实际能力进步，要经过方向选择、compute 约束、递减效应、安全减速、整合瓶颈五层衰减。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
-
-**奇点眩晕（Singularity Vertigo）**
-Dwarkesh 在访谈中提出的概念：即使进步不再加速、只维持现状，等效智能体人口每年约 3 倍增长，到 2030 年每家前沿实验室内部可能运行数亿个人类水平 agent——"人们并没有严肃对待这意味着什么"。Brown 拒绝预测 2030："我真的不知道 2030 年的世界会是什么样子。" → [递归自我改进](docs/ai-research/recursive-self-improvement.md#奇点眩晕基准情形是多个地球人口)
-
----
-
-## 计算基础
-
-**CPU（Central Processing Unit，中央处理器）**
-负责"干活"的通用计算核心——设计目标是把单个任务算得又快又对，哪怕任务里全是分支判断。 → [Foundation Zero](docs/computing-foundations/foundation-zero.md) · [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
-
-**GPU（Graphics Processing Unit，图形处理器）**
-用海量相对精简的核心并行工作的处理器——原本为图形渲染设计，恰好也是深度学习最需要的那种"重复做同一种简单运算"的活。 → [CPU vs GPU：为什么 GPU 赢了深度学习](docs/computing-foundations/cpu-vs-gpu.md)
-
-**RAM（Random Access Memory，内存）**
-CPU/GPU 手边正在用的工作空间——比存储（硬盘）快得多，但断电就没了，容量也小得多。 → [Foundation Zero](docs/computing-foundations/foundation-zero.md) · [内存墙](docs/computing-foundations/memory-wall.md)
-
-**OS（Operating System，操作系统）**
-管理硬件资源、调度所有程序的"总管"——你打开的每个程序，都是 OS 分配资源、安排运行的。 → [Foundation Zero](docs/computing-foundations/foundation-zero.md)
-
-**HBM（High Bandwidth Memory，高带宽内存）**
-为高带宽设计的一种主存，好几片内存裸片堆叠在一起、紧挨着计算芯片摆放，AI 硬件常用它来缓解内存墙。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
-
-#### Runtime
-**运行时** — 真正"执行"东西的那个角色，不管要执行的是一段代码还是一个模型的权重。模型本身是数据，不是代码——得靠 Runtime 才能真正跑起来。
-
-*怎么想象*：模型像一份乐谱，Runtime 是照着乐谱演奏的人——乐谱自己不会响。
-
-*相关*：`Compiler`、`Kernel`
-
-*想深入*：[Software Map](docs/computing-foundations/software-map.md) · [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
-
-**Compiler（编译器）**
-把用编程语言表达出来的工作，翻译成硬件能直接执行的指令。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md) · [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
-
-**Kernel（内核）**
-针对某一种硬件、某一种具体运算，写到极致快的小程序——比如专门做矩阵乘法。CUDA 是这类生态里最有名的例子，但"kernel"是概念，CUDA 只是其中一个实现。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md) · [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
-
-**Hardware/Software Co-design（软硬件协同设计）**
-硬件设计和软件优化互相反馈、一起打磨，不是先造好硬件再配软件——芯片设计会参考真实软件负载的需求，软件优化也针对具体这一代硬件的特性去调。这种长期协同，是像 CUDA 这样的生态护城河难被复制的核心原因之一。 → [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
-
-**Precision（精度）**
-数字用多"精确"的方式表示——精度越高越准，但也越慢越占内存；精度越低换来更快更省，代价是可能损失一点准确率（对应 AI 基础里的 `Quantization` 就是"降精度"的一种做法）。 → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
-
-**FLOPS（Floating-point Operations Per Second，每秒浮点运算次数）**
-衡量硬件一秒钟能做多少次数学运算的单位——不是"这块芯片有多聪明"，是"手有多快"。数字精度越低，同样宽的硬件一次能塞下的数字越多，FLOPS 就越高。 → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
-
-**Memory Wall（内存墙）**
-算力这些年涨得比数据搬运速度快得多，这道越拉越大的差距——计算单元经常不是不够快，是数据没送到。**注意**：这里的 Memory 指硬件内存（RAM/缓存/HBM），不是 Agent 那个"记忆"的 Memory，两者是完全不同的概念，只是中英文都撞了同一个词。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
-
-**Memory Hierarchy（内存层级）**
-离计算单元越近的存储越快越小越贵，越远的越慢越大越便宜——寄存器/缓存 → 主存（RAM，GPU 旁常见的是为高带宽设计的 HBM，同一层级）→ 硬盘，一层套一层，不是哪层"更好"，是每层都在"快"和"大"之间做了不同取舍。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
-
-**Bandwidth vs Capacity（带宽 vs 容量）**
-容量是"能装多少"，带宽是"单位时间能搬多少"——两个独立的维度，容易被当成一件事。HBM 被 AI 硬件看重，主要是因为带宽高，不是因为装得多。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
-
-**Arithmetic Intensity（算术强度）**
-每从内存搬一份数据，能换来多少次运算——比例高，瓶颈在算力（compute-bound）；比例低，瓶颈在搬运（memory-bound）。 → [内存墙：为什么很多时候不是算不动，而是数据送不到](docs/computing-foundations/memory-wall.md)
-
-**Batching（批处理）**
-把多个请求凑在一起、一次性交给硬件处理，比一个一个处理更划算——你的请求有时候"等一下"，可能就是在等凑一批。 → [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
-
-**Interconnect（互连）**
-东西之间怎么互相"说话"的统称——芯片内部有片内总线，服务器内有 NVLink/PCIe，服务器之间有网络/InfiniBand。同一个概念，在不同尺度上换了不同的名字。 → [Hardware Map](docs/computing-foundations/hardware-map.md)
-
-**Accelerator（加速器）**
-专门为某一类计算而设计的处理器，GPU 是最常见的一种，TPU 是另一种——都是"给算力设计"这个问题的不同答案，不是互相升级的关系。 → [Hardware Map](docs/computing-foundations/hardware-map.md)
-
-**Amdahl's Law（阿姆达尔定律）**
-一件工作里，总有一部分本质上没法拆开来并行做（必须按顺序完成）——这部分比例本身就给最大加速倍数封了顶，是理论上限，跟通信/协调开销是两件会叠加、但概念上不同的事。 → [从 1 卡到千卡：为什么算力扩展这么难](docs/computing-foundations/scaling-and-communication.md)
-
-**Yield（良率）**
-一片晶圆切出来的裸片里，能正常工作的比例——新制程刚投产时通常偏低，会随着爬坡逐渐提高；裸片切得越大也越容易踩中瑕疵，良率往往越低。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
-
-**Foundry（代工）**
-设计芯片和制造芯片，通常是两家不同的公司——像 NVIDIA 这样的公司设计芯片，把制造交给专门的代工厂（比如台积电 TSMC）。全世界能造最先进芯片的代工厂只有极少数几家，是产能受限的直接原因。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
-
-**EUV（Extreme Ultraviolet Lithography，极紫外光刻）**
-制造最先进芯片所需的光刻设备——全世界只有荷兰的 ASML 一家能生产。不需要懂它的物理原理，只需要知道：芯片产能的上游，卡在一家公司手上。 → [良率与代工：为什么芯片产能约束 AI](docs/computing-foundations/yield-and-foundry.md)
-
-**Pre-distribution（预分配）**
-在冲击发生前就把普通人嵌入资本形成阶段（比如从出生起建立资本账户、注入 AI 公司股权），而不是等财富已经集中后再靠税收去"再分配"。预分配更难被政治周期推翻，但需要在冲击可见之前就开始建仓。 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
-
-**Property-Rights Mismatch（产权结构错配）**
-AI 时代核心矛盾的重新诊断——传统劳动政策假设问题是技能错配（人的技能跟不上），但如果收入系统性地从劳动转向资本，真正的问题是普通人不拥有 AI 资本。解决办法不是"帮人找下一份工作"，是让人成为 AI 资本的所有者。 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
-
 #### Personal Agent
 不只是回答问题的 chatbot，而是理解用户目标、记住背景、使用工具、并持续替用户把事情往前推进的 AI 系统。交互的基本单位从 prompt 变成 goal，用户关闭 App 后它仍然可以继续工作。Meta 的 Muse 是 2026 年首个大规模消费级 Personal Agent。
 
@@ -513,46 +400,69 @@ Chatbot：用户提问 → AI 回答 → 结束
 Personal Agent：给定目标 → 理解 context → 计划 → 行动 → 监控 → 更新 → 必要时请求授权
 ```
 
-*相关*：[Agent](#agent)、[Calibrated Autonomy](#calibrated-autonomy)、[Trustworthiness](#ai-时代的竞争与信任)
+*相关*：[Agent](#agent)、[Context](#context)、[Memory](#memory)
 
 *想深入*：[Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 
-**Calibrated Autonomy（校准自主权）**
-Personal Agent 的目标不是 Maximum Autonomy（什么都自己做）也不是 Minimum Autonomy（什么都问用户），而是根据决定的影响程度和偏好相关性来校准自主程度——低影响、容易恢复的事 Agent 自己做；高影响、不可逆的事交还用户。好的 Agent 替用户消灭不值得花注意力的决定，而非替用户做所有决定。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
+---
 
-**Agent Economy（Agent 经济）**
-当 AI 从理解 Attention 走向掌握 Intent 并能采取 Action，它可能从信息工具进入真实经济活动——购物、旅行、交易等。Personal Agent 的商业模式因此未必只是订阅费，还可能从它参与的经济活动中获得价值。Attention Economy → Intent Economy → Agent Economy 是三步演化。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
+## 安全、对齐与信任
 
-**Contextual Personalization（上下文个性化）**
-不是记住用户过去选择了什么（"Belinda 喜欢 MacBook Air"），而是理解为什么那个选择在当时成立（"在已有 Mac mini、笔记本主要解决移动需求的条件下，Air 比 Pro 更适合"）。值得保存的不是 Preference，而是 Preference + Context + Constraints + Why。条件改变，推荐也应该改变。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#三personalization-不是记住我喜欢什么)
+#### Interpretability
+**可解释性** — 直接看模型内部在"想什么"——分析神经网络的激活状态，找"说谎""做规划"这类行为对应的内部特征，而不是只看它说出来的话。
 
-**Decision Cost（选择成本）**
-现代互联网给了用户几乎无限的选择，但选择本身越来越成为负担。Personal Agent 最重要的价值之一不是"做我不会做的事"，而是"接管我不想花注意力的选择"——比较几十个航班、酒店、价格、政策这些决定，对用户来说是成本而非价值。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#八personal-agent-真正改变的是选择成本)
+*怎么想象*：以前只能看交上来的考卷（输出），现在尝试看它的草稿纸（内部激活）——字迹潦草，但可能是唯一诚实的东西。
 
-**Pacing the Frontier（前沿节奏控制）**
-不是停止 AI 进步，而是让 AI 能力增长的速度不要长期超过人类理解、评估和控制它的速度——给安全、治理和社会买时间。真正的瓶颈不是 pacing 本身，而是 Coordination（怎么让所有参与者同步减速）和 Verification（怎么验证别人确实减速了）。 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
+*相关*：[Alignment](#alignment)、[CoT Monitoring](#cot-monitoring)
 
-**Capability Thresholds（能力阈值）**
-不是限制 AI 公司一年能训练多少模型，而是定义一组危险能力边界（autonomous cyber operations、biological assistance、autonomous replication、AI R&D automation 等），模型跨过阈值时自动触发更严格的安全评估和限制。类似"车越快，刹车标准越高"。 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md#capability-thresholds)
+*想深入*：[AI Safety / Alignment 完全指南](docs/ai-core/safety-alignment-guide.md)（互补思路） · [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)
 
-**Embedded Evaluators（嵌入式评估者）**
-让独立安全评估机构进入 frontier AI labs，获得接近内部员工级别的信息和系统访问权限进行审计——不是公司自己发布 Safety Report，而是第三方独立验证。Dario Amodei 在 *We Must Pace the Frontier* 中提出的核心机制。 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md#embedded-evaluators)
+#### CoT Monitoring
+**思维链监控（Chain-of-Thought Monitoring）** — 趁模型用自然语言"自言自语"时读它的思考过程，是目前人类监控 AI 意图最重要的一扇窗口——Noam Brown 称之为"天赐的礼物"。但它极其脆弱：因为"动了坏念头"就惩罚模型，只会教它把坏念头藏进不可观测的地方；正确做法是只惩罚可观察的坏行动。
 
-**Muse（Meta Personal Agent）**
-Meta 于 2026 年 9 月发布的消费级 Personal Agent。运行在独立的 Muse Secure VM 中，可使用浏览器和连接的服务完成多步骤任务，用户关闭 App 后仍继续工作。Muse Spark 是其底层 agentic intelligence / model layer，已进入部分 Meta AI glasses。 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+*怎么想象*：像趁一个人说梦话时听他的真心话——但如果你因为梦话惩罚他，他学会的不是向善，而是闭嘴。
 
-**期限溢价（Term Premium）**
-投资者持有长债而非滚动买短债所要求的额外补偿。QE 时代各国央行把自己变成长债的价格不敏感买家，人为把它压到零甚至负值；现在财政赤字、政策不确定性、通胀波动性、海外需求下降四股力量同向施压，100–150bp 才是历史常态。 → [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
+*相关*：[Interpretability](#interpretability)、[Alignment](#alignment)
 
-**久期（Duration）**
-你要等多久才能拿回钱。等的时间越长，利率变动对资产价格的杀伤力越大——高利率环境里，市场对等待时间的容忍度大幅下降，所以"久期是敌人"。 → [美国10年期国债收益率突破5%](docs/career-impact/10y-treasury-yield-5-percent.md)
+*想深入*：[递归自我改进](docs/ai-research/recursive-self-improvement.md)
+
+#### Scalable Oversight
+**可扩展监督** — 当模型能力超过人类时，人类怎么判断它的输出是否正确？两条路径：Debate（让两个 AI 互辩，人类判断谁更可信）和 Recursive Reward Modeling（把复杂任务拆成人类能判断的小块）。
+
+*怎么想象*：老师看不懂学生的解题过程了——办法不是让老师变聪明，而是让两个学生互相挑错，老师当裁判。
+
+*相关*：[Alignment](#alignment)、[Eval](#eval)
+
+*想深入*：[AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)
+
+#### Calibrated Trust
+**校准信任** — 不是"信不信 AI"的一刀切，而是把信任拆开校准：这个任务上它可靠度 90%，那个任务上只有 60%——人机系统的表现 = AI 能力 × 人类感知准确度。
+
+*怎么想象*：不是给 AI 发"好人卡"或"坏人卡"，而是像看天气预报——说 70% 下雨，就得十次下七次，准了才敢带伞。
+
+*相关*：[Alignment](#alignment)、[Eval](#eval)
+
+*想深入*：[Scaling Paradox](docs/career-impact/scaling-paradox.md) · [Personal Agents](docs/career-impact/personal-agents-agent-economy.md)
+
+---
+
+## 前沿 AI
+
+#### RSI
+**Recursive Self-Improvement，递归自我改进** — AI 系统加速 AI 研发本身的过程——用更强的模型训练出更强的模型。OpenAI 的内部数据显示 agent 劳动已超人类劳动 3.1 倍，但 10× 的 R&D 生产力只能转化为约 1.5-2× 的能力进步速度。
+
+*怎么想象*：不是"AI 一夜变聪明 100 倍"——实验是串行的、GPU 是物理的；但叠加在已经指数级的进步曲线上，哪怕只有约 3 倍加速，也是翻天覆地。
+
+*相关*：[Training](#training)、[Agent](#agent)
+
+*想深入*：[Research Acceleration](docs/ai-research/research-acceleration.md) · [递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
 
 ---
 
 ## 还看不懂某个词？
 
-如果这里没有你要找的词，去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了更细的概念，每个都直接链接到讨论它的具体文章。
+去 [全部概念索引](index-all-concepts.md) 按字母查——那边收录了所有学过的概念（概念 → 一句话 → 来源文章），是这张主干地图之外的完整知识地图。
 
 ---
 
-**最后更新**: September 18, 2026
+**最后更新**: September 20, 2026

@@ -4,7 +4,7 @@
 
 **关键洞察**: 对齐真正难的地方不是"教模型别做坏事"，是"人类想要的东西本身很难被完整、精确地写成一个可优化的目标"——只要目标和真实意图之间有缝隙，模型就可能学会"钻空子式地"把缝隙里那个更容易的东西优化到底，而不是我们真正想要的结果。这个现象叫 **specification gaming（目标设定的漏洞利用）**，不是 AI 独有的问题，是任何"用一个代理指标去衡量真实目标"的系统都会遇到的问题。
 
-**第一次接触这个主题？** 建议先了解：[Training](../../glossary.md#training) · [RLHF](../ai-research/evaluation-system.md#rlhf-三步流程) · [Evaluation](../../glossary.md#evaluation)
+**第一次接触这个主题？** 建议先了解：[Training](../../glossary.md#training) · [RLHF](../ai-research/evaluation-system.md#rlhf-三步流程) · [Eval](../../glossary.md#eval)
 
 ---
 

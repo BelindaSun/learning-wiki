@@ -6,7 +6,7 @@
 
 📖 **完整学习对话记录**：本文即完整学习记录。
 
-**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [可信度五维框架](capability-to-trust.md) · [RSI](../../glossary.md#ai-时代的竞争与信任)
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [可信度五维框架](capability-to-trust.md) · [RSI](../../glossary.md#rsi)
 
 ---
 
@@ -99,7 +99,7 @@ RubyGems、OpenAI–Hugging Face incident，以及 Anthropic 自己披露的安�
 
 ## 3. Recursive Self-Improvement：增长速度本身也在增长
 
-这里最重要的概念之一是 [Recursive Self-Improvement](../../glossary.md#ai-时代的竞争与信任)。
+这里最重要的概念之一是 [Recursive Self-Improvement](../../glossary.md#rsi)。
 
 过去：**Human → Better AI**
 
@@ -201,7 +201,7 @@ RubyGems、OpenAI–Hugging Face incident，以及 Anthropic 自己披露的安�
 
 ### Safety Gates
 
-**Capability X reached** → 必须完成 Evaluation + Alignment testing + Interpretability checks + [Containment](../../glossary.md#ai-基础) + Security review → 才能继续进入下一阶段。
+**Capability X reached** → 必须完成 Evaluation + Alignment testing + Interpretability checks + [Containment](../ai-core/safety-three-layer-framework.md#containment-工程架构) + Security review → 才能继续进入下一阶段。
 
 这和汽车很像：**车越快，刹车标准越高。** 目标不是禁止制造快车，而是不允许发动机能力远远超过刹车能力。
 
@@ -323,7 +323,7 @@ Capability → Risk → Pacing → Competition → Coordination → Verification
 - 和 [从"最聪明"到"最可信"](capability-to-trust.md) 直接相关——Auditability 从产品层面上升到国际治理层面
 - 和 [Scaling Paradox](scaling-paradox.md) 相关——Capability ↑↑ vs Governance ↑ 正是两条曲线差距扩大的具体表现
 - 和 [Research Acceleration](../ai-research/research-acceleration.md) 直接相关——RSI 是 pacing 最需要关注的对象
-- 和 [AI Safety 的三层防护框架](../ai-core/safety-three-layer-framework.md) 相关——[Defense in Depth](../../glossary.md#ai-基础) 从单个系统的安全设计，延伸到整个行业的治理结构
+- 和 [AI Safety 的三层防护框架](../ai-core/safety-three-layer-framework.md) 相关——[Defense in Depth](../ai-core/safety-three-layer-framework.md#containment-工程架构) 从单个系统的安全设计，延伸到整个行业的治理结构
 - 和 [AI 与经济丰饶的分配问题](ai-economic-distribution.md) 相关——pacing 的国际协调和经济政策的国际协调面临同样的博弈结构
 - 和 [Personal Agents](personal-agents-agent-economy.md) 相关——当 [Personal Agent](../../glossary.md#personal-agent) 开始参与真实经济活动，agent 行为的治理变得更紧迫
 

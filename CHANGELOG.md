@@ -4,6 +4,16 @@
 
 ## September 2026
 
+### [v6.9] - September 20, 2026
+
+#### 🏗️ 结构性整改：Glossary 瘦身为知识主干
+
+**[术语表](glossary.md)** 从 112 个词条（含大量子条目）重组为 **42 个 unique 核心术语**，分 6 大类：AI 基础（14）、AI 系统（9）、计算与基础设施（9）、Agent 与规模化（5）、安全、对齐与信任（4）、前沿 AI（1）。收录标准：四问门（跨文章反复出现、稳定通用、不懂会妨碍理解、一句话能建心智模型）。
+
+**知识没有删除，只有搬家**：约 60 条子概念迁入 [全部概念索引](index-all-concepts.md)（Concept Index，概念 → 一句话 → 来源文章，现共 217 个概念）；Calibrated Autonomy 与并行化惩罚进入 [心智模型](mental-models.md)；期限溢价/久期/Pre-distribution 与 Yield/Foundry/EUV 分别标注 〔宏观金融〕/〔半导体〕，未来独立成区。7 个新词有出处：Eval、Multi-Agent、Test-Time Compute、Parallelism、Interpretability、Calibrated Trust、RSI（晋升）。
+
+**链接**：全站 60+ 处旧锚点已修复（旧分类锚点 → 具体词条/文章章节锚点），无断链。
+
 ### [v6.8] - September 20, 2026
 
 #### 🔄 更新：Noam Brown Dwarkesh 访谈全文校准

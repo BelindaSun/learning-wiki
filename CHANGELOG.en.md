@@ -2,6 +2,16 @@
 
 ## September 2026
 
+### [v6.9] - September 20, 2026
+
+#### Structural overhaul: Glossary trimmed to the knowledge trunk
+
+**[Glossary](glossary.en.md)** reorganized from 112 entries (with many sub-entries) into **42 unique core terms** across 6 categories: AI Foundations (14), AI Systems (9), Compute & Infrastructure (9), Agents & Scaling (5), Safety, Alignment & Trust (4), Frontier AI (1). Admission test: four questions (recurs across articles, stable and general, blocks understanding if unknown, builds a mental model in one sentence).
+
+**No knowledge deleted, only moved**: ~60 sub-concepts moved into the [Concept Index](index-all-concepts.md) (concept → one-liner → source article, now 217 concepts); Calibrated Autonomy and the parallelization penalty entered [Mental Models](mental-models.en.md); Term Premium / Duration / Pre-distribution and Yield / Foundry / EUV tagged for future Macro/Investing and semiconductor areas. 7 new terms all sourced: Eval, Multi-Agent, Test-Time Compute, Parallelism, Interpretability, Calibrated Trust, RSI (promoted).
+
+**Links**: 60+ old anchors across the site repaired (old category anchors → specific term/article anchors), no broken links.
+
 ### [v6.8] - September 20, 2026
 
 #### Updated: Noam Brown Dwarkesh interview, full-text calibration

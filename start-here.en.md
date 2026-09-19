@@ -29,7 +29,7 @@ A Model is an engine; a Product is a vehicle built around an engine. One model c
 
 **Common misconception**: “ChatGPT is AI.” ChatGPT is one AI product powered by GPT models; AI is the larger category.
 
-**Related concepts**: [AI](glossary.md#ai-基础) · [LLM](glossary.md#ai-基础) · [Model](glossary.md#ai-基础)
+**Related concepts**: [AI](glossary.md#ai) · [LLM](glossary.md#llm) · [Model](glossary.md#model)
 
 ## 02 · Why Can an LLM Speak?
 

@@ -1,10 +1,10 @@
 # Personal Agents — From Chatbots to an Agent Economy
 
-**Core insight**: A chatbot answers questions; a [Personal Agent](../../glossary.md#personal-agent) understands goals, remembers context, uses tools, and continuously pushes things forward on your behalf. AI is moving from the Conversation Layer into the Action Layer — from competing for Attention, to understanding Intent, to taking Action for people. The truly hard problem is not Maximum Autonomy but [Calibrated Autonomy](../../glossary.md#calibrated-autonomy): knowing when to act on my behalf and when to stop and ask me.
+**Core insight**: A chatbot answers questions; a [Personal Agent](../../glossary.md#personal-agent) understands goals, remembers context, uses tools, and continuously pushes things forward on your behalf. AI is moving from the Conversation Layer into the Action Layer — from competing for Attention, to understanding Intent, to taking Action for people. The truly hard problem is not Maximum Autonomy but [Calibrated Autonomy](../../mental-models.en.md): knowing when to act on my behalf and when to stop and ask me.
 
 **Sources**: Meta Muse Personal Agent (Sep 2026) · Zuckerberg × Alex Heath interview (Sep 2026) · Hands-on testing of Muse
 📖 **Full learning record**: This article is the full learning record, including the testing process and analysis
-**New to this topic?** Suggested prerequisites: [Agent](../../glossary.md#agent) · [From "smartest" to "most trustworthy"](capability-to-trust.md) · [Trustworthiness](../../glossary.md#ai-时代的竞争与信任) · [Agent system architecture](../ai-core/agent-architecture.md)
+**New to this topic?** Suggested prerequisites: [Agent](../../glossary.md#agent) · [From "smartest" to "most trustworthy"](capability-to-trust.md) · [Trustworthiness](capability-to-trust.en.md) · [Agent system architecture](../ai-core/agent-architecture.md)
 
 ---
 
@@ -44,7 +44,7 @@ A [Personal Agent](../../glossary.md#personal-agent) changes this fundamental un
 Goal → Understand Context → Plan → Use Tools → Act → Monitor → Update → Ask for Approval when Necessary
 ```
 
-In September 2026, Meta released the Muse Personal Agent. Meta's positioning was very direct: Muse is not just about answering questions — it actually completes work on the user's behalf. It runs inside a dedicated [Muse Secure VM](../../glossary.md#muse), can use a browser and connected services to carry out multi-step tasks, and keeps working after the user closes the app, coming back to the user only when it needs a decision or authorization.
+In September 2026, Meta released the Muse Personal Agent. Meta's positioning was very direct: Muse is not just about answering questions — it actually completes work on the user's behalf. It runs inside a dedicated [Muse Secure VM](../../glossary.md#personal-agent), can use a browser and connected services to carry out multi-step tasks, and keeps working after the user closes the app, coming back to the user only when it needs a decision or authorization.
 
 This means AI is moving from the **Conversation Layer** into the **Action Layer**.
 
@@ -80,7 +80,7 @@ So I asked it: *Are you sure this is the best fit for me? Is there anything abou
 
 After re-examining its own reasoning, it discovered missing key variables: I already own a Mac mini M4; heavy tasks can stay on the Mac mini; the laptop is mainly for portability; and I'm not a professional developer. The recommendation changed immediately: **MacBook Pro → MacBook Air**.
 
-This small episode taught me an important distinction within [Contextual Personalization](../../glossary.md#contextual-personalization):
+This small episode taught me an important distinction within [Contextual Personalization](#3-personalization-is-not-remembering-what-i-like):
 
 Wrong Personalization: *Belinda likes the MacBook Air.*
 
@@ -112,7 +112,7 @@ This revealed a very deep problem for Personal Agents: **Decision Rights** — w
 
 If an Agent asks "Is this okay? What's next?" at every step, it's safe — but it has essentially lost the point of being an Agent, turning the user back into a project manager. Conversely, if the Agent decides everything for the user, it may be efficient but could cross genuinely important preferences and boundaries.
 
-Therefore the goal of an excellent Personal Agent should not be Maximum Autonomy but **[Calibrated Autonomy](../../glossary.md#calibrated-autonomy)**:
+Therefore the goal of an excellent Personal Agent should not be Maximum Autonomy but **[Calibrated Autonomy](../../mental-models.en.md)**:
 
 | Condition | Who decides |
 |---|---|
@@ -164,7 +164,7 @@ After using Muse for a few hours, I realized what I liked most about it was not 
 
 Dozens of flights, dozens of hotels, different room types, different cancellation policies, different prices, different locations — and then having to answer: which is best?
 
-What a Personal Agent may solve is a chronically underestimated cost: **[Decision Cost](../../glossary.md#decision-cost)**. The modern internet gives us nearly unlimited choice, but choice itself is increasingly becoming a burden.
+What a Personal Agent may solve is a chronically underestimated cost: **[Decision Cost](#8-what-personal-agents-really-change-the-cost-of-choosing)**. The modern internet gives us nearly unlimited choice, but choice itself is increasingly becoming a burden.
 
 So one of the most important values of a Personal Agent may not be "Do what I cannot do" but rather "**Take care of what I don't want to spend attention on**."
 
@@ -192,7 +192,7 @@ When Zuckerberg discussed the long-term business model for Muse, one key idea st
 
 This means the business model for a Personal Agent may not just be a $20/month subscription. If Agents begin participating in real economic activity (shopping, travel, local services, commerce, transactions), platforms may also capture a share of the value from these activities. The one paying may not even be the user — it could be the business transacting with the user.
 
-The [Agent Economy](../../glossary.md#agent-economy) formula:
+The [Agent Economy](#10-agent-economy) formula:
 
 ```
 Personal Context → Intent → Agent Action → Economic Activity → Monetization
@@ -204,7 +204,7 @@ This is also one of the most interesting potential return paths for Meta's massi
 
 ## 11. The stronger the Capability, the more Trust matters
 
-The [Agent Economy](../../glossary.md#agent-economy) has an unavoidable prerequisite: **Trust**.
+The [Agent Economy](#10-agent-economy) has an unavoidable prerequisite: **Trust**.
 
 When a chatbot gives a wrong answer, the user gets an incorrect response. When a Personal Agent makes a mistake — it might actually do something wrong. Because it can access accounts, send emails, fill out forms, purchase goods, book travel, and run in the background for extended periods.
 
@@ -220,7 +220,7 @@ Actual Trustworthiness = Task Capability × Governance Quality
 
 Governance includes at minimum: Predictable, Explainable, Auditable, Controllable, Recoverable.
 
-Meta designed a dedicated [Muse Secure VM](../../glossary.md#muse) for Muse, placing the Agent and user-related data in a specialized environment. The system includes safety mechanisms for Agent behavior and re-requests authorization when sensitive operations require the user's decision. Meta has also explicitly acknowledged that Personal Agents introduce new attack surfaces distinct from traditional chatbots.
+Meta designed a dedicated [Muse Secure VM](../../glossary.md#personal-agent) for Muse, placing the Agent and user-related data in a specialized environment. The system includes safety mechanisms for Agent behavior and re-requests authorization when sensitive operations require the user's decision. Meta has also explicitly acknowledged that Personal Agents introduce new attack surfaces distinct from traditional chatbots.
 
 The future competition among Agents will not only be: whose benchmark is higher? It will also be: **who is more worthy of being authorized?**
 
@@ -247,7 +247,7 @@ There is another trajectory of Muse particularly worth watching: **AI Glasses**.
 
 Two things need to be distinguished here:
 
-- **[Muse Spark](../../glossary.md#muse)**: Meta's agentic intelligence / model layer, which has already begun entering some Meta AI glasses, enabling AI to understand the real world the wearer is facing through the glasses' camera and multimodal capabilities.
+- **[Muse Spark](../../glossary.md#personal-agent)**: Meta's agentic intelligence / model layer, which has already begun entering some Meta AI glasses, enabling AI to understand the real world the wearer is facing through the glasses' camera and multimodal capabilities.
 - **Muse Personal Agent**: the Personal Agent that understands personal goals, continuously executes tasks, uses services, and works in the background. Meta has announced that Muse is coming soon to AI glasses.
 
 If these two layers truly converge in the future:
@@ -321,7 +321,7 @@ Answer                     Personal Context
 ```
 
 Two boundaries always surround the entire system:
-- **[Calibrated Autonomy](../../glossary.md#calibrated-autonomy)**: How much should AI do on its own?
+- **[Calibrated Autonomy](../../mental-models.en.md)**: How much should AI do on its own?
 - **Calibrated Trust**: How much should I trust it?
 
 When a Personal Agent gains the ability to perceive the real world (Context + Memory + Tools + Action + Persistence + Vision), what we may see is no longer just a smarter chatbot but a new kind of **Personal Intelligence Layer**.

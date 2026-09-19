@@ -4,7 +4,7 @@
 
 **Sources**: Anthropic "Scenarios for our Economic Future" (Korinek et al. 2026) · Anthropic "Economic Policy Framework" (June 2026)
 📖 **Full learning record**: [AI and the Distribution Problem of Economic Abundance](../conversations/ai-economic-distribution.md)
-**New to this topic?** Suggested prerequisites: [Scaling Paradox](scaling-paradox.md) · [Domain Expertise and Organizational Change](domain-expertise-and-org-design.md) · [RSI](../../glossary.md#ai-时代的竞争与信任)
+**New to this topic?** Suggested prerequisites: [Scaling Paradox](scaling-paradox.md) · [Domain Expertise and Organizational Change](domain-expertise-and-org-design.md) · [RSI](../../glossary.md#rsi)
 
 ---
 

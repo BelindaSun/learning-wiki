@@ -6,7 +6,7 @@
 
 📖 **Full learning record**: This article is the complete learning record.
 
-**New to this topic?** Start with: [Agent](../../glossary.md#agent) · [Trustworthiness Framework](capability-to-trust.md) · [RSI](../../glossary.md#ai-时代的竞争与信任)
+**New to this topic?** Start with: [Agent](../../glossary.md#agent) · [Trustworthiness Framework](capability-to-trust.md) · [RSI](../../glossary.md#rsi)
 
 ---
 
@@ -99,7 +99,7 @@ This is why "should we pace?" deserves more serious discussion now than a few ye
 
 ## 3. Recursive Self-Improvement: the growth rate itself is growing
 
-One of the most important concepts here is [Recursive Self-Improvement](../../glossary.md#ai-时代的竞争与信任).
+One of the most important concepts here is [Recursive Self-Improvement](../../glossary.md#rsi).
 
 Past: **Human → Better AI**
 
@@ -201,7 +201,7 @@ When a model crosses one of these thresholds, stricter safety requirements are a
 
 ### Safety Gates
 
-**Capability X reached** → must complete Evaluation + Alignment testing + Interpretability checks + [Containment](../../glossary.md#ai-基础) + Security review → before proceeding to the next stage.
+**Capability X reached** → must complete Evaluation + Alignment testing + Interpretability checks + [Containment](../ai-core/safety-three-layer-framework.en.md#containment-bound-the-consequences) + Security review → before proceeding to the next stage.
 
 The analogy is automotive: **the faster the car, the higher the braking standard.** The goal is not to ban fast cars but to prohibit engines that vastly outstrip braking capability.
 
@@ -323,7 +323,7 @@ That may be the core problem of Pacing the Frontier.
 - Directly linked to [From Smartest to Most Trustworthy](capability-to-trust.md) — Auditability rises from a product-level feature to international governance infrastructure
 - Related to [Scaling Paradox](scaling-paradox.md) — Capability ↑↑ vs Governance ↑ is exactly the two-curve gap widening
 - Directly linked to [Research Acceleration](../ai-research/research-acceleration.md) — RSI is the primary object pacing should focus on
-- Related to [AI Safety in Three Layers](../ai-core/safety-three-layer-framework.md) — [Defense in Depth](../../glossary.md#ai-基础) extends from individual system design to industry-wide governance
+- Related to [AI Safety in Three Layers](../ai-core/safety-three-layer-framework.md) — [Defense in Depth](../ai-core/safety-three-layer-framework.en.md#containment-bound-the-consequences) extends from individual system design to industry-wide governance
 - Related to [AI and the Distribution of Economic Abundance](ai-economic-distribution.md) — international pacing coordination and economic policy coordination face the same game-theoretic structure
 - Related to [Personal Agents](personal-agents-agent-economy.md) — as [Personal Agents](../../glossary.md#personal-agent) participate in real economic activity, agent behavior governance becomes more urgent
 

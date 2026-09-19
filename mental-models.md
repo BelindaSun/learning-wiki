@@ -4,6 +4,14 @@
 
 ---
 
+**Calibrated autonomy ≠ maximum autonomy**（Sep 20）
+以为 Personal Agent 越自主越好；现在明白优秀 Agent 的目标不是 Maximum Autonomy，而是 Calibrated Autonomy——知道什么时候替我行动，什么时候停下来问我。真正困难的不是"放手"，是"校准"。
+→ 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
+
+**并行化不是免费加速**（Sep 20）
+以为卡越多、Agent 越多，事情就越快；Amdahl's Law 提醒：总有一部分工作本质上拆不开，并行化首先换的是延迟（花 2 倍算力换一半等待时间），协调本身也要花时间。
+→ 详见 [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md) · [Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.md)
+
 **对齐是光谱，不是开关**（Sep 20）
 以为对齐是"通过/不通过"的二元状态；Noam Brown 说作弊率"就像一个光谱，越接近零越好"——1% 的作弊率远远不够，必须趋近于零；而且评估指标本身可能根本没捕捉到真正的对齐状态，"若未能触及本质，我们便面临着严峻的危机"。
 → 详见 [递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md#对齐之辩从没人告密到代际衰减)

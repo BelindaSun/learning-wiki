@@ -4,6 +4,14 @@
 
 ---
 
+**Calibrated autonomy ≠ maximum autonomy** (Sep 20)
+I assumed a Personal Agent should be as autonomous as possible. Now I see the goal isn't Maximum Autonomy but Calibrated Autonomy — knowing when to act on my behalf and when to stop and ask. The hard part isn't letting go; it's calibration.
+→ Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.en.md#5-calibrated-autonomy)
+
+**Parallelization is not free speedup** (Sep 20)
+I assumed more chips and more agents always meant faster. Amdahl's Law says some work is inherently sequential — parallelization buys latency first (2× compute for half the wait), and coordination itself costs time.
+→ Read [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.en.md) · [Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.en.md)
+
 **Alignment is a spectrum, not a switch** (Sep 20)
 I treated alignment as pass/fail. Noam Brown says the cheating rate "is like a spectrum — the closer to zero the better": 1% cheating is nowhere near good enough; it must approach zero. And the evaluation metrics themselves may not capture real alignment at all — "if they don't get at the essence, we're in serious trouble."
 → Read [Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md#the-alignment-debate-from-nobody-snitched-to-generational-decay)

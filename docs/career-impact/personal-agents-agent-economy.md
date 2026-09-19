@@ -1,10 +1,10 @@
 # Personal Agents — From Chatbots to an Agent Economy
 
-**核心洞察**: Chatbot 回答问题，[Personal Agent](../../glossary.md#personal-agent) 理解目标、记住背景、使用工具、持续替人把事情往前推进。AI 正从 Conversation Layer 进入 Action Layer——从争夺 Attention，走向理解 Intent，再走向替人 Action。真正困难的问题不是 Maximum Autonomy，而是 [Calibrated Autonomy](../../glossary.md#calibrated-autonomy)：知道什么时候应该替我行动，什么时候应该停下来问我。
+**核心洞察**: Chatbot 回答问题，[Personal Agent](../../glossary.md#personal-agent) 理解目标、记住背景、使用工具、持续替人把事情往前推进。AI 正从 Conversation Layer 进入 Action Layer——从争夺 Attention，走向理解 Intent，再走向替人 Action。真正困难的问题不是 Maximum Autonomy，而是 [Calibrated Autonomy](../../mental-models.md)：知道什么时候应该替我行动，什么时候应该停下来问我。
 
 **学习来源**: Meta Muse Personal Agent (Sep 2026) · Zuckerberg × Alex Heath 访谈 (Sep 2026) · 亲自测试 Muse
 📖 **完整学习对话记录**：本文即完整学习记录，包含测试过程与分析
-**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [从"最聪明"到"最可信"](capability-to-trust.md) · [Trustworthiness](../../glossary.md#ai-时代的竞争与信任) · [Agent 系统架构](../ai-core/agent-architecture.md)
+**第一次接触这个主题？** 建议先了解：[Agent](../../glossary.md#agent) · [从"最聪明"到"最可信"](capability-to-trust.md) · [Trustworthiness](capability-to-trust.md) · [Agent 系统架构](../ai-core/agent-architecture.md)
 
 ---
 
@@ -44,7 +44,7 @@ User → Prompt → AI → Answer
 Goal → Understand Context → Plan → Use Tools → Act → Monitor → Update → Ask for Approval when Necessary
 ```
 
-2026 年 9 月，Meta 发布了 Muse Personal Agent。Meta 对它的定位非常直接：Muse 不只是回答问题，而是实际替用户完成工作。它运行在一个专门的 [Muse Secure VM](../../glossary.md#muse) 中，可以使用浏览器和连接的服务完成多步骤任务；用户关闭 App 后，它仍然可以继续工作，需要决定或授权时再回来找用户。
+2026 年 9 月，Meta 发布了 Muse Personal Agent。Meta 对它的定位非常直接：Muse 不只是回答问题，而是实际替用户完成工作。它运行在一个专门的 [Muse Secure VM](../../glossary.md#personal-agent) 中，可以使用浏览器和连接的服务完成多步骤任务；用户关闭 App 后，它仍然可以继续工作，需要决定或授权时再回来找用户。
 
 这意味着 AI 正在从 **Conversation Layer** 进入 **Action Layer**。
 
@@ -80,7 +80,7 @@ Intelligence + Presence
 
 它重新检查自己的推理后发现缺少关键变量：我已经有一台 Mac mini M4；重任务可以留给 Mac mini；笔记本主要是为了移动方便；并不是职业开发者。推荐立即改变：**MacBook Pro → MacBook Air**。
 
-这件小事让我理解了 [Contextual Personalization](../../glossary.md#contextual-personalization) 中一个很重要的区别：
+这件小事让我理解了 [Contextual Personalization](#三personalization-不是记住我喜欢什么) 中一个很重要的区别：
 
 错误的 Personalization：*Belinda 喜欢 MacBook Air。*
 
@@ -112,7 +112,7 @@ Muse 选择了日期、航班、酒店、房型、交通方式、活动和预算
 
 一个 Agent 如果每一步都问"可以吗？下一步呢？"——它很安全，但几乎失去了 Agent 的意义，用户重新变成项目经理。反过来，如果 Agent 什么都替用户决定——它虽然高效，却可能越过真正重要的偏好和边界。
 
-因此优秀 Personal Agent 的目标不应该是 Maximum Autonomy，而应该是 **[Calibrated Autonomy](../../glossary.md#calibrated-autonomy)**：
+因此优秀 Personal Agent 的目标不应该是 Maximum Autonomy，而应该是 **[Calibrated Autonomy](../../mental-models.md)**：
 
 | 条件 | 谁决定 |
 |---|---|
@@ -164,7 +164,7 @@ Muse 发布当天，Meta CEO Mark Zuckerberg 接受 Alex Heath 采访。其中�
 
 几十个航班、几十家酒店、不同房型、不同 cancellation policy、不同价格、不同地点——然后还要回答：哪个最好？
 
-Personal Agent 解决的可能是一个长期被低估的成本：**[Decision Cost](../../glossary.md#decision-cost)**。现代互联网给了我们几乎无限的 choice，但 choice 本身越来越成为负担。
+Personal Agent 解决的可能是一个长期被低估的成本：**[Decision Cost](#八personal-agent-真正改变的是选择成本)**。现代互联网给了我们几乎无限的 choice，但 choice 本身越来越成为负担。
 
 因此 Personal Agent 最重要的价值之一可能不是"Do what I cannot do"，而是"**Take care of what I don't want to spend attention on**"。
 
@@ -192,7 +192,7 @@ Zuckerberg 在谈到 Muse 的长期商业模式时，一个很重要的思想是
 
 这意味着 Personal Agent 的商业模式未必只是 $20/month subscription。如果 Agent 开始参与真实经济活动（购物、旅行、local services、commerce、transactions），平台也可能从这些经济活动中获得一部分价值。甚至支付这笔钱的未必是用户，也可能是与用户交易的 business。
 
-[Agent Economy](../../glossary.md#agent-economy) 的公式：
+[Agent Economy](#十agent-economy) 的公式：
 
 ```
 Personal Context → Intent → Agent Action → Economic Activity → Monetization
@@ -204,7 +204,7 @@ Personal Context → Intent → Agent Action → Economic Activity → Monetizat
 
 ## 十一、Capability 越强，Trust 越重要
 
-[Agent Economy](../../glossary.md#agent-economy) 有一个无法绕开的前提：**Trust**。
+[Agent Economy](#十agent-economy) 有一个无法绕开的前提：**Trust**。
 
 一个 chatbot 答错问题，用户可能得到一个错误答案。一个 Personal Agent 出错——它可能真的做错事情。因为它能够访问账户、发送邮件、填写表格、购买商品、预订旅行、长期在后台运行。
 
@@ -220,7 +220,7 @@ Actual Trustworthiness = Task Capability × Governance Quality
 
 Governance 至少包括：Predictable、Explainable、Auditable、Controllable、Recoverable。
 
-Meta 为 Muse 设计了独立的 [Muse Secure VM](../../glossary.md#muse)，把 Agent 和用户相关数据放在专门环境中；系统包含针对 Agent 行为的安全机制，并在敏感操作需要用户决定时重新请求授权。Meta 也明确承认 Personal Agent 带来了与传统 chatbot 不同的新攻击面。
+Meta 为 Muse 设计了独立的 [Muse Secure VM](../../glossary.md#personal-agent)，把 Agent 和用户相关数据放在专门环境中；系统包含针对 Agent 行为的安全机制，并在敏感操作需要用户决定时重新请求授权。Meta 也明确承认 Personal Agent 带来了与传统 chatbot 不同的新攻击面。
 
 未来 Agent 的竞争不会只是：谁的 benchmark 更高？还会是：**谁更值得被授权？**
 
@@ -247,7 +247,7 @@ Muse 还有一条特别值得观察的路线：**AI Glasses**。
 
 这里需要区分两个东西：
 
-- **[Muse Spark](../../glossary.md#muse)**：Meta 的 agentic intelligence / model layer，已经开始进入部分 Meta AI glasses，使 AI 通过眼镜的 camera 和 multimodal capabilities 理解佩戴者正在面对的现实世界。
+- **[Muse Spark](../../glossary.md#personal-agent)**：Meta 的 agentic intelligence / model layer，已经开始进入部分 Meta AI glasses，使 AI 通过眼镜的 camera 和 multimodal capabilities 理解佩戴者正在面对的现实世界。
 - **Muse Personal Agent**：能够理解个人目标、持续执行任务、使用服务并在后台工作的 Personal Agent。Meta 已经宣布 Muse is coming soon to AI glasses。
 
 如果未来这两层真正结合：
@@ -321,7 +321,7 @@ Answer                     Personal Context
 ```
 
 整个系统外围始终存在两条边界：
-- **[Calibrated Autonomy](../../glossary.md#calibrated-autonomy)**：AI 应该自己做多少？
+- **[Calibrated Autonomy](../../mental-models.md)**：AI 应该自己做多少？
 - **Calibrated Trust**：我应该相信它多少？
 
 当 Personal Agent 再获得现实世界的感知能力（Context + Memory + Tools + Action + Persistence + Vision），我们可能看到的就不再只是一个更聪明的 chatbot，而是一种新的 **Personal Intelligence Layer**。

@@ -24,7 +24,7 @@ The 10Y yield touched 5.014% intraday before retreating to about 4.96%. A break 
 
 ## 2. Decomposing the 10Y Yield: Three Components
 
-10-year Treasury yield = expected future short-term rates + long-term inflation expectations + [term premium](../../glossary.md#ai-时代的竞争与信任). Right now **all three components are under pressure, and they reinforce each other**.
+10-year Treasury yield = expected future short-term rates + long-term inflation expectations + [term premium](#23-term-premium-from-negative-to-positive--and-widening). Right now **all three components are under pressure, and they reinforce each other**.
 
 ### 2.1 Short-Rate Expectations: The Fed Is Pinned High
 
@@ -42,7 +42,7 @@ The 10Y yield touched 5.014% intraday before retreating to about 4.96%. A break 
 
 ### 2.3 Term Premium: From Negative to Positive — and Widening
 
-[Term premium](../../glossary.md#ai-时代的竞争与信任) is the extra compensation investors demand for holding long bonds instead of rolling short ones. Four forces are pushing it up:
+[Term premium](#23-term-premium-from-negative-to-positive--and-widening) is the extra compensation investors demand for holding long bonds instead of rolling short ones. Four forces are pushing it up:
 
 1. **Surging deficits and bond supply:** The government issues too much long debt, the market can't absorb it, prices fall, yields rise.
 2. **Policy uncertainty:** Trade wars, tariffs, fiscal negotiations, the debt ceiling.
@@ -146,7 +146,7 @@ Things that earn real money today are worth far more than things that "might ear
 
 ### Duration Is the Enemy
 
-[Duration](../../glossary.md#ai-时代的竞争与信任) is how long you wait to get your money back. The longer the wait, the harder rate moves hit you. In a high-rate world, the market's tolerance for waiting collapses.
+[Duration](#duration-is-the-enemy) is how long you wait to get your money back. The longer the wait, the harder rate moves hit you. In a high-rate world, the market's tolerance for waiting collapses.
 
 ### The Certainty Premium Rises
 

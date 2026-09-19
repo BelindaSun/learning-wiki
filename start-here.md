@@ -29,7 +29,7 @@ AI          —— 一个大概念，泛指"让机器表现出智能行为"的�
 
 **常见误解**：「ChatGPT 就是 AI」——不对，ChatGPT 是一个产品，背后用的是 GPT 系列模型；AI 是比这个大得多的概念。
 
-**Related concepts**：[AI](glossary.md#ai-基础) · [LLM](glossary.md#ai-基础) · [Model](glossary.md#ai-基础)
+**Related concepts**：[AI](glossary.md#ai) · [LLM](glossary.md#llm) · [Model](glossary.md#model)
 
 **Go Deeper**：这一站没有对应的深度文章——它只是帮你把词汇分层，接下来每一站会陆续展开。
 
@@ -69,7 +69,7 @@ Transformer（模型的核心结构）
 
 **常见误解**：「AI 记得我们所有的聊天记录」——不完全对。默认情况下，AI 只能看到当前对话放进 Context 里的内容，不是无限记忆，这个话题第 5 站会展开。
 
-**Related concepts**：[Token](glossary.md#ai-基础) · [Context](glossary.md#agent-相关) · [Transformer](glossary.md#ai-基础) · [Inference](glossary.md#ai-基础)
+**Related concepts**：[Token](glossary.md#token) · [Context](glossary.md#context) · [Transformer](glossary.md#transformer) · [Inference](glossary.md#inference)
 
 **Go Deeper**：[Inference 推理系统完全指南](docs/ai-core/inference-system-guide.md) · [Transformer 架构完全指南](docs/ai-core/transformer-architecture.md) · [Training 训练系统完全指南](docs/ai-core/training-system-guide.md) · [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)（最实用的一站，怎么把 AI 用好）
 
@@ -109,7 +109,7 @@ Chatbot 是"问了才答"的工具；Agent 是"给了目标就自己想办法干
 
 **常见误解**：「Agent 就是更聪明的 Chatbot」——不对，区别不只是模型聪明程度，而是系统在运行时拥有多少持续行动与自主决策的空间。
 
-**Related concepts**：[Agent](glossary.md#agent-相关) · [Tool](glossary.md#agent-相关)
+**Related concepts**：[Agent](glossary.md#agent) · [Tool](glossary.md#tool)
 
 **Go Deeper**：[Agent 系统架构](docs/ai-core/agent-architecture.md) · [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
 
@@ -187,7 +187,7 @@ Harness 也不只是"划边界"这么简单——它更像是**围绕模型搭�
 
 **常见误解**：「Tool 升级成 Skill，Skill 升级成 Workflow，Workflow 再升级成 Agent」——不是，它们不是一条层层进阶的直线，而是分工不同、可以按需组合的几个维度。
 
-**Related concepts**：[Skill](glossary.md#ai-应用与工具生态) · [MCP](glossary.md#ai-应用与工具生态) · [Harness](glossary.md#ai-应用与工具生态) · [Workflow](glossary.md#agent-相关)
+**Related concepts**：[Skill](glossary.md#skill) · [MCP](glossary.md#mcp) · [Harness](glossary.md#harness) · [Workflow](glossary.md#workflow)
 
 **Go Deeper**：[Skills 和商业格局](docs/ai-application/skills-business-landscape.md) · [MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md) · [Harness 系统完全指南](docs/ai-application/harness-system.md) · [Workflow 工作流完全指南](docs/ai-application/workflow-design-guide.md)
 
@@ -220,7 +220,7 @@ Memory（记忆）
 
 **常见误解**：「Context Window 越大，AI 就等于有了无限记忆」——不对，大 Context Window 只是让"这一次"能看到的信息变多，跟"AI 会不会在下次对话里记得你"是两件事，后者要靠 Memory 机制。
 
-**Related concepts**：[Context](glossary.md#agent-相关) · [State](glossary.md#agent-相关) · [Memory](glossary.md#agent-相关)
+**Related concepts**：[Context](glossary.md#context) · [State](glossary.md#state) · [Memory](glossary.md#memory)
 
 **Go Deeper**：[Context Window 完全指南](docs/ai-core/context-window-guide.md) · [Agent 记忆系统完全指南](docs/ai-core/memory-system-guide.md)
 
@@ -247,7 +247,7 @@ Memory（记忆）
 
 **常见误解**：「Coding Agent 强只是因为代码训练数据多」——数据量是原因之一，但不是全部；即使数据一样多，如果代码任务不能自动验证对错，Agent 也很难形成有效的自主闭环。
 
-**Related concepts**：[Agent](glossary.md#agent-相关) · [MoE](glossary.md#ai-基础)
+**Related concepts**：[Agent](glossary.md#agent) · [MoE](docs/ai-research/models-deep-dive.md#稀疏模型moe)
 
 **Go Deeper**：[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)
 
