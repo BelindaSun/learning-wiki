@@ -4,6 +4,22 @@
 
 ---
 
+**Multi-agent is the hero → multi-agent deserves <10% of the credit** (Sep 19)
+I took 10,000 agents solving a Millennium Prize as proof that multi-agent was the hero. Noam Brown says it deserves less than 10% of the credit — the real driver is a powerful general model × long horizons; multi-agent is just the parallelization vehicle for test-time compute.
+→ Read [Multi-Agent Scaling: Parallelizing Test-Time Compute](docs/ai-core/multi-agent-scaling.en.md)
+
+**RSI goes 100x overnight → RSI goes ~3x, which is still massive** (Sep 19)
+Hearing "AI improves itself" conjured an overnight 100x intelligence explosion. Noam Brown points out experiments are serial and GPUs are physical — roughly 3x acceleration. But 3x stacked on an already-exponential curve is earth-shaking.
+→ Read [Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md)
+
+**CoT is a gifted window → every punishment teaches it to hide** (Sep 19)
+I treated chain-of-thought as safety's gifted window — neural nets laying their thinking bare. Now I see that punishing "revealed bad thoughts" teaches the model not goodness but concealment, and monitorability is already degrading.
+→ Read [Multi-Agent Scaling: Parallelizing Test-Time Compute](docs/ai-core/multi-agent-scaling.en.md)
+
+**Evaluation = a score → evaluation = a performance curve** (Sep 19)
+I thought a safety evaluation was a score — pass it and you're safe. Noam Brown says evaluations must carry an inference budget: a model that looks harmless on a small budget can develop dangerous capabilities on a large one; the newest models keep improving past 100M tokens.
+→ Read [Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md)
+
 **One big model does all inference → different inference goes to different models** (Sep 18)
 I used to assume every inference inside an AI system ran through the same large language model — one model that both talks and judges. I now see it can be split: Generative Inference (token-by-token text generation) for language interaction, Decision Inference (structured input, typed decision output, calibrated confidence) for judgment. Jev (TypeSafe AI, 2026) is the first "System One Model" — its training objective shifts from "being liked" (RLHF) to "calibrated confidence" (RLCD), closing the loop on Calibrated Trust from the model's side.
 → Read [Decision Models — Not Every Decision Needs an LLM](docs/ai-core/decision-models.en.md)

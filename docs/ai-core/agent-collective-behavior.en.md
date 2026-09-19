@@ -214,4 +214,5 @@ Between the bottom layer (code vulnerabilities / covered by Fairwind) and the to
 - [Harness > Model](../ai-application/harness-architecture-patterns.md)
 - [Scaling Paradox](../career-impact/scaling-paradox.md)
 - [Agent Infrastructure = The New Operating System](../career-impact/agent-infrastructure-os.md)
+- [Multi-Agent Scaling](multi-agent-scaling.en.md) — multi-agent as parallelized test-time compute; Brown's interpretive layer on the Hugging Face incident
 - [Mental Models](../../mental-models.md)

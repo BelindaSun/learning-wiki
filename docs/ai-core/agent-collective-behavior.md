@@ -214,4 +214,5 @@ Agent 只应拿到完成当前任务所需的最小工具集和最小权限。Ds
 - [Harness > Model](../ai-application/harness-architecture-patterns.md)
 - [Scaling Paradox](../career-impact/scaling-paradox.md)
 - [Agent 基础设施 = 新操作系统](../career-impact/agent-infrastructure-os.md)
+- [Multi-Agent Scaling：把 Test-Time Compute 并行化](multi-agent-scaling.md) —— Multi-agent 是 test-time compute 的并行扩展；Hugging Face 事件的 Brown 解读层
 - [Mental Models](../../mental-models.md)

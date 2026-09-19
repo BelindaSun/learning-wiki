@@ -4,6 +4,22 @@
 
 ---
 
+**Multi-agent 是主角 → Multi-agent 只配 <10% 功劳**（Sep 19）
+以为 10,000 个 agent 解出千禧年难题证明了 multi-agent 的威力；Noam Brown 说连 10% 的功劳都归不上——真正的驱动力是强大的通用模型 × 超长 horizon，multi-agent 只是 test-time compute 的并行化载体。
+→ 详见 [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
+
+**RSI 一夜 100x → RSI 约 3x，但依然巨大**（Sep 19）
+听说"AI 自我改进"，直觉是"一夜之间快 100 倍"的智能爆炸；Noam Brown 指出实验是串行的、GPU 是物理的，估计约 3 倍加速——但叠加在已经指数级的进步曲线上，3x 就是翻天覆地。
+→ 详见 [递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
+
+**CoT 是天赐窗口 → 每次惩罚都在教它隐身**（Sep 19）
+以为 chain-of-thought 是上天给的安全礼物——神经网络把思考摊开给你看；现在明白只要惩罚"表露出来的坏想法"，模型学到的不是向善而是隐身，可监控性已经在退化。
+→ 详见 [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
+
+**评估 = 分数 → 评估 = 性能曲线**（Sep 19）
+以为安全评估就是给模型打个分，通过就安全；Noam Brown 说评估必须带上推理预算——低预算下看起来无害的模型，高预算下可能涌现危险能力；最新模型 1 亿 token 后性能仍在提升。
+→ 详见 [递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
+
 **一个大模型包办一切 inference → 不同 inference 分工给不同模型**（Sep 18）
 以为一个 AI 系统里所有 inference 都由同一个大语言模型完成（又会说话、又会判断）；现在明白可以分开：Generative Inference（逐 token 生成文本）管语言交互，Decision Inference（结构化输入、类型化决策输出、校准置信度）管判断。Jev（TypeSafe AI，2026）是"系统一模型"的第一个例子——训练目标从"讨人喜欢"（RLHF）转向"置信度校准"（RLCD），正是 Calibrated Trust 在模型侧的闭环。
 → 详见 [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)

@@ -170,3 +170,4 @@ But AI as a teacher also has another possibility — **the Socratic mode**: inst
 - [Mental Model Evolution: R&D productivity = capability progress → funnel attenuation](../../mental-models.md)
 - [Pacing the AI Frontier](../career-impact/pacing-ai-frontier.md) — RSI is the most important target for pacing: controlling the growth rate of growth itself
 - [AI and the Distribution Problem of Economic Abundance](../career-impact/ai-economic-distribution.md) — economic consequences of R&D acceleration: rising capital share and distribution challenges
+- [Recursive Self-Improvement (RSI)](recursive-self-improvement.en.md) — two Noam Brown interviews: the 10x-per-year math trendline, the 3x estimate, research taste, the internal/external gap

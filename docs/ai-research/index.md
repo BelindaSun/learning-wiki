@@ -69,6 +69,7 @@ MoE 用路由把知识容量与每次计算成本部分解耦，量化和蒸馏�
 ### 想搞懂”AI 怎样加速 AI 研发、以及加速的真实上限”
 
 - [Research Acceleration](research-acceleration.md) —— OpenAI RSI 进度报告：R&D 生产力到能力进步的五层衰减漏斗、Astra 安全事件、判断力悖论
+- [递归自我改进（RSI）：当 AI 开始改进 AI](recursive-self-improvement.md) —— Noam Brown 两期访谈：RSI 为何是 OpenAI 头号目标、数学"每年 10 倍"趋势线、3x 加速估计、研究品味、内部/外部鸿沟
 
 ### 想搞懂”AI 能否自动改善 AI 的对齐”
 
@@ -90,7 +91,7 @@ MoE 用路由把知识容量与每次计算成本部分解耦，量化和蒸馏�
 
 ---
 
-**最后更新**: September 8, 2026
+**最后更新**: September 19, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— Training、Inference 与模型机制的概念地基

@@ -170,3 +170,4 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 - [心智模型变迁史：R&D 生产力 = 能力进步 → 漏斗衰减](../../mental-models.md)
 - [Pacing the AI Frontier](../career-impact/pacing-ai-frontier.md) —— RSI 是 pacing 最需要关注的对象：控制增长速度本身的增长速度
 - [AI 与经济丰饶的分配问题](../career-impact/ai-economic-distribution.md) —— R&D 加速的经济后果：资本份额上升与分配挑战
+- [递归自我改进（RSI）：当 AI 开始改进 AI](recursive-self-improvement.md) —— Noam Brown 两期访谈：数学"每年 10 倍"趋势线、3x 加速估计、研究品味、内部/外部鸿沟

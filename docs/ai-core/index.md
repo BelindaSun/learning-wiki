@@ -78,6 +78,7 @@ Safety / Alignment 处理“系统会不会造成伤害、目标是否仍符合�
 - [Agent Intelligence 三层框架](agent-intelligence-layers.md) —— Model、Memory、Delegation 怎样共同决定系统表现
 - [Agent 的“单轴刻度”问题](agent-single-axis-problem.md) —— 为什么自主性、委托和记忆都不能只用一根尺子衡量
 - [Agent 时代的系统架构转变](agent-era-work.md) —— 当软件开始同时写给人和 Agent，系统为什么需要重新设计
+- [Multi-Agent Scaling：把 Test-Time Compute 并行化](multi-agent-scaling.md) —— Multi-agent 是 test-time compute 的并行扩展；10,000 个 agent 与 Navier-Stokes；Noam Brown："连 10% 功劳都归不上"
 
 ### 想搞懂”怎样让更强的系统仍然可控”
 
@@ -98,7 +99,7 @@ Safety / Alignment 处理“系统会不会造成伤害、目标是否仍符合�
 
 ---
 
-**最后更新**: September 18, 2026
+**最后更新**: September 19, 2026
 
 **相关**:
 - [Computing Foundations · 计算机基础地图](../computing-foundations/index.md) —— AI Core 踩着的物理与计算地基

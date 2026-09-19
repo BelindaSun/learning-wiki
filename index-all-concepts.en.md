@@ -122,6 +122,7 @@
 - **Memory Intelligence / Model Intelligence** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Memory System** — [Agent Memory](docs/ai-core/memory-system-guide.md)
 - **Model Capability ≠ Agent Capability** — [Model Capability ≠ Agent Capability](docs/ai-core/model-vs-agent-capability.md)
+- **Multi-Agent Scaling** — [Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.en.md)
 - **Model War** — [From Model War to System War](docs/career-impact/model-to-system-war.md)
 - **MoE** — [Models Deep Dive](docs/ai-research/models-deep-dive.md)
 - **Monitoring** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
@@ -164,6 +165,8 @@
 - **Red Teaming** — [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
 - **Residual Connection** — [Transformer](docs/ai-core/transformer-architecture.md)
 - **Retained Reasoning** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
+- **Recursive Self-Improvement** — [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
+- **Research Taste** — [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
 - **RLHF** — [Evaluation](docs/ai-research/evaluation-system.md)
 - **Runtime** — [Software Map](docs/computing-foundations/software-map.md)
 

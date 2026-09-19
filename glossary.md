@@ -401,6 +401,9 @@ AI 系统是否值得把真正的工作交给它，拆成五个维度：可预�
 **RSI（Recursive Self-Improvement，递归自我改进）**
 AI 系统加速 AI 研发本身的过程——用更强的模型训练出更强的模型。OpenAI 的内部数据显示 agent 劳动已超人类劳动 3.1 倍，但 10× 的 R&D 生产力只能转化为约 1.5-2× 的能力进步速度。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
 
+**Research Taste（研究品味）**
+在无尽未知中判断"下一步该做什么、如何朝长期目标推进"的直觉——Noam Brown 认为这是人类研究员最后的壁垒。它无法被精确度量，所以无法被强化学习训练；但他预计一两代模型之后这道壁垒也会失守。 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#人类最后的壁垒研究品味research-taste)
+
 **Research Acceleration（研究加速）**
 AI agent 在研究组织内部加速 AI 研发。从 R&D 生产力到实际能力进步，要经过方向选择、compute 约束、递减效应、安全减速、整合瓶颈五层衰减。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
 

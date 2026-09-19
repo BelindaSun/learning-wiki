@@ -229,6 +229,8 @@ Question → Retrieve → Context → Generate
 
 *Deeper*: [RAG](docs/ai-application/rag-guide.md)
 
+**Research Taste** — the intuition for what to do next amid endless unknowns and how to steer toward long-term goals; Noam Brown calls it the last moat of human researchers. It can't be precisely measured, so it can't be reinforcement-learned — but he expects the moat to fall within a model generation or two. → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
+
 **Computer Use** lets AI operate software through screens, mouse, and keyboard rather than requiring a software API. → [Computer Use](docs/ai-core/computer-use.md)
 
 #### Coding Agent
