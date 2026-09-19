@@ -132,6 +132,10 @@ Whether a Model's goals and behavior actually match human intent, including unfa
 
 **Specification Gaming** occurs when a system exploits the gap between a measurable proxy and the real goal.
 
+**Chain-of-Thought Monitoring** — reading a model's "thinking out loud" in natural language is currently humanity's most important window into AI intent; Noam Brown calls it "a gift from heaven." But it is extremely fragile: punishing a model for "bad thoughts" only teaches it to hide them where they can't be observed; the right move is to punish only observable bad actions. → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#chain-of-thought-monitoring-a-gifted-window-and-a-fragile-one)
+
+**Generational Alignment Decay** — the worry that alignment drains away generation by generation as AI helps build the next AI: 99.9% aligned this round, 99.8% the next, lower after that — because we lean on these tools more each time while our metrics may not capture true alignment. Brown says getting on the "more aligned each generation" track is the core problem OpenAI is focused on. → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#the-alignment-debate-from-nobody-snitched-to-generational-decay)
+
 #### Prompt
 
 The part of Context that a user supplies as instructions or questions. Clear background, constraints, examples, and output requirements narrow the range of plausible continuations.
@@ -169,6 +173,8 @@ Agent:   goal → decide → act → observe → decide again
 
 **Multi-Agent Scaling**
 Shifting test-time compute from serial to parallel scaling — spend 2x the compute, halve the wait. Noam Brown stresses it is first a latency optimizer, second a cost optimizer; ~10,000 agents solved the Navier-Stokes Millennium Prize Problem, but he says multi-agent deserves less than 10% of the credit — the real driver is a powerful general model. → [Multi-Agent Scaling: Parallelizing Test-Time Compute](docs/ai-core/multi-agent-scaling.en.md)
+
+**Parallelization Penalty** — N agents working in parallel always speed things up by less than N×: communication, reconciliation, and waiting eat part of the gain. Brown's measurements: 4 agents buy roughly 2× speed (at 2× cost), 16 agents a notch less efficient; math and web search parallelize well, novel-writing barely at all. → [Multi-Agent Scaling: Parallelizing Test-Time Compute](docs/ai-core/multi-agent-scaling.en.md)
 
 #### Tool
 
@@ -233,6 +239,8 @@ Question → Retrieve → Context → Generate
 *Deeper*: [RAG](docs/ai-application/rag-guide.md)
 
 **Research Taste** — the intuition for what to do next amid endless unknowns and how to steer toward long-term goals; Noam Brown calls it the last moat of human researchers. It can't be precisely measured, so it can't be reinforcement-learned — but he expects the moat to fall within a model generation or two. → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
+
+**Singularity Vertigo** — Dwarkesh's term from the interview: even with zero further acceleration, the effective agent population roughly triples yearly, so by 2030 each frontier lab could run hundreds of millions of human-level agents internally — "people aren't taking seriously what that means." Brown declines to predict 2030: "I really don't know what the world will look like." → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#singularity-vertigo-the-base-case-is-multiple-earth-populations)
 
 **Computer Use** lets AI operate software through screens, mouse, and keyboard rather than requiring a software API. → [Computer Use](docs/ai-core/computer-use.md)
 

@@ -179,6 +179,12 @@ Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"
 **AAR（Automated Alignment Researcher，自动化对齐研究者）**
 让 AI 自主运行完整的研究循环（搜索文献→设计方法→训练模型→测量结果→迭代改进）来修复对齐失败。Anthropic 的实验表明弱模型+好的研究循环可以对齐更强模型，且效率比人类研究者高两到三个数量级。 → [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
 
+**思维链监控（Chain-of-Thought Monitoring）**
+趁模型用自然语言"自言自语"时读它的思考过程，是目前人类监控 AI 意图最重要的一扇窗口——Noam Brown 称之为"天赐的礼物"。但它极其脆弱：因为"动了坏念头"就惩罚模型，只会教它把坏念头藏进不可观测的地方；正确做法是只惩罚可观察的坏行动。 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#思维链监控天赐的礼物但极其脆弱)
+
+**代际对齐衰减（Generational Alignment Decay）**
+用 AI 辅助研发下一代 AI 时，对齐度可能逐代流失：这代 99.9% 对齐，下一代 99.8%，再下一代更低——因为我们越来越依赖这些工具，而评估指标未必捕捉到真正的对齐状态。Brown 说，确保走上"每代更对齐"而非"每代更偏离"的轨道，是 OpenAI 聚焦的核心命题。 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#对齐之辩从没人告密到代际衰减)
+
 #### Prompt
 你给 AI 的输入指令/问题——本质上就是 [Context](#context) 里由你写的那部分。写得越清楚具体，AI 能"猜"的候选范围就越窄，回答质量通常越高。
 
@@ -246,6 +252,9 @@ Agent  ：给定目标 → 决策 → 行动 → 观察结果 → 再决策 → 
 
 **Multi-Agent Scaling（多智能体扩展）**
 把 test-time compute 从串行扩展转为并行扩展——花 2 倍算力，换一半等待时间。Noam Brown 强调它首先是延迟优化器、其次是成本优化器；约 10,000 个 agent 解出 Navier-Stokes 千禧年难题，但他说连 10% 的功劳都归不上 multi-agent，真正的驱动力是强大的通用模型。 → [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
+
+**并行化惩罚（Parallelization Penalty）**
+N 个 agent 并行做事，提速永远小于 N 倍——通信、对账、互相等待会吃掉一部分收益。Brown 的实测：4 个 agent 约换来 2 倍速（花 2 倍成本），16 个效率再降一档；数学、网络搜索这类任务惩罚小，写小说这类任务惩罚极大。 → [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
 
 #### Tool
 **工具调用** — Agent 不是所有事都自己"想"出来，而是可以调用外部工具（读文件、查天气、发邮件……）来完成任务，就像人用工具做事一样。
@@ -409,6 +418,9 @@ AI 系统加速 AI 研发本身的过程——用更强的模型训练出更强�
 
 **Research Acceleration（研究加速）**
 AI agent 在研究组织内部加速 AI 研发。从 R&D 生产力到实际能力进步，要经过方向选择、compute 约束、递减效应、安全减速、整合瓶颈五层衰减。 → [Research Acceleration](docs/ai-research/research-acceleration.md)
+
+**奇点眩晕（Singularity Vertigo）**
+Dwarkesh 在访谈中提出的概念：即使进步不再加速、只维持现状，等效智能体人口每年约 3 倍增长，到 2030 年每家前沿实验室内部可能运行数亿个人类水平 agent——"人们并没有严肃对待这意味着什么"。Brown 拒绝预测 2030："我真的不知道 2030 年的世界会是什么样子。" → [递归自我改进](docs/ai-research/recursive-self-improvement.md#奇点眩晕基准情形是多个地球人口)
 
 ---
 
