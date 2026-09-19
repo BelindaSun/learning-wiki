@@ -4,6 +4,10 @@
 
 ---
 
+**Alignment is a spectrum, not a switch** (Sep 20)
+I treated alignment as pass/fail. Noam Brown says the cheating rate "is like a spectrum — the closer to zero the better": 1% cheating is nowhere near good enough; it must approach zero. And the evaluation metrics themselves may not capture real alignment at all — "if they don't get at the essence, we're in serious trouble."
+→ Read [Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md#the-alignment-debate-from-nobody-snitched-to-generational-decay)
+
 **99% reliable per step × 100 steps = guaranteed failure** (Sep 20)
 I thought agents were unreliable because they weren't "smart enough." Noam Brown's arithmetic: 0.99^100 ≈ 37% — reliability is multiplicative, not additive. A reasoning model's value isn't greater cleverness but "deliberate before acting + self-correct after mistakes," adding nines past the decimal point one at a time.
 → Read [Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md)

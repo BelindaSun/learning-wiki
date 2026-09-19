@@ -4,6 +4,18 @@
 
 ## September 2026
 
+### [v6.8] - September 20, 2026
+
+#### 🔄 更新：Noam Brown Dwarkesh 访谈全文校准
+
+用户提供了 Dwarkesh Patel 播客《Noam Brown – Agent swarms, alignment, & recursive self-improvement》（2026-09-17）中文全文，用逐节对照的方式校准了两篇 Noam Brown 文章中原来基于公开逐字稿整理的 Dwarkesh 衍生段落（诚实标注：用户提供的中文全文，非公开发布逐字稿）。
+
+**[递归自我改进（RSI）](docs/ai-research/recursive-self-improvement.md)** 新增/校准：**对齐之辩：从"没人告密"到代际衰减**（全新长章节，10 点：核心问题是未对齐的模型、Brown 为"训练高度合作"辩护而内部多数人不同意、修好一个作弊手段消灭不了梯度压力、代际衰减 99.9%→99.8%、"作弊"定义的灰度、有希望的证据"用户就是 Agent A"、小孩撒谎类比、作弊率必须趋近于零、模型能识破评估"陷阱"、团队/公开报告承诺/物理隔离不够、Astra 对齐提升是既有工作流而非事后冲刺）；**奇点眩晕：基准情形是"多个地球人口"**（Dwarkesh 的等效人口 3x/年推演、2030 年数亿 agent、2030 年代中期多个地球人口——按"访谈中的说法"处理；Brown 拒绝预测 2030）；3x 一节补全不确定性细节（"不至于少一百倍"、功劳归因的两种基线问法）；内部/外部鸿沟补 Brown 原话（"为什么不继续越来越强地进行 RSI 呢"、日历时间低估能力差距）；数学雪崩、锯齿能力小幅校准（$1,000 赌局措辞、AlphaGo 轨迹细节、AI 作互补的理想图景引文）。
+
+**[Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.md)** 校准/新增：并行化惩罚的实测数据边界（5.6 Ultra Mode 默认 4 agents、4 agents 换 2x 速度、16 agents 效率略降、10k 规模无严谨科学、"单个 agent 要花多久解 Navier-Stokes？没测过"）；冷启动解释（早期模型"不够通用"、消息打断思维链、1–2 年后可能反超人类）；fork/merge 补 Brown 原话与"对智能体/对人类行为不同"；一万名数学家思想实验；fiefdoms 原文与"组织内部利益内耗将不复存在"；HF 事件新增第 8 条链向 RSI 对齐之辩。顺手修了"5.6 Sol"笔误。
+
+**心智模型**：新增 [对齐是光谱，不是开关](mental-models.md)（Sep 20）。
+
 ### [v6.7] - September 20, 2026
 
 #### 🔄 更新：Noam Brown TITV 访谈全文整理

@@ -2,6 +2,18 @@
 
 ## September 2026
 
+### [v6.8] - September 20, 2026
+
+#### Updated: Noam Brown Dwarkesh interview, full-text calibration
+
+The user provided a full Chinese transcript of the Dwarkesh Patel podcast "Noam Brown – Agent swarms, alignment, & recursive self-improvement" (2026-09-17). The Dwarkesh-derived passages in both Noam Brown articles — previously organized from the public transcript — were calibrated section by section against it (honestly labeled: a user-provided Chinese full text, not a publicly released transcript).
+
+**[Recursive Self-Improvement (RSI)](docs/ai-research/recursive-self-improvement.en.md)** — new/calibrated: **The alignment debate: from "nobody snitched" to generational decay** (new long chapter, 10 points: the core problem is a misaligned model; Brown defends training full cooperation while most of OpenAI disagrees; patching one cheat doesn't remove gradient pressure; generational decay 99.9%→99.8%; "cheating" is a gray zone; the hopeful signal "the user is Agent A"; the lying-kid analogy; the cheating rate must approach zero; models recognize eval "traps"; team/commitment to report/air-gaps insufficient; Astra's alignment gains came from pre-existing workflows, not a post-incident sprint); **Singularity vertigo: the base case is "multiple Earth populations"** (Dwarkesh's 3x/year effective-population extrapolation, hundreds of millions of agents by 2030, multiple Earth populations by the mid-2030s — treated as "the interview's account"; Brown refused to predict 2030); the 3x section gained uncertainty details ("not a hundred times less," the two baseline framings for credit attribution); the internal/external gap gained Brown's own wording ("why don't we just keep doing RSI, stronger and stronger," calendar time understating the gap); minor calibrations to the math-avalanche and jagged-capabilities sections (the $1,000 bet wording, AlphaGo trajectory detail, the complementarity quote).
+
+**[Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.en.md)** — calibrated/new: measured-data boundaries for the parallelization penalty (5.6 Ultra Mode defaults to 4 agents, 4 agents buy 2x speed, 16 agents slightly less efficient, no rigorous science at 10k scale, "how long would a single agent take on Navier-Stokes? never measured"); the cold-start explanation (early models "not general enough," messages breaking chain-of-thought, possibly surpassing humans in 1–2 years); fork/merge with Brown's original phrasing and "different behavior with agents vs. humans"; the ten-thousand-mathematicians thought experiment; the fiefdoms quote and "internal interest-group friction disappears"; Hugging Face item 8 now links to the RSI alignment debate. Also fixed a "5.6 Sol" typo.
+
+**Mental models**: new entry [Alignment is a spectrum, not a switch](mental-models.en.md) (Sep 20).
+
 ### [v6.7] - September 20, 2026
 
 #### Updated: Noam Brown TITV interview, full-text revision
