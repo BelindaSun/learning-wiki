@@ -4,6 +4,10 @@
 
 ---
 
+**单步 99% 可靠 × 100 步 = 必然失败**（Sep 20）
+以为 agent 不可靠是因为"还不够聪明"；Noam Brown 的算术是 0.99^100 ≈ 37%——可靠性是乘法不是加法。推理模型的价值不在于更聪明，而在于"行动前深思熟虑 + 犯错后自我纠正"，把小数点后面的 9 一个个加上去。
+→ 详见 [递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
+
 **Multi-agent 是主角 → Multi-agent 只配 <10% 功劳**（Sep 19）
 以为 10,000 个 agent 解出千禧年难题证明了 multi-agent 的威力；Noam Brown 说连 10% 的功劳都归不上——真正的驱动力是强大的通用模型 × 超长 horizon，multi-agent 只是 test-time compute 的并行化载体。
 → 详见 [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
@@ -134,4 +138,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 18, 2026
+**最后更新**: September 20, 2026

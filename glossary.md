@@ -244,6 +244,9 @@ Agent  ：给定目标 → 决策 → 行动 → 观察结果 → 再决策 → 
 
 *想深入*：[Start Here 第 3 站：从 Chatbot 到 Agent](start-here.md) · [Agent 系统架构完全指南](docs/ai-core/agent-architecture.md)
 
+**Multi-Agent Scaling（多智能体扩展）**
+把 test-time compute 从串行扩展转为并行扩展——花 2 倍算力，换一半等待时间。Noam Brown 强调它首先是延迟优化器、其次是成本优化器；约 10,000 个 agent 解出 Navier-Stokes 千禧年难题，但他说连 10% 的功劳都归不上 multi-agent，真正的驱动力是强大的通用模型。 → [Multi-Agent Scaling：把 Test-Time Compute 并行化](docs/ai-core/multi-agent-scaling.md)
+
 #### Tool
 **工具调用** — Agent 不是所有事都自己"想"出来，而是可以调用外部工具（读文件、查天气、发邮件……）来完成任务，就像人用工具做事一样。
 

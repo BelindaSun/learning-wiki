@@ -4,6 +4,20 @@
 
 ## September 2026
 
+### [v6.7] - September 20, 2026
+
+#### 🔄 更新：Noam Brown TITV 访谈全文整理
+
+用户提供了 TITV《What Happens When AI Starts Improving AI?》（2026-09-14，主持人 Rocket Drew）中文全文，替换两篇 Noam Brown 文章中原来"据媒体总结转述"的 TITV 内容为全文引用（诚实标注：用户提供的中文全文，非公开发布逐字稿）。
+
+**[递归自我改进（RSI）](docs/ai-research/recursive-self-improvement.md)** 新增/重写章节：智能体定义、在真实环境中采取行动；推理与可靠性（99%ⁿ 乘法、行动前深思熟虑 + 犯错后自我纠正）；强化学习速览；环境即课程（Astra 点名财务分析/PPT 反映训练优先级）；可验证 vs 不可验证之争（Deep Research 反例、Unit Distance Problem 验证之难、人类成为验证瓶颈）；预训练 × 强化学习乘数效应（互补、门槛、信息论直觉）；思维链监控的脆弱性（"天赐的礼物"、不惩罚坏想法只惩罚坏行动、strawberry 测试、全行业合作、机制可解释性作冗余）；Hugging Face 事件后 Brown 的五条教训。研究品味一节用全文措辞校准（博士论文实验、滞后成功信号）。
+
+**[Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.md)** 新增：多智能体的两种价值（降延迟 vs 降成本）；从共识法/多数投票到任意消息的谱系（GPU 速度不一致的系统工程 × 机器学习交叉难题）；HF 事件解读层新增迁移效应、利他行为的 RL 根源、提示注入向量与保持怀疑的训练；"feel the AGI"时刻的措辞按全文校准。
+
+**心智模型**：新增 [单步 99% 可靠 × 100 步 = 必然失败](mental-models.md)（Sep 20）。**术语**：glossary 新增 Multi-Agent Scaling（中英）。
+
+Dwarkesh 访谈（有逐字稿）衍生段落未动。
+
 ### [v6.6] - September 18, 2026
 
 #### 📝 新增：[Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
@@ -346,4 +360,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 18, 2026
+**最后更新**: September 20, 2026

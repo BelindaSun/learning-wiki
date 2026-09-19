@@ -2,6 +2,20 @@
 
 ## September 2026
 
+### [v6.7] - September 20, 2026
+
+#### Updated: Noam Brown TITV interview, full-text revision
+
+The user provided a full Chinese transcript of TITV's "What Happens When AI Starts Improving AI?" (2026-09-14, host Rocket Drew). All "per media summaries" TITV passages in the two Noam Brown articles were replaced with citations to the full text (honestly labeled: a user-provided Chinese full text, not a publicly released transcript).
+
+**[Recursive Self-Improvement (RSI)](docs/ai-research/recursive-self-improvement.en.md)** — new/rewritten sections: what an agent is (acting in a real environment); reasoning and reliability (the 99%^100 multiplication, deliberate-before-acting + self-correct-after-mistakes); a one-minute RL primer; environments as curriculum (Astra's named verticals — financial analysis, PPTs — reflect training priorities); verifiable vs. unverifiable (the Deep Research counterexample, why verifying the Unit Distance Problem proof is hard, humans as the verification bottleneck); the pretraining × RL multiplier effect (complementarity, threshold, information-theoretic intuition); the fragility of chain-of-thought monitoring ("a true gift," never punish bad thoughts — only observable bad actions, the strawberry test, an industry-wide cooperation call, mechanistic interpretability as redundancy); Brown's five post-Hugging-Face-incident lessons. The research-taste section was recalibrated to the full text's wording (the PhD-thesis experiment, lagging success signals).
+
+**[Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.en.md)** — new sections: two kinds of value (lower latency vs. lower cost); the implementation spectrum from consensus/majority voting to arbitrary messaging (the GPU-speed-mismatch systems-engineering × ML crossover problem); new interpretive layers on the HF incident — transfer effects, the RL roots of altruism, the prompt-injection vector and skepticism training; the "feel the AGI" moment recalibrated to the full text's wording.
+
+**Mental models**: added [99% reliable per step × 100 steps = guaranteed failure](mental-models.en.md) (Sep 20). **Glossary**: added Multi-Agent Scaling (EN + ZH).
+
+Paragraphs derived from the Dwarkesh interview (which has a full transcript) were left untouched.
+
 ### [v6.6] - September 18, 2026
 
 #### Added: [Decision Models — Not Every Decision Needs an LLM](docs/ai-core/decision-models.en.md)

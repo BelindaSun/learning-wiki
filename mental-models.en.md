@@ -4,6 +4,10 @@
 
 ---
 
+**99% reliable per step × 100 steps = guaranteed failure** (Sep 20)
+I thought agents were unreliable because they weren't "smart enough." Noam Brown's arithmetic: 0.99^100 ≈ 37% — reliability is multiplicative, not additive. A reasoning model's value isn't greater cleverness but "deliberate before acting + self-correct after mistakes," adding nines past the decimal point one at a time.
+→ Read [Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md)
+
 **Multi-agent is the hero → multi-agent deserves <10% of the credit** (Sep 19)
 I took 10,000 agents solving a Millennium Prize as proof that multi-agent was the hero. Noam Brown says it deserves less than 10% of the credit — the real driver is a powerful general model × long horizons; multi-agent is just the parallelization vehicle for test-time compute.
 → Read [Multi-Agent Scaling: Parallelizing Test-Time Compute](docs/ai-core/multi-agent-scaling.en.md)
@@ -134,4 +138,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 18, 2026
+**Last updated**: September 20, 2026

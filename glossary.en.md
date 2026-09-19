@@ -167,6 +167,9 @@ Agent:   goal → decide → act → observe → decide again
 
 *Deeper*: [Agent Architecture](docs/ai-core/agent-architecture.md)
 
+**Multi-Agent Scaling**
+Shifting test-time compute from serial to parallel scaling — spend 2x the compute, halve the wait. Noam Brown stresses it is first a latency optimizer, second a cost optimizer; ~10,000 agents solved the Navier-Stokes Millennium Prize Problem, but he says multi-agent deserves less than 10% of the credit — the real driver is a powerful general model. → [Multi-Agent Scaling: Parallelizing Test-Time Compute](docs/ai-core/multi-agent-scaling.en.md)
+
 #### Tool
 
 An external capability an Agent can call: reading files, querying data, sending messages, or running code. Models, rules, or routing logic may participate in Tool selection.
