@@ -49,7 +49,7 @@ And then I saw another, very concrete example…
 
 ## "Slide to prove you're human."
 
-Someone asked Muse to check room availability on a hotel website. Muse opened the site, ready to complete the task for its user — and the site threw up a verification:
+Someone asked Muse to check room availability on a hotel website. Muse opened the site, ready to complete the task for its user — and the site popped up a verification challenge:
 
 **"Slide to prove you're human."**
 
@@ -59,7 +59,7 @@ But a new role has now appeared: the **authorized agent** — an AI agent explic
 
 And so a security mechanism that was entirely reasonable suddenly produced a paradox: **the site successfully blocked the bot, and may have successfully blocked the customer too.**
 
-That tiny CAPTCHA may not expose a product bug. It may expose two internet eras colliding.
+That tiny CAPTCHA may not be exposing a product bug. It may be two internet eras colliding.
 
 ![armand's tweet on X: his Muse tried to check hotel availability, got blocked by a "slide to prove you're human" bot check — couldn't check dates, couldn't book, the direct booking died there](assets/armand-muse-hotel-captcha-tweet.jpg)
 
@@ -108,7 +108,7 @@ The Agent Interface doesn't necessarily have a UI. An Agent needs no pretty butt
 - Can it be paid for?
 - Did the transaction succeed?
 
-That's why APIs, Connectors, identity, permissions, and structured data are becoming infrastructure that matters.
+That's why APIs, Connectors, identity, permissions, and structured data are becoming important infrastructure.
 
 ---
 
@@ -132,9 +132,9 @@ API / Service
 Real World
 ```
 
-An API is the "door" a service offers to machines. A Connector is how the Agent plugs into and uses that door — authentication, permissions, tool definitions, parameter structures, result returns. MCP is yet another layer: it tries to **standardize** how Agents communicate with external tools and resources.
+An API is the "door" a service offers to machines. A Connector is how the Agent plugs into and uses that door — authentication, permissions, tool definitions, parameter structures, and returning results. MCP is yet another layer: it tries to **standardize** how Agents communicate with external tools and resources.
 
-So the three can be roughly remembered as: **the API is the door. The Connector is how the Agent plugs into and uses the door. MCP is a standardized connection language everyone is trying to adopt.**
+So here's a rough way to remember the three: **the API is the door. The Connector is how the Agent plugs into and uses the door. MCP is a standardized connection language everyone's trying to adopt.**
 
 Meta's public statements about Muse already point in this direction: Muse can work across apps on the user's behalf, open web pages in its own browser, fill forms, and complete transactions; the user decides which services to connect and how much permission to grant.
 
@@ -152,7 +152,7 @@ In the mobile era, some businesses deliberately weakened or even killed their we
 - reach users proactively via push notifications;
 - save addresses, payment methods, and purchase history;
 - improve retention;
-- bypass search entrances like Google;
+- bypass Google as the entry point;
 - keep consumers inside their own ecosystem.
 
 From the consumer's side, the web was free:
@@ -163,9 +163,9 @@ Search → Open website → Look around → Leave
 
 No login required.
 
-From the merchant's side, that freedom sometimes meant exactly this: **the customer could vanish at any moment.** Apps helped businesses turn an anonymous visitor into a long-term user who is identifiable, reachable, analyzable, and transactable.
+From the merchant's side, that freedom sometimes meant exactly this: **the customer could vanish at any moment.** Apps helped businesses turn an anonymous visitor into a long-term user who can be identified, reached, and understood — and who keeps coming back to buy.
 
-Businesses had fought hard to move from `Google → Consumer` to `Brand ↔ Consumer`. But the Agent era introduces a new middle layer:
+Businesses fought hard to get from `Google → Consumer` to `Brand ↔ Consumer`. But the Agent era introduces a new middle layer:
 
 ```
 Brand ↔ Agent ↔ Consumer
@@ -195,7 +195,7 @@ But generative AI changed the user's side. More and more questions can now becom
 Question → AI → Synthesized answer → Follow-up
 ```
 
-Users haven't stopped searching. They are just **operating traditional search engines personally, less and less.**
+Users haven't stopped searching. They just **run traditional searches themselves less and less.**
 
 Google itself is changing. In 2026, Google's official documentation openly discusses generative AI Search, stating that traditional SEO fundamentals still apply to AI features — and that Google's generative AI search still relies on its core search ranking and quality systems and its search index.
 
@@ -205,7 +205,7 @@ So the more accurate short-term statement isn't "Search is dying." It's: **"Sear
 
 ## 5. From "Rank me" to "Choose me"
 
-In the SEO era, one of businesses' favorite questions was: **How do I rank higher?** Because a human still stood at the end of the selection:
+In the SEO era, one of the questions businesses cared about most was: **How do I rank higher?** Because a human still made the final choice:
 
 ```
 Search Engine → 10 results → Human compares → Human chooses
@@ -225,7 +225,7 @@ Human → Agent → Discover → Compare → Choose → Execute → Done
 
 The question facing businesses changes: **How do I get the agent to choose me?**
 
-This may give rise to some form of Agent Optimization. It isn't necessarily the same as today's SEO, AEO, or GEO — those terms and practices are still evolving fast. But the underlying question is already here: **how do I get machines to discover me, understand me, trust me, and be willing to choose me?**
+This may give rise to something like Agent Optimization. It isn't necessarily the same as today's SEO, AEO, or GEO — those terms and practices are still evolving fast. But the underlying question is already here: **how do I get machines to discover me, understand me, trust me, and be willing to choose me?**
 
 So competition may add a new goal alongside **"Rank me."**: **"Choose me."**
 
@@ -257,9 +257,9 @@ Businesses used to work hard to **get humans to click on them.** In the future t
 
 ## 7. Advertising: what if Agents don't look at ads?
 
-Traditional digital advertising fights for **human attention.** Search ads want the human to see them in results. Social ads want the human to pause in the feed. Display ads want the click.
+Traditional digital advertising fights for **human attention.** Search ads need people to notice them in results. Social ads need people to pause in the feed. Display ads need the click.
 
-But an Agent has no "eyeballs." When a Personal Agent hunts for a product on a user's behalf, it won't feel an impulse because of "🔥 LAST CHANCE! 40% OFF! 🔥" It will more likely compare real prices, quality, return policies, and user needs.
+But an Agent has no "eyeballs." When a Personal Agent hunts for a product on a user's behalf, it won't get excited by "🔥 LAST CHANCE! 40% OFF! 🔥" It's more likely to compare real prices, quality, return policies, and user needs.
 
 Advertising won't simply disappear, but its business model may partly migrate:
 
@@ -283,7 +283,7 @@ Today, search engines can at least label ads as Sponsored. If an Agent wraps com
 
 ## 8. Brand won't disappear, but it may split into two faces
 
-That Agents are hard to sway with ads doesn't mean Brand loses its value. The key is how the user's intent gets formed in the first place.
+Just because ads can't sway Agents easily doesn't mean Brand loses its value. The key is how the user's intent gets formed in the first place.
 
 If the user says "buy me running shoes," the Agent has wide latitude. But if the user says "buy me Nikes," **Nike already won the competition before the Agent showed up.**
 
@@ -293,7 +293,7 @@ Brand → Human preference → Intent → Agent → Transaction
 
 So in the Agent era, strong brands may matter even more — because competition increasingly happens **before intent is formed.**
 
-On the other hand, highly functional, standardized, easily quantifiable products may get hit by Agents. If the user just needs "a reliable 2-meter USB-C cable, delivered tomorrow, under $20," the Agent can directly compare price, quality, return rates, delivery speed, and reliability. The premium from brand packaging may come under pressure.
+On the other hand, highly functional, standardized, easily quantifiable products may feel the impact of Agents most. If the user just needs "a reliable 2-meter USB-C cable, delivered tomorrow, under $20," the Agent can directly compare price, quality, return rates, delivery speed, and reliability. The premium from brand packaging may come under pressure.
 
 So Brand may develop two faces:
 
@@ -319,7 +319,7 @@ So Brand may develop two faces:
 
 This may be the most important boundary in today's discussion.
 
-An Agent is great at answering "which hotel suits me best?" But an Agent may not be the thing that first makes someone feel "I really want to go to Hawaii." That desire may come from a film, a video, a photo, a friend's trip, an article, a cultural imagination.
+An Agent is great at answering "which hotel suits me best?" But an Agent is probably not what first makes someone feel "I really want to go to Hawaii." That desire may come from a film, a video, a photo, a friend's trip, an article — or the cultural imagination.
 
 So one of Brand's core roles may come back into focus: **creating desire, not just capturing transactions.**
 
@@ -357,11 +357,11 @@ That doesn't mean all desire is created by brands, nor that Agents will never sh
 
 This may be the most important business question of the Agent Economy.
 
-In the Google era, Google owned vast query intent. In the app era, businesses worked hard to pull users into their own apps and rebuild direct customer relationships.
+In the Google era, Google held enormous amounts of query intent. In the app era, businesses worked hard to pull users into their own apps and rebuild direct customer relationships.
 
-In the Personal Agent era, the Agent platform may own all at once: **Intent + Context + Memory + Execution.** It knows not just "Maui hotels" but also: three adults, no hiking, no dangerous mountain roads, likes beach walks and good food, travel dates, budget, past hotel preferences — and when the calendar is free.
+In the Personal Agent era, the Agent platform may hold all of these at once: **Intent + Context + Memory + Execution.** It knows not just "Maui hotels" but also: three adults, no hiking, no dangerous mountain roads, likes beach walks and good food, travel dates, budget, past hotel preferences — and when the calendar is free.
 
-If all that context ends up pooling in the Personal Agent, power over the consumer entrance may migrate once again:
+If all that context ends up pooling in the Personal Agent, control over the gateway to consumers may shift once again:
 
 **The merchant gets the transaction. The Agent gets the relationship.**
 
@@ -382,7 +382,7 @@ Users may not need to hand their full behavioral profile to every merchant. The 
 
 But power doesn't automatically disappear. The question just moves: **how much does the Agent platform itself know?**
 
-So the core infrastructure of the Agent Economy will inevitably run into: identity, permission, privacy, auditability, controllability, and trust. **Which is why the Agent Economy and AI Trust are not two separate topics.**
+So the core infrastructure of the Agent Economy will inevitably have to grapple with: identity, permission, privacy, auditability, controllability, and trust. **Which is why the Agent Economy and AI Trust are not two separate topics.**
 
 ---
 
@@ -394,11 +394,11 @@ Personal agents have begun moving from "answering questions" to "acting on the u
 
 Traditional search still relies on crawling, indexing, and serving, and Google's generative AI Search is still built on its core search ranking, quality systems, and index.
 
-So today it is still too simple to say "SEO is dead" or "the web is dead." They aren't dead. **But their position in the human-machine interaction chain is changing.**
+So it would still be an oversimplification to declare "SEO is dead" or "the web is dead." They aren't dead. **But their position in the human-machine interaction chain is changing.**
 
 ### What Is Emerging — Taking Shape
 
-Users can increasingly complete through AI what used to require searching, comparing, and opening multiple apps. Businesses are starting to face a question they rarely asked before: **is my service not only human-accessible, but agent-accessible?**
+Users can increasingly use AI to do what used to require searching, comparing, and opening multiple apps. Businesses are starting to face a question they rarely asked before: **is my service not only human-accessible, but agent-accessible?**
 
 Conflicts between authorized agents and traditional anti-bot infrastructure have already begun to surface.
 
@@ -414,9 +414,9 @@ If these trends continue:
 4. Some of digital advertising's value may shift from human attention to agent selection and transactions.
 5. Standardized, quantifiable products may be more easily commoditized by Agents.
 6. Brand may gradually hold both a Human Brand and a Machine Reputation.
-7. Brand's long-term value may concentrate more before intent is formed, while Agents increasingly participate in the comparing and executing that happens after intent.
+7. Brand's long-term value may concentrate even more on the stage before intent is formed, while Agents increasingly take over the comparing and executing that comes after.
 8. The Personal Agent may become a new trust layer between consumers and digital commerce.
-9. Agent platforms holding Intent + Context + Memory + Execution may become one of the next internet's most important entrances.
+9. Agent platforms that hold Intent + Context + Memory + Execution may become some of the most important gateways of the next internet.
 
 **These are not certain futures. They are hypotheses drawn from technological and behavioral changes already visible today — worth validating over time.**
 
@@ -424,7 +424,7 @@ If these trends continue:
 
 ## One final mental model
 
-The internet's past core question was: **How do I get humans to find me?** The search era's answer was SEO. The mobile era extended it: **How do I get humans into my app and keep them there?**
+The internet's core question used to be: **How do I get humans to find me?** The search era's answer was SEO. The mobile era extended it: **How do I get humans into my app and keep them there?**
 
 The Agent era may add a brand-new question: **How do I make agents able and willing to do business with me?**
 
@@ -448,7 +448,7 @@ Search, websites, apps, APIs, and merchants won't disappear because of this. The
 
 AI may not kill Search, apps, and services. **AI is more likely to turn them from "destinations humans operate directly" into the capability layer behind Agents.**
 
-And that slightly funny line from today — "Slide to prove you're human." — may, years from now, look back like a moment that captured its era.
+And that slightly funny line from today — "Slide to prove you're human." — may look, in hindsight, like a moment that captured its era.
 
 The old internet is asking: **Are you human?**
 
