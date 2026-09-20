@@ -7,6 +7,8 @@
 - **Accelerator** — [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Accumulative vs. Decisive Risk** — [The Agent Single-Axis Problem](docs/ai-core/agent-single-axis-problem.md)
 - **Agent** — [Agent Architecture](docs/ai-core/agent-architecture.md)
+- **Agent Interface** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
+- **Agent Optimization** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Agent Feasibility Criteria** — [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.md)
 - **Agent Intelligence: Model / Memory / Delegation** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Agent Legibility** — [The Agent-Era Architecture Shift](docs/ai-core/agent-era-work.md)
@@ -29,6 +31,7 @@
 
 ## C
 
+- **Connector** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Calibrated Trust** — [The Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Cascading / Routing** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Causal Attention / Causal Mask** — [Inference](docs/ai-core/inference-system-guide.md) · [Transformer](docs/ai-core/transformer-architecture.md)

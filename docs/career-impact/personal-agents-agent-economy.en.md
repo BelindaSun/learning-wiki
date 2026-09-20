@@ -364,4 +364,5 @@ Agent Economy  = Personal Context → Intent → Action → Transaction
 - [Pacing the AI Frontier](pacing-ai-frontier.md) — When Personal Agents participate in real economic activity, governance of agent behavior becomes more urgent
 - [First time testing an AI product](first-agent-test-muse-spark.md) — Another hands-on validation of the Trust Framework
 - [Agent infrastructure as operating system](agent-infrastructure-os.md) — The Agent OS equivalence theorem: whoever defines the standards and interfaces wins
+- [From SEO to Agent Economy](from-seo-to-agent-economy.en.md) — The business-side expansion of the Agent Economy: enterprises need a third door, the Agent Interface; competition moves from "Rank me" to "Choose me"
 - [Mental Models](../../mental-models.md) — Look back over time at how these judgments evolved

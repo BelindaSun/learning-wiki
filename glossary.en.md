@@ -4,7 +4,7 @@
 >
 > The inclusion bar (four questions): does the term recur across many articles? Is it a relatively stable, general AI / computing concept? Would missing it clearly block understanding what follows? Can it build a stable mental model in one sentence? Every future addition must pass these four questions first — **articles record fully; the Glossary filters.**
 >
-> This is the **knowledge trunk** (49 terms, and it should grow ever more slowly — no padding to round numbers). Two other layers:
+> This is the **knowledge trunk** (50 terms, and it should grow ever more slowly — no padding to round numbers). Two other layers:
 > - [All Concepts](index-all-concepts.md) (Concept Index) — concepts you've learned and may want to look up later; it can grow without bound: concept → one-liner → source article.
 > - [Mental Models](mental-models.md) — cognitive compressions that truly changed how we think; few and precious.
 >
@@ -300,6 +300,18 @@ Information stored for later retrieval. It may or may not persist across convers
 *Related*: [Tool](#tool) · [Harness](#harness)
 
 *Deeper*: [MCP](docs/ai-application/mcp-protocol-guide.en.md)
+
+#### Connector
+**Connector** — the plug through which an Agent reaches the outside world: it connects apps, data sources, or services so the Agent can read information or perform actions within the scope of user authorization. An API is the "door" a service provides; a Connector is how the Agent plugs into and uses that door (authentication, permissions, tool definitions, parameter structures, result returns); MCP tries to standardize the connection language between different Agents and external tools.
+
+*Imagine it*:
+```
+Agent → Connector → External Service
+```
+
+*Related*: [Agent](#agent), [Tool](#tool), [MCP](#mcp)
+
+*Deeper*: [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 
 #### Harness
 

@@ -4,6 +4,10 @@
 
 ---
 
+**Human Interface → Agent Interface** (Sep 20)
+I assumed the endpoint of business digitalization was "make it easier for people to click in" (SEO fights for rankings, apps fight for retention). Now I see the Agent becoming a new purchasing entrance: businesses need a third door built for machines — competition adds "Choose me" (give the Agent a reason to pick me) on top of "Rank me" (get seen). Humans need to like you; machines need to trust you.
+→ Read [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
+
 **Calibrated autonomy ≠ maximum autonomy** (Sep 20)
 I assumed a Personal Agent should be as autonomous as possible. Now I see the goal isn't Maximum Autonomy but Calibrated Autonomy — knowing when to act on my behalf and when to stop and ask. The hard part isn't letting go; it's calibration.
 → Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.en.md#5-calibrated-autonomy)

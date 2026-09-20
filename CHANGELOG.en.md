@@ -2,6 +2,18 @@
 
 ## September 2026
 
+### [v7.1] - September 20, 2026
+
+#### New: From SEO to Agent Economy
+
+**[From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)** (new Industry & Impact essay): the write-up of the September 20, 2026 discussion with Lao Jia, organized by Belinda — starting from Greg Isenberg's 13 takeaways on Zuckerberg and Muse Connectors, chasing the question "what exactly is a Connector?" all the way into Search, SEO, apps, advertising, Brand, privacy, Trust, and the whole Agent Economy. Two discussion triggers with sources kept (Greg Isenberg's infographic opens the essay; armand's tweet about Muse being blocked by a hotel site's CAPTCHA sits at the Human Interface → Agent Interface section). Core frameworks: businesses need a **third door, the Agent Interface**; competition adds **"Choose me"** on top of **"Rank me"**; **Brand creates desire. Agent executes intent.** (Both are kept as this essay's analytical frameworks, not established industry conclusions.)
+
+**[Glossary](glossary.en.md)** gains **Connector** (49 → 50): it passes the four-gate test — recurs across multiple essays, and one sentence builds a stable mental model (Agent → Connector → External Service). Admitted because it fits, not to round out a number.
+
+**[Concept Index](index-all-concepts.en.md)** gains 3: Connector, Agent Interface, Agent Optimization.
+
+**[Mental Models](mental-models.en.md)** gains one entry: Human Interface → Agent Interface.
+
 ### [v7.0] - September 20, 2026
 
 #### Additions: Glossary 42 → 49, Concept Index 217 → 228

@@ -52,6 +52,7 @@ Scaling capability can also scale coordination failures, weak incentives, mispla
 
 - A company's durable advantage → systems, distribution, data, and trust.
 - The future of Agent infrastructure → orchestration, interfaces, and governance.
+- The enterprise's third door in the Agent era → Agent Interfaces, "Rank me" to "Choose me" ([From SEO to Agent Economy](from-seo-to-agent-economy.en.md)).
 - Personal capability and organization design → domain judgment and new divisions of labor.
 - Where “stronger is better” breaks → objectives, institutions, and second-order effects.
 
