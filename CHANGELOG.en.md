@@ -2,6 +2,16 @@
 
 ## September 2026
 
+### [v7.0] - September 20, 2026
+
+#### Additions: Glossary 42 → 49, Concept Index 217 → 228
+
+**[Glossary](glossary.en.md)** gains 7 trunk terms (both languages): **Scaling Laws**, **Emergent Abilities**, **AGI**; **ASI**, **Hallucination**, **Pretraining**, **RL**. Principle restated: **important ≠ trunk; the Glossary keeps the cognitive skeleton, the Concept Index keeps knowledge coverage** — 49 terms, no padding to 50.
+
+**[Concept Index](index-all-concepts.md)** gains 11: Distillation, Inference Cost, Reward Hacking, Reward Model, Prompt Injection, Backprop, Neuron, SFT, Vector DB, Data Center, Swarm (Swarm's one-liner states it is an organizational pattern of Multi-Agent systems, not a peer term). Also fixed 212 `→ - [` formatting leftovers.
+
+Deliberately unchanged: Benchmark (covered in Eval), Long Context (covered in Context), Attention (covered inside Transformer), Latency (general computing concept, index suffices).
+
 ### [v6.9] - September 20, 2026
 
 #### Structural overhaul: Glossary trimmed to the knowledge trunk

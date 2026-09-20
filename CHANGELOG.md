@@ -4,6 +4,16 @@
 
 ## September 2026
 
+### [v7.0] - September 20, 2026
+
+#### ➕ 补齐：Glossary 42 → 49，Concept Index 217 → 228
+
+**[术语表](glossary.md)** 新增 7 个主干词（中英文同步）：**Scaling Laws**、**Emergent Abilities**、**AGI**（AI 基础/前沿）；**ASI**、**Hallucination（幻觉）**、**Pretraining（预训练）**、**RL（强化学习）**。收录原则重申：**重要不等于主干；Glossary 保存认知骨架，Concept Index 保存知识覆盖面**——49 个，不以 50 为目标，不补第 50 个。
+
+**[全部概念索引](index-all-concepts.md)** 新增 11 个：蒸馏、推理成本、奖励作弊、奖励模型、提示注入、反向传播、神经元、SFT、向量数据库、数据中心、Swarm（Swarm 的一句话解释明确了它是 Multi-Agent 的一种组织方式，不是平级术语）。另修复 212 处 `→ - [` 格式残留。
+
+刻意维持现状的 4 个：Benchmark（Eval 词条已覆盖）、Long Context（Context 覆盖）、Attention（Transformer 词条内讲）、Latency（通用计算概念，索引已有）。
+
 ### [v6.9] - September 20, 2026
 
 #### 🏗️ 结构性整改：Glossary 瘦身为知识主干

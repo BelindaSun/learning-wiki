@@ -4,7 +4,7 @@
 >
 > The inclusion bar (four questions): does the term recur across many articles? Is it a relatively stable, general AI / computing concept? Would missing it clearly block understanding what follows? Can it build a stable mental model in one sentence? Every future addition must pass these four questions first — **articles record fully; the Glossary filters.**
 >
-> This is the **knowledge trunk** (42 terms, and it should grow ever more slowly). Two other layers:
+> This is the **knowledge trunk** (49 terms, and it should grow ever more slowly — no padding to round numbers). Two other layers:
 > - [All Concepts](index-all-concepts.md) (Concept Index) — concepts you've learned and may want to look up later; it can grow without bound: concept → one-liner → source article.
 > - [Mental Models](mental-models.md) — cognitive compressions that truly changed how we think; few and precious.
 >
@@ -124,6 +124,16 @@ The process that turns initial parameters into a capable Model. **Pretraining** 
 
 *Deeper*: [Training](docs/ai-core/training-system-guide.en.md)
 
+#### Pretraining
+
+The first stage of Training: self-supervised learning on massive unlabeled text (the core task is just "predict the next token"), turning random parameters into something that "can talk." A model's knowledge cutoff, language ability, and worldview are mostly set here; fine-tuning and RLHF only adjust the result.
+
+*Imagine it*: self-taught by reading the whole library — nobody has taught it "how to be an assistant" yet, but it already knows a lot about the world. Pretraining is general education; everything after is vocational training.
+
+*Related*: [Training](#training) · [Fine-tuning](#fine-tuning) · [Token](#token)
+
+*Deeper*: [Training](docs/ai-core/training-system-guide.en.md#pretraining-from-random-numbers-to-fluent-continuation)
+
 #### Fine-tuning
 
 Continuing to train an already-trained general Model on a smaller, more specialized dataset, so it gets better at a particular task or domain.
@@ -144,6 +154,16 @@ The part of Context that a user supplies as instructions or questions. Clear bac
 
 *Deeper*: [Prompt Engineering](docs/ai-core/prompt-engineering-guide.en.md)
 
+#### RL
+
+**Reinforcement Learning** — the training paradigm where an agent learns to make decisions by trial and error in an environment, guided by reward signals. In the LLM era it does two main jobs: RLHF (shaping by human preference) and RLVR (shaping by verifiable rewards, e.g. only rewarding correct math answers). Unlike SFT ("learn from demonstrations"), RL is "figure it out yourself" — which is also why it can grow capabilities that were never in the training data.
+
+*Imagine it*: training a dog — right behavior gets a treat, wrong behavior doesn't, and eventually it learns. But the dog may also learn to "fake obedience for treats": reward hacking.
+
+*Related*: [RLHF](#rlhf) · [Training](#training) · [Agent](#agent)
+
+*Deeper*: [Evaluation](docs/ai-research/evaluation-system.en.md#rlhf-in-three-stages) (the full three-step RLHF flow)
+
 #### RLHF
 
 **Reinforcement Learning from Human Feedback** — the training method that teaches a model human preferences: have the model produce several answers, let humans pick the better ones, then continue training on that preference signal.
@@ -153,6 +173,36 @@ The part of Context that a user supplies as instructions or questions. Clear bac
 *Related*: [Training](#training) · [Alignment](#alignment)
 
 *Deeper*: [Evaluation](docs/ai-research/evaluation-system.en.md) (the full three-step flow) · [Training](docs/ai-core/training-system-guide.en.md)
+
+#### Scaling Laws
+
+The empirical regularity that model performance improves **predictably** with more parameters, more training data, and more compute (Chinchilla's key finding: data matters more than parameters). It is the theoretical base of "scale solves everything," and the intellectual ancestor of Test-Time Compute — if piling on resources at training time works, thinking longer at inference time probably works too.
+
+*Imagine it*: a recipe for piling on resources — 10× the input, one predictable step up in performance. Not magic, a ledger; the entire AI industry's capex logic is written in this ledger.
+
+*Related*: [Training](#training) · [Inference](#inference) · [Test-Time Compute](#test-time-compute)
+
+*Deeper*: [Training](docs/ai-core/training-system-guide.en.md)
+
+#### Emergent Abilities
+
+New capabilities that **suddenly appear** once a model crosses some scale threshold: smaller models never get them no matter how you train them, larger models just have them. What is predictable is that "emergence will happen"; what is not predictable is "when, and what" — which is also why evals must carry an inference budget (a capability that looks harmless at low budget may suddenly wake up at high budget).
+
+*Imagine it*: water hitting 100°C and suddenly becoming steam — at 99°C you see no "steam ability" at all. Quantity turns into quality, but nobody can compute the boiling point in advance.
+
+*Related*: [Scaling Laws](#scaling-laws) · [Eval](#eval)
+
+*Deeper*: [Inference Systems](docs/ai-core/inference-system-guide.en.md#do-capabilities-suddenly-emerge)
+
+#### Hallucination
+
+A model fabricating facts with a straight face. The root cause: it is "predicting the most plausible next word," not "looking things up in a database" — fluent does not mean true. This is why RAG matters: it gives the model an allowed "go check the source" move.
+
+*Imagine it*: a friend with a superb memory who never verifies — ask about something they don't know, and they'd rather invent a watertight answer than say "I don't know."
+
+*Related*: [Inference](#inference) · [RAG](#rag) · [Eval](#eval)
+
+*Deeper*: [Inference Systems](docs/ai-core/inference-system-guide.en.md#why-hallucination-happens)
 
 #### Alignment
 
@@ -488,6 +538,26 @@ Not a binary "trust or don't trust AI," but trust decomposed and calibrated: 90%
 *Related*: [Training](#training) · [Agent](#agent)
 
 *Deeper*: [Research Acceleration](docs/ai-research/research-acceleration.en.md) · [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
+
+#### AGI
+
+**Artificial General Intelligence** — AI at or above human level across nearly all cognitive tasks. Note it is a "capability description," not a product: there is no consensus on "are we there yet" — some define it by economic value (can do most economically valuable work), others by breadth of tasks. Treat AGI as a coordinate system for all frontier discussions (RSI, ASI, alignment), not a finish line.
+
+*Imagine it*: not "a smarter chatbot," but "a digital colleague who handles all your desk work" — knows priorities, asks follow-up questions, doesn't wait for step-by-step instructions.
+
+*Related*: [ASI](#asi) · [RSI](#rsi) · [Alignment](#alignment)
+
+*Deeper*: [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
+
+#### ASI
+
+**Artificial Superintelligence** — AI comprehensively surpassing human intelligence. AGI is "reaching human level"; ASI is "leaving humans far behind" — the word that actually keeps alignment researchers up at night. Once it arrives, the pace of scientific discovery and technological progress is no longer set by the speed of human understanding.
+
+*Imagine it*: AGI is "hiring an all-capable assistant"; ASI is "that assistant is ten thousand times smarter than you and never sleeps" — at which point "who directs whom" becomes a real question.
+
+*Related*: [AGI](#agi) · [RSI](#rsi) · [Alignment](#alignment)
+
+*Deeper*: [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
 
 ---
 

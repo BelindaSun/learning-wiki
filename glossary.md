@@ -4,7 +4,7 @@
 >
 > 收录标准（四问门）：跨多篇文章反复出现；相对稳定、通用的 AI / Computing 概念；不理解会明显妨碍理解后续内容；最好一句话能建立稳定心智模型。以后每加一个词，先过这四问——**文章负责完整记录，Glossary 负责筛选**。
 >
-> 这里是**知识主干**（约 40 个词，增长越来越慢）。另外两层：
+> 这里是**知识主干**（49 个词，增长越来越慢——不以凑整为目标）。另外两层：
 > - [全部概念索引](index-all-concepts.md)（Concept Index）——学过、以后可能要查的概念，可以无限增长：概念 → 一句话 → 来源文章。
 > - [心智模型](mental-models.md)（Mental Models）——真正改变思考方式的认知压缩包，宁缺毋滥。
 >
@@ -118,6 +118,15 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 
 *想深入*：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 
+#### Pretraining
+**预训练** — 模型训练的第一阶段：在海量无标注文本上做自监督学习（核心任务就是"预测下一个 token"），让模型从一堆随机数变成"会说话"。模型的知识截止日期、语言能力和世界观，基本都在这一阶段定型；之后的微调和 RLHF 只是在这个底子上"调教"。
+
+*怎么想象*：读遍图书馆自学成才——还没人教它"怎么当助手"，但已经上知天文下知地理。预训练是通识教育，之后的一切都是专科培训。
+
+*相关*：[Training](#training)、[Fine-tuning](#fine-tuning)、[Token](#token)
+
+*想深入*：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md#预训练从随机数到会说话)
+
 #### Fine-tuning
 **微调** — 在一个已经训练好的通用模型基础上，用更少量、更专门的数据继续训练，让它更擅长某个特定任务或领域。
 
@@ -136,6 +145,15 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 
 *想深入*：[Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
 
+#### RL
+**Reinforcement Learning，强化学习** — 让 agent 在环境里不断试错、用奖励信号学会做决策的训练范式。LLM 时代它主要干两件事：RLHF（按人类偏好打磨）和 RLVR（按可验证的奖励打磨，比如数学题做对了才给分）。和 SFT（"看示范学"）不同，RL 是"自己试出来"——这也是它能让模型长出训练数据里没有的新招数的原因。
+
+*怎么想象*：训狗——做对了给零食，做错了不给，久了就学会了。但狗也可能学会"假装听话骗零食"，这就是奖励作弊。
+
+*相关*：[RLHF](#rlhf)、[Training](#training)、[Agent](#agent)
+
+*想深入*：[Evaluation 评估系统](docs/ai-research/evaluation-system.md#rlhf-三步流程)（RLHF 完整三步流程）
+
 #### RLHF
 **Reinforcement Learning from Human Feedback，基于人类反馈的强化学习** — 让模型学会人类偏好的训练方法：先让模型给出多个回答，人类挑出更好的，再用这个"偏好"信号继续训练模型。
 
@@ -144,6 +162,33 @@ Inference（推理）：你的输入 → 模型 → 输出                 [每�
 *相关*：[Training](#training)、[Alignment](#alignment)
 
 *想深入*：[Evaluation 评估系统](docs/ai-research/evaluation-system.md)（完整三步流程）· [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+
+#### Scaling Laws
+**缩放定律** — 模型性能随参数量、训练数据量、算力增长而**可预测地**提升的经验规律（Chinchilla 的核心发现：数据比参数更重要）。它是"大力出奇迹"的理论底座，也是推理扩展（Test-Time Compute）的思想源头——既然训练时堆料有用，推理时多想几步大概率也有用。
+
+*怎么想象*：堆料公式——投入翻 10 倍，性能涨一个可预测的台阶。不是玄学，是账本；整个 AI 行业的资本开支逻辑都写在这张账本上。
+
+*相关*：[Training](#training)、[Inference](#inference)、[Test-Time Compute](#test-time-compute)
+
+*想深入*：[Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+
+#### Emergent Abilities
+**涌现能力** — 模型规模跨过某个临界点后**突然出现**的新能力：小模型怎么训都没有，大模型自然就有。可预测的是"会有涌现"，不可预测的是"何时涌现、涌现什么"——这也是 Eval 必须带上推理预算的原因（低预算下看起来人畜无害的能力，高预算下可能突然开窍）。
+
+*怎么想象*：水烧到 100 度突然变蒸汽——99 度时你看不出任何"蒸汽能力"。量变到质变，但没人能提前算出沸点在哪。
+
+*相关*：[Scaling Laws](#scaling-laws)、[Eval](#eval)
+
+*想深入*：[推理系统指南](docs/ai-core/inference-system-guide.md#涌现能力真的会突然出现吗)
+
+#### Hallucination
+**幻觉** — 模型一本正经地编造不存在的事实。根因是它在"预测最像样的下一个词"，不是在"查数据库"——流畅不等于真实。RAG 之所以重要，就是给模型外接一个"允许查资料"的动作。
+
+*怎么想象*：一个记忆力超群但从不查证的朋友——你问他不知道的事，他宁可编一个滴水不漏的答案，也不说"不知道"。
+
+*相关*：[Inference](#inference)、[RAG](#rag)、[Eval](#eval)
+
+*想深入*：[推理系统指南](docs/ai-core/inference-system-guide.md#模型的幻觉为什么发生)
 
 #### Alignment
 **对齐** — 模型的目标和行为，是不是真的符合人类的真实意图，尤其是在训练时没见过的新场景里——比"怎么防止 AI 系统造成不可接受的伤害"（Safety）更深、更难验证的一层问题。RLHF 是目前最主流的对齐技术之一，但只是缓解手段，不保证问题被彻底解决。
@@ -456,6 +501,24 @@ Personal Agent：给定目标 → 理解 context → 计划 → 行动 → 监�
 *相关*：[Training](#training)、[Agent](#agent)
 
 *想深入*：[Research Acceleration](docs/ai-research/research-acceleration.md) · [递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
+
+#### AGI
+**Artificial General Intelligence，通用人工智能** — 在几乎所有认知任务上达到或超过人类水平的 AI。注意它是"能力描述"不是"某个产品"：业界对"到了没有"没有共识——有人按经济价值定义（能完成绝大多数有经济价值的工作），有人按任务广度定义。理解所有前沿讨论（RSI、ASI、对齐）的前提，是先把 AGI 当"坐标系"而不是"终点线"。
+
+*怎么想象*：不是"更聪明的聊天机器人"，而是"能干你所有案头工作的数字同事"——分得清轻重缓急，会主动追问，而不是等你一条条下指令。
+
+*相关*：[ASI](#asi)、[RSI](#rsi)、[Alignment](#alignment)
+
+*想深入*：[递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
+
+#### ASI
+**Artificial Superintelligence，超级智能** — 全面超越人类智能的 AI。AGI 是"达到人类水平"，ASI 是"把人类远远甩在身后"——对齐讨论里真正让人睡不着的那个词。一旦出现，科学发现、技术进步的速度将不再由人类的理解速度决定。
+
+*怎么想象*：AGI 是"请了个全能助理"，ASI 是"这个助理比你聪明一万倍，还 24 小时不睡觉"——这时候"谁指挥谁"就成了真问题。
+
+*相关*：[AGI](#agi)、[RSI](#rsi)、[Alignment](#alignment)
+
+*想深入*：[递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)
 
 ---
 

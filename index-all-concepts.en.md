@@ -20,7 +20,8 @@
 
 ## B
 
-- **Bandwidth vs. Capacity** — [The Memory Wall](docs/computing-foundations/memory-wall.md)
+- **Bandwidth vs. Capacity**- **Backprop** — [Training](docs/ai-core/training-system-guide.en.md)
+ — [The Memory Wall](docs/computing-foundations/memory-wall.md)
 - **Base Model** — [Training](docs/ai-core/training-system-guide.md)
 - **Batching** — [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Benchmark** — [Evaluation](docs/ai-research/evaluation-system.md)
@@ -53,6 +54,8 @@
 
 ## D
 
+- **Data Center** — [Compute Spine](docs/computing-foundations/compute-spine.en.md)
+- **Distillation** — [Training](docs/ai-core/training-system-guide.en.md)
 - **Debate** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Decode** — [Inference Infrastructure and Agent Latency](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Defense in Depth** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
@@ -99,6 +102,7 @@
 ## I
 
 - **Inference** — [Inference](docs/ai-core/inference-system-guide.md)
+- **Inference Cost** — [Models Deep Dive](docs/ai-research/models-deep-dive.en.md)
 - **Intelligence Platform** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Interconnect** — [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Interpretability** — [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
@@ -133,12 +137,14 @@
 
 ## N–O
 
+- **Neuron** — [Transformer Architecture](docs/ai-core/transformer-architecture.en.md)
 - **Native Multimodal** — [Multimodality](docs/ai-core/multimodal-guide.md)
 - **Orchestrator** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md)
 - **OS** — [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
 ## P
 
+- **Prompt Injection** — [Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.en.md)
 - **Parallel Node** — [Workflow Design](docs/ai-application/workflow-design-guide.md)
 - **Perceiver Resampler** — [Multimodality](docs/ai-core/multimodal-guide.md)
 - **Personal Data Moat** — [From Tools to Industry](docs/career-impact/industry-competition-shift.md)
@@ -157,6 +163,8 @@
 
 ## Q–R
 
+- **Reward Hacking** — [Evaluation](docs/ai-research/evaluation-system.en.md)
+- **Reward Model** — [Evaluation](docs/ai-research/evaluation-system.en.md)
 - **Quantization** — [Models Deep Dive](docs/ai-research/models-deep-dive.md)
 - **RAG** — [RAG](docs/ai-application/rag-guide.md)
 - **RAM** — [Foundation Zero](docs/computing-foundations/foundation-zero.md)
@@ -172,6 +180,8 @@
 
 ## S
 
+- **SFT** — [Evaluation](docs/ai-research/evaluation-system.en.md)
+- **Swarm** — an organizational pattern of Multi-Agent systems: many relatively autonomous agents producing collective behavior through local interaction — [Agent Collective Behavior](docs/ai-core/agent-collective-behavior.en.md)
 - **Scalable Oversight** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Scale Spine / Semiconductor Spine** — [Scale Spine](docs/computing-foundations/scale-spine.md) · [Semiconductor Spine](docs/computing-foundations/semiconductor-spine.md)
 - **Scaling Paradox** — [The Scaling Paradox](docs/career-impact/scaling-paradox.md)
@@ -200,6 +210,7 @@
 
 ## V–Y
 
+- **Vector DB** — [RAG Guide](docs/ai-application/rag-guide.en.md)
 - **Vertical Agent** — [Skills](docs/ai-application/skills-business-landscape.md)
 - **Weights** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Worker** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md)
