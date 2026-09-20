@@ -214,6 +214,8 @@ Human → Agent → Discover → Compare → Choose → Execute → Done
 
 因此竞争可能从 **"Rank me."** 逐渐增加一个新的目标：**"Choose me."**
 
+不过"Choose me"背后藏着一个前提假设：Agent 是中立的。但 Agent 是按谁写的偏好来选的？如果推荐逻辑是个黑箱，未来的 Agent Optimization 拼的可能不只是"如何让机器信任我"，还有"如何成为 Agent 平台的 preferred partner"。*（小缪的视角：这是个 open question，2026-09-20 讨论后加入）*
+
 > （分析框架声明：这不是行业既有结论，是本文在 2026 年 9 月的推演。）
 
 ---
@@ -298,6 +300,8 @@ Brand → Human preference → Intent → Agent → Transaction
 
 **人类需要喜欢你。机器需要信任你。**
 
+也许还有第三张脸：**Agent 自己的品牌**。当 Agent 一次次推荐得准，用户开始信任的不再是某个商户，而是"这个 Agent 的品味"。推荐越准越被信任，越被信任数据越多，推荐就越准——推荐者本身在积累品牌资产，这是一个复利飞轮，可能是 Agent 平台真正的护城河。*（小缪的视角，2026-09-20 讨论后加入）*
+
 ---
 
 ## 9. Brand creates desire. Agent executes intent.
@@ -349,6 +353,8 @@ Personal Agent 时代，Agent 平台可能同时拥有：**Intent + Context + Me
 如果这些 context 最终汇聚到 Personal Agent，那么消费者入口的权力可能再次迁移：
 
 **商家得到交易。Agent 得到 relationship。**
+
+品牌们花了整整二十年，好不容易把用户从 Google 手里抢回自己的 App（会员体系、私域流量、D2C），Agent Economy 可能让这二十年的努力一键清零——关系又被收走了，只是这次收走它的不叫搜索引擎，叫 Agent。*（小缪的视角，2026-09-20 讨论后加入）*
 
 因此未来最大的竞争未必只是"谁拥有最聪明的模型？"，而可能是：**"Who does the human trust to act on their behalf?"**
 

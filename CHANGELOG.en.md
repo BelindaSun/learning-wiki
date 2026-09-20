@@ -10,6 +10,8 @@
 
 **[Glossary](glossary.en.md)** gains **Connector** (49 → 50): it passes the four-gate test — recurs across multiple essays, and one sentence builds a stable mental model (Agent → Connector → External Service). Admitted because it fits, not to round out a number.
 
+Revised after discussion the same day: per the new workflow, Xiao Miu proactively offered three perspectives after reading the draft, and they were added to the essay after discussion (§5 the neutrality premise behind "Choose me", §8 the Agent's own brand, §10 two decades of e-commerce strategy potentially being reset), each marked as Xiao Miu's perspective.
+
 **[Concept Index](index-all-concepts.en.md)** gains 3: Connector, Agent Interface, Agent Optimization.
 
 **[Mental Models](mental-models.en.md)** gains one entry: Human Interface → Agent Interface.

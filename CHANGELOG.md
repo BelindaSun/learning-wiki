@@ -12,6 +12,8 @@
 
 **[术语表](glossary.md)** 新增 **Connector**（49 → 50）：通过四问门——跨多篇文章反复出现、一句话能建立稳定心智模型（Agent → Connector → External Service）。这是"遇到适合的词照样进"，不是凑整。
 
+同日讨论后修订：小缪读完初稿后按新流程主动提出三点视角，经讨论加入正文（§5 "Choose me" 的中立性前提假设、§8 Agent 自己的品牌、§10 二十年 e-commerce 战略可能被重置），均标注"小缪的视角"。
+
 **[全部概念索引](index-all-concepts.md)** 新增 3 个：Connector、Agent Interface、Agent Optimization。
 
 **[心智模型](mental-models.md)** 新增一条：Human Interface → Agent Interface。

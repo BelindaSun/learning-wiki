@@ -229,6 +229,8 @@ This may give rise to something like Agent Optimization. It isn't necessarily th
 
 So competition may add a new goal alongside **"Rank me."**: **"Choose me."**
 
+But "Choose me" hides a premise: that the Agent is neutral. Whose preferences does the Agent choose by? If the recommendation logic is a black box, future Agent Optimization may be about more than "how do I get machines to trust me" — it may also be about "how do I become the Agent platform's preferred partner." *(Xiao Miu's perspective: an open question, added after our Sep 20, 2026 discussion)*
+
 > (Framework disclaimer: this is not an established industry conclusion; it is this essay's inference, September 2026.)
 
 ---
@@ -313,6 +315,8 @@ So Brand may develop two faces:
 
 **Humans need to like you. Machines need to trust you.**
 
+There may be a third face: **the Agent's own brand**. When an Agent's recommendations keep landing well, what users come to trust is no longer any particular merchant but "this Agent's taste." The more accurate the recommendations, the more trusted; the more trusted, the more data; the more data, the more accurate the recommendations — the recommender itself accumulates brand equity. It's a compounding flywheel, and it may be the Agent platform's real moat. *(Xiao Miu's perspective, added after our Sep 20, 2026 discussion)*
+
 ---
 
 ## 9. Brand creates desire. Agent executes intent.
@@ -364,6 +368,8 @@ In the Personal Agent era, the Agent platform may hold all of these at once: **I
 If all that context ends up pooling in the Personal Agent, control over the gateway to consumers may shift once again:
 
 **The merchant gets the transaction. The Agent gets the relationship.**
+
+Brands spent two decades pulling users away from Google and into their own apps — loyalty programs, private traffic, D2C. The Agent Economy could reset those two decades with a single stroke: the relationship gets collected again, only this time the collector isn't a search engine, it's the Agent. *(Xiao Miu's perspective, added after our Sep 20, 2026 discussion)*
 
 So the biggest future competition may not be "who owns the smartest model?" but: **"Who does the human trust to act on their behalf?"**
 
