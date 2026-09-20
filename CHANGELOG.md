@@ -4,6 +4,20 @@
 
 ## September 2026
 
+### [v7.1] - September 20, 2026
+
+#### ➕ 新增：从 SEO 到 Agent Economy
+
+**[从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)**（Industry & Impact 新文章）：2026-09-20 与老贾的讨论总结，由 Belinda 整理——从 Greg Isenberg 总结 Zuck 关于 Muse Connectors 的 13 条判断出发，沿着"Connector 到底是什么"一路追到 Search、SEO、App、广告、Brand、隐私、Trust 和整个 Agent Economy；两个 discussion trigger（Greg Isenberg 信息图放开篇，armand 的 Muse 被酒店网站 CAPTCHA 拦截推文放在 Human Interface → Agent Interface 处，均保留来源）。核心框架：企业需要第三扇门 **Agent Interface**；竞争从 **"Rank me"** 增加一层 **"Choose me"**；**Brand creates desire. Agent executes intent.**（两个框架保留为本文的分析框架，而非行业既有结论）。
+
+**[术语表](glossary.md)** 新增 **Connector**（49 → 50）：通过四问门——跨多篇文章反复出现、一句话能建立稳定心智模型（Agent → Connector → External Service）。这是"遇到适合的词照样进"，不是凑整。
+
+**[全部概念索引](index-all-concepts.md)** 新增 3 个：Connector、Agent Interface、Agent Optimization。
+
+**[心智模型](mental-models.md)** 新增一条：Human Interface → Agent Interface。
+
+**[Industry & Impact 地图](docs/career-impact/index.md)** 新增第 10 问："当消费者不再亲自打开 App，企业还需要做什么？"
+
 ### [v7.0] - September 20, 2026
 
 #### ➕ 补齐：Glossary 42 → 49，Concept Index 217 → 228

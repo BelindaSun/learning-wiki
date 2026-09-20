@@ -12,6 +12,8 @@
 
 - **Agent Economy（Agent 经济）** — 当 AI 从理解 Attention 走向掌握 Intent 并能采取 Action，它可能从信息工具进入真实经济活动——购物、旅行、交易等 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
 - **Agent** — 能围绕目标自主决策、调用工具、循环行动的 AI 系统 → [Agent 系统架构](docs/ai-core/agent-architecture.md)
+- **Agent Interface（Agent 接口）** — 企业面向 Agent 的数字入口：不需要 UI，需要结构化、可靠、可执行的能力（商品、价格、库存、政策、支付）；过去企业只修 Website / App 两扇门，Agent 时代需要第三扇 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
+- **Agent Optimization（Agent 优化）** — "Rank me" 之外的新问题："How do I get the agent to choose me?"——让机器发现我、理解我、信任我，并愿意选择我；优化对象从 presentation 转向结构化变量与可信度 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
 - **Agent Intelligence（三层框架：Model/Memory/Delegation）** — 三层框架：Model/Memory/Delegation → [Agent Intelligence 三层框架](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **AAR（Automated Alignment Researcher）** — 让 AI 自主运行完整的研究循环（搜索文献→设计方法→训练模型→测量结果→迭代改进）来修复对齐失败 → [自动化对齐研究](docs/ai-research/automated-alignment-research.md)
 - **Alignment（对齐）** — 对齐 → [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
@@ -44,6 +46,7 @@
 
 ## C
 
+- **Connector（连接器）** — Agent 伸向外部世界的插头：把 App、数据源或服务接进来，让 Agent 在用户授权范围内读取信息或执行动作；API 是门，Connector 是接上并使用那扇门的方式，MCP 试图统一连接语言 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
 - **Calibrated Autonomy（校准自主权）** — Personal Agent 的目标不是 Maximum Autonomy（什么都自己做）也不是 Minimum Autonomy（什么都问用户），而是根据决定的影响程度和偏好相关 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
 - **Calibrated Trust（校准信任）** — 校准信任 → [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust) · [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十二calibrated-trust)
 - **Calibrated Confidence（校准置信度）** — 模型报出的概率数字，和它实际正确的频率对得上：说 0.9，就得十次对九次 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)

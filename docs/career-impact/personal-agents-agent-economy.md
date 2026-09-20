@@ -366,3 +366,4 @@ Agent Economy  = Personal Context → Intent → Action → Transaction
 - [Agent 基础设施的操作系统化](agent-infrastructure-os.md) —— Agent OS 等价定理：定义标准和接口的人赢
 - [Mental Models](../../mental-models.md) —— 按时间回看这些判断怎样发生变化
 - [Decision Models — 不是每个决策都需要大语言模型](../ai-core/decision-models.md) —— Calibrated Autonomy 的模型侧对应：置信度被训准的决策模型，让"自己干还是停下来问我"有了可计算的依据
+- [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md) —— Agent Economy 的商业侧展开：企业需要第三扇门 Agent Interface，竞争从"Rank me"到"Choose me"；"Brand creates desire. Agent executes intent."的分析框架

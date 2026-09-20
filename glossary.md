@@ -4,7 +4,7 @@
 >
 > 收录标准（四问门）：跨多篇文章反复出现；相对稳定、通用的 AI / Computing 概念；不理解会明显妨碍理解后续内容；最好一句话能建立稳定心智模型。以后每加一个词，先过这四问——**文章负责完整记录，Glossary 负责筛选**。
 >
-> 这里是**知识主干**（49 个词，增长越来越慢——不以凑整为目标）。另外两层：
+> 这里是**知识主干**（50 个词，增长越来越慢——不以凑整为目标）。另外两层：
 > - [全部概念索引](index-all-concepts.md)（Concept Index）——学过、以后可能要查的概念，可以无限增长：概念 → 一句话 → 来源文章。
 > - [心智模型](mental-models.md)（Mental Models）——真正改变思考方式的认知压缩包，宁缺毋滥。
 >
@@ -285,6 +285,18 @@ Memory（记忆）   ：抽屉里存着、以后还能取出来的信息——�
 *相关*：[Tool](#tool)、[Harness](#harness)
 
 *想深入*：[MCP 统一协议指南](docs/ai-application/mcp-protocol-guide.md)
+
+#### Connector
+**连接器** — Agent 伸向外部世界的插头：把 App、数据源或服务连接进来，让 Agent 在用户授权范围内读取信息或执行动作。API 是服务提供的"门"，Connector 是 Agent 接上并使用那扇门的方式（认证、权限、工具定义、参数结构、结果返回），MCP 则试图统一不同 Agent 与外部工具之间的连接语言。
+
+*怎么想象*：
+```
+Agent → Connector → External Service
+```
+
+*相关*：[Agent](#agent)、[Tool](#tool)、[MCP](#mcp)
+
+*想深入*：[从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
 
 #### Harness
 围绕模型/Agent 搭起来的整套工作环境和运行脚手架——决定它能看见什么（Context）、能用什么（Tool、权限）、怎么获得反馈（execution loop），以及哪些地方绝对不能越界。

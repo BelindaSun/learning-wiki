@@ -4,6 +4,10 @@
 
 ---
 
+**Human Interface → Agent Interface**（Sep 20）
+以为企业数字化的终点是"让人更容易点进来"（SEO 争排名、App 争留存）；现在看到 Agent 正在成为新的购买入口，企业需要为 machine 修第三扇门——竞争从 "Rank me"（让人看见我）增加一层 "Choose me"（让 Agent 有理由选择我）。人类需要喜欢你，机器需要信任你。
+→ 详见 [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
+
 **Calibrated autonomy ≠ maximum autonomy**（Sep 20）
 以为 Personal Agent 越自主越好；现在明白优秀 Agent 的目标不是 Maximum Autonomy，而是 Calibrated Autonomy——知道什么时候替我行动，什么时候停下来问我。真正困难的不是"放手"，是"校准"。
 → 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)

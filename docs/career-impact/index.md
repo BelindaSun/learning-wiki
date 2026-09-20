@@ -82,6 +82,12 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 → [美国10年期国债收益率突破5%：全面解读与资产重定价](10y-treasury-yield-5-percent.md)
 
+### 10. 当消费者不再亲自打开 App，企业还需要做什么？
+
+企业过去为 human 建 Website / App；Agent 时代，用户只表达 intent，Agent 负责后面的工作。企业需要第三扇门：Agent Interface——不需要漂亮按钮，需要结构化、可靠、可执行的能力。竞争也从"Rank me"（让人看见我）增加一层"Choose me"（让机器有理由选择我）。
+
+→ [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md)
+
 > 一个有用但不完整的近似：可以先用 **Model × System × Trust × Human Judgment** 理解 AI 的现实影响。乘号不是可计算公式，而是在提醒我们：任何一层接近零，技术能力都可能无法转化为结果。真实世界还受资本、监管、文化和时间影响，这张地图会随着证据继续升级。
 
 ## 🔬 Go Deeper · 你在判断哪一种变化？
@@ -96,6 +102,7 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 - [Agent 基础设施的操作系统化](agent-infrastructure-os.md) —— 为什么 Coding Agent 是行动型 AI 的首发场景
 - [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— Agent 进入企业需要的完整基础设施栈（Identity → Governance → Observability）
+- [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md) —— 企业需要第三扇门（Agent Interface）：竞争从"Rank me"到"Choose me"的迁移
 - [从”最聪明”到”最可信”](capability-to-trust.md) —— 为什么执行环境最终必须解决权限、审计和恢复
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— 可信度怎样落回具体系统架构
 
