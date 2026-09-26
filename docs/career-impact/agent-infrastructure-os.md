@@ -138,9 +138,13 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 **关键限制**：更高的 effort 让模型投入更多计算去验证方案、找 edge cases、挑战第一版答案——但文章的实验数据显示，它擅长修"正确方向上的遗漏"，几乎修不好"一开始就选错方向"。**Thinking harder ≠ thinking differently。** 所以方向不确定的大任务，最佳 workflow 反而是：Medium 定方向 → 人检查方向 → Low/Medium 执行 → 最后把昂贵的 High 留给 review，只问它一句话——"不要重做，审查现有结果，主动寻找错误、遗漏、edge cases、错误假设和更好的替代方案。"
 
+**但"方向"要拆成两类**（Belinda 对"方向必须人来定"的反挑战）：第一类是 epistemic direction——怎么解决问题（sanitizer 用什么技术路线、投资研究先验证哪个假设），这类方向 AI 完全可能靠更强 reasoning、搜索、simulation、multi-agent debate 改变，能力越强越如此；第二类才是 normative direction——什么值得追求（优化安全还是速度、允许多大风险、什么样的 MASS 才是我想创造的世界），这才是真正的 what matters。于是更扎实的版本是：**Thinking harder can improve how we pursue a goal—and sometimes even find a better path—but it cannot decide what ought to matter.**
+
 **以后只问两个问题**：① 我能不能很容易发现 AI 做错了？能 → Low/Medium，不能 → 往 High 调。② 这个任务需要 AI 主动发现我都没想到的问题吗？不需要 → Low/Medium，需要 → High。
 
-**这意味着 AI 协作正在从 Prompt Engineering 走向 Compute Allocation**：不仅要知道让 AI 做什么，还要知道哪里值得让它多想、哪里需要人介入、哪里值得花更多计算去验证。而这正好是 Trust Framework 在操作层的样子——**更多 thinking compute ≠ 可以给予无限 autonomy**：安全、权限、删数据、Git 操作这类事，High 照开，人工确认一律不取消。
+**这意味着 AI 协作正在从 Prompt Engineering 走向 Compute Allocation**：不仅要知道让 AI 做什么，还要知道哪里值得让它多想、哪里需要人介入、哪里值得花更多计算去验证。而"执行者便宜快、审稿人贵深"已经不只是一个 effort 技巧，而是一个 AI system design pattern——**Actor → Critic**：同一个 AI 系统里，不同阶段分配不同 compute、不同 autonomy、不同 verification 强度，动态配置资源，而不是统一地"开 High"。
+
+再往前推一步，这条链其实是：**Prompt Engineering → Compute Allocation → Autonomy Allocation → Governance**——而这就和 Trust Framework 真正接上了：更多 thinking compute ≠ 可以给予无限 autonomy。安全、权限、删数据、Git 操作这类事，High 照开，人工确认一律不取消。
 
 ---
 

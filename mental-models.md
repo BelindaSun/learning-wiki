@@ -5,7 +5,7 @@
 ---
 
 **Prompt Engineering → Compute Allocation**（Sep 26）
-以为 effort 档位该按"任务有多重要/有多大"来选；现在觉得真正的稀缺资源是"把昂贵的计算花在哪"——Effort ∝ 隐藏错误风险 × 独立判断需求，而不是 ∝ 任务长度。Higher effort 擅长修"正确方向上的遗漏"，几乎修不好"一开始就选错方向"：Thinking harder ≠ thinking differently。先把 High 留给最后的 review，而不是全程当工人。
+以为 effort 档位该按"任务有多重要/有多大"来选；现在觉得真正的稀缺资源是"把昂贵的计算花在哪"——Effort ∝ 隐藏错误风险 × 独立判断需求，而不是 ∝ 任务长度。但"方向"要拆两类：epistemic direction（怎么解决问题）AI 完全可能靠更强 reasoning 改变，越强越如此；normative direction（什么值得追求）才是真正的 what matters——Thinking harder can improve how we pursue a goal, but it cannot decide what ought to matter。再往前：Compute Allocation → Autonomy Allocation → Governance（Actor → Critic：不同阶段配不同 compute、autonomy、verification 强度）。
 → 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察从-prompt-engineering-到-compute-allocation)
 
 **Human Interface → Agent Interface**（Sep 20）

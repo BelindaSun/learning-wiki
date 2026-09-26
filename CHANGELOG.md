@@ -8,7 +8,7 @@
 
 #### ➕ 短洞察：从 Prompt Engineering 到 Compute Allocation
 
-**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增一节：2026-09-26 Belinda 读 Claude 官方博客《Using Claude Code: Spending your effort》后与老贾的讨论总结。核心不是"有几个 effort 档"，而是长期有效的认知——**如何分配 AI 的认知资源**：Effort ∝ 隐藏错误风险 × 独立判断需求（而非 ∝ 任务长度）；Thinking harder ≠ thinking differently（擅长修正确方向上的遗漏，几乎修不好选错的方向）；最佳 workflow 是 Medium 定方向 → 人检查方向 → Low/Medium 执行 → High 留给最终 review；更多 thinking compute ≠ 无限 autonomy。
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增一节：2026-09-26 Belinda 读 Claude 官方博客《Using Claude Code: Spending your effort》后与老贾的讨论总结。核心不是"有几个 effort 档"，而是长期有效的认知——**如何分配 AI 的认知资源**：Effort ∝ 隐藏错误风险 × 独立判断需求（而非 ∝ 任务长度）；Thinking harder ≠ thinking differently（擅长修正确方向上的遗漏，几乎修不好选错的方向）；最佳 workflow 是 Medium 定方向 → 人检查方向 → Low/Medium 执行 → High 留给最终 review；更多 thinking compute ≠ 无限 autonomy。同日讨论后修订：Belinda 反挑战"方向必须人来定"太绝对，拆成 epistemic direction（怎么解决问题，可外包给更强 reasoning）vs normative direction（什么值得追求，才是真正的 what matters），升级为 "Thinking harder can improve how we pursue a goal—and sometimes even find a better path—but it cannot decide what ought to matter."；并补上 Actor → Critic（不同阶段配不同 compute/autonomy/verification 强度的 system design pattern）与完整链条 Prompt Engineering → Compute Allocation → Autonomy Allocation → Governance，接上 Trust Framework。
 
 **[心智模型](mental-models.md)** 新增一条：Prompt Engineering → Compute Allocation。
 
