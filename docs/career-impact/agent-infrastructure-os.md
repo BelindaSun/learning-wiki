@@ -9,6 +9,7 @@
 - arXiv 2606.26959 "The Shift to Agentic AI: Evidence from Codex"
 - OpenAI "How Agents Are Transforming Work"
 - "Why Normal People Aren't Using AI Agents"
+- Claude 官方博客《Using Claude Code: Spending your effort》（claude.dev）
 
 📖 **完整学习对话记录**：[Coding Agent 与 Agent 基础设施](../conversations/agent-infrastructure-os.md)
 
@@ -129,10 +130,24 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
+## 短洞察：从 Prompt Engineering 到 Compute Allocation
+
+**触发**：Claude 官方博客《Using Claude Code: Spending your effort》，以及随后和老贾的讨论。这篇文章最值得记住的不是"有几个 effort 档"，而是一个更长期有效的认知——**如何分配 AI 的认知资源**。
+
+**一句话原则**：Effort 不按"任务有多重要"选，而按"AI 独立判断的深度 + 错误有多难被发现"选。老贾的公式：**Effort ∝ 隐藏错误风险 × 独立判断需求**，而不是 ∝ 任务长度。长任务完全可以用 Low；一句话很短、但涉及架构、安全或关键判断的问题，反而值得 High。
+
+**关键限制**：更高的 effort 让模型投入更多计算去验证方案、找 edge cases、挑战第一版答案——但文章的实验数据显示，它擅长修"正确方向上的遗漏"，几乎修不好"一开始就选错方向"。**Thinking harder ≠ thinking differently。** 所以方向不确定的大任务，最佳 workflow 反而是：Medium 定方向 → 人检查方向 → Low/Medium 执行 → 最后把昂贵的 High 留给 review，只问它一句话——"不要重做，审查现有结果，主动寻找错误、遗漏、edge cases、错误假设和更好的替代方案。"
+
+**以后只问两个问题**：① 我能不能很容易发现 AI 做错了？能 → Low/Medium，不能 → 往 High 调。② 这个任务需要 AI 主动发现我都没想到的问题吗？不需要 → Low/Medium，需要 → High。
+
+**这意味着 AI 协作正在从 Prompt Engineering 走向 Compute Allocation**：不仅要知道让 AI 做什么，还要知道哪里值得让它多想、哪里需要人介入、哪里值得花更多计算去验证。而这正好是 Trust Framework 在操作层的样子——**更多 thinking compute ≠ 可以给予无限 autonomy**：安全、权限、删数据、Git 操作这类事，High 照开，人工确认一律不取消。
+
+---
+
 ## 和以前哪些知识连接起来了？
 
 - 与 [从工具到产业](industry-competition-shift.md) 直接相关——护城河从模型到系统/生态的迁移路径，今天补上了"执行环境"这一层，并给出了具体的 OS 类比
-- 与 [从"最聪明"到"最可信"](capability-to-trust.md) 相连——企业侧的 Trust 鸿沟，正是那五维可信度框架在采用层面的真实阻力
+- 与 [从"最聪明"到"最可信"](capability-to-trust.md) 相连——企业侧的 Trust 鸿沟，正是那五维可信度框架在采用层面的真实阻力；本篇新增的短洞察（Effort ∝ 隐藏错误风险 × 独立判断需求）是同一框架落到操作层的一条规则：更多 thinking compute ≠ 无限 autonomy
 - 与 [Domain Expertise 与组织变革](domain-expertise-and-org-design.md) 相连——OpenAI 数据里非技术部门 137/189 倍的 Codex 增长，就是"Agent 把非代码任务翻译成代码任务"的直接证据
 - 与 [Agent 系统架构](../ai-core/agent-architecture.md) 相连——tool selection、决策机制，在 Muse Code 的多层嵌套子 Agent 实际运行中看到了具体样子
 - 与 [MCP 统一协议指南](../ai-application/mcp-protocol-guide.md) 相连——MCP 在这里被重新定位为"Agent 操作系统的设备驱动层"，意义可能远大于目前的关注度
@@ -159,7 +174,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
-**最后更新**: August 7, 2026
+**最后更新**: September 26, 2026
 
 **相关**:
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)

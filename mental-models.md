@@ -4,6 +4,10 @@
 
 ---
 
+**Prompt Engineering → Compute Allocation**（Sep 26）
+以为 effort 档位该按"任务有多重要/有多大"来选；现在觉得真正的稀缺资源是"把昂贵的计算花在哪"——Effort ∝ 隐藏错误风险 × 独立判断需求，而不是 ∝ 任务长度。Higher effort 擅长修"正确方向上的遗漏"，几乎修不好"一开始就选错方向"：Thinking harder ≠ thinking differently。先把 High 留给最后的 review，而不是全程当工人。
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察从-prompt-engineering-到-compute-allocation)
+
 **Human Interface → Agent Interface**（Sep 20）
 以为企业数字化的终点是"让人更容易点进来"（SEO 争排名、App 争留存）；现在看到 Agent 正在成为新的购买入口，企业需要为 machine 修第三扇门——竞争从 "Rank me"（让人看见我）增加一层 "Choose me"（让 Agent 有理由选择我）。人类需要喜欢你，机器需要信任你。
 → 详见 [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
@@ -154,4 +158,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 20, 2026
+**最后更新**: September 26, 2026

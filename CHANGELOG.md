@@ -4,6 +4,14 @@
 
 ## September 2026
 
+### [v7.2] - September 26, 2026
+
+#### ➕ 短洞察：从 Prompt Engineering 到 Compute Allocation
+
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增一节：2026-09-26 Belinda 读 Claude 官方博客《Using Claude Code: Spending your effort》后与老贾的讨论总结。核心不是"有几个 effort 档"，而是长期有效的认知——**如何分配 AI 的认知资源**：Effort ∝ 隐藏错误风险 × 独立判断需求（而非 ∝ 任务长度）；Thinking harder ≠ thinking differently（擅长修正确方向上的遗漏，几乎修不好选错的方向）；最佳 workflow 是 Medium 定方向 → 人检查方向 → Low/Medium 执行 → High 留给最终 review；更多 thinking compute ≠ 无限 autonomy。
+
+**[心智模型](mental-models.md)** 新增一条：Prompt Engineering → Compute Allocation。
+
 ### [v7.1] - September 20, 2026
 
 #### ➕ 新增：从 SEO 到 Agent Economy
@@ -408,4 +416,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 20, 2026
+**最后更新**: September 26, 2026
