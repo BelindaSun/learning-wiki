@@ -23,12 +23,14 @@ Belinda 的个人 AI 学习笔记，每天手动加新内容。**不用 GitHub P
 
 ## 新增一篇学习笔记的标准流程
 
-1. 按主题放对文件夹：`docs/ai-core/`、`docs/ai-application/`、`docs/ai-research/`、`docs/career-impact/`
+1. 按主题放对文件夹：`docs/computing-foundations/`、`docs/ai-core/`、`docs/ai-application/`、`docs/ai-research/`、`docs/career-impact/`、`docs/beyond/`（见下面"知识架构"）
 2. 文件名用小写连字符命名，比如 `docs/ai-core/new-concept.md`
 3. 页面内容参考 `CONTRIBUTE.md` 里的"页面结构"模板（标题、核心概念、目录、正文小节、下一步、最后更新+相关）
 4. 写完之后，记得去两个地方**手动加相对路径链接**，不然这篇新文章没人能找到：
    - 对应的 `docs/<分类>/index.md`（比如加了 ai-core 的新文章，就去 `docs/ai-core/index.md` 加一行）
    - `index-all-concepts.md`（按字母或按主题加进对应分类）
+   - 同时写一份英文版 `<同名>.en.md`，并同步上面这些索引的 `.en.md` 版本（`docs/` 下的文章都成对存在）
+   - 在 `CHANGELOG.md`（和 `CHANGELOG.en.md`）顶部加一条更新记录
 5. 如果这篇新文章和已有文章相关，在新文章底部"相关"里加相对路径链接指回去，**同时**去被链接的旧文章里，也加一条链接指向这篇新文章（双向链接，别偷懒只加一边）
 6. 如果提到的相关概念还没写成独立页面，就写成纯文字 + "（待创建）"，不要写假链接（这是仓库里已有的约定，参考 `docs/ai-core/agent-architecture.md` 底部"下一步"部分的写法）
 
@@ -49,7 +51,7 @@ Belinda 的个人 AI 学习笔记，每天手动加新内容。**不用 GitHub P
 **核心原则**：
 - **不重写深度内容**——每个节点尽量复用/链接现有文章，只补"入门这一层"缺的东西。深度文章保持原来的深度，不要为了照顾新手把正文写得幼稚
 - **不是唯一入口**——`start-here.md` 只帮读者跨过最初的门槛，之后就该放手让他们自由探索，别把 Wiki 变成"一个人试图教全世界 AI"
-- 如果以后新增了一类目前 7 站没覆盖到的基础困惑（比如新读者反复卡在同一个概念），可以加第 8 站，但先确认现有内容里没有更合适的位置能解决
+- 如果以后新增了一类目前 8 站没覆盖到的基础困惑（比如新读者反复卡在同一个概念），可以再加一站，但先确认现有内容里没有更合适的位置能解决
 
 ## 写作时避免过度绝对化的表述
 
@@ -97,6 +99,8 @@ Belinda 的个人 AI 学习笔记，每天手动加新内容。**不用 GitHub P
 3. `docs/ai-application/` AI in Practice 应用 —— Skill、工作流、MCP、案例
 4. `docs/ai-research/` AI Research 研究 —— 训练、评估、优化
 5. `docs/career-impact/` Industry & Impact 产业与影响 —— AI 遇上世界：经济、职业、社会
+
+另有 `docs/beyond/` Beyond · AI 之外（金融、设计等 AI 之外同样值得系统学习的话题），导航排在五块之后。
 
 注意：**知识图谱（概念依赖）≠ 网站导航层级**。Computing Foundations 在依赖关系上是最底层的地基（AI Core 依赖它），但在导航/文件夹层级上是**顶层领土**，不嵌套在 AI Core 下面——用"排序"表达依赖，不用"嵌套"表达依赖。
 
