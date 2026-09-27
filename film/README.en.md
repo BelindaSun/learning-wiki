@@ -4,6 +4,8 @@
 
 🎬 **Watch**: [whiteboard.mp4](whiteboard.mp4) (1280×720, with sound)
 
+➡️ **Version two**: [*The Next Word*](next-word/README.en.md), about how AI itself works
+
 ---
 
 ## Why "The Whiteboard"

@@ -4,6 +4,8 @@
 
 🎬 **看片**：[whiteboard.mp4](whiteboard.mp4)（1280×720，有声音）
 
+➡️ **第二版**：[《下一个词 The Next Word》](next-word/README.md)，讲 AI 本身是怎么工作的
+
 ---
 
 ## 为什么叫《白板》
