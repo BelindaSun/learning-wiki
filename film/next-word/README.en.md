@@ -4,6 +4,8 @@
 
 🎬 **Watch**: [next-word.mp4](next-word.mp4) (1280×720, with sound, Chinese and English)
 
+🧭 **Viewing guide**: [what to watch for in each chapter, what the film simplifies, and questions to think about](guide.en.md)
+
 ---
 
 ## The spine
