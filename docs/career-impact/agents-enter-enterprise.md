@@ -294,6 +294,19 @@ Consumer Agent → Connector → Enterprise Platform → Businesses
 
 **竞争抽象层的又一次上移**：模型 → 工具生态 → 执行环境（[Agent Infrastructure OS](agent-infrastructure-os.md)）→ **企业平台（谁能把 agent 卖进组织、管进组织）**。Meta 此前押的是"成本优势 + 数据飞轮"，这一步补的是它最缺的一块：**组织能力**——把 consumer 规模（数十亿用户、数亿商家）翻译成 enterprise 信任。
 
+**老贾的 CTO 批注（2026-09-28）：Capability → Deployability → Adoptability**
+
+"Meta 挖 MongoDB CEO 而不是 AI 研究员"这个观察，说明瓶颈正在迁移：
+
+```
+Capability → Deployability → Adoptability
+（能不能）   （能不能进企业）  （企业愿不愿意用）
+```
+
+模型能力还在进步，但当 capability 跨过某个阈值以后，边际瓶颈变成 identity、permissions、security、audit、integration、procurement、liability、support——也就是：**AI capability ≠ AI deployability**。很多 Agent 公司可能会死在第二步，而不是第一步。
+
+这和 [Capability → Trust](capability-to-trust.md) 是同一条线：deployability 的每一项（权限、审计、安全）都是 trust 的工程化身；而 adoptability（企业愿不愿意用）最终回到那个问题："Who does the human trust to act on their behalf?"
+
 *来源：[Meta 官方公告](https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/) · [Reuters](https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/)（2026-09-28；市场噪音备注：消息后 MongoDB 盘前跌约 15–20%、Meta 微跌——人事新闻的股价波动不重要，重要的是组织信号。）*
 
 ## 最终心智模型

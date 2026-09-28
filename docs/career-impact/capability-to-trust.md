@@ -176,6 +176,36 @@ Agent 时代（2024-2026）:
 
 ---
 
+## 老贾的 CTO 批注：Agent Trust Stack——信任不是一层，是六层
+
+**触发**：2026-09-28。针对"谁来定义 agent 世界的信任层"这个判断，老贾把它进一步拆开：未来未必有一个赢家，而可能形成一套分层的 **Agent Trust Stack**——每层解决不同的信任问题，每层都有不同的玩家在争：
+
+```
+Model                 —— 能不能正确判断
+  ↓
+Runtime               —— 能不能限制行动
+  ↓
+Identity & Permission —— 谁允许它做什么
+  ↓
+Audit                 —— 做过什么能不能追溯
+  ↓
+Transaction           —— 企业敢不敢让它花钱 / 签约 / 执行
+  ↓
+Reputation            —— 人和 Agent 为什么相信某个服务
+```
+
+**各家的站位**（2026-09-28 的快照，不是定论）：
+
+- **Meta** 在往**中间几层**插旗：Enterprise Platform（Muse / Business Agents / Model API）+ CJ Desai 的企业组织能力，瞄准的是 Identity、Transaction、企业级 Audit——"企业敢不敢让它花钱、让它执行"这一层。
+- **NVIDIA** 从 **Runtime / Hardware 往上插**：OpenShell（开源运行时，限制行动）+ Sentry（独立硬件看门狗），守的是"能不能限制行动"这一层，再往上够到 Audit（见 [Agent 基础设施的操作系统化](agent-infrastructure-os.md) 的短洞察）。
+- **其他人**：Cloudflare（网络边界 + 区分 authorized agent 和 bot，正好卡在 Runtime 与 Identity 之间）、Microsoft（Entra Agent ID 已经在做 Identity）、Google、ServiceNow（workflow + 企业流程，Transaction 层的天然玩家）都会争不同层。
+
+**为什么"六层"比"一个赢家"更可能是答案**：这和 Agent Infrastructure OS 的 OS 类比是一回事——操作系统从来不是一家公司写完所有层（内核、驱动、文件系统、应用框架各有各的玩家）。**定义标准和接口的人赢，但赢的可能不是"一个人"，而是"每层定义接口的人"**。
+
+*（小缪的视角：五维框架回答的是"可信由什么构成"，Trust Stack 回答的是"可信在**哪里**被执行"——比如 Controllable 主要落在 Runtime 层（OpenShell），Auditable 落在 Audit 层。而 Transaction 层是五维还没展开的新问题：当 agent 开始替企业花钱、签约，liability 归谁？这一层可能是 2026-09-28 之后最值得盯的。）*
+
+---
+
 ## 和以前哪些知识连接起来了？
 
 1. **从"模型战争→系统战争"**——那次明白了竞争焦点从模型能力转向工作流系统；这次更深一层：系统战争的本质是"可信度战争"（参考 [模型战争 vs 系统战争](model-to-system-war.md)）
@@ -202,7 +232,7 @@ Agent 时代（2024-2026）:
 
 ---
 
-**最后更新**: August 5, 2026
+**最后更新**: September 28, 2026
 **推荐阅读/观察**:
 - Disney 的多模型采购策略（2026 年案例）
 - Anthropic vs OpenAI 的增长曲线对比（2024-2026）

@@ -4,6 +4,18 @@
 
 ---
 
+**一个赢家 → 一套 Stack**（Sep 28）
+以为 agent 信任层会有一个赢家（"定义标准和接口的人赢"）；老贾把它拆成六层 Agent Trust Stack：Model（能不能正确判断）→ Runtime（能不能限制行动）→ Identity & Permission（谁允许它做什么）→ Audit（能不能追溯）→ Transaction（敢不敢让它花钱/签约/执行）→ Reputation（为什么相信某个服务）。Meta 插旗中间层，NVIDIA 从 runtime/hardware 往上，Cloudflare/Microsoft/Google/ServiceNow 各争各层——赢的可能不是"一个人"，而是"每层定义接口的人"。
+→ 详见 [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md#老贾的-cto-批注agent-trust-stack信任不是一层是六层)
+
+**信心信号 ≠ 需求证据**（Sep 28）
+以为 $1500亿 回购是管理层用真金白银回答 overbuild 质疑；老贾踩刹车：回购只能证明董事会认为当前价格下返还资本有效，**不能单独证明行业不存在 overbuild**——长期看好与阶段性过度建设可以并存。回购是信心信号，不是需求证据；事实层/推断层分开的纪律在这里特别重要。
+→ 详见 [Investment Book · NVDA](https://belindasun.github.io/investment-book/#/NVDA)（2026-09-28 回购条目）
+
+**Capability → Deployability**（Sep 28）
+以为 Agent 公司的生死看谁的模型更聪明；老贾指出瓶颈正在迁移：capability 跨过阈值后，边际瓶颈变成 deployability——identity、permissions、security、audit、integration、procurement、liability、support。**AI capability ≠ AI deployability**；很多 Agent 公司会死在第二步（Deployability），不是第一步（Capability），第三步才是 Adoptability（企业愿不愿意用）。
+→ 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
+
 **Model Safety → Infrastructure Safety**（Sep 28）
 以为 Agent 安全是"模型行为研究"（对齐、红队、拒答）；现在看到 NVIDIA 把安全下沉到运行时与基础设施：OpenShell 在 CPU 层画沙箱（开源、可验证），Sentry 在独立硬件上看门（闭源、毫秒级掐断）。模型层的安全措施，管不住 agent 能访问什么、能做什么。
 → 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察nvidia-open-agent-safety-platformagent-安全下沉到运行时与基础设施)

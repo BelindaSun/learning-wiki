@@ -190,6 +190,8 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 **仍然开放的问题**：Sentry 还是参考设计——从"发布"到"企业真买单"还有距离；以及 100+ 合作伙伴里，出事的 OpenAI 本人暂时不在名单上，这个缺席本身值得记一笔。
 
+**老贾的后续拆分（2026-09-28）**：针对"谁来定义信任层"，老贾把它进一步拆成六层 **Agent Trust Stack**（Model → Runtime → Identity & Permission → Audit → Transaction → Reputation）——未来未必有一个赢家，而可能是每层都有不同的玩家在争。详见 [从"最聪明"到"最可信"](capability-to-trust.md#老贾的-cto-批注agent-trust-stack信任不是一层是六层)。
+
 *来源：[Reuters](https://www.reuters.com/legal/litigation/nvidia-releases-ai-safety-software-it-says-could-have-stopped-hugging-face-hack-2026-09-28/)（2026-09-28）*
 
 ## 和以前哪些知识连接起来了？

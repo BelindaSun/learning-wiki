@@ -4,6 +4,16 @@
 
 ## September 2026
 
+### [v7.5] - September 28, 2026
+
+#### ➕ 老贾的 CTO 批注（三条，2026-09-28）
+
+1. **Capability → Deployability → Adoptability**：**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)** 的 Meta Enterprise Platform 一节追加——"Meta 挖 MongoDB CEO 而不是 AI 研究员"说明瓶颈正在迁移：capability 跨过阈值后，边际瓶颈变成 identity、permissions、security、audit、integration、procurement、liability、support；**AI capability ≠ AI deployability**，很多 Agent 公司会死在第二步（Deployability），不是第一步（Capability）。
+2. **回购解读踩刹车**：investment-book `NVDA` 的 2026-09-28 回购条目把推断层再弱化半档——回购证明的是董事会认为当前价格下返还资本有效，**不能单独证明行业不存在 overbuild**（长期看好与阶段性过度建设可以并存）；回购是信心信号，不是需求证据。顺带肯定了账本"事实层/推断层分开"的纪律。
+3. **Agent Trust Stack**：**[从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md)** 新增一节——"谁来定义信任层"拆成六层：Model（能不能正确判断）→ Runtime（能不能限制行动）→ Identity & Permission（谁允许它做什么）→ Audit（能不能追溯）→ Transaction（敢不敢让它花钱/签约/执行）→ Reputation（为什么相信某个服务）。Meta 插旗中间层，NVIDIA 从 runtime/hardware 往上，Cloudflare/Microsoft/Google/ServiceNow 各争各层；赢的可能不是"一个人"，而是"每层定义接口的人"。**[Coding Agent 与 Agent 基础设施](docs/career-impact/agent-infrastructure-os.md)** 的安全洞察已反向链接过去。
+
+**[心智模型](mental-models.md)** 新增三条：Capability → Deployability；信心信号 ≠ 需求证据；一个赢家 → 一套 Stack。
+
 ### [v7.4] - September 28, 2026
 
 #### ➕ 补记：Meta Enterprise Platform（企业级 Agent 的"平台化"时刻）
