@@ -159,6 +159,8 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 **核心判断**：过去衡量 Agent，看它能自主完成多少步骤、调用多少工具、解决多复杂的任务。随着 Agent 能力越来越强，另一个指标会越来越重要——**Selective action**：不是能不能行动，而是能不能判断哪一个行动值得发生。整轮测试看到的能力弧线是 Creation → Initiative → Self-critique → Judgment → Selective execution → Product judgment → **Knowing when to stop**。**Agent intelligence ≠ maximum action. Better agency requires better judgment about when to act, what to act on, and when to stop.**
 
+**但"克制"要分两层**（Belinda 对结论的精确化修正）：第三、四轮的克制并非完全自发——第三轮给了 skeptical reviewer 的角色，第四轮给了 30 分钟预算。这两轮更准确地说，证明的是**模型能够在约束下进行有效的 self-critique 和 selective execution**（给约束，它就收得住）。而第五轮没有给"必须少做"的约束，它仍然主动放弃了两个更诱人的方向（A 更宏大、B 更颠覆），这才提供了更强的 judgment 证据。所以是两层能力：**听话的克制**（compliant restraint，约束下成立）vs **主动的判断**（self-initiated judgment，无约束下仍然知道什么不值得做）——后者才是更稀缺的那一层。
+
 **和链条的连接**：这是 Prompt Engineering → Compute Allocation → Autonomy Allocation → Governance 在 Autonomy 一端的实证注脚——Autonomy Allocation 不只是"给多少 autonomy"，还包括"什么时候收回、什么时候停下"。而第五轮的产品判断（在 A/B/C 里选 C，并说清为什么不选 A/B），正是 normative direction（什么值得追求）的一次实例：Thinking harder 可以找到更好的路径，但"什么值得追求"这个价值判断，仍然在人。
 
 ---
