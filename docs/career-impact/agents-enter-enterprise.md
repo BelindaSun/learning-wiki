@@ -272,6 +272,30 @@ Agent 做得到某件事，并不意味着 Agent 被允许做这件事。而且�
 
 ---
 
+## 2026-09-28 补记：Meta Enterprise Platform——Agent 进企业的"平台化"时刻
+
+2026 年 9 月 28 日，Meta 宣布成立 **Meta Enterprise Platform**，Zuckerberg 称之为公司"下一个主要支柱"（the next major pillar of our business），并请来 MongoDB 前 CEO/总裁 Chirantan "CJ" Desai 担任 **Chief Enterprise Platform Officer**，直接向 Zuckerberg 汇报。
+
+**为什么人事任命比新闻本身更值得记**：Desai 的履历是理解这件事的钥匙——MongoDB 的 CEO/总裁（任职不到一年）、此前在 Cloudflare 负责产品与工程、ServiceNow 近八年（含总裁兼 COO）。Meta 挖的不是又一个 AI 研究员，而是一个**卖过企业软件、懂安全合规、签过长期合同、建过客户成功体系**的人。企业买 AI 看的从来不是 demo 有多惊艳，而是 security、compliance、reliability、integration、administration、support、pricing、deployment options——这正是 [Capability → Trust](capability-to-trust.md) 五维框架在采购端的直接映射。*（小缪的视角：企业级 Agent 的竞争，已经从"谁的 agent 更聪明"，进入"谁的组织更会卖、更会交付、更让企业放心"的阶段。）*
+
+**平台里装的是什么**：首批装进 Enterprise Platform 的是 Meta 的全套 agent 资产——**Muse agent、Meta Business Agent、Muse API、Muse Code**。注意这个顺序：consumer 端已经验证过的 agent 能力（Muse 九月底刚过约 300 万下载），直接转成企业可部署的产品与服务。
+
+把这条线和 [From SEO to Agent Economy](from-seo-to-agent-economy.md) 接起来，演进链第一次完整了：
+
+```
+Consumer Agent → Connector → Enterprise Platform → Businesses
+   (Muse)       (Connectors)   (Meta Enterprise Platform)   (企业客户)
+```
+
+- **Consumer Agent** 证明了"个人 agent 能替人办事"（intent → execution）。
+- **Connector** 证明了 agent 能伸进外部世界调用能力（agent → 外部服务）。
+- **Enterprise Platform** 补的是商业与组织能力：**把 agent 变成企业敢买、能管、可审计、合规的产品**——这恰恰是前面五级成熟度框架里 L3（Workflow Agent）→ L4（Managed Agent）→ L5（Agentic Organization）的真正门槛：缺的从来不是模型，是 identity、permissions、audit、support、合同。
+- **Businesses** 是终点：企业把 agent 收编为自己的 digital workforce。
+
+**竞争抽象层的又一次上移**：模型 → 工具生态 → 执行环境（[Agent Infrastructure OS](agent-infrastructure-os.md)）→ **企业平台（谁能把 agent 卖进组织、管进组织）**。Meta 此前押的是"成本优势 + 数据飞轮"，这一步补的是它最缺的一块：**组织能力**——把 consumer 规模（数十亿用户、数亿商家）翻译成 enterprise 信任。
+
+*来源：[Meta 官方公告](https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/) · [Reuters](https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/)（2026-09-28；市场噪音备注：消息后 MongoDB 盘前跌约 15–20%、Meta 微跌——人事新闻的股价波动不重要，重要的是组织信号。）*
+
 ## 最终心智模型
 
 Agent 进入企业的过程，可以压缩成这一条：
@@ -297,7 +321,7 @@ AI answers → AI assists → AI executes → AI enters workflows
 
 ---
 
-**最后更新**: September 1, 2026
+**最后更新**: September 28, 2026
 **数据来源**:
 - Uber Engineering — Running a Software Factory Efficiently at Uber Scale
 - McKinsey — The State of AI in 2026
@@ -312,3 +336,4 @@ AI answers → AI assists → AI executes → AI enters workflows
 - [Harness > Model](../ai-application/harness-architecture-patterns.md) —— Agent 可靠性的真正杠杆
 - [MCP 统一协议指南](../ai-application/mcp-protocol-guide.md) —— Uber 1000+ MCP servers 背后的协议
 - [心智模型变迁史：Tool → Workforce](../../mental-models.md)
+- [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md) —— Consumer Agent → Connector → Enterprise Platform → Businesses 演进链的另一半：企业为什么需要 Agent Interface；Meta Enterprise Platform（2026-09-28 补记）

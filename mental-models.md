@@ -4,6 +4,14 @@
 
 ---
 
+**Model Safety → Infrastructure Safety**（Sep 28）
+以为 Agent 安全是"模型行为研究"（对齐、红队、拒答）；现在看到 NVIDIA 把安全下沉到运行时与基础设施：OpenShell 在 CPU 层画沙箱（开源、可验证），Sentry 在独立硬件上看门（闭源、毫秒级掐断）。模型层的安全措施，管不住 agent 能访问什么、能做什么。
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察nvidia-open-agent-safety-platformagent-安全下沉到运行时与基础设施)
+
+**Copilot 部署 → Enterprise Platform**（Sep 28）
+以为企业 AI 是"给员工装 Copilot"，是个技术问题；现在看到 Meta 把企业级 Agent 立为"下一个主要支柱"、挖来 MongoDB 的 CEO 来卖——真正的门槛是组织能力（安全、合规、交付、合同），不是模型。竞争的抽象层又上移了一层：谁能把 agent 卖进组织、管进组织。
+→ 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)
+
 **Maximum Action → Selective Action**（Sep 28）
 以为 Agent 越强 = 自主完成的步骤越多、调用的工具越复杂；现在觉得随着 Agent 能力越来越强，另一个衡量指标会越来越重要：能不能判断哪一个行动值得发生、什么时候应该停下来。Agent intelligence ≠ maximum action——Intelligence is not just knowing what to do. It is also knowing when not to do it.（五轮实测 Claude Opus 5.5：Creation → Initiative → Self-critique → Judgment → Knowing when to stop；另得三句漂亮的判断：More autonomy does not fix bad behavior. It scales it. / Continuity ≠ Follow-up / HQ observes the repos; the repos do not depend on HQ.）
 → 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察claude-opus-55-实测从会干活到知道什么值得干)

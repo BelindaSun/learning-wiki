@@ -395,6 +395,8 @@ Authorized agents 与传统 anti-bot infrastructure 之间的冲突已经开始�
 
 API、Connector、agent identity、permissions、machine-readable commerce 和 agent payment infrastructure 的重要性正在上升。
 
+- **企业端的向量正在成形**：2026-09-28 Meta 成立 Meta Enterprise Platform（CJ Desai 任 Chief Enterprise Platform Officer，直接向 Zuckerberg 汇报），把 Muse agent / Business Agents / Model API 装进企业可部署的产品与服务——演进链从 Consumer Agent → Connector 延伸到 **Enterprise Platform → Businesses**（详见 [AI Agents Enter the Enterprise](agents-enter-enterprise.md)）。
+
 ### What We Infer —— 今天的推演
 
 如果这些趋势继续：
@@ -467,7 +469,7 @@ Agent → Connector → External Service
 
 ---
 
-**最后更新**: September 20, 2026
+**最后更新**: September 28, 2026
 
 **相关**:
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Agent Economy 的概念源头：从 Attention Economy 到 Intent Economy 的迁移
@@ -475,3 +477,4 @@ Agent → Connector → External Service
 - [从"最聪明"到"最可信"](capability-to-trust.md) —— Agent Economy 绕不开的前提：Trust；"Who does the human trust to act on their behalf?"
 - [AI 与经济丰饶的分配问题：谁拥有 AI 资本？](ai-economic-distribution.md) —— Agent Economy 的宏观经济背景：增长归谁
 - [Mental Models](../../mental-models.md) —— 按时间回看这些判断怎样发生变化
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— 同一条演进链的企业端：Meta Enterprise Platform（2026-09-28）把 Muse / Business Agents / Model API 装进企业可部署的产品

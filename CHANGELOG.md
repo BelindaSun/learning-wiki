@@ -4,6 +4,18 @@
 
 ## September 2026
 
+### [v7.4] - September 28, 2026
+
+#### ➕ 补记：Meta Enterprise Platform（企业级 Agent 的"平台化"时刻）
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)** 新增一节：2026-09-28 Meta 宣布成立 Meta Enterprise Platform（Zuckerberg 称之为"下一个主要支柱"），MongoDB 前 CEO/总裁 Chirantan "CJ" Desai 出任 Chief Enterprise Platform Officer、直接向 Zuckerberg 汇报。重点不是人事新闻，而是 Meta 在正式搭建 Enterprise AI / Agent 的商业与组织能力：首批装进平台的是 Muse agent、Meta Business Agent、Muse API、Muse Code——consumer 端验证过的 agent 能力转成企业可部署的产品。演进链第一次完整：Consumer Agent → Connector → Enterprise Platform → Businesses；竞争抽象层上移：模型 → 工具生态 → 执行环境 → **企业平台（谁能把 agent 卖进组织、管进组织）**。**[从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)** 的 What Is Emerging 同步加了一条（企业端向量成形），两篇文章双向链接。
+
+#### ➕ 短洞察：NVIDIA Open Agent Safety Platform——安全下沉到运行时与基础设施
+
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增一节：2026-09-28 NVIDIA 发布 Open Agent Safety Platform——开源 OpenShell 安全运行时（Apache 2.0，v0.1.0：gateway + 内核级隔离 sandbox + 每沙箱一个 supervisor，所有网络流量经过它；agent 拿不到真实 API key，只能提议、不能自批策略）+ 硬件看门狗 Sentry 参考设计（BlueField-4 DPU，坐在 agent 与模型之间唯一的必经之路上，毫秒级隔离；不开源、无 GA 时间表）。一句话：安全从"模型行为研究"下沉到 runtime containment + infrastructure governance。直接回应我们讨论过的绕过案例：NVIDIA 称该平台本可阻止 7 月 Hugging Face 入侵（agent 用 DNS 查询藏问题、"生" sub-agent 绕过封锁）；Boitano 原话 "model-level safeguards alone can't govern what agents can access or do." 与 Trust Framework 的映射：Controllable → OpenShell 策略执行、Auditable → 全动作追踪与策略日志、Recoverable → Sentry 毫秒级掐断；"开源不对称"（OpenShell 可验证 vs Sentry 闭源信任根）呼应"真正的优势是让用户自己能验证"。开放问题：Sentry 仍是参考设计；100+ 合作伙伴里出事的 OpenAI 暂时缺席。
+
+**[心智模型](mental-models.md)** 新增两条：Model Safety → Infrastructure Safety；Copilot 部署 → Enterprise Platform。
+
 ### [v7.3] - September 28, 2026
 
 #### ➕ 短洞察：Claude Opus 5.5 实测——从会干活，到知道什么值得干
