@@ -4,6 +4,14 @@
 
 ## September 2026
 
+### [v7.3] - September 28, 2026
+
+#### ➕ 短洞察：Claude Opus 5.5 实测——从会干活，到知道什么值得干
+
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增一节：2026-09-28 Belinda 用自己的真实工作（非 benchmark）五轮实测 Claude Opus 5.5——① 三部短片（跨题材的 creation 链条）；② 24 个 GitHub repositories 横向审计、自建 belinda-hq（项目地图 + 五块大陆的"总部星图"）；③ 以 skeptical Staff Engineer 身份自我审查，砍掉大部分自建基础设施（"I built new drift on day one while writing a drift checker."）；④ 30 分钟预算下只修 chokepoint，然后 Stop deliberately；⑤ MASS 产品判断，在 A/B/C 里选 C，关键是说清为什么没选 A/B。能力弧线：Creation → Initiative → Self-critique → Judgment → Selective execution → Product judgment → **Knowing when to stop**；核心结论 **Agent intelligence ≠ maximum action**，未来更重要的指标是 **Selective action**（能不能判断哪一个行动值得发生）："Intelligence is not just knowing what to do. It is also knowing when not to do it." 顺带产出的漂亮判断：**More autonomy does not fix bad behavior. It scales it.**；**Continuity ≠ Follow-up**（Continuity = Remembering what remains alive for the person）；**HQ observes the repos; the repos do not depend on HQ.**（地图不是领土）。这是 Prompt Engineering → Compute Allocation → Autonomy Allocation → Governance 链条在 Autonomy 一端的实证注脚：Autonomy Allocation 不只是"给多少"，还包括"什么时候收回、什么时候停下"；第五轮的产品判断则是 normative direction（什么值得追求）的一次实例。
+
+**[心智模型](mental-models.md)** 新增一条：Maximum Action → Selective Action。
+
 ### [v7.2] - September 26, 2026
 
 #### ➕ 短洞察：从 Prompt Engineering 到 Compute Allocation
@@ -416,4 +424,4 @@ Agent 系统架构、Workflow 设计、模型战争 vs 系统战争、概念索�
 
 ---
 
-**最后更新**: September 26, 2026
+**最后更新**: September 28, 2026

@@ -10,6 +10,7 @@
 - OpenAI "How Agents Are Transforming Work"
 - "Why Normal People Aren't Using AI Agents"
 - Claude 官方博客《Using Claude Code: Spending your effort》（claude.dev）
+- Belinda 的 Claude Opus 5.5 五轮真实场景测试（2026-09-28）：《Testing Claude Opus 5.5：从会干活，到知道什么值得干》
 
 📖 **完整学习对话记录**：[Coding Agent 与 Agent 基础设施](../conversations/agent-infrastructure-os.md)
 
@@ -148,10 +149,25 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
+## 短洞察：Claude Opus 5.5 实测——从会干活，到知道什么值得干
+
+**触发**：2026-09-28，Belinda 用自己的真实工作（而不是 benchmark）连续测试 Claude Opus 5.5。测着测着，测试的问题从"它能做什么"，慢慢变成了另一个更重要的问题：**一个越来越强的 Agent，除了会做事，能不能判断什么值得做、什么不值得做，以及什么时候应该停下来？**
+
+**五轮弧线**：① 先让它连续拍了三部短片（Me and My AIs / What Is an AI Agent / The Next Word）——测的不是视频生成，而是"理解主题 → 选择叙事角度 → 组织结构 → 控制节奏 → 完整交付"的 creation 链条，而且是跨题材的；② 把 24 个 GitHub repositories 扔给它——它自己横向看 README、git history、branches、CLAUDE/HANDOFF 文档，主动发现了一堆没被要求找的问题（旧模型名散落多处、API 可能存在的相同 failure pattern、单文件 HTML 一类可能导致静默失败的问题、没 merge 的 branch、投资相关 repo 之间的知识断点、二十多个项目缺一张全局地图），然后自建了 belinda-hq（项目地图 + 跨 repo 关系 + 待处理问题 + scanner + 一张把 24 个 repo 画成五块大陆的"总部星图"）；③ 让它换个身份、当 skeptical Staff Engineer 重新审查自己刚建的 belinda-hq——它真的开始砍自己的东西，甚至写下 "I built new drift on day one while writing a drift checker."，认为 star map、registry、doc-drift checker、repo weight monitor 大多应该删掉或降级，只留下少量跨 repo 检查、几条全局规则和真正有用的 HQ 地图；④ 只剩 30 分钟工程时间——先验证两个关键假设，成立才修，只修 chokepoint，不为"future proof"去动没造成 failure 的东西，然后 Stop deliberately；⑤ MASS 产品判断（ChatGPT 追加的最后一项）——未来两周只能做一个产品改变，做什么？它在 A（让世界真正 24/7 活着）、B（改变 Miva 里用户的角色）、C（让 Mimo 的 AI 家人真正记住真人"正在经历的事"）里选了 C，但真正有价值的是它**为什么没选 A/B**。
+
+**最值得记住的三句话**：① **"More autonomy does not fix bad behavior. It scales it."**——如果 AI 现在会重复唠叨、重复发信，让服务器一直开着只会产生更多唠叨和更多重复；② **Continuity ≠ Follow-up**——Continuity = Remembering what remains alive for the person. 记得不等于追问；真正像家人的行为，有时是"我记得。但今天不问。"（Mimo 是 family / companion，不是 productivity coach）；③ **HQ observes the repos; the repos do not depend on HQ.**——它是地图，不是领土；每个 repo 仍然保存自己的 truth。
+
+**核心判断**：过去衡量 Agent，看它能自主完成多少步骤、调用多少工具、解决多复杂的任务。随着 Agent 能力越来越强，另一个指标会越来越重要——**Selective action**：不是能不能行动，而是能不能判断哪一个行动值得发生。整轮测试看到的能力弧线是 Creation → Initiative → Self-critique → Judgment → Selective execution → Product judgment → **Knowing when to stop**。**Agent intelligence ≠ maximum action. Better agency requires better judgment about when to act, what to act on, and when to stop.**
+
+**和链条的连接**：这是 Prompt Engineering → Compute Allocation → Autonomy Allocation → Governance 在 Autonomy 一端的实证注脚——Autonomy Allocation 不只是"给多少 autonomy"，还包括"什么时候收回、什么时候停下"。而第五轮的产品判断（在 A/B/C 里选 C，并说清为什么不选 A/B），正是 normative direction（什么值得追求）的一次实例：Thinking harder 可以找到更好的路径，但"什么值得追求"这个价值判断，仍然在人。
+
+---
+
 ## 和以前哪些知识连接起来了？
 
 - 与 [从工具到产业](industry-competition-shift.md) 直接相关——护城河从模型到系统/生态的迁移路径，今天补上了"执行环境"这一层，并给出了具体的 OS 类比
 - 与 [从"最聪明"到"最可信"](capability-to-trust.md) 相连——企业侧的 Trust 鸿沟，正是那五维可信度框架在采用层面的真实阻力；本篇新增的短洞察（Effort ∝ 隐藏错误风险 × 独立判断需求）是同一框架落到操作层的一条规则：更多 thinking compute ≠ 无限 autonomy
+- 与本篇的上一节短洞察相连——Compute Allocation 回答"昂贵的计算花在哪"，这一节是同一链条在 Autonomy 一端的注脚：Autonomy Allocation 不只是"给多少"，还包括"什么时候收回、什么时候停下"；而"什么值得追求"这个 normative direction 的判断，最终仍在人
 - 与 [Domain Expertise 与组织变革](domain-expertise-and-org-design.md) 相连——OpenAI 数据里非技术部门 137/189 倍的 Codex 增长，就是"Agent 把非代码任务翻译成代码任务"的直接证据
 - 与 [Agent 系统架构](../ai-core/agent-architecture.md) 相连——tool selection、决策机制，在 Muse Code 的多层嵌套子 Agent 实际运行中看到了具体样子
 - 与 [MCP 统一协议指南](../ai-application/mcp-protocol-guide.md) 相连——MCP 在这里被重新定位为"Agent 操作系统的设备驱动层"，意义可能远大于目前的关注度
@@ -178,7 +194,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
-**最后更新**: September 26, 2026
+**最后更新**: September 28, 2026
 
 **相关**:
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)

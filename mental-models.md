@@ -4,6 +4,10 @@
 
 ---
 
+**Maximum Action → Selective Action**（Sep 28）
+以为 Agent 越强 = 自主完成的步骤越多、调用的工具越复杂；现在觉得随着 Agent 能力越来越强，另一个衡量指标会越来越重要：能不能判断哪一个行动值得发生、什么时候应该停下来。Agent intelligence ≠ maximum action——Intelligence is not just knowing what to do. It is also knowing when not to do it.（五轮实测 Claude Opus 5.5：Creation → Initiative → Self-critique → Judgment → Knowing when to stop；另得三句漂亮的判断：More autonomy does not fix bad behavior. It scales it. / Continuity ≠ Follow-up / HQ observes the repos; the repos do not depend on HQ.）
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察claude-opus-55-实测从会干活到知道什么值得干)
+
 **Prompt Engineering → Compute Allocation**（Sep 26）
 以为 effort 档位该按"任务有多重要/有多大"来选；现在觉得真正的稀缺资源是"把昂贵的计算花在哪"——Effort ∝ 隐藏错误风险 × 独立判断需求，而不是 ∝ 任务长度。但"方向"要拆两类：epistemic direction（怎么解决问题）AI 完全可能靠更强 reasoning 改变，越强越如此；normative direction（什么值得追求）才是真正的 what matters——Thinking harder can improve how we pursue a goal, but it cannot decide what ought to matter。再往前：Compute Allocation → Autonomy Allocation → Governance（Actor → Critic：不同阶段配不同 compute、autonomy、verification 强度）。
 → 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察从-prompt-engineering-到-compute-allocation)
@@ -158,4 +162,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 26, 2026
+**最后更新**: September 28, 2026
