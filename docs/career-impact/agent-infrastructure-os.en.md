@@ -131,7 +131,7 @@ The interesting bit is the "open-source asymmetry": OpenShell is open (the softw
 
 **Still open:** Sentry is still a reference design — there's real distance between "announced" and "enterprises actually paying"; and among the 100+ partners, OpenAI — the company whose incident started this — is absent from the list. That absence is worth noting.
 
-**Lao Jia's follow-up split (2026-09-28):** On "who defines the trust layer," Lao Jia broke it into a six-layer **Agent Trust Stack** (Model → Runtime → Identity & Permission → Audit → Transaction → Reputation) — the future may not have one winner, but different players competing at each layer. See [From "Smartest" to "Most Trustworthy"](capability-to-trust.en.md#lao-jias-cto-note-the-agent-trust-stack-trust-is-six-layers-not-one).
+**Lao Jia's follow-up split (2026-09-28):** On "who defines the trust layer," Lao Jia broke it into a six-layer **Agent Trust Stack** (Model → Runtime → Identity & Permission → Audit → Transaction → Reputation) — the future may not have one winner, but different players competing at each layer. See [From "Smartest" to "Most Trustworthy"](capability-to-trust.en.md#lao-jias-cto-note-the-agent-trust-stack--trust-is-six-layers-not-one).
 
 *Source: [Reuters](https://www.reuters.com/legal/litigation/nvidia-releases-ai-safety-software-it-says-could-have-stopped-hugging-face-hack-2026-09-28/) (2026-09-28)*
 
