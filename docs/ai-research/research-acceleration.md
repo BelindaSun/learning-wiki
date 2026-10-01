@@ -152,7 +152,7 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 
 ## 短洞察：Intelligence Explosion——从哲学争论变成可测量的工程问题
 
-**触发**：2026-09-28，剑桥生存风险研究中心（CSER）发布 Frontier AI Working Paper No. 2/2026《What If Automating AI R&D Triggers an Intelligence Explosion?》，20 多位作者联署：Geoffrey Hinton、Yoshua Bengio、Andrew Barto（三位图灵奖得主级人物），以及 OpenAI 首席科学家 Jakub Pachocki、Anthropic 联合创始人 Jack Clark、Microsoft 首席科学官 Eric Horvitz、Meta 的 Dawn Song。注意一个身份细节：这篇由学术界和公民社会主导发起，作者以**个人身份**参与，不代表各自公司的背书。
+**触发**：2026-09-28，[《What If Automating AI R&D Triggers an Intelligence Explosion?》](https://arxiv.org/abs/2609.36054)（Frontier AI Working Paper No. 2/2026，剑桥 CSER 工作论文系列；由剑桥 AI Science & Policy 项目 CASP 与 GovAI 牵头，第一作者 Alan Chan，共 22 位作者联署）：Geoffrey Hinton、Yoshua Bengio、Andrew Barto（三位图灵奖得主：Hinton / Bengio 2018 年、Barto 2024 年），以及 OpenAI 首席科学家 Jakub Pachocki、Anthropic 联合创始人 Jack Clark、Microsoft 首席科学官 Eric Horvitz、UC Berkeley 的 Dawn Song。注意一个身份细节：这篇由学术界和公民社会主导发起，作者以**个人身份**参与，不代表各自公司的背书。[GovAI 页面](https://www.governance.ai/research-paper/what-if-automating-ai-r-d-triggers-an-intelligence-explosion)。
 
 **真正的新东西不是"AI 很危险"**——这类文章已经够多了。真正的新东西是他们把 Intelligence Explosion 定义得相当克制：**AI-driven acceleration of AI progress，导致原本需要数年的进步被压缩到数月甚至更短**。它不要求 AI 突然觉醒、自我意识、自己重写神经网络。只需要一个反馈环：AI 帮助 AI R&D → 更好的 AI 更快产生 → 更好的 AI 承担更多 AI R&D → R&D cycle 再缩短 → Positive Feedback Loop。
 
@@ -164,7 +164,7 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 
 **和本篇的连接**：本篇的核心是"R&D 生产力提升 10× 不等于能力进步 10×"——中间隔着方向选择、compute 约束、递减效应、安全减速、整合瓶颈五层衰减。这篇报告本质上在追问：当反馈环真的转起来，这五层衰减里哪些会被击穿？而"**什么 observable signal 出现以后，我们才应该从'关注'切换到'减速'**"——是比争论"P(doom) 是多少"有用得多的问题。
 
-**更好的问题**：不再问"RSI 到底什么时候发生"，而是问"**AI R&D 的 effective doubling time 有没有持续下降**"。2026 年一个研究员 + AI 一年干过去 2 年的活，2027 年干 5 年的，2028 年干 20 年的——这已经是 Intelligence Explosion，完全不需要一个坐在服务器里的 AI 神。
+**更好的问题**：不再问"RSI 到底什么时候发生"，而是问"**AI R&D 的 effective doubling time 有没有持续下降**"。做一个假设性推演（不是预测）：2026 年一个研究员 + AI 一年干过去 2 年的活，2027 年干 5 年的，2028 年干 20 年的——如果这条曲线成立，它在效果上就接近 Intelligence Explosion 定义的"数年压缩到数月"，完全不需要一个坐在服务器里的 AI 神。
 
 **小缪的视角**：报告最有力的两组数据（>80% 代码、26% 自主 R&D）恰恰都来自 Anthropic 的 self-report，不是独立测量——而这正是报告自己呼吁的第一项政策（Visibility：允许独立 evaluator 深入观察）要解决的问题。最需要被独立验证的，恰恰是"自动化程度"这类由 labs 自己上报的指标。Self-reported automation metrics 和独立验证之间的 gap，本身就是 visibility 议程的第一个证据。
 
@@ -174,9 +174,9 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 
 ## 短洞察：Discovery Provenance——"AI 独立发现了 X"需要什么标准？
 
-**触发**：先补一个本篇还没收录的前情。2026-09-23，Anthropic 宣布：约 950 个 Claude agents 在大规模 DNA 数据中搜索约 21 小时、处理约 2.1 亿 tokens，发现了一个此前未识别的 reverse-transcriptase 系统，命名为 **ART**（array-associated reverse transcriptase，结构上形似 CRISPR 的重复序列阵列）。公司发布了 preprint（含计算结果和一个初步实验），但生物学功能未知、尚未同行评审。
+**触发**：先补一个本篇还没收录的前情。2026-09-23，Anthropic 宣布：约 950 个 Claude agents 在大规模 DNA 数据中搜索约 21 小时、处理约 2.1 亿 tokens，发现了一个此前未识别的 reverse-transcriptase 系统，命名为 **ART**（array-associated reverse transcriptase，结构上形似 CRISPR 的重复序列阵列）。公司发布了 preprint（含计算结果和一个初步实验），但生物学功能未知、尚未同行评审。[Smithsonian 报道](https://www.smithsonianmag.com/smart-news/anthropic-says-its-ai-discovered-a-new-enzyme-system-that-resembles-the-revolutionary-gene-editing-tool-crispr-180989578/)。
 
-**纠偏来了**：2026-09-27 前后，哥本哈根大学计算生物学家 Mario Rodríguez Mestre 向《纽约时报》表示：他的团队**从 2022 年起**就在研究同一系统（他们称之为 "jumbotrons"），相关未发表的分析、学位论文草稿曾在日常使用中分享给 Claude；他还是 2023 年一项相关 reverse-transcriptase 专利的共同发明人。Anthropic 回应三点：不知道有已发表的 ART 描述；Claude 没有用 user transcripts 训练；分子生物学团队也接触不到这些数据。
+**纠偏来了**：2026-09-27 前后，哥本哈根大学计算生物学家 Mario Rodríguez Mestre 向《纽约时报》表示：他的团队**从 2022 年起**就在研究同一系统（他们称之为 "jumbotrons"），相关未发表的分析、学位论文草稿曾在日常使用中分享给 Claude；他还是 2023 年一项相关 reverse-transcriptase 专利的共同发明人。Anthropic 回应三点：不知道有已发表的 ART 描述；Claude 没有用 user transcripts 训练；分子生物学团队也接触不到这些数据。[ThePrint 追踪报道](https://theprint.in/science/did-claude-discover-a-new-enzyme-or-stole-a-biologists-work-anthropic-responds/3057122/)
 
 **现在两边都下不了结论**：没有足够证据说"Anthropic 的发现不算发现"，也不能再轻率地说"Claude 完全独立发现了一个人类从未知道的生物系统"。而这正是 Automated Science 开始成熟以后必须面对的新问题——**Discovery Provenance（发现溯源）**。
 

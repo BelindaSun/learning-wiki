@@ -24,7 +24,8 @@
 - [十二、Calibrated Trust](#十二calibrated-trust)
 - [十三、当 Agent 获得"眼睛"](#十三当-agent-获得眼睛)
 - [十四、下一代 Computing Layer？](#十四下一代-computing-layer)
-- [十六、Persistent Agency：Personal Agent 的核心资产是 User State](#十六persistent-agency-personal-agent-的核心资产是-user-state)
+- [十五、最后一个心智模型](#十五最后一个心智模型)
+- [十六、Persistent Agency：Personal Agent 的核心资产是 User State](#十六persistent-agencypersonal-agent-的核心资产是-user-state)
 
 ---
 
@@ -330,7 +331,7 @@ Answer                     Personal Context
 
 ## 十六、Persistent Agency：Personal Agent 的核心资产是 User State
 
-**2026-09-29，OpenAI 在 DevDay 发布 Dots：always-on agents。** 每个 Dot 有自己的 cloud computer 和 browser，连接 4,000+ apps，跨 ChatGPT（桌面 / 网页 / 移动）、Slack、Teams 携带 context，从反馈持续学习用户偏好，同时处理多个长期任务，24/7 工作。底层模型是 GPT-6 Astra，首个 Dot 对 Pro / Business Premium 用户免费。
+**2026-09-29，OpenAI 在 DevDay 发布 [Dots](https://en.lanatime.com/tech/openai-launches-dots-always-on-ai-agents-for-work-2026-09-30/)：always-on agents。** 每个 Dot 有自己的 cloud computer 和 browser，连接 4,000+ apps，跨 ChatGPT（桌面 / 网页 / 移动）、Slack、Teams 携带 context，从反馈持续学习用户偏好，同时处理多个长期任务，24/7 工作。底层模型是 GPT-6 Astra，首个 Dot 对 Pro / Business Premium 用户免费。
 
 但产品细节不是重点。真正值得研究的是它背后的 architecture 转变：
 
@@ -346,7 +347,7 @@ Answer                     Personal Context
 
 **核心循环**：Observe → Update State → Re-evaluate Goals → Notice Meaningful Change → Decide Whether to Act → Act / Ask / Stay Silent → Learn → repeat forever。
 
-**最难的不是 Act，而是 Stay Silent。** 一个 24/7 Agent 如果每发现一点东西就跑来打扰，三天就被开除了。长期 Personal Agent 真正的 intelligence 越来越体现在 **Selective Action**——什么时候主动、什么时候等、什么时候只更新内部状态、什么时候必须打断人。这和"十五"里的 Maximum Action → Selective Action 严丝合缝。
+**最难的不是 Act，而是 Stay Silent。** 一个 24/7 Agent 如果每发现一点东西就跑来打扰，三天就被开除了。长期 Personal Agent 真正的 intelligence 越来越体现在 **Selective Action**——什么时候主动、什么时候等、什么时候只更新内部状态、什么时候必须打断人。这正是 [Claude Opus 5.5 实测（9-28 那节）](agent-infrastructure-os.md#短洞察claude-opus-55-实测从会干活到知道什么值得干)里 "Maximum Action → Selective Action" 的延续。
 
 **Temporal Ownership（时间所有权）**：不是拥有用户，而是 Agent 对一段持续时间内的目标和状态负有连续责任。这和 Memory 有本质区别——Memory 是"我记得 Belinda 上周说了 X"（retrieval）；Persistent Agency 是"X 是一条仍然进行中的线；昨天出现了 Y，所以 X 的状态已经变化；现在值得把这件事带回来"（state maintenance）。
 

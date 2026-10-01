@@ -204,7 +204,7 @@
 
 ## P
 
-- **Persistent Agency（持续代理）** — Agent 拥有"自己的时间"：即使用户不在，它维护的世界仍在继续；核心循环 Observe → Update State → Re-evaluate Goals → Notice Change → Decide → Act / Ask / Stay Silent → Learn → repeat；最难的是 Stay Silent → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agency-personal-agent-的核心资产是-user-state)
+- **Persistent Agency（持续代理）** — Agent 拥有"自己的时间"：即使用户不在，它维护的世界仍在继续；核心循环 Observe → Update State → Re-evaluate Goals → Notice Change → Decide → Act / Ask / Stay Silent → Learn → repeat；最难的是 Stay Silent → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)
 - **Pacing the Frontier** — 前沿节奏控制：让能力增长不长期超过人类理解、评估和控制它的速度 → [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
 - **Personal Agent（个人智能体）** — 个人智能体 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
 - **Pre-distribution（预分配）** — 在冲击发生前就把普通人嵌入资本形成阶段（比如从出生起建立资本账户、注入 AI 公司股权），而不是等财富已经集中后再靠税收去"再分配" 〔宏观金融〕 → [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md#二政策框架三级触发机制)
@@ -250,7 +250,7 @@
 
 ## S
 
-- **Selective Action（选择性行动）** — 长期 Agent 的 intelligence 体现在什么时候主动、什么时候等、什么时候只更新内部状态、什么时候必须打断人；Persistent Agency 循环里最难的一步 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agency-personal-agent-的核心资产是-user-state)
+- **Selective Action（选择性行动）** — 长期 Agent 的 intelligence 体现在什么时候主动、什么时候等、什么时候只更新内部状态、什么时候必须打断人；Persistent Agency 循环里最难的一步 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)
 - **Sequential Node** — 工作流中的顺序节点 → [顺序节点](docs/ai-application/workflow-design-guide.md#1-sequential-node顺序节点)
 - **Session Thread** — 会话线程的隔离性 → [Session 线程隔离](docs/ai-core/workflow-orchestration.md#session-线程的隔离性)
 - **Semantic Memory** — 语义记忆：记得"是什么" → [语义记忆](docs/ai-core/memory-system-guide.md#情节记忆-vs-语义记忆)
@@ -284,7 +284,7 @@
 
 ## T
 
-- **Temporal Ownership（时间所有权）** — Agent 对一段持续时间内的目标和状态负有连续责任；区别于 Memory（retrieval）的是 state maintenance → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agency-personal-agent-的核心资产是-user-state)
+- **Temporal Ownership（时间所有权）** — Agent 对一段持续时间内的目标和状态负有连续责任；区别于 Memory（retrieval）的是 state maintenance → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)
 - **Temperature** — 采样温度：控制输出随机性 → [采样参数](docs/ai-core/inference-system-guide.md#采样参数)
 - **Tool Selection** — 工具调用机制：Agent 怎么决定用哪个工具 → [工具调用机制](docs/ai-core/agent-architecture.md#工具调用机制)
 - **Tool Use Block** — 工具调用的生成格式 → [工具调用的生成](docs/ai-core/agent-architecture.md#tool-definition-的最佳实践)
@@ -300,7 +300,7 @@
 
 ## U
 
-- **User State（用户状态）** — 长期 Personal Agent 的核心资产：不是关于人的 Memory，而是关于人的 Living State——"现在还有什么在进行中" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agency-personal-agent-的核心资产是-user-state)
+- **User State（用户状态）** — 长期 Personal Agent 的核心资产：不是关于人的 Memory，而是关于人的 Living State——"现在还有什么在进行中" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)
 
 ## V
 

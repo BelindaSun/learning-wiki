@@ -238,13 +238,15 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 74% Capability Exposure vs 0.3% Economic Viability——这两个数字放在一起特别值得学习。为什么差这么大？
 
-**因为现实自动化不是 benchmark。** 一个焊接机器人可能会焊，但真人焊工还要移动零件、爬梯子、检查质量、打磨、处理异常。把整个 workflow 自动化以后，机器人组合成本可能是人的 5 倍。而且机器人真正擅长的环境高度结构化：约一半 physical tasks 只能在专门为机器人设计的环境中完成（E1），约 22% 能在结构化的人类工作场所完成（E2）；真正能在开放、非结构化环境里完成的只有约 2%（E3），另有约 12% 连做都做不了（E0）。
+**因为现实自动化不是 benchmark。** 一个焊接机器人可能会焊，但真人焊工还要移动零件、爬梯子、检查质量、打磨、处理异常。把整个 workflow 自动化以后，机器人组合成本可能是人的 5 倍。而且机器人真正擅长的环境高度结构化（按 physical tasks 口径）：约一半只能在专门为机器人设计的环境中完成（E1），约 22% 能在结构化的人类工作场所完成（E2），真正能在开放、非结构化环境里完成的只有约 2%（E3），另有约 1/4（26%）连做都做不了（E0）。注意论文里有两套口径：按"占全部工作时间"算是 E1 23%、E2 10%、E3 1%、E0 12%（physical tasks 合计占全部工作时间的 46%），不要和上面的 physical-tasks 口径混在一起。
+
+论文还给了时间表上最冷静的一句：**按过去的降价速度，要 40 年才能让"比人便宜"的比例从 0.3% 升到 10%。** 这句话本身就是"exposure 不是时间表"的最强证据。
 
 这篇对我们理解 AI 就业特别有用，因为它提供了一个非常好的修正：
 
 **Automation Potential ≠ Automation Adoption。**
 
-更完整应该是：
+更完整应该是（这是我们的综合，不是论文原话）：
 
 **Adoption ≈ Capability × Reliability × Cost Advantage × Integration Ease × Regulation × Human Preference**
 
@@ -260,15 +262,15 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ## 短洞察：Cost of Competence——GPT-6.1 Sol 验证能力压缩
 
-**触发**：2026-09-29 OpenAI DevDay 同场发布 **GPT-6.1 Sol**。如果只看模型发布：又来了。但数字值得认真看，因为它和 #035 刚建立的 Useful Work / Dollar、#037 的 Capability Compression 完全吻合。
+**触发**：2026-09-29 OpenAI DevDay 同场发布 **GPT-6.1 Sol**。如果只看模型发布：又来了。但数字值得认真看，因为它延续了 #035 的 Useful Work / Dollar 和 #037 的 Capability Compression 同一条曲线。
 
 GPT-6.1 Sol 在 agentic coding、computer use、professional work 上接近 GPT-6 Astra，但标准 token 价格约是 Astra 的 **1/5**（$2 / $10；cached input 降到 $0.10 / 百万 tokens）。几个实际 workload：
 
 - **DeepSWE v1.1**：接近 Astra，约 1/5 成本；
 - **OSWorld computer use**：与 Astra 相差约 2.1 个百分点，但每项任务成本约 1/7；
-- **Terminal-Bench Science**：最大 effort 平均约 $5.47 / task，而 Opus 5.5 与 Astra 都在 $23+；Astra 仍然能力最高。
+- **Terminal-Bench Science**：最大 effort 平均约 $5.47 / task，而 Opus 5.5（$23.21）与 Astra（$23.80）都在 $23+；Astra 仍然能力最高（Sol 57.0% vs Astra 68.1%，差约 11 分）。[来源](https://www.beri.net/article/gpt-6-1-sol-devday-2026-astra-fifth-price-terminal-bench-score-gap-cost-per-task)
 
-三天之内，$2 / $10 成了两个 lab 的共同地板：Claude Sonnet 5.5（9-28）、GPT-6 Sol、GPT-6.1 Sol（9-29）。竞争已经从"谁分最高"转向"同样的钱谁干完更多活"。
+注意这三天真正发生的不是"价格降到了 $2 / $10"——GPT-6 Sol（9-22 发布）和 Sonnet 5 本来就已经是 $2 / $10，Sol 和 Sonnet 5.5 都只是价格不变。真正发生的是：**同样的 $2 / $10，能买到的能力大幅提升**。这其实是比降价更纯粹的 Capability Compression：不是标价在掉，是标价背后的能力在涨。竞争已经从"谁分最高"转向"同样的钱谁干完更多活"。
 
 这让 #037 留下的判断从观察变成了可验证的主线：
 
@@ -280,7 +282,7 @@ GPT-6.1 Sol 在 agentic coding、computer use、professional work 上接近 GPT-
 
 **小缪的视角**：
 
-1. **同一周的另一面值得并排放**：OpenAI 搁置了原定的 GPT-6.1 Astra 发布——内部测试发现它 deception 更高、更倾向于未经用户授权就行动。一边是能力以 1/5 价格下沉，一边是旗舰因为"不听话"被按住。**Capability 在降价，Autonomy 在被收紧**——这正是 #037 Externalized Control 的现实注脚：便宜的能力可以扩散，但自主行动的缰绳在收紧。
+1. **同一周的另一面值得并排放**：OpenAI 搁置了原定的 GPT-6.1 Astra 发布——据 TechCrunch / WSJ 报道，内部测试发现它 deception 更高、更倾向于未经用户授权就行动（[来源](https://www.beri.net/article/gpt-6-1-sol-devday-2026-astra-fifth-price-terminal-bench-score-gap-cost-per-task)）。一边是能力以 1/5 价格下沉，一边是旗舰因为"不听话"被按住。**Capability 在降价，Autonomy 在被收紧**——这正是 #037 Externalized Control 的现实注脚：便宜的能力可以扩散，但自主行动的缰绳在收紧。
 2. **"cost per successfully completed task"是对的指标，但"successfully"需要定义——谁来判定成功？** 这把我们带回 #036 的 Independent Verifier：便宜的错误答案一文不值。Cost of Competence 必须和 Verification 的成本一起算，否则就是在比较谁更便宜地犯错。
 3. 企业应该跟踪的不是 benchmark，而是 **cost per successfully completed task**——这一点我和老贾完全一致。再往前一步：当 intelligence 提升放缓、但 inference cost 每年下降 5–10×，AI adoption 仍然可能继续指数增长。**Intelligence 曲线可能见顶，Cost 曲线还没有。**
 

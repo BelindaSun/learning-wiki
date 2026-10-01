@@ -323,7 +323,7 @@ Brown 透露，他团队中**超过 10% 的人现在专注于对齐和安全**�
 
 ## AI 开始优化承载自己的基础设施：Gemini 4 Argon 的内部使用
 
-**2026-09-30，Google 发布 Gemini 4 Argon。** headline 是 **1 million output tokens**——从以前的 64K 直接拉到 1M，让单条 trajectory 可以持续产生几十万 tokens 的 reasoning / work。benchmark 也不弱：DeepSWE v1.1 77.9%，CWE-bench v1 68%（vulnerability remediation，并列第一），AutomationBench 51.3%。intro 定价 $2 / $10（之后 $4 / $20）——又一个站上 $2 / $10 地板的模型。
+**2026-09-30，Google 发布 [Gemini 4 Argon](https://oossa.com/en/google-launches-gemini-4-argon-for-trusted-cyber-defenders)。** headline 是 **1 million output tokens**——从以前的 64K 直接拉到 1M，让单条 trajectory 可以持续产生几十万 tokens 的 reasoning / work。benchmark 也不弱：DeepSWE v1.1 77.9%，CWE-bench v1 68%（vulnerability remediation，并列第一），AutomationBench 51.3%。intro 定价 $2 / $10（之后 $4 / $20）——Sonnet 5.5、GPT-6 Sol 之后又一个定价 $2 / $10 的模型。
 
 但我认为这反而不是最值得学的部分。真正值得看的是 **Google 已经怎样在内部使用它**：
 
