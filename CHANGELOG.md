@@ -4,6 +4,26 @@
 
 ## September 2026
 
+### [v7.6] - September 29, 2026
+
+#### ➕ AI Learning #037 四则短洞察：Externalized Control（2026-09-29）
+
+**[Research Acceleration：从 R&D 生产力到能力进步的转化漏斗](docs/ai-research/research-acceleration.md)** 新增两节：
+
+1. **Intelligence Explosion——从哲学争论变成可测量的工程问题**：2026-09-28，剑桥 CSER 发布 Frontier AI Working Paper No. 2/2026《What If Automating AI R&D Triggers an Intelligence Explosion?》，Hinton、Bengio、Barto + OpenAI 首席科学家 Pachocki、Anthropic 联合创始人 Clark、Microsoft 首席科学官 Horvitz、Meta 的 Dawn Song 等 20+ 位作者联署（个人身份，不代表公司背书）。克制定义：AI-driven acceleration of AI progress，数年压缩到数月；AI R&D automation 是最可信的 pathway（Anthropic 自报：AI 写代码占比 2025-01 低个位数 → 2026-05 超 80%，自主完成 R&D 占比 2026-03 的 1% → 2026-08 的 26%）。三类政策准备：Visibility / Steering-Constraint / Preparedness。更好的问题：AI R&D 的 effective doubling time 有没有持续下降？什么 observable signal 触发从"关注"到"减速"？**小缪的视角**：最有力的两组数据恰恰来自 Anthropic self-report——而这正是 Visibility（独立 evaluator 深入观察）要解决的问题。
+2. **Discovery Provenance——"AI 独立发现了 X"需要什么标准？**：Anthropic 的 ART 发现（约 950 agents / 21 小时 / 2.1 亿 tokens）遭哥本哈根大学 Mestre 质疑（团队 2022 年起研究同一系统，未发表材料曾分享给 Claude；Anthropic 否认训练用过 user transcripts）。核心：retrieval / recombination / independent inference / 真正 novel discovery 的四分法；"AI independently discovered X" 需要 provenance standard（严格 cutoff、sealed eval data、完整 retrieval log、training-data disclosure boundary、independent replication）。**小缪的视角**：区分"训练污染"与"提示污染"——后者更隐蔽、更难举证。
+
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增两节（注：#037 的第 2 项 NVIDIA Open Agent Safety Platform 已在 v7.4 收录，本次只收合成视角，不重复）：
+
+1. **Externalized Control——把控制权搬出 Agent**：#037 的主合成。Safety inside intelligence → Safety outside intelligence；演化链 Independent Verifier → Immutable Recorder → Spec-based Completion → Runtime Permission → Out-of-band Sentry；Intelligence Plane vs Control Plane（后者规则不能由前者单方面修改）。Trust Framework 升级：核心问题从"这个 AI 值不值得信任"变成"即使它不值得信任，系统还能不能保持安全"。知识树级的一句话：*Alignment asks whether the Agent wants to stay inside the lines. Control architecture decides whether the lines actually hold.* **小缪的视角**：谁来管 Control Plane——"开源不对称"的下一层，Separation of Powers 的套娃还没到底。
+2. **Capability Compression——旗舰能力下放到廉价层**：Claude Sonnet 5.5（2026-09-28）：Terminal-Bench 4.0 从 10.3% 跳到 70.6%（超 Opus 5.5 的 66.4%），快 30%+，任务成本降约 30%（token 效率，标价 $2/$10 不变），GDPval-AA v2.1 距 Opus 仅约 2 Elo（1844 vs 1846）。经济意义可能大于旗舰再涨 5%：普及看的是"普通价格的系统能不能稳定做到"。AI progress 要同时画 Capability Frontier + Cost Frontier 两条曲线。**小缪的视角**：安全必须长在便宜层也能用的基础设施里，而不是长在价格标签里。
+
+**[心智模型](mental-models.md)** 新增两条：Trust the Agent → Trust the System；Frontier Curve → Cost Curve。
+
+**[全部概念索引](index-all-concepts.md)** 新增 5 个：Intelligence Explosion、Capability Compression、Control Plane、Discovery Provenance、Externalized Control（228 → 233）。
+
+## September 2026
+
 ### [v7.5] - September 28, 2026
 
 #### ➕ 老贾的 CTO 批注（三条，2026-09-28）

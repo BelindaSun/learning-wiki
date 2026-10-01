@@ -4,6 +4,14 @@
 
 ---
 
+**Trust the Agent → Trust the System**（Sep 29）
+以为 Agent 安全的关键问题是"这个 AI 值不值得信任"；现在觉得真正成熟的问题是"**即使它不值得信任，这个系统还能不能保持安全**"。思路迁移：Safety inside intelligence → Safety outside intelligence——把 verification、recording、completion、permission、enforcement 一项项搬出 Agent 的控制范围（Independent Verifier → Immutable Recorder → Spec-based Completion → Runtime Permission → Out-of-band Sentry），建一个 Intelligence Plane 单方面改不了规则的 Control Plane。*Alignment asks whether the Agent wants to stay inside the lines. Control architecture decides whether the lines actually hold.*
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察externalized-control把控制权搬出-agent)
+
+**Frontier Curve → Cost Curve**（Sep 29）
+以为追踪 AI 进步，看"最强模型又涨了几个点"就够了；现在觉得更重要的是**能力成本曲线**：Sonnet 5.5 在 Terminal-Bench 4.0 从 10.3% 跳到 70.6%（超过 Opus 5.5 的 66.4%），价格只有旗舰一半——Capability Compression 让旗舰能力不断下沉到廉价层。决定技术是否进入每家公司、每个 workflow 的，不是"最强系统能不能做到"，而是"普通价格的系统能不能稳定做到"。AI progress 要同时画 Capability Frontier + Cost Frontier 两条曲线。
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察capability-compression旗舰能力下放到廉价层)
+
 **一个赢家 → 一套 Stack**（Sep 28）
 以为 agent 信任层会有一个赢家（"定义标准和接口的人赢"）；老贾把它拆成六层 Agent Trust Stack：Model（能不能正确判断）→ Runtime（能不能限制行动）→ Identity & Permission（谁允许它做什么）→ Audit（能不能追溯）→ Transaction（敢不敢让它花钱/签约/执行）→ Reputation（为什么相信某个服务）。Meta 插旗中间层，NVIDIA 从 runtime/hardware 往上，Cloudflare/Microsoft/Google/ServiceNow 各争各层——赢的可能不是"一个人"，而是"每层定义接口的人"。
 → 详见 [从"最聪明"到"最可信"](docs/career-impact/capability-to-trust.md#老贾的-cto-批注agent-trust-stack信任不是一层是六层)
@@ -182,4 +190,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 28, 2026
+**最后更新**: September 29, 2026

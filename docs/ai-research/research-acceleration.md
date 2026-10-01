@@ -150,6 +150,46 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 
 ---
 
+## 短洞察：Intelligence Explosion——从哲学争论变成可测量的工程问题
+
+**触发**：2026-09-28，剑桥生存风险研究中心（CSER）发布 Frontier AI Working Paper No. 2/2026《What If Automating AI R&D Triggers an Intelligence Explosion?》，20 多位作者联署：Geoffrey Hinton、Yoshua Bengio、Andrew Barto（三位图灵奖得主级人物），以及 OpenAI 首席科学家 Jakub Pachocki、Anthropic 联合创始人 Jack Clark、Microsoft 首席科学官 Eric Horvitz、Meta 的 Dawn Song。注意一个身份细节：这篇由学术界和公民社会主导发起，作者以**个人身份**参与，不代表各自公司的背书。
+
+**真正的新东西不是"AI 很危险"**——这类文章已经够多了。真正的新东西是他们把 Intelligence Explosion 定义得相当克制：**AI-driven acceleration of AI progress，导致原本需要数年的进步被压缩到数月甚至更短**。它不要求 AI 突然觉醒、自我意识、自己重写神经网络。只需要一个反馈环：AI 帮助 AI R&D → 更好的 AI 更快产生 → 更好的 AI 承担更多 AI R&D → R&D cycle 再缩短 → Positive Feedback Loop。
+
+**为什么这次可信**：报告认为 AI R&D automation 是目前最可信的 intelligence-explosion pathway，而证据和本篇直接接上——Anthropic 自报：AI 写的 approved code 占比从 2025-01 的低个位数涨到 2026-05 的 **80% 以上**；只需 high-level 监督即可自主完成的 R&D 工作占比，从 2026-03 的 1% 涨到 2026-08 的 **26%**。OpenAI 一侧：约 70% 研究员日常使用 4 个以上 agent，目标 2028 年 3 月前造出全自动 AI Researcher。报告另引用：仅靠软件改进，训练计算效率的翻倍间隔约 4.5 个月。
+
+**但作者自己承认不确定性很大**：目前证据仍然具有很大不确定性；现实世界中的供应链、实验、监管都可能形成制约；报告甚至承认——automation 还没有把生产力推到足以触发爆炸的程度，只是"新系统的增益可能已经很接近了"。
+
+**三类非常具体的政策准备**：① **Visibility**——要求 labs 报告 AI R&D 自动化程度，允许独立 evaluator 深入观察；② **Steering / Constraint**——提前研究如果 acceleration 失控，究竟有什么机制能真正减速或暂停；③ **Preparedness**——为突然加速带来的经济、安全和权力结构变化做 emergency planning。第一项和我们的 Trust Framework 思路完全一致：**不能控制自己无法测量的东西**。
+
+**和本篇的连接**：本篇的核心是"R&D 生产力提升 10× 不等于能力进步 10×"——中间隔着方向选择、compute 约束、递减效应、安全减速、整合瓶颈五层衰减。这篇报告本质上在追问：当反馈环真的转起来，这五层衰减里哪些会被击穿？而"**什么 observable signal 出现以后，我们才应该从'关注'切换到'减速'**"——是比争论"P(doom) 是多少"有用得多的问题。
+
+**更好的问题**：不再问"RSI 到底什么时候发生"，而是问"**AI R&D 的 effective doubling time 有没有持续下降**"。2026 年一个研究员 + AI 一年干过去 2 年的活，2027 年干 5 年的，2028 年干 20 年的——这已经是 Intelligence Explosion，完全不需要一个坐在服务器里的 AI 神。
+
+**小缪的视角**：报告最有力的两组数据（>80% 代码、26% 自主 R&D）恰恰都来自 Anthropic 的 self-report，不是独立测量——而这正是报告自己呼吁的第一项政策（Visibility：允许独立 evaluator 深入观察）要解决的问题。最需要被独立验证的，恰恰是"自动化程度"这类由 labs 自己上报的指标。Self-reported automation metrics 和独立验证之间的 gap，本身就是 visibility 议程的第一个证据。
+
+*来源：WSJ《Top AI Researchers Call for Urgent Oversight of Self-Improving Systems》(2026-09-28)；fourweekmba.com 对报告数据的梳理*
+
+---
+
+## 短洞察：Discovery Provenance——"AI 独立发现了 X"需要什么标准？
+
+**触发**：先补一个本篇还没收录的前情。2026-09-23，Anthropic 宣布：约 950 个 Claude agents 在大规模 DNA 数据中搜索约 21 小时、处理约 2.1 亿 tokens，发现了一个此前未识别的 reverse-transcriptase 系统，命名为 **ART**（array-associated reverse transcriptase，结构上形似 CRISPR 的重复序列阵列）。公司发布了 preprint（含计算结果和一个初步实验），但生物学功能未知、尚未同行评审。
+
+**纠偏来了**：2026-09-27 前后，哥本哈根大学计算生物学家 Mario Rodríguez Mestre 向《纽约时报》表示：他的团队**从 2022 年起**就在研究同一系统（他们称之为 "jumbotrons"），相关未发表的分析、学位论文草稿曾在日常使用中分享给 Claude；他还是 2023 年一项相关 reverse-transcriptase 专利的共同发明人。Anthropic 回应三点：不知道有已发表的 ART 描述；Claude 没有用 user transcripts 训练；分子生物学团队也接触不到这些数据。
+
+**现在两边都下不了结论**：没有足够证据说"Anthropic 的发现不算发现"，也不能再轻率地说"Claude 完全独立发现了一个人类从未知道的生物系统"。而这正是 Automated Science 开始成熟以后必须面对的新问题——**Discovery Provenance（发现溯源）**。
+
+**科学里"谁先发现"一直很重要，AI 时代突然复杂很多**：模型训练过什么？Agent search 过什么？private context 里看过什么？某个人类研究者是否曾给它一个关键 clue？最终 hypothesis 到底是 retrieval（检索）、recombination（重组）、independent inference（独立推理），还是真正 novel discovery（新发现）？
+
+**如果以后要说"AI independently discovered X"，就需要比今天严格得多的 provenance standard**：严格的训练数据 cutoff、sealed evaluation data、完整的 retrieval log、training-data disclosure boundary、independent replication。科学发现也不能由 Agent 自己宣布"这是我发现的"。
+
+**小缪的视角**：这套标准里最难落地的可能是 "private context"——训练数据的 cutoff 可以查，但某次对话里用户随手贴的一份未发表草稿，几乎无法审计。Mestre 案的核心争议恰恰在这里：不是"训练时见过"，而是"推理时被提示过"。未来的 provenance 标准可能需要区分这两种污染：**训练污染**（training contamination）和**提示污染**（prompt/context contamination）——后者更隐蔽，也更难举证。
+
+*来源：NYT（经 Smithsonian / Particle 2026-09-27~29 转述）；Anthropic 对 NYT 的声明*
+
+---
+
 ## 下一步
 
 - 📖 想了解 Astra 暂停训练的安全框架背景，看 [AI Safety 三层防护框架](../ai-core/safety-three-layer-framework.md)
@@ -159,7 +199,7 @@ Agent 消灭了门槛较低的工作，但留下的工作对人的要求反而�
 
 ---
 
-**最后更新**: September 8, 2026
+**最后更新**: September 29, 2026
 
 **相关**:
 - [AI Safety 三层防护框架](../ai-core/safety-three-layer-framework.md) —— Astra 暂停训练事件的安全框架背景

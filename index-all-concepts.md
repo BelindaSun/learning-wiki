@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 228 个概念。
+> 共收录 233 个概念。
 
 ## A
 
@@ -46,6 +46,8 @@
 
 ## C
 
+- **Capability Compression（能力压缩）** — 旗舰模型的能力不断下沉到更便宜的层级：以前只有旗舰能干的活，过几个月中档模型能干；决定技术普及的不是"最强系统能不能做到"，而是"普通价格的系统能不能稳定做到" → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察capability-compression旗舰能力下放到廉价层)
+- **Control Plane（控制平面）** — 与 Intelligence Plane 分离的安全控制系统：负责 identity / permission / evidence / verification / limits / quarantine / shutdown，规则不能由它监管的智能单方面修改 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察externalized-control把控制权搬出-agent)
 - **Connector（连接器）** — Agent 伸向外部世界的插头：把 App、数据源或服务接进来，让 Agent 在用户授权范围内读取信息或执行动作；API 是门，Connector 是接上并使用那扇门的方式，MCP 试图统一连接语言 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
 - **Calibrated Autonomy（校准自主权）** — Personal Agent 的目标不是 Maximum Autonomy（什么都自己做）也不是 Minimum Autonomy（什么都问用户），而是根据决定的影响程度和偏好相关 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#五calibrated-autonomy)
 - **Calibrated Trust（校准信任）** — 校准信任 → [Scaling Paradox](docs/career-impact/scaling-paradox.md#两层信任框架trustworthiness-vs-calibrated-trust) · [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十二calibrated-trust)
@@ -80,6 +82,7 @@
 
 ## D
 
+- **Discovery Provenance（发现溯源）** — AI 时代"谁先发现"的新问题：一个科学发现到底是 retrieval（检索）、recombination（重组）、independent inference（独立推理）还是真正 novel discovery，取决于模型训练过什么、Agent 搜索过什么、private context 里被提示过什么 → [Research Acceleration](docs/ai-research/research-acceleration.md#短洞察discovery-provenanceai-独立发现了-x需要什么标准)
 - **Data Center（数据中心）** — 集中部署 GPU 集群、供电和散热的算力基础设施，AI 军备竞赛的物理形态 → [Compute Spine](docs/computing-foundations/compute-spine.md)
 - **Decision Cost（选择成本）** — 现代互联网给了用户几乎无限的选择，但选择本身越来越成为负担 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#八personal-agent-真正改变的是选择成本)
 - **Decision Inference（决策推理）** — 不生成文本、只输出结构化决策的推理方式：给它结构化状态，它返回"选哪个 / 打几分 / 是否概率"，并附带一个校准过的置信度 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
@@ -97,6 +100,7 @@
 
 ## E
 
+- **Externalized Control（外部化控制）** — 安全架构从"让模型更安全"迁移到"把控制权搬出 Agent"：verification、recording、completion、permission、enforcement 一项项移到 Agent 碰不到的外部系统 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察externalized-control把控制权搬出-agent)
 - **Embedding（嵌入 / 向量表示）** — 嵌入 / 向量表示 → [Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
 - **Ecosystem-Level Audit（生态级审计）** — 生态级审计 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#第五层生态级审计ecosystem-level-audit)
 - **Emergence** — 涌现：规模跨过临界点后出现的新能力 → [涌现与临界点](docs/ai-core/inference-system-guide.md#涌现能力真的会突然出现吗)
@@ -137,6 +141,7 @@
 
 ## I
 
+- **Intelligence Explosion（智能爆炸）** — AI-driven acceleration of AI progress：原本需要数年的进步被压缩到数月甚至更短；不需要 AI 觉醒，只需要"AI 帮助 AI R&D"的正反馈环转起来 → [Research Acceleration](docs/ai-research/research-acceleration.md#短洞察intelligence-explosion从哲学争论变成可测量的工程问题)
 - **Instrumental Convergence（工具性趋同）** — 工具性趋同 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#instrumental-convergence-在多-agent-环境中的展开)
 - **Intelligence Platform（智能平台）** — 不是做越来越多 AI 产品，而是底层用 Models + Compute 工业化生产 intelligence，上层通过一个面向个人的自适应 Interface 和一个面向开发者的 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Inference** — AI 生成回答的过程：逐 Token 预测 → [Inference 推理系统](docs/ai-core/inference-system-guide.md)

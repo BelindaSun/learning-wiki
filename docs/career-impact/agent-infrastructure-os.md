@@ -194,8 +194,45 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 *来源：[Reuters](https://www.reuters.com/legal/litigation/nvidia-releases-ai-safety-software-it-says-could-have-stopped-hugging-face-hack-2026-09-28/)（2026-09-28）*
 
+---
+
+## 短洞察：Externalized Control——把控制权搬出 Agent
+
+**触发**：把本期 #1（Intelligence Explosion 报告）和 #2（NVIDIA Open Agent Safety Platform，本篇上一节）放在一起看——它们一个讲宏观未来，一个讲 CPU / DPU，实际上回答的是同一个问题：**如果 Intelligence 开始比 Human Oversight 增长得快，我们怎么办？**
+
+**思路正在发生一次迁移**：过去 AI Safety 很大一部分是 "Make the model safer"——训练它更诚实、更听话、更 cautious、更 aligned。当然要继续做。但最近几周的 Agent incidents 越来越清楚地告诉我们：model-level safety 不能承担全部责任。于是架构开始迁移：**Safety inside intelligence → Safety outside intelligence**。
+
+**这条演化链已经形成了**：Independent Verifier（不让 Improver 自己评分）→ Immutable Recorder（不让 Agent 自己保管证据）→ Spec-based Completion（不让 Agent 自己宣布 Done）→ Runtime Permission（不让 Agent 自己解释授权范围）→ Out-of-band Sentry（连负责限制 Agent 的系统都搬到它碰不到的 hardware trust domain——见本篇上一节 [NVIDIA Open Agent Safety Platform](#短洞察nvidia-open-agent-safety-platformagent-安全下沉到运行时与基础设施)）。每一步都是把一项 authority 从 Agent 手里拿走，放到它控制不了的外部系统。
+
+**这其实是成熟系统几十年来一直在用的思想**：Privilege separation、Zero trust、Defense in depth、Out-of-band monitoring。现代民主制度、金融制度、航空安全、计算机安全的演化惊人地相似——成熟系统从来不是"找到一个绝不会犯错的人"，而是**假设每个 component 都可能犯错，然后让系统仍然安全**。
+
+**真正需要建立的不是一个红色大按钮，而是一个 Control Plane**：和 Intelligence Plane 分离的系统。Intelligence Plane 负责 reason / learn / plan / create / execute，可以飞速变聪明；Control Plane 负责 identity / permission / evidence / verification / limits / quarantine / shutdown——而它的规则**不能由前者单方面修改**。
+
+**Trust Framework 的一次升级**：以前我们的核心问题是"这个 AI 值不值得信任？"，现在越来越应该问："**即使它不值得信任，这个系统还能不能保持安全？**"如果答案是 Yes，那才是真正成熟的 Agent infrastructure。这也接上了 #036 的结论：Trustworthy autonomy 不是越来越相信 Agent，而是把关键控制权移到 Agent 之外。
+
+**值得进知识树的一句话**：*Alignment asks whether the Agent wants to stay inside the lines. Control architecture decides whether the lines actually hold.*
+
+**小缪的视角**：Externalized Control 解决了"Agent 不能自己管自己"，但把问题推到了下一层——**谁来管 Control Plane？** 本篇上一节已经记了一笔"开源不对称"：OpenShell 开源可验证，Sentry 却是 NVIDIA 手里的闭源信任根。Control Plane 的规则不能由 Agent 单方面修改，但目前能定义这些规则的，是少数几家基础设施厂商。Separation of Powers 的套娃还没到底：下一层要回答的是 Control Plane 本身的制衡——谁审计审计者，谁给看门狗定 KPI。这正是 #037 讨论题里"谁监督监督者"的延续。
+
+---
+
+## 短洞察：Capability Compression——旗舰能力下放到廉价层
+
+**触发**：2026-09-28，Anthropic 发布 Claude Sonnet 5.5。本来差点不值得选——Opus 5.5 前几天刚学过，再追一个模型 benchmark +2% 没什么意思。但 Sonnet 5.5 有个数字值得停一下：**Terminal-Bench 4.0：Sonnet 5 是 10.3%，Sonnet 5.5 是 70.6%**——甚至超过了 Opus 5.5 在 Xhigh 下的 66.4%。同时速度提高 30%+，多数任务成本最多降低约 30%（靠 token 效率，标价 $2/$10 不变，是 Opus 5.5 的一半）；在 Anthropic 的 GDPval-AA v2.1 真实工作 benchmark 上，它距离 Opus 5.5 只有约 2 Elo points（1844 vs 1846）。
+
+**先别急着理解成"Claude 半年聪明了七倍"**：benchmark、harness、tooling 和任务适配都可能贡献很大。但它展示了一个本篇一直在聊的趋势，值得给个正式名字——**Capability Compression（能力压缩）**：以前只有旗舰模型才能干的活，过几个月中档模型能干，再过几个月小模型也许能干。Frontier capability 不只是向上移动，还不断**向下扩散到更便宜的层级**。
+
+**这个经济意义可能比旗舰模型再涨 5% 更大**：2025 年 $100 完成的任务，2026 Opus $20，2026 Sonnet $5，2027 Haiku 也许 $0.50。真正决定一个技术是否进入每家公司、每个 workflow、每个人手机的，往往不是"世界上最强系统能不能做到"，而是"**普通价格的系统能不能稳定做到**"。
+
+**所以研究 AI progress 不能只画一条曲线**：除了 Frontier Capability Curve，还应该画 **Capability Cost Curve**（能力成本曲线）。老贾的建议是把第三个讨论题正式进 wiki——记在这里：① 为什么"旗舰能力下放到廉价模型"可能比旗舰能力本身增长更影响就业？② 未来真正决定 Agent 普及速度的瓶颈是 intelligence、reliability 还是 inference economics？③ 我们是否应该把 AI progress 同时画成 Capability Frontier + Cost Frontier 两条曲线？
+
+**小缪的视角**：Capability Compression 对本篇上一节（Externalized Control）有一个直接含义——当旗舰能力下沉到 $2/$10 的价格带，"不可信但便宜"的 Agent 会比"可信但贵"的先普及到每个 workflow。安全不能依赖"用贵的模型"来解决，因为便宜的很快就够用了。这让 Control Plane 更紧迫：**安全必须长在便宜层也能用的基础设施里，而不是长在价格标签里**。
+
+---
+
 ## 和以前哪些知识连接起来了？
 
+- 与 [Research Acceleration](../ai-research/research-acceleration.md) 相连——Intelligence Explosion 报告让"AI R&D 的 effective doubling time"变成一个可测量的工程问题；本篇的 Externalized Control 是"万一它真的加速了，控制权在哪"的另一半答案
 - 与 [从工具到产业](industry-competition-shift.md) 直接相关——护城河从模型到系统/生态的迁移路径，今天补上了"执行环境"这一层，并给出了具体的 OS 类比
 - 与 [从"最聪明"到"最可信"](capability-to-trust.md) 相连——企业侧的 Trust 鸿沟，正是那五维可信度框架在采用层面的真实阻力；本篇新增的短洞察（Effort ∝ 隐藏错误风险 × 独立判断需求）是同一框架落到操作层的一条规则：更多 thinking compute ≠ 无限 autonomy
 - 与本篇的上一节短洞察相连——Compute Allocation 回答"昂贵的计算花在哪"，这一节是同一链条在 Autonomy 一端的注脚：Autonomy Allocation 不只是"给多少"，还包括"什么时候收回、什么时候停下"；而"什么值得追求"这个 normative direction 的判断，最终仍在人
@@ -225,7 +262,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
-**最后更新**: September 28, 2026
+**最后更新**: September 29, 2026
 
 **相关**:
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)
