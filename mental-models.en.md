@@ -4,6 +4,50 @@
 
 ---
 
+**Memory → Living State** (Oct 1)
+I assumed a Personal Agent's core was "the AI that knows me best." After Dots, I think it is "the AI that best knows what is still going on." Memory is retrieval ("I remember Sun said X last week"); Persistent Agency is state maintenance ("X is a line that is still open; Y happened yesterday, so X's state has changed; now it's worth bringing this back"). *Memory remembers the past. Persistent Agency maintains the present. / A true personal agent is not the AI that knows you best. It is the AI that best knows what is still going on.*
+→ Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.en.md#16-persistent-agency-a-personal-agents-core-asset-is-user-state)
+
+**Capability → Adoption** (Oct 1)
+I assumed "technically doable" was roughly "economically replaceable." Anthropic's robot-economics study puts two numbers side by side: 74% of physical tasks theoretically doable vs only 0.3% cheaper than humans today (40 years to reach 10% at past price-decline rates). Our synthesis (not the paper's): Adoption ≈ Capability × Reliability × Cost Advantage × Integration Ease × Regulation × Human Preference — multiplicative, any zero kills it. Judge occupational risk by task × cost × environment; exposure is a leading indicator, not a timetable.
+→ Read [Coding Agents and Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md#insight-the-capability-to-adoption-gap)
+
+**Trust the Agent → Trust the System** (Sep 29)
+I assumed agent safety's key question was "is this AI trustworthy?" Now I think the mature question is "**even if it isn't, can the system stay safe?**" The shift: Safety inside intelligence → Safety outside intelligence — move verification, recording, completion, permission, and enforcement out of the agent's reach one by one (Independent Verifier → Immutable Recorder → Spec-based Completion → Runtime Permission → Out-of-band Sentry), building a Control Plane that the Intelligence Plane cannot unilaterally rewrite. *Alignment asks whether the Agent wants to stay inside the lines. Control architecture decides whether the lines actually hold.*
+→ Read [Coding Agents and Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md#insight-externalized-control-moving-control-outside-the-agent)
+
+**Frontier Curve → Cost Curve** (Sep 29)
+I assumed tracking AI progress meant watching "how many points the strongest model gained." Now I think the curve that matters more is the **cost-of-capability curve**: Sonnet 5.5 jumped Terminal-Bench 4.0 from 10.3% to 70.6% (above Opus 5.5's 66.4%) at half the flagship price — Capability Compression keeps pushing flagship capability down to cheap tiers. What decides whether technology enters every company and workflow isn't "can the strongest system do it" but "can an ordinarily-priced system do it reliably." AI progress needs two curves: Capability Frontier + Cost Frontier.
+→ Read [Coding Agents and Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md#insight-capability-compression-flagship-capability-moves-down-to-the-cheap-tier)
+
+**One winner → A whole stack** (Sep 28)
+I assumed the agent trust layer would have one winner ("whoever defines the standard and interface wins"). Lao Jia split it into a six-layer Agent Trust Stack: Model (can it judge correctly) → Runtime (can it constrain action) → Identity & Permission (who allows it to do what) → Audit (can it be traced) → Transaction (dare we let it spend, sign, or execute) → Reputation (why trust a service). Meta plants flags in the middle layers, NVIDIA pushes up from runtime/hardware, Cloudflare/Microsoft/Google/ServiceNow each contest their layers — the winner may not be "one player" but "whoever defines each layer's interface."
+→ Read [From "Smartest" to "Most Trusted"](docs/career-impact/capability-to-trust.en.md#lao-jias-cto-note-the-agent-trust-stack-trust-is-six-layers-not-one)
+
+**Confidence signal ≠ demand evidence** (Sep 28)
+I assumed a $150B buyback was management answering overbuild doubts with real money. Lao Jia pumped the brakes: a buyback only proves the board thinks returning capital at the current price is efficient — it **cannot by itself prove the industry has no overbuild** — long-term optimism and cyclical overbuilding can coexist. A buyback is a confidence signal, not demand evidence; the fact-layer/inference-layer discipline matters especially here.
+→ Read [Investment Book · NVDA](https://belindasun.github.io/investment-book/#/NVDA) (2026-09-28 buyback entry)
+
+**Capability → Deployability** (Sep 28)
+I assumed an agent company's life or death depended on whose model was smarter. Lao Jia says the bottleneck is migrating: once capability crosses the threshold, the marginal bottleneck becomes deployability — identity, permissions, security, audit, integration, procurement, liability, support. **AI capability ≠ AI deployability.** Many agent companies will die at step two (Deployability), not step one (Capability); step three is Adoptability (will enterprises actually use it).
+→ Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#addendum-sep-28-2026-meta-enterprise-platform-and-the-platformization-moment-for-agents-entering-the-enterprise)
+
+**Model Safety → Infrastructure Safety** (Sep 28)
+I assumed agent safety was "model behavior research" (alignment, red-teaming, refusal). Now NVIDIA is pushing safety down to runtime and infrastructure: OpenShell draws sandboxes at the CPU layer (open-source, verifiable); Sentry watches from dedicated hardware (closed, millisecond kill-switch). Model-layer safety measures can't govern what an agent can access or do.
+→ Read [Coding Agents and Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md#insight-nvidia-open-agent-safety-platform-agent-security-sinks-into-runtime-and-infrastructure)
+
+**Copilot deployment → Enterprise Platform** (Sep 28)
+I assumed enterprise AI was "install Copilot for employees" — a technology problem. Now Meta has made enterprise-grade agents a "next major pillar" and hired MongoDB's CEO to sell it — the real bar is organizational capability (security, compliance, delivery, contracts), not the model. The abstraction layer of competition moved up again: who can sell agents into organizations and manage them inside organizations.
+→ Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#addendum-sep-28-2026-meta-enterprise-platform-and-the-platformization-moment-for-agents-entering-the-enterprise)
+
+**Maximum Action → Selective Action** (Sep 28)
+I assumed stronger agent = more steps completed autonomously, more complex tool calls. Now I think as agents get stronger, another metric matters more: can it judge which action is worth taking, and when to stop. Agent intelligence ≠ maximum action — "Intelligence is not just knowing what to do. It is also knowing when not to do it." (Five rounds testing Claude Opus 5.5 on real work: Creation → Initiative → Self-critique → Judgment → Knowing when to stop; plus three quotable judgments: "More autonomy does not fix bad behavior. It scales it." / "Continuity ≠ Follow-up" / "HQ observes the repos; the repos do not depend on HQ.")
+→ Read [Coding Agents and Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md#insight-claude-opus-55-in-the-field-from-doing-the-work-to-knowing-whats-worth-doing)
+
+**Prompt Engineering → Compute Allocation** (Sep 26)
+I assumed effort tiers should be chosen by "how important or big the task is." Now I think the truly scarce resource is "where to spend expensive compute" — Effort ∝ hidden error risk × need for independent judgment, not ∝ task length. But "direction" splits in two: epistemic direction (how to solve it) AI may well change with stronger reasoning, the stronger the more so; normative direction (what's worth pursuing) is the real what-matters — "Thinking harder can improve how we pursue a goal, but it cannot decide what ought to matter." One step further: Compute Allocation → Autonomy Allocation → Governance (Actor → Critic: different stages get different compute, autonomy, and verification intensity).
+→ Read [Coding Agents and Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md#insight-from-prompt-engineering-to-compute-allocation)
+
 **Human Interface → Agent Interface** (Sep 20)
 I assumed the endpoint of business digitalization was "make it easier for people to click in" (SEO fights for rankings, apps fight for retention). Now I see the Agent becoming a new purchasing entrance: businesses need a third door built for machines — competition adds "Choose me" (give the Agent a reason to pick me) on top of "Rank me" (get seen). Humans need to like you; machines need to trust you.
 → Read [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)

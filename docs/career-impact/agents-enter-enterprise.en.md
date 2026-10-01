@@ -272,6 +272,45 @@ The fact that an agent can do something does not mean the agent is allowed to do
 
 ---
 
+## Addendum — Sep 28, 2026: Meta Enterprise Platform and the "Platformization" Moment for Agents Entering the Enterprise
+
+On September 28, 2026, Meta announced **Meta Enterprise Platform**, which Zuckerberg called "the next major pillar of our business." To run it, Meta hired MongoDB's former CEO/president Chirantan "CJ" Desai as **Chief Enterprise Platform Officer**, reporting directly to Zuckerberg.
+
+**The hire matters more than the headline.** Desai's résumé is the key to reading this: CEO/president of MongoDB (a tenure of under a year), previously product and engineering at Cloudflare, and nearly eight years at ServiceNow (including president and COO). Meta didn't hire another AI researcher — it hired someone who has **sold enterprise software, lived through security compliance, signed long-term contracts, and built customer success organizations**. Enterprise buyers don't evaluate AI on how dazzling the demo is; they look at security, compliance, reliability, integration, administration, support, pricing, and deployment options — a direct procurement-side mapping of the five-dimension [Capability → Trust](capability-to-trust.en.md) framework. *(Xiao Miu's perspective, added after our Sep 28, 2026 discussion: the enterprise agent race has moved past "whose agent is smarter" into "whose organization can sell, deliver, and reassure better.")*
+
+**What's inside the platform**: the first batch of assets being folded into Enterprise Platform is Meta's full agent portfolio — **Muse agent, Meta Business Agent, the Muse API, and Muse Code**. Note the order: agent capabilities already proven on the consumer side (Muse passed roughly 3 million downloads at the end of September) are being converted directly into deployable enterprise products and services.
+
+Connect this with [From SEO to Agent Economy](from-seo-to-agent-economy.en.md), and the evolution chain is complete for the first time:
+
+```
+Consumer Agent → Connector → Enterprise Platform → Businesses
+   (Muse)       (Connectors)   (Meta Enterprise Platform)   (enterprise customers)
+```
+
+- **Consumer Agent** proved that "a personal agent can get things done for people" (intent → execution).
+- **Connector** proved that agents can reach into the outside world and call on external capabilities (agent → external services).
+- **Enterprise Platform** fills in the commercial and organizational layer: **turning agents into products that enterprises dare to buy, can manage, can audit, and that stay compliant** — which is precisely the real threshold in the five-level maturity framework from L3 (Workflow Agent) → L4 (Managed Agent) → L5 (Agentic Organization): what was never missing was the model; what's missing is identity, permissions, audit, support, and contracts.
+- **Businesses** is the destination: enterprises adopt agents as their own digital workforce.
+
+**Competition moves up another abstraction layer**: models → tool ecosystems → execution environments ([Agent Infrastructure OS](agent-infrastructure-os.en.md)) → **the enterprise platform layer (who can sell agents into organizations and run them inside organizations)**. Meta's bet used to be "cost advantage + data flywheel"; this move fills its biggest gap: **organizational capability** — translating consumer scale (billions of users, hundreds of millions of merchants) into enterprise trust.
+
+**Lao Jia's CTO note (Sep 28, 2026): Capability → Deployability → Adoptability**
+
+The observation that "Meta hired MongoDB's CEO instead of an AI researcher" says the bottleneck is migrating:
+
+```
+Capability → Deployability → Adoptability
+(can it?)    (can it get into the enterprise?)   (will enterprises use it?)
+```
+
+Models keep improving, but once capability crosses a threshold, the marginal bottleneck becomes identity, permissions, security, audit, integration, procurement, liability, and support — in other words: **AI capability ≠ AI deployability**. Many agent companies may die at step two, not step one.
+
+This is the same thread as [Capability → Trust](capability-to-trust.en.md): every item in deployability (permissions, audit, security) is trust made into engineering; and adoptability (will enterprises use it) comes back to the same question: "Who does the human trust to act on their behalf?"
+
+*Sources: [Meta's official announcement](https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/) · [Reuters](https://www.reuters.com/technology/mongodb-ceo-desai-steps-down-lead-metas-enterprise-platform-2026-09-28/) (Sep 28, 2026; market-noise footnote: MongoDB fell roughly 15–20% pre-market and Meta dipped slightly on the news — the share-price wobble in a personnel story doesn't matter; the organizational signal does.)*
+
+---
+
 ## The Final Mental Model
 
 The process of agents entering the enterprise can be compressed into this arc:

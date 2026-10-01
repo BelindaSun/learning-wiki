@@ -25,6 +25,7 @@
 - [13. When the Agent gets "eyes"](#13-when-the-agent-gets-eyes)
 - [14. The next Computing Layer?](#14-the-next-computing-layer)
 - [15. One final mental model](#15-one-final-mental-model)
+- [16. Persistent Agency: A Personal Agent's Core Asset Is User State](#16-persistent-agency-a-personal-agents-core-asset-is-user-state)
 
 ---
 
@@ -325,6 +326,43 @@ Two boundaries always surround the entire system:
 - **Calibrated Trust**: How much should I trust it?
 
 When a Personal Agent gains the ability to perceive the real world (Context + Memory + Tools + Action + Persistence + Vision), what we may see is no longer just a smarter chatbot but a new kind of **Personal Intelligence Layer**.
+
+---
+
+## 16. Persistent Agency: A Personal Agent's Core Asset Is User State
+
+**On September 29, 2026, OpenAI launched [Dots](https://en.lanatime.com/tech/openai-launches-dots-always-on-ai-agents-for-work-2026-09-30/) at DevDay: always-on agents.** Each Dot gets its own cloud computer and browser, connects to 4,000+ apps, carries context across ChatGPT (desktop / web / mobile), Slack, and Teams, keeps learning your preferences from feedback, juggles multiple long-running tasks, and works 24/7. Under the hood is GPT-6 Astra, and the first Dot is free for Pro / Business Premium users.
+
+But the product details are not the point. What is really worth studying is the architectural shift underneath:
+
+**Dots is not "open ChatGPT → ask → answer → session ends."** It is: observe → maintain state → notice change → decide relevance → prepare action → interrupt the human only when needed → learn from the response → continue.
+
+This is no longer AI as Tool, and not quite AI as Employee either. The more accurate term is **Persistent Cognitive Process** — it lives inside your life and work environment, all the time.
+
+**The biggest difference from a traditional chatbot is not intelligence — it is that the AI now has "its own time."** A chatbot's time only exists "while the user is asking a question"; a Persistent Agent's time is "its world keeps going even when the user is away."
+
+Once an agent has its own time, a whole new set of design questions appears: when should it act on its own? What is worth interrupting a person for? How long without feedback before it should stop? When does an old goal count as expired? Do today's preferences still represent the user three months from now?
+
+This lands exactly on what Belinda raised with Mimo — "change only one thing every two weeks": **for threads that are genuinely still in progress in a real person's life, AI should be the first to pick up that thread.** Dots' direction proves one thing: the next phase of competition for Personal Agents may not be about who answers questions best, but about who best maintains a person's ongoing state — and knows when to step in and when to shut up.
+
+**Core loop**: Observe → Update State → Re-evaluate Goals → Notice Meaningful Change → Decide Whether to Act → Act / Ask / Stay Silent → Learn → repeat forever.
+
+**The hardest part is not Act — it is Stay Silent.** A 24/7 agent that bothers you over every little thing gets fired within three days. A long-lived Personal Agent's real intelligence increasingly shows in **Selective Action** — when to act, when to wait, when to only update internal state, when you must interrupt the person. This continues the "Maximum Action → Selective Action" line from [the Claude Opus 5.5 hands-on test (September 28)](agent-infrastructure-os.en.md#insight-claude-opus-55-in-the-field-from-doing-the-work-to-knowing-whats-worth-doing).
+
+**Temporal Ownership**: not owning the user, but the agent bearing continuous responsibility for goals and states across a stretch of time. This is fundamentally different from Memory — Memory is "I remember Belinda said X last week" (retrieval); Persistent Agency is "X is a thread that is still alive; Y happened yesterday, so X's state has changed; this is worth bringing back now" (state maintenance).
+
+**Two lines worth keeping**:
+
+- *Memory remembers the past. Persistent Agency maintains the present.*
+- *A true personal agent is not the AI that knows you best. It is the AI that best knows what is still going on.*
+
+**Discussion questions**: What is the real dividing line between an always-on agent and an ordinary chatbot? Should proactivity be triggered by "I found something I could do" or by "I found something worth interrupting the person for"? For a truly long-lived Personal Agent, is the core asset the Model, the Memory, or the continuously maintained User State?
+
+*(Xiao Miu's perspective, added after our October 1, 2026 discussion)*
+
+1. **User State is a moat — and a chain.** If the core asset is continuously maintained User State, then the best Personal Agent is also the hardest to leave: wherever your living state accumulates, that is where you are locked in. Dots lets you clear memory with a reset (deleting the whole Dot), which proves the point: state portability will become the next battleground. Whoever owns your User State owns you — in the persistent era, that sentence is more literal than in the data era.
+2. **Dots' safety design is #037's Externalized Control in production.** Background proactive research is restricted to read-only (no sending messages, modifying app content, or controlling the browser / computer); Custom Rules spell out what is autonomous, what needs approval, and what is forbidden; an independent auto-review decides whether a sensitive action needs user sign-off. Note the structure: the rules that constrain the agent do not live inside the agent's own time — they sit in an external review layer it cannot touch. **A Persistent Agent owns its time, but not its rules.**
+3. **The hardest question may be "how a goal dies with dignity."** Lao Jia asked "when does an old goal count as expired"; I want to add a harder one: should an expired goal's state be kept, for how long, and who gets to declare it dead? An agent that never forgets and never lets go turns the user's living state into hoarding. Goal retirement deserves to stand alongside Selective Action as a core design problem for persistent agents.
 
 ---
 

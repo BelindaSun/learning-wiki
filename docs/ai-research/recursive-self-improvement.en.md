@@ -315,6 +315,30 @@ One clarification worth recording: Brown stressed Astra's alignment gains were *
 
 ---
 
+## AI Starts Optimizing the Infrastructure That Hosts It: Gemini 4 Argon's Internal Use
+
+**On September 30, 2026, Google released [Gemini 4 Argon](https://oossa.com/en/google-launches-gemini-4-argon-for-trusted-cyber-defenders).** The headline is **1 million output tokens** — up from 64K, so a single trajectory can now produce hundreds of thousands of tokens of reasoning and work. The benchmarks are strong too: DeepSWE v1.1 at 77.9%, CWE-bench v1 at 68% (vulnerability remediation, tied for first), AutomationBench at 51.3%. Intro pricing is $2/$10 (moving to $4/$20 later) — another model joining Sonnet 5.5 and GPT-6 Sol at the $2/$10 price point.
+
+But I don't think that's the most interesting part. What's really worth studying is **how Google is already using it internally**:
+
+- **Optimizing quantum algorithms**: in one case, a published baseline's spacetime resource was cut by roughly 40%;
+- **Analyzing fleet-wide profiling telemetry**: automatically identifying and applying memory optimizations that have already freed **300+ TiB** of memory, with an estimated 500 TiB–1 PiB eventually;
+- **Large-scale C/C++ → Rust migration**: from tens of thousands of lines all the way to 800,000+ lines of the Fuchsia Zircon kernel. In the libgav1 project, the agent rewrote around 32,000 lines of SIMD code, and the resulting Rust decoder runs 2.7× faster than the original Rust port while producing identical video output.
+
+There's a signal here that's more important than any benchmark: **AI is starting to optimize the very infrastructure that AI and the software world itself run on.** Not "helping engineers write functions," but: look at the whole fleet → find system-level opportunities → change the infrastructure → measure the results → iterate.
+
+This is very close to the **AI Organization + Recursive System Improvement** idea we've discussed before — you don't need the model to modify its own weights; you just need AI that keeps improving the systems hosting the next round of compute and development.
+
+Google's release strategy for Argon is also worth noting: it's currently limited to trusted cyber defenders, gated through the **Fairwind Program**; Google says it's hardening misuse, prompt-injection, misalignment monitoring, and sandbox containment before widening access.
+
+*(Xiao Miu's perspective, added after our October 1, 2026 discussion)*:
+
+1. **1M output tokens is less a new capability than "more working hours"** — but working hours, not IQ, are exactly what's missing for long-horizon tasks. The expansion of the output window and Dots' always-on operation are two sides of the same trend: AI is acquiring "its own time," in both the token dimension and the wall-clock dimension.
+2. **This is the #037 intelligence-explosion pathway happening in real time.** AI R&D automation isn't only happening in the labs' training clusters — it's happening in datacenter fleet optimization, and there it's already measurable in TiB and dollars. Weak-form recursive improvement doesn't need to wait for ASI; it's already saving memory today. The third question will only matter more over time: how much of future AI progress comes from better models, and how much from AI improving the systems around the models?
+3. **The Fairwind-style staged rollout deserves a note**: trusted defenders first, then broader access. This isn't a binary "to release or not" decision — it's a "who first, who next" deployment-governance question, exactly the practice of the Steering-Constraint idea from #037.
+
+---
+
 ## Next steps
 
 - 📖 [Multi-Agent Scaling: Parallelizing Test-Time Compute](../ai-core/multi-agent-scaling.en.md) — RSI's other leg: 10,000 agents and Navier-Stokes
@@ -325,7 +349,7 @@ One clarification worth recording: Brown stressed Astra's alignment gains were *
 
 ---
 
-**Last updated**: 2026-09-20
+**Last updated**: October 1, 2026
 **Related**:
 - [Research Acceleration](research-acceleration.en.md)
 - [Multi-Agent Scaling](../ai-core/multi-agent-scaling.en.md)

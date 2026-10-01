@@ -410,6 +410,8 @@ Conflicts between authorized agents and traditional anti-bot infrastructure have
 
 The importance of APIs, Connectors, agent identity, permissions, machine-readable commerce, and agent payment infrastructure is rising.
 
+- **The enterprise vector is taking shape**: on 2026-09-28 Meta launched the Meta Enterprise Platform (CJ Desai as Chief Enterprise Platform Officer, reporting directly to Zuckerberg), packaging the Muse agent / Business Agents / Model API into products and services enterprises can actually deploy — extending the evolution chain from Consumer Agent → Connector to **Enterprise Platform → Businesses** (see [AI Agents Enter the Enterprise](agents-enter-enterprise.en.md)).
+
 ### What We Infer — Today's Inferences
 
 If these trends continue:
@@ -486,7 +488,15 @@ How it differs from its neighbors: **the API is the door a service provides; the
 
 ---
 
-**Last updated**: September 20, 2026
+**Last updated**: September 28, 2026
+
+**Related**:
+- [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.en.md) — where the Agent Economy concept originated: the migration from Attention Economy to Intent Economy
+- [Coding Agents and the Operating System for Agent Infrastructure](agent-infrastructure-os.en.md) — the Agent OS equivalence theorem: whoever defines the standards and interfaces wins; the Connector is one piece of that infrastructure
+- [From "Smartest" to "Most Trustworthy"](capability-to-trust.en.md) — the unavoidable prerequisite of the Agent Economy: Trust — "Who does the human trust to act on their behalf?"
+- [AI and the Distribution Problem of Economic Abundance: Who Owns AI Capital?](ai-economic-distribution.en.md) — the macroeconomic backdrop of the Agent Economy: who gets the growth
+- [Mental Models](../../mental-models.en.md) — revisiting over time how these judgments changed
+- [AI Agents Enter the Enterprise](agents-enter-enterprise.en.md) — the enterprise end of the same evolution chain: Meta Enterprise Platform (2026-09-28) puts the Muse / Business Agents / Model API into deployable enterprise products
 
 **Related**:
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.en.md) — The conceptual origin of the Agent Economy: the migration from Attention Economy to Intent Economy

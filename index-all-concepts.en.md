@@ -33,6 +33,8 @@
 
 - **Connector** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Calibrated Trust** — [The Scaling Paradox](docs/career-impact/scaling-paradox.md)
+- **Capability Compression** — flagship-model capability keeps sinking to cheaper tiers: work only flagships could do, mid-tier models can do months later; what decides adoption isn't "can the strongest system do it" but "can an ordinarily-priced system do it reliably" → [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md)
+- **Capability Exposure** — the share of tasks technically "doable": Anthropic measured today's robots as theoretically able to do 74% of US physical tasks, yet only 0.3% are actually cheaper than humans — exposure is a leading indicator of disruption, not a timetable → [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md)
 - **Cascading / Routing** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Causal Attention / Causal Mask** — [Inference](docs/ai-core/inference-system-guide.md) · [Transformer](docs/ai-core/transformer-architecture.md)
 - **Ceiling × Reach** — [Google AI's Two-Timescale Organization](docs/career-impact/google-agi-org-restructuring.md)
@@ -47,6 +49,8 @@
 - **Conditional Node** — [Workflow Design](docs/ai-application/workflow-design-guide.md)
 - **Constitutional AI** — [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
 - **Containment** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
+- **Control Plane** — a safety control system separated from the Intelligence Plane: handles identity / permission / evidence / verification / limits / quarantine / shutdown, and its rules can't be unilaterally rewritten by the intelligence it governs → [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md)
+- **Cost of Competence** — not a benchmark score but "how much it costs to successfully complete a task": GPT-6.1 Sol reaches near-Astra agentic coding capability at ~1/5 the token price; $100 is Demo, $2 is Workflow, $0.02 is Infrastructure → [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md)
 - **Context Management / Context Window** — [Context Window](docs/ai-core/context-window-guide.md)
 - **Context Rot** — [Harness > Model](docs/ai-application/harness-architecture-patterns.md)
 - **Conversation History** — [Agent Architecture](docs/ai-core/agent-architecture.md)
@@ -65,6 +69,7 @@
 - **Delegation Framework: Reversibility Gap** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Delegation Intelligence** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Disaggregated Inference** — [Inference Infrastructure and Agent Latency](docs/ai-core/inference-infrastructure-and-agent-latency.md)
+- **Discovery Provenance** — the AI-era "who discovered it first" problem: whether a scientific discovery counts as retrieval, recombination, independent inference, or genuinely novel depends on what the model trained on, what the agent searched, and what private context it was prompted with → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Distribution: Owned vs. Third-party** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Domain Expertise** — [Revaluing Domain Expertise](docs/career-impact/domain-expertise-and-org-design.md)
 
@@ -77,6 +82,7 @@
 - **Error Handler** — [Workflow Design](docs/ai-application/workflow-design-guide.md)
 - **Evaluation / Evaluation vs. Safety** — [Evaluation](docs/ai-research/evaluation-system.md) · [From Capability to Trust](docs/career-impact/capability-to-trust.md)
 - **EUV** — [Yield and Foundries](docs/computing-foundations/yield-and-foundry.md)
+- **Externalized Control** — safety architecture migrating from "make the model safer" to "move control out of the agent": verification, recording, completion, permission, and enforcement moved one by one into external systems the agent can't touch → [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.en.md)
 
 ## F
 
@@ -106,6 +112,7 @@
 
 - **Inference** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Inference Cost** — [Models Deep Dive](docs/ai-research/models-deep-dive.en.md)
+- **Intelligence Explosion** — AI-driven acceleration of AI progress: years of progress compressed into months or less; no AI awakening required, just the "AI helps AI R&D" feedback loop spinning up → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Intelligence Platform** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Interconnect** — [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Interpretability** — [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
@@ -151,6 +158,7 @@
 - **Parallel Node** — [Workflow Design](docs/ai-application/workflow-design-guide.md)
 - **Perceiver Resampler** — [Multimodality](docs/ai-core/multimodal-guide.md)
 - **Personal Data Moat** — [From Tools to Industry](docs/career-impact/industry-competition-shift.md)
+- **Persistent Agency** — an agent that owns "its own time": even when the user is away, the world it maintains keeps going; the core loop is Observe → Update State → Re-evaluate Goals → Notice Change → Decide → Act / Ask / Stay Silent → Learn → repeat; the hardest part is Stay Silent → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)
 - **Platform vs. Product Tension** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Position Encoding / RoPE** — [Transformer](docs/ai-core/transformer-architecture.md)
 - **PPO** — [Evaluation](docs/ai-research/evaluation-system.md)
@@ -189,6 +197,7 @@
 - **Scale Spine / Semiconductor Spine** — [Scale Spine](docs/computing-foundations/scale-spine.md) · [Semiconductor Spine](docs/computing-foundations/semiconductor-spine.md)
 - **Scaling Paradox** — [The Scaling Paradox](docs/career-impact/scaling-paradox.md)
 - **Self-evaluation Bias** — [Harness > Model](docs/ai-application/harness-architecture-patterns.md)
+- **Selective Action** — a long-running agent's intelligence shows in when to act, when to wait, when to only update internal state, and when it must interrupt the human; the hardest step in the Persistent Agency loop → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)
 - **Self-supervised Learning** — [Training](docs/ai-core/training-system-guide.md)
 - **Semantic Memory / Semantic Search** — [Agent Memory](docs/ai-core/memory-system-guide.md) · [Embeddings](docs/ai-core/embeddings-guide.md)
 - **Sequential Node** — [Workflow Design](docs/ai-application/workflow-design-guide.md)
@@ -205,11 +214,16 @@
 
 - **Temperature / Top-k / Top-p Sampling** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Time-Scale Separation** — [Google AI's Two-Timescale Organization](docs/career-impact/google-agi-org-restructuring.md)
+- **Temporal Ownership** — an agent's continuous responsibility for goals and state over a stretch of time; unlike Memory (retrieval), this is state maintenance → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)
 - **Token** — [Context Window](docs/ai-core/context-window-guide.md)
 - **Tool Selection / Tool Use Block** — [Agent Architecture](docs/ai-core/agent-architecture.md)
 - **Training** — [Training](docs/ai-core/training-system-guide.md)
 - **Transformer** — [Transformer](docs/ai-core/transformer-architecture.md)
 - **Trustworthiness** — [From Capability to Trust](docs/career-impact/capability-to-trust.md)
+
+## U
+
+- **User State** — a long-running personal agent's core asset: not Memory about the person but Living State about the person — "what is still going on" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)
 
 ## V–Y
 

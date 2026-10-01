@@ -19,6 +19,8 @@
 5. [Five layers of attenuation from R&D productivity to capability progress](#five-layers-of-attenuation-from-rd-productivity-to-capability-progress)
 6. [The Astra safety incident: operational reality of capability-safety tension](#the-astra-safety-incident-operational-reality-of-capability-safety-tension)
 7. [The paradox of rising demands on human judgment](#the-paradox-of-rising-demands-on-human-judgment)
+8. [Insight: Intelligence Explosion — From Philosophical Debate to Measurable Engineering Problem](#insight-intelligence-explosion--from-philosophical-debate-to-measurable-engineering-problem)
+9. [Insight: Discovery Provenance — What Standards Do We Need for "AI Independently Discovered X"?](#insight-discovery-provenance--what-standards-do-we-need-for-ai-independently-discovered-x)
 
 ---
 
@@ -147,6 +149,46 @@ This is not a linear skill upgrade problem, but a **mismatch in capability type*
 A deeper contradiction: the younger generation, growing up with AI assistance, has the very formation path of judgment altered. The traditional path is "make a mistake → bear the consequences → extract the lesson → form intuition." If every time you're uncertain you first ask AI, get a reasonable answer, and just execute it, what you're saving is not time — it's the process of groping in the dark, making errors, and then understanding why that path didn't work.
 
 But AI as a teacher also has another possibility — **the Socratic mode**: instead of giving answers, ask "why do you think that's the case" and "what would happen if that assumption were wrong." What AI is trained to be determines what the next generation is shaped to become.
+
+---
+
+## Insight: Intelligence Explosion — From Philosophical Debate to Measurable Engineering Problem
+
+**The trigger**: on 2026-09-28, ["What If Automating AI R&D Triggers an Intelligence Explosion?"](https://arxiv.org/abs/2609.36054) was published (Frontier AI Working Paper No. 2/2026, in the Cambridge CSER working paper series; led by the Cambridge AI Science & Policy project (CASP) and GovAI, first author Alan Chan, 22 signatories total): Geoffrey Hinton, Yoshua Bengio, Andrew Barto (all three are Turing laureates — Hinton and Bengio in 2018, Barto in 2024), plus OpenAI chief scientist Jakub Pachocki, Anthropic co-founder Jack Clark, Microsoft chief scientist Eric Horvitz, and UC Berkeley's Dawn Song. One detail of identity worth noting: this was initiated by academia and civil society, and the authors signed in their **personal capacity** — not as corporate endorsements from their employers. [GovAI page](https://www.governance.ai/research-paper/what-if-automating-ai-r-d-triggers-an-intelligence-explosion).
+
+**What's genuinely new isn't "AI is dangerous"** — there are enough papers saying that. What's genuinely new is how restrained their definition of Intelligence Explosion is: **AI-driven acceleration of AI progress — years of progress compressed into months or less.** It doesn't require AI suddenly waking up, becoming self-aware, or rewriting its own neural networks. It only needs one feedback loop: AI helps with AI R&D → better AI gets built faster → better AI takes on more AI R&D → the R&D cycle shortens again → Positive Feedback Loop.
+
+**Why this one is credible**: the report argues that AI R&D automation is currently the most plausible intelligence-explosion pathway, and the evidence plugs directly into this article's own story — Anthropic's self-reported numbers: AI-written approved code rose from low single digits in Jan 2025 to **over 80%** by May 2026; the share of R&D work completed autonomously with only high-level supervision rose from 1% in Mar 2026 to **26%** in Aug 2026. On OpenAI's side: roughly 70% of researchers routinely use 4+ agents, with a goal of a fully automatic AI Researcher before March 2028. The report also cites: from software improvements alone, training compute efficiency doubles roughly every 4.5 months.
+
+**But the authors themselves admit the uncertainty is large**: the evidence remains highly uncertain; real-world supply chains, experiments, and regulation could all act as brakes; the report even concedes — automation hasn't yet pushed productivity to explosion-triggering levels, it's just that "the gains from new systems may already be close."
+
+**Three very concrete policy preparations**: ① **Visibility** — require labs to report AI R&D automation levels and let independent evaluators look under the hood; ② **Steering / Constraint** — study in advance what mechanisms could genuinely slow down or halt acceleration if it runs out of control; ③ **Preparedness** — emergency planning for the economic, security, and power-structure changes a sudden acceleration would bring. The first matches our Trust Framework thinking exactly: **you can't control what you can't measure.**
+
+**How it connects to this article**: this article's core claim is "a 10× increase in R&D productivity ≠ a 10× increase in capability" — with five layers of attenuation in between (direction choice, compute constraints, diminishing returns, safety slowdowns, integration bottlenecks). The report is essentially asking: when the feedback loop really starts turning, which of those five layers get blown through? And "**which observable signal should trigger the switch from 'watch' to 'slow down'**" is a far more useful question than arguing about what P(doom) is.
+
+**The better question**: stop asking "when exactly will RSI happen" and ask "**is AI R&D's effective doubling time still shrinking?**" A hypothetical extrapolation (not a prediction): in 2026, one researcher + AI does 2 years' worth of work in a year; in 2027, 5 years' worth; in 2028, 20 years' worth. If that curve held, it would be effectively equivalent to the Intelligence Explosion definition of "years compressed into months" — no AI god sitting in a server required.
+
+*(Xiao Miu's perspective, added after our September 29, 2026 discussion)*: The two most powerful data points in the report (>80% of code, 26% autonomous R&D) both come from Anthropic's own self-reports — not independent measurement. And that's exactly the problem the report's first policy ask (Visibility: let independent evaluators look under the hood) is meant to solve. The metrics most in need of independent verification are precisely the "automation level" numbers the labs report themselves. The gap between self-reported automation metrics and independent verification is itself the first piece of evidence for the visibility agenda.
+
+*Sources: WSJ, "Top AI Researchers Call for Urgent Oversight of Self-Improving Systems" (2026-09-28); fourweekmba.com's walkthrough of the report's data*
+
+---
+
+## Insight: Discovery Provenance — What Standards Do We Need for "AI Independently Discovered X"?
+
+**The trigger**: a bit of backfill for this article. On 2026-09-23, Anthropic announced: about 950 Claude agents searched large-scale DNA data for roughly 21 hours, processing about 210 million tokens, and found a previously unidentified reverse-transcriptase system, named **ART** (array-associated reverse transcriptase, structurally resembling CRISPR's repeat arrays). The company published a preprint (computational results plus one preliminary experiment), but the biological function is unknown and it hasn't been peer-reviewed. [Smithsonian coverage](https://www.smithsonianmag.com/smart-news/anthropic-says-its-ai-discovered-a-new-enzyme-system-that-resembles-the-revolutionary-gene-editing-tool-crispr-180989578/).
+
+**Then came the correction**: around 2026-09-27, University of Copenhagen computational biologist Mario Rodríguez Mestre told the *New York Times* that his team has been studying the same system **since 2022** (they call it "jumbotrons") — that related unpublished analyses and dissertation drafts had been shared with Claude during everyday use, and that he is a co-inventor on a 2023 patent covering a related reverse-transcriptase. Anthropic responded with three points: it knew of no published description of ART; Claude was not trained on user transcripts; and the molecular biology team had no access to that data. [ThePrint's follow-up](https://theprint.in/science/did-claude-discover-a-new-enzyme-or-stole-a-biologists-work-anthropic-responds/3057122/)
+
+**Neither side can now claim victory**: there isn't enough evidence to say "Anthropic's discovery doesn't count," but we can no longer casually say "Claude independently discovered a biological system no human knew about." And this is precisely the new question automated science will have to face as it matures — **Discovery Provenance**.
+
+**"Who discovered it first" has always mattered in science; the AI era makes it suddenly much more complicated**: what was the model trained on? What did the agent search? What was in its private context? Did some human researcher ever slip it a key clue? Is the final hypothesis retrieval, recombination, independent inference, or genuinely novel discovery?
+
+**If we ever want to say "AI independently discovered X," we'll need provenance standards far stricter than today's**: a hard training-data cutoff, sealed evaluation data, a complete retrieval log, a training-data disclosure boundary, independent replication. And a scientific discovery shouldn't be announced as "I found this" by the agent itself.
+
+*(Xiao Miu's perspective, added after our September 29, 2026 discussion)*: The hardest part of that standard to actually implement may be "private context" — a training cutoff is auditable, but an unpublished draft someone casually pasted into a conversation is almost impossible to audit. The Mestre case is exactly about this: not "seen during training," but "prompted during inference." Future provenance standards may need to distinguish two kinds of contamination — **training contamination** and **prompt/context contamination** — the latter being subtler and much harder to prove.
+
+*Sources: NYT (as relayed by Smithsonian / Particle, 2026-09-27–29); Anthropic's statement to the NYT*
 
 ---
 
