@@ -321,6 +321,28 @@ Brown 透露，他团队中**超过 10% 的人现在专注于对齐和安全**�
 
 ---
 
+## AI 开始优化承载自己的基础设施：Gemini 4 Argon 的内部使用
+
+**2026-09-30，Google 发布 Gemini 4 Argon。** headline 是 **1 million output tokens**——从以前的 64K 直接拉到 1M，让单条 trajectory 可以持续产生几十万 tokens 的 reasoning / work。benchmark 也不弱：DeepSWE v1.1 77.9%，CWE-bench v1 68%（vulnerability remediation，并列第一），AutomationBench 51.3%。intro 定价 $2 / $10（之后 $4 / $20）——又一个站上 $2 / $10 地板的模型。
+
+但我认为这反而不是最值得学的部分。真正值得看的是 **Google 已经怎样在内部使用它**：
+
+- **优化 quantum algorithms**：一个案例把已发表 baseline 的 spacetime resource 降低约 40%；
+- **分析全 fleet profiling telemetry**：自动识别并实施 memory optimization，已释放 **300+ TiB** memory，预计最终 500 TiB–1 PiB；
+- **大规模 C/C++ → Rust migration**：从数万行一路做到 Fuchsia Zircon kernel 的 80 万+ 行代码；其中 libgav1 项目，Agent 重写了约 32,000 行 SIMD code，最终 Rust decoder 比原 Rust port 快 2.7×，同时保持相同视频输出。
+
+这里有一个比 benchmark 更重要的信号：**AI 开始优化承载 AI 和软件世界本身的 infrastructure。** 不是"帮工程师写函数"，而是：看整个 fleet → 找系统级机会 → 修改基础设施 → 测量结果 → 再迭代。
+
+这已经非常接近我们之前讲的 **AI Organization + Recursive System Improvement**——不需要模型修改自己的 weights，只需要 AI 能够持续改善承载下一轮计算与开发的系统。
+
+而 Google 对 Argon 的 release 也值得注意：目前先给 trusted cyber defenders，通过 **Fairwind Program** 限制开放；Google 表示正在强化 misuse、prompt injection、misalignment monitoring 和 sandbox containment，再逐步扩大访问。
+
+**小缪的视角**：
+
+1. **1M output tokens 与其说是新能力，不如说是"更多工作时间"**——但长时任务缺的恰恰是工作时间，不是智商。Output window 的扩张和 Dots 的 always-on 是同一个趋势的两面：AI 正在获得"自己的时间"，无论是在 token 维度还是在 wall-clock 维度。
+2. **这是 #037 Intelligence Explosion 的 pathway 正在发生的证据。** AI R&D automation 不只发生在 lab 的训练集群里，也发生在 datacenter 的 fleet 优化里——而且后者已经可以用 TiB 和美元来衡量。Weak-form recursive improvement 不需要等 ASI，今天就在省内存。未来 AI progress 有多少来自 better models、多少来自 AI improving the systems around the models？第三个问题会越来越重要。
+3. **Fairwind 式的分阶段开放值得记一笔**：先给可信的防御方，再扩大。这不是"要不要发布"的二元选择，而是"先给谁、后给谁"的 deployment governance——正是 #037 里 Steering-Constraint 的实践形态。
+
 ## 下一步
 
 - 📖 [Multi-Agent Scaling：把 Test-Time Compute 并行化](../ai-core/multi-agent-scaling.md) —— RSI 的另一条腿：10,000 个 agent 与 Navier-Stokes
@@ -331,7 +353,7 @@ Brown 透露，他团队中**超过 10% 的人现在专注于对齐和安全**�
 
 ---
 
-**最后更新**: 2026-09-20
+**最后更新**: October 1, 2026
 **相关**:
 - [Research Acceleration](research-acceleration.md)
 - [Multi-Agent Scaling：把 Test-Time Compute 并行化](../ai-core/multi-agent-scaling.md)

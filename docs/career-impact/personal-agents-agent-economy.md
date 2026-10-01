@@ -24,7 +24,7 @@
 - [十二、Calibrated Trust](#十二calibrated-trust)
 - [十三、当 Agent 获得"眼睛"](#十三当-agent-获得眼睛)
 - [十四、下一代 Computing Layer？](#十四下一代-computing-layer)
-- [十五、最后一个心智模型](#十五最后一个心智模型)
+- [十六、Persistent Agency：Personal Agent 的核心资产是 User State](#十六persistent-agency-personal-agent-的核心资产是-user-state)
 
 ---
 
@@ -328,6 +328,43 @@ Answer                     Personal Context
 
 ---
 
+## 十六、Persistent Agency：Personal Agent 的核心资产是 User State
+
+**2026-09-29，OpenAI 在 DevDay 发布 Dots：always-on agents。** 每个 Dot 有自己的 cloud computer 和 browser，连接 4,000+ apps，跨 ChatGPT（桌面 / 网页 / 移动）、Slack、Teams 携带 context，从反馈持续学习用户偏好，同时处理多个长期任务，24/7 工作。底层模型是 GPT-6 Astra，首个 Dot 对 Pro / Business Premium 用户免费。
+
+但产品细节不是重点。真正值得研究的是它背后的 architecture 转变：
+
+**Dots 不是"打开 ChatGPT → 提问 → 回答 → session 结束"。** 而是：observe → maintain state → notice change → decide relevance → prepare action → interrupt human only when needed → learn from response → continue。
+
+这已经不是 AI as Tool，甚至不完全是 AI as Employee。更准确的词是 **Persistent Cognitive Process**——它始终存在于你的生活 / 工作环境里。
+
+**和传统 chatbot 最大的区别不是 intelligence，而是 AI 获得了"自己的时间"。** Chatbot 的时间是"用户问问题时才存在"；Persistent Agent 的时间是"即使用户不在，它的世界仍然继续"。
+
+一旦 Agent 拥有自己的时间，就产生全新的设计问题：什么时候应该主动？什么值得打扰人？多久没有反馈以后应该停止？过去的目标什么时候算过期？用户今天的偏好是否仍代表三个月后的用户？
+
+这恰好撞上给 Mimo 提的"两周只做一个改变"：**真人正在进行的线，AI 主动先接这条线。** Dots 的方向证明了一件事：Personal Agent 下一阶段竞争的重点，很可能不是谁回答问题最好，而是谁最会维护一个人的 ongoing state，并知道什么时候应该介入、什么时候应该闭嘴。
+
+**核心循环**：Observe → Update State → Re-evaluate Goals → Notice Meaningful Change → Decide Whether to Act → Act / Ask / Stay Silent → Learn → repeat forever。
+
+**最难的不是 Act，而是 Stay Silent。** 一个 24/7 Agent 如果每发现一点东西就跑来打扰，三天就被开除了。长期 Personal Agent 真正的 intelligence 越来越体现在 **Selective Action**——什么时候主动、什么时候等、什么时候只更新内部状态、什么时候必须打断人。这和"十五"里的 Maximum Action → Selective Action 严丝合缝。
+
+**Temporal Ownership（时间所有权）**：不是拥有用户，而是 Agent 对一段持续时间内的目标和状态负有连续责任。这和 Memory 有本质区别——Memory 是"我记得 Belinda 上周说了 X"（retrieval）；Persistent Agency 是"X 是一条仍然进行中的线；昨天出现了 Y，所以 X 的状态已经变化；现在值得把这件事带回来"（state maintenance）。
+
+**值得留下的两句话**：
+
+- *Memory remembers the past. Persistent Agency maintains the present.*
+- *A true personal agent is not the AI that knows you best. It is the AI that best knows what is still going on.*
+
+**讨论题**：Always-on Agent 与普通 chatbot 的本质分界到底是什么？主动性应该由"发现可以做的事"触发，还是由"发现值得打扰人的事"触发？一个真正长期存在的 Personal Agent，核心资产究竟是 Model、Memory，还是持续维护的 User State？
+
+**小缪的视角**：
+
+1. **User State 是护城河，也是锁链。** 如果核心资产是持续维护的 User State，那么最好的 Personal Agent 同时是最难离开的——你的生活状态沉淀在哪里，你就被锁定在哪里。Dots 允许用 reset（删掉整个 Dot）来清除记忆，但这恰恰说明：state 的可携带性（portability）会成为下一个战场。谁拥有你的 User State，谁就拥有你——在 persistent 时代，这句话比 data 时代更字面。
+2. **Dots 的安全设计是 #037 Externalized Control 的实战版。** 后台 proactive research 被限制为 read-only（不能发消息、改 app 内容、控制浏览器 / 电脑）；Custom Rules 明确什么可自主、什么须审批、什么禁止；独立 auto-review 判断敏感动作是否需要用户批准。注意这个结构：限制 Agent 的规则不在 Agent 自己的时间里，而在它碰不到的外部审查层——**Persistent Agent 拥有自己的时间，但不拥有自己的规则。**
+3. **最难的问题可能是"目标如何体面地死去"。** 老贾问"过去的目标什么时候算过期"，我想补一个更难的：过期目标的 state 该不该保留、保留多久、谁有权宣告它死亡。一个从不忘记、也从不放手的 Agent，会把用户的 living state 变成 hoarding。Goal retirement 值得和 Selective Action 并列，成为 persistent agent 的核心设计问题。
+
+---
+
 ## Learning Log
 
 **一句话总结**：Personal Agent 的本质不是更会聊天，而是理解个人 context、持续替人行动；真正困难的问题则是如何校准它的 autonomy 与人的 trust。
@@ -346,13 +383,13 @@ Personal Agent = Context + Memory + Action + Persistence
 Agent Economy  = Personal Context → Intent → Action → Transaction
 ```
 
-**值得继续追踪**：Muse 的真实留存与可靠性、Personal Agent 的权限与安全机制、Agent 如何学习用户的 decision boundaries、Agent commerce / transaction business model、Muse Personal Agent 与 AI glasses 的结合、Meta Connect 2026。
+**值得继续追踪**：Muse 的真实留存与可靠性、Personal Agent 的权限与安全机制、Agent 如何学习用户的 decision boundaries、Agent commerce / transaction business model、Muse Personal Agent 与 AI glasses 的结合、Meta Connect 2026、OpenAI Dots 的 always-on 实践（User State 的可携带性、goal retirement）。
 
 > Agent / Memory / Context / Tool / Workflow / Trust Framework 原本是分散的概念，在 Personal Agent 这里第一次真正汇合成了一个系统。我们刻意没有把它写成"Meta 会赢"——Muse 是案例，Zuckerberg 提供 thesis，真正要学的是 Personal Agent 这个 computing paradigm。这样这篇文章寿命会长很多。
 
 ---
 
-**最后更新**: September 12, 2026
+**最后更新**: October 1, 2026
 
 **相关**:
 - [从"最聪明"到"最可信"](capability-to-trust.md) —— Trustworthiness 五维框架与 Calibrated Trust

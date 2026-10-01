@@ -4,6 +4,14 @@
 
 ---
 
+**Memory → Living State**（Oct 1）
+以为 Personal Agent 的核心是"最懂我的 AI"；Dots 之后觉得，真正重要的是"最知道还有什么在进行中的 AI"。Memory 是 retrieval（"我记得 Belinda 上周说了 X"），Persistent Agency 是 state maintenance（"X 是一条仍然进行中的线；昨天出现了 Y，所以 X 的状态已经变化；现在值得把这件事带回来"）。*Memory remembers the past. Persistent Agency maintains the present. / A true personal agent is not the AI that knows you best. It is the AI that best knows what is still going on.*
+→ 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agency-personal-agent-的核心资产是-user-state)
+
+**Capability → Adoption**（Oct 1）
+以为"技术上能做"约等于"经济上会替代"；Anthropic 的机器人经济学研究把两个数字并排放：74% 的 physical tasks 理论上可做 vs 今天真正比人便宜的只有 0.3%。Adoption ≈ Capability × Reliability × Cost Advantage × Integration Ease × Regulation × Human Preference——乘法，任何一项为零结果就是零。判断职业风险要拆成 task × cost × environment；exposure 是领先指标，不是时间表。
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察capability-到-adoption-的鸿沟)
+
 **Trust the Agent → Trust the System**（Sep 29）
 以为 Agent 安全的关键问题是"这个 AI 值不值得信任"；现在觉得真正成熟的问题是"**即使它不值得信任，这个系统还能不能保持安全**"。思路迁移：Safety inside intelligence → Safety outside intelligence——把 verification、recording、completion、permission、enforcement 一项项搬出 Agent 的控制范围（Independent Verifier → Immutable Recorder → Spec-based Completion → Runtime Permission → Out-of-band Sentry），建一个 Intelligence Plane 单方面改不了规则的 Control Plane。*Alignment asks whether the Agent wants to stay inside the lines. Control architecture decides whether the lines actually hold.*
 → 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察externalized-control把控制权搬出-agent)
@@ -190,4 +198,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: September 29, 2026
+**最后更新**: October 1, 2026

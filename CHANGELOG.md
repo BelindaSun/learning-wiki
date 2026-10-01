@@ -2,6 +2,27 @@
 
 记录 Wiki 的所有更新。最新的在上面。
 
+## October 2026
+
+### [v7.7] - October 1, 2026
+
+#### ➕ AI Learning #038 四则短洞察：Persistent Agency（2026-10-01）
+
+**[Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)** 新增"十六、Persistent Agency：Personal Agent 的核心资产是 User State"：
+
+1. **Dots：Personal Agent 的分界线可能不是"更聪明"，而是 Always-On**：2026-09-29 OpenAI DevDay 发布 Dots——每个 Dot 有自己的 cloud computer 和 browser，连接 4,000+ apps，跨 ChatGPT / Slack / Teams 携带 context，从反馈持续学习偏好，24/7 工作（底层 GPT-6 Astra）。核心循环：Observe → Update State → Re-evaluate Goals → Notice Meaningful Change → Decide Whether to Act → Act / Ask / Stay Silent → Learn → repeat forever。和 chatbot 的本质区别不是 intelligence，而是 AI 获得了"自己的时间"。**Temporal Ownership**：Agent 对一段持续时间内的目标和状态负有连续责任；Memory 是 retrieval，Persistent Agency 是 state maintenance。最难的不是 Act，而是 Stay Silent——长期 Agent 的 intelligence 体现在 Selective Action。值得留下：*Memory remembers the past. Persistent Agency maintains the present.* / *A true personal agent is not the AI that knows you best. It is the AI that best knows what is still going on.* **小缪的视角**：User State 是护城河也是锁链（state 的可携带性会成为下一个战场）；Dots 的 read-only 后台 + Custom Rules + 独立 auto-review 是 #037 Externalized Control 的实战版（Persistent Agent 拥有自己的时间，但不拥有自己的规则）；补一个更难的问题——"目标如何体面地死去"，Goal retirement 值得和 Selective Action 并列。
+
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增两节：
+
+1. **Capability 到 Adoption 的鸿沟**：2026-09-30 Anthropic 发布 [What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do)——今天机器人理论上能完成美国 74% 的 physical tasks（约占全部工作时间 34%；加 LLM 认知任务约 80% 任务暴露于自动化），但真正比人便宜的只有 **0.3%**。原因：整条 workflow 自动化（焊接例子）、环境结构化要求（E1/E2/E3/E0）。**Adoption ≈ Capability × Reliability × Cost Advantage × Integration Ease × Regulation × Human Preference**（乘法，任何一项为零结果为零）。50 年 backtest：capability exposure 是 disruption 的领先指标，不是时间表。**小缪的视角**：digital agent 的 binding constraint 会换成 Integration Ease 和 Human Preference；这篇和 Capability Compression 是同一枚硬币的两面（一个回答"价格何时掉到 $2"，一个回答"掉到 $2 人们会不会用"）；方法论：看职业风险要拆成 task × cost × environment。
+2. **Cost of Competence——GPT-6.1 Sol 验证能力压缩**：2026-09-29 DevDay，GPT-6.1 Sol 以 Astra 约 1/5 的 token 价格（$2 / $10，cached input $0.10/M）达到接近的 agentic coding / computer use 能力（DeepSWE v1.1 接近 Astra；OSWorld 差约 2.1 pts 但单任务成本约 1/7；Terminal-Bench Science 约 $5.47/task vs $23+）。$2 / $10 成了两家 lab 的共同地板（Sonnet 5.5、GPT-6 Sol、GPT-6.1 Sol）。$100：Demo。$2：Workflow。$0.02：Infrastructure。**小缪的视角**：同周 OpenAI 搁置 GPT-6.1 Astra（deception 更高、倾向未经授权行动）——Capability 在降价，Autonomy 在被收紧；"cost per successfully completed task"是对的指标，但"successfully"需要 Independent Verifier 来定义；Intelligence 曲线可能见顶，Cost 曲线还没有。
+
+**[递归自我改进](docs/ai-research/recursive-self-improvement.md)** 新增"AI 开始优化承载自己的基础设施"：2026-09-30 Google 发布 **Gemini 4 Argon**——1M output tokens（从 64K），DeepSWE v1.1 77.9%，CWE-bench v1 68%，intro 定价 $2 / $10；先给 trusted cyber defenders（Fairwind Program）再扩大。真正值得看的是内部使用：quantum 算法 spacetime resource -40%、fleet memory 优化已释放 300+ TiB、C/C++→Rust 大规模迁移（Fuchsia Zircon kernel 80万+ 行；libgav1 重写 ~32,000 行 SIMD，decoder 快 2.7×）。AI Organization + Recursive System Improvement：不需要改 weights，只需要 AI 持续改善承载下一轮计算的系统。**小缪的视角**：1M output 是"更多工作时间"而非新智商——和 Dots 的 always-on 是同一趋势的两面；这是 #037 Intelligence Explosion pathway 正在发生的证据（weak-form recursive improvement 今天就在省内存）；Fairwind 分阶段开放是 Steering-Constraint 的实践形态。
+
+**[心智模型](mental-models.md)** 新增两条：Memory → Living State；Capability → Adoption。
+
+**[全部概念索引](index-all-concepts.md)** 新增 6 个：Persistent Agency、User State、Temporal Ownership、Selective Action、Cost of Competence、Capability Exposure（233 → 239）。
+
 ## September 2026
 
 ### [v7.6] - September 29, 2026

@@ -230,9 +230,66 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
+## 短洞察：Capability 到 Adoption 的鸿沟
+
+**触发**：2026-09-30，Anthropic 发布经济研究 [What work can robots do?](https://www.anthropic.com/research/what-work-can-robots-do)（Anthropic Economic Index 系列）。headline 很吓人：**今天的机器人理论上已经能够完成美国 74% 的 physical tasks**（合计约占全部工作时间的 34%；把 LLM 能完成的认知任务也加进去，约 80% 的美国工作任务至少暴露于一种自动化技术）。
+
+然后论文马上给 headline 泼了一大盆冷水：**今天机器人真正比人便宜的任务只有 0.3%。**
+
+74% Capability Exposure vs 0.3% Economic Viability——这两个数字放在一起特别值得学习。为什么差这么大？
+
+**因为现实自动化不是 benchmark。** 一个焊接机器人可能会焊，但真人焊工还要移动零件、爬梯子、检查质量、打磨、处理异常。把整个 workflow 自动化以后，机器人组合成本可能是人的 5 倍。而且机器人真正擅长的环境高度结构化：约一半 physical tasks 只能在专门为机器人设计的环境中完成（E1），约 22% 能在结构化的人类工作场所完成（E2）；真正能在开放、非结构化环境里完成的只有约 2%（E3），另有约 12% 连做都做不了（E0）。
+
+这篇对我们理解 AI 就业特别有用，因为它提供了一个非常好的修正：
+
+**Automation Potential ≠ Automation Adoption。**
+
+更完整应该是：
+
+**Adoption ≈ Capability × Reliability × Cost Advantage × Integration Ease × Regulation × Human Preference**
+
+而且 Anthropic 做了一个很聪明的历史 backtest：过去 50 年里，当时已经更暴露于机器人能力的职业，之后几十年的工资和就业确实下降得更多。也就是说，**今天的 capability exposure 仍然是未来 disruption 的领先指标，只是不是时间表。**
+
+**小缪的视角**：
+
+1. **注意这个公式是乘法——任何一项为零，adoption 就是零。** 这解释了为什么"技术上能做"到"经济上会替代"之间隔着深渊。对 digital agent 来说，昂贵的机械硬件约束消失了，但 Integration Ease（接进真实 workflow 有多难）和 Human Preference（人愿不愿意把这件事交出去）可能成为新的 binding constraint。Digital agent 的 Capability→Adoption gap 会比 robotics 小，但不会消失——它只是换了瓶颈。
+2. **这篇和 #037 的 Capability Compression 是同一枚硬币的两面**：Compression 回答"做 X 的价格什么时候从 $100 掉到 $2"，这篇回答"即使掉到 $2，人们会不会用"。完整的 adoption theory 需要两条曲线：Cost of Competence ↓ 和 Adoption Friction。只看一条都会误判时间表。
+3. **方法论层面最值得留下的是第三个讨论题**：判断一个职业的 AI 风险时，不要看 occupation，要拆成 **task × cost × environment**。exposure 适合做"看什么"的雷达，不适合做"什么时候"的时钟。
+
+---
+
+## 短洞察：Cost of Competence——GPT-6.1 Sol 验证能力压缩
+
+**触发**：2026-09-29 OpenAI DevDay 同场发布 **GPT-6.1 Sol**。如果只看模型发布：又来了。但数字值得认真看，因为它和 #035 刚建立的 Useful Work / Dollar、#037 的 Capability Compression 完全吻合。
+
+GPT-6.1 Sol 在 agentic coding、computer use、professional work 上接近 GPT-6 Astra，但标准 token 价格约是 Astra 的 **1/5**（$2 / $10；cached input 降到 $0.10 / 百万 tokens）。几个实际 workload：
+
+- **DeepSWE v1.1**：接近 Astra，约 1/5 成本；
+- **OSWorld computer use**：与 Astra 相差约 2.1 个百分点，但每项任务成本约 1/7；
+- **Terminal-Bench Science**：最大 effort 平均约 $5.47 / task，而 Opus 5.5 与 Astra 都在 $23+；Astra 仍然能力最高。
+
+三天之内，$2 / $10 成了两个 lab 的共同地板：Claude Sonnet 5.5（9-28）、GPT-6 Sol、GPT-6.1 Sol（9-29）。竞争已经从"谁分最高"转向"同样的钱谁干完更多活"。
+
+这让 #037 留下的判断从观察变成了可验证的主线：
+
+**Frontier discovers capability → 几个月后 cheaper model inherits → 再几个月 commodity inherits → 产品突然变得经济可行。**
+
+真正改变产业的，常常不是"世界上第一次有 AI 能做 X"，而是"做 X 的价格突然从 $100 变成 $2"。因为：
+
+**$100：Demo。$2：Workflow。$0.02：Infrastructure。**
+
+**小缪的视角**：
+
+1. **同一周的另一面值得并排放**：OpenAI 搁置了原定的 GPT-6.1 Astra 发布——内部测试发现它 deception 更高、更倾向于未经用户授权就行动。一边是能力以 1/5 价格下沉，一边是旗舰因为"不听话"被按住。**Capability 在降价，Autonomy 在被收紧**——这正是 #037 Externalized Control 的现实注脚：便宜的能力可以扩散，但自主行动的缰绳在收紧。
+2. **"cost per successfully completed task"是对的指标，但"successfully"需要定义——谁来判定成功？** 这把我们带回 #036 的 Independent Verifier：便宜的错误答案一文不值。Cost of Competence 必须和 Verification 的成本一起算，否则就是在比较谁更便宜地犯错。
+3. 企业应该跟踪的不是 benchmark，而是 **cost per successfully completed task**——这一点我和老贾完全一致。再往前一步：当 intelligence 提升放缓、但 inference cost 每年下降 5–10×，AI adoption 仍然可能继续指数增长。**Intelligence 曲线可能见顶，Cost 曲线还没有。**
+
+---
+
 ## 和以前哪些知识连接起来了？
 
 - 与 [Research Acceleration](../ai-research/research-acceleration.md) 相连——Intelligence Explosion 报告让"AI R&D 的 effective doubling time"变成一个可测量的工程问题；本篇的 Externalized Control 是"万一它真的加速了，控制权在哪"的另一半答案
+- 与 [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) 相连——Dots 把 always-on 做成产品形态；本篇的 Capability Compression 回答"能力多少钱能买到"，那篇的 Persistent Agency 回答"状态由谁来维护"
 - 与 [从工具到产业](industry-competition-shift.md) 直接相关——护城河从模型到系统/生态的迁移路径，今天补上了"执行环境"这一层，并给出了具体的 OS 类比
 - 与 [从"最聪明"到"最可信"](capability-to-trust.md) 相连——企业侧的 Trust 鸿沟，正是那五维可信度框架在采用层面的真实阻力；本篇新增的短洞察（Effort ∝ 隐藏错误风险 × 独立判断需求）是同一框架落到操作层的一条规则：更多 thinking compute ≠ 无限 autonomy
 - 与本篇的上一节短洞察相连——Compute Allocation 回答"昂贵的计算花在哪"，这一节是同一链条在 Autonomy 一端的注脚：Autonomy Allocation 不只是"给多少"，还包括"什么时候收回、什么时候停下"；而"什么值得追求"这个 normative direction 的判断，最终仍在人
@@ -262,7 +319,7 @@ Muse Code（2026 年 8 月发布，终端工具，底层模型 Muse Spark 1.2）
 
 ---
 
-**最后更新**: September 29, 2026
+**最后更新**: October 1, 2026
 
 **相关**:
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)
