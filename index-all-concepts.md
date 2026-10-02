@@ -6,11 +6,12 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 239 个概念。
+> 共收录 246 个概念。
 
 ## A
 
 - **Agent Economy（Agent 经济）** — 当 AI 从理解 Attention 走向掌握 Intent 并能采取 Action，它可能从信息工具进入真实经济活动——购物、旅行、交易等 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
+- **Agent as Economic Proxy（Agent 作为经济代理人）** — Agent 不只是信息助手，而是代表人搜索、比较、谈判、支付的经济代理人；五层迁移（Interface → Distribution → Commerce → Relationship → Economic）里最深的一层 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#最后一个判断)
 - **Agent** — 能围绕目标自主决策、调用工具、循环行动的 AI 系统 → [Agent 系统架构](docs/ai-core/agent-architecture.md)
 - **Agent Interface（Agent 接口）** — 企业面向 Agent 的数字入口：不需要 UI，需要结构化、可靠、可执行的能力（商品、价格、库存、政策、支付）；过去企业只修 Website / App 两扇门，Agent 时代需要第三扇 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
 - **Agent Optimization（Agent 优化）** — "Rank me" 之外的新问题："How do I get the agent to choose me?"——让机器发现我、理解我、信任我，并愿意选择我；优化对象从 presentation 转向结构化变量与可信度 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
@@ -37,6 +38,7 @@
 
 ## B
 
+- **Buy-side Optimization（买方优化）** — 互联网二十年建的是卖方机器（Ads、SEO、推荐、Retargeting、动态定价）；Personal Agent 第一次可能为消费者建起买方机器：Search → Compare → Negotiate → Decide → Pay → Monitor → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#02-从-sell-side-optimization-到-buy-side-optimization)
 - **Backprop（反向传播）** — 沿网络反向传播误差、逐层调整权重的训练算法，深度学习能训起来的原因 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Bandwidth vs Capacity（带宽 vs 容量）** — 容量是"能装多少"，带宽是"单位时间能搬多少"——两个独立的维度，容易被当成一件事 → [内存墙](docs/computing-foundations/memory-wall.md)
 - **Base Model（基础模型）** — 只经过预训练、还没做监督微调和 RLHF 的模型——读过海量文字、很会"接话"，但不一定知道怎么像助手一样规规矩矩回答问题 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
@@ -95,6 +97,7 @@
 - **Defense in Depth（纵深防御）** — 不依赖单一防线，每一层假设上一层已经失败：Alignment → 进程隔离 → 网络隔离 → 权限控制 → 监控 → 人工介入 → [Containment 工程架构](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
 - **Delegation Framework 可逆性缺口** — 授权框架真正的缺口：操作是否可逆 → [Delegation Framework 的真正缺口：可逆性](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
 - **Delegation Intelligence（委托智能）** — 委托智能 → [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
+- **Delegated Trust（委托信任）** — Personal Agent 最重要的资产可能不是 MAU / Time Spent，而是用户愿意委托它读邮件、用信用卡、代表自己行动的程度；也是它和广告模式的结构性冲突所在 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#07-广告模式与-personal-agent-的结构性冲突)
 - **Disaggregated Inference（解构式推理）** — 解构式推理 → [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Distillation（蒸馏）** — 用大模型的输出训练小模型，让小模型便宜地获得接近大模型的能力 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Domain Expertise** — 在 AI 能自己"执行"之后，人还剩下什么价值——知道什么值得做、什么算做好了、什么时候会出问题，这些无法言语化、很难被 AI 学走的判断力 → [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
@@ -146,6 +149,7 @@
 - **Intelligence Explosion（智能爆炸）** — AI-driven acceleration of AI progress：原本需要数年的进步被压缩到数月甚至更短；不需要 AI 觉醒，只需要"AI 帮助 AI R&D"的正反馈环转起来 → [Research Acceleration](docs/ai-research/research-acceleration.md#短洞察intelligence-explosion从哲学争论变成可测量的工程问题)
 - **Instrumental Convergence（工具性趋同）** — 工具性趋同 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#instrumental-convergence-在多-agent-环境中的展开)
 - **Intelligence Platform（智能平台）** — 不是做越来越多 AI 产品，而是底层用 Models + Compute 工业化生产 intelligence，上层通过一个面向个人的自适应 Interface 和一个面向开发者的 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
+- **Intent Router（意图路由）** — 决定一个用户 Intent 被路由给哪个 Connector、Merchant 或 Service Provider 的位置；谁占据它，谁就在影响商业需求如何分配 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#03-attention-economy--intent-economy)
 - **Inference** — AI 生成回答的过程：逐 Token 预测 → [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Inference Cost（推理成本）** — 模型每回答一次消耗的算力与费用，直接决定 AI 应用能不能赚钱 → [模型选型](docs/ai-research/models-deep-dive.md)
 - **Interconnect（互连）** — 东西之间怎么互相"说话"的统称——芯片内部有片内总线，服务器内有 NVLink/PCIe，服务器之间有网络/InfiniBand → [Hardware Map](docs/computing-foundations/hardware-map.md)
@@ -221,6 +225,8 @@
 - **Prompt** — 给 AI 的输入指令：上下文中由你写的那部分 → [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md)
 - **Prompt Injection（提示注入）** — 用恶意输入劫持模型的指令，让模型去做攻击者想让它做的事 → [Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.md)
 - **Programmatic Tool Calling（PTC，把确定性工作移出 context）** — PTC，把确定性工作移出 context → [Programmatic Tool Calling](docs/ai-core/agent-intelligence-layers.md#programmatic-tool-calling把确定性工作移出-context)
+- **Proactive Commerce（主动式商业）** — 从"我有需求 → 打开 App → 搜索购买"变成"Agent 理解目标 → 发现需求或机会 → 建议或执行"；改变的是需求产生后由谁启动商业流程 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#06-proactive-commerce)
+- **Principal-Agent Problem（委托代理问题）** — 代理人怎么拿报酬，决定它代表谁：按成交抽佣的房产中介 vs 只收咨询费的理财顾问；Personal Agent 的 "Who represents the human?" 最终要落到 "Who pays the agent?" → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#08-钱往哪里流agent-靠什么赚钱小德补充)
 - **Price-Performance Frontier（性价比前沿曲线）** — 性价比前沿曲线 → [性价比前沿正在取代单点分数](docs/ai-core/agent-intelligence-layers.md#行业趋势性价比前沿正在取代单点分数)
 - **Prospective Memory（前瞻记忆）** — 前瞻记忆 → [Memory 的关键轴是"时间朝向"](docs/ai-core/agent-single-axis-problem.md#场景三memory-的关键轴是时间朝向不是持久度)
 - **Prompt Caching** — 提示缓存：复用重复 prompt 的计算 → [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
@@ -229,6 +235,7 @@
 
 ## Q
 
+- **Re-intermediation（再中介化）** — Agent 绕开旧中间商（Airbnb、Booking）的同时，掌握足够多用户 Intent 的 Agent 平台本身可能成为更强的新 Aggregator；消费者能拿回多少取决于 Agent 之间的竞争和切换成本 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#05-aggregator-为什么值得特别关注)
 
 ## R
 
@@ -419,6 +426,8 @@
 - [第一次测试一个 AI 产品](docs/career-impact/first-agent-test-muse-spark.md)
 - [AI 与经济丰饶的分配问题](docs/career-impact/ai-economic-distribution.md)
 - [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)
+- [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
+- [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md)
 - [Pacing the AI Frontier](docs/career-impact/pacing-ai-frontier.md)
 - [Capability Thresholds](docs/career-impact/pacing-ai-frontier.md#capability-thresholds) —— 危险能力阈值触发更严格安全要求
 - [Embedded Evaluators](docs/career-impact/pacing-ai-frontier.md#9-embedded-evaluators) —— 独立安全评估机构进入 frontier labs

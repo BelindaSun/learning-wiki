@@ -405,3 +405,4 @@ Agent Economy  = Personal Context → Intent → Action → Transaction
 - [Mental Models](../../mental-models.md) —— 按时间回看这些判断怎样发生变化
 - [Decision Models — 不是每个决策都需要大语言模型](../ai-core/decision-models.md) —— Calibrated Autonomy 的模型侧对应：置信度被训准的决策模型，让"自己干还是停下来问我"有了可计算的依据
 - [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md) —— Agent Economy 的商业侧展开：企业需要第三扇门 Agent Interface，竞争从"Rank me"到"Choose me"；"Brand creates desire. Agent executes intent."的分析框架
+- [From Attention Economy to Agent Economy](from-attention-to-agent-economy.md) —— Agent Economy 的商业模式展开：五场播客之后的五层迁移框架，Proactive Commerce 与 Agent as Economic Proxy

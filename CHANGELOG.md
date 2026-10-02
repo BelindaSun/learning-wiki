@@ -4,6 +4,25 @@
 
 ## October 2026
 
+### [v7.8] - October 2, 2026
+
+#### ➕ 新增：From Attention Economy to Agent Economy
+
+**[From Attention Economy to Agent Economy：五场对话看到的商业模式重构](docs/career-impact/from-attention-to-agent-economy.md)**（Industry & Impact 新文章）：老贾 2026-10-02 撰写，Belinda 收录。基于 9 月下旬五场 Personal Agent 对话——Patrick O'Shaughnessy × Noah Shinn（Instinct）、a16z Anish Acharya × David Pawlan、Satya Nadella（Agent 市场比 Cloud 大几个数量级）、Greg Isenberg（Muse Connectors 是不是新的 App Store 时刻）、《The Synopsis》× MBI（体验 Muse 后清仓 Airbnb）。核心判断："Human browses" → "Human delegates. Agent acts."；Sell-side → Buy-side Optimization；Intent Router；"Agent reprices the software and commerce stack"；Aggregator 的追问（除了 discovery 和 comparison 还创造了什么不可替代的价值）；Proactive Commerce；广告与 Delegated Trust 的结构性冲突；Know Your Customer → Know My Human；Agent ↔ Agent。最后用五层迁移框架（Interface → Distribution → Commerce → Relationship → Economic）第一次把过去零散讨论的 Connector、Choose Me、Trust、Proactive Commerce 串成一条逻辑链。同日小德补充修订（标注"小德补充 / 小德修订"，不是全盘吸收老贾初稿）：
+- **修订**：§07 原文只把"拒绝广告"归到 Noah 一人；实际上 Meta 也公开表示 Muse 不放广告、基础版免费、向商家收小额交易费——两个最受关注的消费级 Agent 收敛到同一模式。§02 "消费者只有自己"改为"买方工具一直存在，但碎片化、且多靠卖方佣金养活"（Honey 2024 争议为例）。§01 补上 MBI 直订小屋省约 60% 的具体经过，并指出 60% 远超 Airbnb 服务费，不能读成"砍掉了抽成"；Nadella 一节补充发布场合与平台立场。KYC 加注金融合规原义。主持人只保留 "Drew"（姓氏未能核实）。
+- **新增 §08 "钱往哪里流：Agent 靠什么赚钱"**：五种收费方式对比（订阅 / 广告 / 交易抽成 / 按结果分成 / 企业按任务计价）、钱从哪里挪出来（商家获客预算、企业人力预算）、流向哪里（Agent 平台 / 回到消费者与供给方 / 算力层 / 留在旧平台），结论：**代理人怎么拿报酬，决定它代表谁**（"Who represents the human?" → "Who pays the agent?"）。
+- §05 补"风险由谁承担"和"去中介还是再中介化"；§06 补主动式商业的雏形和"抽成模式下主动发起交易=多一笔收入"的激励问题；§10 补 2025 年已有的 Agent 通信与支付协议（A2A、AP2、Agentic Commerce Protocol、Visa / Mastercard）；五层框架增加一行补充层 Monetization Shift；新增 What We Know / Emerging / Infer 与证据等级提醒。
+
+**[从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)** 正文不改，结尾新增 "Further Learning / 2026-10-02" 入口指向新文章——原文记录最初看到的变化，新文章记录五场播客之后认知怎样升级，不用今天的认识覆盖昨天。英文版顺手删掉了一段重复的 Related 列表。
+
+**[Personal Agents](docs/career-impact/personal-agents-agent-economy.md)** "相关"新增指向新文章的链接（双向）。
+
+**[全部概念索引](index-all-concepts.md)** 新增 7 个（239 → 246）：Agent as Economic Proxy、Buy-side Optimization、Delegated Trust、Intent Router、Proactive Commerce、Principal-Agent Problem、Re-intermediation。英文版顺手修复 Backprop / Bandwidth vs. Capacity 两条被粘在一行的问题。
+
+**[心智模型](mental-models.md)** 新增一条：Human browses → Human delegates。
+
+**[Industry & Impact 地图](docs/career-impact/index.md)** 新增第 11 问："当 Agent 开始替人花钱，商业价值链怎样重新分配？"
+
 ### [v7.7] - October 1, 2026
 
 #### ➕ AI Learning #038 四则短洞察：Persistent Agency（2026-10-01）

@@ -2,6 +2,25 @@
 
 ## October 2026
 
+### [v7.8] - October 2, 2026
+
+#### New: From Attention Economy to Agent Economy
+
+**[From Attention Economy to Agent Economy: How Five Conversations Reframe the Business Model](docs/career-impact/from-attention-to-agent-economy.en.md)** (new Industry & Impact article): written by Lao Jia on 2026-10-02, collected by Belinda. Built on five late-September conversations about Personal Agents — Patrick O'Shaughnessy × Noah Shinn (Instinct), a16z's Anish Acharya × David Pawlan, Satya Nadella (the Agent market could be orders of magnitude bigger than Cloud), Greg Isenberg (are Muse Connectors the next App Store moment?), and *The Synopsis* × MBI (sold Airbnb after trying Muse). Core judgments: "Human browses" → "Human delegates. Agent acts."; sell-side → buy-side optimization; the Intent Router; "Agent reprices the software and commerce stack"; the question every aggregator must answer; Proactive Commerce; the structural conflict between ads and Delegated Trust; Know Your Customer → Know My Human; Agent ↔ Agent. A five-shift framework (Interface → Distribution → Commerce → Relationship → Economic) strings together the Connector, Choose Me, Trust, and Proactive Commerce for the first time. Same-day supplement and revision by Xiao De (marked "Xiao De's addition / revision" — not a wholesale adoption of Lao Jia's draft):
+- **Corrections**: §07 credited rejecting ads to Noah alone; Meta has also said Muse carries no ads, is free at the base tier, and charges merchants a small transaction fee — the two most-watched consumer Agents converged on one model. §02's "consumers only had themselves" becomes "buy-side tools always existed but were fragmented and mostly funded by seller commissions" (the 2024 Honey controversy as an example). §01 adds the concrete story of MBI's direct-booked cottage (~60% saved) and notes 60% far exceeds Airbnb's fees; the Nadella section adds the launch context and his platform position. KYC gets a note on its financial-compliance meaning. The host is now just "Drew" (surname unverified).
+- **New §08 "Where the money goes: how Agents get paid"**: five pricing models compared, where money moves from (merchant acquisition budgets, enterprise labor budgets) and where it goes (Agent platforms / back to consumers and suppliers / compute / stays with old platforms); conclusion: **how a proxy gets paid decides whom it represents**.
+- §05 adds "who bears the risk" and "disintermediation vs. re-intermediation"; §06 adds precedents and the take-rate incentive problem; §10 adds the 2025 agent communication and payment protocols (A2A, AP2, Agentic Commerce Protocol, Visa / Mastercard); the framework gains a Monetization Shift row; new What We Know / Emerging / Infer section.
+
+**[From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)** body unchanged; a "Further Learning / 2026-10-02" entry at the end points to the new article. Also removed a duplicated Related list in the English version.
+
+**[Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)** Related now links to the new article (two-way).
+
+**[All Concepts](index-all-concepts.en.md)** adds 7: Agent as Economic Proxy, Buy-side Optimization, Delegated Trust, Intent Router, Proactive Commerce, Principal-Agent Problem, Re-intermediation. Also fixed the Backprop / Bandwidth vs. Capacity entries that had been merged onto one line.
+
+**[Mental Models](mental-models.en.md)** adds: Human browses → Human delegates.
+
+**[Industry & Impact](docs/career-impact/index.en.md)** Go Deeper adds the new article.
+
 ### [v7.7] - October 1, 2026
 
 #### AI Learning #038: four insights — Persistent Agency (October 1, 2026)

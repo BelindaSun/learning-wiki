@@ -488,7 +488,15 @@ How it differs from its neighbors: **the API is the door a service provides; the
 
 ---
 
-**Last updated**: September 28, 2026
+## Further Learning / 2026-10-02
+
+This piece records the change as we first saw it on 2026-09-20 and stays as it is. Twelve days later, after five podcasts on Personal Agents (Instinct, a16z, Nadella, Greg Isenberg, MBI), Lao Jia strung the scattered Connector, Choose Me, and Trust ideas here into a five-layer chain (Interface → Distribution → Commerce → Relationship → Economic) and added Proactive Commerce and Agent as Economic Proxy:
+
+→ [From Attention Economy to Agent Economy: How Five Conversations Reframe the Business Model](from-attention-to-agent-economy.en.md)
+
+---
+
+**Last updated**: October 2, 2026
 
 **Related**:
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.en.md) — where the Agent Economy concept originated: the migration from Attention Economy to Intent Economy
@@ -497,10 +505,4 @@ How it differs from its neighbors: **the API is the door a service provides; the
 - [AI and the Distribution Problem of Economic Abundance: Who Owns AI Capital?](ai-economic-distribution.en.md) — the macroeconomic backdrop of the Agent Economy: who gets the growth
 - [Mental Models](../../mental-models.en.md) — revisiting over time how these judgments changed
 - [AI Agents Enter the Enterprise](agents-enter-enterprise.en.md) — the enterprise end of the same evolution chain: Meta Enterprise Platform (2026-09-28) puts the Muse / Business Agents / Model API into deployable enterprise products
-
-**Related**:
-- [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.en.md) — The conceptual origin of the Agent Economy: the migration from Attention Economy to Intent Economy
-- [Agent Infrastructure as an Operating System](agent-infrastructure-os.en.md) — The Agent OS equivalence theorem: whoever defines the standards and interfaces wins; the Connector is one piece of that infrastructure
-- [From "Smartest" to "Most Trustworthy"](capability-to-trust.en.md) — The premise the Agent Economy can't avoid: Trust; "Who does the human trust to act on their behalf?"
-- [AI and the Distribution Problem of Economic Abundance](ai-economic-distribution.en.md) — The macroeconomic backdrop to the Agent Economy: who gets the growth
-- [Mental Models](../../mental-models.en.md) — Look back over time at how these judgments evolved
+- [From Attention Economy to Agent Economy](from-attention-to-agent-economy.en.md) — the upgraded sequel (2026-10-02): after five podcasts, Connector / Choose Me / Trust are strung into five shifts: Interface → Distribution → Commerce → Relationship → Economic
