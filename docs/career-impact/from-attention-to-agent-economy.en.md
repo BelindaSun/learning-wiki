@@ -25,13 +25,13 @@ Additional references for Xiao De's additions: Meta's public statements on Muse'
 - [05. Why aggregators deserve special attention](#05-why-aggregators-deserve-special-attention)
 - [06. Proactive Commerce](#06-proactive-commerce)
 - [07. The structural conflict between advertising and Personal Agents](#07-the-structural-conflict-between-advertising-and-personal-agents)
-- [08. Where the money goes: how Agents get paid (Xiao De's addition)](#08-where-the-money-goes-how-agents-get-paid-xiao-miaos-addition)
+- [08. Where the money goes: how Agents get paid (Xiao De's addition)](#08-where-the-money-goes-how-agents-get-paid-xiao-des-addition)
 - [09. From Know Your Customer to Know My Human](#09-from-know-your-customer-to-know-my-human)
 - [10. Agent ↔ Agent: the next market layer](#10-agent--agent-the-next-market-layer)
 - [11. The final framework: five shifts plus one](#11-the-final-framework-five-shifts-plus-one)
 - [One evolution chain](#one-evolution-chain)
 - [One last judgment](#one-last-judgment)
-- [What We Know / What Is Emerging / What We Infer (Xiao De's addition)](#what-we-know--what-is-emerging--what-we-infer-xiao-miaos-addition)
+- [What We Know / What Is Emerging / What We Infer (Xiao De's addition)](#what-we-know--what-is-emerging--what-we-infer-xiao-des-addition)
 - [Next steps](#next-steps)
 
 ---
