@@ -2,14 +2,14 @@
 
 **Core insight**: For twenty years the internet has rested on "Human browses": people search, compare, click, choose, and transact. Personal Agents introduce another mode: "Human delegates. Agent acts." The center of commercial competition may therefore add a second contest on top of the fight for human attention: the fight to be chosen by the Agent. This is more than "which apps will AI replace." It is a redistribution of the internet's commercial value chain: money may partly move from selling attention, selling seats, and charging intermediary fees toward transaction take rates, outcome-based pricing, and compute. If Agents compete enough with each other, some of it also flows back to consumers and suppliers as lower prices. And how an Agent gets paid will ultimately decide whom it represents.
 
-**Sources**: First draft by Lao Jia on 2026-10-02, supplemented and revised by Xiao Miao (paragraphs marked "Xiao Miao's addition"), collected by Belinda. Based on five conversations from late September 2026:
+**Sources**: First draft by Lao Jia on 2026-10-02, supplemented and revised by Xiao De (paragraphs marked "Xiao De's addition"), collected by Belinda. Based on five conversations from late September 2026:
 - Patrick O'Shaughnessy × Noah Shinn (founder of Instinct) — [Invest Like the Best: Building Instinct, the Personal Agent](https://podcasts.apple.com/au/podcast/noah-shinn-building-instinct-the-personal-agent/id1154105909?i=1000792019848) (2026-09-28); business-model excerpt in [Patrick's clip](https://x.com/patrick_oshag/status/2104652976447168787)
 - a16z: Anish Acharya × David Pawlan (creator of Assistant Benchmark) — [The Personal Agent Race Is Here](https://podcasts.apple.com/us/podcast/the-personal-agent-race-is-here-anish-acharya-david-pawlan/id842818711?i=1000792176970) (2026-09-29)
 - Alex Heath × Satya Nadella — [Satya Nadella on Microsoft's agent bet and AI's trust problem](https://sources.news/p/satya-nadella-microsoft-copilot-future) (2026-09-25)
 - Greg Isenberg — [Muse Connectors: The Next App Store Moment?](https://x.com/startupideaspod/status/2103204290458468574) (The Startup Ideas Podcast)
 - *The Synopsis*: host Drew × Mostly Borrowed Ideas (MBI) — Chinese write-up: [After trying Muse, I sold my Airbnb](https://www.itiger.com/news/2672396097); MBI's own writing: [First Impression of Muse](https://www.mbi-deepdives.com/muse/) · [Why Muse May Never Need Ads](https://www.mbi-deepdives.com/no-ads-muse/)
 
-Additional references for Xiao Miao's additions: Meta's public statements on Muse's business model ([Yahoo Finance: Muse will take a small fee from transactions](https://finance.yahoo.com/technology/article/metas-zuckerberg-says-muse-ai-agent-will-take-a-small-fee-from-transactions-234639802.html), [Muse pricing and subscription tiers](https://www.fool.com/investing/2026/09/11/mark-zuckerberg-s-meta-is-charging-consumers-for-a-personal-ai-agent-for-the-first-time-here-s-what-usd20-and-usd100-a-month-could-add-to-revenue/))
+Additional references for Xiao De's additions: Meta's public statements on Muse's business model ([Yahoo Finance: Muse will take a small fee from transactions](https://finance.yahoo.com/technology/article/metas-zuckerberg-says-muse-ai-agent-will-take-a-small-fee-from-transactions-234639802.html), [Muse pricing and subscription tiers](https://www.fool.com/investing/2026/09/11/mark-zuckerberg-s-meta-is-charging-consumers-for-a-personal-ai-agent-for-the-first-time-here-s-what-usd20-and-usd100-a-month-could-add-to-revenue/))
 
 **New to this topic?** Start with [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.en.md) (what a Personal Agent is) → [From SEO to Agent Economy](from-seo-to-agent-economy.en.md) (Connectors and "Choose me"). This piece is the third stop on that line: the first two saw the front door changing; this one looks at how the whole commercial value chain gets redistributed, and where the money goes.
 
@@ -25,13 +25,13 @@ Additional references for Xiao Miao's additions: Meta's public statements on Mus
 - [05. Why aggregators deserve special attention](#05-why-aggregators-deserve-special-attention)
 - [06. Proactive Commerce](#06-proactive-commerce)
 - [07. The structural conflict between advertising and Personal Agents](#07-the-structural-conflict-between-advertising-and-personal-agents)
-- [08. Where the money goes: how Agents get paid (Xiao Miao's addition)](#08-where-the-money-goes-how-agents-get-paid-xiao-miaos-addition)
+- [08. Where the money goes: how Agents get paid (Xiao De's addition)](#08-where-the-money-goes-how-agents-get-paid-xiao-miaos-addition)
 - [09. From Know Your Customer to Know My Human](#09-from-know-your-customer-to-know-my-human)
 - [10. Agent ↔ Agent: the next market layer](#10-agent--agent-the-next-market-layer)
 - [11. The final framework: five shifts plus one](#11-the-final-framework-five-shifts-plus-one)
 - [One evolution chain](#one-evolution-chain)
 - [One last judgment](#one-last-judgment)
-- [What We Know / What Is Emerging / What We Infer (Xiao Miao's addition)](#what-we-know--what-is-emerging--what-we-infer-xiao-miaos-addition)
+- [What We Know / What Is Emerging / What We Infer (Xiao De's addition)](#what-we-know--what-is-emerging--what-we-infer-xiao-miaos-addition)
 - [Next steps](#next-steps)
 
 ---
@@ -82,7 +82,7 @@ Cloud mainly monetizes compute, storage, and software usage; Agents could reach 
 
 Nadella also puts trust at the center of the Agent era: once software starts acting on people's behalf, reliability, security, and governance are no longer optional add-ons.
 
-**Xiao Miao's addition**: two pieces of context. First, this came at the launch of the new Copilot and is mainly about the **enterprise** Agent market. Second, Microsoft sells both an Agent platform and Azure compute, so it gets paid whichever Agent wins; "the market will be huge" is a position as well as a forecast. The real meaning of "bigger than Cloud" is more likely that **the budget pool changes**: Cloud draws on companies' IT budgets; Agents aim at part of their labor budgets (see §08).
+**Xiao De's addition**: two pieces of context. First, this came at the launch of the new Copilot and is mainly about the **enterprise** Agent market. Second, Microsoft sells both an Agent platform and Azure compute, so it gets paid whichever Agent wins; "the market will be huge" is a position as well as a forecast. The real meaning of "bigger than Cloud" is more likely that **the budget pool changes**: Cloud draws on companies' IT budgets; Agents aim at part of their labor budgets (see §08).
 
 **Key takeaway**: the Agent TAM is not just software; it may extend to the execution layer of human economic activity.
 
@@ -118,7 +118,7 @@ Of the five, this conversation makes the commercial impact most concrete.
 
 MBI held Airbnb and is also a heavy Airbnb user. About ten days after Muse launched, he spotted a cottage on Airbnb and casually asked Muse whether he could book it directly. According to reports, Muse answered within a minute: yes, and booking direct would save about 60%; his credit card was already linked, so all he had to do was tap to confirm. The experience changed his view of how Agents would hit OTAs; he sold his Airbnb position and added to Meta.
 
-**Xiao Miao's addition**: that 60% shouldn't be read as "the Agent cut out Airbnb's fee." Airbnb's service fees are nowhere near 60%, so other factors must be in the savings (the host's direct-booking pricing, dates, cleaning-fee structure, and so on). What it really shows is that **the Agent drove the cost of finding a direct-booking channel close to zero**. Hosts taking bookings off-platform has always existed; consumers just used to have to find those channels themselves.
+**Xiao De's addition**: that 60% shouldn't be read as "the Agent cut out Airbnb's fee." Airbnb's service fees are nowhere near 60%, so other factors must be in the savings (the host's direct-booking pricing, dates, cleaning-fee structure, and so on). What it really shows is that **the Agent drove the cost of finding a direct-booking channel close to zero**. Hosts taking bookings off-platform has always existed; consumers just used to have to find those channels themselves.
 
 The episode doesn't stop at Airbnb. It moves on to Booking, Uber, DoorDash, Amazon, and a concept well worth keeping:
 
@@ -146,7 +146,7 @@ Companies have ever more powerful tools for studying: **how do I get consumers t
 
 The consumer side's tools have been far weaker.
 
-**Xiao Miao's revision**: saying "consumers only had themselves" isn't quite right. Buy-side tools have always existed: price-comparison sites, Google Flights price tracking, coupon extensions, consumer reviews. But they had two problems:
+**Xiao De's revision**: saying "consumers only had themselves" isn't quite right. Buy-side tools have always existed: price-comparison sites, Google Flights price tracking, coupon extensions, consumer reviews. But they had two problems:
 
 1. **Fragmentation**: each tool covers one step or one category; none knows your budget, calendar, memberships, and long-term goals all at once.
 2. **Mostly funded by the sell side**: comparison sites and coupon extensions often earn mainly from merchant commissions. PayPal's Honey drew controversy in 2024 over allegations that it replaced creators' affiliate links and, through its merchant partnerships, didn't always show the best discount — nominally saving buyers money while earning from sellers.
@@ -253,7 +253,7 @@ Therefore:
 
 **Agents may not destroy platforms. Agents will take platforms apart and re-judge what each layer is really worth.**
 
-**Xiao Miao's addition: two questions Lao Jia didn't unpack**
+**Xiao De's addition: two questions Lao Jia didn't unpack**
 
 **① When the platform is bypassed, who bears the risk?** Part of Airbnb's fee buys a backstop: guest protection, the review system, payment escrow, dispute resolution. Booking direct removes exactly that layer. If the place doesn't match its description, does responsibility fall on the user, the Agent platform, or the host? For an Agent to truly replace an aggregator, it has to absorb some of that risk itself — which would make Agent platforms look more like insurers and payment companies than just smart assistants.
 
@@ -286,7 +286,7 @@ This means commerce may move from **Reactive Commerce** to **Proactive Commerce*
 
 What changes is not just the buying interface, but **who starts the commercial process once a need exists**.
 
-**Xiao Miao's addition**: proactive commerce doesn't start from zero. Amazon's Subscribe & Save, Google Flights' price alerts, and credit-card price protection are early forms. But those were **single-category with preset rules**; what's different with Agents is that they work across categories, don't need the user to write rules in advance, and can execute directly.
+**Xiao De's addition**: proactive commerce doesn't start from zero. Amazon's Subscribe & Save, Google Flights' price alerts, and credit-card price protection are early forms. But those were **single-category with preset rules**; what's different with Agents is that they work across categories, don't need the user to write rules in advance, and can execute directly.
 
 There's also an incentive problem to watch: if the Agent earns a take rate per transaction, then "proactively starting a transaction" means **one more source of revenue** for it. "Saving you money" and "getting you to spend more" can come from the same feature. That's the point of §08: whether proactive commerce is good for users depends on how the Agent is paid.
 
@@ -312,7 +312,7 @@ User trusts Agent
 
 Noah Shinn's explicit rejection of advertising is an early sign of this problem.
 
-**Xiao Miao's revision**: Noah isn't the only one rejecting ads. Meta — one of the world's largest advertising companies — has publicly said **Muse will not carry ads**: the basic version is free, heavy users have $20 / $100 monthly tiers, and long-term revenue comes from **charging merchants a small fee** on transactions Muse completes for users. Zuckerberg's reasoning: ads get paid regardless of what the user does afterward, while a transaction fee is only earned when Muse actually helps the user buy what they wanted, so it is better aligned with the user.
+**Xiao De's revision**: Noah isn't the only one rejecting ads. Meta — one of the world's largest advertising companies — has publicly said **Muse will not carry ads**: the basic version is free, heavy users have $20 / $100 monthly tiers, and long-term revenue comes from **charging merchants a small fee** on transactions Muse completes for users. Zuckerberg's reasoning: ads get paid regardless of what the user does afterward, while a transaction fee is only earned when Muse actually helps the user buy what they wanted, so it is better aligned with the user.
 
 That matters far more than "a startup refuses ads": **the two most-watched consumer Personal Agents, starting from completely different places, converged on the same model — free for users, merchants pay per transaction, no ads.**
 
@@ -330,7 +330,7 @@ Whether users are willing to let it read their email, understand their calendar,
 
 ---
 
-## 08. Where the money goes: how Agents get paid (Xiao Miao's addition)
+## 08. Where the money goes: how Agents get paid (Xiao De's addition)
 
 Lao Jia's framework makes clear how the value chain gets unbundled, but leaves one question unanswered head-on: **where does the money come from, and where does it go?**
 
@@ -409,7 +409,7 @@ Intent → Agent → Action → Transaction
 
 And identity, payments, reputation, permissions, security, and governance become the infrastructure of this economic system.
 
-**Xiao Miao's addition**: this infrastructure isn't speculative; people started laying it in 2025. Google proposed the A2A protocol for agent-to-agent communication and the AP2 protocol for agent payments; OpenAI and Stripe launched the Agentic Commerce Protocol along with Instant Checkout in ChatGPT (free for users, merchants pay on completed orders — the take-rate model again); Visa and Mastercard each launched payment programs for Agents. Instinct's Trusted Network is an early consumer-side example, currently used mainly for scheduling.
+**Xiao De's addition**: this infrastructure isn't speculative; people started laying it in 2025. Google proposed the A2A protocol for agent-to-agent communication and the AP2 protocol for agent payments; OpenAI and Stripe launched the Agentic Commerce Protocol along with Instant Checkout in ChatGPT (free for users, merchants pay on completed orders — the take-rate model again); Visa and Mastercard each launched payment programs for Agents. Instinct's Trusted Network is an early consumer-side example, currently used mainly for scheduling.
 
 ---
 
@@ -424,7 +424,7 @@ The five conversations start from Personal Agents, consumer behavior, enterprise
 | **3. Commerce Shift** | Reactive Commerce → Proactive Commerce | Agents start proactively finding and executing opportunities on the user's behalf |
 | **4. Relationship Shift** | Merchant owns customer → Agent may own relationship | The merchant gets the transaction; the Personal Agent has a chance to hold the long-term relationship |
 | **5. Economic Shift** | Attention Economy → Intent Economy | The scarce resource moves from "who gets human attention" to also include "who gets human delegation, and who gets chosen by the Agent" |
-| **Addition: Monetization Shift** (Xiao Miao) | Selling attention / seats / intermediary fees → take rates / outcome pricing / compute | Money follows "who completed the action"; the pay structure decides whom the Agent represents |
+| **Addition: Monetization Shift** (Xiao De) | Selling attention / seats / intermediary fees → take rates / outcome pricing / compute | Money follows "who completed the action"; the pay structure decides whom the Agent represents |
 
 For the first time, this framework strings together concepts we had discussed piecemeal: the Connector ([From SEO to Agent Economy](from-seo-to-agent-economy.en.md)), Choose Me (same), Trust ([From "Smartest" to "Most Trustworthy"](capability-to-trust.en.md)), the Intent Economy ([Personal Agents](personal-agents-agent-economy.en.md)), and the newly added Proactive Commerce. The sixth layer answers the question the first five leave open: once the value chain is unbundled, where does the money actually go?
 
@@ -472,11 +472,11 @@ If that change holds, what gets redesigned is not just the app, but distribution
 > **Delegated Trust is the relationship layer.**
 > **Agent as Economic Proxy is the deepest layer.**
 
-**Xiao Miao's addition**: if the Agent is an economic proxy, the last question is the old answer to the principal–agent problem: **whoever pays it, it tends to represent.** Agent as Economic Proxy is the deepest layer, and whether that layer holds is decided by its pay structure.
+**Xiao De's addition**: if the Agent is an economic proxy, the last question is the old answer to the principal–agent problem: **whoever pays it, it tends to represent.** Agent as Economic Proxy is the deepest layer, and whether that layer holds is decided by its pay structure.
 
 ---
 
-## What We Know / What Is Emerging / What We Infer (Xiao Miao's addition)
+## What We Know / What Is Emerging / What We Infer (Xiao De's addition)
 
 Using the three-way split from [From SEO to Agent Economy](from-seo-to-agent-economy.en.md#what-we-know--what-is-emerging--what-we-infer), sorting this article's judgments by strength of evidence:
 

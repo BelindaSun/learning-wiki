@@ -2,14 +2,14 @@
 
 **核心洞察**: 过去二十年的互联网建立在 "Human browses" 上——人搜索、人比较、人点击、人选择、人交易。Personal Agent 正在引入另一个模式："Human delegates. Agent acts." 商业竞争的核心因此可能从争夺人的注意力，逐渐增加另一场竞争：争夺 Agent 的选择。这不只是"AI 会取代哪些 App"，而是互联网商业价值链的一次重新分配：钱可能从卖注意力、卖席位、收中介费，部分流向交易抽成、按结果收费和算力；如果 Agent 之间有足够的竞争，还有一部分会以更低的价格回到消费者和供给方手里。而 Agent 怎么拿报酬，最终会决定它到底代表谁。
 
-**学习来源**: 老贾（Lao Jia）2026-10-02 初稿，小缪补充修订（标注"小缪补充"的段落），Belinda 收录。基于 2026 年 9 月下旬的五场对话：
+**学习来源**: 老贾（Lao Jia）2026-10-02 初稿，小德补充修订（标注"小德补充"的段落），Belinda 收录。基于 2026 年 9 月下旬的五场对话：
 - Patrick O'Shaughnessy × Noah Shinn（Instinct 创始人）— [Invest Like the Best: Building Instinct, the Personal Agent](https://podcasts.apple.com/au/podcast/noah-shinn-building-instinct-the-personal-agent/id1154105909?i=1000792019848)（2026-09-28）；商业模式片段见 [Patrick 的摘录](https://x.com/patrick_oshag/status/2104652976447168787)
 - a16z：Anish Acharya × David Pawlan（Assistant Benchmark 创始人）— [The Personal Agent Race Is Here](https://podcasts.apple.com/us/podcast/the-personal-agent-race-is-here-anish-acharya-david-pawlan/id842818711?i=1000792176970)（2026-09-29）
 - Alex Heath × Satya Nadella — [Satya Nadella on Microsoft's agent bet and AI's trust problem](https://sources.news/p/satya-nadella-microsoft-copilot-future)（2026-09-25）
 - Greg Isenberg — [Muse Connectors: The Next App Store Moment?](https://x.com/startupideaspod/status/2103204290458468574)（The Startup Ideas Podcast）
 - 《The Synopsis》：主持人 Drew × Mostly Borrowed Ideas（MBI）— 中文整理见 [体验了Muse后，我清仓了Airbnb](https://www.itiger.com/news/2672396097)；MBI 自己的文字：[First Impression of Muse](https://www.mbi-deepdives.com/muse/) · [Why Muse May Never Need Ads](https://www.mbi-deepdives.com/no-ads-muse/)
 
-小缪补充时额外参考：Meta 关于 Muse 商业模式的公开表态（[Yahoo Finance：Muse 将从交易中收取小额费用](https://finance.yahoo.com/technology/article/metas-zuckerberg-says-muse-ai-agent-will-take-a-small-fee-from-transactions-234639802.html)、[Muse 定价与订阅档位](https://www.fool.com/investing/2026/09/11/mark-zuckerberg-s-meta-is-charging-consumers-for-a-personal-ai-agent-for-the-first-time-here-s-what-usd20-and-usd100-a-month-could-add-to-revenue/)）
+小德补充时额外参考：Meta 关于 Muse 商业模式的公开表态（[Yahoo Finance：Muse 将从交易中收取小额费用](https://finance.yahoo.com/technology/article/metas-zuckerberg-says-muse-ai-agent-will-take-a-small-fee-from-transactions-234639802.html)、[Muse 定价与订阅档位](https://www.fool.com/investing/2026/09/11/mark-zuckerberg-s-meta-is-charging-consumers-for-a-personal-ai-agent-for-the-first-time-here-s-what-usd20-and-usd100-a-month-could-add-to-revenue/)）
 
 **第一次接触这个主题？** 建议先读：[Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md)（Personal Agent 是什么）→ [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md)（Connector 与 "Choose me"）。这篇是这条线的第三站：前两篇看到入口在变，这篇看整条商业价值链怎样被重新分配，以及钱往哪里流。
 
@@ -25,13 +25,13 @@
 - [05. Aggregator 为什么值得特别关注](#05-aggregator-为什么值得特别关注)
 - [06. Proactive Commerce](#06-proactive-commerce)
 - [07. 广告模式与 Personal Agent 的结构性冲突](#07-广告模式与-personal-agent-的结构性冲突)
-- [08. 钱往哪里流：Agent 靠什么赚钱（小缪补充）](#08-钱往哪里流agent-靠什么赚钱小缪补充)
+- [08. 钱往哪里流：Agent 靠什么赚钱（小德补充）](#08-钱往哪里流agent-靠什么赚钱小德补充)
 - [09. 从 Know Your Customer 到 Know My Human](#09-从-know-your-customer-到-know-my-human)
 - [10. Agent ↔ Agent：下一层市场](#10-agent--agent下一层市场)
 - [11. 最终框架：五层迁移 + 一层补充](#11-最终框架五层迁移--一层补充)
 - [一条演进链](#一条演进链)
 - [最后一个判断](#最后一个判断)
-- [What We Know / What Is Emerging / What We Infer（小缪补充）](#what-we-know--what-is-emerging--what-we-infer小缪补充)
+- [What We Know / What Is Emerging / What We Infer（小德补充）](#what-we-know--what-is-emerging--what-we-infer小德补充)
 - [下一步](#下一步)
 
 ---
@@ -82,7 +82,7 @@ Cloud 主要 monetizes compute、storage 和 software usage；Agent 潜在介入
 
 Nadella 同时把 trust 放在 Agent 时代的重要位置：当软件开始代表人行动，可靠性、安全和治理就不再只是附加功能。
 
-**小缪补充**：读这个判断时要记住两个背景。一是这番话出自新版 Copilot 的发布场合，主要讲的是**企业** Agent 市场；二是 Microsoft 同时卖 Agent 平台和 Azure 算力，无论哪家 Agent 胜出它都能收钱，所以"市场会很大"对它来说既是判断，也是立场。"比 Cloud 大"的真正含义更可能是**预算池换了**：Cloud 吃的是企业的 IT 预算，Agent 想吃的是一部分人力预算（见 §08）。
+**小德补充**：读这个判断时要记住两个背景。一是这番话出自新版 Copilot 的发布场合，主要讲的是**企业** Agent 市场；二是 Microsoft 同时卖 Agent 平台和 Azure 算力，无论哪家 Agent 胜出它都能收钱，所以"市场会很大"对它来说既是判断，也是立场。"比 Cloud 大"的真正含义更可能是**预算池换了**：Cloud 吃的是企业的 IT 预算，Agent 想吃的是一部分人力预算（见 §08）。
 
 **核心启发**：Agent 的 TAM 不只是 software，而可能延伸到 human economic activity 的 execution layer。
 
@@ -118,7 +118,7 @@ Agent 可能进一步决定：**用户的需求最终分配给谁。**
 
 MBI 原本持有 Airbnb，同时本人也是 Airbnb 重度用户。Muse 发布大约 10 天后，他在使用中看中了 Airbnb 上的一间小屋，顺口问 Muse 能不能直订。据报道，Muse 一分钟内回答：可以，绕开 Airbnb 直接订能省约 60%；信用卡已经绑定，他只需点一下确认。这次体验改变了他对 Agent 冲击 OTA 的判断，他清掉了 Airbnb 仓位、增加了 Meta 仓位。
 
-**小缪补充**：这个 60% 不能直接读成"Agent 砍掉了 Airbnb 的抽成"。Airbnb 的服务费远没有 60% 那么高，这次省下的钱里一定还有别的因素（房东直订的定价策略、日期、清洁费结构等）。它真正说明的是：**Agent 把"去找直订渠道"这件事的成本降到了几乎为零**。房东绕开平台直订一直都有，只是过去需要消费者自己去找。
+**小德补充**：这个 60% 不能直接读成"Agent 砍掉了 Airbnb 的抽成"。Airbnb 的服务费远没有 60% 那么高，这次省下的钱里一定还有别的因素（房东直订的定价策略、日期、清洁费结构等）。它真正说明的是：**Agent 把"去找直订渠道"这件事的成本降到了几乎为零**。房东绕开平台直订一直都有，只是过去需要消费者自己去找。
 
 节目没有停留在 Airbnb，而是一路讨论 Booking、Uber、DoorDash、Amazon，以及一个非常值得留下的概念：
 
@@ -146,7 +146,7 @@ Ads + SEO + Recommendation + CRM + Retargeting + Dynamic Pricing + Sales
 
 消费者这一侧的工具则弱得多。
 
-**小缪修订**：说"消费者只有自己"不太准确。买方工具其实一直存在：比价网站、Google Flights 的价格追踪、优惠券插件、消费者测评。但它们有两个问题：
+**小德修订**：说"消费者只有自己"不太准确。买方工具其实一直存在：比价网站、Google Flights 的价格追踪、优惠券插件、消费者测评。但它们有两个问题：
 
 1. **碎片化**：每个工具只管一个环节、一个品类，没有一个工具同时知道你的预算、日历、会员和长期目标。
 2. **大多靠卖方养活**：比价网站和优惠券插件的主要收入往往是商家佣金。PayPal 旗下的 Honey 在 2024 年就因为被指替换创作者的联盟链接、在与商家的合作中不一定展示最优折扣而引发争议——名义上替买方省钱，收入却来自卖方。
@@ -253,7 +253,7 @@ Airbnb、Booking、DoorDash、Uber、Amazon 并不是同一种企业，它们拥
 
 **Agent 不一定消灭平台。Agent 会把平台拆开，重新判断每一层到底值多少钱。**
 
-**小缪补充：两个老贾没展开的问题**
+**小德补充：两个老贾没展开的问题**
 
 **① 绕过平台时，风险由谁承担？** Airbnb 收的服务费里，有一部分买的是"兜底"：保障计划、评价体系、支付托管、纠纷处理。直订省掉的恰恰是这一层。如果房子和描述不符，责任落在用户、Agent 平台还是房东身上？Agent 想真正替代 Aggregator，就得自己承担一部分风险。这会让 Agent 平台越来越像保险公司和支付公司，而不只是一个聪明的助手。
 
@@ -286,7 +286,7 @@ Agent 理解目标 → 发现需求/机会 → 搜索 → 比较 → 建议或�
 
 这里改变的不只是购买界面，而是**需求产生之后由谁启动商业流程**。
 
-**小缪补充**：主动式商业不是从零开始的。Amazon 的定期购（Subscribe & Save）、Google Flights 的降价提醒、信用卡的价格保护都是它的雏形。但过去的版本都是**单一品类、规则预设好**的；Agent 的不同在于跨品类、不需要用户提前写规则，并且能直接执行。
+**小德补充**：主动式商业不是从零开始的。Amazon 的定期购（Subscribe & Save）、Google Flights 的降价提醒、信用卡的价格保护都是它的雏形。但过去的版本都是**单一品类、规则预设好**的；Agent 的不同在于跨品类、不需要用户提前写规则，并且能直接执行。
 
 同时要警惕一个激励问题：如果 Agent 按交易抽成赚钱，那么"主动发起交易"对它来说就是**多一笔收入**。"帮你省钱"和"帮你多花钱"可能出自同一个功能。这正是 §08 要说的：主动式商业对用户是不是好事，取决于 Agent 的报酬结构。
 
@@ -312,7 +312,7 @@ User trusts Agent
 
 Noah Shinn 明确拒绝广告模式，正是这个问题的早期体现。
 
-**小缪修订**：拒绝广告的不只是 Noah。全球最大的广告公司之一 Meta 也公开说 **Muse 不放广告**：基础版免费，重度用户有每月 20 / 100 美元的订阅档，长期收入来自从 Muse 代用户完成的交易里**向商家收取小额费用**。Zuckerberg 的理由是：广告不管用户之后做了什么都会收钱，而交易费只有在 Muse 真的帮用户买到想要的东西时才收得到，所以和用户利益更一致。
+**小德修订**：拒绝广告的不只是 Noah。全球最大的广告公司之一 Meta 也公开说 **Muse 不放广告**：基础版免费，重度用户有每月 20 / 100 美元的订阅档，长期收入来自从 Muse 代用户完成的交易里**向商家收取小额费用**。Zuckerberg 的理由是：广告不管用户之后做了什么都会收钱，而交易费只有在 Muse 真的帮用户买到想要的东西时才收得到，所以和用户利益更一致。
 
 这件事比"一家创业公司拒绝广告"重要得多：**两个最受关注的消费级 Personal Agent，从完全不同的起点收敛到了同一个模式——用户免费，商家按交易付费，不放广告。**
 
@@ -330,7 +330,7 @@ Personal Agent 最重要的资产因此可能不是 `MAU / Time Spent / Engageme
 
 ---
 
-## 08. 钱往哪里流：Agent 靠什么赚钱（小缪补充）
+## 08. 钱往哪里流：Agent 靠什么赚钱（小德补充）
 
 老贾的框架讲清楚了价值链怎样被拆开，但还有一个问题没有正面回答：**钱从哪里来，流到哪里去？**
 
@@ -409,7 +409,7 @@ Intent → Agent → Action → Transaction
 
 而 Identity、Payments、Reputation、Permissions、Security 和 Governance 将成为这一经济体系的基础设施。
 
-**小缪补充**：这层基础设施并不是空想，2025 年就已经开始有人铺：Google 提出了 Agent 之间通信的 A2A 协议和面向 Agent 支付的 AP2 协议；OpenAI 和 Stripe 推出了 Agentic Commerce Protocol，并在 ChatGPT 里上线 Instant Checkout（用户免费，商家为成交订单付费，又是交易抽成模式）；Visa 和 Mastercard 也分别推出了面向 Agent 的支付方案。Instinct 的 Trusted Network 则是消费端的一个早期样本，目前主要用于协调日程。
+**小德补充**：这层基础设施并不是空想，2025 年就已经开始有人铺：Google 提出了 Agent 之间通信的 A2A 协议和面向 Agent 支付的 AP2 协议；OpenAI 和 Stripe 推出了 Agentic Commerce Protocol，并在 ChatGPT 里上线 Instant Checkout（用户免费，商家为成交订单付费，又是交易抽成模式）；Visa 和 Mastercard 也分别推出了面向 Agent 的支付方案。Instinct 的 Trusted Network 则是消费端的一个早期样本，目前主要用于协调日程。
 
 ---
 
@@ -424,7 +424,7 @@ Intent → Agent → Action → Transaction
 | **第三层：Commerce Shift** | Reactive Commerce → Proactive Commerce | Agent 开始主动代表用户寻找和执行机会 |
 | **第四层：Relationship Shift** | Merchant owns customer → Agent may own relationship | Merchant 得到交易，但 Personal Agent 有机会掌握长期用户关系 |
 | **第五层：Economic Shift** | Attention Economy → Intent Economy | 稀缺资源从"谁获得人的注意力"，逐渐增加"谁获得人的委托，以及谁被 Agent 选择" |
-| **补充：Monetization Shift**（小缪） | 卖注意力 / 卖席位 / 收中介费 → 交易抽成 / 按结果收费 / 算力 | 钱跟着"谁完成了行动"走；报酬结构决定 Agent 代表谁 |
+| **补充：Monetization Shift**（小德） | 卖注意力 / 卖席位 / 收中介费 → 交易抽成 / 按结果收费 / 算力 | 钱跟着"谁完成了行动"走；报酬结构决定 Agent 代表谁 |
 
 这个框架第一次把过去零散讨论过的几个概念串成了一条逻辑链：Connector（[从 SEO 到 Agent Economy](from-seo-to-agent-economy.md)）、Choose Me（同上）、Trust（[从"最聪明"到"最可信"](capability-to-trust.md)）、Intent Economy（[Personal Agents](personal-agents-agent-economy.md)），以及这次新加入的 Proactive Commerce。补充的第六层回答的是前五层留下的问题：价值链被拆开以后，钱到底流向谁。
 
@@ -472,11 +472,11 @@ Agent Economy 的基本假设可能变成：**Human delegates. Agent acts.**
 > **Delegated Trust 是关系层。**
 > **Agent as Economic Proxy，才是最深的一层。**
 
-**小缪补充**：如果 Agent 是经济代理人，那么最后要追问的就是代理人问题的老答案：**谁付它钱，它就倾向于代表谁。** Agent as Economic Proxy 是最深的一层；而决定这一层是否成立的，是它的报酬结构。
+**小德补充**：如果 Agent 是经济代理人，那么最后要追问的就是代理人问题的老答案：**谁付它钱，它就倾向于代表谁。** Agent as Economic Proxy 是最深的一层；而决定这一层是否成立的，是它的报酬结构。
 
 ---
 
-## What We Know / What Is Emerging / What We Infer（小缪补充）
+## What We Know / What Is Emerging / What We Infer（小德补充）
 
 沿用 [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md#what-we-know--what-is-emerging--what-we-infer) 的三分法，把这篇里的判断按证据强度分开：
 

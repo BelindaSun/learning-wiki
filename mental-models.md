@@ -5,7 +5,7 @@
 ---
 
 **Human browses → Human delegates**（Oct 2）
-以为 Agent 对商业的冲击主要在入口——企业从 "Rank me" 多修一层 "Choose me"，是 SEO 和 App 的一次升级；五场播客之后觉得入口只是第一层：当 Agent 成为人的经济代理人（Agent as Economic Proxy），被重新定价的是整条价值链——界面、分发、交易方式、用户关系和稀缺资源五层一起迁移。Agent 不一定消灭平台，但会把平台拆开，逐层重新判断值多少钱。小缪补了最后一块：钱往哪里流——Muse 和 Instinct 都选了"用户免费、商家付交易费、不放广告"，但抽成同样有利益冲突；**代理人怎么拿报酬，决定它代表谁**。
+以为 Agent 对商业的冲击主要在入口——企业从 "Rank me" 多修一层 "Choose me"，是 SEO 和 App 的一次升级；五场播客之后觉得入口只是第一层：当 Agent 成为人的经济代理人（Agent as Economic Proxy），被重新定价的是整条价值链——界面、分发、交易方式、用户关系和稀缺资源五层一起迁移。Agent 不一定消灭平台，但会把平台拆开，逐层重新判断值多少钱。小德补了最后一块：钱往哪里流——Muse 和 Instinct 都选了"用户免费、商家付交易费、不放广告"，但抽成同样有利益冲突；**代理人怎么拿报酬，决定它代表谁**。
 → 详见 [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md)
 
 **Memory → Living State**（Oct 1）
