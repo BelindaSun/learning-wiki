@@ -4,6 +4,22 @@
 
 ## October 2026
 
+### [v7.8] - October 2, 2026
+
+#### ➕ 新增：From Attention Economy to Agent Economy
+
+**[From Attention Economy to Agent Economy：五场对话看到的商业模式重构](docs/career-impact/from-attention-to-agent-economy.md)**（Industry & Impact 新文章）：老贾 2026-10-02 撰写，Belinda 收录。基于 9 月下旬五场 Personal Agent 对话——Patrick O'Shaughnessy × Noah Shinn（Instinct）、a16z Anish Acharya × David Pawlan、Satya Nadella（Agent 市场比 Cloud 大几个数量级）、Greg Isenberg（Muse Connectors 是不是新的 App Store 时刻）、《The Synopsis》× MBI（体验 Muse 后清仓 Airbnb）。核心判断："Human browses" → "Human delegates. Agent acts."；Sell-side → Buy-side Optimization；Intent Router；"Agent reprices the software and commerce stack"；Aggregator 的追问（除了 discovery 和 comparison 还创造了什么不可替代的价值）；Proactive Commerce；广告与 Delegated Trust 的结构性冲突；Know Your Customer → Know My Human；Agent ↔ Agent。最后用五层迁移框架（Interface → Distribution → Commerce → Relationship → Economic）第一次把过去零散讨论的 Connector、Choose Me、Trust、Proactive Commerce 串成一条逻辑链。文末附 **小缪的视角** 三个待验证问题：绕过 Aggregator 时风险由谁承担、交易抽成同样有利益冲突、"看不见的 Agent"怎么收费，以及证据等级提醒（热度窗口、单人 10 天体验）。
+
+**[从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)** 正文不改，结尾新增 "Further Learning / 2026-10-02" 入口指向新文章——原文记录最初看到的变化，新文章记录五场播客之后认知怎样升级，不用今天的认识覆盖昨天。英文版顺手删掉了一段重复的 Related 列表。
+
+**[Personal Agents](docs/career-impact/personal-agents-agent-economy.md)** "相关"新增指向新文章的链接（双向）。
+
+**[全部概念索引](index-all-concepts.md)** 新增 5 个（239 → 244）：Agent as Economic Proxy、Buy-side Optimization、Delegated Trust、Intent Router、Proactive Commerce。英文版顺手修复 Backprop / Bandwidth vs. Capacity 两条被粘在一行的问题。
+
+**[心智模型](mental-models.md)** 新增一条：Human browses → Human delegates。
+
+**[Industry & Impact 地图](docs/career-impact/index.md)** 新增第 11 问："当 Agent 开始替人花钱，商业价值链怎样重新分配？"
+
 ### [v7.7] - October 1, 2026
 
 #### ➕ AI Learning #038 四则短洞察：Persistent Agency（2026-10-01）

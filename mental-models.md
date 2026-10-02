@@ -4,6 +4,10 @@
 
 ---
 
+**Human browses → Human delegates**（Oct 2）
+以为 Agent 对商业的冲击主要在入口——企业从 "Rank me" 多修一层 "Choose me"，是 SEO 和 App 的一次升级；五场播客之后觉得入口只是第一层：当 Agent 成为人的经济代理人（Agent as Economic Proxy），被重新定价的是整条价值链——界面、分发、交易方式、用户关系和稀缺资源五层一起迁移。Agent 不一定消灭平台，但会把平台拆开，逐层重新判断值多少钱。
+→ 详见 [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md)
+
 **Memory → Living State**（Oct 1）
 以为 Personal Agent 的核心是"最懂我的 AI"；Dots 之后觉得，真正重要的是"最知道还有什么在进行中的 AI"。Memory 是 retrieval（"我记得 Belinda 上周说了 X"），Persistent Agency 是 state maintenance（"X 是一条仍然进行中的线；昨天出现了 Y，所以 X 的状态已经变化；现在值得把这件事带回来"）。*Memory remembers the past. Persistent Agency maintains the present. / A true personal agent is not the AI that knows you best. It is the AI that best knows what is still going on.*
 → 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)

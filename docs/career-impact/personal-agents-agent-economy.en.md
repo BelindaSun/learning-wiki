@@ -404,3 +404,4 @@ Agent Economy  = Personal Context → Intent → Action → Transaction
 - [Agent infrastructure as operating system](agent-infrastructure-os.md) — The Agent OS equivalence theorem: whoever defines the standards and interfaces wins
 - [From SEO to Agent Economy](from-seo-to-agent-economy.en.md) — The business-side expansion of the Agent Economy: enterprises need a third door, the Agent Interface; competition moves from "Rank me" to "Choose me"
 - [Mental Models](../../mental-models.md) — Look back over time at how these judgments evolved
+- [From Attention Economy to Agent Economy](from-attention-to-agent-economy.en.md) — the business-model expansion of the Agent Economy: a five-shift framework after five podcasts, Proactive Commerce and Agent as Economic Proxy

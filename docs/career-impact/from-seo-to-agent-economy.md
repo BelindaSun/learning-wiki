@@ -469,7 +469,15 @@ Agent → Connector → External Service
 
 ---
 
-**最后更新**: September 28, 2026
+## Further Learning / 2026-10-02
+
+这篇记录的是 2026-09-20 我们最初看到的变化，保持原样。十二天后听完五场关于 Personal Agent 的播客（Instinct、a16z、Nadella、Greg Isenberg、MBI），老贾把这里零散的 Connector、Choose Me、Trust 串成了一条五层逻辑链（Interface → Distribution → Commerce → Relationship → Economic），并加入了 Proactive Commerce 和 Agent as Economic Proxy：
+
+→ [From Attention Economy to Agent Economy：五场对话看到的商业模式重构](from-attention-to-agent-economy.md)
+
+---
+
+**最后更新**: October 2, 2026
 
 **相关**:
 - [Personal Agents — From Chatbots to an Agent Economy](personal-agents-agent-economy.md) —— Agent Economy 的概念源头：从 Attention Economy 到 Intent Economy 的迁移
@@ -478,3 +486,4 @@ Agent → Connector → External Service
 - [AI 与经济丰饶的分配问题：谁拥有 AI 资本？](ai-economic-distribution.md) —— Agent Economy 的宏观经济背景：增长归谁
 - [Mental Models](../../mental-models.md) —— 按时间回看这些判断怎样发生变化
 - [AI Agents Enter the Enterprise](agents-enter-enterprise.md) —— 同一条演进链的企业端：Meta Enterprise Platform（2026-09-28）把 Muse / Business Agents / Model API 装进企业可部署的产品
+- [From Attention Economy to Agent Economy](from-attention-to-agent-economy.md) —— 这篇的升级版（2026-10-02）：五场播客之后，Connector / Choose Me / Trust 被串成 Interface → Distribution → Commerce → Relationship → Economic 五层迁移

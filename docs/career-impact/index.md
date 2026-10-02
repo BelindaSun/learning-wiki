@@ -88,6 +88,12 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 → [从 SEO 到 Agent Economy](from-seo-to-agent-economy.md)
 
+### 11. 当 Agent 开始替人花钱，商业价值链怎样重新分配？
+
+过去二十年互联网的假设是 "Human browses"，Agent 时代可能变成 "Human delegates. Agent acts." 五场播客指向同一组迁移：界面（App → Agent）、分发（App Store → Connector / Agent Selection）、交易（Reactive → Proactive Commerce）、关系（Merchant owns customer → Agent may own relationship）、经济（Attention → Intent）。平台不一定被消灭，但会被拆开、逐层重新定价。
+
+→ [From Attention Economy to Agent Economy](from-attention-to-agent-economy.md)
+
 > 一个有用但不完整的近似：可以先用 **Model × System × Trust × Human Judgment** 理解 AI 的现实影响。乘号不是可计算公式，而是在提醒我们：任何一层接近零，技术能力都可能无法转化为结果。真实世界还受资本、监管、文化和时间影响，这张地图会随着证据继续升级。
 
 ## 🔬 Go Deeper · 你在判断哪一种变化？
@@ -97,6 +103,7 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 - [从“模型战争”到“系统战争”](model-to-system-war.md) —— 为什么不能只看模型排行榜
 - [从工具到产业](industry-competition-shift.md) —— 护城河怎样沿系统、生态、垂直深度和数据迁移
 - [OpenAI Intelligence Platform](openai-intelligence-platform.md) —— 用 Model × Product × Distribution × Ecosystem 等维度拆解平台野心
+- [From Attention Economy to Agent Economy](from-attention-to-agent-economy.md) —— Aggregator 的追问：除了 discovery 和 comparison，你还创造了什么不可替代的价值？
 
 ### 想判断 Agent 基础设施会长成什么
 
@@ -140,7 +147,7 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 ---
 
-**最后更新**: September 16, 2026
+**最后更新**: October 2, 2026
 
 **相关**:
 - [AI Core · 智能系统地图](../ai-core/index.md) —— 这里讨论的 Model、Agent 与 Safety 从哪里来

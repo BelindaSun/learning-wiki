@@ -8,6 +8,7 @@
 - **Accumulative vs. Decisive Risk** — [The Agent Single-Axis Problem](docs/ai-core/agent-single-axis-problem.md)
 - **Agent** — [Agent Architecture](docs/ai-core/agent-architecture.md)
 - **Agent Interface** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
+- **Agent as Economic Proxy** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 - **Agent Optimization** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Agent Feasibility Criteria** — [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.md)
 - **Agent Intelligence: Model / Memory / Delegation** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
@@ -22,8 +23,9 @@
 
 ## B
 
-- **Bandwidth vs. Capacity**- **Backprop** — [Training](docs/ai-core/training-system-guide.en.md)
- — [The Memory Wall](docs/computing-foundations/memory-wall.md)
+- **Buy-side Optimization** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
+- **Backprop** — [Training](docs/ai-core/training-system-guide.en.md)
+- **Bandwidth vs. Capacity** — [The Memory Wall](docs/computing-foundations/memory-wall.md)
 - **Base Model** — [Training](docs/ai-core/training-system-guide.md)
 - **Batching** — [Software × Hardware Map](docs/computing-foundations/software-hardware-map.md)
 - **Benchmark** — [Evaluation](docs/ai-research/evaluation-system.md)
@@ -68,6 +70,7 @@
 - **Defense in Depth** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Delegation Framework: Reversibility Gap** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Delegation Intelligence** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
+- **Delegated Trust** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 - **Disaggregated Inference** — [Inference Infrastructure and Agent Latency](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Discovery Provenance** — the AI-era "who discovered it first" problem: whether a scientific discovery counts as retrieval, recombination, independent inference, or genuinely novel depends on what the model trained on, what the agent searched, and what private context it was prompted with → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Distribution: Owned vs. Third-party** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
@@ -114,6 +117,7 @@
 - **Inference Cost** — [Models Deep Dive](docs/ai-research/models-deep-dive.en.md)
 - **Intelligence Explosion** — AI-driven acceleration of AI progress: years of progress compressed into months or less; no AI awakening required, just the "AI helps AI R&D" feedback loop spinning up → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Intelligence Platform** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
+- **Intent Router** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 - **Interconnect** — [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Interpretability** — [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
 
@@ -167,6 +171,7 @@
 - **Pretraining** — [Training](docs/ai-core/training-system-guide.md)
 - **Price–Performance Frontier** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Programmatic Tool Calling** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
+- **Proactive Commerce** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 - **Project Knowledge / Prompt Caching** — [Context Window](docs/ai-core/context-window-guide.md)
 - **Prompt** — [Prompt Engineering](docs/ai-core/prompt-engineering-guide.md)
 - **Prospective Memory** — [The Agent Single-Axis Problem](docs/ai-core/agent-single-axis-problem.md)

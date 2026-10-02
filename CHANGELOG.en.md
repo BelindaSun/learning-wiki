@@ -2,6 +2,22 @@
 
 ## October 2026
 
+### [v7.8] - October 2, 2026
+
+#### New: From Attention Economy to Agent Economy
+
+**[From Attention Economy to Agent Economy: How Five Conversations Reframe the Business Model](docs/career-impact/from-attention-to-agent-economy.en.md)** (new Industry & Impact article): written by Lao Jia on 2026-10-02, collected by Belinda. Built on five late-September conversations about Personal Agents — Patrick O'Shaughnessy × Noah Shinn (Instinct), a16z's Anish Acharya × David Pawlan, Satya Nadella (the Agent market could be orders of magnitude bigger than Cloud), Greg Isenberg (are Muse Connectors the next App Store moment?), and *The Synopsis* × MBI (sold Airbnb after trying Muse). Core judgments: "Human browses" → "Human delegates. Agent acts."; sell-side → buy-side optimization; the Intent Router; "Agent reprices the software and commerce stack"; the question every aggregator must answer; Proactive Commerce; the structural conflict between ads and Delegated Trust; Know Your Customer → Know My Human; Agent ↔ Agent. A five-shift framework (Interface → Distribution → Commerce → Relationship → Economic) strings together the Connector, Choose Me, Trust, and Proactive Commerce for the first time. Ends with **Xiao Miao's view**: three open questions (who bears the risk when aggregators are bypassed, take rates carry conflicts of interest too, how an "invisible Agent" gets paid) plus a note on strength of evidence.
+
+**[From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)** body unchanged; a "Further Learning / 2026-10-02" entry at the end points to the new article. Also removed a duplicated Related list in the English version.
+
+**[Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)** Related now links to the new article (two-way).
+
+**[All Concepts](index-all-concepts.en.md)** adds 5: Agent as Economic Proxy, Buy-side Optimization, Delegated Trust, Intent Router, Proactive Commerce. Also fixed the Backprop / Bandwidth vs. Capacity entries that had been merged onto one line.
+
+**[Mental Models](mental-models.en.md)** adds: Human browses → Human delegates.
+
+**[Industry & Impact](docs/career-impact/index.en.md)** Go Deeper adds the new article.
+
 ### [v7.7] - October 1, 2026
 
 #### AI Learning #038: four insights — Persistent Agency (October 1, 2026)
