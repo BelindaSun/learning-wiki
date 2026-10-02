@@ -172,6 +172,7 @@
 - **Price–Performance Frontier** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Programmatic Tool Calling** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Proactive Commerce** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
+- **Principal-Agent Problem** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 - **Project Knowledge / Prompt Caching** — [Context Window](docs/ai-core/context-window-guide.md)
 - **Prompt** — [Prompt Engineering](docs/ai-core/prompt-engineering-guide.md)
 - **Prospective Memory** — [The Agent Single-Axis Problem](docs/ai-core/agent-single-axis-problem.md)
@@ -179,6 +180,7 @@
 
 ## Q–R
 
+- **Re-intermediation** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 - **Reward Hacking** — [Evaluation](docs/ai-research/evaluation-system.en.md)
 - **Reward Model** — [Evaluation](docs/ai-research/evaluation-system.en.md)
 - **Quantization** — [Models Deep Dive](docs/ai-research/models-deep-dive.md)

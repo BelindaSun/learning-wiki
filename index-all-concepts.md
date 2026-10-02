@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 244 个概念。
+> 共收录 246 个概念。
 
 ## A
 
@@ -226,6 +226,7 @@
 - **Prompt Injection（提示注入）** — 用恶意输入劫持模型的指令，让模型去做攻击者想让它做的事 → [Multi-Agent Scaling](docs/ai-core/multi-agent-scaling.md)
 - **Programmatic Tool Calling（PTC，把确定性工作移出 context）** — PTC，把确定性工作移出 context → [Programmatic Tool Calling](docs/ai-core/agent-intelligence-layers.md#programmatic-tool-calling把确定性工作移出-context)
 - **Proactive Commerce（主动式商业）** — 从"我有需求 → 打开 App → 搜索购买"变成"Agent 理解目标 → 发现需求或机会 → 建议或执行"；改变的是需求产生后由谁启动商业流程 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#06-proactive-commerce)
+- **Principal-Agent Problem（委托代理问题）** — 代理人怎么拿报酬，决定它代表谁：按成交抽佣的房产中介 vs 只收咨询费的理财顾问；Personal Agent 的 "Who represents the human?" 最终要落到 "Who pays the agent?" → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#08-钱往哪里流agent-靠什么赚钱小缪补充)
 - **Price-Performance Frontier（性价比前沿曲线）** — 性价比前沿曲线 → [性价比前沿正在取代单点分数](docs/ai-core/agent-intelligence-layers.md#行业趋势性价比前沿正在取代单点分数)
 - **Prospective Memory（前瞻记忆）** — 前瞻记忆 → [Memory 的关键轴是"时间朝向"](docs/ai-core/agent-single-axis-problem.md#场景三memory-的关键轴是时间朝向不是持久度)
 - **Prompt Caching** — 提示缓存：复用重复 prompt 的计算 → [Prompt Caching 原理](docs/ai-core/context-window-guide.md#prompt-caching-原理)
@@ -234,6 +235,7 @@
 
 ## Q
 
+- **Re-intermediation（再中介化）** — Agent 绕开旧中间商（Airbnb、Booking）的同时，掌握足够多用户 Intent 的 Agent 平台本身可能成为更强的新 Aggregator；消费者能拿回多少取决于 Agent 之间的竞争和切换成本 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#05-aggregator-为什么值得特别关注)
 
 ## R
 

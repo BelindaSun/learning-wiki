@@ -90,7 +90,7 @@ AI 从回答问题进入替人行动。但 Maximum Autonomy 不是目标——�
 
 ### 11. 当 Agent 开始替人花钱，商业价值链怎样重新分配？
 
-过去二十年互联网的假设是 "Human browses"，Agent 时代可能变成 "Human delegates. Agent acts." 五场播客指向同一组迁移：界面（App → Agent）、分发（App Store → Connector / Agent Selection）、交易（Reactive → Proactive Commerce）、关系（Merchant owns customer → Agent may own relationship）、经济（Attention → Intent）。平台不一定被消灭，但会被拆开、逐层重新定价。
+过去二十年互联网的假设是 "Human browses"，Agent 时代可能变成 "Human delegates. Agent acts." 五场播客指向同一组迁移：界面（App → Agent）、分发（App Store → Connector / Agent Selection）、交易（Reactive → Proactive Commerce）、关系（Merchant owns customer → Agent may own relationship）、经济（Attention → Intent）。平台不一定被消灭，但会被拆开、逐层重新定价。钱也在换流向：从卖注意力、卖席位、收中介费，转向交易抽成、按结果收费和算力——而 Agent 怎么拿报酬，决定它代表谁。
 
 → [From Attention Economy to Agent Economy](from-attention-to-agent-economy.md)
 

@@ -5,7 +5,7 @@
 ---
 
 **Human browses → Human delegates** (Oct 2)
-I assumed the Agent's impact on business was mainly at the front door — companies adding a "Choose me" layer on top of "Rank me," an upgrade to SEO and apps. After five podcasts I think the front door is only the first layer: once the Agent becomes a person's economic proxy (Agent as Economic Proxy), the whole value chain gets repriced — interface, distribution, how transactions start, the customer relationship, and what counts as scarce all shift together. Agents may not destroy platforms, but they will take them apart and re-judge what each layer is worth.
+I assumed the Agent's impact on business was mainly at the front door — companies adding a "Choose me" layer on top of "Rank me," an upgrade to SEO and apps. After five podcasts I think the front door is only the first layer: once the Agent becomes a person's economic proxy (Agent as Economic Proxy), the whole value chain gets repriced — interface, distribution, how transactions start, the customer relationship, and what counts as scarce all shift together. Agents may not destroy platforms, but they will take them apart and re-judge what each layer is worth. Xiao Miao added the last piece — where the money goes: Muse and Instinct both chose "free for users, merchants pay transaction fees, no ads," but take rates carry conflicts of interest too; **how a proxy gets paid decides whom it represents**.
 → Read [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
 
 **Memory → Living State** (Oct 1)
