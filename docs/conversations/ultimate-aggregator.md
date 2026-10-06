@@ -10,9 +10,11 @@
 
 ## 一、The Stratechery Podcast · Apps, Agents, and Aggregation
 
-**老贾**：
+**Belinda**：
 
 你听过这期短播客吗？The Stratechery Podcast · Apps, Agents, and Aggregation
+
+**老贾**：
 
 听过，而且我刚刚把 Ben Thompson 这篇 2026 年 9 月 28 日的《Apps, Agents, and Aggregation》原文和播客 transcript 又核了一遍。只有 18 分钟左右，但我觉得非常值得你听。
 
