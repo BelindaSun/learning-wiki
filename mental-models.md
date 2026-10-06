@@ -4,6 +4,10 @@
 
 ---
 
+**模型能力 → 默认入口**（Oct 6）
+以为 Agent 的竞争主要是谁的模型更聪明、产品能力更强；现在觉得模型只是底层能力之一，真正的平台竞争是——谁能成为人与数字世界之间的默认入口。Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action，乘法，任何一项接近零都难成平台级 Agent。未来可能不是一家通吃，而是几个 Agent Empire：先守住根据地，再向外扩张。
+→ 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
+
 **Human browses → Human delegates**（Oct 2）
 以为 Agent 对商业的冲击主要在入口——企业从 "Rank me" 多修一层 "Choose me"，是 SEO 和 App 的一次升级；五场播客之后觉得入口只是第一层：当 Agent 成为人的经济代理人（Agent as Economic Proxy），被重新定价的是整条价值链——界面、分发、交易方式、用户关系和稀缺资源五层一起迁移。Agent 不一定消灭平台，但会把平台拆开，逐层重新判断值多少钱。小德补了最后一块：钱往哪里流——Muse 和 Instinct 都选了"用户免费、商家付交易费、不放广告"，但抽成同样有利益冲突；**代理人怎么拿报酬，决定它代表谁**。
 → 详见 [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md)
@@ -202,4 +206,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: October 1, 2026
+**最后更新**: October 6, 2026

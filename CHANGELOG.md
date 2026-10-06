@@ -4,6 +4,24 @@
 
 ## October 2026
 
+### [v7.9] - October 6, 2026
+
+#### ➕ AI Learning #040：Agent 时代的入口之争
+
+**[Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md)** 新增"十七、Agent 时代的入口之争：谁会成为 Ultimate Aggregator？"（2026-10-06，Belinda × 老贾完整讨论，[📖 完整学习对话记录](docs/conversations/ultimate-aggregator.md)）：
+
+1. **Ben Thompson《Apps, Agents, and Aggregation》（2026-09-28）**：*Agents are the ultimate Aggregators.* 过去互联网解决 Discovery，Agent 时代连"做事情"本身也开始 abundant；价值链 Human → App → Service 变成 Human → Agent → App / Website / API / Service，App 从 destination 变成 implementation layer。新的稀缺资源是 volition / intention——谁最接近"意图形成"的瞬间，谁就可能成为下一代超级 Aggregator。
+2. **心智模型 Agent Entry Model**：Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action（任何一项接近零都难成平台级 Agent）；五个观察问题：它知道我想做什么吗？它了解我吗？我信任它吗？它真的能替我行动吗？我为什么要一直用它？
+3. **Agent Landscape Watchlist（10 家 + 雷达 3 家）**：Meta-Relationships、Microsoft-Workflows、OpenAI-Intentions、Google-Information/Intent、Apple-Personal Context、Instinct-Delegation、Anthropic-Knowledge Work、Salesforce-Customer、ServiceNow-Enterprise Process、Glean-Enterprise Knowledge；雷达：Amazon（AWS + Commerce）、Manus Cue、Sierra。未来可能不是一家通吃，而是几个 **Agent Empire**——先守住根据地，再向外扩张。
+4. **微软专题**：AI 卖得好 ≠ AI 产品伟大；第一代 Copilot 是 AI inside apps，正在转向 Apps inside AI（chat → Cowork → Autopilots）；真正的 moat 是 Context + Permission + Action（Microsoft Graph + 企业数据 + Azure + GitHub）；Nadella 能否第二次主动摧毁成功的 Microsoft（Apps → Agents）是最大看点。
+5. **Instinct 进入 group chat**：从 delegation 出发的演进路线（Me ↔ Instinct → My Instinct ↔ Your Instinct → Humans + Instinct in a group → Agent-mediated social coordination）；什么都不用保护是 startup 的优势，Trust Gap 是最大的坎。
+6. **三层框架**：Personal Agent → Work Agent → Business Agent，三层之间 Agent-to-Agent communication；下一层平台战争可能是 Agent 之间的协议、身份、信任和交易层。
+7. **小缪的视角**：intention 的真正护城河可能不是 intention statement 而是 delegation history（习惯一旦形成，迁移成本是重建信任）；乘法公式意味着看短板不看长板，半年后复盘只看"谁跨出了根据地"；三层市场与 v7.8 五层框架是同一件事的两个切面；Agent-to-Agent 协议层战争的模板可能更像 Visa 而非 TCP/IP。
+
+**[全部概念索引](index-all-concepts.md)** 新增 5 个（246 → 251）：Ultimate Aggregator、Agent Entry Model、Agent Empires、Delegation History、Agent Landscape Watchlist。
+
+**[心智模型](mental-models.md)** 新增一条：模型能力 → 默认入口。
+
 ### [v7.8] - October 2, 2026
 
 #### ➕ 新增：From Attention Economy to Agent Economy

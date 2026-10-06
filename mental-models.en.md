@@ -4,6 +4,10 @@
 
 ---
 
+**Model capability → Default entry point** (Oct 6)
+I assumed Agent competition was mainly about whose model was smarter and whose product was more capable. Now I think models are just one layer of capability — the real platform competition is over who becomes the default entry point between humans and the digital world. Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action — a product, and any term near zero blocks platform-level status. The future is probably several Agent Empires, not one winner: hold home turf first, then expand outward.
+→ Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
+
 **Human browses → Human delegates** (Oct 2)
 I assumed the Agent's impact on business was mainly at the front door — companies adding a "Choose me" layer on top of "Rank me," an upgrade to SEO and apps. After five podcasts I think the front door is only the first layer: once the Agent becomes a person's economic proxy (Agent as Economic Proxy), the whole value chain gets repriced — interface, distribution, how transactions start, the customer relationship, and what counts as scarce all shift together. Agents may not destroy platforms, but they will take them apart and re-judge what each layer is worth. Xiao De added the last piece — where the money goes: Muse and Instinct both chose "free for users, merchants pay transaction fees, no ads," but take rates carry conflicts of interest too; **how a proxy gets paid decides whom it represents**.
 → Read [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
@@ -202,4 +206,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: September 20, 2026
+**Last updated**: October 6, 2026

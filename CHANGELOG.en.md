@@ -2,6 +2,24 @@
 
 ## October 2026
 
+### [v7.9] - October 6, 2026
+
+#### New: AI Learning #040 — The Battle for the Agent-Era Entry Point
+
+**[Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.en.md)** adds "17. The Battle for the Agent-Era Entry Point: Who Becomes the Ultimate Aggregator?" (2026-10-06, Belinda × Lao Jia full discussion; [full conversation record in Chinese](docs/conversations/ultimate-aggregator.md)):
+
+1. **Ben Thompson's *Apps, Agents, and Aggregation* (2026-09-28)**: *Agents are the ultimate Aggregators.* The old internet solved Discovery; in the Agent era even "getting things done" is becoming abundant. The value chain shifts from Human → App → Service to Human → Agent → App / Website / API / Service — Apps go from destination to implementation layer. The new scarce resource is volition / intention: whoever sits closest to the moment intention forms may become the next super-aggregator.
+2. **Mental model — the Agent Entry Model**: Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action (any term near zero blocks platform-level status); five questions to watch: Does it know what I want? Does it know me? Do I trust it? Can it act for me? Why would I keep using it?
+3. **The Agent Landscape Watchlist (10 + 3 on radar)**: Meta-Relationships, Microsoft-Workflows, OpenAI-Intentions, Google-Information/Intent, Apple-Personal Context, Instinct-Delegation, Anthropic-Knowledge Work, Salesforce-Customer, ServiceNow-Enterprise Process, Glean-Enterprise Knowledge; radar: Amazon (AWS + Commerce), Manus Cue, Sierra. The future is probably several **Agent Empires**, not one winner — hold home turf first, then expand outward.
+4. **Microsoft deep-dive**: selling AI well ≠ building great AI products; first-generation Copilot was AI inside apps, now turning toward Apps inside AI (chat → Cowork → Autopilots); the real moat is Context + Permission + Action (Microsoft Graph + enterprise data + Azure + GitHub); the question to watch is whether Nadella will deliberately disrupt a successful Microsoft a second time (Apps → Agents).
+5. **Instinct enters group chats**: the delegation-first evolution path (Me ↔ Instinct → My Instinct ↔ Your Instinct → Humans + Instinct in a group → Agent-mediated social coordination); having nothing to protect is the startup's edge, the Trust Gap its biggest hurdle.
+6. **A three-layer frame**: Personal Agent → Work Agent → Business Agent, with Agent-to-Agent communication between layers; the next platform war may be over the identity, protocol, trust, and transaction layer between Agents.
+7. **Xiao Miu's perspective**: Intention's real moat may be delegation history rather than intention statements (once the habit forms, the switching cost is rebuilding trust); a multiplicative formula means watching the shortest stave, not the longest — six months from now, score only boundary crossings; the three layers and v7.8's five-layer framework are two cuts of the same migration; the Agent-to-Agent protocol war may look more like Visa than TCP/IP.
+
+**[All Concepts](index-all-concepts.en.md)** adds 5 (246 → 251): Ultimate Aggregator, Agent Entry Model, Agent Empires, Delegation History, Agent Landscape Watchlist.
+
+**[Mental Models](mental-models.en.md)** adds one entry: Model capability → Default entry point.
+
 ### [v7.8] - October 2, 2026
 
 #### New: From Attention Economy to Agent Economy

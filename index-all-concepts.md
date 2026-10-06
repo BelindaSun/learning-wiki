@@ -6,11 +6,13 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 246 个概念。
+> 共收录 251 个概念。
 
 ## A
 
 - **Agent Economy（Agent 经济）** — 当 AI 从理解 Attention 走向掌握 Intent 并能采取 Action，它可能从信息工具进入真实经济活动——购物、旅行、交易等 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
+- **Agent Empires（Agent 帝国）** — 未来可能不是一家通吃，而是几家公司各据天然根据地、再向外扩张形成的重叠竞争格局 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
+- **Agent Entry Model（Agent 入口模型）** — Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action；任何一项接近零都难成平台级 Agent → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
 - **Agent as Economic Proxy（Agent 作为经济代理人）** — Agent 不只是信息助手，而是代表人搜索、比较、谈判、支付的经济代理人；五层迁移（Interface → Distribution → Commerce → Relationship → Economic）里最深的一层 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#最后一个判断)
 - **Agent** — 能围绕目标自主决策、调用工具、循环行动的 AI 系统 → [Agent 系统架构](docs/ai-core/agent-architecture.md)
 - **Agent Interface（Agent 接口）** — 企业面向 Agent 的数字入口：不需要 UI，需要结构化、可靠、可执行的能力（商品、价格、库存、政策、支付）；过去企业只修 Website / App 两扇门，Agent 时代需要第三扇 → [从 SEO 到 Agent Economy](docs/career-impact/from-seo-to-agent-economy.md)
@@ -20,6 +22,7 @@
 - **Alignment（对齐）** — 对齐 → [Safety 和 Alignment：两个不同层次的问题](docs/ai-core/safety-alignment-guide.md#safety-和-alignment两个不同层次的问题)
 - **Agent Lifecycle** — Agent 从启动到结束的完整生命周期阶段 → [Agent 生命周期详解](docs/ai-core/agent-architecture.md#agent-生命周期)
 - **Agent Legibility** — 系统架构是否清晰到让 Agent 能"看懂"该做什么、边界在哪——不是代码写得好不好看，是 Agent 能不能理解 → [Agent 时代的系统架构转变](docs/ai-core/agent-era-work.md)
+- **Agent Landscape Watchlist（Agent 版图观察名单）** — 10 家核心 + 3 家雷达，按战略位置（而非"有没有 Agent"）入选的值得持续观察的入口竞争者 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
 - **Agent Feasibility Criteria（Agent 可行性六条标准）** — Agent 可行性六条标准 → [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
 - **Agent Enterprise Stack（企业 Agent 九层基础设施）** — 企业要让 Agent 真正投入生产环境，需要的九层基础设施：Model、Context、Tools、Identity、Permissions、Workflow、Evaluation → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-enterprise-stack真正需要的基础设施)
 - **Agent Identity（Agent 身份治理）** — Agent 身份治理 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-需要-identity从-software-object-到-organizational-actor)
@@ -98,6 +101,7 @@
 - **Delegation Framework 可逆性缺口** — 授权框架真正的缺口：操作是否可逆 → [Delegation Framework 的真正缺口：可逆性](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
 - **Delegation Intelligence（委托智能）** — 委托智能 → [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Delegated Trust（委托信任）** — Personal Agent 最重要的资产可能不是 MAU / Time Spent，而是用户愿意委托它读邮件、用信用卡、代表自己行动的程度；也是它和广告模式的结构性冲突所在 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#07-广告模式与-personal-agent-的结构性冲突)
+- **Delegation History（委托历史）** — intention statement 易迁移，真正难迁移的是"交出去办成了"的历史；每一次成功委托都沉淀为 calibrated trust，而信任附着在"这一个 Agent"上 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
 - **Disaggregated Inference（解构式推理）** — 解构式推理 → [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Distillation（蒸馏）** — 用大模型的输出训练小模型，让小模型便宜地获得接近大模型的能力 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Domain Expertise** — 在 AI 能自己"执行"之后，人还剩下什么价值——知道什么值得做、什么算做好了、什么时候会出问题，这些无法言语化、很难被 AI 学走的判断力 → [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
@@ -308,6 +312,7 @@
 ## U
 
 - **User State（用户状态）** — 长期 Personal Agent 的核心资产：不是关于人的 Memory，而是关于人的 Living State——"现在还有什么在进行中" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)
+- **Ultimate Aggregator（终极聚合器）** — Ben Thompson 的判断：*Agents are the ultimate Aggregators*；Human → Agent → App / Website / API / Service，App 从 destination 变成 Agent 背后的 implementation layer → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
 
 ## V
 

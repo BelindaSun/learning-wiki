@@ -9,10 +9,13 @@
 - **Agent** — [Agent Architecture](docs/ai-core/agent-architecture.md)
 - **Agent Interface** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Agent as Economic Proxy** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
+- **Agent Empires** — the future may be several companies each holding home turf and expanding outward, not one winner → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
+- **Agent Entry Model** — Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action; any term near zero blocks platform-level status → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
 - **Agent Optimization** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Agent Feasibility Criteria** — [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.md)
 - **Agent Intelligence: Model / Memory / Delegation** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Agent Legibility** — [The Agent-Era Architecture Shift](docs/ai-core/agent-era-work.md)
+- **Agent Landscape Watchlist** — 10 core companies + 3 on radar, selected by strategic position rather than "having an Agent" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
 - **Agent Lifecycle** — [Agent Architecture](docs/ai-core/agent-architecture.md)
 - **Agent OS Equivalence** — [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.md)
 - **Alignment** — [AI Safety and Alignment](docs/ai-core/safety-alignment-guide.md)
@@ -71,6 +74,7 @@
 - **Delegation Framework: Reversibility Gap** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Delegation Intelligence** — [Three Layers of Agent Intelligence](docs/ai-core/agent-intelligence-layers.md)
 - **Delegated Trust** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
+- **Delegation History** — intention statements are portable; what can't be ported is the history of successful hand-offs, and trust attaches to *this* Agent → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
 - **Disaggregated Inference** — [Inference Infrastructure and Agent Latency](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Discovery Provenance** — the AI-era "who discovered it first" problem: whether a scientific discovery counts as retrieval, recombination, independent inference, or genuinely novel depends on what the model trained on, what the agent searched, and what private context it was prompted with → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Distribution: Owned vs. Third-party** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
@@ -231,6 +235,7 @@
 ## U
 
 - **User State** — a long-running personal agent's core asset: not Memory about the person but Living State about the person — "what is still going on" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)
+- **Ultimate Aggregator** — Ben Thompson's thesis: *Agents are the ultimate Aggregators*; Human → Agent → App / Website / API / Service, Apps go from destination to implementation layer → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
 
 ## V–Y
 
