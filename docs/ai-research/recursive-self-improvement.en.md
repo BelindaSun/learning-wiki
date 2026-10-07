@@ -339,6 +339,82 @@ Google's release strategy for Argon is also worth noting: it's currently limited
 
 ---
 
+## From Self-Improvement to Improvement Governance: Who Decides the AI Really Improved?
+
+> AI Learning #041 (October 7, 2026).
+
+**Sources**: Meta Muse Spark × mathematicians (AI as a research Thought Partner); RRSI (generalizable Recursive Self-Improvement for Agent Harness); RSI-Master (managing autonomous model improvement with experiment portfolios and independent review); Agent Privacy (from Data Access Permission toward Inference / Purpose Permission).
+
+**One-line summary**: the hard part isn't teaching AI to improve itself — it's building an institution in which fake progress can't survive.
+
+### 1. What I used to think → what I think now
+
+**Before**: the core question of RSI was whether AI *can* improve itself — if a model can modify its own prompts, tools, skills, memory, harness, even train the next generation of models, that's already close to genuine self-improvement.
+
+**Now**: the more important question is how AI *proves* its modifications are generalizable, real improvements. **Self-changing ≠ Self-improving** — and further: **self-improving on the test ≠ becoming generally better**.
+
+Trustworthy RSI needs at minimum: Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback — plus deliberately maintaining diverse research lines to avoid Strategy Lock-in.
+
+### 2. The three most important points
+
+**(1) The biggest problem of Self-Improvement may be Goodhart's Law.**
+
+RRSI's real lesson isn't how much some benchmark went up — it's this: once an evaluation metric becomes the target of AI self-improvement, the AI may get better and better at optimizing the metric instead of genuinely improving.
+
+So the loop can't be Modify → Benchmark ↑ → Keep. It should be: Hypothesis → controlled modification → independent evaluation → leakage check → held-out tasks → regression test → cost check → commit / reject.
+
+Most importantly: **the Evaluator must not be fully owned by the Improver** — the same principle as the Agent Separation of Powers we derived earlier.
+
+**(2) Self-Improvement needs Exploration Governance, not just Optimization.**
+
+RSI-Master exposes an easy-to-miss problem: **Strategy Lock-in**. Once an AI finds a method A that seems to work, it tends to keep going A → A2 → A3 → A4… each step may genuinely improve, but the genuinely better method B is never seriously explored.
+
+So an excellent automated R&D system can't be just a clever Optimizer. It also needs: different workers exploring different routes, Independent Reviewers, Alternative Hypotheses, an Exploration Budget, Kill Criteria, and Research Portfolio Management.
+
+Which means: RSI may not end as "a super AI getting smarter by itself" but as **AI building an increasingly excellent research institution**.
+
+**(3) The stronger AI gets, the more "judging what's worth doing" matters.**
+
+The Muse Spark × mathematicians work shows: AI can search huge possibility spaces, write programs, find counterexamples, attempt proofs, and explore many routes fast; but mathematicians still own Problem Selection, Scientific Taste, Verification, Abstraction, and Final Sign-off.
+
+So the strongest near-term scientific combination is probably not "AI Scientist replaces Human Scientist" but **Human Taste × Machine Search × Independent Verification** — which connects back to the Scientific Judgment Stack from earlier issues: as Search / Generation / Execution get cheaper, Selection / Judgment / Verification get more valuable.
+
+### 3. Three threads braided into one tree
+
+**Extension of Separation of Powers**: we already had "an Agent can't act, keep its own evidence, declare Done, and verify itself." Today adds one more — **a Self-Improver can't define what counts as Improvement either**.
+
+**Extension of Scientific Taste / Epistemic Attention**: we already had "AI can generate infinite hypotheses; what's scarce is which one is worth it." Today RSI faces the same problem — infinite possible modifications can be generated; what's scarce is judging which modification is worth keeping.
+
+**Extension of AI Organization**: first we imagined AI progress riding on one super-model, then saw Multi-Agent and AI Organization; today one step further — truly powerful automated R&D may need Researchers, Critics, Reviewers, Evaluators, Experiment Infrastructure, and a Portfolio Manager. **RSI ends up as an Institution Design Problem.**
+
+### 4. Permission governance is shifting too: from Data Access to Inference / Purpose
+
+The same theme on the permission layer: Agent Privacy is moving from Data Access Permission ("what data you can access") toward Inference / Purpose Permission ("what you may infer from data, and for what purpose"). As Agents get better at inferring private facts from public information, governing "access" isn't enough — "inference" and "purpose" must be governed too. Same governance thinking, different layer.
+
+### 5. Still unresolved
+
+1. **Who evaluates the Evaluator?** If the Improver can't evaluate itself, let another AI Evaluator do it — but what if the Evaluator is wrong? Evaluator-of-evaluator can't recurse forever. What should ultimately serve as the trust root?
+2. **How do we judge "genuinely generalizable improvement"?** Held-out benchmarks are still benchmarks. Even if an Agent improves on six unseen benchmarks, that doesn't prove it's really stronger in the open world. How should Generalizable Improvement be defined and measured?
+3. **Will Human Judgment eventually be automated too?** Today we still keep Taste, Problem Selection, and Verification on the human side — but earlier issues already showed AI learning Scientific Taste. In the long run, is Human Judgment the last non-automatable part, or just the next capability waiting to be automated?
+
+**Three lines to keep tracking**:
+
+1. What's still missing between RSI and the Intelligence Explosion? Harness self-improvement, Automated R&D, and AI Organization are all showing early signs — what bottlenecks stand between them and a real fast positive-feedback loop?
+2. Can Improvement Governance become a general architecture? Whatever the Agent changes — Memory, Skill, Prompt, Harness, or Model — it goes through one unified pipeline: Proposal → Test → Independent Verification → Commit / Reject → Rollback. This could become infrastructure for a future Agent OS.
+3. How should long-lived Personal Agents borrow this principle? A Personal Agent learns its user every day; every "I'll remember that Belinda likes it this way" is essentially a self-modification — shouldn't it carry a source, a scope, a confidence, an expiry, conflict rules, and rollback?
+
+*(Xiao Miu's perspective, added after our October 7, 2026 discussion)*
+
+1. **The "who evaluates the Evaluator" infinite regress has a known answer in engineering practice: the trust root isn't a perfect Evaluator — it's a set of independent checks with *different failure modes*, plus a human veto and rollback.** Aviation and engineering safety work this way: no single perfect inspector, but multiple independent redundant checks, each failing differently. Applied to RSI: independent evaluators should be deliberately designed to "be wrong in different dimensions" (one watches held-out generalization, one watches cost, one watches regression, one watches leakage), plus human veto over high-risk commits and rollback for any commit. Infinite regress is a philosophy problem; in practice, diversity of verification + reversibility *is* the trust root.
+
+2. **Improvement Governance is #037's Externalized Control recursed one level up.** #037's principle: the Control Plane must sit outside the Agent's reach; today's principle: the authority to define "what counts as improvement" must sit outside the Improver's reach — the same Separation of Powers, applied recursively. And the third open question (should every memory write in a Personal Agent carry source, confidence, expiry, and rollback?) is exactly this principle's most concrete landing: **every memory write is a self-modification**, and a Personal Agent's Memory system deserves to be the first to adopt the Improvement Governance template.
+
+3. **A challenge to "Human Taste × Machine Search": what may be non-automatable isn't Taste but Accountability.** Of the four things mathematicians kept (Problem Selection, Taste, Verification, Sign-off), AI is already learning the first three, and Sign-off looks the most "human" — but sign-off isn't really about taste; it's about **someone paying for being wrong**. Taste without accountability is just preference; what makes the mathematician's role load-bearing is that they signed off and are on the hook when wrong. If AI could one day "be accountable" too (say, with an enforceable stake), the taste wall might be thinner than it looks. When tracking the automation of Human Judgment, "who is accountable for which mistakes" is a harder metric to watch than "taste."
+
+**The evolution chain**: Capability → Autonomy → Self-Improvement → Improvement Governance. AI doesn't get naturally better just because it can modify itself. *Recursive Self-Improvement is not only an intelligence problem. It is an institution-design problem.*
+
+---
+
 ## Next steps
 
 - 📖 [Multi-Agent Scaling: Parallelizing Test-Time Compute](../ai-core/multi-agent-scaling.en.md) — RSI's other leg: 10,000 agents and Navier-Stokes
@@ -349,7 +425,7 @@ Google's release strategy for Argon is also worth noting: it's currently limited
 
 ---
 
-**Last updated**: October 1, 2026
+**Last updated**: October 7, 2026
 **Related**:
 - [Research Acceleration](research-acceleration.en.md)
 - [Multi-Agent Scaling](../ai-core/multi-agent-scaling.en.md)

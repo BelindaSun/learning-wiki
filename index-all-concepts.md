@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 251 个概念。
+> 共收录 255 个概念。
 
 ## A
 
@@ -135,6 +135,7 @@
 
 - **Gated Cross-Attention** — 门控交叉注意力：Flamingo 的视觉-语言桥接机制 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **Generational Alignment Decay** — 代际对齐衰减：用 AI 研发下一代 AI 时，对齐度逐代流失的风险 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#对齐之辩从没人告密到代际衰减)
+- **Goodhart's Law（古德哈特定律）** — 一旦评价指标成为 AI 自我改进的目标，AI 会越来越擅长优化指标而非真正提高能力；Evaluator 不能完全掌握在 Improver 手里 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#从-self-improvement-到-improvement-governanceai-会改进自己之后谁来判断它真的进步了)
 - **GPU（Graphics Processing Unit，图形处理器）** — 用海量相对精简的核心并行工作的处理器——原本为图形渲染设计，恰好也是深度学习最需要的那种"重复做同一种简单运算"的活 → [CPU vs GPU](docs/computing-foundations/cpu-vs-gpu.md)
 - **Generative Inference（生成式推理）** — 输入自然语言、逐 Token 生成自然语言的推理方式——ChatGPT、Claude 平时做的就是这个 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 
@@ -151,6 +152,7 @@
 ## I
 
 - **Intelligence Explosion（智能爆炸）** — AI-driven acceleration of AI progress：原本需要数年的进步被压缩到数月甚至更短；不需要 AI 觉醒，只需要"AI 帮助 AI R&D"的正反馈环转起来 → [Research Acceleration](docs/ai-research/research-acceleration.md#短洞察intelligence-explosion从哲学争论变成可测量的工程问题)
+- **Improvement Governance（改进治理）** — 真正困难的不是让 AI 学会改进自己，而是建立一套制度让假的进步活不下来：Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback → [递归自我改进](docs/ai-research/recursive-self-improvement.md#从-self-improvement-到-improvement-governanceai-会改进自己之后谁来判断它真的进步了)
 - **Instrumental Convergence（工具性趋同）** — 工具性趋同 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#instrumental-convergence-在多-agent-环境中的展开)
 - **Intelligence Platform（智能平台）** — 不是做越来越多 AI 产品，而是底层用 Models + Compute 工业化生产 intelligence，上层通过一个面向个人的自适应 Interface 和一个面向开发者的 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Intent Router（意图路由）** — 决定一个用户 Intent 被路由给哪个 Connector、Merchant 或 Service Provider 的位置；谁占据它，谁就在影响商业需求如何分配 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#03-attention-economy--intent-economy)
@@ -268,6 +270,8 @@
 - **Self-supervised Learning（自监督学习）** — 不需要人工标注答案的训练方式——把一段真实文本的一部分盖住，让模型猜，答案就是原文本身 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Semantic Search（语义搜索）** — 不比对字面有没有重复，比对的是 Embedding 之后向量的距离——"怎么减肥"能搜到"如何瘦身"，哪怕两句话没有一个字重叠 → [Embeddings 完全指南](docs/ai-core/embeddings-guide.md#语义搜索-vs-关键词搜索)
 - **Self-evaluation Bias（自我评估偏差）** — 自我评估偏差 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#为什么-executor-不能自我判断)
+- **Self-changing ≠ Self-improving（能改自己 ≠ 在变好）** — AI 能修改自己的 prompt / tools / memory / harness 不等于在进步；在测试上变好不等于普遍变好 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#从-self-improvement-到-improvement-governanceai-会改进自己之后谁来判断它真的进步了)
+- **Strategy Lock-in（策略锁定）** — AI 在方法 A 上不断优化（A → A2 → A3……），却从不认真探索更好的方法 B；需要 Exploration Governance：不同路线、Exploration Budget、Kill Criteria → [递归自我改进](docs/ai-research/recursive-self-improvement.md#从-self-improvement-到-improvement-governanceai-会改进自己之后谁来判断它真的进步了)
 - **SFT（监督微调）** — Supervised Fine-Tuning：用人工标注的问答样本教模型"像助手一样说话"，RLHF 第一步 → [Evaluation 评估系统](docs/ai-research/evaluation-system.md#step-1监督微调sft)
 - **Singularity Vertigo** — 奇点眩晕：面对加速曲线时的认知失衡感 → [递归自我改进](docs/ai-research/recursive-self-improvement.md#奇点眩晕基准情形是多个地球人口)
 - **Skill** — Claude 语境下的"做事说明书"（SOP）：把步骤规则写清楚存起来复用 → [Skill 和商业格局](docs/ai-application/skills-business-landscape.md)

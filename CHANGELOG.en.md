@@ -2,6 +2,23 @@
 
 ## October 2026
 
+### [v7.10] - October 7, 2026
+
+#### New: AI Learning #041 — From Self-Improvement to Improvement Governance
+
+**[Recursive Self-Improvement (RSI): When AI Starts Improving AI](docs/ai-research/recursive-self-improvement.en.md)** adds "From Self-Improvement to Improvement Governance: Who Decides the AI Really Improved?" (2026-10-07):
+
+1. **Before → now**: RSI's core question isn't whether AI *can* improve itself, but how AI *proves* its modifications are generalizable, real improvements. **Self-changing ≠ Self-improving**; self-improving on the test ≠ becoming generally better. Trustworthy RSI needs Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback.
+2. **Goodhart's Law**: RRSI's lesson — once an evaluation metric becomes the target of self-improvement, AI gets better at optimizing the metric than at genuinely improving. The Evaluator must not be fully owned by the Improver (the same Separation of Powers principle).
+3. **Strategy Lock-in**: the RSI-Master problem — AI keeps going A → A2 → A3 on method A and never seriously explores the better method B. Excellent automated R&D also needs Exploration Governance: diverse routes, Independent Reviewers, Exploration Budget, Kill Criteria, Portfolio Management. RSI may end as "AI building an increasingly excellent research institution."
+4. **Human Taste × Machine Search × Independent Verification**: Muse Spark × mathematicians — AI searches/proves/explores; mathematicians keep Problem Selection, Taste, Verification, Sign-off. As Search gets cheaper, Selection / Judgment / Verification get more valuable.
+5. **Three threads, one tree**: Separation of Powers (a Self-Improver can't define Improvement either), Scientific Taste (what's scarce is judging which modification is worth keeping), AI Organization — RSI ends as an Institution Design Problem. Permission governance is shifting too: Data Access Permission → Inference / Purpose Permission.
+6. **Xiao Miu's perspective**: the engineering answer to "who evaluates the Evaluator" — trust root = independent checks with different failure modes + human veto + rollback; Improvement Governance is #037's Externalized Control recursed; a challenge to "Human Taste × Machine Search" — what may be non-automatable isn't Taste but Accountability.
+
+**[All Concepts](index-all-concepts.en.md)** adds 4 (251 → 255): Improvement Governance, Goodhart's Law, Strategy Lock-in, Self-changing ≠ Self-improving.
+
+**[Mental Models](mental-models.en.md)** adds one entry: Self-improvement → Improvement Governance.
+
 ### [v7.9] - October 6, 2026
 
 #### New: AI Learning #040 — The Battle for the Agent-Era Entry Point

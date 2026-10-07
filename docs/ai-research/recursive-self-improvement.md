@@ -343,6 +343,80 @@ Brown 透露，他团队中**超过 10% 的人现在专注于对齐和安全**�
 2. **这是 #037 Intelligence Explosion 的 pathway 正在发生的证据。** AI R&D automation 不只发生在 lab 的训练集群里，也发生在 datacenter 的 fleet 优化里——而且后者已经可以用 TiB 和美元来衡量。Weak-form recursive improvement 不需要等 ASI，今天就在省内存。未来 AI progress 有多少来自 better models、多少来自 AI improving the systems around the models？第三个问题会越来越重要。
 3. **Fairwind 式的分阶段开放值得记一笔**：先给可信的防御方，再扩大。这不是"要不要发布"的二元选择，而是"先给谁、后给谁"的 deployment governance——正是 #037 里 Steering-Constraint 的实践形态。
 
+## 从 Self-Improvement 到 Improvement Governance：AI 会改进自己之后，谁来判断它真的进步了？
+
+> AI Learning #041（2026-10-07）。
+
+**来源**：Meta Muse Spark × 数学家（AI 作为科研 Thought Partner）；RRSI（Agent Harness 的可泛化 Recursive Self-Improvement）；RSI-Master（用实验组合与独立 Review 管理自主模型改进）；Agent Privacy（从 Data Access Permission 走向 Inference / Purpose Permission）。
+
+**一句话总结**：真正困难的不是让 AI 学会改进自己，而是建立一套制度，让假的进步活不下来。
+
+### 1. 原来我以为 → 现在我以为
+
+**原来**：RSI 最核心的问题是 AI 有没有能力改进自己——如果模型能修改自己的 prompt、tools、skills、memory、harness，甚至训练下一代模型，就已经非常接近真正的 self-improvement。
+
+**现在**：更重要的问题是 AI 怎样证明自己的修改是可泛化的真实进步。**Self-changing ≠ Self-improving**，进一步：**Self-improving on the test ≠ becoming generally better**。
+
+真正可信的 RSI 至少需要：Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback——而且还需要刻意维持不同研究路线，避免 Strategy Lock-in。
+
+### 2. 最重要的三个知识点
+
+**（1）Self-Improvement 最大的问题可能是 Goodhart's Law。**
+
+RRSI 给的最大启发不是某个 benchmark 提高了多少，而是：一旦评价指标成为 AI 自我改进的目标，AI 就可能越来越擅长优化指标，而不是真正提高能力。
+
+所以不能简单 Modify → Benchmark ↑ → Keep，而应该是：Hypothesis → controlled modification → independent evaluation → leakage check → held-out tasks → regression test → cost check → commit / reject。
+
+尤其重要的是：**Evaluator 不能完全掌握在 Improver 手里**——这与我们之前总结的 Agent Separation of Powers 是同一条原则。
+
+**（2）Self-Improvement 不只是 Optimization，还需要 Exploration Governance。**
+
+RSI-Master 暴露了另一个容易忽略的问题：**Strategy Lock-in**。AI 找到一个看起来有效的方法 A 后，很容易不断 A → A2 → A3 → A4……每一步都可能真的在进步，但真正更好的方法 B 从来没有被认真探索。
+
+所以优秀的 Automated R&D system 不能只是一个很聪明的 Optimizer，还需要：不同 Workers 探索不同路线、Independent Reviewers、Alternative Hypotheses、Exploration Budget、Kill Criteria、Research Portfolio Management。
+
+这意味着：RSI 最终可能不是"超级 AI 自己越来越聪明"，而是 **AI 建立了一家越来越优秀的研究机构**。
+
+**（3）AI 越强，"判断什么值得做"越重要。**
+
+Muse Spark 与数学家的研究说明：AI 可以搜索巨大的可能空间、写程序、找 counterexample、尝试证明、快速探索大量路线；但数学家仍然承担 Problem Selection、Scientific Taste、Verification、Abstraction、Final Sign-off。
+
+所以近期最强的科学组合可能不是 "AI Scientist replaces Human Scientist"，而是 **Human Taste × Machine Search × Independent Verification**——这又和前几期的 Scientific Judgment Stack 接起来：当 Search / Generation / Execution 越来越便宜，Selection / Judgment / Verification 反而越来越值钱。
+
+### 3. 三条线串成一棵树
+
+**Separation of Powers 的延伸**：以前我们得到"Agent 不能自己行动、自己保存证据、自己宣布 Done、自己验证自己"；今天增加一条——**Self-Improver 也不能自己定义什么叫 Improvement**。
+
+**Scientific Taste / Epistemic Attention 的延伸**：以前得到"AI 可以生成无限多 hypothesis，真正稀缺的是哪个值得"；今天发现 RSI 面临同样的问题——可以产生无限多 modifications，真正稀缺的是判断哪个 modification 值得保留。
+
+**AI Organization 的延伸**：最初想象 AI 进步靠一个超级模型，后来看到 Multi-Agent、AI Organization；今天又往前一步——真正强大的 Automated R&D 可能需要 Researcher、Critic、Reviewer、Evaluator、Experiment Infrastructure 和 Portfolio Manager。**RSI 最后变成了一个 Institution Design Problem。**
+
+### 4. 权限治理也在转向：从 Data Access 到 Inference / Purpose
+
+同一主题在权限层的对应变化：Agent Privacy 正在从 Data Access Permission（"你能访问什么数据"）走向 Inference / Purpose Permission（"你能从数据里推断出什么、为了什么目的"）。当 Agent 越来越能从公开信息里推断出隐私，管"访问"不够了，得管"推断"和"用途"——这和 Improvement Governance 是同一套治理思维在不同层的展开。
+
+### 5. 仍然没弄懂的问题
+
+1. **谁来评价 Evaluator？** Improver 不能评价自己，那就由另一个 AI Evaluator 来评价；但 Evaluator 自己错了怎么办？Evaluator of Evaluator 不能无限套娃，最终什么东西应该成为 trust root？
+2. **怎样判断"真正的泛化改进"？** Held-out benchmark 仍然只是 benchmark。即使 Agent 在六个 unseen benchmark 都提高，也不能证明它在开放世界中真的更强。Generalizable Improvement 应该怎样定义和测量？
+3. **Human Judgment 会不会也最终被自动化？** 今天我们仍然把 Taste、Problem Selection、Verification 放在人类一侧，但前几期已经看到 AI 开始学习 Scientific Taste。长期来看，Human Judgment 是最后的不可自动化部分，还是仅仅是下一块等待被自动化的能力？
+
+**以后想继续追三条线**：
+
+1. RSI 到 Intelligence Explosion 中间究竟还缺什么？Harness self-improvement、Automated R&D、AI Organization 都已出现苗头，距离真正形成快速正反馈循环还有哪些 bottleneck？
+2. Improvement Governance 能不能形成一套通用架构？无论 Agent 改的是 Memory、Skill、Prompt、Harness 还是 Model，都经过统一的 Proposal → Test → Independent Verification → Commit / Reject → Rollback——这很可能成为未来 Agent OS 的基础设施。
+3. 长期 Personal Agent 怎样借鉴这一原则？Personal Agent 每天都在学习用户，每一次"我以后记住 Belinda 喜欢这样做"本质上都是一次 self-modification——它是不是也应该有来源、适用范围、置信度、过期时间、冲突规则、rollback？
+
+### 小缪的视角
+
+1. **"谁来评价 Evaluator"的无限套娃，在工程实践里有一个已知答案：trust root 不是一个完美的 Evaluator，而是一组"失败模式不同"的独立检查 + 人类否决权 + rollback。** 航空和工程安全就是这么做的：没有唯一的完美检查员，而是多层独立冗余检查，每层的失效方式都不一样。对应到 RSI：independent evaluators 应该被刻意设计成"在不同维度上可能出错"（一个看 held-out 泛化、一个看 cost、一个看 regression、一个看 leakage），再加上人类对高风险 commit 的否决权和任何 commit 的 rollback 能力。无限套娃是个哲学问题；实践中，diversity of verification + reversibility 就是 trust root。
+
+2. **Improvement Governance 是 #037 Externalized Control 在更高一层的递归。** #037 的原则是：Control Plane 必须在 Agent 的控制范围之外；今天的原则是："什么叫进步"的定义权必须在 Improver 的控制范围之外——同一条 Separation of Powers，只是递归应用了一次。而第三个"以后想问"（Personal Agent 的每一次记忆写入是不是都该有来源、置信度、过期时间、rollback）恰恰是这条原则最具体的落地：**每一次记忆写入都是一次 self-modification**，Personal Agent 的 Memory 系统值得第一个用上 Improvement Governance 的模板。
+
+3. **对"Human Taste × Machine Search"的一个质疑：真正不可自动化的可能不是 Taste，而是 Accountability。** 数学家保留的四项里（Problem Selection、Taste、Verification、Sign-off），前三项 AI 都在学，Sign-off 看起来最"人类"——但 sign-off 的本质不是品味，而是**有人为错误买单**。没有 accountability 的 taste 只是偏好；让数学家这个角色 load-bearing 的，是他签了字、错了要负责。如果未来 AI 也能"负责"（比如有可执行的 stake），taste 这道墙可能比我们想象的薄。所以追踪 Human Judgment 自动化时，建议把"谁在为什么错误负责"作为比"taste"更硬的观察指标。
+
+**演进链**：Capability → Autonomy → Self-Improvement → Improvement Governance。AI 不会因为能够修改自己就自然越来越好。*Recursive Self-Improvement is not only an intelligence problem. It is an institution-design problem.*
+
 ## 下一步
 
 - 📖 [Multi-Agent Scaling：把 Test-Time Compute 并行化](../ai-core/multi-agent-scaling.md) —— RSI 的另一条腿：10,000 个 agent 与 Navier-Stokes
@@ -353,7 +427,7 @@ Brown 透露，他团队中**超过 10% 的人现在专注于对齐和安全**�
 
 ---
 
-**最后更新**: October 1, 2026
+**最后更新**: October 7, 2026
 **相关**:
 - [Research Acceleration](research-acceleration.md)
 - [Multi-Agent Scaling：把 Test-Time Compute 并行化](../ai-core/multi-agent-scaling.md)

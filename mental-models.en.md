@@ -4,6 +4,10 @@
 
 ---
 
+**Self-improvement → Improvement Governance** (Oct 7)
+I assumed RSI's core question was whether AI *can* improve itself. Now I think the more important question is how AI *proves* its modifications are generalizable, real improvements. Self-changing ≠ Self-improving. *The more capable a system becomes at improving itself, the less authority it should have to define what counts as improvement* — a natural extension of Separation of Powers.
+→ Read [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)
+
 **Model capability → Default entry point** (Oct 6)
 I assumed Agent competition was mainly about whose model was smarter and whose product was more capable. Now I think models are just one layer of capability — the real platform competition is over who becomes the default entry point between humans and the digital world. Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action — a product, and any term near zero blocks platform-level status. The future is probably several Agent Empires, not one winner: hold home turf first, then expand outward.
 → Read [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
@@ -206,4 +210,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: October 6, 2026
+**Last updated**: October 7, 2026

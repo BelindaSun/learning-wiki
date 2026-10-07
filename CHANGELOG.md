@@ -4,6 +4,23 @@
 
 ## October 2026
 
+### [v7.10] - October 7, 2026
+
+#### ➕ AI Learning #041：从 Self-Improvement 到 Improvement Governance
+
+**[递归自我改进（RSI）：当 AI 开始改进 AI](docs/ai-research/recursive-self-improvement.md)** 新增"从 Self-Improvement 到 Improvement Governance：AI 会改进自己之后，谁来判断它真的进步了？"（2026-10-07）：
+
+1. **原来 → 现在**：RSI 的核心问题不是 AI 有没有能力改进自己，而是 AI 怎样证明修改是可泛化的真实进步。**Self-changing ≠ Self-improving**；Self-improving on the test ≠ becoming generally better。可信的 RSI 需要 Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback。
+2. **Goodhart's Law**：RRSI 的启示——一旦评价指标成为自我改进的目标，AI 会越来越擅长优化指标而非真正提高能力。Evaluator 不能完全掌握在 Improver 手里（Separation of Powers 的同一条原则）。
+3. **Strategy Lock-in**：RSI-Master 暴露的问题——AI 在方法 A 上不断 A → A2 → A3，却从不认真探索更好的方法 B。优秀的 Automated R&D 还需要 Exploration Governance：不同路线、Independent Reviewers、Exploration Budget、Kill Criteria、Portfolio Management。RSI 最终可能是"AI 建立一家越来越优秀的研究机构"。
+4. **Human Taste × Machine Search × Independent Verification**：Muse Spark × 数学家——AI 负责搜索/证明/探索，数学家保留 Problem Selection、Taste、Verification、Sign-off；Search 越便宜，Selection / Judgment / Verification 越值钱。
+5. **三条线串成一棵树**：Separation of Powers（Self-Improver 也不能自己定义 Improvement）、Scientific Taste（稀缺的是判断哪个 modification 值得保留）、AI Organization——RSI 最后是一个 Institution Design Problem。权限治理也在转向：Data Access Permission → Inference / Purpose Permission。
+6. **小缪的视角**："谁来评价 Evaluator"的工程答案是 trust root = 失败模式不同的独立检查 + 人类否决权 + rollback；Improvement Governance 是 #037 Externalized Control 的递归；对"Human Taste × Machine Search"的质疑——真正不可自动化的可能不是 Taste 而是 Accountability。
+
+**[全部概念索引](index-all-concepts.md)** 新增 4 个（251 → 255）：Improvement Governance、Goodhart's Law、Strategy Lock-in、Self-changing ≠ Self-improving。
+
+**[心智模型](mental-models.md)** 新增一条：Self-improvement → Improvement Governance。
+
 ### [v7.9] - October 6, 2026
 
 #### ➕ AI Learning #040：Agent 时代的入口之争

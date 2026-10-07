@@ -4,6 +4,10 @@
 
 ---
 
+**Self-improvement → Improvement Governance**（Oct 7）
+以为 RSI 的核心问题是 AI 有没有能力改进自己；现在觉得更重要的是 AI 怎样证明修改是可泛化的真实进步。Self-changing ≠ Self-improving。越会改进自己的系统，越不能把"什么叫进步"的定义权完全交给它自己——*The more capable a system becomes at improving itself, the less authority it should have to define what counts as improvement.* 这是 Separation of Powers 的自然延伸。
+→ 详见 [递归自我改进](docs/ai-research/recursive-self-improvement.md#从-self-improvement-到-improvement-governanceai-会改进自己之后谁来判断它真的进步了)
+
 **模型能力 → 默认入口**（Oct 6）
 以为 Agent 的竞争主要是谁的模型更聪明、产品能力更强；现在觉得模型只是底层能力之一，真正的平台竞争是——谁能成为人与数字世界之间的默认入口。Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action，乘法，任何一项接近零都难成平台级 Agent。未来可能不是一家通吃，而是几个 Agent Empire：先守住根据地，再向外扩张。
 → 详见 [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
@@ -206,4 +210,4 @@ Chatbot 是"问了才答"的工具，Agent 是"给了目标就自己干"的数�
 
 ---
 
-**最后更新**: October 6, 2026
+**最后更新**: October 7, 2026

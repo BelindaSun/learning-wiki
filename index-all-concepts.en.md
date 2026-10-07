@@ -105,6 +105,7 @@
 ## G
 
 - **Gated Cross-Attention** — [Multimodality](docs/ai-core/multimodal-guide.md)
+- **Goodhart's Law** — once an evaluation metric becomes the target of self-improvement, AI gets better at optimizing the metric than at genuinely improving; the Evaluator must not be fully owned by the Improver → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)
 - **GPU** — [CPU vs. GPU](docs/computing-foundations/cpu-vs-gpu.md)
 
 ## H
@@ -119,6 +120,7 @@
 
 - **Inference** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Inference Cost** — [Models Deep Dive](docs/ai-research/models-deep-dive.en.md)
+- **Improvement Governance** — the hard part isn't teaching AI to improve itself but building an institution in which fake progress can't survive: Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)
 - **Intelligence Explosion** — AI-driven acceleration of AI progress: years of progress compressed into months or less; no AI awakening required, just the "AI helps AI R&D" feedback loop spinning up → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Intelligence Platform** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
 - **Intent Router** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
@@ -203,6 +205,8 @@
 ## S
 
 - **SFT** — [Evaluation](docs/ai-research/evaluation-system.en.md)
+- **Self-changing ≠ Self-improving** — an AI that can modify its prompts / tools / memory / harness isn't necessarily improving; improving on the test isn't becoming generally better → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)
+- **Strategy Lock-in** — AI keeps optimizing method A (A → A2 → A3…) and never seriously explores the better method B; needs Exploration Governance: diverse routes, exploration budget, kill criteria → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)
 - **Swarm** — an organizational pattern of Multi-Agent systems: many relatively autonomous agents producing collective behavior through local interaction — [Agent Collective Behavior](docs/ai-core/agent-collective-behavior.en.md)
 - **Scalable Oversight** — [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.md)
 - **Scale Spine / Semiconductor Spine** — [Scale Spine](docs/computing-foundations/scale-spine.md) · [Semiconductor Spine](docs/computing-foundations/semiconductor-spine.md)
