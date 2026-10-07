@@ -4,6 +4,10 @@
 
 ---
 
+**Maximum Autonomy → Calibrated Delegation**（Oct 7）
+以为成熟的 Personal Agent 是"什么都不用问"的 AI；现在觉得成熟是"知道哪件事不用烦我、哪件事必须经我同意"——Permission 划区（"允许做某类事"），Delegation 拍板（"替我做这一次判断"），都要 task-specific、context-sensitive、risk-aware、reversible、auditable，且会过期。信任由你授予，不该由 agent 从你的疲劳里推算出来。
+→ 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)
+
 **Self-improvement → Improvement Governance**（Oct 7）
 以为 RSI 的核心问题是 AI 有没有能力改进自己；现在觉得更重要的是 AI 怎样证明修改是可泛化的真实进步。Self-changing ≠ Self-improving。越会改进自己的系统，越不能把"什么叫进步"的定义权完全交给它自己——*The more capable a system becomes at improving itself, the less authority it should have to define what counts as improvement.* 这是 Separation of Powers 的自然延伸。
 → 详见 [递归自我改进](docs/ai-research/recursive-self-improvement.md#从-self-improvement-到-improvement-governanceai-会改进自己之后谁来判断它真的进步了)

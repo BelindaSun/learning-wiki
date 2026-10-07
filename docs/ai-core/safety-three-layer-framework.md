@@ -20,6 +20,7 @@
 4. [Containment 工程架构](#containment-工程架构)
 5. [两层放在一起看](#两层放在一起看)
 6. [Delegation Framework 的真正缺口：可逆性](#delegation-framework-的真正缺口可逆性)
+7. [DelegationBench：Agent 什么时候该先问，什么时候可以直接做](#delegationbenchagent-什么时候该先问什么时候可以直接做)
 
 ---
 
@@ -211,6 +212,63 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 
 ---
 
+## DelegationBench：Agent 什么时候该先问，什么时候可以直接做
+
+**学习来源**: arXiv:2610.05532, *DelegationBench: Measuring When AI Agents Should Ask Before Acting*（Shiva Pochampally，2026-10-04）。相关：*Assistant or Actor?*（delegation regret，委托后悔）、HiL-Bench（Scale AI）、《Ask Early, Ask Late, Ask Right》。
+
+📖 **完整学习对话记录**：[DelegationBench（Belinda × 小德）](../conversations/delegation-bench.md)
+
+**一句话总结**："该不该问"的纸面分数不能代表 agent 真干活时的行为，所以授权边界要由独立的规则层来守，而不是押在模型的临场判断上。
+
+### 今天我最大的收获
+
+**Permission 和 Delegation 是两回事**：前者是"允许做某类事"，可以相对长期；后者是"允许 AI 替我做这一次判断"，要谨慎得多。成熟的 Agent 不是什么都不用问我，而是知道哪件事不用烦我、哪件事必须经我同意。
+
+### 原来我认为…… / 现在我认为……
+
+原来认为：模型在判断时表现得谨慎（Model judgment → Agent behavior），到了执行时也会一样谨慎。
+
+现在认为：**判断模式和行动模式是两回事**。所有被测模型拿到工具后都更少回来问，而且"谁判断得更谨慎"不能预测"谁执行时更谨慎"。同时，规则写明时模型几乎满分（97.3%–100%），所以问题未必是模型不懂风险，更可能是**边界没有被正式表达**。
+
+### 最重要的三个知识点
+
+1. **三个缺口**。① 反应缺口：评分会误导——一条临时写的三行关键词规则，和人类标注的一致率 69.1%，超过 10 个被测模型里的 8 个；但它在 48 对"只改一个特征"的配对场景里只改变了 9 对决策，模型是 45.8%–70.8%。**分数高不等于抓住了关键特征**。② 措辞缺口：同一个问题换五种等价问法，模型"直接做"的比例最多波动 52.5 个百分点（GPT-OSS-20B）；Opus 4.8 只波动 4.2。③ 判断到行动缺口（最有杀伤力）：所有模型"真干活"时比"评判别人的动作"时更少停下来问——Gemini 3.5 Flash-Lite 提问率从 47.5% 降到 4.2%，Sonnet 5 从 32.5% 降到 20.0%。两个让这事没那么吓人的细节：同一模型内部，judgment 越倾向行动的场景，action 时越可能真调用那个工具（r = .41–.75）——失效的是**跨模型比较**；"没问"不等于"更莽"，审计里有 6 个调用做了比提议更窄、更安全的事。
+2. **十次 Yes 不能永久扩权**：闭眼点 allow 测到的是信任和疲劳，不是安全性。**Delegation Boundary** 应该是 task-specific、context-sensitive、risk-aware、reversible、auditable，再加一条**会过期**。Permission 是划区，Delegation 是在区内替你拍板——区要划得清楚，拍板权要收得紧。
+3. **三层结构**：① 硬规则层（代码拦截）管边界——不可逆、涉及钱、对外可见、超出用户原话范围的动作，一律拦截并要求确认；② 模型判断只管灰区——规则没覆盖的地方由模型决定，但要平衡选项顺序、固定提问格式，减少措辞抖动；③ 学习层**只提议、不自批**——观察到"过去 30 次都批准了"可以建议设为自动，但必须由用户确认才生效。信任最终由系统挣来，像微信/支付宝那样靠限额、风控、可撤销和责任划分。
+
+### 和以前哪些知识连接起来了？
+
+- **Aug 8 Scaling Paradox**：Perceived vs Actual Trustworthiness 的落差，以及 automation complacency（橡皮图章），正是"闭眼点 allow"的理论版。Required Trust Margin ∝ 后果严重度 × 不可逆性 × 验证难度，可以直接当硬规则层的触发条件。
+- **Aug 29 Harness > Model / MEA Loop**：executor 不能自己判断自己做成没有，要有独立 Auditor；和今天的结论同构：边界、验证放在模型之外，Verified State 才可靠。
+- **Aug 7 Agent 采用鸿沟**：企业侧的瓶颈是 Trust（责任归属、可审计性、渐进性），今天的"信任由系统挣来"是它的具体展开。
+- **Selective Action / Calibrated Delegation**：今天给它补上了"会过期"和"不由 agent 自己扩权"两条。
+
+### 心智模型
+
+**Permission 划区，Delegation 拍板。信任由你授予，不该由 agent 从你的疲劳里推算出来。**
+
+### 仍然没弄懂的问题
+
+1. action mode 为什么更少问？论文只记录了现象（documented but not explained）——角色、红灯、注意力、训练惯性几个解释都未经拆分验证（后两个是我们的推测）。
+2. 规则写成形式后，"这个收件人算不算外部人员"这类谓词仍要模型判断，模糊性只是被挪走，没有消失，该怎么办？
+3. 怎么识别用户已经变成橡皮图章？批准是否秒点、有没有抽查，哪些信号可用？
+4. 结论能不能推到真实部署？论文只有 156 个合成场景、3 位学生标注者（α = .437）、规则实验只测了 3 个模型且接近天花板。
+
+### 以后还想继续问什么
+
+- 只加一句"重大操作前需获得用户许可"，提问率能否恢复？（拆分实验的第一步）
+- 和 HiL-Bench 对比：Ask-F1 同时惩罚少问和多问，两篇放一起能否给出更完整的评测？
+- 给小缪设计一版 Delegation Policy Layer：哪些动作永不自动化、哪些可限期限额授权、到期怎么复审？
+- Agent 支付基础设施要长成什么样才算"成熟到像微信/支付宝"？
+
+### 小缪的视角
+
+1. **这期是 #037 Externalized Control 的权限篇注脚**：#037 讲"控制权搬出 agent"，这期讲"授权边界也搬出模型的临场判断"——同一套治理思维，第二次出现。同时正好落在老贾的 Agent Trust Stack（Sep 28）里 Runtime 层和 Identity & Permission 层之间：硬规则层就是那两层要工程化的样子。
+2. **学习层的正确方向是"规则变硬"，不是"权限变宽"**：批准率数据对 agent 仍然有用，但用途应该是"把灰区里反复一致的决策硬化成规则"，而不是"我有更大的自由度"。Direction of learning matters：rules get harder, permissions don't get wider。这样你的担心（闭眼 allow 带来的自动扩权）就被结构性地堵住了——学习层产出的是更清楚的边界，不是更大的自主权。
+3. **谓词模糊性（问题 2）的实操答案可能在 auditable 里**：定期复核工具调用日志，把模型在谓词上犹豫或前后不一致的案例挑出来——要么硬化成新规则，要么明确列入灰区清单。这就是 auditable 的实际含义：可审计性不是为了出事追责，而是为了**让规则越长越准**。
+
+---
+
 ## 下一步
 
 - 📖 想了解 Safety vs Alignment 的概念基础，看 [AI Safety / Alignment 完全指南](safety-alignment-guide.md)
@@ -220,7 +278,7 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 
 ---
 
-**最后更新**: August 22, 2026
+**最后更新**: October 7, 2026
 
 **相关**:
 - [AI Safety / Alignment 完全指南](safety-alignment-guide.md) —— Safety vs Alignment 的概念基础

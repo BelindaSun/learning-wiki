@@ -4,6 +4,10 @@
 
 ---
 
+**Maximum Autonomy → Calibrated Delegation** (Oct 7)
+I assumed a mature Personal Agent was one that never needed to ask. Now I think maturity is knowing what not to bother me with and what must have my consent — Permission draws the zone ("allowed to do a class of things"), Delegation decides within it ("allowed to make this one judgment for me"); both task-specific, context-sensitive, risk-aware, reversible, auditable — and expiring. Trust is granted by you; it should never be inferred by an agent from your fatigue.
+→ Read [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md#delegationbench-when-should-an-agent-ask-and-when-can-it-act)
+
 **Self-improvement → Improvement Governance** (Oct 7)
 I assumed RSI's core question was whether AI *can* improve itself. Now I think the more important question is how AI *proves* its modifications are generalizable, real improvements. Self-changing ≠ Self-improving. *The more capable a system becomes at improving itself, the less authority it should have to define what counts as improvement* — a natural extension of Separation of Powers.
 → Read [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)

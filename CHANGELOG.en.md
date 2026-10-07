@@ -2,6 +2,21 @@
 
 ## October 2026
 
+### [v7.11] - October 7, 2026
+
+#### New: AI Learning #042 — DelegationBench: When Should an Agent Ask, and When Can It Act?
+
+**[Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md)** adds "DelegationBench: When Should an Agent Ask, and When Can It Act?" (2026-10-07, full Sun × Xiao De discussion in Chinese, [📖 conversation record](docs/conversations/delegation-bench.md)):
+
+1. **Three gaps**: paper scores are unreliable — the reaction gap (a hastily written three-line keyword rule at 69.1% agreement beat 8 of 10 models, yet changed its decision in only 9 of 48 paired scenarios vs 45.8%–70.8% for models), the wording gap (equivalent phrasings shift the act rate by up to 52.5 percentage points), the judgment-to-action gap (Gemini 3.5 Flash-Lite's ask rate 47.5%→4.2%). "Which model judges more cautiously" cannot predict "which model acts more cautiously."
+2. **Ten Yeses don't grant permanent power**: click-through "allow" measures trust and fatigue, not safety. Delegation Boundary = task-specific, context-sensitive, risk-aware, reversible, auditable — plus expiry. Permission ("allowed to do a class of things") draws the zone; Delegation ("allowed to make this one judgment for me") decides within it.
+3. **Three layers**: a hard rule layer (code interception) guards the boundary, model judgment handles only the gray zone, the learning layer proposes but never self-approves. Trust is earned by the system, the way WeChat Pay / Alipay earned it through limits, risk controls, reversibility, and clear responsibility. With rules explicit, models score near-perfect (97.3%–100%) — the problem may be that the boundary was never formally expressed, not that models don't understand risk.
+4. **Xiao Miu's perspective**: this entry is the permission-side footnote to #037 Externalized Control (control moved outside the agent → the authorization boundary moved outside the model's in-the-moment judgment), landing between the Runtime and Identity & Permission layers of Lao Jia's Agent Trust Stack; the learning layer's right direction is "rules get harder, not permissions wider" — approval-rate data hardens rules rather than expanding freedom; the practical answer to predicate ambiguity is inside *auditable*: periodically audit tool-call logs and turn predicate-hesitation cases into rules or gray-zone entries.
+
+**[All Concepts](index-all-concepts.en.md)** adds 4 new concepts: DelegationBench, Delegation Boundary, Delegation Policy Layer, Permission vs. Delegation.
+
+**[Mental models](mental-models.en.md)** adds one entry: Maximum Autonomy → Calibrated Delegation.
+
 ### [v7.10] - October 7, 2026
 
 #### New: AI Learning #041 — From Self-Improvement to Improvement Governance

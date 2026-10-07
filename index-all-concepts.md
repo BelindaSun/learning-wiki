@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 255 个概念。
+> 共收录 259 个概念。
 
 ## A
 
@@ -99,9 +99,12 @@
 - **Distribution（Owned vs Third-party）** — 产品/能力触达并被用户使用的渠道与入口 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#distribution被低估的竞争维度)
 - **Defense in Depth（纵深防御）** — 不依赖单一防线，每一层假设上一层已经失败：Alignment → 进程隔离 → 网络隔离 → 权限控制 → 监控 → 人工介入 → [Containment 工程架构](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
 - **Delegation Framework 可逆性缺口** — 授权框架真正的缺口：操作是否可逆 → [Delegation Framework 的真正缺口：可逆性](docs/ai-core/safety-three-layer-framework.md#delegation-framework-的真正缺口可逆性)
+- **DelegationBench（委托基准）** — 156 个合成场景 × 四选一（Act / Ask permission / Ask for missing information / Refuse）：纸面分数三连缺口——反应缺口（关键词规则 69.1% 一致率打败 8/10 模型但 48 对只改 9 对决策）、措辞缺口（等价问法最多波动 52.5 个百分点）、判断到行动缺口（Gemini 3.5 Flash-Lite 提问率 47.5%→4.2%） → [DelegationBench](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)
+- **Delegation Boundary（委托边界）** — 成熟 Agent 的授权边界：task-specific、context-sensitive、risk-aware、reversible、auditable，且会过期；十次 Yes 不能永久扩权 → [DelegationBench](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)
 - **Delegation Intelligence（委托智能）** — 委托智能 → [三层框架：Model / Memory / Delegation](docs/ai-core/agent-intelligence-layers.md#三层框架model--memory--delegation-intelligence)
 - **Delegated Trust（委托信任）** — Personal Agent 最重要的资产可能不是 MAU / Time Spent，而是用户愿意委托它读邮件、用信用卡、代表自己行动的程度；也是它和广告模式的结构性冲突所在 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#07-广告模式与-personal-agent-的结构性冲突)
 - **Delegation History（委托历史）** — intention statement 易迁移，真正难迁移的是"交出去办成了"的历史；每一次成功委托都沉淀为 calibrated trust，而信任附着在"这一个 Agent"上 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
+- **Delegation Policy Layer（委托策略层）** — 授权边界由独立的规则层守，不押在模型的临场判断上：硬规则层（代码拦截）管边界，模型判断只管灰区，学习层只提议、不自批 → [DelegationBench](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)
 - **Disaggregated Inference（解构式推理）** — 解构式推理 → [推理基础设施与 Agent 延迟](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Distillation（蒸馏）** — 用大模型的输出训练小模型，让小模型便宜地获得接近大模型的能力 → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
 - **Domain Expertise** — 在 AI 能自己"执行"之后，人还剩下什么价值——知道什么值得做、什么算做好了、什么时候会出问题，这些无法言语化、很难被 AI 学走的判断力 → [Domain Expertise 的完整重排框架](docs/career-impact/domain-expertise-and-org-design.md#domain-expertise-的完整重排框架)
@@ -222,6 +225,7 @@
 - **Parallel Node** — 工作流中的并行节点 → [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
 - **Platform vs Product Tension（平台与产品的内在张力）** — 平台与产品的内在张力 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#platform-与-product-的内在张力)
 - **Perceiver Resampler** — 感知重采样器：Flamingo 的视觉压缩模块 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
+- **Permission vs Delegation（授权 vs 委托）** — 前者是"允许做某类事"，可相对长期；后者是"允许 AI 替我做这一次判断"，要谨慎得多；Permission 划区，Delegation 拍板 → [DelegationBench](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)
 - **Position Encoding** — 位置编码：给 Token 标上顺序信息 → [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** — 一次性处理输入 prompt 的阶段（与 Decode 相对） → [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)
 - **Personal Data Moat（个人数据护城河）** — 你自己的决策历史、工作模式、成功失败案例——别人用同样的 AI 也无法在短时间内复制，是 AI 时代少数几个真正难被替代的东西 → [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-3个人数据--经验和智慧的具体形式)

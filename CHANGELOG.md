@@ -4,6 +4,21 @@
 
 ## October 2026
 
+### [v7.11] - October 7, 2026
+
+#### ➕ AI Learning #042：DelegationBench——Agent 什么时候该先问，什么时候可以直接做
+
+**[AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)** 新增"DelegationBench：Agent 什么时候该先问，什么时候可以直接做"（2026-10-07，Belinda × 小德完整讨论，[📖 完整学习对话记录](docs/conversations/delegation-bench.md)）：
+
+1. **三个缺口**：纸面分数不可靠——反应缺口（临时写的三行关键词规则一致率 69.1% 打败 8/10 模型，但 48 对只改 9 对决策 vs 模型 45.8%–70.8%）、措辞缺口（等价问法最多波动 52.5 个百分点）、判断到行动缺口（Gemini 3.5 Flash-Lite 提问率 47.5%→4.2%）。"谁判断得更谨慎"不能预测"谁执行时更谨慎"。
+2. **十次 Yes 不能永久扩权**：闭眼点 allow 测到的是信任和疲劳，不是安全性。Delegation Boundary = task-specific、context-sensitive、risk-aware、reversible、auditable + 会过期。Permission 是"允许做某类事"（划区），Delegation 是"允许 AI 替我做这一次判断"（拍板）。
+3. **三层结构**：硬规则层（代码拦截）管边界，模型判断只管灰区，学习层只提议、不自批。信任由系统挣来，像微信/支付宝那样靠限额、风控、可撤销和责任划分。规则写明时模型几乎满分（97.3%–100%）——问题未必是模型不懂风险，更可能是边界没有被正式表达。
+4. **小缪的视角**：这期是 #037 Externalized Control 的权限篇注脚（控制权搬出 agent → 授权边界也搬出模型临场判断），正好落在老贾 Agent Trust Stack 的 Runtime 层和 Identity & Permission 层之间；学习层的正确方向是"规则变硬"不是"权限变宽"（rules get harder, permissions don't get wider）——批准率数据用来硬化规则而不是放大授权；谓词模糊性的实操答案在 auditable 里：定期审计工具调用日志，把模型犹豫/不一致的谓词案例挑出来硬化成规则或列入灰区。
+
+**[全部概念索引](index-all-concepts.md)** 新增 4 个（255 → 259）：DelegationBench、Delegation Boundary、Delegation Policy Layer、Permission vs Delegation。
+
+**[心智模型](mental-models.md)** 新增一条：Maximum Autonomy → Calibrated Delegation。
+
 ### [v7.10] - October 7, 2026
 
 #### ➕ AI Learning #041：从 Self-Improvement 到 Improvement Governance
