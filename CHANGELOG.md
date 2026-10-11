@@ -4,6 +4,24 @@
 
 ## October 2026
 
+### [v7.12] - October 11, 2026
+
+#### ➕ AI Learning #043：Agent 的身份、连续性与组织责任——从 Gemini at Work 2026 谈起
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)** 新增"AI Learning #043：Agent 的身份、连续性与组织责任"（2026-10-11，Belinda × 小德完整讨论，[📖 完整学习对话记录](docs/conversations/gemini-at-work-2026.md)）：
+
+1. **核心公式**：Agent = Persistent Identity + State + Skills + Authority + Model Access。前四项持久，Model Access 可替换——但"可替换"有摩擦：换一次模型要评测、回归、留痕、具名负责人。
+2. **身份住在模型之外**：三层拆解——问责身份（企业签发的凭证，模型换了不变）/ 角色身份（角色宪法 + 记忆，Agent 的"人格连续性"）/ 认知引擎（按任务调度的模型）。
+3. **换模型 = 人事变动**：审计日志要记"哪个模型的哪个版本做的"；先评测、后上线、留记录。
+4. **独立账号 ≠ 独立责任**：组织要补六块——入职与离职、直属负责人（最容易被忽视的一条）、岗位说明书（角色宪法）、变更管理、绩效与成本、升级机制。最后兜底的永远是人。
+5. **长期存续的是"岗位 + 记忆"**：忒修斯之船；长期的 Agent 更接近组织的"机构记忆"；四个约束——记忆漂移、宪法演进、平台锁定、岗位退役。
+6. **传承两头不一样**：Agent 这头变容易（继任是工程问题），人这头更难（成长路径被削弱、没人能审核宪法）。"知识不丢"变容易，"人懂得知识"变难。
+7. **小缪的视角**：公式与正文打架——"可替换"不是换电池是器官移植，"模型只是算力"一半是 Google 的营销话术（他们想卖的正是不可替换层）；这是 #042 DelegationBench 的治理续集（三层身份落在 Permission / Delegation 链条上）；锁定问题照着我们自己——老贾/小德/小缪的角色宪法和记忆可导出吗？
+
+**[全部概念索引](index-all-concepts.md)** 新增 4 个（259 → 263）：Coworker Agent、Agent 身份三层、Role Constitution（角色宪法）、Model Access。
+
+**[心智模型](mental-models.md)** 新增一条：Intelligence → Continuity → Accountability。
+
 ### [v7.11] - October 7, 2026
 
 #### ➕ AI Learning #042：DelegationBench——Agent 什么时候该先问，什么时候可以直接做

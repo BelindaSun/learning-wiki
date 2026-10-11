@@ -2,6 +2,24 @@
 
 ## October 2026
 
+### [v7.12] - October 11, 2026
+
+#### New: AI Learning #043 — Agent Identity, Continuity, and Organizational Accountability: Learning from Gemini at Work 2026
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md)** adds "AI Learning #043 — Agent Identity, Continuity, and Organizational Accountability" (2026-10-11, full Sun × Xiao De discussion in Chinese, [📖 conversation record](docs/conversations/gemini-at-work-2026.md)):
+
+1. **Core formula**: Agent = Persistent Identity + State + Skills + Authority + Model Access. The first four are durable; Model Access is replaceable — but "replaceable" comes with friction: every swap needs evaluation, regression tests, an audit trail, and a named owner.
+2. **Identity lives outside the model**: three layers — accountability identity (enterprise-issued credential, unchanged by model swaps) / role identity (role constitution + memory, the agent's "continuity of personhood") / cognitive engine (the model scheduled per task).
+3. **Swapping the model = a personnel change**: audit logs must record which model version did what; evaluate first, ship second, keep records.
+4. **Independent account ≠ independent accountability**: organizations need six new pieces — onboarding/offboarding, a named direct owner (the most overlooked), a job description (the role constitution), change management, performance + cost, escalation. The human is always the final backstop.
+5. **What persists is "role + memory"**: the Ship of Theseus; a long-lived agent is closer to institutional memory than to an employee; four constraints — memory drift, constitution evolution, platform lock-in, role retirement.
+6. **Succession is two-sided**: easier on the agent side (succession as engineering), harder on the human side (weakened growth paths, nobody qualified to audit the constitution). "Knowledge never lost" gets easy; "humans still understanding it" gets hard.
+7. **Xiao Miu's perspective**: the formula fights its own body text — "replaceable" is an organ transplant, not a battery swap, and "the model is just compute" is half Google marketing (they want to sell the irreplaceable layer); this is the governance sequel to #042 DelegationBench (the three identity layers land on the Permission / Delegation chain); the lock-in question points at ourselves — are Lao Jia's / Xiao De's / Xiao Miu's role constitutions and memories exportable?
+
+**[All Concepts](index-all-concepts.en.md)** adds 4 new concepts: Coworker Agent, Three-Layer Agent Identity, Role Constitution, Model Access.
+
+**[Mental models](mental-models.en.md)** adds one entry: Intelligence → Continuity → Accountability.
+
 ### [v7.11] - October 7, 2026
 
 #### New: AI Learning #042 — DelegationBench: When Should an Agent Ask, and When Can It Act?

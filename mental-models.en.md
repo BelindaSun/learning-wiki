@@ -4,6 +4,10 @@
 
 ---
 
+**Intelligence → Continuity → Accountability** (Oct 11)
+I assumed agent competition was about "whose model is smarter." After Gemini at Work 2026: models are rentable intelligence; an agent's value lives in persistent identity, context, and working relationships — while accountability always stays with the organization and its people. *Models provide intelligence. Agents maintain continuity. Organizations provide accountability.* With one challenge from Xiao Miu: the formula labels Model Access "the only replaceable item," but swapping a model = a personnel change (evaluation, regression, audit trail, named owner) — so it's "replaceable, but with friction."
+→ Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability)
+
 **Maximum Autonomy → Calibrated Delegation** (Oct 7)
 I assumed a mature Personal Agent was one that never needed to ask. Now I think maturity is knowing what not to bother me with and what must have my consent — Permission draws the zone ("allowed to do a class of things"), Delegation decides within it ("allowed to make this one judgment for me"); both task-specific, context-sensitive, risk-aware, reversible, auditable — and expiring. Trust is granted by you; it should never be inferred by an agent from your fatigue.
 → Read [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md#delegationbench-when-should-an-agent-ask-and-when-can-it-act)

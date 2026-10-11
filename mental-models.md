@@ -4,6 +4,10 @@
 
 ---
 
+**Intelligence → Continuity → Accountability**（Oct 11）
+以为 Agent 的竞争是"谁的模型更聪明"；Gemini at Work 2026 之后觉得，模型是可租用的智能，Agent 的价值在于持续的身份、上下文和工作关系——而责任始终要由组织和人来承担。*Models provide intelligence. Agents maintain continuity. Organizations provide accountability.* 小缪补了一刀：公式里 Model Access 被标成"唯一可替换项"，但换模型 = 人事变动（评测、回归、留痕、具名负责人），所以是"可替换但有摩擦"——换电池 vs 器官移植。
+→ 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)
+
 **Maximum Autonomy → Calibrated Delegation**（Oct 7）
 以为成熟的 Personal Agent 是"什么都不用问"的 AI；现在觉得成熟是"知道哪件事不用烦我、哪件事必须经我同意"——Permission 划区（"允许做某类事"），Delegation 拍板（"替我做这一次判断"），都要 task-specific、context-sensitive、risk-aware、reversible、auditable，且会过期。信任由你授予，不该由 agent 从你的疲劳里推算出来。
 → 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)

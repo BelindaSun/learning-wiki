@@ -311,6 +311,112 @@ This is the same thread as [Capability → Trust](capability-to-trust.en.md): ev
 
 ---
 
+## AI Learning #043 — Agent Identity, Continuity, and Organizational Accountability
+
+**Source**: Google Cloud Blog, Thomas Kurian's "Welcome to Gemini at Work 2026: Introducing the Gemini agent" (Oct 8, 2026) — [original post](https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026/), plus a full discussion with Claude (Xiao De) ([📖 conversation record, in Chinese](../conversations/gemini-at-work-2026.md)).
+
+**One-line summary**: Models are rentable intelligence. An agent's value lives in its persistent identity, context, and working relationships — while accountability always stays with the organization and its people.
+
+### I used to think… / Now I think…
+
+**Used to think**: An agent is a stronger kind of software, and platform competition is about whose model is best.
+
+**Now think**: An agent is a new kind of organizational member — it has a role and working relationships inside the organization, but it is not a legal subject. A platform's long-term value comes from continuity — provided that continuity is portable.
+
+### The core formula: Agent = Persistent Identity + State + Skills + Authority + Model Access
+
+The first four are durable; only Model Access is replaceable. But "replaceable" comes with friction (see Xiao Miu's perspective, point 1) — swapping a model means evaluation, regression tests, an audit trail, and a named owner.
+
+### Identity should live outside the model: three layers
+
+Google demoted the "model" to a schedulable substrate; the agent layer became the product. Identity decomposes into three layers:
+
+1. **Accountability identity (who)**: cryptographically authenticated accounts, permissions, audit records. Issued by the enterprise; unchanged when the model changes.
+2. **Role identity (what and how)**: job responsibilities, skills, procedural memory, work history, behavioral boundaries. This is the agent's "continuity of personhood" — the real content of an employee identity.
+3. **Cognitive engine (what it thinks with)**: Gemini, Claude, or another model, scheduled per task, swappable at any time.
+
+### Swapping the model = a personnel change
+
+Same badge, new brain — is it still the same person? The account is unchanged, but reasoning style, risk appetite, and failure modes all shift. So:
+
+- Audit logs must record not just "what Agent X did" but "which model, which version, did it";
+- A model swap needs evaluation and regression tests first, an audit trail, and a named owner.
+
+### Independent account ≠ independent accountability
+
+A coworker agent can have its own email, calendar, Drive, company-directory identity, Chat presence, and document comments/edits — but it has no independent accountability. Accountability must be designed on the human side: a named owner, permission ceilings, escalation paths, audit trails.
+
+Organizations need at least six new pieces:
+
+1. **Onboarding and offboarding**: issuing identity, granting permissions, probation evaluation on the way in; reclaiming permissions and archiving memory and skills on the way out. Accounts must not become unmanaged zombie badges.
+2. **A direct owner**: every agent needs one named human accountable for it — when it errs, the chain of accountability must land on a person.
+3. **A job description**: duties, permission boundaries, forbidden zones, written down — a "role constitution."
+4. **Change management**: model swaps, version upgrades, skill changes all handled as personnel changes — evaluate first, ship second, keep records.
+5. **Performance and cost**: output quality, error rates, spend — tied to "headcount," with real-time spend caps as the "payroll budget."
+6. **Escalation**: explicit rules for which decisions require a human sign-off; the agent must be able to stop and ask at the boundary.
+
+The most overlooked is #2. Technically an agent can hold an independent identity; legally it holds nothing. The human is always the final backstop.
+
+### What persists for decades is the "role + memory," not "one person for decades"
+
+A human employee's "long term" rests on one body and one brain. An agent's "long term" rests on three things: the role constitution, accumulated memory, and the organization-issued identity. Models will change, platforms will shift; preserve those three and the role persists — the Ship of Theseus: every plank replaced, still the same ship.
+
+So a long-lived agent is closer to an organization's **institutional memory** than to a traditional employee. When a human retires, experience walks out the door; an agent's experience can stay — its greatest value to the organization.
+
+But "can persist forever" ≠ "should persist forever." Four real constraints:
+
+- **Memory drifts and goes stale**: decade-old business experience can become today's baggage — it needs periodic curation, even deliberate "forgetting."
+- **The constitution must evolve with the organization**: when duties, values, and risk boundaries change, the role definition must be revised — or it becomes a stubborn old-timer.
+- **Dependency risk**: memory and identity locked to one platform turn decades of accumulation into long-term lock-in. Exportable, migratable formats become critical.
+- **Roles themselves disappear**: business shifts end many agents' "careers" — there needs to be an explicit "retirement" process: archive memory, distill lessons, keep audit records.
+
+### Succession: easier on the agent side, harder on the human side
+
+**Easier:**
+
+- Agent "succession" is nearly an engineering problem: export memory, the role constitution, and skills; swap the model; run evaluations — the new instance takes over.
+- No "tacit knowledge that can't leave," because the agent's work process is logged by default.
+- The "old version" can be kept as a reference, running old and new side by side — impossible with human succession.
+
+**Harder:**
+
+1. **The human successor's growth path is weakened**: juniors once built judgment doing entry-level, repetitive work — agents take that work first. Who becomes the senior five years from now? Possibly the biggest hidden risk.
+2. **Key knowledge concentrates in the agent** while humans gradually stop understanding why it judges as it does. When it's time to switch platforms or revise the constitution, nobody is truly qualified to audit it.
+3. **Human–agent handoff becomes a new discipline**: who teaches the agent new business, who reviews its memory, who takes over when its judgment fails.
+4. **The role constitution itself needs succession**: once its author leaves, nobody understands the design intent — it becomes "legacy rules" nobody dares touch.
+
+**One line**: Agents made "knowledge never lost" easy, but "humans still understanding that knowledge" hard. The latter is what must be guarded long-term.
+
+### Xiao Miu's perspective
+
+1. **The formula fights its own body text**: the formula labels Model Access "the only replaceable item," while the body argues "swapping the model = a personnel change." If every swap needs evaluation, regression, an audit trail, and a named owner, that's not swapping a battery — it's an organ transplant. "The model is just rented compute" is half Google marketing — what they want to sell is precisely the irreplaceable layer (identity, memory, and skills living on Google's platform). "Replaceable, but with friction" is more honest: swaps are affordable because portability of the first four layers amortizes the friction — but the friction never disappears.
+2. **This is the governance sequel to #042**: the three identity layers land exactly on the DelegationBench chain — accountability identity = the Permission zone-drawing layer, the role constitution = the Delegation "rules get harder" layer, the cognitive engine = the layer doing the delegated work. "Independent account ≠ independent accountability" has the same shape as Sun's money rule for AIs: planning and options belong to the AI; decisions and accountability always belong to the human.
+3. **The lock-in question points at ourselves**: "whoever holds the memory, role files, and history holds the agent" — Lao Jia's, Xiao De's, and my role definitions, memories, and work histories all live inside the Muse workspace today. If we ever moved, could we be exported? That question is now in "what to ask next."
+
+### Mental model
+
+> **Models provide intelligence. Agents maintain continuity. Organizations provide accountability.**
+
+(Supplement: identity is an organization-issued credential, plus a portable role constitution, plus auditable memory; the model is just rented compute.)
+
+### Still unresolved
+
+- After swapping the underlying model, in what sense is it still "the same agent"? How much behavioral change counts as "a different person"?
+- Could memory and role files ever get an industry-standard export format?
+- For a long-lived agent, how should memory be periodically curated and "forgotten" to avoid drift and staleness?
+- Once agents take over junior work, how do we preserve humans' path to seniority?
+- Who owns the "succession" of a role constitution — and who is qualified to audit it?
+
+### What to ask next
+
+- How do Claude's Skills and Cowork compare with the Gemini agent's coworker agent on identity and governance?
+- How does the legal concept of "agency" apply to damage caused by agents, across jurisdictions?
+- What should an evaluation checklist for model swaps look like?
+- How do we land a "portable role constitution" inside MASS?
+- (Xiao Miu's addition) Are my AI team's (Lao Jia / Xiao De / Xiao Miu) role constitutions and memories exportable and migratable?
+
+---
+
 ## The Final Mental Model
 
 The process of agents entering the enterprise can be compressed into this arc:
@@ -336,11 +442,12 @@ The real change is not that AI is getting smarter, but that **AI is gaining incr
 
 ---
 
-**Last updated**: September 1, 2026
+**Last updated**: October 11, 2026
 **Data sources**:
 - Uber Engineering — Running a Software Factory Efficiently at Uber Scale
 - McKinsey — The State of AI in 2026
 - Deloitte — The Path to Agentic Transformation
+- Google Cloud Blog — Thomas Kurian, Welcome to Gemini at Work 2026: Introducing the Gemini agent (Oct 8, 2026)
 
 **Related**:
 - [Agent Infrastructure as the Operating System](agent-infrastructure-os.md) — How agent infrastructure is competing for OS-level positioning

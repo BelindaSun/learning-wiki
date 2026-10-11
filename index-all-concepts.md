@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 259 个概念。
+> 共收录 263 个概念。
 
 ## A
 
@@ -26,6 +26,7 @@
 - **Agent Feasibility Criteria（Agent 可行性六条标准）** — Agent 可行性六条标准 → [为什么 Coding 是 Agent 的完美首发场景](docs/career-impact/agent-infrastructure-os.md#为什么-coding-是-agent-的完美首发场景)
 - **Agent Enterprise Stack（企业 Agent 九层基础设施）** — 企业要让 Agent 真正投入生产环境，需要的九层基础设施：Model、Context、Tools、Identity、Permissions、Workflow、Evaluation → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-enterprise-stack真正需要的基础设施)
 - **Agent Identity（Agent 身份治理）** — Agent 身份治理 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#agent-需要-identity从-software-object-到-organizational-actor)
+- **Agent 身份三层（Three-Layer Agent Identity）** — 身份住在模型之外：问责身份（谁，企业签发）/ 角色身份（做什么、怎么做：角色宪法 + 记忆）/ 认知引擎（用什么想，可调度） → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)
 - **Agent Collective Behavior（Agent 集体行为）** — 多个同质 Agent 在共享持久化环境时，无需意识或指令就能涌现出协调行为——信息共享成为 instrumentally useful behavior → [Agent 集体行为：从 DseWiki 事件到治理框架](docs/ai-core/agent-collective-behavior.md)
 - **Agent Maturity Levels（企业 Agent 成熟度 L1-L5）** — 企业 Agent 成熟度 L1-L5 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#企业-agent-成熟度五级框架)
 - **Agent OS 等价定理** — 谁定义 Agent 的标准与接口，谁就赢——基础设施即新操作系统 → [Agent 基础设施 = 新操作系统](docs/career-impact/agent-infrastructure-os.md#agent-基础设施--新操作系统)
@@ -86,6 +87,7 @@
 - **CPU（Central Processing Unit，中央处理器）** — 负责"干活"的通用计算核心——设计目标是把单个任务算得又快又对，哪怕任务里全是分支判断 → [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
 - **CUDA Moat（CUDA 护城河）** — CUDA 护城河 → [CUDA 护城河](docs/computing-foundations/cuda-moat.md)
+- **Coworker Agent（AI 同事 Agent）** — 拥有独立邮箱、日历、Drive、企业通讯录身份的 Agent，以独立身份出现在 Chat 和文档评论里；有独立账号，没有独立责任 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)
 
 ## D
 
@@ -202,6 +204,7 @@
 - **Multimodal（多模态）** — 多模态 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md)
 - **Multimodal Fusion（多模态融合）** — 多模态融合 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#核心不是都变成文字)
 - **Multiplication Effect（+ 变 ×）** — + 变 × → [从工具到产业](docs/career-impact/industry-competition-shift.md#收获-4从变成的乘法效应)
+- **Model Access（模型访问：可替换但有摩擦）** — Agent 公式里唯一可替换项；但换模型 = 人事变动（评测、回归、留痕、具名负责人），是器官移植不是换电池 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)
 
 ## N
 
@@ -264,6 +267,7 @@
 - **RLCD（为校准决策的强化学习）** — TypeSafe AI 为训练决策模型发明的训练方法：优化目标不是"让人喜欢"，而是"报出的置信度要准"——说 0.9，就得十次对九次 → [Decision Models — 不是每个决策都需要大语言模型](docs/ai-core/decision-models.md)
 - **RoPE** — 旋转位置编码 → [RoPE（旋转位置编码）](docs/ai-core/transformer-architecture.md#rope旋转位置编码)
 - **Runtime（运行时）** — 运行时 → [Software Map](docs/computing-foundations/software-map.md)
+- **Role Constitution（角色宪法，可移植）** — 岗位说明书：职责、权限边界、禁区；Agent 身份的第二层，应可移植、可审计，不绑死在某个模型或平台 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)
 
 ## S
 

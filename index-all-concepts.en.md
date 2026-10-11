@@ -63,6 +63,7 @@
 - **CPU / CPU vs. GPU** — [Foundation Zero](docs/computing-foundations/foundation-zero.md) · [CPU vs. GPU](docs/computing-foundations/cpu-vs-gpu.md)
 - **Cross-Attention** — [Multimodality](docs/ai-core/multimodal-guide.md)
 - **CUDA Moat** — [The CUDA Moat](docs/computing-foundations/cuda-moat.md)
+- **Coworker Agent** — an agent with its own email, calendar, Drive, and directory identity, appearing under its own name in Chat and document threads; independent account, no independent accountability → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability)
 
 ## D
 
@@ -157,6 +158,7 @@
 - **Multi-Head Attention** — [Transformer](docs/ai-core/transformer-architecture.md)
 - **Multimodal / Multimodal Fusion** — [Multimodality](docs/ai-core/multimodal-guide.md)
 - **Multiplication Effect** — [From Tools to Industry](docs/career-impact/industry-competition-shift.md)
+- **Model Access** — the only replaceable term in the agent formula; but swapping models = a personnel change (evaluation, regression, audit trail, named owner) → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability)
 
 ## N–O
 
@@ -205,6 +207,7 @@
 - **Research Taste** — [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md)
 - **RLHF** — [Evaluation](docs/ai-research/evaluation-system.md)
 - **Runtime** — [Software Map](docs/computing-foundations/software-map.md)
+- **Role Constitution** — the job description: duties, permission boundaries, forbidden zones; the second layer of agent identity, meant to be portable and auditable, not tied to one model or platform → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability)
 
 ## S
 
@@ -239,6 +242,7 @@
 - **Training** — [Training](docs/ai-core/training-system-guide.md)
 - **Transformer** — [Transformer](docs/ai-core/transformer-architecture.md)
 - **Trustworthiness** — [From Capability to Trust](docs/career-impact/capability-to-trust.md)
+- **Three-Layer Agent Identity** — accountability identity (who, enterprise-issued) / role identity (what and how: role constitution + memory) / cognitive engine (what it thinks with, schedulable) → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability)
 
 ## U
 
