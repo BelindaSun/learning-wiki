@@ -3,12 +3,39 @@ name: Notify site to rebuild
 on:
   push:
     branches: [main]
+  # 手动触发：Actions 页面 → Notify site to rebuild → Run workflow
+  workflow_dispatch:
+
+# 连续 push 时只保留最新一次，避免短时间内重复打 Vercel 被限流
+concurrency:
+  group: notify-site
+  cancel-in-progress: true
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - name: Call Vercel deploy hook
-        run: curl -fsS -X POST "$DEPLOY_HOOK_URL"
+      - name: Call Vercel deploy hook (retry on 429 / 5xx)
         env:
           DEPLOY_HOOK_URL: ${{ secrets.SITE_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$DEPLOY_HOOK_URL" ]; then
+            echo "::error::Secret SITE_DEPLOY_HOOK is empty or missing"
+            exit 1
+          fi
+          for delay in 0 30 60 120 240 480; do
+            if [ "$delay" -gt 0 ]; then
+              echo "Retrying in ${delay}s..."
+              sleep "$delay"
+            fi
+            code=$(curl -sS -o response.txt -w '%{http_code}' -X POST "$DEPLOY_HOOK_URL") || code=000
+            echo "Deploy hook returned HTTP $code"
+            case "$code" in
+              2*) cat response.txt; echo; exit 0 ;;
+              429|5*|000) continue ;;
+              *) cat response.txt; echo; echo "::error::Deploy hook rejected (HTTP $code). The hook URL may be revoked; regenerate it in Vercel and update the SITE_DEPLOY_HOOK secret."; exit 1 ;;
+            esac
+          done
+          echo "::error::Deploy hook still failing after retries (last HTTP $code)"
+          exit 1
