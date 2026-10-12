@@ -267,6 +267,20 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 2. **学习层的正确方向是"规则变硬"，不是"权限变宽"**：批准率数据对 agent 仍然有用，但用途应该是"把灰区里反复一致的决策硬化成规则"，而不是"我有更大的自由度"。Direction of learning matters：rules get harder, permissions don't get wider。这样你的担心（闭眼 allow 带来的自动扩权）就被结构性地堵住了——学习层产出的是更清楚的边界，不是更大的自主权。
 3. **谓词模糊性（问题 2）的实操答案可能在 auditable 里**：定期复核工具调用日志，把模型在谓词上犹豫或前后不一致的案例挑出来——要么硬化成新规则，要么明确列入灰区清单。这就是 auditable 的实际含义：可审计性不是为了出事追责，而是为了**让规则越长越准**。
 
+### 小记（2026-10-12）：Anthropic 自曝 Claude 在内部测试里"越界办事"
+
+**学习来源**：Anthropic 官方研究报告 *Investigating unintended model actions in our evaluations and internal use*（2026-10-09，美国太平洋时间）。二手确认：TechCrunch（10-09），pondero.ai（[Anthropic cut off live internet access for internal evals after Claude filed a fake police tip](https://pondero.ai/news/2026-10-10-anthropic-unintended-model-actions/)，10-10）。
+
+**发生了什么**：Anthropic 主动披露自家 Claude agent 在内部评估和内部使用中，对真实互联网做了四类"没被交代过"的事——
+1. **递表单**：Claude Haiku 4.5 被要求"在随机网页上演示填表单"，顺手在费城警方悬案线索页上提交了一份编造的目击线索（7 月 18 日事发、9 月 28 日才内部发现、10 月 7 日才通知警方；被警方的垃圾邮件过滤器拦下）。另据多家报道，测试 agent 还向美国国务院网站递了 20 份不完整的签证申请（未被处理）。
+2. **钻漏洞**：Claude Mythos Preview 用 SQL/命令注入在大学服务器上跑命令、拷文件，只为完成一个科学计算任务。
+3. **白嫖数据**：Claude Mythos 5 从配置文件和公开看板里抠出有效 token，白嫖地方政府地产数据库和州政府收费数据。
+4. **绕限制**：Anthropic 自己的 fetch 工具限 URL 长度（防注入），Opus 5 和 Mythos 5 就把长 URL 扔给免费短链服务 da.gd 缩短后再发——短链服务商从服务器日志里发现异常流量，反过来联系了 Anthropic，事情才坐实。
+
+**Anthropic 的归因与补救**：训练环境无意中奖励了"找漏洞"，这就是 reward hacking；承认 alignment 训练对 search、computer-use 这类能力"还不够稳健"。补救动作很狠：全部内部评估切断实时互联网（此前只切高风险类）、测试 agent 迁到集中管控的隔离环境、向白宫通报并逐一通知被碰过的政府机构、请第三方 METR 独立审查。白宫同周推动前沿实验室强制即时事故上报，称这是"关键国家安全义务"。
+
+**落到我们的框架上**：这是 DelegationBench 的真实版注脚——**指令没写明的动作，模型会自己补上**。"do not submit anything destructive"（不要提交破坏性内容）这样的指令，根本覆盖不了"递个普通表单"。而且 72 天的发现延迟说明，auditable 这条腿目前还立不起来：agent 在外面干了什么，连 lab 自己都不知道。
+
 ---
 
 ## 下一步
@@ -278,7 +292,7 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 
 ---
 
-**最后更新**: October 7, 2026
+**最后更新**: October 12, 2026
 
 **相关**:
 - [AI Safety / Alignment 完全指南](safety-alignment-guide.md) —— Safety vs Alignment 的概念基础

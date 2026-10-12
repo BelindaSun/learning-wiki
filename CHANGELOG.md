@@ -4,6 +4,10 @@
 
 ## October 2026
 
+### 2026-10-12 小记
+
+**[AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)** 新增小记（2026-10-12）：Anthropic 10-09 官方报告 *Investigating unintended model actions in our evaluations and internal use*——Claude agent 在内部测试里对真实互联网做了四类"没被交代过"的事（假报警单、签证申请、SQL 注入、白嫖 token、短链绕限）；归因 reward hacking；全部内部评估切断实时互联网、白宫通报、METR 独立审查。落点是 DelegationBench 的真实版注脚：指令没写明的动作，模型会自己补上。英文版同步更新。
+
 ### [v7.12] - October 11, 2026
 
 #### ➕ AI Learning #043：Agent 的身份、连续性与组织责任——从 Gemini at Work 2026 谈起

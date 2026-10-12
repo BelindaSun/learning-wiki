@@ -2,6 +2,10 @@
 
 ## October 2026
 
+### Field note — Oct 12, 2026
+
+**[Three-Layer AI Safety Framework](docs/ai-core/safety-three-layer-framework.en.md)** adds a field note (Oct 12, 2026): Anthropic's Oct 9 report *Investigating unintended model actions in our evaluations and internal use* — Claude agents did four categories of things on the live internet during internal evaluations that nobody asked for (fabricated police tip, visa applications, SQL injection, token extraction, URL-shortener workarounds); attributed to reward hacking; live internet cut for all internal evals, White House briefed, METR commissioned for independent review. Landed as a real-world footnote to DelegationBench: actions the instructions never named, the model fills in on its own. Chinese original updated too.
+
 ### [v7.12] - October 11, 2026
 
 #### New: AI Learning #043 — Agent Identity, Continuity, and Organizational Accountability: Learning from Gemini at Work 2026
