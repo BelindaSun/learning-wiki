@@ -403,18 +403,18 @@ This gives our earlier line "Merchants get transactions, Agents get relationship
 
 The future is probably not one Super Agent eating everyone, but several **Agent Empires** — hold your home turf first, expand into adjacent territory, then compete in the overlaps.
 
-| Company | What it's fighting for | Why it's in the game |
-|---|---|---|
-| Meta | Relationships / Life | Distribution + free + social graph |
-| Microsoft | Workflows / Work | M365 + enterprise identity / data |
-| OpenAI | Intentions | The "ask AI first" mindshare |
-| Google | Information / Intent | Search + Gmail + Maps + Android |
-| Apple | Personal Context / Device | Device + trust + identity |
-| Instinct | Delegation | The most Agent-native new player |
-| Anthropic | Knowledge Work | Claude + coding + computer use |
-| Salesforce | Customer / Sales | CRM is a natural Agent action layer |
-| ServiceNow | Enterprise Process | trigger → rules → approval → action → audit |
-| Glean | Enterprise Knowledge | The cross-system "organizational brain" |
+| Company | What it's fighting for | Why it's in the game | Biggest structural risk |
+|---|---|---|---|
+| Meta | Relationships / Life | Distribution + free + social graph | Conflict between ads and fiduciary duty |
+| Microsoft | Workflows / Work | M365 + enterprise identity / data | Innovator's dilemma: can't let Agents eat its own Apps franchise |
+| OpenAI | Intentions | The "ask AI first" mindshare | Intention is the most portable moat — and it owns no distribution |
+| Google | Information / Intent | Search + Gmail + Maps + Android | Agents answer directly, cannibalizing search ads |
+| Apple | Personal Context / Device | Device + trust + identity | Behind on model capability |
+| Instinct | Delegation | The most Agent-native new player | Largest Trust Gap: building fiduciary relationships from zero |
+| Anthropic | Knowledge Work | Claude + coding + computer use | The moat *is* model capability — hit first when intelligence commoditizes; no owned distribution |
+| Salesforce | Customer / Sales | CRM is a natural Agent action layer | Single-function coverage |
+| ServiceNow | Enterprise Process | trigger → rules → approval → action → audit | Enterprise back office only — no cards to play on the intention side |
+| Glean | Enterprise Knowledge | The cross-system "organizational brain" | Retrieval without action; easily replicated in passing by M365 / Google |
 
 On radar (strategically distinct positions, keep watching): **Amazon** (AWS + Commerce + Logistics — a special position if Agentic Commerce takes off), **Manus Cue** (the pure "Agent as a digital employee" direction), **Sierra** (enterprise-facing-consumer agents: Belinda's Agent ↔ Marriott's Agent — who supplies the right-hand side?).
 

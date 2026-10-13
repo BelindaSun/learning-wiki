@@ -403,18 +403,18 @@ Ben Thompson 的核心判断：*Agents are the ultimate Aggregators.*
 
 未来可能不是一个 Super Agent 吃掉所有人，而是几个 **Agent Empire**——先守住根据地，再向相邻领域扩张，最终形成重叠竞争。
 
-| 公司 | 抢的是什么 | 凭什么 |
-|---|---|---|
-| Meta | Relationships / Life | 分发 + 免费 + social graph |
-| Microsoft | Workflows / Work | M365 + 企业 identity / data |
-| OpenAI | Intentions | "有事先问 AI"的心智入口 |
-| Google | Information / Intent | Search + Gmail + Maps + Android |
-| Apple | Personal Context / Device | device + trust + identity |
-| Instinct | Delegation | 最 Agent-native 的新玩家 |
-| Anthropic | Knowledge Work | Claude + coding + computer use |
-| Salesforce | Customer / Sales | CRM 天然就是 Agent action layer |
-| ServiceNow | Enterprise Process | trigger → rules → approval → action → audit |
-| Glean | Enterprise Knowledge | 跨系统的"组织大脑" |
+| 公司 | 抢的是什么 | 凭什么 | 最大的结构性风险 |
+|---|---|---|---|
+| Meta | Relationships / Life | 分发 + 免费 + social graph | 广告与托付的利益冲突 |
+| Microsoft | Workflows / Work | M365 + 企业 identity / data | 创新者窘境：不敢让 Agent 吃掉自己的 Apps 基本盘 |
+| OpenAI | Intentions | "有事先问 AI"的心智入口 | Intention 是最容易迁移的护城河，且无自有分发 |
+| Google | Information / Intent | Search + Gmail + Maps + Android | Agent 直接给答案，会蚕食搜索广告 |
+| Apple | Personal Context / Device | device + trust + identity | 模型能力落后 |
+| Instinct | Delegation | 最 Agent-native 的新玩家 | Trust Gap 最大：从零开始建立托付关系 |
+| Anthropic | Knowledge Work | Claude + coding + computer use | 护城河就是模型能力本身，商品化时首当其冲；没有自有分发 |
+| Salesforce | Customer / Sales | CRM 天然就是 Agent action layer | 只覆盖一个职能 |
+| ServiceNow | Enterprise Process | trigger → rules → approval → action → audit | 只有企业后端流程，intention 侧无牌可打 |
+| Glean | Enterprise Knowledge | 跨系统的"组织大脑" | 只有检索、没有行动；M365 / Google 顺手就能做 |
 
 雷达（战略位置特殊，持续观察）：**Amazon**（AWS + Commerce + Logistics，Agentic Commerce 的特殊位置）、**Manus Cue**（"Agent 是一个数字员工"的纯粹路线）、**Sierra**（企业面对消费者的 Agent：Belinda's Agent ↔ Marriott's Agent，右边那个谁来提供）。
 
