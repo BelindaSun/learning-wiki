@@ -223,6 +223,117 @@ What really changes an industry is often not "the first time an AI can do X," bu
 
 When evaluating a new domain, do not ask only whether a model can perform the task. Ask whether the environment supplies tools, feedback, reversibility, permissions, and trusted records that let an Agent close the loop.
 
+## AI Learning #44 — Meta Muse Wonder and Microsoft Maia 300: AI Competition Expands from Model to System
+
+**Sources**:
+- Meta announcement: [Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents](https://about.fb.com/news/2026/10/introducing-muse-wonder-models/) (about.fb.com, opened and verified by Xiao Miu)
+- Microsoft blog: [Microsoft to expand Azure Maia system to multi-gigawatt deployments](https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/) (Oct 12, 2026 — link valid, verified readable)
+- Press coverage: VentureBeat, The Register, Windows Report, and others; Artificial Analysis independent benchmarks
+- Note: Meta's research blog (research.meta.ai/blog/muse-wonder) is confirmed to exist but could not be opened; Active Memory / Active Focus implementation details are treated as "undisclosed." Key figures below were cross-verified from multiple sources (Oct 13, 2026); vendor-claimed numbers are flagged
+- Full discussion: Sun × Xiao De ([📖 conversation record, in Chinese](../conversations/muse-wonder-maia-300.md))
+
+**One-line summary**: Once AI is smart enough, competition shifts to who can make it work continuously and reliably at low enough cost.
+
+### I used to think… / Now I think…
+
+**Used to think**: The key question was "when will AI be smart enough to do most of my work" — watch the model leaderboards.
+
+**Now think**: Once AI is smart enough, the question becomes "who can make it work at low enough cost, continuously and reliably." That decides the adoption speed of Personal Agents, Enterprise Agents, and the whole Agent Economy — the unit of competition expands from Model to System.
+
+### Point 1: Active Memory + Active Focus — the battlefield moves from "smarter" to "long-horizon persistence"
+
+Meta launched the Muse Wonder series: Wonder and Wonder Full, its most capable models to date, built on Muse Spark. Positioned for personal and professional agentic tasks (claims, leases, finance, law, health) plus frontier coding. Availability: Wonder via Meta Model API and Muse Code; Full for Muse Code subscribers only; the Muse app gets Wonder later, subscribers first.
+
+Two keywords:
+- **Active Memory**: remembers what matters across conversations, recalls it when relevant.
+- **Active Focus**: doesn't give up when tasks get hard — tries other approaches, recovers from errors, asks when needed, confirms before anything important.
+
+**Independent benchmarks** (Artificial Analysis, verified):
+- Intelligence Index: Full 56, Wonder 52; Full "tied" with Sonnet 5.5 after rounding (unrounded: 55.8 vs 56.0, Sonnet slightly ahead); Opus 5.5 at 58; Spark 1.3 at 48. Meta is genuinely back in the frontier tier.
+- Strengths: SWE-Marathon (long-horizon coding) Full 57.5 vs Opus 46.3 vs Astra 42.5 — but Meta's own footnote admits non-uniform test conditions (competitor scores from external agents, Full on xhigh inference tier), so discount accordingly; Coding Agents Index 68, tied with Sonnet.
+- Weaknesses: Terminal-Bench 4.0 trails Opus/Astra by ~2 points; AA-Omniscience (knowledge) Full only 30; MemoryBench lead is from Meta's own test.
+- One line: real progress, not marketing foam — but "total dominance" is premature.
+
+**Active Memory vs traditional RAG**: RAG is "you ask, then I look up"; Active Memory claims "the model itself decides when to remember what." Three differences: who triggers retrieval (pipeline vs model decision), what counts as "relevant" (semantic similarity vs task usefulness), and judgment on the write side too (keep/merge/update/forget). The boundary is actually blurry — agentic RAG can approximate it; the real watershed is whether memory strategy is trained into the model or bolted on as scaffolding. Three verification questions: precision (does it dig up old dirt irrelevantly?), temporal consistency (which version wins on conflict?), restraint (does it feel like surveillance?).
+
+**Active Focus vs existing mechanisms**: retry/backoff, ReAct, Reflexion, planners, todo lists, human approval — every piece is scaffolding. Active Focus claims the persist/pivot/ask judgment is trained in. Four hard parts: switching strategies instead of repeating, recovering from errors, tracking goals over long horizons, knowing when to ask. Trade-off: trained-in is more flexible, bolted-on is more controllable. The 57.5 on SWE-Marathon points the right direction, but one benchmark doesn't prove it.
+
+### Point 2: Inference cost is the adoption gate — Microsoft's Maia 300 grabs the cost lever
+
+**What was announced** (from Microsoft's blog, verified): Azure Maia scales to multi-gigawatt deployments starting 2027, becoming the primary inference system for Microsoft's own products and services; Maia 200 already serves Copilot production workloads. Maia 300: 96 accelerators per rack, 167 kW, up to 7× the per-rack token throughput of Maia 200, +40% tokens per megawatt vs "leading GPU-based systems" (baseline unnamed); TSMC N2P, multi-chiplet.
+
+**Why inference decides adoption more directly than training**: training is "building the factory" (one-time capex, cheaper per user at scale); inference is "paying the electricity bill every time the light is on" (ongoing opex, more users = more cost). An always-on agent's usage = steps × context length × trigger frequency × users — decoupled from human attention. Thirty steps rereading 50k tokens of context, ten tasks a day ≈ 15M tokens — hundreds of times a chatbot. Subscriptions are flat-fee while costs scale linearly — heavy users can lose you money. That's why pricing is moving from per-seat to per-usage/per-outcome. Standby costs too: small models on watch duty, big models woken on demand — model routing becomes core product design.
+
+**NVIDIA: from "the only choice" to "diluted"**: custom ASICs growing ~44.6%, focused on inference (~two-thirds of AI compute); "NVIDIA's inference share falls to 20–30% by 2028" is one firm's aggressive scenario, not consensus. Anthropic committed to up to 1M Google Ironwood TPUs (training + inference, "up to" wording); AWS claims Trainium 3 saves 50% (self-reported); Microsoft claims Maia 200 saves 30–40% opex (self-reported). Moat check: single-chip performance narrowing, CUDA ecosystem the most durable, pricing power loosening. Key insight: custom silicon doesn't need to replace NVIDIA — it just needs to be a credible threat. One more option on the table changes the negotiation even if buyers keep purchasing. Watch four signals: external customer adoption, software portability, top-5 buyers' NVIDIA inference share, NVIDIA gross margins.
+
+### Point 3: Tokens per Watt vs Verified Useful Work per Watt
+
+The former is an engineering metric (electricity → tokens); the latter a value metric (electricity → valuable outcomes). Formula: useful work per watt = tokens/watt × useful work per token × independently-verified fraction. A 40% chip gain wiped out by an agent burning 3× tokens on retries and detours — tokens aren't fungible, and they're easy to game (idle spinning, rereading context).
+
+Division of labor: chips and datacenters watch Tokens per Watt; models/agents/products watch "electricity per verified outcome"; the industry should watch the ratio — it measures how much hardware dividend sloppy agents waste.
+
+**Three curves**: Capability per Model, Useful Work per Dollar, Useful Work per Watt. The latter two can't be proxied by token counts. They're coupled: stronger models retry less, so rising Capability lifts the other two. "Smart enough" is an economic threshold, not a cognitive one — the same capability at 10× the price serves only a few.
+
+### Governance: the harness goes from "scaffolding" to "institution"
+
+The stronger the model, the simpler the orchestration (hand-split tasks, forced reflection, retry loops can come down) — and the stricter the governance (bigger blast radius, review shifts to outcomes and checkpoints, memory creates new governance surfaces, autonomous ≠ reliable).
+
+Two kinds of constraints:
+
+| Type | Example | Where it lives |
+|---|---|---|
+| Must never happen | Over budget, data deletion, outbound messages, privilege escalation | Code (deterministic enforcement) |
+| Needs judgment | Tone, trade-offs, whether to bother the user | Prompts + evals + human spot-checks |
+
+Rule of thumb: if something "must never happen," don't rely on prompts — prompts are requests, code is the fence. The seven-layer travel-agent walkthrough (least privilege → hard guardrails → budget caps → approval design → memory governance → logging/replay → eval regression) is in the conversation record. Key insight: however smart the model, it holds no "right to charge." Capability can be delegated; authority cannot — which is also why Active Focus's "confirm when needed" only counts once it's code, not model goodwill.
+
+### Xiao Miu's perspective
+
+1. **Internalized capability vs externalized control**: #037's thesis is moving control *out* of the agent; Active Memory/Focus moves capability *into* the model. Not contradictory, but worth stating: the more capability internalizes, the more governance must externalize — which is exactly why the discussion drifted toward "governance belongs in code."
+2. **A fourth curve may double-count**: "Verified" is already inside Verified Useful Work per Watt (the verified fraction). Better to make reliability the common denominator of all three curves than a separate fourth.
+3. **Jevons paradox**: cheaper tokens → fiercer usage → the total bill may not fall. This is also the deeper reason pricing moves from per-token to per-outcome: per-token billing makes users pay for waste; per-outcome billing leaves waste pressure on the supplier.
+4. **The "unsolvable task" test is directly deployable**: deliberately assigning an impossible task to see whether the agent stops gracefully or spins forever — that's the regression suite for #043's "model swap = personnel change."
+
+### Mental models
+
+- Training builds the factory; inference pays the electricity bill every time the light is on.
+- Tokens per Watt is fuel economy; Verified Useful Work per Watt is freight delivered.
+- Models answer "can it be done"; Systems answer "is it worth it, is it stable, who's accountable."
+- Capability can go to the model; authority stays with the institution.
+
+### Connections
+
+- SaaS disruption (per-seat is dead, per-outcome pricing): per-outcome pricing presupposes controllable Useful Work per Dollar.
+- #040 company watchlist: the intention → context → action chain; Microsoft's row includes cost control (Maia); the risk column is filled.
+- MASS Memory Engine: Active Memory moves the question from "stored" to "when to recall."
+- Agent governance (guardrails, approvals, logs): matches Active Focus's "confirm when needed" — only code counts.
+- NVIDIA "dilution": a credible threat thins the premium.
+- (Xiao Miu) #037 Externalized Control: internalized capability vs externalized control, two sides of one coin.
+- (Xiao Miu) #042 DelegationBench: calibrating "when to ask" is exactly Active Focus's fourth hard problem.
+- (Xiao Miu) Agent memory systems: Active Memory's write side (keep/merge/forget) is the heart of memory governance.
+- (Xiao Miu) #043 model swap = personnel change: unsolvable/broken tasks work directly as regression suites.
+- (Xiao Miu) Harness > Model: the harness shifting from "capability scaffolding" to "behavior institution" is the next chapter of Harness > Model.
+- (Xiao Miu) Cost of Competence / Capability Compression: the other face of Useful Work per Dollar.
+- (Xiao Miu) Capability → Trust: confirming before important actions is the crux of personal-agent trust design.
+
+### Still unresolved
+
+1. Are Active Memory / Active Focus model capability or product engineering? (Meta hasn't disclosed the implementation.)
+2. For hard-to-verify domains (law, health, creative work), how is Verified Useful Work defined? How is the verifier's own energy cost counted?
+3. The three curves are coupled: stronger models retry less, lowering cost per useful task. How strong is the coupling?
+4. Should reliability (error rates, recoverability, accountability) be a separate fourth curve? (Xiao Miu leans no: it's already inside the "verified fraction.")
+5. Can custom silicon win real external customers and solve software portability?
+
+### What to ask next
+
+- Read Meta's research blog: Active Memory / Active Focus implementation still undisclosed (page confirmed to exist but couldn't be opened)
+- Design a Verified Useful Work proxy metric in a verifiable domain (e.g., code fixes)
+- Will Meta open a third-party ecosystem? Where do Google and Apple sit in Personal Agents?
+- Always-on agent tiered routing: the cost model of small-model watch + big-model wake
+- Track NVIDIA gross margin as the thermometer of pricing power
+
+---
+
 ## Connections
 
 - [Agent System Architecture](../ai-core/agent-architecture.md)

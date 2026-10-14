@@ -4,6 +4,10 @@
 
 ---
 
+**Model Rankings → System Economics**（Oct 13）
+以为竞争看模型排行榜；Meta Wonder + 微软 Maia 之后觉得，AI 够聪明之后竞争看谁能让它以足够低的成本持续可靠地工作。训练是进入门槛（盖工厂），推理是普及门槛（每次开灯付电费）。*Model 回答"能不能"，System 回答"值不值、稳不稳、谁负责"。*
+→ 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)
+
 **Intelligence → Continuity → Accountability**（Oct 11）
 以为 Agent 的竞争是"谁的模型更聪明"；Gemini at Work 2026 之后觉得，模型是可租用的智能，Agent 的价值在于持续的身份、上下文和工作关系——而责任始终要由组织和人来承担。*Models provide intelligence. Agents maintain continuity. Organizations provide accountability.* 小缪补了一刀：公式里 Model Access 被标成"唯一可替换项"，但换模型 = 人事变动（评测、回归、留痕、具名负责人），所以是"可替换但有摩擦"——换电池 vs 器官移植。
 → 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)

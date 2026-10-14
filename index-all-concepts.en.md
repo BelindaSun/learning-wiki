@@ -6,6 +6,8 @@
 
 - **Accelerator** — [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Accumulative vs. Decisive Risk** — [The Agent Single-Axis Problem](docs/ai-core/agent-single-axis-problem.md)
+- **Active Focus** — persisting through hard long-horizon tasks: switching strategies, recovering from errors, tracking goals, asking when needed; claimed as trained-in → [Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md#ai-learning-44--meta-muse-wonder-and-microsoft-maia-300-ai-competition-expands-from-model-to-system)
+- **Active Memory** — proactively recalling what's relevant across conversations; the model decides when to remember, not the pipeline → [Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md#ai-learning-44--meta-muse-wonder-and-microsoft-maia-300-ai-competition-expands-from-model-to-system)
 - **Agent** — [Agent Architecture](docs/ai-core/agent-architecture.md)
 - **Agent Interface** — [From SEO to Agent Economy](docs/career-impact/from-seo-to-agent-economy.en.md)
 - **Agent as Economic Proxy** — [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.en.md)
@@ -124,6 +126,7 @@
 
 - **Inference** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Inference Cost** — [Models Deep Dive](docs/ai-research/models-deep-dive.en.md)
+- **Inference Economics** — training is the entry barrier (building the factory), inference the adoption barrier (paying the power bill); always-on usage decouples from human attention → [Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md#ai-learning-44--meta-muse-wonder-and-microsoft-maia-300-ai-competition-expands-from-model-to-system)
 - **Improvement Governance** — the hard part isn't teaching AI to improve itself but building an institution in which fake progress can't survive: Modification + Independent Evaluation + Held-out Testing + Regression Check + Cost Check + Rollback → [Recursive Self-Improvement](docs/ai-research/recursive-self-improvement.en.md#from-self-improvement-to-improvement-governance-who-decides-the-ai-really-improved)
 - **Intelligence Explosion** — AI-driven acceleration of AI progress: years of progress compressed into months or less; no AI awakening required, just the "AI helps AI R&D" feedback loop spinning up → [Research Acceleration](docs/ai-research/research-acceleration.en.md)
 - **Intelligence Platform** — [OpenAI as an Intelligence Platform](docs/career-impact/openai-intelligence-platform.md)
@@ -253,6 +256,7 @@
 
 - **Vector DB** — [RAG Guide](docs/ai-application/rag-guide.en.md)
 - **Vertical Agent** — [Skills](docs/ai-application/skills-business-landscape.md)
+- **Verified Useful Work per Watt** — electricity-to-valuable-outcome efficiency = tokens/watt × useful work per token × independently-verified fraction; fuel economy vs freight delivered → [Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md#ai-learning-44--meta-muse-wonder-and-microsoft-maia-300-ai-competition-expands-from-model-to-system)
 - **Weights** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Worker** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md)
 - **Workflow / Workflow Design** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md) · [Workflow Design](docs/ai-application/workflow-design-guide.md)

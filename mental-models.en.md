@@ -4,6 +4,10 @@
 
 ---
 
+**Model Rankings → System Economics** (Oct 13)
+I assumed competition was about model leaderboards. After Meta Wonder + Microsoft Maia: once AI is smart enough, competition is about who can make it work continuously and reliably at low enough cost. Training is the entry barrier (building the factory); inference is the adoption barrier (paying the power bill with every use). *Models answer "can it be done"; Systems answer "is it worth it, is it stable, who's accountable."*
+→ Read [Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md#ai-learning-44--meta-muse-wonder-and-microsoft-maia-300-ai-competition-expands-from-model-to-system)
+
 **Intelligence → Continuity → Accountability** (Oct 11)
 I assumed agent competition was about "whose model is smarter." After Gemini at Work 2026: models are rentable intelligence; an agent's value lives in persistent identity, context, and working relationships — while accountability always stays with the organization and its people. *Models provide intelligence. Agents maintain continuity. Organizations provide accountability.* With one challenge from Xiao Miu: the formula labels Model Access "the only replaceable item," but swapping a model = a personnel change (evaluation, regression, audit trail, named owner) — so it's "replaceable, but with friction."
 → Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability)

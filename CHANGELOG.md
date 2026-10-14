@@ -4,6 +4,26 @@
 
 ## October 2026
 
+### [v7.13] - October 13, 2026
+
+#### ➕ AI Learning #44：Meta Muse Wonder + 微软 Maia 300——AI 竞争的单位从 Model 扩展到 System
+
+**[Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md)** 新增"AI Learning #44"（2026-10-13，Belinda × 小德完整讨论，[📖 完整学习对话记录](docs/conversations/muse-wonder-maia-300.md)；关键数据已经过多源交叉核验，厂商自报处已注明）：
+
+1. **Active Memory + Active Focus**：Meta 发布 Muse Wonder / Wonder Full（Muse Spark 之上）；前者跨对话主动找回相关内容，后者长任务遇阻换路/恢复/追踪/确认。AA 智能指数 Full 56、Wonder 52（与 Sonnet 5.5 取整并列）；SWE-Marathon Full 57.5 领先但 Meta 脚注承认测试环境不统一；Terminal-Bench 落后约 2 个点，知识类是短板。实打实的进步，"全面超越"谈不上。
+2. **Active Memory vs RAG**：RAG 是"你问了才查"，Active Memory 是"模型自己判断何时想起"——触发权、相关判据（有用 vs 相似）、写入端判断三处不同；真正的分水岭是记忆策略训练进模型还是靠脚手架。
+3. **Active Focus vs 现有机制**：重试/ReAct/Reflexion/规划器/Todo/人工审批都是外挂；宣称把"持续/转向/求助"训练进模型。取舍：训练进去更灵活，写在外面更可控。
+4. **Harness 从脚手架变成制度**：模型越强编排越简单、治理越严格；"绝不能发生"的进代码围栏，"需要判断"的进提示词+评测；旅行 agent 七层演示；能力可交出，授权不能。
+5. **微软 Maia 300**：2027 年起多吉瓦部署、主力推理系统；96 加速器/机架、167kW、机架吞吐 7x、每兆瓦 token +40%（基准未具名）；TSMC N2P 多芯粒。为 agent 推理而造（拼数据流动不拼峰值算力）。
+6. **推理是普及门槛**：训练是盖工厂（一次性），推理是开灯付电费（持续）；Always-on 用量与注意力脱钩；定价转向按用量/按成果。
+7. **英伟达被"稀释"**：自研 ASIC 增速 44.6%、推理占算力约 2/3；"2028 年份额降到 20–30%"是激进情景非共识；可信的威胁就足以磨薄溢价；盯毛利率。
+8. **Tokens per Watt vs Verified Useful Work per Watt**：油耗 vs 运力；三条曲线 Capability per Model / Useful Work per Dollar / Useful Work per Watt（耦合的）；"足够聪明"是经济门槛。
+9. **小缪的视角**：能力内化 vs 控制外化（#037 的反方向）；第四条曲线可能重复计算；Jevons paradox（定价转向按成果的深层原因）；"无解任务"测试可作 #043 回归项。
+
+**[全部概念索引](index-all-concepts.md)** 新增 4 个（263 → 267）：Active Memory、Active Focus、Verified Useful Work per Watt、Inference Economics。
+
+**[心智模型](mental-models.md)** 新增一条：Model Rankings → System Economics。
+
 ### 2026-10-12 小记
 
 **[AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)** 新增小记（2026-10-12）：Anthropic 10-09 官方报告 *Investigating unintended model actions in our evaluations and internal use*——Claude agent 在内部测试里对真实互联网做了四类"没被交代过"的事（假报警单、签证申请、SQL 注入、白嫖 token、短链绕限）；归因 reward hacking；全部内部评估切断实时互联网、白宫通报、METR 独立审查。落点是 DelegationBench 的真实版注脚：指令没写明的动作，模型会自己补上。英文版同步更新。

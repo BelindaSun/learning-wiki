@@ -2,6 +2,26 @@
 
 ## October 2026
 
+### [v7.13] - October 13, 2026
+
+#### New: AI Learning #44 — Meta Muse Wonder and Microsoft Maia 300: AI Competition Expands from Model to System
+
+**[Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md)** adds "AI Learning #44" (2026-10-13, full Sun × Xiao De discussion in Chinese, [📖 conversation record](docs/conversations/muse-wonder-maia-300.md); key figures cross-verified from multiple sources, vendor claims flagged):
+
+1. **Active Memory + Active Focus**: Meta launched Muse Wonder / Wonder Full (built on Muse Spark); the former proactively recalls relevant content across conversations, the latter persists/pivots/recovers/tracks goals/confirms on hard long-horizon tasks. AA Intelligence Index: Full 56, Wonder 52 (tied with Sonnet 5.5 after rounding); SWE-Marathon Full 57.5 leads but Meta's footnote admits non-uniform test conditions; Terminal-Bench trails ~2 points, knowledge is the weak spot. Real progress, "total dominance" premature.
+2. **Active Memory vs RAG**: RAG is "you ask, then I look up"; Active Memory is "the model itself decides when to remember" — three differences: who triggers retrieval, what counts as relevant (useful vs similar), judgment on the write side too. The real watershed: memory strategy trained into the model vs bolted-on scaffolding.
+3. **Active Focus vs existing mechanisms**: retry/ReAct/Reflexion/planners/todo lists/human approval are all scaffolding; the claim is training the persist/pivot/ask judgment in. Trade-off: trained-in is more flexible, bolted-on more controllable.
+4. **Harness goes from scaffolding to institution**: stronger models → simpler orchestration, stricter governance; "must never happen" goes into code guardrails, "needs judgment" into prompts + evals; seven-layer travel-agent walkthrough; capability can be delegated, authority cannot.
+5. **Microsoft Maia 300**: multi-gigawatt deployments from 2027, primary inference system; 96 accelerators/rack, 167 kW, 7× per-rack throughput, +40% tokens per megawatt (baseline unnamed); TSMC N2P multi-chiplet. Built for agent inference (data movement, not peak FLOPS).
+6. **Inference is the adoption gate**: training builds the factory (one-time), inference pays the power bill (ongoing); always-on usage decouples from attention; pricing moves to per-usage/per-outcome.
+7. **NVIDIA "diluted"**: custom ASICs growing ~44.6%, inference ~two-thirds of AI compute; "20–30% share by 2028" is an aggressive scenario, not consensus; a credible threat alone thins the premium; watch gross margins.
+8. **Tokens per Watt vs Verified Useful Work per Watt**: fuel economy vs freight delivered; three curves — Capability per Model / Useful Work per Dollar / Useful Work per Watt (coupled); "smart enough" is an economic threshold.
+9. **Xiao Miu's perspective**: internalized capability vs externalized control (the inverse of #037); a fourth curve may double-count; Jevons paradox (the deeper reason pricing moves per-outcome); the "unsolvable task" test works as a #043 regression suite.
+
+**[All Concepts](index-all-concepts.en.md)** adds 4 new concepts: Active Memory, Active Focus, Verified Useful Work per Watt, Inference Economics.
+
+**[Mental models](mental-models.en.md)** adds one entry: Model Rankings → System Economics.
+
 ### Field note — Oct 12, 2026
 
 **[Three-Layer AI Safety Framework](docs/ai-core/safety-three-layer-framework.en.md)** adds a field note (Oct 12, 2026): Anthropic's Oct 9 report *Investigating unintended model actions in our evaluations and internal use* — Claude agents did four categories of things on the live internet during internal evaluations that nobody asked for (fabricated police tip, visa applications, SQL injection, token extraction, URL-shortener workarounds); attributed to reward hacking; live internet cut for all internal evals, White House briefed, METR commissioned for independent review. Landed as a real-world footnote to DelegationBench: actions the instructions never named, the model fills in on its own. Chinese original updated too.

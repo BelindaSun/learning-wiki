@@ -288,6 +288,117 @@ GPT-6.1 Sol 在 agentic coding、computer use、professional work 上接近 GPT-
 
 ---
 
+## AI Learning #44 — Meta Muse Wonder 与微软 Maia 300：AI 竞争的单位从 Model 扩展到 System
+
+**学习来源**：
+- Meta 官方发布稿：[Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents](https://about.fb.com/news/2026/10/introducing-muse-wonder-models/)（about.fb.com，小缪已亲手打开核实）
+- 微软官方博客：[Microsoft to expand Azure Maia system to multi-gigawatt deployments](https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/)（2026-10-12，链接有效、已核实可读）
+- 媒体报道：VentureBeat、The Register、Windows Report 等；Artificial Analysis 独立评测数据
+- 说明：Meta 研究博客（research.meta.ai/blog/muse-wonder）确认存在但未能打开，Active Memory / Active Focus 的实现机制按"未披露"处理；以下关键数据已经过多源交叉核验（2026-10-13），厂商自报处已注明
+- 完整讨论：Belinda × 小德（[📖 完整学习对话记录](../conversations/muse-wonder-maia-300.md)）
+
+**一句话总结**：AI 足够聪明之后，竞争焦点变成谁能让它以足够低的成本、持续可靠地工作。
+
+### 原来我认为…… vs 现在我认为……
+
+**原来认为**：关键问题是"AI 什么时候会足够聪明，能替我完成大部分工作"，竞争看模型排行榜。
+
+**现在认为**：当 AI 已经足够聪明，问题变成"谁能让它以足够低的成本、持续可靠地工作"。这决定 Personal Agent、Enterprise Agent 乃至 Agent Economy 的普及速度——竞争单位从 Model 扩展到 System。
+
+### 知识点一：Active Memory + Active Focus——战场从"更聪明"转向"长程持续"
+
+Meta 发布 Muse Wonder 系列：Wonder 和 Wonder Full，号称目前最强模型，建立在 Muse Spark 之上。定位是个人与职业场景的 agent 任务（理赔、租约、财务、法律、健康）+ 前沿编码。可用性：Wonder 经 Meta Model API 和 Muse Code 开放；Full 仅 Muse Code 订阅用户；Muse 应用稍后上线、订阅优先。
+
+两个关键词：
+- **Active Memory**：跨对话记住重要的事，在相关时调出来。
+- **Active Focus**：任务变难时不放弃——换思路、从错误中恢复、需要时追问、重要操作前先确认。
+
+**独立评测数据**（Artificial Analysis，已核验）：
+- 智能指数：Full 56、Wonder 52；Full 与 Sonnet 5.5 取整后并列（未取整 55.8 vs 56.0，Sonnet 微弱领先）；Opus 5.5 为 58；Spark 1.3 为 48。Meta 确实回到前沿梯队。
+- 长项：SWE-Marathon（长程编码）Full 57.5 vs Opus 46.3 vs Astra 42.5——但 Meta 脚注承认测试环境不统一（竞品成绩来自外部 agent，Full 用 xhigh 推理档），要打折看；Coding Agents Index 68 与 Sonnet 持平。
+- 短板：Terminal-Bench 4.0 落后 Opus/Astra 约 2 个点；AA-Omniscience（知识类）Full 仅 30；MemoryBench 领先但为 Meta 自建测试。
+- 一句话：实打实的进步，不是营销泡沫，但"全面超越"谈不上。
+
+**Active Memory vs 传统 RAG**：RAG 是"你问了，我才去查"；Active Memory 的主张是"模型自己判断什么时候该想起什么"。三个差异：触发权在谁手里（管线触发 vs 模型决策）、"相关"的判据（语义相似 vs 任务有用）、写入端也要判断（取舍/合并/更新/遗忘）。边界其实模糊——agentic RAG 也能搭出来；真正的分水岭是记忆策略训练进模型还是靠脚手架。验证三问：精度（会不会乱翻旧账）、时间一致性（新旧冲突信哪个）、克制（会不会让用户觉得被窥视）。
+
+**Active Focus vs 现有机制**：重试/退避、ReAct、Reflexion、规划器、Todo 清单、人工审批——每一块都是外挂。Active Focus 宣称把"持续/转向/求助"的判断训练进模型。四个难点：换路不复读、从错误中恢复、长程目标追踪、知道何时问人。取舍：训练进去更灵活，写在外面更可控。SWE-Marathon 的 57.5 与"遇挫不弃"方向一致，但一个基准不够证明。
+
+### 知识点二：推理成本是普及门槛——微软 Maia 300 把成本权握在自己手里
+
+**发布了什么**（微软官方博客原文，已核验）：2027 年起 Azure Maia 扩展到多吉瓦规模，成为微软自家产品和服务的主要推理系统；Maia 200 已在跑 Copilot 等生产负载。Maia 300 单机架 96 个加速器、功耗 167 千瓦，单机架 token 吞吐最高为 Maia 200 的 7 倍，每兆瓦 token 比"领先的 GPU 系统"多 40%（对照基准未具名）；台积电 N2P、多芯粒。
+
+**为什么推理比训练更直接决定普及**：训练是"盖工厂"（一次性资本开支，用户越多越便宜）；推理是"每开一次灯都要付电费"（持续运营开支，用户越多越贵）。Always-on Agent 的用量 = 步骤数 × 上下文长度 × 触发频率 × 用户数，与人的注意力脱钩——一个任务 30 步、每步重读 5 万 token，一天十个任务就是约 1500 万 token，是 chatbot 的几百倍。订阅是固定月费，成本却随用量线性涨——用得越勤越可能亏钱。这就是定价从"按座位"转向"按用量/按成果"的原因。待机也要钱：小模型值守分诊、大模型按需叫醒，模型路由成为产品设计核心。
+
+**英伟达：从"唯一选择"变成"通用的高端层"**：自研 ASIC 增速约 44.6%、主攻推理（推理约占 AI 算力三分之二）；"英伟达推理份额 2028 年降到 20–30%"是一家机构的激进情景，不是共识。Anthropic 已承诺最高 100 万颗 Google Ironwood TPU（训练+推理，"up to"口径）；AWS 称 Trainium 3 省 50%（自报）；微软称 Maia 200 省 30–40%（自报）。护城河评估：单芯片性能在收窄，CUDA 生态最稳，议价地位在松动。关键洞察：自研芯片不需要取代英伟达，只需要成为可信的威胁——买家多一个选项，谈判桌上的价格就变了。盯四个信号：外部客户采用、软件可移植性、前五大买家推理占比、英伟达毛利率。
+
+### 知识点三：Tokens per Watt vs Verified Useful Work per Watt
+
+前者是工程指标（电变成 token 的效率），后者是价值指标（电变成有价值成果的效率）。公式：有效成果/瓦 = Tokens/瓦 × 每 token 的有用工作 × 通过验证的比例。芯片涨 40% 但 agent 绕路多烧 3 倍 token，每瓦有效成果反而降一半——token 不等价、还容易被刷（空转、重复读上下文）。
+
+分工：芯片和数据中心看 Tokens per Watt；模型/agent/产品看"每个被验收的成果耗多少电"；行业整体盯两者的比值——它衡量软件层浪费了多少算力。
+
+**三条曲线**：Capability per Model（模型能力增长）、Useful Work per Dollar（单位成本完成多少有效任务）、Useful Work per Watt（单位电力支持多少有效任务）。后两项不能用 token 数替代。三条曲线是耦合的：更强的模型更少重试，Capability 上升本身会提高后两项。"足够聪明"不是认知门槛而是经济门槛——同样的能力贵十倍就只能少数人用。
+
+### 治理：Harness 从"脚手架"变成"制度"
+
+模型越强，编排越简单（为弥补能力不足写的硬拆任务、强制反思、重试循环可以拆掉），治理越严格（爆炸半径变大、审查对象变为结果和关键节点、记忆带来新治理面、自主≠可靠）。
+
+两类约束要分清：
+
+| 类型 | 例子 | 放哪里 |
+|---|---|---|
+| 绝不能发生 | 超预算、删数据、对外发消息、越权访问 | 代码（确定性强制） |
+| 需要判断 | 语气、取舍、该不该打扰用户 | 提示词 + 评测 + 人工抽查 |
+
+经验法则：如果一件事"绝不能发生"，就别靠提示词——提示词是请求，代码才是围栏。旅行 agent 的七层演示（权限最小化→硬围栏→预算硬顶→审批点→记忆治理→日志回放→评测回归）完整推演见对话记录。关键洞察：模型再聪明也没有"扣款权"，能力可以交出去，授权不能——这也回扣了 Active Focus 的"需要时确认"：只靠模型自觉是愿望，落成代码才是保证。
+
+### 小缪的视角
+
+1. **能力内化 vs 控制外化**：#037 的核心是把控制权搬出 agent，Active Memory/Focus 是把能力训练进模型。一个往外搬（为了可控），一个往里收（为了性能）。不矛盾，但说明：能力越内化，治理越要外化——这正是讨论后半段自然滑向"治理写进代码"的原因。
+2. **第四条曲线可能重复计算**："Verified"已经在 Useful Work per Watt 的定义里（通过验证的比例）。建议把可靠性写进这一项，让它当三条曲线的公约数，而不是单列一条。
+3. **Jevons paradox**：token 越便宜，agent 用得越狠，总账未必下降。这也是定价从"按 token"转向"按成果"的深层原因——按 token 收费让用户为浪费买单，按成果收费才把浪费的压力留给供给方。
+4. **"无解任务"测试可直接落地**：故意给无解任务看它是体面停下还是无限空转——这就是 #043"换模型=人事变动"的回归测试项，两处已连起来。
+
+### 心智模型
+
+- 训练是盖工厂，推理是每次开灯付电费。
+- Tokens per Watt 是油耗，Verified Useful Work per Watt 是运力。
+- Model 回答"能不能"，System 回答"值不值、稳不稳、谁负责"。
+- 能力可以交给模型，授权由制度持有。
+
+### 和以前哪些知识连接起来了？
+
+- SaaS 颠覆（座位模式已死、转向按成果收费）：按成果定价的前提，是 Useful Work per Dollar 可控。
+- #040 公司对照表：意图 → 上下文 → 行动这条链；微软一行的优势含成本控制（Maia）；风险列已补。
+- MASS Memory Engine：Active Memory 把问题从"存下来"推进到"何时该想起来"。
+- Agent 治理（围栏、审批、日志）：对应 Active Focus"需要时确认"，落成代码才是保证。
+- 英伟达"稀释"：可信的威胁磨薄溢价。
+- （小缪补充）#037 Externalized Control：能力内化 vs 控制外化的一体两面。
+- （小缪补充）#042 DelegationBench："何时问人"的校准，正是 Active Focus 第四个子能力的核心问题。
+- （小缪补充）Agent 记忆系统：Active Memory 的写入端（取舍/合并/遗忘）正是记忆治理的核心。
+- （小缪补充）#043 换模型=人事变动：无解/出错任务可直接用作回归测试集。
+- （小缪补充）Harness > Model：harness 从"能力脚手架"转向"行为制度"，是 Harness > Model 的下一章。
+- （小缪补充）Cost of Competence / Capability Compression：Useful Work per Dollar 的另一面——能力下沉与成本可承受性。
+- （小缪补充）Capability → Trust：重要操作前确认，是个人 agent 信任设计的关键。
+
+### 仍然没弄懂的问题
+
+1. Active Memory / Active Focus 到底是模型能力还是产品工程？（Meta 未披露实现）
+2. 法律、健康、创作这类难验证的领域，Verified Useful Work 怎么定义？验证本身的能耗怎么计入？
+3. 三条曲线是耦合的：更强的模型会减少重试，从而降低单位有效任务成本。耦合有多强？
+4. 可靠性（错误率、可恢复性、谁负责）要不要单独作为第四条曲线？（小缪倾向不必：已含在"通过验证的比例"里）
+5. 自研芯片能否真正拿到外部客户、解决软件可移植性？
+
+### 以后还想继续问什么
+
+- Meta 研究博客原文待读：Active Memory / Active Focus 的实现机制仍未披露（页面确认存在但未能打开）
+- 用可验证的领域（如代码修复）设计一个 Verified Useful Work 的代理指标
+- Meta 会不会开放第三方生态？Google 和 Apple 在 Personal Agent 里的位置
+- Always-on agent 的分层路由：小模型值守、大模型叫醒的成本模型
+- 把英伟达毛利率当作定价权的温度计持续追踪
+
+---
+
 ## 和以前哪些知识连接起来了？
 
 - 与 [Research Acceleration](../ai-research/research-acceleration.md) 相连——Intelligence Explosion 报告让"AI R&D 的 effective doubling time"变成一个可测量的工程问题；本篇的 Externalized Control 是"万一它真的加速了，控制权在哪"的另一半答案
@@ -321,7 +432,7 @@ GPT-6.1 Sol 在 agentic coding、computer use、professional work 上接近 GPT-
 
 ---
 
-**最后更新**: October 1, 2026
+**最后更新**: October 13, 2026
 
 **相关**:
 - [从工具到产业——AI 时代的竞争本质](industry-competition-shift.md)

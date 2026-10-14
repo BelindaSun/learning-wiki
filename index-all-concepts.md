@@ -6,10 +6,12 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 263 个概念。
+> 共收录 267 个概念。
 
 ## A
 
+- **Active Focus（主动聚焦）** — 长任务遇阻时换路、恢复、追踪目标、需要时确认；宣称把"持续/转向/求助"的判断训练进模型 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)
+- **Active Memory（主动记忆）** — 跨对话主动找回真正相关的内容；"模型自己判断何时想起"，而非管线触发 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)
 - **Agent Economy（Agent 经济）** — 当 AI 从理解 Attention 走向掌握 Intent 并能采取 Action，它可能从信息工具进入真实经济活动——购物、旅行、交易等 → [Personal Agents — From Chatbots to an Agent Economy](docs/career-impact/personal-agents-agent-economy.md#十agent-economy)
 - **Agent Empires（Agent 帝国）** — 未来可能不是一家通吃，而是几家公司各据天然根据地、再向外扩张形成的重叠竞争格局 → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
 - **Agent Entry Model（Agent 入口模型）** — Agent Power ≈ Intelligence × Intention × Distribution × Trust × Context × Action；任何一项接近零都难成平台级 Agent → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
@@ -163,6 +165,7 @@
 - **Intent Router（意图路由）** — 决定一个用户 Intent 被路由给哪个 Connector、Merchant 或 Service Provider 的位置；谁占据它，谁就在影响商业需求如何分配 → [From Attention Economy to Agent Economy](docs/career-impact/from-attention-to-agent-economy.md#03-attention-economy--intent-economy)
 - **Inference** — AI 生成回答的过程：逐 Token 预测 → [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Inference Cost（推理成本）** — 模型每回答一次消耗的算力与费用，直接决定 AI 应用能不能赚钱 → [模型选型](docs/ai-research/models-deep-dive.md)
+- **Inference Economics（推理经济学）** — 训练是进入门槛（盖工厂），推理是普及门槛（开灯付电费）；Always-on Agent 的用量与人的注意力脱钩 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)
 - **Interconnect（互连）** — 东西之间怎么互相"说话"的统称——芯片内部有片内总线，服务器内有 NVLink/PCIe，服务器之间有网络/InfiniBand → [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Interpretability（可解释性）** — 可解释性 → [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [直接看模型在"想什么"](docs/ai-core/safety-three-layer-framework.md#4-interpretability--直接看模型在想什么)
 
@@ -330,6 +333,7 @@
 
 - **Vector DB（向量数据库）** — 按语义相似度检索文本的数据库，RAG 的记忆外挂 → [RAG 完全指南](docs/ai-application/rag-guide.md)
 - **Vertical Agent** — 垂直 Agent vs 通用 Agent → [垂直 vs 通用 Agent](docs/ai-application/skills-business-landscape.md#垂直-vs-通用-agent)
+- **Verified Useful Work per Watt（有效功耗）** — 电变成有价值成果的效率 = Tokens/瓦 × 每 token 有用工作 × 通过验证的比例；油耗 vs 运力 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)
 
 ## W
 
