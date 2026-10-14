@@ -405,16 +405,16 @@ The future is probably not one Super Agent eating everyone, but several **Agent 
 
 | Company | What it's fighting for | Why it's in the game | Biggest structural risk |
 |---|---|---|---|
-| Meta | Relationships / Life | Distribution + free + social graph | Conflict between ads and fiduciary duty |
-| Microsoft | Workflows / Work | M365 + enterprise identity / data | Innovator's dilemma: can't let Agents eat its own Apps franchise |
-| OpenAI | Intentions | The "ask AI first" mindshare | Intention is the most portable moat — and it owns no distribution |
-| Google | Information / Intent | Search + Gmail + Maps + Android | Agents answer directly, cannibalizing search ads |
-| Apple | Personal Context / Device | Device + trust + identity | Behind on model capability |
-| Instinct | Delegation | The most Agent-native new player | Largest Trust Gap: building fiduciary relationships from zero |
-| Anthropic | Knowledge Work | Claude + coding + computer use | The moat *is* model capability — hit first when intelligence commoditizes; no owned distribution |
-| Salesforce | Customer / Sales | CRM is a natural Agent action layer | Single-function coverage |
-| ServiceNow | Enterprise Process | trigger → rules → approval → action → audit | Enterprise back office only — no cards to play on the intention side |
-| Glean | Enterprise Knowledge | The cross-system "organizational brain" | Retrieval without action; easily replicated in passing by M365 / Google |
+| Meta | Relationships / Life | Distribution + free + social graph | Conflict between ads and fiduciary duty: the better it knows users and decides for them, the more it clashes with ad-monetization goals |
+| Microsoft | Workflows / Work | M365 + enterprise identity / data | Both infrastructure and app competitor: serving all Agents while pushing its own Copilot; customers may fear platform lock-in and conflicts of interest |
+| OpenAI | Intentions | Users already default to "ask AI first" | Owning the intention entry point ≠ owning action: users may ask AI first, but execution still depends on external apps, data permissions, and transaction interfaces |
+| Google | Information / Intent | Search + Gmail + Maps + Android | Agents may cannibalize search ads: if AI answers directly and completes tasks for users, traditional search clicks and ad impressions may shrink |
+| Apple | Personal Context / Device | Device + trust + identity | Model capability and iteration speed may lag: privacy, device integration, and user trust are strong, but without sufficient underlying intelligence, the device-entry advantage may not convert into an Agent advantage |
+| Instinct | Delegation | One of the most Agent-native new players | No stable distribution or ecosystem moat: however natural the experience, it can be replicated by platforms with bigger user entry points, funding, and tool ecosystems |
+| Anthropic | Knowledge Work | Claude + coding + computer use | Model advantage may not convert into durable economic rents: competitors can catch up on capability, while compute costs and cloud dependence may squeeze margins and strategic autonomy |
+| Salesforce | Customer / Sales | CRM is a natural Agent action layer | Functional boundaries may cap the upside: if users shift to cross-app general Agents, Salesforce may own only part of the sales workflow, not the whole customer task |
+| ServiceNow | Enterprise Process | Enterprise workflow is its home turf | Workflow moats may be bypassed by upper-layer Agents: if enterprises orchestrate across systems with a unified Agent, ServiceNow must prove it is an irreplaceable execution-and-governance layer, not just a back-office process engine |
+| Glean | Enterprise Knowledge | A cross-system "organizational brain" that understands the company | Understanding ≠ execution: it can connect and comprehend enterprise knowledge, but if Microsoft, Google, or native business-system Agents own the entry point, permissions, and execution loop, Glean risks being squeezed into a middle layer |
 
 On radar (strategically distinct positions, keep watching): **Amazon** (AWS + Commerce + Logistics — a special position if Agentic Commerce takes off), **Manus Cue** (the pure "Agent as a digital employee" direction), **Sierra** (enterprise-facing-consumer agents: Belinda's Agent ↔ Marriott's Agent — who supplies the right-hand side?).
 

@@ -405,16 +405,16 @@ Ben Thompson 的核心判断：*Agents are the ultimate Aggregators.*
 
 | 公司 | 抢的是什么 | 凭什么 | 最大的结构性风险 |
 |---|---|---|---|
-| Meta | Relationships / Life | 分发 + 免费 + social graph | 广告与托付的利益冲突 |
-| Microsoft | Workflows / Work | M365 + 企业 identity / data | 创新者窘境：不敢让 Agent 吃掉自己的 Apps 基本盘 |
-| OpenAI | Intentions | "有事先问 AI"的心智入口 | Intention 是最容易迁移的护城河，且无自有分发 |
-| Google | Information / Intent | Search + Gmail + Maps + Android | Agent 直接给答案，会蚕食搜索广告 |
-| Apple | Personal Context / Device | device + trust + identity | 模型能力落后 |
-| Instinct | Delegation | 最 Agent-native 的新玩家 | Trust Gap 最大：从零开始建立托付关系 |
-| Anthropic | Knowledge Work | Claude + coding + computer use | 护城河就是模型能力本身，商品化时首当其冲；没有自有分发 |
-| Salesforce | Customer / Sales | CRM 天然就是 Agent action layer | 只覆盖一个职能 |
-| ServiceNow | Enterprise Process | trigger → rules → approval → action → audit | 只有企业后端流程，intention 侧无牌可打 |
-| Glean | Enterprise Knowledge | 跨系统的"组织大脑" | 只有检索、没有行动；M365 / Google 顺手就能做 |
+| Meta | Relationships / Life | 分发 + 免费 + social graph | 广告与托付的利益冲突：越了解用户、越能替用户做决定，越可能与广告变现目标冲突 |
+| Microsoft | Workflows / Work | M365 + enterprise identity/data | 既当基础设施，又当应用竞争者：既要服务各类 Agent，又要推广自己的 Copilot；客户可能担心平台锁定与利益冲突 |
+| OpenAI | Intentions | 用户已经习惯"有事先问 AI" | 意图入口不等于行动控制权：用户可以先问 AI，但真正执行仍依赖外部应用、数据权限与交易接口 |
+| Google | Information / Intent | Search + Gmail + Maps + Android | Agent 可能蚕食搜索广告：如果 AI 直接给答案并代用户完成任务，传统搜索的点击与广告展示机会可能减少 |
+| Apple | Personal Context / Device | device + trust + identity | 模型能力与迭代速度可能落后：隐私、设备整合和用户信任很强，但若底层智能不足，设备入口优势未必能转化为 Agent 优势 |
+| Instinct | Delegation | 最 Agent-native 的新玩家之一 | 缺乏稳定的分发与生态壁垒：体验再自然，也可能被拥有更大用户入口、资金和工具生态的平台复制 |
+| Anthropic | Knowledge Work | Claude + coding + computer use | 模型优势可能难以转化为持久的经济租金：竞争对手可以追赶能力，算力成本与云平台依赖也可能挤压利润和战略自主性 |
+| Salesforce | Customer / Sales | CRM 就是天然的 Agent action layer | 职能边界可能限制上限：如果用户转向跨应用的通用 Agent，Salesforce 可能只掌握销售工作流中的一部分，而不是整个客户任务 |
+| ServiceNow | Enterprise Process | 企业 workflow 本来就是它的地盘 | 工作流壁垒可能被上层 Agent 绕过：如果企业用统一 Agent 跨系统调度任务，ServiceNow 必须证明自己不只是后台流程引擎，而是不可替代的执行与治理层 |
+| Glean | Enterprise Knowledge | 跨系统理解公司的"组织大脑" | 理解权不等于执行权：它可以连接并理解企业知识，但若 Microsoft、Google 或业务系统原生 Agent 掌握入口、权限和执行闭环，Glean 可能被挤压成中间层 |
 
 雷达（战略位置特殊，持续观察）：**Amazon**（AWS + Commerce + Logistics，Agentic Commerce 的特殊位置）、**Manus Cue**（"Agent 是一个数字员工"的纯粹路线）、**Sierra**（企业面对消费者的 Agent：Belinda's Agent ↔ Marriott's Agent，右边那个谁来提供）。
 
