@@ -4,6 +4,25 @@
 
 ## October 2026
 
+### [v7.14] - October 15, 2026
+
+#### ➕ AI Learning #45：Intent-Bound Agency——从 Amex 的 Intent Intelligence 到自复制风险
+
+**[AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md)** 新增"AI Learning #45"（2026-10-15，Belinda × 小德完整讨论，[📖 完整学习对话记录](docs/conversations/intent-bound-agency.md)；四个来源小缪已亲手打开核实）：
+
+1. **先钉死授权，再让 Agent 付款**：Amex Intent Intelligence——Create Intent API 记录商家/预算/偏好，用户验证身份并签字，生成 Intent ID + Proof of Intent Token（JWT，高层约束，有过期日），Token 换取范围受限的支付凭证，Agent 不接触真实卡号。两种授权形态：Intent（给边界）vs Cart（确认清单），各有风险。
+2. **Permission is not intent**：允许用信用卡 ≠ 授权自由购买。硬边界用户事先划死、Agent 无权提议；软边界可提议，要说清五要素。授权钱包控制权归用户、保管权可外包。
+3. **五组件加一层"遏制"**：Intent Capture、Authority Scope、Action Validation、Independent Audit、Revocation and Recovery + Containment（累计额度、熔断、短寿命凭证）——逐个合规加总仍可能越界；验证在 Agent 之外强制执行；审计是事后侦测。
+4. **Gemini 4 Argon**（10-13）：Vals Index 第一；Antigravity 提交 +35%、回滚降近三分之一；"走捷径"降到 2%。榜单第一 ≠ 能干真活；公平比较四条：固定 harness、重复跑、成本算全、失败分级。
+5. **两类威胁别混**：已授权 Agent 越权（五加一防这个）vs 未授权自复制（Anthropic 研究：IoT 设备、无集中关停点；防御靠网络层，R₀ < 1）。NVIDIA 是 5 年每年 5000 万算力捐赠（非现金），意向非成果。
+6. **跨平台标准**：技术已够，阻力是仲裁者、责任归谁、意图存在哪；演化是几套协议加互转；长期价值可能沉淀在授权基础设施层。
+7. **授权钱包**：检验标准是"带着授权一走了之"；三难点：撤销执行、丢钥匙恢复、争议证据力；控制权与保管权分开。
+8. **小缪的视角**：Containment 是两类威胁的真正接口；授权钱包 = #043 问责身份的可携带层；"Permission is not intent"与硬/软边界一体两面（#045 是"边界能不能谈"的下集）；代签是信任递归，终止于"谁赔钱谁定标准"。
+
+**[全部概念索引](index-all-concepts.md)** 新增 4 个（267 → 271）：Intent-Bound Agency、Permission is not Intent、Authorization Wallet、Proof of Intent Token；Containment 条目补充 #45 的"+1 遏制层"。
+
+**[心智模型](mental-models.md)** 新增一条：Capability → Intent → Containment → Trust。
+
 ### [v7.13] - October 13, 2026
 
 #### ➕ AI Learning #44：Meta Muse Wonder + 微软 Maia 300——AI 竞争的单位从 Model 扩展到 System

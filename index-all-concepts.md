@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 267 个概念。
+> 共收录 271 个概念。
 
 ## A
 
@@ -39,6 +39,7 @@
 - **Attention Mechanism** — 注意力机制：模型判断词与词之间关系的核心机制 → [Attention 机制](docs/ai-core/inference-system-guide.md#attention-机制)
 - **Accelerator（加速器）** — 专门为某一类计算而设计的处理器，GPU 是最常见的一种，TPU 是另一种——都是"给算力设计"这个问题的不同答案，不是互相升级的关系 → [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Arithmetic Intensity（算术强度）** — 每从内存搬一份数据，能换来多少次运算——比例高，瓶颈在算力（compute-bound）；比例低，瓶颈在搬运（memory-bound） → [内存墙](docs/computing-foundations/memory-wall.md)
+- **Authorization Wallet（授权钱包）** — 用户授权状态的可携带载体：Agent、支付渠道、云服务都能换，授权还留在用户手里；控制权归用户、保管权可外包 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)
 - **Autonomy Profile（Agent 四维刻画：Autonomy/Efficacy/Goal Complexity/Generality）** — Agent 四维刻画：Autonomy/Efficacy/Goal Complexity/Generality → [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md#场景一autonomy-不是一根刻度是四维)
 - **Accumulative vs Decisive Risk（累积型 vs 决定型风险）** — 累积型 vs 决定型风险 → [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md#关键推论decisive-risk-vs-accumulative-risk)
 
@@ -68,7 +69,7 @@
 - **Compute Spine（算力脊）** — 算力脊 → [算力脊](docs/computing-foundations/compute-spine.md)
 - **Claimed vs Verified State（声明状态 vs 验证状态）** — Agent memory 的认识论层级——Claimed 是"它说它做了但没人查过"，Verified 是"环境独立确认了"，Untrusted 是"审计发现不符" → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#claimed-state-vs-verified-state)
 - **Context Rot（上下文腐烂）** — 任务执行和任务状态共享同一个不断膨胀的 context，导致早期错误被后续推理隐式信任并放大 → [Harness > Model](docs/ai-application/harness-architecture-patterns.md#mea-循环manager-execute-audit)
-- **Containment（安全遏制）** — 假设 Alignment 已经失败，用工程手段限制模型能触及的边界——沙箱隔离、网络隔离、最小权限、激活监控，层层假设上一层已失败 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)
+- **Containment（安全遏制）** — 假设 Alignment 已经失败，用工程手段限制模型能触及的边界——沙箱隔离、网络隔离、最小权限、激活监控，层层假设上一层已失败 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#containment-工程架构)；Agent 场景的"+1 遏制层"（累计额度、熔断、短寿命凭证）→ [AI Learning #45](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)
 - **Constitutional AI** — 用一套原则宪法自我约束的对齐思路（Anthropic） → [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [两阶段机制详解](docs/ai-core/safety-three-layer-framework.md#2-constitutional-ai--让模型用原则自我批判)
 - **Compaction（上下文压缩）** — 上下文压缩 → [retained reasoning 不是 memory](docs/ai-core/agent-intelligence-layers.md#retained-reasoning-不是-memory)
 - **Cascading / Routing（模型级联路由）** — 模型级联路由 → [cascading/routing 与一个 Agent 跑五六个模型](docs/ai-core/agent-intelligence-layers.md#落地cascadingrouting-与一个-agent-跑五六个模型)
@@ -166,6 +167,7 @@
 - **Inference** — AI 生成回答的过程：逐 Token 预测 → [Inference 推理系统](docs/ai-core/inference-system-guide.md)
 - **Inference Cost（推理成本）** — 模型每回答一次消耗的算力与费用，直接决定 AI 应用能不能赚钱 → [模型选型](docs/ai-research/models-deep-dive.md)
 - **Inference Economics（推理经济学）** — 训练是进入门槛（盖工厂），推理是普及门槛（开灯付电费）；Always-on Agent 的用量与人的注意力脱钩 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)
+- **Intent-Bound Agency（意图约束型 Agent）** — 五组件加一层：Intent Capture、Authority Scope、Action Validation、Independent Audit、Revocation and Recovery + Containment（遏制）→ [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)
 - **Interconnect（互连）** — 东西之间怎么互相"说话"的统称——芯片内部有片内总线，服务器内有 NVLink/PCIe，服务器之间有网络/InfiniBand → [Hardware Map](docs/computing-foundations/hardware-map.md)
 - **Interpretability（可解释性）** — 可解释性 → [互补的几条思路](docs/ai-core/safety-alignment-guide.md#互补的几条思路不是只有-rlhf-一条路) · [直接看模型在"想什么"](docs/ai-core/safety-three-layer-framework.md#4-interpretability--直接看模型在想什么)
 
@@ -231,6 +233,8 @@
 - **Parallel Node** — 工作流中的并行节点 → [并行节点](docs/ai-application/workflow-design-guide.md#2-parallel-node并行节点)
 - **Platform vs Product Tension（平台与产品的内在张力）** — 平台与产品的内在张力 → [OpenAI Intelligence Platform](docs/career-impact/openai-intelligence-platform.md#platform-与-product-的内在张力)
 - **Perceiver Resampler** — 感知重采样器：Flamingo 的视觉压缩模块 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
+- **Permission is not Intent（许可不等于意图）** — 能力/权限 ≠ 对某次具体行动的授权；允许用信用卡不等于授权自由购买 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)
+- **Proof of Intent Token（意图证明令牌）** — Amex Intent Intelligence 的 JWT：装载用户授权的高层约束（金额、商家、有效期），Agent 用它换取范围受限的支付凭证 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)
 - **Permission vs Delegation（授权 vs 委托）** — 前者是"允许做某类事"，可相对长期；后者是"允许 AI 替我做这一次判断"，要谨慎得多；Permission 划区，Delegation 拍板 → [DelegationBench](docs/ai-core/safety-three-layer-framework.md#delegationbenchagent-什么时候该先问什么时候可以直接做)
 - **Position Encoding** — 位置编码：给 Token 标上顺序信息 → [位置编码](docs/ai-core/transformer-architecture.md#位置编码position-encoding)
 - **Prefill** — 一次性处理输入 prompt 的阶段（与 Decode 相对） → [Prefill 和 Decode：两种数学结构完全不同的运算](docs/ai-core/inference-infrastructure-and-agent-latency.md#prefill-和-decode两种数学结构完全不同的运算)

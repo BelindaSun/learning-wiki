@@ -4,6 +4,10 @@
 
 ---
 
+**Capability → Intent → Containment → Trust** (Oct 15)
+Capability enables action. Intent defines the boundary. Containment limits the damage. Independent verification earns trust. *Permission is not intent: permission to use a credit card is not authorization for any purchase.*
+→ Read [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md#ai-learning-45--intent-bound-agency-from-amex-intent-intelligence-to-self-replication-risk)
+
 **Model Rankings → System Economics** (Oct 13)
 I assumed competition was about model leaderboards. After Meta Wonder + Microsoft Maia: once AI is smart enough, competition is about who can make it work continuously and reliably at low enough cost. Training is the entry barrier (building the factory); inference is the adoption barrier (paying the power bill with every use). *Models answer "can it be done"; Systems answer "is it worth it, is it stable, who's accountable."*
 → Read [Coding Agents and Agent Infrastructure as OS](docs/career-impact/agent-infrastructure-os.en.md#ai-learning-44--meta-muse-wonder-and-microsoft-maia-300-ai-competition-expands-from-model-to-system)

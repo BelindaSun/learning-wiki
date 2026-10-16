@@ -2,6 +2,25 @@
 
 ## October 2026
 
+### [v7.14] - October 15, 2026
+
+#### New: AI Learning #45 — Intent-Bound Agency: From Amex Intent Intelligence to Self-Replication Risk
+
+**[Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md)** adds "AI Learning #45" (2026-10-15, full Sun × Xiao De discussion in Chinese, [📖 conversation record](docs/conversations/intent-bound-agency.md); all four sources opened and verified by Xiao Miu):
+
+1. **Pin down authorization before the agent pays**: Amex Intent Intelligence — the Create Intent API records merchant/budget/preferences, the user authenticates and signs, generating an Intent ID + Proof of Intent Token (a JWT with high-level constraints and expiry); the token is exchanged for a scoped payment credential so the agent never touches the real card number. Two shapes: Intent (bounds only) vs Cart (confirmed list), each with its own risks.
+2. **Permission is not intent**: permission to use a credit card ≠ authorization for any purchase. Hard boundaries are set by the user in advance with no agent proposals; soft boundaries may be proposed with a five-element format. Control of the authorization wallet belongs to the user; custody can be outsourced.
+3. **Five components plus "containment"**: Intent Capture, Authority Scope, Action Validation, Independent Audit, Revocation and Recovery + Containment (cumulative caps, circuit breakers, short-lived credentials) — individually compliant actions can still go out of bounds in aggregate; verification enforced outside the agent; audit is post-hoc detection.
+4. **Gemini 4 Argon** (Oct 13): #1 on the Vals Index; Antigravity submissions +35%, rollbacks down nearly a third; shortcut attempts down to 2%. Leaderboard #1 ≠ fit for real work; four rules for fair comparison: fixed harness, repeated runs, full cost accounting, graded failures.
+5. **Two threat classes, don't mix them**: authorized-agent overreach (what the five-plus-one defends) vs unauthorized self-replication (Anthropic research: IoT devices, no central kill switch; defense at the network layer, R₀ < 1). NVIDIA's item is a $50M/year compute donation over five years (not cash) — an intention, not a delivered outcome.
+6. **Cross-platform standards**: technology is ready; blockers are arbitration, liability, and where intent lives; expect several protocols plus interop; long-term value may settle in the authorization-infrastructure layer.
+7. **The authorization wallet**: the test is "take your authorizations and walk away"; three hard parts — revocation execution, key-loss recovery, evidentiary weight; control vs custody separated.
+8. **Xiao Miu's perspective**: Containment is the true interface between the two threat classes; the wallet = #043's portable accountability identity; "Permission is not intent" is the other face of hard/soft boundaries (#045 as the sequel to "can boundaries be negotiated"); delegated signing is trust recursion terminating at "whoever pays for disputes sets the standard."
+
+**[All Concepts](index-all-concepts.en.md)** adds Authorization Wallet, Intent-Bound Agency, Permission is not Intent, and Proof of Intent Token; the Containment entry now references the #45 "+1" layer.
+
+**[Mental models](mental-models.en.md)** adds one entry: Capability → Intent → Containment → Trust.
+
 ### [v7.13] - October 13, 2026
 
 #### New: AI Learning #44 — Meta Muse Wonder and Microsoft Maia 300: AI Competition Expands from Model to System

@@ -4,6 +4,10 @@
 
 ---
 
+**Capability → Intent → Containment → Trust**（Oct 15）
+能力让行动成为可能，意图决定行动边界，遏制限制损害，独立验证才让信任有依据。*Permission is not intent：允许用信用卡，不等于授权自由购买。*
+→ 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)
+
 **Model Rankings → System Economics**（Oct 13）
 以为竞争看模型排行榜；Meta Wonder + 微软 Maia 之后觉得，AI 够聪明之后竞争看谁能让它以足够低的成本持续可靠地工作。训练是进入门槛（盖工厂），推理是普及门槛（每次开灯付电费）。*Model 回答"能不能"，System 回答"值不值、稳不稳、谁负责"。*
 → 详见 [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#ai-learning-44--meta-muse-wonder-与微软-maia-300ai-竞争的单位从-model-扩展到-system)

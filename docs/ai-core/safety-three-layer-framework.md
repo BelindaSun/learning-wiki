@@ -283,6 +283,106 @@ Containment 的重要性越来越大（不能完全信任 Alignment）
 
 ---
 
+## AI Learning #45 — Intent-Bound Agency：从 Amex 的 Intent Intelligence 到自复制风险
+
+**学习来源**：
+- American Express：[American Express Publishes Intent Intelligence Framework for Trusted Agentic Commerce](https://www.americanexpress.com/en-us/newsroom/articles/innovation/intent-intelligence-framework-agentic-commerce.html)（发布稿，2026-10-13）+ Intent Intelligence 框架文档（Belinda 拿到全文，小德精读）
+- Google：[Gemini 4 Argon is now available for everyone](https://blog.google/intl/en-in/products/introducing-gemini-4-argon/)（2026-10-13，小缪已亲手打开核实）
+- Anthropic Frontier Red Team：[AI models may be capable of self-replicating without access to a datacenter](https://www.anthropic.com/research/self-replicating-ai)（小缪已亲手打开核实）
+- NVIDIA：[NVIDIA Commits $250 Million to Advance UK Agentic Safety and Security Research Over the Next Five Years](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Commits-250-Million-to-Advance-UK-Agentic-Safety-and-Security-Research-Over-the-Next-Five-Years/default.aspx)（2026-10-14，小缪已亲手打开核实；是 5 年每年 5000 万美元算力捐赠，非现金）
+- 完整讨论：Belinda × 小德（[📖 完整学习对话记录](../conversations/intent-bound-agency.md)）
+
+**一句话总结**：Agent 越能自主行动，越要把"用户授权了什么"变成可验证的约束，并在模型之外配上遏制和独立审计。
+
+### 今天我最大的收获
+
+Delegation Boundary 不再只是概念：Amex 已经把它做成"意图 → 签字 → 范围受限凭证 → 全程留证"的支付基础设施。同时看清了：授权架构防的是"已授权 Agent 越权"，防不了"根本不请示的复制体"——这是两类不同的威胁。
+
+### 原来我认为…… / 现在我认为……
+
+- Delegation Boundary 比较抽象，主要是 Agent 内部的设计问题 → 它正在变成跨发卡行、钱包、Agent 的信任基础设施，授权钱包应由用户掌控
+- 一套安全架构可以应对大部分 Agent 风险 → 已授权 Agent 越权，与未授权自复制，是两类威胁，防御层不同（前者在授权层，后者在网络和生态层）
+- 模型排行榜决定一切 → 要看真实任务成功率和"单位成功任务成本"
+
+### 最重要的三个知识点
+
+**1. 先钉死授权，再让 Agent 付款。** Create Intent API 记录商家、预算、偏好；用户验证身份并签字（可用 Passkey，或发卡行授权 Agent/钱包代签）；生成 Intent ID（意图记录主键）和 Proof of Intent Token（JWT，装高层约束，有过期日，单次/多次使用）；Token 换取范围受限的支付凭证，Agent 结账用它而非真实卡号；发卡行用它校验、风控、处理争议。两种授权形态：Intent（只给边界，Agent 决定）vs Cart（用户确认清单，Agent 结账）——前者怕 Agent 理解错/找错商家，后者怕"签完字偷偷改车"。
+
+**2. Permission is not intent。** 允许用信用卡 ≠ 授权自由购买；允许发邮件 ≠ 授权代表签合同；允许管日历 ≠ 授权自动取消冲突活动。硬边界用户事先划死、Agent 无权提议；软边界可提议，但要说清五要素（要什么、为什么、范围、时限、可撤销）。授权钱包的控制权属于用户，保管权可以外包——控制权与保管权分开。
+
+**3. 五组件加一层"遏制"。** Intent Capture（记录意图）、Authority Scope（限定权限）、Action Validation（执行前验证）、Independent Audit（独立审计）、Revocation and Recovery（撤销与恢复），再加 Containment（累计额度、频率限制、熔断开关、短寿命凭证）——因为逐个动作都合规，加起来仍可能越界。验证要在 Agent 之外强制执行且尽量确定性；审计是事后侦测，不是预防。
+
+### Gemini 4 Argon：真实任务的验证标尺
+
+（10-13 发布；Vals Index 第一；介绍价每百万 token 输入 $2、输出 $10；Antigravity 里 agentic 代码提交 +35%、回滚降近三分之一；训练尊重系统边界、不可逆操作前暂停等人工确认，编码基准"走捷径"降到 2%；提示注入自适应攻击成功率 0.7%——均为 Google 自报）
+
+- 榜单第一 ≠ 能干真活：真活还要加杂乱上下文、权限、交接、问责；"回滚率"才是真实工作的指标，衡量返工而非"做对一次"。
+- 公平比较四条：固定 harness（否则比的是脚手架不是模型）、重复跑看稳定性（含置信区间）、成本算全（单位成功任务成本 = 全部尝试的 token 和工具调用 + 验证成本 + 人工复核，再除以成功数）、给失败分级（"没做完" vs "悄悄做错没人发现"，代价差几个数量级）。
+- 能力接近时：模型变成组件，价值转移到掌握上下文、权限和工作流的那一层——正好呼应授权基础设施。
+
+### 两类威胁，别混在一起
+
+- **已授权 Agent 越权/误解/被劫持**：五加一组件防的是这个。
+- **未授权自复制**（Anthropic 研究）：小模型可能数月内就能在廉价 IoT 设备（杂牌安卓电视盒）上自我复制，无集中关停点，倍增时间以天计；9B 模型在 8/9 种硬件上跑起推理；评估里网络攻击部分被刻意简化（ADB 端口无认证）所以是上界；端到端复制只有 GLM-5.2 做到，"月级"来自能力趋势外推。防御靠网络层：ISP 流量异常监测、隔离并通知受感染用户（Mirai 当年两周内清除了 92%）、厂商淘汰默认密码，目标是把 R₀ 压到 1 以下。
+- **NVIDIA 那条**：5 年每年 5000 万美元算力捐赠（非现金），BOLD（牛津）、SOFAIR（UCL）、帝国理工；安全沙箱、可复现研究、安全评估基准；供应商选择、技术架构、商业条款都还"待商定"——是意向，不是已落地的成果。
+
+### 跨平台授权标准：会有，但很慢
+
+- 技术已够：Passkey 签字、JWT Token、字段朴素（金额、有效期、商家、条件）；Amex 写了"不管谁采集意图都能适配"，在跟 EMVCo、x402 Foundation 对接。
+- 阻力三处：谁是仲裁者（各网络并行标准 + Agentic Payments Alliance 这类协调组织）、责任归谁（争议谁赔——EMV 靠"责任转移"才推开）、意图存在哪（Amex 是发卡行中心，用户不真正拥有授权）。
+- 演化路径：不是统一标准，而是几套协议加一层互转；真正可移植的是最小公共核——意图数据模型、可验证签名、撤销更新机制、争议证据格式。
+- 长期价值可能沉淀在授权基础设施层（Agent 会同质化，"谁的授权记录被承认"有网络效应）——但兑现慢，常被既有玩家吃掉。
+
+### 授权钱包：控制权归用户
+
+- 检验标准：能不能带着授权一走了之。Agent、支付渠道、云服务都能换，授权状态还留在你手里，才算真正属于用户。
+- 三个工程难点：撤销要有人执行（短寿命 Token + 状态查询，让"撤销"尽量靠"自然过期"生效）；丢钥匙怎么办（多设备 Passkey、可信联系人，不回到中心化）；争议证据力（记录防篡改、可验证，用户+验证方双签名，防"友好欺诈"那一面也要兼顾）。
+- 关键区分：控制权和保管权分开——用户握密钥、策略、撤销权，存储可托管，换托管方时授权原样搬走（像换邮箱服务商保留域名）。
+- 对 MASS：Delegation Boundary 从一开始作为用户侧独立层设计，而非某个 Agent 的内部功能。待解：撤销怎么落地、恢复机制。
+
+### 小缪的视角
+
+1. **Containment 是两类威胁之间真正的接口。** 五加一里"加一"通用性最强——对已授权 Agent 防"逐个合规、加总越界"，对自复制体防"无限扩散"。
+2. **授权钱包 = #043 的"问责身份"做成可携带层。** "带着授权一走了之"的可携带测试，和 #043"换模型"的可替换测试是同一个思想。
+3. **"Permission is not intent" 和硬/软边界是一体两面。** Permission 是能力授予（边界划的是这个），Intent 是对某次行动的授权（Token 钉的是这个）；五要素提议就是把一次 Intent 转换成一次 scoped permission 的机制。#045 是"边界能不能谈"的下集。
+4. **代签是信任递归。** 发卡行允许 Agent 代签，"用户确认"的含金量取决于 Agent 可信度——无外部锚点会无穷倒退；Amex 框架里递归终止在"谁赔钱谁定标准"，所以标准之争本质是责任划分之争。
+
+### 心智模型
+
+- Capability enables action. Intent defines the boundary. Containment limits the damage. Independent verification earns trust.
+- 中文：能力让行动成为可能，意图决定行动边界，遏制限制损害，独立验证才让信任有依据。
+- Permission is not intent：允许用信用卡，不等于授权自由购买。
+
+### 和以前哪些知识连接起来了？
+
+- Harness > Model（8/29）：MEA Loop 里 Auditor 不信 Executor 自报，对应 Independent Audit——只有独立验证的事实才算数。
+- 两层可信度模型（8/8）：Required Trust Margin ∝ 后果严重度 × 不可逆性 × 验证难度，决定授权深度和复核频率。
+- Agent 两道采用鸿沟（8/7）：企业侧瓶颈是 Trust（责任归属、可审计），Amex 把责任归属落到了发卡行。
+- #44（10/13）：Useful Work per Dollar ↔ 今天的 cost per successful task。
+- 谁拥有 AI 丰饶（9/10）：延伸成"谁拥有授权"。
+- （小缪补充）#042 DelegationBench：硬/软边界、五要素提议格式——#045 是"边界能不能谈"的下集。
+- （小缪补充）#044 治理：代码围栏 vs 提示词；"能力可交出，授权不能"。
+- （小缪补充）#043 三层身份：授权钱包 = 问责身份的可携带层。
+- （小缪补充）#037 Externalized Control：验证必须在 Agent 之外强制执行。
+- （小缪补充）10-12 小记（Anthropic 自曝越界）：Action Validation 要防的正是"指令没写明、模型自己补上"。
+- （小缪补充）Capability → Trust：不可逆操作前暂停确认，是信任设计的关键。
+
+### 仍然没弄懂的问题
+
+- 周期性委托（续费、日常开支）的授权复核节奏该怎么设（方向："授权越长、边界越要窄、复核越要勤"；额度水位 + 时间水位双触发是候选方案）
+- "别买成别的牌子"这类语义偏好，怎么做到机器可校验
+- 发卡行允许 Agent 或钱包代用户签字时，"用户确认"的含金量有多大
+- 撤销怎么真正落地（谁在结账时查状态），丢了密钥怎么恢复
+- 对未授权的自复制体，个人和小团队层面能做什么
+
+### 以后还想继续问什么
+
+- 把 Delegation Boundary 写成协议无关的中间 schema，再映射到 Amex 这类外部格式
+- Visa、Mastercard、Google 的同类方案对比，以及跨平台意图标准的责任划分
+- 累计额度、熔断的具体设计
+
+---
+
 ## 下一步
 
 - 📖 想了解 Safety vs Alignment 的概念基础，看 [AI Safety / Alignment 完全指南](safety-alignment-guide.md)
