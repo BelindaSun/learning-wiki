@@ -274,8 +274,8 @@ The Delegation Boundary is no longer just a concept: Amex has turned it into pay
 - This article's own framework: [AI Safety in Three Layers](#ai-safety-in-three-layers-monitoring-alignment-and-containment)
 - [#45 Intent-Bound Agency](#ai-learning-45--intent-bound-agency-from-amex-intent-intelligence-to-self-replication-risk): Containment, the two threat classes, independent validation
 - #42 DelegationBench and the Oct 12, 2026 note: agents find their own paths; boundaries must live outside the model
-- [#43 The enterprise agent's coming of age](career-impact/agents-enter-enterprise.en.md#ai-learning-43--agents-get-identity-continuity-and-accountability-notes-from-gemini-at-work-2026): entry-level roles and the experience ladder
-- [#46 From model capability to work systems](career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest): the five layers at national scale
+- [#43 The enterprise agent's coming of age](../career-impact/agents-enter-enterprise.en.md#ai-learning-043--agent-identity-continuity-and-organizational-accountability): entry-level roles and the experience ladder
+- [#46 From model capability to work systems](../career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest): the five layers at national scale
 
 ### Signals worth watching
 

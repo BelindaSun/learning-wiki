@@ -409,7 +409,7 @@ Delegation Boundary 不再只是概念：Amex 已经把它做成"意图 → 签�
 
 1. **侧信道实验，是 #045 的硬件版注脚**：隔离不是"关上一道门"——两个 Agent 只要共享同一块芯片，就默认可能通信。这和自复制研究里"没有集中的关停点"是同一类教训：**边界必须假设对方会找路，并为找路之后的情形做设计**。
 2. **英国这笔钱，和 #045 的 NVIDIA 算力捐赠（BOLD / SOFAIR / 帝国理工）是同一条线**：安全基础设施正在公共化——实验室、评估能力、网络防御，开始像公共卫生一样由国家出钱建。
-3. **就业两条连起来看更有意思**：中国那条说的"入门级岗位被接管、新人没地方攒经验"，正是 [#043](career-impact/agents-enter-enterprise.md#ai-learning-43--agent-开始有身份连续性和责任归属从-gemini-at-work-2026-看企业-agent-的成人礼) 说的传承问题在劳动力市场上的版本；IMF 那条的国家差距，则是 #046 五层框架的国家版——模型人人可用，最后赢的是上下文、执行环境和组织能力。
+3. **就业两条连起来看更有意思**：中国那条说的"入门级岗位被接管、新人没地方攒经验"，正是 [#043](../career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起) 说的传承问题在劳动力市场上的版本；IMF 那条的国家差距，则是 #046 五层框架的国家版——模型人人可用，最后赢的是上下文、执行环境和组织能力。
 4. **老贾今天的收尾，和 #045 的结论几乎同义**——#045 说"即使可能犯错，也无法轻易把一次错误变成未经授权的连续行动"，老贾说"犯错时仍受有效边界约束"。两条独立的线得出同一个结论，这种收敛值得记一笔。
 
 ### 和以前哪些知识连接起来了？
@@ -417,8 +417,8 @@ Delegation Boundary 不再只是概念：Amex 已经把它做成"意图 → 签�
 - 本篇的三层防护框架本体：[Defense in Depth、Containment、Monitoring](#ai-safety-的三层防护框架monitoring--alignment--containment)
 - [#045 Intent-Bound Agency](#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)：Containment、两类威胁、独立验证
 - #042 DelegationBench 与 2026-10-12 小记：Agent 会自己找路，边界必须在模型之外
-- [#043 企业 Agent 的成人礼](career-impact/agents-enter-enterprise.md#ai-learning-43--agent-开始有身份连续性和责任归属从-gemini-at-work-2026-看企业-agent-的成人礼)：入门级岗位与经验传承
-- [#046 从模型能力到工作系统](career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)：五层框架的国家版
+- [#043 企业 Agent 的成人礼](../career-impact/agents-enter-enterprise.md#ai-learning-043--agent-的身份连续性与组织责任从-gemini-at-work-2026-谈起)：入门级岗位与经验传承
+- [#046 从模型能力到工作系统](../career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)：五层框架的国家版
 
 ### 值得继续盯的信号
 
