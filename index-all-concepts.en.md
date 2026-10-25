@@ -169,6 +169,7 @@
 
 - **Neuron** — [Transformer Architecture](docs/ai-core/transformer-architecture.en.md)
 - **Native Multimodal** — [Multimodality](docs/ai-core/multimodal-guide.md)
+- **Open-Weight Irreversibility** — once open weights are distributed, granted capabilities can't be recalled: old weights keep running on others' machines; safety shifts from pre-release tuning to use, environment, and access control → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)
 - **Orchestrator** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md)
 - **OS** — [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
@@ -255,6 +256,7 @@
 
 - **User State** — a long-running personal agent's core asset: not Memory about the person but Living State about the person — "what is still going on" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md)
 - **Ultimate Aggregator** — Ben Thompson's thesis: *Agents are the ultimate Aggregators*; Human → Agent → App / Website / API / Service, Apps go from destination to implementation layer → [Personal Agents](docs/career-impact/personal-agents-agent-economy.en.md#17-the-battle-for-the-agent-era-entry-point-who-becomes-the-ultimate-aggregator)
+- **Unified Context Layer** — meetings, chat, documents, and business apps integrated into one AI-callable context (Zoom): the handoff layer from "recording what happened" to "getting it done" → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)
 
 ## V–Y
 
@@ -264,6 +266,7 @@
 - **Weights** — [Inference](docs/ai-core/inference-system-guide.md)
 - **Worker** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md)
 - **Workflow / Workflow Design** — [Workflow Orchestration](docs/ai-core/workflow-orchestration.md) · [Workflow Design](docs/ai-application/workflow-design-guide.md)
+- **Work System Layers** — model, context, tools & execution, control, value measurement: AI competition expanding from layer one to the other four → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)
 - **Workload Shape** — [Inference Infrastructure and Agent Latency](docs/ai-core/inference-infrastructure-and-agent-latency.md)
 - **Yield / Yield Ramp** — [Yield and Foundries](docs/computing-foundations/yield-and-foundry.md)
 

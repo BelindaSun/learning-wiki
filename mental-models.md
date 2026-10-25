@@ -4,6 +4,10 @@
 
 ---
 
+**Leaderboard → Work System**（Oct 25）
+以为竞争看模型排行榜；老贾 10-25 推送之后觉得，竞争正在从模型能力走向整个工作系统——模型、上下文、执行、控制、价值衡量五层一起看。*模型让 AI 变聪明，上下文让它理解工作，执行系统让它把工作做完，治理与衡量决定这种能力能否真正创造价值。*
+→ 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)
+
 **Capability → Intent → Containment → Trust**（Oct 15）
 能力让行动成为可能，意图决定行动边界，遏制限制损害，独立验证才让信任有依据。*Permission is not intent：允许用信用卡，不等于授权自由购买。*
 → 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-45--intent-bound-agency从-amex-的-intent-intelligence-到自复制风险)

@@ -4,6 +4,10 @@
 
 ---
 
+**Leaderboard → Work System** (Oct 25)
+I assumed competition was about model leaderboards. After Lao Jia's Oct 25 digest: competition is moving from model capability to whole work systems — model, context, execution, control, and value measurement, all five layers together. *Models make AI smart; context makes it understand the work; execution systems make it finish the work; governance and measurement decide whether any of it creates real value.*
+→ Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)
+
 **Capability → Intent → Containment → Trust** (Oct 15)
 Capability enables action. Intent defines the boundary. Containment limits the damage. Independent verification earns trust. *Permission is not intent: permission to use a credit card is not authorization for any purchase.*
 → Read [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md#ai-learning-45--intent-bound-agency-from-amex-intent-intelligence-to-self-replication-risk)

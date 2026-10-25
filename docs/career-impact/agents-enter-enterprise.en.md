@@ -417,6 +417,67 @@ But "can persist forever" ≠ "should persist forever." Four real constraints:
 
 ---
 
+## AI Learning #46 — From Model Capability to Work Systems: Lao Jia's Oct 25 Digest
+
+**Source**: Lao Jia, *AI Learning Daily — Oct 25, 2026* (theme: AI competition is moving from model capability to whole work systems). All four items were spot-checked by Xiao Miu: Reuters (Kimi), Google Developers Blog / Tom's Hardware (TPU), Zoom official (Unified Context Layer), TechCrunch (Uber).
+
+**One-line summary**: The contest used to be whose model is smartest; now it's who can combine model, business context, tools, permissions, and workflow to actually get the work done.
+
+### The four items at a glance
+
+**1. Kimi K3.1 Pro (Moonshot, Oct 23)**: An open-weight model, weights due by Nov 4; cyber-attack data removed from training while general coding was retained. Internal tests: the risk-controlled version scored 81.0% on vulnerability discovery/exploitation vs 90.5% uncontrolled (company-internal figures, not independently verified). Point: once open weights are distributed, capability can't be recalled — safety needs use, environment, access control, and ongoing evaluation, not just pre-release adjustments.
+
+**2. Google TPUs enter Meta production (Oct 20)**: Google open-sourced TorchTPU (co-developed with Meta's PyTorch team), with native TPU backends for vLLM and SGLang; Meta is running TPU inference in production (SGLang-TorchTPU). Point: the other half of chip competition is the software ecosystem — lowering the cost of leaving CUDA is chipping at NVIDIA's wall. Amazon open-sourced its own Trainium PyTorch backend the day before.
+
+**3. Zoom Unified Context Layer (Zoomtopia, Oct 20)**: Meetings, phone, chat, documents, and connected business apps integrated into one context layer, opened to external AI systems via MCP/APIs; ZoomMate Agent Teams lets specialist agents collaborate to push meeting decisions into follow-through (CRM updates, task creation). Point: from "recording what happened" to "getting it done" — contesting the context→execution handoff. Features roll out through Q1 2027; real-world reliability still to be proven in deployment.
+
+**4. Uber opens ChatGPT Work to 30,000+ employees (Oct 22)**: Scaled from a 1,000-person pilot (80% of pilot users were non-engineers); connects Gmail/Drive/Calendar/Slack; default model GPT-6.1 Sol. Point: three stages must not be conflated — access ≠ actual usage ≠ verified productivity gains. Uber has published no net productivity figures.
+
+### The five-layer framework: work-system competition
+
+| Layer | Core question |
+|---|---|
+| Model | Can the AI understand and reason? |
+| Context | Does it understand the business? |
+| Tools & execution | Can it actually finish the work? |
+| Control | Can it only do what's permitted? |
+| Value measurement | Did it create real value? |
+
+Competition used to center on layer one; it's now expanding to the other four. Five questions for any enterprise-agent announcement: Which real business systems does it connect to? What unique context does it hold? What can it execute independently? Who controls its permissions? Is there data proving improved outcomes?
+
+### Three judgments
+
+1. Model capability is the foundation, not the complete product.
+2. Context may become the new competitive moat.
+3. Deployment scale must be validated by actual outcomes.
+
+### Xiao Miu's perspective
+
+1. The five layers and #045's five-plus-one are mirror images: the layers describe where competition happens; five-plus-one describes how trust is built inside the control layer.
+2. Kimi is a footnote to #045: open weights can't be recalled, so governance must live outside the model (echoing #037 Externalized Control).
+3. TPU is the first hard data point for #044's "software portability" signal — one of the four NVIDIA-watch signals is starting to resolve.
+4. Uber's three-way distinction is the enterprise edition of "Permission is not intent": deployment scale ≠ value.
+
+### Mental model
+
+Models make AI smart; context makes it understand the work; execution systems make it finish the work; governance and measurement decide whether any of it creates real value.
+
+### Connections
+
+- #045 Intent-Bound Agency: the control layer = five-plus-one unfolded; Uber's distinction ↔ Permission is not intent
+- #044 System competition: TPU/software ecosystem ↔ the four "dilution" signals for NVIDIA; cost per successful task ↔ the value-measurement layer
+- #037 Externalized Control: Kimi's "restrict the environment, not the capability" logic
+- #043 Enterprise agents: Zoom/Uber are the latest samples of agents entering the enterprise — pilot to company-wide, recording to execution
+- #040 watchlist: Zoom contests the context layer — the middle link of intention → context → action
+
+### Signals to keep watching
+
+- TPU's three metrics: migration cost, unit inference cost, ecosystem growth speed
+- Whether Uber publishes verifiable productivity data
+- After Kimi's weights ship (by Nov 4): how the "de-fanged" version behaves in the wild
+
+---
+
 ## The Final Mental Model
 
 The process of agents entering the enterprise can be compressed into this arc:

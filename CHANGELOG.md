@@ -4,6 +4,22 @@
 
 ## October 2026
 
+### [v7.15] - October 25, 2026
+
+#### ➕ AI Learning #46：从模型能力到工作系统——老贾 10-25 推送整理
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)** 新增"AI Learning #46"（2026-10-25，老贾《AI Learning Daily》推送，Belinda 读后交小缪轻量整理；四条消息已做基本核实）：
+
+1. **Kimi K3.1 Pro**（Moonshot，10-23）：开放权重、训练中移除网络攻击数据；内部测试 81.0% vs 90.5%（未经独立验证）。开放权重一旦分发，能力不可回收。
+2. **Google TPU 进入 Meta 生产环境**（10-20）：TorchTPU 开源（与 Meta 合研），vLLM/SGLang 原生后端；芯片竞争的另一半是软件生态——#44"软件可移植性"信号的第一次实锤。
+3. **Zoom Unified Context Layer**（10-20）：会议/聊天/文档/业务应用整合成统一上下文层，经 MCP/API 开放；ZoomMate Agent Teams 把会议决定推进成行动。
+4. **Uber 向 3 万多名员工开放 ChatGPT Work**（10-22）：1,000 人试点扩全员；获得权限 ≠ 实际使用 ≠ 可验证的生产率提升。
+5. **五层框架**：模型层、上下文层、工具与执行层、控制层、价值衡量层——竞争从第一层向其余四层扩展；与 #045 五加一互为镜像。
+
+**[全部概念索引](index-all-concepts.md)** 新增 3 个（271 → 274）：Unified Context Layer、Work System Layers、Open-Weight Irreversibility。
+
+**[心智模型](mental-models.md)** 新增一条：Leaderboard → Work System。
+
 ### [v7.14] - October 15, 2026
 
 #### ➕ AI Learning #45：Intent-Bound Agency——从 Amex 的 Intent Intelligence 到自复制风险

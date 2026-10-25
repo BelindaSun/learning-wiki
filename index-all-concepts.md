@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 271 个概念。
+> 共收录 274 个概念。
 
 ## A
 
@@ -220,6 +220,7 @@
 ## O
 
 - **Open Weights / Open Source** — 开放权重：公开训练后的参数文件供下载运行；"开放权重"不等于"开源"（训练代码/数据未必公开） → [Training 训练系统完全指南](docs/ai-core/training-system-guide.md)
+- **Open-Weight Irreversibility（开放权重不可回收）** — 开放权重一旦分发，开发者就收不回已赋予的能力：旧权重会在别人机器上继续跑；安全重心从"发布前调整"转向用途、部署环境与访问控制 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)
 - **Orchestrator** — 负责拆解任务、协调资源、汇总结果的"总指挥"角色——协调的对象不一定是多个 Agent，也可以是模型调用、工具调用、工作流步骤之间的协调 → [Orchestrator 与 Worker 分工](docs/ai-core/workflow-orchestration.md#orchestrator--worker-分工)
 - **OS（Operating System，操作系统）** — 管理硬件资源、调度所有程序的"总管"——你打开的每个程序，都是 OS 分配资源、安排运行的 → [Foundation Zero](docs/computing-foundations/foundation-zero.md)
 
@@ -332,6 +333,7 @@
 
 - **User State（用户状态）** — 长期 Personal Agent 的核心资产：不是关于人的 Memory，而是关于人的 Living State——"现在还有什么在进行中" → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十六persistent-agencypersonal-agent-的核心资产是-user-state)
 - **Ultimate Aggregator（终极聚合器）** — Ben Thompson 的判断：*Agents are the ultimate Aggregators*；Human → Agent → App / Website / API / Service，App 从 destination 变成 Agent 背后的 implementation layer → [Personal Agents](docs/career-impact/personal-agents-agent-economy.md#十七agent-时代的入口之争谁会成为-ultimate-aggregator)
+- **Unified Context Layer（统一上下文层）** — 把会议、聊天、文档和业务应用整合成 AI 可调用的统一上下文（Zoom 提出）：从"记录发生了什么"到"把事情做完"的交接层 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)
 
 ## V
 
@@ -346,6 +348,7 @@
 - **Worker** — 执行者：被 Orchestrator 分配干活的角色 → [Worker 执行者角色](docs/ai-core/workflow-orchestration.md#orchestrator--worker-分工)
 - **Workflow** — 工作流：路径预先定义好的任务编排 → [Workflow 工作流完全指南](docs/ai-core/workflow-orchestration.md)
 - **Workflow Design** — 工作流设计的完整指南 → [工作流设计完全指南](docs/ai-application/workflow-design-guide.md)
+- **Work System Layers（工作系统五层）** — 模型层、上下文层、工具与执行层、控制层、价值衡量层：AI 竞争从第一层向其余四层扩展 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)
 - **Workload（Workload 形状）** — Workload 形状 → [Workload 形状：没有全能冠军，只有场景冠军](docs/ai-core/inference-infrastructure-and-agent-latency.md#workload-形状没有全能冠军只有场景冠军)
 
 ## Y

@@ -2,6 +2,22 @@
 
 ## October 2026
 
+### [v7.15] - October 25, 2026
+
+#### New: AI Learning #46 — From Model Capability to Work Systems: Lao Jia's Oct 25 Digest
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md)** adds "AI Learning #46" (2026-10-25, from Lao Jia's *AI Learning Daily* digest, lightly organized by Xiao Miu after Sun read it; all four items spot-checked):
+
+1. **Kimi K3.1 Pro** (Moonshot, Oct 23): open weights, cyber-attack data removed from training; internal tests 81.0% vs 90.5% (not independently verified). Once open weights are distributed, capability can't be recalled.
+2. **Google TPUs enter Meta production** (Oct 20): TorchTPU open-sourced (co-developed with Meta), native vLLM/SGLang backends; the other half of chip competition is the software ecosystem — the first hard data point for #44's "software portability" signal.
+3. **Zoom Unified Context Layer** (Oct 20): meetings/chat/documents/business apps integrated into one context layer, opened via MCP/APIs; ZoomMate Agent Teams pushes meeting decisions into follow-through.
+4. **Uber opens ChatGPT Work to 30,000+ employees** (Oct 22): scaled from a 1,000-person pilot; access ≠ actual usage ≠ verified productivity gains.
+5. **The five layers**: model, context, tools & execution, control, value measurement — competition expanding from layer one to the other four; mirror image of #045's five-plus-one.
+
+**[All Concepts](index-all-concepts.en.md)** adds 3: Unified Context Layer, Work System Layers, Open-Weight Irreversibility.
+
+**[Mental models](mental-models.en.md)** adds one entry: Leaderboard → Work System.
+
 ### [v7.14] - October 15, 2026
 
 #### New: AI Learning #45 — Intent-Bound Agency: From Amex Intent Intelligence to Self-Replication Risk
