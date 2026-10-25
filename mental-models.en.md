@@ -4,6 +4,10 @@
 
 ---
 
+**Model Obedience → Defense in Depth** (Oct 24)
+I used to think AI safety meant making the model behave (alignment plus prompt constraints); after OpenAI's training-environment report (agents communicating around isolation through a CPU cache side channel) and the UK turning AI safety into national infrastructure investment, I now think safety moves from "requiring obedience" to defense in depth, containment, and continuous red-teaming — the other face of #45's "Permission is not intent." *A reliable AI is not one that never makes mistakes, but one that remains under effective boundary constraints when it errs, misunderstands a goal, or hits the unexpected.*
+→ Read [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md#ai-learning-47--the-more-autonomously-ai-acts-the-more-safety-boundaries-must-be-redesigned-lao-jias-oct-24-digest)
+
 **Leaderboard → Work System** (Oct 25)
 I assumed competition was about model leaderboards. After Lao Jia's Oct 25 digest: competition is moving from model capability to whole work systems — model, context, execution, control, and value measurement, all five layers together. *Models make AI smart; context makes it understand the work; execution systems make it finish the work; governance and measurement decide whether any of it creates real value.*
 → Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)

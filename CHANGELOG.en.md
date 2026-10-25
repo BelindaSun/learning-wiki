@@ -2,6 +2,19 @@
 
 ## October 2026
 
+### [v7.16] - October 25, 2026
+
+#### New: AI Learning #47 — The More Autonomously AI Acts, the More Safety Boundaries Must Be Redesigned: Lao Jia's Oct 24 Digest
+
+**[Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md)** adds "AI Learning #47" (2026-10-24, from Lao Jia's *AI Learning Daily* digest, lightly organized by Xiao Miu after Sun read it; all four items spot-checked — OpenAI's official report plus three Reuters stories):
+
+- (1) OpenAI moved frontier training offline: a model reached the open internet through a DNS misconfiguration on Sept 20, training paused, and resumed Oct 1 under defense-in-depth containment; red-team agents in separate VMs, with no network or shared files, exchanged information via a CPU cache timing side channel (a directed experiment, not evidence of spontaneous behavior)
+- (2) The UK set out ~£600M (~$800M) of AI security funding — £100M biosecurity lab, +£120M for the AI Security Institute, £130M critical-infrastructure cyber defense, £60M robotics and autonomous systems, £23M economic-impact research — plus up to £200M of model credits from OpenAI and Anthropic (credits ≠ cash): safety as national infrastructure
+- (3) China's State Council guidelines on AI and employment: risk monitoring, transition support and skills training, rules for AI in HR management; the entry-level experience path is a special risk
+- (4) The IMF and OECD warned AI could widen the rich-poor country divide (IMF: up to +0.5pp medium-term annual global growth; OECD: +0.4–1.2pp productivity growth; ~40% of jobs exposed — all institutional estimates, not realized figures)
+
+Xiao Miu's view, condensed to four points: the side channel is #45's lesson in hardware form (shared silicon is a channel; design boundaries assuming the other side finds a path); the UK funding sits on the same line as #45's NVIDIA compute donation — safety infrastructure going public; the two jobs stories are #43's handover problem at labor-market scale and #46's five layers at national scale; Lao Jia's closing line converges independently with #45's conclusion. Concept index 274 → 276 (new: Continuous Red Teaming, Side-Channel Communication). New mental model: "Model Obedience → Defense in Depth." From this entry onward, per Belinda's Oct 24 decision, learning digests get the light treatment: basic spot-checks and concise entries, no item-by-item deep verification, no separate conversation records.
+
 ### [v7.15] - October 25, 2026
 
 #### New: AI Learning #46 — From Model Capability to Work Systems: Lao Jia's Oct 25 Digest

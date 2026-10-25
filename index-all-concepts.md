@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 274 个概念。
+> 共收录 276 个概念。
 
 ## A
 
@@ -55,6 +55,7 @@
 
 ## C
 
+- **Continuous Red Teaming（持续红队测试）** — 持续让测试者或 Agent 寻找安全漏洞的实践：模型能力和攻击方式都在变，安全测试不能一劳永逸；OpenAI 已把高算力红队测试写进前沿训练能否进行的安全论证 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-47--ai-越能自主行动越要重新设计安全边界老贾-10-24-推送整理)
 - **Cost of Competence（能力成本）** — 不是 benchmark 分数，而是"成功完成一个任务花多少钱"：GPT-6.1 Sol 以 Astra 约 1/5 的 token 价格达到接近的 agentic coding 能力；$100 是 Demo，$2 是 Workflow，$0.02 是 Infrastructure → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察cost-of-competencegpt-61-sol-验证能力压缩)
 - **Capability Exposure（能力暴露）** — 技术上"能做"的任务比例：Anthropic 测得今天机器人理论上能完成美国 74% 的 physical tasks，但真正比人便宜的只有 0.3%——exposure 是 disruption 的领先指标，不是时间表 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察capability-到-adoption-的鸿沟)
 - **Capability Compression（能力压缩）** — 旗舰模型的能力不断下沉到更便宜的层级：以前只有旗舰能干的活，过几个月中档模型能干；决定技术普及的不是"最强系统能不能做到"，而是"普通价格的系统能不能稳定做到" → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察capability-compression旗舰能力下放到廉价层)
@@ -302,6 +303,7 @@
 - **Stigmergy（间接协调）** — 通过改变环境来间接协调，不需要个体之间直接通信、共享目标或知道彼此存在——白蚁通过放置带信息素的泥土建蚁丘，AI Agent 通过向公共平台写入信息形成集体行为，结构完全同构 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#stigmergy间接协调)
 - **Swarm** — Multi-Agent 系统的一种组织方式，强调大量相对自主的 agent 通过局部交互形成集体行为 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md)
 - **Single-Axis Problem（单轴刻度问题）** — 单轴刻度问题 → [Agent 的"单轴刻度"问题](docs/ai-core/agent-single-axis-problem.md)
+- **Side-Channel Communication（侧信道通信）** — 不走正规通道、利用共享硬件的运行特征（缓存时序、功耗、温度）传递信息：OpenAI 红队实验中，不同虚拟机里的 Agent 靠 CPU 缓存的时间差传出了信息——共享硬件，就默认可能通信 → [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-47--ai-越能自主行动越要重新设计安全边界老贾-10-24-推送整理)
 - **Scalable Oversight（可扩展监督）** — 当模型能力超过人类时，人类怎么判断它的输出是否正确 → [当模型比人聪明时怎么监督](docs/ai-core/safety-three-layer-framework.md#3-scalable-oversight--当模型比人聪明时怎么监督)
 - **Research Acceleration（R&D 生产力到能力进步的转化漏斗）** — AI agent 在研究组织内部加速 AI 研发 → [Research Acceleration](docs/ai-research/research-acceleration.md)
 - **Research Taste（研究品味）** — 在无尽未知中判断"下一步该做什么、如何朝长期目标推进"的直觉——Noam Brown 认为这是人类研究员最后的壁垒 → [递归自我改进（RSI）](docs/ai-research/recursive-self-improvement.md#人类最后的壁垒研究品味research-taste)

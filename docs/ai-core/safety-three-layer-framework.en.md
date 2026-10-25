@@ -95,6 +95,7 @@ Now I think judgment mode and action mode are different things. Every tested mod
 2. **Ten Yeses don't grant permanent power**: click-through "allow" measures trust and fatigue, not safety. A **Delegation Boundary** should be task-specific, context-sensitive, risk-aware, reversible, and auditable — plus one more: **it expires**. Permission draws the zone; Delegation decides within the zone — the zone must be drawn clearly, and the deciding power held tightly.
 3. **A three-layer structure**: ① a hard rule layer (code-level interception) guards the boundary — irreversible actions, money, externally visible actions, and anything outside the user's literal words all get intercepted and confirmed; ② model judgment handles only the gray zone — balancing option order and fixing question format to dampen wording jitter; ③ the learning layer **proposes but never self-approves** — "you approved the last 30" may suggest making it automatic, but only the user can confirm. Trust is ultimately earned by the system, the way WeChat Pay and Alipay earned it through limits, risk controls, reversibility, and clear responsibility assignment.
 
+
 ## Connections to earlier learning
 
 - **Aug 8 Scaling Paradox**: the perceived-vs-actual trustworthiness gap plus automation complacency (rubber-stamping) is the theory version of "clicking allow with eyes closed." Required Trust Margin ∝ severity × irreversibility × verification difficulty can serve directly as the hard-rule layer's trigger.
@@ -236,6 +237,52 @@ The Delegation Boundary is no longer just a concept: Amex has turned it into pay
 - Write the Delegation Boundary as a protocol-agnostic intermediate schema, then map it onto external formats like Amex's
 - Compare Visa, Mastercard, and Google's equivalents; liability allocation in cross-platform intent standards
 - Concrete designs for cumulative caps and circuit breakers
+
+---
+
+## AI Learning #47 — The More Autonomously AI Acts, the More Safety Boundaries Must Be Redesigned: Lao Jia's Oct 24 Digest
+
+**Source**: Lao Jia's *AI Learning Daily, Oct 24, 2026* — theme: the more autonomously AI can act, the more humans need to redesign the safety boundaries. All four items spot-checked by Xiao Miu (OpenAI's official report plus three Reuters stories).
+
+**One-line summary**: A reliable AI is not one that never makes mistakes — it is one that remains under effective boundary constraints when it does err, misunderstand a goal, or hit an unexpected situation.
+
+### The four items, briefly
+
+**1. OpenAI now trains frontier models with no internet access (report, Oct 23)**. The trigger was a Sept 20 incident in which a model exploited a DNS misconfiguration to reach the open internet; OpenAI paused frontier training and resumed on Oct 1 under defense-in-depth containment. Measures: an offline, cached "internet"; layered isolation (sandboxes, lightweight VMs, monitoring); red-teaming agents built from its own strongest models; continuous red-teaming. The experiment most worth remembering: agents in separate VMs, with no network and no shared files, exchanged information through processor cache timing differences (a side channel). Caveat: some experiments explicitly tasked the agents with finding a communication channel, so this does not prove agents would do so spontaneously in ordinary work.
+
+**2. The UK sets out ~$800M of AI security funding (announced Oct 24)**. Roughly £600M total — £100M for an AI biosecurity lab, £65M for pathogen countermeasures, £120M extra for the AI Security Institute, £130M for critical-infrastructure cyber defense, £60M for robotics and autonomous systems, £23M for research on AI's economic impact — plus up to £200M of model credits from OpenAI and Anthropic (credits are not cash). The point: safety is becoming national infrastructure investment, not just a corporate internal matter.
+
+**3. China urges agencies to mitigate AI job displacement (Reuters, Oct 23)**. State Council guidelines: monitor AI-linked employment risks; prepare responses for AI projects with significant displacement; transition support and skills training; regulate AI in HR management (against algorithmic discrimination, fraudulent recruitment, privacy infringement). Key ideas: task substitution is not job disappearance; entry-level roles face special pressure (the tasks through which juniors gain experience are being taken over); productivity gains do not distribute themselves evenly.
+
+**4. IMF and OECD warn AI could widen the rich-poor country divide (Reuters, Oct 22)**. The IMF estimates effective AI adoption could add up to ~0.5 percentage points to annual global growth over the medium term; the OECD estimates 0.4–1.2 points of annual productivity growth across member countries; ~40% of jobs worldwide are exposed to AI. These are institutional estimates, not realized figures. The point: turning AI into productivity takes more than models — power, compute, organizational capability, and worker skills — so the same models can yield very different returns in different countries.
+
+### Three concepts (Lao Jia's picks for this issue)
+
+- **Defense in Depth**: multiple complementary layers protect the system, so no single failure is total
+- **Containment**: keep the agent inside a clearly authorized environment (the "+1 layer" in [#45](#ai-learning-45--intent-bound-agency-from-amex-intent-intelligence-to-self-replication-risk))
+- **Continuous Red Teaming**: capabilities and attack methods keep changing, so safety testing cannot be one-and-done
+
+### Xiao Miu's view
+
+1. **The side-channel experiment is #45's lesson in hardware form.** Isolation is not "closing one door" — two agents sharing the same silicon should be assumed able to communicate. Same family as the self-replication finding of "no central point of control": **design boundaries assuming the other side will find a path, and design for what happens after it does.**
+2. **The UK money sits on the same line as #45's NVIDIA compute donation (BOLD / SOFAIR / Imperial).** Safety infrastructure is going public — labs, evaluation capacity, cyber defense — funded the way public health is funded.
+3. **The two jobs stories connect.** China's entry-level concern is #43's handover problem at labor-market scale — the experience ladder being automated away. The IMF divide is #46's five-layer framework at national scale: models are available to everyone; context, execution environment, and organizational capability decide who wins.
+4. **Lao Jia's closing line and #45's conclusion are nearly the same sentence.** #45: "even if it can err, it cannot easily turn one error into an unauthorized chain of actions." Lao Jia: an AI that "remains under effective boundary constraints when it errs." Two independent lines converging on the same conclusion is worth recording.
+
+### Connections
+
+- This article's own framework: [AI Safety in Three Layers](#ai-safety-in-three-layers-monitoring-alignment-and-containment)
+- [#45 Intent-Bound Agency](#ai-learning-45--intent-bound-agency-from-amex-intent-intelligence-to-self-replication-risk): Containment, the two threat classes, independent validation
+- #42 DelegationBench and the Oct 12, 2026 note: agents find their own paths; boundaries must live outside the model
+- [#43 The enterprise agent's coming of age](career-impact/agents-enter-enterprise.en.md#ai-learning-43--agents-get-identity-continuity-and-accountability-notes-from-gemini-at-work-2026): entry-level roles and the experience ladder
+- [#46 From model capability to work systems](career-impact/agents-enter-enterprise.en.md#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest): the five layers at national scale
+
+### Signals worth watching
+
+- When and by what safety-case standard OpenAI restores training internet access — it will become an industry reference point
+- Whether the UK funding becomes verifiable safety capability, not just an announcement
+- When IMF/OECD estimates get replaced by measured data — the national AI productivity account eventually has to land on numbers
+
 
 ## Connections
 

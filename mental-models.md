@@ -4,6 +4,10 @@
 
 ---
 
+**Model Obedience → Defense in Depth**（Oct 24）
+以前以为 AI 安全靠让模型守规矩（对齐 + 提示词约束）；OpenAI 训练环境报告（Agent 用 CPU 缓存侧信道绕过隔离通信）和英国把 AI 安全做成国家级投资之后觉得，安全从"要求模型听话"变成"纵深防御 + 遏制 + 持续红队"——和 #045 的"Permission is not intent"是同一课的两面。*可靠的 AI，不是永远不会犯错的 AI，而是在犯错、误解目标或遇到意外情况时，仍然受到有效边界约束的 AI。*
+→ 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-47--ai-越能自主行动越要重新设计安全边界老贾-10-24-推送整理)
+
 **Leaderboard → Work System**（Oct 25）
 以为竞争看模型排行榜；老贾 10-25 推送之后觉得，竞争正在从模型能力走向整个工作系统——模型、上下文、执行、控制、价值衡量五层一起看。*模型让 AI 变聪明，上下文让它理解工作，执行系统让它把工作做完，治理与衡量决定这种能力能否真正创造价值。*
 → 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-46--从模型能力到工作系统老贾-10-25-推送整理)
