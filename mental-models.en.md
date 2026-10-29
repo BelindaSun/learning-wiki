@@ -4,6 +4,10 @@
 
 ---
 
+**Capability → Verified Value** (Oct 28)
+I used to think the main storyline of AI was capability growth; after Lao Jia's three catch-up days (Oct 26-28), I now think the storyline is shifting to "how capability gets audited into value": capital markets audit the business model through the S-1, the scientific community audits AI output through formal verification and peer review, and governments audit agent accountability through procurement rules. *The more autonomous the output, the earlier verification must sit — verification is no longer an after-the-fact audit but part of the workflow itself.*
+→ Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-48--three-catch-up-days-ai-turns-into-infrastructure-lao-jia-oct-26-28)
+
 **Model Obedience → Defense in Depth** (Oct 24)
 I used to think AI safety meant making the model behave (alignment plus prompt constraints); after OpenAI's training-environment report (agents communicating around isolation through a CPU cache side channel) and the UK turning AI safety into national infrastructure investment, I now think safety moves from "requiring obedience" to defense in depth, containment, and continuous red-teaming — the other face of #45's "Permission is not intent." *A reliable AI is not one that never makes mistakes, but one that remains under effective boundary constraints when it errs, misunderstands a goal, or hits the unexpected.*
 → Read [Three Layers of AI Safety](docs/ai-core/safety-three-layer-framework.en.md#ai-learning-47--the-more-autonomously-ai-acts-the-more-safety-boundaries-must-be-redesigned-lao-jias-oct-24-digest)

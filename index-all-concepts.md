@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 276 个概念。
+> 共收录 277 个概念。
 
 ## A
 
@@ -133,6 +133,7 @@
 
 - **Feed Forward Network** — Transformer 中的前馈网络层 → [前馈网络](docs/ai-core/transformer-architecture.md#前馈网络feed-forward-network)
 - **Few-shot（少样本示例）** — 不描述你想要什么风格，直接给一两个例子，让模型照着"续写"这个模式——模型不是记住了新知识，是从例子里读出"接下来该是这种格式" → [Prompt 工程完全指南](docs/ai-core/prompt-engineering-guide.md#1-给例子few-shot)
+- **Formal Verification（形式化验证）** — 把命题和证明写成机器可检查的形式（如 Lean），由程序逐行核对逻辑步骤：能确认"形式化证明无误"，但不能确认"形式化陈述忠实于原问题"——后者仍靠人。2026-10，OpenAI 与 Anthropic 的 ETH 相关结果都附了 Lean 形式化，正在专家审查中 → [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-48--三天补课ai-从新技术变成基础设施老贾-10-26-至-10-28-推送整理)
 - **Flamingo** — 给语言模型接上视觉的早期多模态架构 → [Multimodal 完全指南](docs/ai-core/multimodal-guide.md#flamingo给语言模型接上一双眼睛)
 - **FLOPS** — 衡量硬件一秒钟能做多少次数学运算的单位——不是"这块芯片有多聪明"，是"手有多快" → [FLOPS 与精度：为什么降精度能提速](docs/computing-foundations/flops-and-precision.md)
 - **Formalizability Spectrum（可形式化光谱）** — 可形式化光谱 → [Agent 从 Coding 向外扩散](docs/career-impact/agent-infrastructure-os.md#agent-从-coding-向外扩散可形式化光谱)

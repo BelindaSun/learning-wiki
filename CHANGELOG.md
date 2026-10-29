@@ -4,6 +4,18 @@
 
 ## October 2026
 
+### [v7.17] - October 28, 2026
+
+#### ➕ AI Learning #48：三天补课——AI 从新技术变成基础设施（老贾 10-26 至 10-28 推送整理）
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md)** 新增"AI Learning #48"（老贾《AI Learning Daily》10-26 / 27 / 28 三天补课，Belinda 读后交小缪轻量整理；十条消息已做基本核实）：
+
+- **10-26 资本与算力**：Anthropic 提交 S-1——读 AI 公司优先看毛利率、推理成本增速、算力承诺、大客户集中度与现金，核心是增长质量；算力竞争五变量（性能、单位推理成本、利用率、软件生态、供货能力）；企业 Agent 净收益公式（节省的人工 − AI 及治理成本 − 错误与返工成本）
+- **10-27 科学与验证**：OpenAI 与 Anthropic 同日公布 ETH 相关结果（内部模型声称找到亚指数时间算法 + Lean 形式化）——**未经同行评审**，ETH 提出者等人正组织公开审查，按"声称"记录；Claude 进入药物研发（六家合作 + 收购 Mithril Medicine，成果多处临床前）；Agent 可靠性四指标（成功率、人工介入率、可追溯性、恢复能力）
+- **10-28 产业与社会**：OpenAI 计划采购 Google TPU（Reuters 转 The Information，未官宣）；荷兰宣布借 AI 效率改革削减约 2.5 万个政府岗位（2035 年前年省约 €35 亿，但 AI 提效方案 2027 年初才出——先宣布、后证明）；Apple 为 Pages / Keynote / Numbers 加 AI 助手并支持 MCP；Claude 与 GSA 的 OneGov 协议扩围（40% 折扣，约 $10 亿为公司估计的潜在节省）
+
+小缪的视角四点（精简版）：三天是 #46 五层框架的一次压力测试（每层都被真实世界验算）；验证从事后审计变成流程内建——产出越自主、验证越要前置；荷兰"先宣布裁撤、后证明产能"与企业"先买 AI 再找场景"是同一个毛病的两面；ETH 放观察区，未独立验证的重大结论不写成事实。概念索引 276 → 277（新增 Formal Verification 形式化验证）。心智模型新增「Capability → Verified Value」。
+
 ### [v7.16] - October 25, 2026
 
 #### ➕ AI Learning #47：AI 越能自主行动，越要重新设计安全边界——老贾 10-24 推送整理

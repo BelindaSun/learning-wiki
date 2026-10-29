@@ -478,6 +478,62 @@ Models make AI smart; context makes it understand the work; execution systems ma
 
 ---
 
+---
+
+## AI Learning #48 — Three Catch-Up Days: AI Turns Into Infrastructure (Lao Jia, Oct 26-28)
+
+**Source**: Lao Jia's *AI Learning Daily* catch-up issues 1–3 (Oct 26 / 27 / 28, 2026). All ten items spot-checked by Xiao Miu (sources include the SEC filing and Reuters, GSA's official release, Anthropic's announcements, and multiple reports); the mathematics item is still under expert review and is recorded below as a claim, not a conclusion.
+
+**One-line summary**: Three days, one thread — the unit of AI competition is expanding from a single model to the whole system, and the stronger the capability, the more verification, audit, and accountability have to be built into the workflow rather than bolted on afterwards.
+
+### Oct 26 — AI companies enter the capital-market phase
+
+**1. Anthropic files its S-1 (Oct 26)**. AI companies begin facing full public-market scrutiny. When reading an AI company's S-1, five things come first: whether revenue growth comes with improving gross margins; whether inference costs grow faster than revenue; how much capital the compute and data-center commitments require; how concentrated the large customers are; and whether the cash balance can sustain the model race. The core question is growth quality — revenue can grow fast while every incremental dollar demands heavy compute and R&D spending, in which case the business model is not yet proven.
+
+**2. Compute competition shifts from chip performance to supply chains and cost**. A five-variable framework: chip performance, unit inference cost, utilization, software ecosystem, supply capacity. The long-term winner may not be the fastest chip, but whoever delivers effective compute at the lowest total cost, reliably.
+
+**3. Enterprise agents move from demos to auditable work**. A practical net-benefit formula: net benefit = labor cost saved − AI and governance costs − error and rework costs. Time saved that never becomes more output, lower cost, or better service is not enterprise profit (the very question discussed on [Oct 25](#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)).
+
+### Oct 27 — AI starts challenging knowledge production itself
+
+**4. OpenAI and Anthropic announce ETH results the same day (published Oct 26; not peer-reviewed)**. Both labs say an internal model found, on Oct 16, a subexponential-time algorithm for counting SAT solutions, accompanied by Lean formalizations; if correct, this overturns the Exponential Time Hypothesis (ETH), a ~25-year-old working assumption of computational complexity theory. Status: a claim. ETH's originators Impagliazzo and Paturi, together with Ryan Williams, are organizing an open review and state explicitly that shepherding the review is not an endorsement. Keep three distinctions: (i) an AI finding an approach ≠ the proof being right; (ii) Lean checking a formal proof ≠ the formal statement faithfully capturing the original problem (Anthropic notes no human had yet checked its Lean code line by line); (iii) even if true, the result is purely asymptotic — Anthropic's algorithm beats brute force only beyond roughly 10^10000 variables, so practical cryptography and engineering are untouched. OpenAI also announced Kakeya / local-smoothing results the same day; the Yang–Mills material is being held for the scholars to write up.
+
+**5. Claude enters drug development (Oct 27)**. Anthropic announced partnerships with six organizations (BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines, The Column Group), acquired the one-person startup Mithril Medicine, and launched the Claude Science workbench. The work is mostly preclinical and not peer-reviewed. Lao Jia's key question, kept verbatim in substance: is AI raising the *success rate* of drug development, or only the *speed of generating candidates*? These are entirely different business metrics.
+
+**6. Agent reliability may matter more than agent count**. Four metrics: task success rate, human-intervention rate, traceability, recovery ability. More agents are not automatically better — alongside specialization come communication costs, duplicated work, and error propagation. A trustworthy agent is not one that never errs, but one whose errors can be detected, bounded, and recovered from (see [#47](../ai-core/safety-three-layer-framework.en.md#ai-learning-47--the-more-autonomously-ai-acts-the-more-safety-boundaries-must-be-redesigned-lao-jias-oct-24-digest)).
+
+### Oct 28 — Compute dependence, jobs, and governance
+
+**7. OpenAI plans to buy Google TPUs (Reuters, Oct 28)**. Sourced to The Information; amount and scale undisclosed, neither company has publicly confirmed. A competitor can also be a supplier — competition does not span the whole value chain. But whether TPUs can substitute for GPUs at scale still depends on performance, ecosystem, utilization, and total cost (the sequel to [#46](#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)).
+
+**8. The Netherlands plans ~25,000 government job cuts through an AI efficiency drive (announced Oct 26)**. Target: ~€3.5B saved per year by 2035; police and defense exempt; some agencies face reductions of 45–60%. Note the order of events: the detailed AI productivity plan arrives only in early 2027 — the cuts are announced first, the capacity proof later. Read jobs impact in three stages: task automation → workflow reorganization → organizational and headcount adjustment; the effect may show up first as reduced hiring rather than immediate mass layoffs.
+
+**9. Apple brings AI into Pages, Keynote, and Numbers (announced Oct 27)**. The Creator Studio update adds built-in AI assistants (Apple and OpenAI models, in beta) and MCP support, letting external agents read documents, edit content, and take actions (macOS 27 or later); Keynote also gains the open .keyx format. A new footnote to the entry-point contest: AI does not have to be a standalone app — it can grow directly inside the everyday office entry points. Success still hinges on experience, permissions, and ecosystem.
+
+**10. Claude expands its U.S. government business (Oct 27)**. GSA's OneGov agreement widens: a 40% discount on token-based usage across Claude products, no minimum spend, covering federal plus state, local, and tribal governments. The ~$1B figure is Anthropic's estimate of potential savings, not realized fiscal savings. Government procurement is a high-pressure test of enterprise-agent maturity: accuracy, traceability, and accountability matter as much as deployment speed.
+
+### Lao Jia's three-day summary (five judgments)
+
+1. **AI business models face stricter tests**: IPOs, compute investment, and enterprise deployment all ask whether capability growth converts into sustainable economic returns
+2. **Compute competition is diversifying**: beyond chip performance — ecosystem, supply, cost, and bargaining power
+3. **AI's jobs impact will show up through organizational structure**: task automation, workflow reorganization, and headcount are linked, but not one-to-one
+4. **The stronger the capability, the more verification and governance matter**: independent validation for science, permission control for enterprise agents, public accountability for government deployment
+5. **The unit of competition expands from a single model to the full system**: model + context + tools + hardware + permissions + workflow
+
+### Xiao Miu's view
+
+1. **These three days are a stress test of [#46](#ai-learning-46--from-model-capability-to-work-systems-lao-jias-oct-25-digest)'s five layers.** The S-1 examines the value-measurement layer; TPUs, the execution and hardware layer; GSA and Apple, the context and entry layer; the Netherlands, the organizational layer. Every layer is being checked against the real world.
+2. **Verification is moving from external audit to in-process design.** Lean for mathematics, clinical pathways for drugs, a net-benefit formula for enterprise agents, procurement rules for government. #47 said "bounded even when it errs"; these three days say it differently: **the more autonomous the output, the earlier verification must sit**.
+3. **The Dutch sequence deserves its own note.** Announcing cuts before proving capacity is the mirror image of "buy AI first, find the use case later." The control group is Uber's 30,000 seats — access first, data later. Neither order is ideal; small verified steps with rolling expansion are steadier.
+4. **ETH goes to the watchlist, not the record books.** If it holds, it is a landmark; for now there is "two labs claim + formal self-checks + expert review in progress." By this wiki's standing rule, an unverified major conclusion is recorded as a claim, not a fact.
+
+### Signals worth watching
+
+- Anthropic's S-1 follow-up disclosures: gross margins, compute commitments, customer concentration in concrete numbers
+- The ETH review: interim conclusions from the Impagliazzo / Paturi / Williams group
+- The Netherlands' early-2027 AI productivity plan: how cut targets reconcile with proven capacity
+- Whether the OpenAI–Google TPU purchase is confirmed, and at what scale
+
 ## The Final Mental Model
 
 The process of agents entering the enterprise can be compressed into this arc:

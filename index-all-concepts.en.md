@@ -103,6 +103,7 @@
 
 - **Feed-Forward Network** — [Transformer](docs/ai-core/transformer-architecture.md)
 - **Few-shot Prompting** — [Prompt Engineering](docs/ai-core/prompt-engineering-guide.md)
+- **Formal Verification** — expressing a claim and its proof in a machine-checkable form (e.g., Lean) so a program can verify every logical step: it can confirm "the formal proof is correct," but not "the formal statement faithfully captures the original problem" — that still takes a human. In Oct 2026, both OpenAI's and Anthropic's ETH-related results shipped with Lean formalizations, now under expert review → [AI Learning #48](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-48--three-catch-up-days-ai-turns-into-infrastructure-lao-jia-oct-26-28)
 - **Flamingo** — [Multimodality](docs/ai-core/multimodal-guide.md)
 - **FLOPS** — [FLOPS and Precision](docs/computing-foundations/flops-and-precision.md)
 - **Formalizability Spectrum** — [Agent Infrastructure as an Operating System](docs/career-impact/agent-infrastructure-os.md)

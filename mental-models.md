@@ -4,6 +4,10 @@
 
 ---
 
+**Capability → Verified Value**（Oct 28）
+以前以为 AI 的故事主线是能力增长；看完老贾三天补课（10-26 至 10-28）之后觉得，主线正在变成"能力如何被验算成价值"：资本市场用 S-1 验商业模式，科学共同体用形式化验证和同行评审验 AI 的产出，政府用采购规则验 Agent 的责任。*产出越自主，验证越要前置——验证不再是事后审计，而是流程的一部分。*
+→ 详见 [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.md#ai-learning-48--三天补课ai-从新技术变成基础设施老贾-10-26-至-10-28-推送整理)
+
 **Model Obedience → Defense in Depth**（Oct 24）
 以前以为 AI 安全靠让模型守规矩（对齐 + 提示词约束）；OpenAI 训练环境报告（Agent 用 CPU 缓存侧信道绕过隔离通信）和英国把 AI 安全做成国家级投资之后觉得，安全从"要求模型听话"变成"纵深防御 + 遏制 + 持续红队"——和 #045 的"Permission is not intent"是同一课的两面。*可靠的 AI，不是永远不会犯错的 AI，而是在犯错、误解目标或遇到意外情况时，仍然受到有效边界约束的 AI。*
 → 详见 [AI Safety 的三层防护框架](docs/ai-core/safety-three-layer-framework.md#ai-learning-47--ai-越能自主行动越要重新设计安全边界老贾-10-24-推送整理)

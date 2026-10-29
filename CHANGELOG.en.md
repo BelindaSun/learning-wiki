@@ -2,6 +2,18 @@
 
 ## October 2026
 
+### [v7.17] - October 28, 2026
+
+#### New: AI Learning #48 — Three Catch-Up Days: AI Turns Into Infrastructure (Lao Jia, Oct 26-28)
+
+**[AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md)** adds "AI Learning #48" (Lao Jia's *AI Learning Daily* catch-up issues of Oct 26 / 27 / 28, lightly organized by Xiao Miu after Sun read them; all ten items spot-checked):
+
+- **Oct 26 — capital and compute**: Anthropic filed its S-1 — read AI companies first for gross margins, inference-cost growth, compute commitments, customer concentration, and cash; the core question is growth quality. A five-variable compute framework (performance, unit inference cost, utilization, software ecosystem, supply capacity). An enterprise-agent net-benefit formula (labor saved − AI and governance costs − error and rework costs)
+- **Oct 27 — science and verification**: OpenAI and Anthropic announced ETH-related results the same day (internal models claiming subexponential algorithms, with Lean formalizations) — **not peer-reviewed**; ETH's originators are organizing an open review; recorded as a claim. Claude enters drug development (six partnerships plus the Mithril Medicine acquisition; mostly preclinical). Four agent-reliability metrics (success rate, human-intervention rate, traceability, recovery)
+- **Oct 28 — industry and society**: OpenAI reportedly plans to buy Google TPUs (Reuters via The Information; unconfirmed). The Netherlands announced ~25,000 government job cuts through an AI efficiency drive (~€3.5B/year by 2035 — but the AI productivity plan arrives only in early 2027: announced first, proven later). Apple added AI assistants to Pages / Keynote / Numbers with MCP support. Claude's GSA OneGov agreement widened (40% discount; the ~$1B is the company's estimate of potential savings)
+
+Xiao Miu's view, condensed to four points: the three days stress-test #46's five layers against the real world; verification is moving from after-the-fact audit into the workflow — the more autonomous the output, the earlier verification must sit; the Dutch "announce cuts first, prove capacity later" is the mirror image of "buy AI first, find the use case later"; ETH goes to the watchlist — unverified major conclusions are not recorded as facts. Concept index 276 → 277 (new: Formal Verification). New mental model: "Capability → Verified Value."
+
 ### [v7.16] - October 25, 2026
 
 #### New: AI Learning #47 — The More Autonomously AI Acts, the More Safety Boundaries Must Be Redesigned: Lao Jia's Oct 24 Digest
