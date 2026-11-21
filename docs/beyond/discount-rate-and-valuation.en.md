@@ -62,6 +62,7 @@ Employment / Inflation / Oil price data + Fed commentary
 
 ## Related Concepts (To be created)
 
+- [NVIDIA: Revisiting the AI Boom and the Investment Risk](nvidia-ai-boom-investment-risk.en.md) — valuation caution in practice: when the market stops believing the "E", the multiple collapses first
 - Duration and interest rate sensitivity
 - Risk premium / Equity Risk Premium (ERP)
 - Fed expectations management / dot plot

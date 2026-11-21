@@ -481,6 +481,7 @@
 ### 🎨 Beyond（AI 之外）
 - [Beyond 学习地图](docs/beyond/index.md)
 - [贴现率与股票估值](docs/beyond/discount-rate-and-valuation.md) —— 利率 → 估值的传导链
+- [英伟达：AI 繁荣与投资风险的再审视](docs/beyond/nvidia-ai-boom-investment-risk.md) —— 技术革命 ≠ 投资回报：护城河动态、资本开支回报与领导力风险
 - [Design & Visual Aesthetics 101](docs/beyond/design-visual-aesthetics.md) —— 从"好看"到"知道为什么好看"
 
 ---

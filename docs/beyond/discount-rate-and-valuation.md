@@ -62,6 +62,7 @@
 
 ## 关联概念（待创建）
 
+- [英伟达：AI 繁荣与投资风险的再审视](nvidia-ai-boom-investment-risk.md) —— 估值审慎的实战版：当市场不信盈利的"E"时，倍数会先塌
 - [久期（Duration）与利率敏感度](../career-impact/10y-treasury-yield-5-percent.md#久期是敌人) —— 已覆盖："久期是敌人"
 - 风险溢价 / 股权风险溢价（ERP）
 - Fed 预期管理 / 点阵图（dot plot）

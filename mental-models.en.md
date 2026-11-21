@@ -4,6 +4,10 @@
 
 ---
 
+**Betting on the Winner → Betting on the Trend** (Nov 21)
+I used to think that understanding one great company justified betting heavily on its long-term victory. Reading Kobeissi's macro view alongside Drew Cohen's company view changed that: the long-term progress of a technological revolution is relatively believable, but who ends up holding the profits keeps being rewritten by competition, customer bargaining power, and technological substitution. *Believe in the long-term progress of the technology — but do not bet too heavily on any single company's long-term victory.*
+→ Read [NVIDIA: Revisiting the AI Boom and the Investment Risk](docs/beyond/nvidia-ai-boom-investment-risk.en.md#final-takeaway)
+
 **Capability → Verified Value** (Oct 28)
 I used to think the main storyline of AI was capability growth; after Lao Jia's three catch-up days (Oct 26-28), I now think the storyline is shifting to "how capability gets audited into value": capital markets audit the business model through the S-1, the scientific community audits AI output through formal verification and peer review, and governments audit agent accountability through procurement rules. *The more autonomous the output, the earlier verification must sit — verification is no longer an after-the-fact audit but part of the workflow itself.*
 → Read [AI Agents Enter the Enterprise](docs/career-impact/agents-enter-enterprise.en.md#ai-learning-48--three-catch-up-days-ai-turns-into-infrastructure-lao-jia-oct-26-28)
@@ -238,4 +242,4 @@ A single question and answer is not the final unit of productivity. The real uni
 
 ---
 
-**Last updated**: October 7, 2026
+**Last updated**: November 21, 2026

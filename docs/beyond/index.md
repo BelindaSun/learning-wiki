@@ -12,6 +12,12 @@
 
 → [贴现率与股票估值](discount-rate-and-valuation.md)
 
+### 英伟达：AI 繁荣与投资风险的再审视
+
+把 Kobeissi 的宏观视角和 Drew Cohen 的公司视角放在一起：行业会增长，不等于龙头能永久保持超额利润。技术革命 ≠ 参与者都有投资回报，资本开支最终要由真实回报支撑。
+
+→ [英伟达：AI 繁荣与投资风险的再审视](nvidia-ai-boom-investment-risk.md)
+
 ---
 
 ## 🎨 设计与视觉审美
@@ -24,7 +30,7 @@
 
 ---
 
-**最后更新**: September 4, 2026
+**最后更新**: November 21, 2026
 
 **相关**:
 - [Mental Models](../../mental-models.md) —— Beyond 领域的思维转变同样记录在心智模型变迁史里

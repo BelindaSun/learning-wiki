@@ -1,5 +1,20 @@
 # Changelog
 
+## November 2026
+
+### [v7.18] - November 21, 2026
+
+#### New in Beyond: NVIDIA — Revisiting the AI Boom and the Investment Risk
+
+**[NVIDIA: Revisiting the AI Boom and the Investment Risk](docs/beyond/nvidia-ai-boom-investment-risk.en.md)** (sources: The Kobeissi Letter and Drew Cohen's long-form NVIDIA analysis, discussed by Belinda with Lao Jia, Xiao De, and Xiao Miu; drafted mainly by Lao Jia, organized and archived by Xiao Miu):
+
+- **Two lenses**: Kobeissi asks whether AI investment at this scale can convert into sufficient economic return (macro: capital expenditures, financing structures, interest rates, free cash flow); Drew Cohen asks whether NVIDIA can hold its share, pricing power, and excess profits even if the industry keeps growing (company level: the evolving CUDA moat, system-level advantage, leadership and governance, circular financing)
+- **Five shared principles**: a technological revolution does not mean every participant earns a return; industry growth does not mean the leader keeps excess profits forever; capital spending must ultimately be carried by real commercial returns; moats are dynamic; leadership and governance are part of enterprise value
+- **Judgment and principles**: we do not dismiss AI's long-term trend or NVIDIA's position, but stay cautious on growth, margins, and valuation; doing nothing is itself a legitimate decision. Price determines when to watch, fundamentals determine whether to add. Near-term checkpoints: the December 1 congressional hearing and the permanent CEO appointment
+- **Closing line (Belinda)**: believe in the long-term progress of the technology, but do not bet too heavily on any single company's long-term victory
+
+New mental model: "Betting on the Winner → Betting on the Trend." The original investment-record version is archived separately and does not enter the Wiki.
+
 ## October 2026
 
 ### [v7.17] - October 28, 2026
