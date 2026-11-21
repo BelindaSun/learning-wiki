@@ -2,6 +2,19 @@
 
 ## November 2026
 
+### [v7.19] - November 21, 2026
+
+#### New Beyond essay: From The Machine Stops to the AI Age — AI as an Enabler, Not a Replacer
+
+**[From The Machine Stops to the AI Age](docs/beyond/the-machine-stops-enabler.en.md)** (source: E. M. Forster's *The Machine Stops*, a 1909 novella recommended by Lao Jia; Belinda read it over these few days and discussed it with Lao Jia; organized and archived by Xiao Miu; opens a new "Reading & Thought" category in Beyond):
+
+- **The story**: humanity lives in underground hive rooms, everything provided by "the Machine," screens replacing face-to-face contact — written in 1909, yet it anticipated video calls, online lectures, and always-on screen life; the Machine moves from servant to life itself to unquestionable faith, until it stops
+- **The deepest warning**: not machines out of control, but humans voluntarily handing over agency for convenience, comfort, and safety; the most dangerous stage of dependence is "no longer seeing anything wrong with it." Plus two corollaries: richer information can mean poorer thought (knowledge ≠ understanding, information ≠ judgment), and tools grow into authorities (the four governance questions: who sets the rules, who holds control, who answers for errors, and can humans refuse, exit, and recover)
+- **Belinda's three answers**: Vashti is an ordinary person who gradually lost independent judgment — a representative of countless people; Kuno is humanity's hope — humans in control of everything, machines as assistants (and control must not rest with a few); her warning for 2026 is that AI should develop at a speed and pace serving humanity's overall interests, as an Enabler making people better, more prosperous, and happier — not costing jobs or social connection
+- **The framework** (organized by Lao Jia): AI as Enabler judged on four outcomes (economic prosperity, personal growth, social connection, life happiness) and three principles (human agency, inclusive prosperity, responsible pace) — the gap between exponential technology and linear social adaptation may be one of the most important structural risks of the next few years
+
+Concept index 277 → 278 (new: Enabler vs Replacer). New mental model: "Replacer → Enabler."
+
 ### [v7.18] - November 21, 2026
 
 #### New in Beyond: NVIDIA — Revisiting the AI Boom and the Investment Risk

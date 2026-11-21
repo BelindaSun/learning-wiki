@@ -4,6 +4,10 @@
 
 ---
 
+**Replacer → Enabler** (Nov 21)
+I used to discuss AI's role mainly as a question of whether it will replace people; after reading Forster's 1909 story *The Machine Stops*, I now think the deeper risk is humans voluntarily handing over agency for convenience — the people in the story were never conquered by the Machine, they adapted to it step by step until nothing seemed wrong. The right direction is AI as an Enabler: developing at a speed and pace that serve humanity's overall interests, helping people become better, more prosperous, and happier, rather than costing them jobs or social connection. *The ultimate measure of AI progress is not how powerful machines become, but how much better human lives become.*
+→ Read [From The Machine Stops to the AI Age](docs/beyond/the-machine-stops-enabler.en.md#final-takeaway)
+
 **Betting on the Winner → Betting on the Trend** (Nov 21)
 I used to think that understanding one great company justified betting heavily on its long-term victory. Reading Kobeissi's macro view alongside Drew Cohen's company view changed that: the long-term progress of a technological revolution is relatively believable, but who ends up holding the profits keeps being rewritten by competition, customer bargaining power, and technological substitution. *Believe in the long-term progress of the technology — but do not bet too heavily on any single company's long-term victory.*
 → Read [NVIDIA: Revisiting the AI Boom and the Investment Risk](docs/beyond/nvidia-ai-boom-investment-risk.en.md#final-takeaway)

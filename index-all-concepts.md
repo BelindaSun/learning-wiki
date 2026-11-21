@@ -6,7 +6,7 @@
 >
 > 标有 〔宏观金融〕 的概念未来会迁入独立的 Macro / Investing 术语区，标有 〔半导体〕 的归入半导体专题——知识先完整接住，再慢慢分家。
 >
-> 共收录 277 个概念。
+> 共收录 278 个概念。
 
 ## A
 
@@ -118,6 +118,7 @@
 
 ## E
 
+- **Enabler vs Replacer（赋能者 vs 替代者）** — 衡量 AI 角色的一把尺：Enabler 增强人的能力、判断与连接，Replacer 则接管它们。技术依赖最危险的阶段不是被迫依赖，而是人类在便利中主动交出自主权、还不觉得有问题 → [从《机器停止运转》到 AI 时代](docs/beyond/the-machine-stops-enabler.md#最终认识)
 - **Externalized Control（外部化控制）** — 安全架构从"让模型更安全"迁移到"把控制权搬出 Agent"：verification、recording、completion、permission、enforcement 一项项移到 Agent 碰不到的外部系统 → [Coding Agent 与 Agent 基础设施的操作系统化](docs/career-impact/agent-infrastructure-os.md#短洞察externalized-control把控制权搬出-agent)
 - **Embedding（嵌入 / 向量表示）** — 嵌入 / 向量表示 → [Embeddings 完全指南](docs/ai-core/embeddings-guide.md)
 - **Ecosystem-Level Audit（生态级审计）** — 生态级审计 → [Agent 集体行为](docs/ai-core/agent-collective-behavior.md#第五层生态级审计ecosystem-level-audit)

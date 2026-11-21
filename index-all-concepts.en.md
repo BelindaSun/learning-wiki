@@ -92,6 +92,7 @@
 
 - **Embedding** — [Embeddings](docs/ai-core/embeddings-guide.md)
 - **Emergence** — [Inference](docs/ai-core/inference-system-guide.md)
+- **Enabler vs Replacer** — a yardstick for AI's role: an Enabler strengthens human capability, judgment, and connection, while a Replacer takes them over. The most dangerous stage of technological dependence is not forced reliance, but humans handing over agency for convenience without noticing → [From The Machine Stops to the AI Age](docs/beyond/the-machine-stops-enabler.en.md#final-takeaway)
 - **Epistemic Curiosity** — [The Agent Single-Axis Problem](docs/ai-core/agent-single-axis-problem.md)
 - **Episodic Memory** — [Agent Memory](docs/ai-core/memory-system-guide.md)
 - **Error Handler** — [Workflow Design](docs/ai-application/workflow-design-guide.md)
